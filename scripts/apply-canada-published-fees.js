@@ -43,6 +43,24 @@ const PROGRAMME_VERIFIED = {
       },
     },
   ],
+  'data/tmu-courses.ts': [
+    {
+      slug: 'tmu-computer-science-bsc-hons',
+      // The programme page's "Tuition and fees range 2026-2027" table gives the full-time
+      // international figure as a narrow range, C$38,702–38,762. The stored 38,702 is its lower
+      // bound, so the number was right and only its basis was unknown.
+      annualCAD: 38702,
+      feeScope: 'programme page',
+      feeBasis: 'full-time tuition and fees, international, 2026-27 (TMU publishes a range, C$38,702–C$38,762)',
+      feeSourceUrl: 'https://www.torontomu.ca/programs/undergraduate/computer-science/',
+    },
+    // These two programmes publish only a PART-TIME range (International C$4,075–C$29,835). The
+    // stored 4,075 was that range's lower bound stored as an annual fee — wrong, and worse than
+    // blank because hub pages filter courses on the fee field. Cleared until a full-time
+    // figure exists to quote.
+    { slug: 'tmu-health-administration-bha', clearFee: true, feeBasis: 'not published — TMU lists only a part-time range for this programme (international C$4,075–C$29,835)', feeSourceUrl: 'https://www.torontomu.ca/programs/undergraduate/health-administration/' },
+    { slug: 'tmu-public-administration-and-governance-ba-hons', clearFee: true, feeBasis: 'not published — TMU lists only a part-time range for this programme (international C$4,075–C$29,835)', feeSourceUrl: 'https://www.torontomu.ca/programs/undergraduate/public-administration-governance/' },
+  ],
   'data/guelph-courses.ts': [
     {
       slug: 'guelph-public-health',
@@ -95,6 +113,24 @@ const INSTITUTION_ENGLISH = [
     sourceUrl: 'https://uwaterloo.ca/future-students/admissions/english-language-requirements',
     verifiedOn: '2026-09-21',
     note: 'IELTS 6.5 overall (6.5 writing/speaking, 6.0 reading/listening), TOEFL iBT 90 overall (25 writing, 25 speaking) for tests before 21 Jan 2026, PTE Academic 63 overall. The stored 7.0 came from a line further down the same page offering IELTS 7.0 with no band below 6.0 as an ALTERNATIVE acceptable combination — not the minimum. The stored TOEFL 86 was a house default.',
+  },
+  {
+    file: 'data/tmu-courses.ts',
+    appliesTo: () => true,
+    // TMU's table has two columns: one for "all Engineering programs and all Science programs
+    // except Computer Science and Architectural Science", one for "all other TMU programs,
+    // including Computer Science and Architectural Science". IELTS and PTE are identical in both;
+    // only TOEFL differs, so TOEFL is published only where the column is unambiguous from the
+    // programme name and left suppressed everywhere else.
+    scores: { ielts: 6.5, pte: 60 },
+    fields: { ieltsMin: 6.5, pteMin: 60 },
+    overrides: [
+      { match: /computer science|architectural science/i, scores: { ielts: 6.5, pte: 60, toefl: 92 }, why: 'named in the "all other TMU programs" column' },
+      { match: /engineering/i, scores: { ielts: 6.5, pte: 60, toefl: 83 }, why: 'all Engineering programs' },
+    ],
+    sourceUrl: 'https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/',
+    verifiedOn: '2026-09-21',
+    note: 'IELTS 6.5 and PTE 60 apply to every programme. TOEFL is 83 for Engineering and 92 for Computer Science and Architectural Science; for the rest it depends on whether the programme is a Science programme, which the row data does not record, so TOEFL stays suppressed there.',
   },
   {
     file: 'data/yorku-courses.ts',
@@ -229,8 +265,15 @@ function applyProgrammeVerified() {
     for (const entry of rows) {
       const c = doc.arr.find((x) => x.slug === entry.slug);
       if (!c) throw new Error(`${file}: no row with slug ${entry.slug}`);
-      const { slug, annualCAD, englishVerified, ...fields } = entry;
-      if (annualCAD) setFee(c, annualCAD, fields);
+      const { slug, annualCAD, englishVerified, clearFee, ...fields } = entry;
+      if (clearFee) {
+        // zero rather than a wrong number: the fee surfaces guard on feeVerified, but hub filters
+        // read the fee field directly, so a bogus figure would still pull the course into a
+        // "cheapest" or budget-band list
+        c.annualCAD = 0; c.annualUSD = 0; c.annualINR = 0; c.totalCAD = 0;
+        c.feeVerified = false;
+        Object.assign(c, fields);
+      } else if (annualCAD) setFee(c, annualCAD, fields);
       if (englishVerified) c.englishVerified = englishVerified;
       applied.push(slug);
     }

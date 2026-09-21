@@ -12,6 +12,7 @@
 export interface TmuCourse {
   feeVerified?: boolean;
   englishScope?: string;
+  englishVerified?: { ielts?: number; toefl?: number; pte?: number; sourceUrl: string; verifiedOn: string };
   feeScope?: string;
   feeBasis?: string;
   feeSourceUrl?: string | null;
@@ -60,7 +61,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/accounting-finance/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-2",
@@ -79,7 +86,7 @@ export const tmuCourses: TmuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
+    "toeflMin": 83,
     "pteMin": 60,
     "intakeMonths": [
       "September"
@@ -95,7 +102,14 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/aerospace-engineering/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "toefl": 83,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-3",
@@ -114,7 +128,7 @@ export const tmuCourses: TmuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
+    "toeflMin": 92,
     "pteMin": 60,
     "intakeMonths": [
       "September"
@@ -130,7 +144,14 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/architectural-science/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "toefl": 92,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-4",
@@ -165,7 +186,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/arts-contemporary-studies/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-5",
@@ -200,7 +227,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/biology/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-6",
@@ -219,7 +252,7 @@ export const tmuCourses: TmuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
+    "toeflMin": 83,
     "pteMin": 60,
     "intakeMonths": [
       "September"
@@ -235,7 +268,14 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/biomedical-engineering/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "toefl": 83,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-7",
@@ -270,7 +310,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/biomedical-sciences/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-8",
@@ -305,7 +351,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/business-management/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-9",
@@ -340,7 +392,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/business-technology-management/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-10",
@@ -359,7 +417,7 @@ export const tmuCourses: TmuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
+    "toeflMin": 83,
     "pteMin": 60,
     "intakeMonths": [
       "September"
@@ -375,7 +433,14 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/chemical-engineering/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "toefl": 83,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-11",
@@ -410,7 +475,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/chemistry/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-12",
@@ -445,7 +516,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/child-youth-care/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-13",
@@ -464,7 +541,7 @@ export const tmuCourses: TmuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
+    "toeflMin": 83,
     "pteMin": 60,
     "intakeMonths": [
       "September"
@@ -480,7 +557,14 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/civil-engineering/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "toefl": 83,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-14",
@@ -499,7 +583,7 @@ export const tmuCourses: TmuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
+    "toeflMin": 83,
     "pteMin": 60,
     "intakeMonths": [
       "September"
@@ -515,7 +599,14 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/computer-engineering/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "toefl": 83,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-15",
@@ -534,7 +625,7 @@ export const tmuCourses: TmuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
+    "toeflMin": 92,
     "pteMin": 60,
     "intakeMonths": [
       "September"
@@ -545,12 +636,19 @@ export const tmuCourses: TmuCourse[] = [
     "city": "Toronto",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false,
+    "feeVerified": true,
     "englishScope": "institution-wide",
     "feeScope": "programme page",
-    "feeBasis": "unknown",
+    "feeBasis": "full-time tuition and fees, international, 2026-27 (TMU publishes a range, C$38,702–C$38,762)",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/computer-science/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "toefl": 92,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-16",
@@ -585,7 +683,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/creative-industries/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-17",
@@ -620,7 +724,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/criminology/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-18",
@@ -655,7 +765,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/cyber-science/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-19",
@@ -691,7 +807,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/disability-studies/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-20",
@@ -726,7 +848,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/early-childhood-studies/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-21",
@@ -761,7 +889,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/economics-finance/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-22",
@@ -780,7 +914,7 @@ export const tmuCourses: TmuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
+    "toeflMin": 83,
     "pteMin": 60,
     "intakeMonths": [
       "September"
@@ -796,7 +930,14 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/electrical-engineering/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "toefl": 83,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-23",
@@ -831,7 +972,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/english/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-24",
@@ -849,7 +996,7 @@ export const tmuCourses: TmuCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 5,
+    "ieltsMin": 6.5,
     "toeflMin": 86,
     "pteMin": 60,
     "intakeMonths": [
@@ -874,7 +1021,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-25",
@@ -909,7 +1062,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/environmental-urban-sustainability/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-26",
@@ -944,7 +1103,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/fashion/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-27",
@@ -979,7 +1144,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/financial-mathematics/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-28",
@@ -1014,7 +1185,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/geographic-analysis/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-29",
@@ -1049,7 +1226,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/graphic-communications/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-30",
@@ -1060,10 +1243,10 @@ export const tmuCourses: TmuCourse[] = [
     "studyLevel": "Undergraduate",
     "duration": "2 years",
     "durationYears": 2,
-    "annualCAD": 4075,
-    "annualUSD": 2975,
-    "annualINR": 248575,
-    "totalCAD": 8150,
+    "annualCAD": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalCAD": 0,
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
@@ -1084,9 +1267,15 @@ export const tmuCourses: TmuCourse[] = [
     "feeVerified": false,
     "englishScope": "institution-wide",
     "feeScope": "programme page",
-    "feeBasis": "unknown",
+    "feeBasis": "not published — TMU lists only a part-time range for this programme (international C$4,075–C$29,835)",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/health-administration/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-31",
@@ -1121,7 +1310,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/history/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-32",
@@ -1156,7 +1351,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/film/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-33",
@@ -1191,7 +1392,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/photography-media-arts/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-34",
@@ -1210,7 +1417,7 @@ export const tmuCourses: TmuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
+    "toeflMin": 83,
     "pteMin": 60,
     "intakeMonths": [
       "September"
@@ -1226,7 +1433,14 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/industrial-engineering/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "toefl": 83,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-35",
@@ -1261,7 +1475,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/interior-design/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-36",
@@ -1296,7 +1516,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/journalism/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-37",
@@ -1331,7 +1557,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/language-intercultural-relations/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-38",
@@ -1366,7 +1598,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-39",
@@ -1401,7 +1639,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/mathematics-applications/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-40",
@@ -1420,7 +1664,7 @@ export const tmuCourses: TmuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
+    "toeflMin": 83,
     "pteMin": 60,
     "intakeMonths": [
       "September"
@@ -1436,7 +1680,14 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/mechanical-engineering/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "toefl": 83,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-41",
@@ -1455,7 +1706,7 @@ export const tmuCourses: TmuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
+    "toeflMin": 83,
     "pteMin": 60,
     "intakeMonths": [
       "September"
@@ -1471,7 +1722,14 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/mechatronics-engineering/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "toefl": 83,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-42",
@@ -1506,7 +1764,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/media-production/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-43",
@@ -1541,7 +1805,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/medical-physics/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-44",
@@ -1576,7 +1846,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-45",
@@ -1611,7 +1887,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/new-media/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-46",
@@ -1646,7 +1928,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/nursing-collaborative/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-47",
@@ -1681,7 +1969,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/nursing-post-diploma/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-48",
@@ -1716,7 +2010,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-49",
@@ -1752,7 +2052,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/nursing-advanced-entry/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-50",
@@ -1787,7 +2093,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/nutrition-food/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-51",
@@ -1822,7 +2134,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/occupational-health-safety/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-52",
@@ -1858,7 +2176,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/acting/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-53",
@@ -1894,7 +2218,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/dance/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-54",
@@ -1929,7 +2259,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/design-production/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-55",
@@ -1964,7 +2300,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/philosophy/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-56",
@@ -1999,7 +2341,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/politics-governance/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-57",
@@ -2034,7 +2382,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/professional-communication/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-58",
@@ -2069,7 +2423,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/professional-music/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-59",
@@ -2104,7 +2464,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/psychology/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-60",
@@ -2115,10 +2481,10 @@ export const tmuCourses: TmuCourse[] = [
     "studyLevel": "Undergraduate",
     "duration": "4 years",
     "durationYears": 4,
-    "annualCAD": 4075,
-    "annualUSD": 2975,
-    "annualINR": 248575,
-    "totalCAD": 16300,
+    "annualCAD": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalCAD": 0,
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
@@ -2137,9 +2503,15 @@ export const tmuCourses: TmuCourse[] = [
     "feeVerified": false,
     "englishScope": "institution-wide",
     "feeScope": "programme page",
-    "feeBasis": "unknown",
+    "feeBasis": "not published — TMU lists only a part-time range for this programme (international C$4,075–C$29,835)",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/public-administration-governance/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-61",
@@ -2174,7 +2546,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/public-health/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-62",
@@ -2209,7 +2587,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/social-work/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-63",
@@ -2244,7 +2628,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/sociology/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-64",
@@ -2279,7 +2669,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/sport-media/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-65",
@@ -2314,7 +2710,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/undeclared-arts/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-66",
@@ -2333,7 +2735,7 @@ export const tmuCourses: TmuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
+    "toeflMin": 83,
     "pteMin": 60,
     "intakeMonths": [
       "September"
@@ -2349,7 +2751,14 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/undeclared-engineering/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "toefl": 83,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-67",
@@ -2384,7 +2793,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/programs/undergraduate/urban-regional-planning/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-68",
@@ -2420,7 +2835,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/graduate/programs/accounting-pmdip/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-69",
@@ -2439,7 +2860,7 @@ export const tmuCourses: TmuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
+    "toeflMin": 83,
     "pteMin": 60,
     "intakeMonths": [
       "Fall",
@@ -2456,7 +2877,14 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "toefl": 83,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-70",
@@ -2475,7 +2903,7 @@ export const tmuCourses: TmuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
+    "toeflMin": 83,
     "pteMin": 60,
     "intakeMonths": [
       "September"
@@ -2491,7 +2919,14 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "toefl": 83,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-71",
@@ -2526,7 +2961,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-72",
@@ -2545,7 +2986,7 @@ export const tmuCourses: TmuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
+    "toeflMin": 83,
     "pteMin": 60,
     "intakeMonths": [
       "September"
@@ -2561,7 +3002,14 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "toefl": 83,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-73",
@@ -2596,7 +3044,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-74",
@@ -2615,7 +3069,7 @@ export const tmuCourses: TmuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
+    "toeflMin": 83,
     "pteMin": 60,
     "intakeMonths": [
       "September"
@@ -2631,7 +3085,14 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "toefl": 83,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-75",
@@ -2667,7 +3128,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-76",
@@ -2686,7 +3153,7 @@ export const tmuCourses: TmuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
+    "toeflMin": 83,
     "pteMin": 60,
     "intakeMonths": [
       "September"
@@ -2702,7 +3169,14 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "toefl": 83,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-77",
@@ -2738,7 +3212,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "programme page",
     "feeBasis": "unknown",
     "feeSourceUrl": "https://www.torontomu.ca/graduate/programs/communication-culture/",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-78",
@@ -2773,7 +3253,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-79",
@@ -2792,7 +3278,7 @@ export const tmuCourses: TmuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
+    "toeflMin": 92,
     "pteMin": 60,
     "intakeMonths": [
       "September"
@@ -2808,7 +3294,14 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "toefl": 92,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-80",
@@ -2843,7 +3336,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-81",
@@ -2878,7 +3377,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-82",
@@ -2914,7 +3419,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-83",
@@ -2951,7 +3462,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-84",
@@ -2987,7 +3504,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-85",
@@ -3022,7 +3545,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-86",
@@ -3057,7 +3586,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-87",
@@ -3092,7 +3627,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-88",
@@ -3111,7 +3652,7 @@ export const tmuCourses: TmuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
+    "toeflMin": 83,
     "pteMin": 60,
     "intakeMonths": [
       "September"
@@ -3127,7 +3668,14 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "toefl": 83,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-89",
@@ -3164,7 +3712,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-90",
@@ -3183,7 +3737,7 @@ export const tmuCourses: TmuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
+    "toeflMin": 83,
     "pteMin": 60,
     "intakeMonths": [
       "September"
@@ -3199,7 +3753,14 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "toefl": 83,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-91",
@@ -3234,7 +3795,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-92",
@@ -3269,7 +3836,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-93",
@@ -3304,7 +3877,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-94",
@@ -3339,7 +3918,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-95",
@@ -3374,7 +3959,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-96",
@@ -3409,7 +4000,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-97",
@@ -3444,7 +4041,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-98",
@@ -3479,7 +4082,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-99",
@@ -3514,7 +4123,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-100",
@@ -3549,7 +4164,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-101",
@@ -3584,7 +4205,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-102",
@@ -3619,7 +4246,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-103",
@@ -3638,7 +4271,7 @@ export const tmuCourses: TmuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
+    "toeflMin": 83,
     "pteMin": 60,
     "intakeMonths": [
       "September"
@@ -3654,7 +4287,14 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "toefl": 83,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-104",
@@ -3689,7 +4329,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-105",
@@ -3724,7 +4370,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-106",
@@ -3759,7 +4411,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-107",
@@ -3794,7 +4452,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-108",
@@ -3829,7 +4493,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-109",
@@ -3864,7 +4534,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-110",
@@ -3899,7 +4575,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-111",
@@ -3934,7 +4616,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-112",
@@ -3969,7 +4657,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-113",
@@ -4004,7 +4698,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-114",
@@ -4039,7 +4739,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-115",
@@ -4074,7 +4780,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-116",
@@ -4109,7 +4821,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-117",
@@ -4144,7 +4862,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-118",
@@ -4179,7 +4903,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-119",
@@ -4214,7 +4944,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-120",
@@ -4250,7 +4986,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "tmu-121",
@@ -4285,7 +5027,13 @@ export const tmuCourses: TmuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "pte": 60,
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+      "verifiedOn": "2026-09-21"
+    }
   }
 ];
 
