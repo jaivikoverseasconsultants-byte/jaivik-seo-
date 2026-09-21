@@ -1,0 +1,466 @@
+slug,country,courses,ug,pg,flags,impressions_90d,clicks_90d,last_data_date
+mit-massachusetts,USA,0,0,0,"NO COURSE DATA",0,0,
+stanford-university,USA,0,0,0,"NO COURSE DATA",0,0,
+harvard-university,USA,0,0,0,"NO COURSE DATA",8,0,
+uc-berkeley,USA,0,0,0,"NO COURSE DATA",0,0,
+carnegie-mellon-university,USA,0,0,0,"NO COURSE DATA",2,0,
+georgia-tech,USA,0,0,0,"NO COURSE DATA",2,0,
+purdue-university,USA,74,0,74,"PG ONLY",0,0,2026-08-25
+northeastern-university,USA,140,56,84,"",2,0,2026-08-25
+arizona-state-university,USA,0,0,0,"NO COURSE DATA",1,0,
+uiuc-illinois,USA,133,0,133,"PG ONLY",1,0,2026-08-25
+university-of-oxford,UK,0,0,0,"NO COURSE DATA",1,0,
+imperial-college-london,UK,8,0,8,"PG ONLY; THIN (8)",0,0,2026-07-30
+university-college-london,UK,400,0,400,"PG ONLY",9,0,2026-08-25
+university-of-manchester,UK,304,41,263,"",2,0,2026-08-25
+university-of-edinburgh,UK,629,349,280,"",2,0,2026-08-25
+university-of-birmingham,UK,603,219,384,"",3,0,2026-07-07
+university-of-leeds,UK,589,269,320,"",2,0,2026-07-07
+coventry-university,UK,125,0,125,"PG ONLY",1,0,2026-08-25
+middlesex-university,UK,157,47,110,"",1,0,2026-08-25
+brunel-university-london,UK,2,0,2,"PG ONLY; THIN (2)",2,0,2026-07-30
+university-of-hertfordshire,UK,45,0,45,"PG ONLY",3,0,2026-07-03
+anglia-ruskin-university,UK,166,0,166,"PG ONLY",1,0,2026-08-25
+university-of-portsmouth,UK,178,0,178,"PG ONLY",0,0,2026-08-25
+northumbria-university,UK,0,0,0,"DATA FILE EMPTY",127,0,2026-08-25
+de-montfort-university,UK,50,0,50,"PG ONLY",2,1,2026-08-25
+nottingham-trent-university,UK,42,0,42,"PG ONLY",5,0,2026-07-02
+university-of-west-london,UK,45,0,45,"PG ONLY",0,0,2026-07-03
+university-of-toronto,Canada,248,0,248,"PG ONLY",34,0,2026-08-25
+university-of-british-columbia,Canada,212,107,105,"",9,0,2026-06-30
+university-of-waterloo,Canada,92,0,92,"PG ONLY",2,0,2026-08-25
+mcgill-university,Canada,212,0,212,"PG ONLY",5,0,2026-06-29
+university-of-windsor,Canada,0,0,0,"NO COURSE DATA",12,0,
+trent-university,Canada,0,0,0,"NO COURSE DATA",0,0,
+conestoga-college,Canada,0,0,0,"NO COURSE DATA",3,0,
+humber-college,Canada,0,0,0,"NO COURSE DATA",3,0,
+sheridan-college,Canada,0,0,0,"NO COURSE DATA",0,0,
+george-brown-college,Canada,0,0,0,"NO COURSE DATA",1,0,
+algonquin-college,Canada,176,155,21,"",1,0,2026-09-14
+mohawk-college,Canada,0,0,0,"NO COURSE DATA",1,0,
+thompson-rivers-university,Canada,0,0,0,"NO COURSE DATA",0,0,
+university-of-northern-bc,Canada,0,0,0,"NO COURSE DATA",0,0,
+capilano-university,Canada,0,0,0,"NO COURSE DATA",4,0,
+sait,Canada,0,0,0,"NO COURSE DATA",4,0,
+concordia-university-edmonton,Canada,0,0,0,"NO COURSE DATA",0,0,
+acadia-university,Canada,0,0,0,"NO COURSE DATA",0,0,
+cape-breton-university,Canada,0,0,0,"NO COURSE DATA",0,0,
+university-of-regina,Canada,0,0,0,"NO COURSE DATA",0,0,
+saskatchewan-polytechnic,Canada,0,0,0,"NO COURSE DATA",0,0,
+seneca-polytechnic,Canada,0,0,0,"NO COURSE DATA",4,0,
+fanshawe-college,Canada,0,0,0,"NO COURSE DATA",1,0,
+durham-college,Canada,151,138,13,"",0,0,2026-09-14
+georgian-college,Canada,0,0,0,"NO COURSE DATA",0,0,
+fleming-college,Canada,0,0,0,"NO COURSE DATA",1,0,
+lambton-college,Canada,0,0,0,"NO COURSE DATA",0,0,
+centennial-college,Canada,0,0,0,"NO COURSE DATA",0,0,
+cambrian-college,Canada,0,0,0,"NO COURSE DATA",0,0,
+st-clair-college,Canada,0,0,0,"NO COURSE DATA",0,0,
+canadore-college,Canada,0,0,0,"NO COURSE DATA",0,0,
+niagara-college,Canada,0,0,0,"NO COURSE DATA",0,0,
+sault-college,Canada,0,0,0,"NO COURSE DATA",1,0,
+loyalist-college,Canada,0,0,0,"NO COURSE DATA",0,0,
+lakehead-university,Canada,0,0,0,"NO COURSE DATA",0,0,
+toronto-metropolitan-university,Canada,121,80,41,"",2,0,2026-09-14
+university-of-ottawa,Canada,492,181,311,"",12,0,2026-07-07
+york-university,Canada,106,106,0,"UG ONLY",1,0,2026-09-14
+ontario-tech-university,Canada,0,0,0,"NO COURSE DATA",6,0,
+brock-university,Canada,0,0,0,"NO COURSE DATA",3,0,
+wilfrid-laurier-university,Canada,0,0,0,"NO COURSE DATA",6,1,
+kwantlen-polytechnic-university,Canada,247,244,3,"NO COURSE ROUTE",0,0,2026-09-14
+vancouver-community-college,Canada,0,0,0,"NO COURSE DATA",0,0,
+langara-college,Canada,0,0,0,"NO COURSE DATA",1,0,
+douglas-college,Canada,0,0,0,"NO COURSE DATA",0,0,
+okanagan-college,Canada,0,0,0,"NO COURSE DATA",0,0,
+royal-roads-university,Canada,0,0,0,"NO COURSE DATA",3,0,
+university-canada-west,Canada,0,0,0,"NO COURSE DATA",0,0,
+macewan-university,Canada,0,0,0,"NO COURSE DATA",1,0,
+university-of-lethbridge,Canada,0,0,0,"NO COURSE DATA",0,0,
+bow-valley-college,Canada,0,0,0,"NO COURSE DATA",0,0,
+university-of-winnipeg,Canada,0,0,0,"NO COURSE DATA",3,0,
+red-river-college-polytechnic,Canada,0,0,0,"NO COURSE DATA",4,0,
+dalhousie-university,Canada,311,112,199,"",1,0,2026-09-21
+memorial-university,Canada,0,0,0,"NO COURSE DATA",0,0,
+university-of-new-brunswick,Canada,95,95,0,"UG ONLY",0,0,2026-09-14
+upei,Canada,0,0,0,"NO COURSE DATA",0,0,
+niagara-university-ontario,Canada,0,0,0,"NO COURSE DATA",0,0,
+northern-college,Canada,0,0,0,"NO COURSE DATA",0,0,
+confederation-college,Canada,0,0,0,"NO COURSE DATA",0,0,
+la-cite-college,Canada,0,0,0,"NO COURSE DATA",0,0,
+st-lawrence-college,Canada,0,0,0,"NO COURSE DATA",0,0,
+college-boreal,Canada,0,0,0,"NO COURSE DATA",0,0,
+north-island-college,Canada,0,0,0,"NO COURSE DATA",0,0,
+college-of-the-rockies,Canada,0,0,0,"NO COURSE DATA",0,0,
+selkirk-college,Canada,0,0,0,"NO COURSE DATA",0,0,
+columbia-college-bc,Canada,0,0,0,"NO COURSE DATA",0,0,
+justice-institute-bc,Canada,0,0,0,"NO COURSE DATA",0,0,
+fdu-vancouver,Canada,0,0,0,"NO COURSE DATA",1,0,
+nyit-vancouver,Canada,0,0,0,"NO COURSE DATA",1,0,
+norquest-college,Canada,0,0,0,"NO COURSE DATA",0,0,
+red-deer-polytechnic,Canada,0,0,0,"NO COURSE DATA",0,0,
+grande-prairie-regional-college,Canada,0,0,0,"NO COURSE DATA",0,0,
+lakeland-college,Canada,0,0,0,"NO COURSE DATA",0,0,
+medicine-hat-college,Canada,0,0,0,"NO COURSE DATA",0,0,
+olds-college,Canada,0,0,0,"NO COURSE DATA",0,0,
+portage-college,Canada,0,0,0,"NO COURSE DATA",0,0,
+assiniboine-community-college,Canada,0,0,0,"NO COURSE DATA",0,0,
+brandon-university,Canada,0,0,0,"NO COURSE DATA",0,0,
+nova-scotia-community-college,Canada,0,0,0,"NO COURSE DATA",0,0,
+first-nations-university,Canada,0,0,0,"NO COURSE DATA",0,0,
+universite-de-moncton,Canada,0,0,0,"NO COURSE DATA",0,0,
+mount-allison-university,Canada,0,0,0,"NO COURSE DATA",0,0,
+st-thomas-university,Canada,0,0,0,"NO COURSE DATA",0,0,
+nbcc,Canada,0,0,0,"NO COURSE DATA",1,0,
+holland-college,Canada,0,0,0,"NO COURSE DATA",0,0,
+university-of-alberta,Canada,0,0,0,"NO COURSE DATA",3,0,
+university-of-calgary,Canada,97,0,97,"PG ONLY",12,0,2026-06-29
+simon-fraser-university,Canada,139,139,0,"UG ONLY",18,0,2026-07-07
+mcmaster-university,Canada,86,0,86,"PG ONLY",8,0,2026-08-25
+queens-university,Canada,91,44,47,"",7,0,2026-06-30
+western-university,Canada,0,0,0,"NO COURSE DATA",0,0,
+university-of-victoria,Canada,0,0,0,"NO COURSE DATA",0,0,
+university-of-manitoba,Canada,340,200,140,"",0,0,2026-07-07
+university-of-saskatchewan,Canada,0,0,0,"NO COURSE DATA",0,0,
+carleton-university,Canada,0,0,0,"NO COURSE DATA",0,0,
+university-of-guelph,Canada,198,198,0,"UG ONLY",0,0,2026-09-14
+concordia-university,Canada,0,0,0,"NO COURSE DATA",0,0,
+mount-royal-university,Canada,0,0,0,"NO COURSE DATA",1,0,
+vancouver-island-university,Canada,0,0,0,"NO COURSE DATA",0,0,
+university-of-melbourne,Australia,463,38,425,"",9,0,2026-06-29
+unsw-sydney,Australia,3,0,3,"PG ONLY; THIN (3)",0,0,2026-07-30
+monash-university,Australia,0,0,0,"NO COURSE DATA",0,0,
+uts-sydney,Australia,369,181,188,"",12,0,2026-08-17
+charles-darwin-university,Australia,0,0,0,"DATA FILE EMPTY",17,0,2026-08-24
+swinburne-university,Australia,0,0,0,"DATA FILE EMPTY",0,0,2026-08-25
+kaplan-business-school,Australia,0,0,0,"DATA FILE EMPTY",0,0,2026-08-24
+victoria-university-sydney,Australia,0,0,0,"DATA FILE EMPTY",4,0,2026-08-24
+cquniversity,Australia,0,0,0,"NO COURSE DATA",0,0,
+jcu-brisbane,Australia,0,0,0,"NO COURSE DATA",3,0,
+murdoch-university,Australia,0,0,0,"DATA FILE EMPTY",0,0,2026-08-24
+flinders-university,Australia,0,0,0,"DATA FILE EMPTY",7,0,2026-08-24
+griffith-university,Australia,373,212,161,"",1,0,2026-07-07
+la-trobe-university,Australia,0,0,0,"NO COURSE DATA",0,0,
+technical-university-of-munich,Germany,193,51,142,"",0,0,2026-08-25
+rwth-aachen-university,Germany,0,0,0,"NO COURSE DATA",0,0,
+trinity-college-dublin,Ireland,465,117,348,"",0,0,2026-07-01
+national-university-of-singapore,Singapore,0,0,0,"NO COURSE DATA",0,0,
+nanyang-technological-university,Singapore,84,34,50,"",1,0,2026-06-30
+university-of-auckland,New Zealand,527,337,190,"",0,0,2026-06-30
+hec-paris,France,0,0,0,"NO COURSE DATA",0,0,
+tu-delft,Netherlands,0,0,0,"NO COURSE DATA",4,0,
+kings-college-london,UK,389,152,237,"",8,0,2026-06-30
+london-school-of-economics,UK,0,0,0,"NO COURSE DATA",4,0,
+university-of-bristol,UK,189,34,155,"",0,0,2026-08-25
+university-of-warwick,UK,208,10,198,"",9,0,2026-08-25
+durham-university,UK,314,144,170,"",1,0,2026-06-30
+university-of-glasgow,UK,282,0,282,"PG ONLY",1,0,2026-08-25
+university-of-sheffield,UK,127,0,127,"PG ONLY",1,0,2026-08-25
+university-of-southampton,UK,472,206,266,"",0,0,2026-06-13
+university-of-exeter,UK,394,177,217,"",0,0,2026-06-29
+university-of-bath,UK,701,278,423,"",4,0,2026-06-13
+university-of-nottingham,UK,0,0,0,"NO COURSE DATA",0,0,
+university-of-leicester,UK,0,0,0,"NO COURSE DATA",1,0,
+newcastle-university,UK,228,0,228,"PG ONLY",2,0,2026-08-25
+queen-mary-university-london,UK,10,0,10,"PG ONLY; THIN (10)",7,0,2026-07-02
+lancaster-university,UK,0,0,0,"NO COURSE DATA",1,0,
+university-of-york,UK,218,0,218,"PG ONLY",0,0,2026-08-25
+cardiff-university,UK,0,0,0,"NO COURSE DATA",1,0,
+university-of-aberdeen,UK,0,0,0,"NO COURSE DATA",0,0,
+university-of-surrey,UK,173,17,156,"",0,0,2026-07-01
+loughborough-university,UK,236,41,195,"",0,0,2026-06-29
+university-of-reading,UK,130,71,59,"",1,0,2026-07-01
+university-of-kent,UK,0,0,0,"NO COURSE DATA",1,0,
+university-of-essex,UK,0,0,0,"NO COURSE DATA",1,0,
+city-university-london,UK,0,0,0,"NO COURSE DATA",0,0,
+heriot-watt-university,UK,0,0,0,"NO COURSE DATA",0,0,
+university-of-strathclyde,UK,561,0,561,"PG ONLY",2,0,2026-06-29
+university-of-dundee,UK,176,0,176,"PG ONLY",0,0,2026-08-25
+swansea-university,UK,95,0,95,"PG ONLY",3,0,2026-08-25
+aston-university,UK,6,0,6,"PG ONLY; THIN (6)",0,0,2026-07-02
+goldsmiths-university-london,UK,33,25,8,"",0,0,2026-07-30
+royal-holloway-university-london,UK,136,57,79,"",0,0,2026-08-25
+university-of-sussex,UK,56,0,56,"PG ONLY",0,0,2026-08-25
+birmingham-city-university,UK,5,3,2,"THIN (5)",1,0,2026-08-24
+manchester-metropolitan-university,UK,0,0,0,"NO COURSE DATA",0,0,
+university-of-west-of-england,UK,41,0,41,"PG ONLY",0,0,2026-07-04
+oxford-brookes-university,UK,85,0,85,"PG ONLY",0,0,2026-08-25
+kingston-university-london,UK,60,0,60,"PG ONLY",0,0,2026-08-25
+university-of-east-london,UK,159,0,159,"PG ONLY",0,0,2026-08-25
+university-of-greenwich,UK,20,0,20,"PG ONLY",0,0,2026-07-30
+london-metropolitan-university,UK,49,0,49,"PG ONLY",1,0,2026-07-04
+university-of-salford,UK,7,7,0,"UG ONLY; THIN (7)",0,0,2026-07-30
+university-of-plymouth,UK,1,0,1,"PG ONLY; THIN (1)",0,0,2026-07-30
+university-of-brighton,UK,0,0,0,"NO COURSE DATA",0,0,
+bournemouth-university,UK,45,0,45,"PG ONLY",0,0,2026-08-22
+university-of-central-lancashire,UK,11,0,11,"PG ONLY; THIN (11)",0,0,2026-07-30
+university-of-huddersfield,UK,0,0,0,"NO COURSE DATA",0,0,
+university-of-bradford,UK,0,0,0,"NO COURSE DATA",0,0,
+university-of-sunderland,UK,129,49,80,"",0,0,2026-08-25
+teesside-university,UK,0,0,0,"NO COURSE DATA",1,0,
+university-of-derby,UK,75,27,48,"",0,0,2026-08-22
+university-of-lincoln,UK,0,0,0,"NO COURSE DATA",0,0,
+university-of-wolverhampton,UK,0,0,0,"NO COURSE DATA",0,0,
+staffordshire-university,UK,0,0,0,"NO COURSE DATA",0,0,
+university-of-bedfordshire,UK,0,0,0,"NO COURSE DATA",1,0,
+university-of-east-anglia,UK,104,59,45,"",0,0,2026-08-22
+university-of-stirling,UK,0,0,0,"NO COURSE DATA",0,0,
+robert-gordon-university,UK,91,0,91,"PG ONLY",0,0,2026-08-25
+university-of-south-wales,UK,0,0,0,"NO COURSE DATA",0,0,
+university-of-the-arts-london,UK,0,0,0,"NO COURSE DATA",0,0,
+university-of-roehampton,UK,36,3,33,"",0,0,2026-08-22
+university-of-worcester,UK,0,0,0,"NO COURSE DATA",0,0,
+university-of-gloucestershire,UK,0,0,0,"DATA FILE EMPTY",0,0,2026-07-04
+university-of-suffolk,UK,40,0,40,"PG ONLY",1,0,2026-08-22
+university-college-dublin,Ireland,87,49,38,"",7,0,2026-06-30
+university-college-cork,Ireland,0,0,0,"NO COURSE DATA",9,0,
+university-of-galway,Ireland,0,0,0,"NO COURSE DATA",0,0,
+dublin-city-university,Ireland,217,12,205,"",7,0,2026-08-25
+maynooth-university,Ireland,0,0,0,"NO COURSE DATA",0,0,
+technological-university-dublin,Ireland,0,0,0,"NO COURSE DATA",0,0,
+rcsi-university-of-medicine,Ireland,0,0,0,"NO COURSE DATA",0,0,
+dublin-business-school,Ireland,41,19,22,"",3,0,2026-07-30
+griffith-college-dublin,Ireland,0,0,0,"NO COURSE DATA",1,0,
+national-college-of-ireland,Ireland,1,0,1,"PG ONLY; THIN (1)",1,0,2026-07-30
+atlantic-technological-university,Ireland,0,0,0,"NO COURSE DATA",2,0,
+south-east-technological-university,Ireland,0,0,0,"NO COURSE DATA",5,0,
+munster-technological-university,Ireland,0,0,0,"NO COURSE DATA",7,0,
+university-of-limerick,Ireland,0,0,0,"NO COURSE DATA",1,0,
+university-of-queensland,Australia,120,107,13,"",7,0,2026-06-29
+australian-national-university,Australia,344,91,253,"",11,0,2026-07-08
+university-of-sydney,Australia,514,133,381,"",3,0,2026-06-29
+university-of-western-australia,Australia,0,0,0,"NO COURSE DATA",7,0,
+university-of-adelaide,Australia,523,290,233,"",0,0,2026-08-22
+macquarie-university,Australia,0,0,0,"NO COURSE DATA",1,0,
+rmit-university,Australia,471,110,361,"",1,0,2026-06-29
+university-of-tasmania,Australia,0,0,0,"NO COURSE DATA",5,0,
+university-of-sunshine-coast,Australia,46,45,1,"",0,0,2026-07-30
+australian-catholic-university,Australia,0,0,0,"NO COURSE DATA",6,0,
+edith-cowan-university,Australia,242,127,115,"",10,0,2026-07-09
+curtin-university,Australia,0,0,0,"NO COURSE DATA",1,0,
+deakin-university,Australia,0,0,0,"NO COURSE DATA",0,0,
+university-of-newcastle-australia,Australia,0,0,0,"NO COURSE DATA",1,0,
+university-of-new-england-australia,Australia,0,0,0,"NO COURSE DATA",2,0,
+university-of-southern-queensland,Australia,0,0,0,"NO COURSE DATA",1,0,
+western-sydney-university,Australia,0,0,0,"NO COURSE DATA",4,0,
+university-of-south-australia,Australia,0,0,0,"NO COURSE DATA",0,0,
+university-of-canberra,Australia,0,0,0,"NO COURSE DATA",3,0,
+bond-university,Australia,0,0,0,"NO COURSE DATA",0,0,
+southern-cross-university,Australia,0,0,0,"NO COURSE DATA",0,0,
+federation-university,Australia,0,0,0,"NO COURSE DATA",0,0,
+torrens-university-australia,Australia,0,0,0,"NO COURSE DATA",7,0,
+holmes-institute,Australia,0,0,0,"NO COURSE DATA",1,0,
+think-education-australia,Australia,0,0,0,"NO COURSE DATA",0,0,
+navitas-australia,Australia,0,0,0,"NO COURSE DATA",0,0,
+lmu-munich,Germany,0,0,0,"NO COURSE DATA",5,0,
+heidelberg-university,Germany,0,0,0,"NO COURSE DATA",0,0,
+humboldt-university-berlin,Germany,0,0,0,"NO COURSE DATA",8,0,
+free-university-berlin,Germany,0,0,0,"NO COURSE DATA",0,0,
+technical-university-berlin,Germany,0,0,0,"NO COURSE DATA",0,0,
+university-of-hamburg,Germany,46,0,46,"PG ONLY",0,0,2026-07-01
+goethe-university-frankfurt,Germany,0,0,0,"NO COURSE DATA",1,0,
+university-of-stuttgart,Germany,0,0,0,"NO COURSE DATA",0,0,
+karlsruhe-institute-of-technology,Germany,0,0,0,"NO COURSE DATA",3,0,
+university-of-cologne,Germany,0,0,0,"NO COURSE DATA",0,0,
+university-of-bonn,Germany,0,0,0,"NO COURSE DATA",0,0,
+tu-dresden,Germany,0,0,0,"NO COURSE DATA",1,0,
+university-of-mannheim,Germany,0,0,0,"NO COURSE DATA",0,0,
+victoria-university-wellington,New Zealand,150,26,124,"",2,0,2026-08-25
+university-of-canterbury,New Zealand,0,0,0,"NO COURSE DATA",4,0,
+university-of-otago,New Zealand,74,47,27,"",1,0,2026-06-30
+massey-university,New Zealand,176,57,117,"",0,0,2026-07-08
+auckland-university-of-technology,New Zealand,0,0,0,"NO COURSE DATA",1,0,
+university-of-waikato,New Zealand,0,0,0,"NO COURSE DATA",0,0,
+lincoln-university-new-zealand,New Zealand,0,0,0,"NO COURSE DATA",3,0,
+yale-university,USA,0,0,0,"NO COURSE DATA",1,0,
+princeton-university,USA,0,0,0,"NO COURSE DATA",2,0,
+columbia-university,USA,0,0,0,"NO COURSE DATA",0,0,
+cornell-university,USA,0,0,0,"NO COURSE DATA",0,0,
+dartmouth-college,USA,0,0,0,"NO COURSE DATA",0,0,
+brown-university,USA,0,0,0,"NO COURSE DATA",0,0,
+university-of-pennsylvania,USA,0,0,0,"NO COURSE DATA",0,0,
+caltech,USA,0,0,0,"NO COURSE DATA",0,0,
+johns-hopkins-university,USA,0,0,0,"NO COURSE DATA",2,0,
+duke-university,USA,0,0,0,"NO COURSE DATA",0,0,
+northwestern-university,USA,0,0,0,"NO COURSE DATA",1,0,
+vanderbilt-university,USA,0,0,0,"NO COURSE DATA",0,0,
+emory-university,USA,0,0,0,"NO COURSE DATA",0,0,
+rice-university,USA,0,0,0,"NO COURSE DATA",1,0,
+georgetown-university,USA,0,0,0,"NO COURSE DATA",0,0,
+notre-dame-university,USA,0,0,0,"NO COURSE DATA",0,0,
+tufts-university,USA,0,0,0,"NO COURSE DATA",0,0,
+boston-university,USA,0,0,0,"NO COURSE DATA",0,0,
+new-york-university,USA,0,0,0,"NO COURSE DATA",0,0,
+university-of-southern-california,USA,0,0,0,"NO COURSE DATA",0,0,
+fordham-university,USA,0,0,0,"NO COURSE DATA",0,0,
+ucla,USA,0,0,0,"NO COURSE DATA",0,0,
+university-of-michigan,USA,0,0,0,"NO COURSE DATA",0,0,
+ut-austin,USA,0,0,0,"NO COURSE DATA",5,0,
+unc-chapel-hill,USA,0,0,0,"NO COURSE DATA",0,0,
+university-of-washington,USA,0,0,0,"NO COURSE DATA",1,0,
+ohio-state-university,USA,0,0,0,"NO COURSE DATA",0,0,
+penn-state-university,USA,0,0,0,"NO COURSE DATA",1,0,
+university-of-florida,USA,0,0,0,"NO COURSE DATA",0,0,
+uc-san-diego,USA,0,0,0,"NO COURSE DATA",0,0,
+uc-davis,USA,100,0,100,"PG ONLY",0,0,2026-08-25
+uc-santa-barbara,USA,0,0,0,"NO COURSE DATA",0,0,
+virginia-tech,USA,0,0,0,"NO COURSE DATA",0,0,
+university-of-maryland,USA,0,0,0,"NO COURSE DATA",0,0,
+university-of-wisconsin-madison,USA,0,0,0,"NO COURSE DATA",0,0,
+university-of-minnesota,USA,0,0,0,"NO COURSE DATA",0,0,
+michigan-state-university,USA,0,0,0,"NO COURSE DATA",0,0,
+indiana-university,USA,0,0,0,"NO COURSE DATA",1,0,
+university-of-colorado-boulder,USA,0,0,0,"NO COURSE DATA",0,0,
+university-of-pittsburgh,USA,0,0,0,"NO COURSE DATA",0,0,
+texas-am-university,USA,0,0,0,"NO COURSE DATA",1,0,
+rutgers-university,USA,0,0,0,"NO COURSE DATA",0,0,
+stony-brook-university,USA,0,0,0,"NO COURSE DATA",0,0,
+suny-buffalo,USA,0,0,0,"NO COURSE DATA",0,0,
+illinois-tech,USA,0,0,0,"NO COURSE DATA",1,1,
+depaul-university,USA,0,0,0,"NO COURSE DATA",0,0,
+university-of-dayton,USA,0,0,0,"NO COURSE DATA",1,0,
+clark-university,USA,0,0,0,"NO COURSE DATA",0,0,
+wpi,USA,0,0,0,"NO COURSE DATA",0,0,
+pace-university,USA,0,0,0,"NO COURSE DATA",0,0,
+university-of-bridgeport,USA,0,0,0,"NO COURSE DATA",0,0,
+fairleigh-dickinson-university,USA,0,0,0,"NO COURSE DATA",0,0,
+webster-university,USA,0,0,0,"NO COURSE DATA",0,0,
+george-washington-university,USA,0,0,0,"NO COURSE DATA",0,0,
+american-university,USA,0,0,0,"NO COURSE DATA",0,0,
+drexel-university,USA,0,0,0,"NO COURSE DATA",0,0,
+temple-university,USA,0,0,0,"NO COURSE DATA",0,0,
+university-of-connecticut,USA,0,0,0,"NO COURSE DATA",0,0,
+rochester-institute-of-technology,USA,0,0,0,"NO COURSE DATA",0,0,
+stevens-institute-of-technology,USA,0,0,0,"NO COURSE DATA",0,0,
+rensselaer-polytechnic,USA,0,0,0,"NO COURSE DATA",4,0,
+university-of-arizona,USA,0,0,0,"NO COURSE DATA",0,0,
+colorado-state-university,USA,0,0,0,"NO COURSE DATA",0,0,
+university-of-utah,USA,0,0,0,"NO COURSE DATA",0,0,
+university-of-rochester,USA,0,0,0,"NO COURSE DATA",0,0,
+case-western-reserve-university,USA,0,0,0,"NO COURSE DATA",2,0,
+nc-state-university,USA,0,0,0,"NO COURSE DATA",0,0,
+iowa-state-university,USA,0,0,0,"NO COURSE DATA",0,0,
+university-of-cincinnati,USA,0,0,0,"NO COURSE DATA",0,0,
+university-of-delaware,USA,0,0,0,"NO COURSE DATA",0,0,
+singapore-management-university,Singapore,0,0,0,"NO COURSE DATA",0,0,
+sutd,Singapore,0,0,0,"NO COURSE DATA",0,0,
+singapore-institute-of-technology,Singapore,0,0,0,"NO COURSE DATA",0,0,
+james-cook-university-singapore,Singapore,0,0,0,"NO COURSE DATA",0,0,
+psb-academy,Singapore,0,0,0,"NO COURSE DATA",0,0,
+kaplan-singapore,Singapore,0,0,0,"NO COURSE DATA",0,0,
+mdis-singapore,Singapore,0,0,0,"NO COURSE DATA",0,0,
+curtin-singapore,Singapore,0,0,0,"NO COURSE DATA",0,0,
+rmit-singapore,Singapore,0,0,0,"NO COURSE DATA",0,0,
+murdoch-university-singapore,Singapore,0,0,0,"NO COURSE DATA",0,0,
+sim-singapore,Singapore,0,0,0,"NO COURSE DATA",0,0,
+embry-riddle-singapore,Singapore,0,0,0,"NO COURSE DATA",0,0,
+sp-jain-singapore,Singapore,0,0,0,"NO COURSE DATA",0,0,
+sorbonne-university,France,0,0,0,"NO COURSE DATA",0,0,
+sciences-po-paris,France,0,0,0,"NO COURSE DATA",0,0,
+ecole-polytechnique,France,0,0,0,"NO COURSE DATA",0,0,
+university-of-paris-saclay,France,0,0,0,"NO COURSE DATA",0,0,
+insead,France,0,0,0,"NO COURSE DATA",0,0,
+university-of-grenoble-alpes,France,0,0,0,"NO COURSE DATA",2,0,
+university-of-lyon,France,0,0,0,"NO COURSE DATA",0,0,
+university-of-bordeaux,France,0,0,0,"NO COURSE DATA",0,0,
+essec-business-school,France,0,0,0,"NO COURSE DATA",0,0,
+emlyon-business-school,France,0,0,0,"NO COURSE DATA",1,0,
+university-of-strasbourg,France,0,0,0,"NO COURSE DATA",0,0,
+university-of-montpellier,France,0,0,0,"NO COURSE DATA",0,0,
+university-of-toulouse,France,0,0,0,"NO COURSE DATA",0,0,
+aix-marseille-university,France,0,0,0,"NO COURSE DATA",0,0,
+university-of-amsterdam,Netherlands,169,25,144,"",0,0,2026-08-25
+leiden-university,Netherlands,58,17,41,"",0,0,2026-07-01
+utrecht-university,Netherlands,0,0,0,"NO COURSE DATA",0,0,
+erasmus-university-rotterdam,Netherlands,0,0,0,"NO COURSE DATA",0,0,
+maastricht-university,Netherlands,104,25,79,"",0,0,2026-08-25
+vrije-universiteit-amsterdam,Netherlands,133,0,133,"PG ONLY",0,0,2026-08-25
+tu-eindhoven,Netherlands,0,0,0,"NO COURSE DATA",0,0,
+university-of-groningen,Netherlands,355,94,261,"",0,0,2026-07-01
+radboud-university,Netherlands,0,0,0,"NO COURSE DATA",0,0,
+wageningen-university,Netherlands,0,0,0,"NO COURSE DATA",0,0,
+university-of-twente,Netherlands,0,0,0,"NO COURSE DATA",0,0,
+tilburg-university,Netherlands,0,0,0,"NO COURSE DATA",0,0,
+han-university,Netherlands,0,0,0,"NO COURSE DATA",0,0,
+amsterdam-university-of-applied-sciences,Netherlands,0,0,0,"NO COURSE DATA",0,0,
+kth-royal-institute-of-technology,Sweden,0,0,0,"NO COURSE DATA",0,0,
+lund-university,Sweden,0,0,0,"NO COURSE DATA",0,0,
+uppsala-university,Sweden,112,0,112,"PG ONLY",0,0,2026-08-25
+stockholm-university,Sweden,0,0,0,"NO COURSE DATA",0,0,
+chalmers-university,Sweden,0,0,0,"NO COURSE DATA",0,0,
+university-of-gothenburg,Sweden,0,0,0,"NO COURSE DATA",0,0,
+linkoping-university,Sweden,0,0,0,"NO COURSE DATA",0,0,
+umea-university,Sweden,0,0,0,"NO COURSE DATA",0,0,
+stockholm-school-of-economics,Sweden,0,0,0,"NO COURSE DATA",0,0,
+karolinska-institutet,Sweden,0,0,0,"NO COURSE DATA",0,0,
+jonkoping-university,Sweden,0,0,0,"NO COURSE DATA",0,0,
+malardalen-university,Sweden,0,0,0,"NO COURSE DATA",0,0,
+mid-sweden-university,Sweden,0,0,0,"NO COURSE DATA",0,0,
+halmstad-university,Sweden,0,0,0,"NO COURSE DATA",0,0,
+slu-sweden,Sweden,0,0,0,"NO COURSE DATA",0,0,
+university-of-sharjah,UAE,0,0,0,"NO COURSE DATA",2,0,
+american-university-of-sharjah,UAE,0,0,0,"NO COURSE DATA",0,0,
+khalifa-university,UAE,0,0,0,"NO COURSE DATA",0,0,
+uae-university,UAE,0,0,0,"NO COURSE DATA",0,0,
+heriot-watt-university-dubai,UAE,64,33,31,"",0,0,2026-08-25
+middlesex-university-dubai,UAE,0,0,0,"NO COURSE DATA",0,0,
+murdoch-university-dubai,UAE,0,0,0,"NO COURSE DATA",0,0,
+uowd-dubai,UAE,0,0,0,"NO COURSE DATA",0,0,
+rit-dubai,UAE,0,0,0,"NO COURSE DATA",0,0,
+manipal-dubai,UAE,0,0,0,"NO COURSE DATA",0,0,
+bits-pilani-dubai,UAE,0,0,0,"NO COURSE DATA",0,0,
+canadian-university-dubai,UAE,0,0,0,"NO COURSE DATA",0,0,
+american-university-dubai,UAE,0,0,0,"NO COURSE DATA",0,0,
+amity-university-dubai,UAE,0,0,0,"NO COURSE DATA",0,0,
+sp-jain-dubai,UAE,0,0,0,"NO COURSE DATA",0,0,
+technical-university-of-denmark,Denmark,0,0,0,"NO COURSE DATA",2,0,
+university-of-copenhagen,Denmark,136,18,118,"",2,0,2026-07-01
+aarhus-university,Denmark,0,0,0,"NO COURSE DATA",0,0,
+copenhagen-business-school,Denmark,0,0,0,"NO COURSE DATA",3,0,
+aalborg-university,Denmark,0,0,0,"NO COURSE DATA",0,0,
+university-of-southern-denmark,Denmark,0,0,0,"NO COURSE DATA",1,0,
+it-university-of-copenhagen,Denmark,0,0,0,"NO COURSE DATA",0,0,
+roskilde-university,Denmark,0,0,0,"NO COURSE DATA",0,0,
+via-university-college,Denmark,0,0,0,"NO COURSE DATA",0,0,
+ucn-university-college,Denmark,0,0,0,"NO COURSE DATA",0,0,
+business-academy-aarhus,Denmark,0,0,0,"NO COURSE DATA",0,0,
+iba-kolding,Denmark,0,0,0,"NO COURSE DATA",0,0,
+zealand-business-technology,Denmark,0,0,0,"NO COURSE DATA",0,0,
+ea-business-academy,Denmark,0,0,0,"NO COURSE DATA",0,0,
+dania-academy,Denmark,0,0,0,"NO COURSE DATA",0,0,
+politecnico-di-milano,Italy,0,0,0,"NO COURSE DATA",4,0,
+politecnico-di-torino,Italy,0,0,0,"NO COURSE DATA",1,0,
+university-of-bologna,Italy,0,0,0,"NO COURSE DATA",0,0,
+sapienza-university-rome,Italy,0,0,0,"NO COURSE DATA",0,0,
+bocconi-university,Italy,22,8,14,"",1,0,2026-07-01
+university-of-milan,Italy,0,0,0,"NO COURSE DATA",0,0,
+university-of-padua,Italy,0,0,0,"NO COURSE DATA",1,0,
+university-of-naples,Italy,0,0,0,"NO COURSE DATA",1,0,
+ca-foscari-university-venice,Italy,0,0,0,"NO COURSE DATA",0,0,
+university-of-florence,Italy,0,0,0,"NO COURSE DATA",0,0,
+university-of-trento,Italy,0,0,0,"NO COURSE DATA",2,0,
+luiss-university,Italy,0,0,0,"NO COURSE DATA",1,0,
+university-of-pisa,Italy,0,0,0,"NO COURSE DATA",0,0,
+university-of-turin,Italy,0,0,0,"NO COURSE DATA",0,0,
+universita-cattolica,Italy,0,0,0,"NO COURSE DATA",0,0,
+university-of-barcelona,Spain,0,0,0,"NO COURSE DATA",0,0,
+autonomous-university-of-barcelona,Spain,0,0,0,"NO COURSE DATA",0,0,
+ie-university,Spain,0,0,0,"NO COURSE DATA",0,0,
+iese-business-school,Spain,0,0,0,"NO COURSE DATA",0,0,
+carlos-iii-university-madrid,Spain,0,0,0,"NO COURSE DATA",0,0,
+complutense-university-madrid,Spain,0,0,0,"NO COURSE DATA",0,0,
+pompeu-fabra-university,Spain,0,0,0,"NO COURSE DATA",0,0,
+autonomous-university-of-madrid,Spain,0,0,0,"NO COURSE DATA",0,0,
+esade-business-school,Spain,0,0,0,"NO COURSE DATA",0,0,
+university-of-navarra,Spain,0,0,0,"NO COURSE DATA",0,0,
+university-of-valencia,Spain,0,0,0,"NO COURSE DATA",0,0,
+eae-business-school,Spain,0,0,0,"NO COURSE DATA",0,0,
+university-of-salamanca,Spain,0,0,0,"NO COURSE DATA",0,0,
+university-of-granada,Spain,0,0,0,"NO COURSE DATA",0,0,
+university-of-seville,Spain,0,0,0,"NO COURSE DATA",0,0,
+university-of-wollongong,Australia,205,108,97,"",0,0,2026-08-22
+university-of-helsinki,Finland,112,5,107,"",0,0,2026-07-01
+london-south-bank-university,UK,100,0,100,"PG ONLY",0,0,2026-08-25
+leeds-beckett-university,UK,50,0,50,"PG ONLY",0,0,2026-08-25
+liverpool-john-moores-university,UK,100,50,50,"",0,0,2026-08-25
+sheffield-hallam-university,UK,50,0,50,"PG ONLY",0,0,2026-08-25
+university-of-chester,UK,40,0,40,"PG ONLY",0,0,2026-07-04

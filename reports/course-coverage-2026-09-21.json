@@ -1,0 +1,8737 @@
+{
+ "generated": "2026-09-21",
+ "universities": [
+  {
+   "slug": "mit-massachusetts",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "stanford-university",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "harvard-university",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 8,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "uc-berkeley",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "carnegie-mellon-university",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 2,
+   "clicks": 0,
+   "profileImpressions": 2
+  },
+  {
+   "slug": "georgia-tech",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 2,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "purdue-university",
+   "country": "USA",
+   "courses": 74,
+   "ug": 0,
+   "pg": 74,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY"
+   ],
+   "dates": [
+    {
+     "file": "data/purdue-courses.ts",
+     "git": "2026-08-25",
+     "header": null
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "northeastern-university",
+   "country": "USA",
+   "courses": 140,
+   "ug": 56,
+   "pg": 84,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/northeastern-courses.ts",
+     "git": "2026-08-25",
+     "header": null
+    }
+   ],
+   "impressions": 2,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "arizona-state-university",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "uiuc-illinois",
+   "country": "USA",
+   "courses": 133,
+   "ug": 0,
+   "pg": 133,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY"
+   ],
+   "dates": [
+    {
+     "file": "data/uiuc-courses.ts",
+     "git": "2026-08-25",
+     "header": null
+    }
+   ],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-oxford",
+   "country": "UK",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 1
+  },
+  {
+   "slug": "imperial-college-london",
+   "country": "UK",
+   "courses": 8,
+   "ug": 0,
+   "pg": 8,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY",
+    "THIN (8)"
+   ],
+   "dates": [
+    {
+     "file": "data/imperial-courses.ts",
+     "git": "2026-07-30",
+     "header": null
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-college-london",
+   "country": "UK",
+   "courses": 400,
+   "ug": 0,
+   "pg": 400,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY"
+   ],
+   "dates": [
+    {
+     "file": "data/ucl-courses.ts",
+     "git": "2026-08-25",
+     "header": null
+    }
+   ],
+   "impressions": 9,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-manchester",
+   "country": "UK",
+   "courses": 304,
+   "ug": 41,
+   "pg": 263,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/manchester-courses.ts",
+     "git": "2026-08-25",
+     "header": null
+    }
+   ],
+   "impressions": 2,
+   "clicks": 0,
+   "profileImpressions": 1
+  },
+  {
+   "slug": "university-of-edinburgh",
+   "country": "UK",
+   "courses": 629,
+   "ug": 349,
+   "pg": 280,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/edinburgh-courses.ts",
+     "git": "2026-08-25",
+     "header": null
+    }
+   ],
+   "impressions": 2,
+   "clicks": 0,
+   "profileImpressions": 1
+  },
+  {
+   "slug": "university-of-birmingham",
+   "country": "UK",
+   "courses": 603,
+   "ug": 219,
+   "pg": 384,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/bham-courses.ts",
+     "git": "2026-08-25",
+     "header": "2026-07-07"
+    }
+   ],
+   "impressions": 3,
+   "clicks": 0,
+   "profileImpressions": 1
+  },
+  {
+   "slug": "university-of-leeds",
+   "country": "UK",
+   "courses": 589,
+   "ug": 269,
+   "pg": 320,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/leeds-courses.ts",
+     "git": "2026-08-25",
+     "header": "2026-07-07"
+    }
+   ],
+   "impressions": 2,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "coventry-university",
+   "country": "UK",
+   "courses": 125,
+   "ug": 0,
+   "pg": 125,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY"
+   ],
+   "dates": [
+    {
+     "file": "data/coventry-courses.ts",
+     "git": "2026-08-25",
+     "header": null
+    }
+   ],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "middlesex-university",
+   "country": "UK",
+   "courses": 157,
+   "ug": 47,
+   "pg": 110,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/middlesex-courses.ts",
+     "git": "2026-08-25",
+     "header": null
+    }
+   ],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "brunel-university-london",
+   "country": "UK",
+   "courses": 2,
+   "ug": 0,
+   "pg": 2,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY",
+    "THIN (2)"
+   ],
+   "dates": [
+    {
+     "file": "data/brunel-w2-courses.ts",
+     "git": "2026-07-30",
+     "header": null
+    }
+   ],
+   "impressions": 2,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-hertfordshire",
+   "country": "UK",
+   "courses": 45,
+   "ug": 0,
+   "pg": 45,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY"
+   ],
+   "dates": [
+    {
+     "file": "data/hertfordshire-courses.ts",
+     "git": "2026-07-03",
+     "header": null
+    }
+   ],
+   "impressions": 3,
+   "clicks": 0,
+   "profileImpressions": 1
+  },
+  {
+   "slug": "anglia-ruskin-university",
+   "country": "UK",
+   "courses": 166,
+   "ug": 0,
+   "pg": 166,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY"
+   ],
+   "dates": [
+    {
+     "file": "data/aru-courses.ts",
+     "git": "2026-08-25",
+     "header": null
+    }
+   ],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-portsmouth",
+   "country": "UK",
+   "courses": 178,
+   "ug": 0,
+   "pg": 178,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY"
+   ],
+   "dates": [
+    {
+     "file": "data/portsmouth-courses.ts",
+     "git": "2026-08-25",
+     "header": null
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "northumbria-university",
+   "country": "UK",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "DATA FILE EMPTY"
+   ],
+   "dates": [
+    {
+     "file": "data/northumbria-courses.ts",
+     "git": "2026-08-25",
+     "header": null
+    }
+   ],
+   "impressions": 127,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "de-montfort-university",
+   "country": "UK",
+   "courses": 50,
+   "ug": 0,
+   "pg": 50,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY"
+   ],
+   "dates": [
+    {
+     "file": "data/demontfort-courses.ts",
+     "git": "2026-08-25",
+     "header": null
+    }
+   ],
+   "impressions": 2,
+   "clicks": 1,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "nottingham-trent-university",
+   "country": "UK",
+   "courses": 42,
+   "ug": 0,
+   "pg": 42,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY"
+   ],
+   "dates": [
+    {
+     "file": "data/nottinghamtrent-courses.ts",
+     "git": "2026-07-02",
+     "header": null
+    }
+   ],
+   "impressions": 5,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-west-london",
+   "country": "UK",
+   "courses": 45,
+   "ug": 0,
+   "pg": 45,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY"
+   ],
+   "dates": [
+    {
+     "file": "data/westlondon-courses.ts",
+     "git": "2026-07-03",
+     "header": null
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-toronto",
+   "country": "Canada",
+   "courses": 248,
+   "ug": 0,
+   "pg": 248,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY"
+   ],
+   "dates": [
+    {
+     "file": "data/uoft-courses.ts",
+     "git": "2026-08-25",
+     "header": null
+    }
+   ],
+   "impressions": 34,
+   "clicks": 0,
+   "profileImpressions": 4
+  },
+  {
+   "slug": "university-of-british-columbia",
+   "country": "Canada",
+   "courses": 212,
+   "ug": 107,
+   "pg": 105,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/ubc-courses.ts",
+     "git": "2026-08-25",
+     "header": "2026-06-30"
+    }
+   ],
+   "impressions": 9,
+   "clicks": 0,
+   "profileImpressions": 3
+  },
+  {
+   "slug": "university-of-waterloo",
+   "country": "Canada",
+   "courses": 92,
+   "ug": 0,
+   "pg": 92,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY"
+   ],
+   "dates": [
+    {
+     "file": "data/waterloo-courses.ts",
+     "git": "2026-08-25",
+     "header": null
+    }
+   ],
+   "impressions": 2,
+   "clicks": 0,
+   "profileImpressions": 1
+  },
+  {
+   "slug": "mcgill-university",
+   "country": "Canada",
+   "courses": 212,
+   "ug": 0,
+   "pg": 212,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY"
+   ],
+   "dates": [
+    {
+     "file": "data/mcgill-courses.ts",
+     "git": "2026-08-25",
+     "header": "2026-06-29"
+    }
+   ],
+   "impressions": 5,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-windsor",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 12,
+   "clicks": 0,
+   "profileImpressions": 6
+  },
+  {
+   "slug": "trent-university",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "conestoga-college",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 3,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "humber-college",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 3,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "sheridan-college",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "george-brown-college",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "algonquin-college",
+   "country": "Canada",
+   "courses": 176,
+   "ug": 155,
+   "pg": 21,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/algonquin-courses.ts",
+     "git": "2026-09-21",
+     "header": "2026-09-14"
+    }
+   ],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "mohawk-college",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "thompson-rivers-university",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-northern-bc",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "capilano-university",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 4,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "sait",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 4,
+   "clicks": 0,
+   "profileImpressions": 1
+  },
+  {
+   "slug": "concordia-university-edmonton",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "acadia-university",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "cape-breton-university",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-regina",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "saskatchewan-polytechnic",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "seneca-polytechnic",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 4,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "fanshawe-college",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "durham-college",
+   "country": "Canada",
+   "courses": 151,
+   "ug": 138,
+   "pg": 13,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/durham-courses.ts",
+     "git": "2026-09-19",
+     "header": "2026-09-14"
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "georgian-college",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "fleming-college",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "lambton-college",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "centennial-college",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "cambrian-college",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "st-clair-college",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "canadore-college",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "niagara-college",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "sault-college",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 1
+  },
+  {
+   "slug": "loyalist-college",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "lakehead-university",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "toronto-metropolitan-university",
+   "country": "Canada",
+   "courses": 121,
+   "ug": 80,
+   "pg": 41,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/tmu-courses.ts",
+     "git": "2026-09-19",
+     "header": "2026-09-14"
+    }
+   ],
+   "impressions": 2,
+   "clicks": 0,
+   "profileImpressions": 1
+  },
+  {
+   "slug": "university-of-ottawa",
+   "country": "Canada",
+   "courses": 492,
+   "ug": 181,
+   "pg": 311,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/uottawa-courses.ts",
+     "git": "2026-08-25",
+     "header": "2026-07-07"
+    }
+   ],
+   "impressions": 12,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "york-university",
+   "country": "Canada",
+   "courses": 106,
+   "ug": 106,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "UG ONLY"
+   ],
+   "dates": [
+    {
+     "file": "data/yorku-courses.ts",
+     "git": "2026-09-21",
+     "header": "2026-09-14"
+    }
+   ],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "ontario-tech-university",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 6,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "brock-university",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 3,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "wilfrid-laurier-university",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 6,
+   "clicks": 1,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "kwantlen-polytechnic-university",
+   "country": "Canada",
+   "courses": 247,
+   "ug": 244,
+   "pg": 3,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE ROUTE"
+   ],
+   "dates": [
+    {
+     "file": "data/kpu-courses.ts",
+     "git": "2026-09-14",
+     "header": "2026-09-14"
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "vancouver-community-college",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "langara-college",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "douglas-college",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "okanagan-college",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "royal-roads-university",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 3,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-canada-west",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "macewan-university",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-lethbridge",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "bow-valley-college",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-winnipeg",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 3,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "red-river-college-polytechnic",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 4,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "dalhousie-university",
+   "country": "Canada",
+   "courses": 311,
+   "ug": 112,
+   "pg": 199,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/dal-courses.ts",
+     "git": "2026-09-21",
+     "header": null
+    }
+   ],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "memorial-university",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-new-brunswick",
+   "country": "Canada",
+   "courses": 95,
+   "ug": 95,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "UG ONLY"
+   ],
+   "dates": [
+    {
+     "file": "data/unb-courses.ts",
+     "git": "2026-09-19",
+     "header": "2026-09-14"
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "upei",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "niagara-university-ontario",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "northern-college",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "confederation-college",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "la-cite-college",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "st-lawrence-college",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "college-boreal",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "north-island-college",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "college-of-the-rockies",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "selkirk-college",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "columbia-college-bc",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "justice-institute-bc",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "fdu-vancouver",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 1
+  },
+  {
+   "slug": "nyit-vancouver",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "norquest-college",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "red-deer-polytechnic",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "grande-prairie-regional-college",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "lakeland-college",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "medicine-hat-college",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "olds-college",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "portage-college",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "assiniboine-community-college",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "brandon-university",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "nova-scotia-community-college",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "first-nations-university",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "universite-de-moncton",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "mount-allison-university",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "st-thomas-university",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "nbcc",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "holland-college",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-alberta",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 3,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-calgary",
+   "country": "Canada",
+   "courses": 97,
+   "ug": 0,
+   "pg": 97,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY"
+   ],
+   "dates": [
+    {
+     "file": "data/ucalgary-courses.ts",
+     "git": "2026-08-25",
+     "header": "2026-06-29"
+    }
+   ],
+   "impressions": 12,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "simon-fraser-university",
+   "country": "Canada",
+   "courses": 139,
+   "ug": 139,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "UG ONLY"
+   ],
+   "dates": [
+    {
+     "file": "data/sfu-courses.ts",
+     "git": "2026-08-25",
+     "header": "2026-07-07"
+    }
+   ],
+   "impressions": 18,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "mcmaster-university",
+   "country": "Canada",
+   "courses": 86,
+   "ug": 0,
+   "pg": 86,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY"
+   ],
+   "dates": [
+    {
+     "file": "data/mcmaster-courses.ts",
+     "git": "2026-08-25",
+     "header": null
+    }
+   ],
+   "impressions": 8,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "queens-university",
+   "country": "Canada",
+   "courses": 91,
+   "ug": 44,
+   "pg": 47,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/queens-courses.ts",
+     "git": "2026-08-25",
+     "header": "2026-06-30"
+    }
+   ],
+   "impressions": 7,
+   "clicks": 0,
+   "profileImpressions": 1
+  },
+  {
+   "slug": "western-university",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-victoria",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-manitoba",
+   "country": "Canada",
+   "courses": 340,
+   "ug": 200,
+   "pg": 140,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/umanitoba-courses.ts",
+     "git": "2026-09-21",
+     "header": "2026-07-07"
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-saskatchewan",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "carleton-university",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-guelph",
+   "country": "Canada",
+   "courses": 198,
+   "ug": 198,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "UG ONLY"
+   ],
+   "dates": [
+    {
+     "file": "data/guelph-courses.ts",
+     "git": "2026-09-19",
+     "header": "2026-09-14"
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "concordia-university",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "mount-royal-university",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "vancouver-island-university",
+   "country": "Canada",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-melbourne",
+   "country": "Australia",
+   "courses": 463,
+   "ug": 38,
+   "pg": 425,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/uom-courses.ts",
+     "git": "2026-08-22",
+     "header": "2026-06-29"
+    }
+   ],
+   "impressions": 9,
+   "clicks": 0,
+   "profileImpressions": 5
+  },
+  {
+   "slug": "unsw-sydney",
+   "country": "Australia",
+   "courses": 3,
+   "ug": 0,
+   "pg": 3,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY",
+    "THIN (3)"
+   ],
+   "dates": [
+    {
+     "file": "data/unsw-w2-courses.ts",
+     "git": "2026-07-30",
+     "header": null
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "monash-university",
+   "country": "Australia",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "uts-sydney",
+   "country": "Australia",
+   "courses": 369,
+   "ug": 181,
+   "pg": 188,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/uts-courses.ts",
+     "git": "2026-08-17",
+     "header": null
+    }
+   ],
+   "impressions": 12,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "charles-darwin-university",
+   "country": "Australia",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "DATA FILE EMPTY"
+   ],
+   "dates": [
+    {
+     "file": "data/cdu-courses.ts",
+     "git": "2026-08-24",
+     "header": null
+    }
+   ],
+   "impressions": 17,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "swinburne-university",
+   "country": "Australia",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "DATA FILE EMPTY"
+   ],
+   "dates": [
+    {
+     "file": "data/swinburne-courses.ts",
+     "git": "2026-08-25",
+     "header": null
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "kaplan-business-school",
+   "country": "Australia",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "DATA FILE EMPTY"
+   ],
+   "dates": [
+    {
+     "file": "data/kaplan-courses.ts",
+     "git": "2026-08-24",
+     "header": null
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "victoria-university-sydney",
+   "country": "Australia",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "DATA FILE EMPTY"
+   ],
+   "dates": [
+    {
+     "file": "data/vu-sydney-courses.ts",
+     "git": "2026-08-24",
+     "header": null
+    }
+   ],
+   "impressions": 4,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "cquniversity",
+   "country": "Australia",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "jcu-brisbane",
+   "country": "Australia",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 3,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "murdoch-university",
+   "country": "Australia",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "DATA FILE EMPTY"
+   ],
+   "dates": [
+    {
+     "file": "data/murdoch-courses.ts",
+     "git": "2026-08-24",
+     "header": null
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "flinders-university",
+   "country": "Australia",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "DATA FILE EMPTY"
+   ],
+   "dates": [
+    {
+     "file": "data/flinders-courses.ts",
+     "git": "2026-08-24",
+     "header": null
+    }
+   ],
+   "impressions": 7,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "griffith-university",
+   "country": "Australia",
+   "courses": 373,
+   "ug": 212,
+   "pg": 161,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/griffith-courses.ts",
+     "git": "2026-08-22",
+     "header": "2026-07-07"
+    }
+   ],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "la-trobe-university",
+   "country": "Australia",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "technical-university-of-munich",
+   "country": "Germany",
+   "courses": 193,
+   "ug": 51,
+   "pg": 142,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/tu-munich-courses.ts",
+     "git": "2026-08-25",
+     "header": null
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "rwth-aachen-university",
+   "country": "Germany",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "trinity-college-dublin",
+   "country": "Ireland",
+   "courses": 465,
+   "ug": 117,
+   "pg": 348,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/tcd-courses.ts",
+     "git": "2026-08-25",
+     "header": "2026-07-01"
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "national-university-of-singapore",
+   "country": "Singapore",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "nanyang-technological-university",
+   "country": "Singapore",
+   "courses": 84,
+   "ug": 34,
+   "pg": 50,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/ntu-courses.ts",
+     "git": "2026-08-25",
+     "header": "2026-06-30"
+    }
+   ],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-auckland",
+   "country": "New Zealand",
+   "courses": 527,
+   "ug": 337,
+   "pg": 190,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/auckland-courses.ts",
+     "git": "2026-09-10",
+     "header": "2026-06-30"
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "hec-paris",
+   "country": "France",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "tu-delft",
+   "country": "Netherlands",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 4,
+   "clicks": 0,
+   "profileImpressions": 4
+  },
+  {
+   "slug": "kings-college-london",
+   "country": "UK",
+   "courses": 389,
+   "ug": 152,
+   "pg": 237,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/kcl-courses.ts",
+     "git": "2026-08-25",
+     "header": "2026-06-30"
+    }
+   ],
+   "impressions": 8,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "london-school-of-economics",
+   "country": "UK",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 4,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-bristol",
+   "country": "UK",
+   "courses": 189,
+   "ug": 34,
+   "pg": 155,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/bristol-courses.ts",
+     "git": "2026-08-25",
+     "header": null
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-warwick",
+   "country": "UK",
+   "courses": 208,
+   "ug": 10,
+   "pg": 198,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/warwick-courses.ts",
+     "git": "2026-08-25",
+     "header": null
+    }
+   ],
+   "impressions": 9,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "durham-university",
+   "country": "UK",
+   "courses": 314,
+   "ug": 144,
+   "pg": 170,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/durhamuni-courses.ts",
+     "git": "2026-08-25",
+     "header": "2026-06-30"
+    }
+   ],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-glasgow",
+   "country": "UK",
+   "courses": 282,
+   "ug": 0,
+   "pg": 282,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY"
+   ],
+   "dates": [
+    {
+     "file": "data/glasgow-courses.ts",
+     "git": "2026-08-25",
+     "header": null
+    }
+   ],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-sheffield",
+   "country": "UK",
+   "courses": 127,
+   "ug": 0,
+   "pg": 127,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY"
+   ],
+   "dates": [
+    {
+     "file": "data/sheffield-courses.ts",
+     "git": "2026-08-25",
+     "header": null
+    }
+   ],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-southampton",
+   "country": "UK",
+   "courses": 472,
+   "ug": 206,
+   "pg": 266,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/soton-courses.ts",
+     "git": "2026-08-25",
+     "header": "2026-06-13"
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-exeter",
+   "country": "UK",
+   "courses": 394,
+   "ug": 177,
+   "pg": 217,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/exeter-courses.ts",
+     "git": "2026-08-25",
+     "header": "2026-06-29"
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-bath",
+   "country": "UK",
+   "courses": 701,
+   "ug": 278,
+   "pg": 423,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/bath-courses.ts",
+     "git": "2026-08-25",
+     "header": "2026-06-13"
+    }
+   ],
+   "impressions": 4,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-nottingham",
+   "country": "UK",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-leicester",
+   "country": "UK",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "newcastle-university",
+   "country": "UK",
+   "courses": 228,
+   "ug": 0,
+   "pg": 228,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY"
+   ],
+   "dates": [
+    {
+     "file": "data/ncl-courses.ts",
+     "git": "2026-08-25",
+     "header": null
+    }
+   ],
+   "impressions": 2,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "queen-mary-university-london",
+   "country": "UK",
+   "courses": 10,
+   "ug": 0,
+   "pg": 10,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY",
+    "THIN (10)"
+   ],
+   "dates": [
+    {
+     "file": "data/qmul-courses.ts",
+     "git": "2026-07-02",
+     "header": null
+    }
+   ],
+   "impressions": 7,
+   "clicks": 0,
+   "profileImpressions": 2
+  },
+  {
+   "slug": "lancaster-university",
+   "country": "UK",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-york",
+   "country": "UK",
+   "courses": 218,
+   "ug": 0,
+   "pg": 218,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY"
+   ],
+   "dates": [
+    {
+     "file": "data/yorkuni-courses.ts",
+     "git": "2026-08-25",
+     "header": null
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "cardiff-university",
+   "country": "UK",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-aberdeen",
+   "country": "UK",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-surrey",
+   "country": "UK",
+   "courses": 173,
+   "ug": 17,
+   "pg": 156,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/surrey-courses.ts",
+     "git": "2026-08-25",
+     "header": "2026-07-01"
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "loughborough-university",
+   "country": "UK",
+   "courses": 236,
+   "ug": 41,
+   "pg": 195,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/lboro-courses.ts",
+     "git": "2026-08-25",
+     "header": "2026-06-29"
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-reading",
+   "country": "UK",
+   "courses": 130,
+   "ug": 71,
+   "pg": 59,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/rdg-courses.ts",
+     "git": "2026-08-25",
+     "header": "2026-07-01"
+    }
+   ],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-kent",
+   "country": "UK",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-essex",
+   "country": "UK",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "city-university-london",
+   "country": "UK",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "heriot-watt-university",
+   "country": "UK",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-strathclyde",
+   "country": "UK",
+   "courses": 561,
+   "ug": 0,
+   "pg": 561,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY"
+   ],
+   "dates": [
+    {
+     "file": "data/strath-courses.ts",
+     "git": "2026-09-10",
+     "header": "2026-06-29"
+    }
+   ],
+   "impressions": 2,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-dundee",
+   "country": "UK",
+   "courses": 176,
+   "ug": 0,
+   "pg": 176,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY"
+   ],
+   "dates": [
+    {
+     "file": "data/dundee-courses.ts",
+     "git": "2026-08-25",
+     "header": null
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "swansea-university",
+   "country": "UK",
+   "courses": 95,
+   "ug": 0,
+   "pg": 95,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY"
+   ],
+   "dates": [
+    {
+     "file": "data/swansea-courses.ts",
+     "git": "2026-08-25",
+     "header": null
+    }
+   ],
+   "impressions": 3,
+   "clicks": 0,
+   "profileImpressions": 1
+  },
+  {
+   "slug": "aston-university",
+   "country": "UK",
+   "courses": 6,
+   "ug": 0,
+   "pg": 6,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY",
+    "THIN (6)"
+   ],
+   "dates": [
+    {
+     "file": "data/aston-courses.ts",
+     "git": "2026-07-02",
+     "header": null
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "goldsmiths-university-london",
+   "country": "UK",
+   "courses": 33,
+   "ug": 25,
+   "pg": 8,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/goldsmiths-courses.ts",
+     "git": "2026-07-30",
+     "header": null
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "royal-holloway-university-london",
+   "country": "UK",
+   "courses": 136,
+   "ug": 57,
+   "pg": 79,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/rhul-courses.ts",
+     "git": "2026-08-25",
+     "header": null
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-sussex",
+   "country": "UK",
+   "courses": 56,
+   "ug": 0,
+   "pg": 56,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY"
+   ],
+   "dates": [
+    {
+     "file": "data/sussex-w2-courses.ts",
+     "git": "2026-08-25",
+     "header": null
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "birmingham-city-university",
+   "country": "UK",
+   "courses": 5,
+   "ug": 3,
+   "pg": 2,
+   "unknown": 0,
+   "flags": [
+    "THIN (5)"
+   ],
+   "dates": [
+    {
+     "file": "data/bcu-w2-courses.ts",
+     "git": "2026-08-24",
+     "header": null
+    }
+   ],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "manchester-metropolitan-university",
+   "country": "UK",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-west-of-england",
+   "country": "UK",
+   "courses": 41,
+   "ug": 0,
+   "pg": 41,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY"
+   ],
+   "dates": [
+    {
+     "file": "data/uwe-courses.ts",
+     "git": "2026-07-04",
+     "header": null
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "oxford-brookes-university",
+   "country": "UK",
+   "courses": 85,
+   "ug": 0,
+   "pg": 85,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY"
+   ],
+   "dates": [
+    {
+     "file": "data/brookes-courses.ts",
+     "git": "2026-08-25",
+     "header": null
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "kingston-university-london",
+   "country": "UK",
+   "courses": 60,
+   "ug": 0,
+   "pg": 60,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY"
+   ],
+   "dates": [
+    {
+     "file": "data/kingston-courses.ts",
+     "git": "2026-08-25",
+     "header": null
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-east-london",
+   "country": "UK",
+   "courses": 159,
+   "ug": 0,
+   "pg": 159,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY"
+   ],
+   "dates": [
+    {
+     "file": "data/uel-courses.ts",
+     "git": "2026-08-25",
+     "header": null
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-greenwich",
+   "country": "UK",
+   "courses": 20,
+   "ug": 0,
+   "pg": 20,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY"
+   ],
+   "dates": [
+    {
+     "file": "data/greenwich-courses.ts",
+     "git": "2026-07-30",
+     "header": null
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "london-metropolitan-university",
+   "country": "UK",
+   "courses": 49,
+   "ug": 0,
+   "pg": 49,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY"
+   ],
+   "dates": [
+    {
+     "file": "data/londonmet-courses.ts",
+     "git": "2026-07-04",
+     "header": null
+    }
+   ],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-salford",
+   "country": "UK",
+   "courses": 7,
+   "ug": 7,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "UG ONLY",
+    "THIN (7)"
+   ],
+   "dates": [
+    {
+     "file": "data/salford-w2-courses.ts",
+     "git": "2026-07-30",
+     "header": null
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-plymouth",
+   "country": "UK",
+   "courses": 1,
+   "ug": 0,
+   "pg": 1,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY",
+    "THIN (1)"
+   ],
+   "dates": [
+    {
+     "file": "data/plymouth-w2-courses.ts",
+     "git": "2026-07-30",
+     "header": null
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-brighton",
+   "country": "UK",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "bournemouth-university",
+   "country": "UK",
+   "courses": 45,
+   "ug": 0,
+   "pg": 45,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY"
+   ],
+   "dates": [
+    {
+     "file": "data/bmouth-courses.ts",
+     "git": "2026-08-22",
+     "header": null
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-central-lancashire",
+   "country": "UK",
+   "courses": 11,
+   "ug": 0,
+   "pg": 11,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY",
+    "THIN (11)"
+   ],
+   "dates": [
+    {
+     "file": "data/uclan-courses.ts",
+     "git": "2026-07-30",
+     "header": null
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-huddersfield",
+   "country": "UK",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-bradford",
+   "country": "UK",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-sunderland",
+   "country": "UK",
+   "courses": 129,
+   "ug": 49,
+   "pg": 80,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/sunderland-courses.ts",
+     "git": "2026-08-25",
+     "header": null
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "teesside-university",
+   "country": "UK",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-derby",
+   "country": "UK",
+   "courses": 75,
+   "ug": 27,
+   "pg": 48,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/derby-courses.ts",
+     "git": "2026-08-22",
+     "header": null
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-lincoln",
+   "country": "UK",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-wolverhampton",
+   "country": "UK",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "staffordshire-university",
+   "country": "UK",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-bedfordshire",
+   "country": "UK",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-east-anglia",
+   "country": "UK",
+   "courses": 104,
+   "ug": 59,
+   "pg": 45,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/uea-courses.ts",
+     "git": "2026-08-22",
+     "header": null
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-stirling",
+   "country": "UK",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "robert-gordon-university",
+   "country": "UK",
+   "courses": 91,
+   "ug": 0,
+   "pg": 91,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY"
+   ],
+   "dates": [
+    {
+     "file": "data/rgu-courses.ts",
+     "git": "2026-08-25",
+     "header": null
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-south-wales",
+   "country": "UK",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-the-arts-london",
+   "country": "UK",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-roehampton",
+   "country": "UK",
+   "courses": 36,
+   "ug": 3,
+   "pg": 33,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/roeham-courses.ts",
+     "git": "2026-08-22",
+     "header": null
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-worcester",
+   "country": "UK",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-gloucestershire",
+   "country": "UK",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "DATA FILE EMPTY"
+   ],
+   "dates": [
+    {
+     "file": "data/glos-courses.ts",
+     "git": "2026-07-04",
+     "header": null
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-suffolk",
+   "country": "UK",
+   "courses": 40,
+   "ug": 0,
+   "pg": 40,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY"
+   ],
+   "dates": [
+    {
+     "file": "data/suffolk-courses.ts",
+     "git": "2026-08-22",
+     "header": null
+    }
+   ],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-college-dublin",
+   "country": "Ireland",
+   "courses": 87,
+   "ug": 49,
+   "pg": 38,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/ucd-courses.ts",
+     "git": "2026-08-25",
+     "header": "2026-06-30"
+    }
+   ],
+   "impressions": 7,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-college-cork",
+   "country": "Ireland",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 9,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-galway",
+   "country": "Ireland",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "dublin-city-university",
+   "country": "Ireland",
+   "courses": 217,
+   "ug": 12,
+   "pg": 205,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/dcu-courses.ts",
+     "git": "2026-08-25",
+     "header": null
+    }
+   ],
+   "impressions": 7,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "maynooth-university",
+   "country": "Ireland",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "technological-university-dublin",
+   "country": "Ireland",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "rcsi-university-of-medicine",
+   "country": "Ireland",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "dublin-business-school",
+   "country": "Ireland",
+   "courses": 41,
+   "ug": 19,
+   "pg": 22,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/dbs-courses.ts",
+     "git": "2026-07-30",
+     "header": null
+    }
+   ],
+   "impressions": 3,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "griffith-college-dublin",
+   "country": "Ireland",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "national-college-of-ireland",
+   "country": "Ireland",
+   "courses": 1,
+   "ug": 0,
+   "pg": 1,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY",
+    "THIN (1)"
+   ],
+   "dates": [
+    {
+     "file": "data/nci-courses.ts",
+     "git": "2026-07-30",
+     "header": null
+    }
+   ],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "atlantic-technological-university",
+   "country": "Ireland",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 2,
+   "clicks": 0,
+   "profileImpressions": 2
+  },
+  {
+   "slug": "south-east-technological-university",
+   "country": "Ireland",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 5,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "munster-technological-university",
+   "country": "Ireland",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 7,
+   "clicks": 0,
+   "profileImpressions": 1
+  },
+  {
+   "slug": "university-of-limerick",
+   "country": "Ireland",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-queensland",
+   "country": "Australia",
+   "courses": 120,
+   "ug": 107,
+   "pg": 13,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/uq-courses.ts",
+     "git": "2026-08-25",
+     "header": "2026-06-29"
+    }
+   ],
+   "impressions": 7,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "australian-national-university",
+   "country": "Australia",
+   "courses": 344,
+   "ug": 91,
+   "pg": 253,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/anu-courses.ts",
+     "git": "2026-08-22",
+     "header": "2026-07-08"
+    }
+   ],
+   "impressions": 11,
+   "clicks": 0,
+   "profileImpressions": 1
+  },
+  {
+   "slug": "university-of-sydney",
+   "country": "Australia",
+   "courses": 514,
+   "ug": 133,
+   "pg": 381,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/usyd-courses.ts",
+     "git": "2026-08-22",
+     "header": "2026-06-29"
+    }
+   ],
+   "impressions": 3,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-western-australia",
+   "country": "Australia",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 7,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-adelaide",
+   "country": "Australia",
+   "courses": 523,
+   "ug": 290,
+   "pg": 233,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/adelaide-courses.ts",
+     "git": "2026-08-22",
+     "header": null
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "macquarie-university",
+   "country": "Australia",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "rmit-university",
+   "country": "Australia",
+   "courses": 471,
+   "ug": 110,
+   "pg": 361,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/rmit-courses.ts",
+     "git": "2026-08-24",
+     "header": "2026-06-29"
+    }
+   ],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-tasmania",
+   "country": "Australia",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 5,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-sunshine-coast",
+   "country": "Australia",
+   "courses": 46,
+   "ug": 45,
+   "pg": 1,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/unisc-courses.ts",
+     "git": "2026-07-30",
+     "header": null
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "australian-catholic-university",
+   "country": "Australia",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 6,
+   "clicks": 0,
+   "profileImpressions": 1
+  },
+  {
+   "slug": "edith-cowan-university",
+   "country": "Australia",
+   "courses": 242,
+   "ug": 127,
+   "pg": 115,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/ecu-courses.ts",
+     "git": "2026-08-22",
+     "header": "2026-07-09"
+    }
+   ],
+   "impressions": 10,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "curtin-university",
+   "country": "Australia",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "deakin-university",
+   "country": "Australia",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-newcastle-australia",
+   "country": "Australia",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-new-england-australia",
+   "country": "Australia",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 2,
+   "clicks": 0,
+   "profileImpressions": 1
+  },
+  {
+   "slug": "university-of-southern-queensland",
+   "country": "Australia",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "western-sydney-university",
+   "country": "Australia",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 4,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-south-australia",
+   "country": "Australia",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-canberra",
+   "country": "Australia",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 3,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "bond-university",
+   "country": "Australia",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "southern-cross-university",
+   "country": "Australia",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "federation-university",
+   "country": "Australia",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "torrens-university-australia",
+   "country": "Australia",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 7,
+   "clicks": 0,
+   "profileImpressions": 7
+  },
+  {
+   "slug": "holmes-institute",
+   "country": "Australia",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "think-education-australia",
+   "country": "Australia",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "navitas-australia",
+   "country": "Australia",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "lmu-munich",
+   "country": "Germany",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 5,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "heidelberg-university",
+   "country": "Germany",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "humboldt-university-berlin",
+   "country": "Germany",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 8,
+   "clicks": 0,
+   "profileImpressions": 3
+  },
+  {
+   "slug": "free-university-berlin",
+   "country": "Germany",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "technical-university-berlin",
+   "country": "Germany",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-hamburg",
+   "country": "Germany",
+   "courses": 46,
+   "ug": 0,
+   "pg": 46,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY"
+   ],
+   "dates": [
+    {
+     "file": "data/uham-courses.ts",
+     "git": "2026-07-01",
+     "header": null
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "goethe-university-frankfurt",
+   "country": "Germany",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-stuttgart",
+   "country": "Germany",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "karlsruhe-institute-of-technology",
+   "country": "Germany",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 3,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-cologne",
+   "country": "Germany",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-bonn",
+   "country": "Germany",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "tu-dresden",
+   "country": "Germany",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-mannheim",
+   "country": "Germany",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "victoria-university-wellington",
+   "country": "New Zealand",
+   "courses": 150,
+   "ug": 26,
+   "pg": 124,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/vuw-courses.ts",
+     "git": "2026-08-25",
+     "header": null
+    }
+   ],
+   "impressions": 2,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-canterbury",
+   "country": "New Zealand",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 4,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-otago",
+   "country": "New Zealand",
+   "courses": 74,
+   "ug": 47,
+   "pg": 27,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/otago-courses.ts",
+     "git": "2026-08-25",
+     "header": "2026-06-30"
+    }
+   ],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "massey-university",
+   "country": "New Zealand",
+   "courses": 176,
+   "ug": 57,
+   "pg": 117,
+   "unknown": 2,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/massey-courses.ts",
+     "git": "2026-08-25",
+     "header": "2026-07-08"
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "auckland-university-of-technology",
+   "country": "New Zealand",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-waikato",
+   "country": "New Zealand",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "lincoln-university-new-zealand",
+   "country": "New Zealand",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 3,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "yale-university",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "princeton-university",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 2,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "columbia-university",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "cornell-university",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "dartmouth-college",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "brown-university",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-pennsylvania",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "caltech",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "johns-hopkins-university",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 2,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "duke-university",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "northwestern-university",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "vanderbilt-university",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "emory-university",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "rice-university",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "georgetown-university",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "notre-dame-university",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "tufts-university",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "boston-university",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "new-york-university",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-southern-california",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "fordham-university",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "ucla",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-michigan",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "ut-austin",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 5,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "unc-chapel-hill",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-washington",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "ohio-state-university",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "penn-state-university",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-florida",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "uc-san-diego",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "uc-davis",
+   "country": "USA",
+   "courses": 100,
+   "ug": 0,
+   "pg": 100,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY"
+   ],
+   "dates": [
+    {
+     "file": "data/ucdavis-courses.ts",
+     "git": "2026-08-25",
+     "header": null
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "uc-santa-barbara",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "virginia-tech",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-maryland",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-wisconsin-madison",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-minnesota",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "michigan-state-university",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "indiana-university",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-colorado-boulder",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-pittsburgh",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "texas-am-university",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "rutgers-university",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "stony-brook-university",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "suny-buffalo",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "illinois-tech",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 1,
+   "clicks": 1,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "depaul-university",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-dayton",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "clark-university",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "wpi",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "pace-university",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-bridgeport",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "fairleigh-dickinson-university",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "webster-university",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "george-washington-university",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "american-university",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "drexel-university",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "temple-university",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-connecticut",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "rochester-institute-of-technology",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "stevens-institute-of-technology",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "rensselaer-polytechnic",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 4,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-arizona",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "colorado-state-university",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-utah",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-rochester",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "case-western-reserve-university",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 2,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "nc-state-university",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "iowa-state-university",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-cincinnati",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-delaware",
+   "country": "USA",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "singapore-management-university",
+   "country": "Singapore",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "sutd",
+   "country": "Singapore",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "singapore-institute-of-technology",
+   "country": "Singapore",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "james-cook-university-singapore",
+   "country": "Singapore",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "psb-academy",
+   "country": "Singapore",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "kaplan-singapore",
+   "country": "Singapore",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "mdis-singapore",
+   "country": "Singapore",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "curtin-singapore",
+   "country": "Singapore",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "rmit-singapore",
+   "country": "Singapore",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "murdoch-university-singapore",
+   "country": "Singapore",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "sim-singapore",
+   "country": "Singapore",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "embry-riddle-singapore",
+   "country": "Singapore",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "sp-jain-singapore",
+   "country": "Singapore",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "sorbonne-university",
+   "country": "France",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "sciences-po-paris",
+   "country": "France",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "ecole-polytechnique",
+   "country": "France",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-paris-saclay",
+   "country": "France",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "insead",
+   "country": "France",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-grenoble-alpes",
+   "country": "France",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 2,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-lyon",
+   "country": "France",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-bordeaux",
+   "country": "France",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "essec-business-school",
+   "country": "France",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "emlyon-business-school",
+   "country": "France",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-strasbourg",
+   "country": "France",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-montpellier",
+   "country": "France",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-toulouse",
+   "country": "France",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "aix-marseille-university",
+   "country": "France",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-amsterdam",
+   "country": "Netherlands",
+   "courses": 169,
+   "ug": 25,
+   "pg": 144,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/university-of-amsterdam-courses.ts",
+     "git": "2026-08-25",
+     "header": null
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "leiden-university",
+   "country": "Netherlands",
+   "courses": 58,
+   "ug": 17,
+   "pg": 41,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/leiden-university-courses.ts",
+     "git": "2026-08-25",
+     "header": "2026-07-01"
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "utrecht-university",
+   "country": "Netherlands",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "erasmus-university-rotterdam",
+   "country": "Netherlands",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "maastricht-university",
+   "country": "Netherlands",
+   "courses": 104,
+   "ug": 25,
+   "pg": 79,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/maastricht-university-courses.ts",
+     "git": "2026-08-25",
+     "header": null
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "vrije-universiteit-amsterdam",
+   "country": "Netherlands",
+   "courses": 133,
+   "ug": 0,
+   "pg": 133,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY"
+   ],
+   "dates": [
+    {
+     "file": "data/vrije-universiteit-amsterdam-courses.ts",
+     "git": "2026-08-25",
+     "header": null
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "tu-eindhoven",
+   "country": "Netherlands",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-groningen",
+   "country": "Netherlands",
+   "courses": 355,
+   "ug": 94,
+   "pg": 261,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/university-of-groningen-courses.ts",
+     "git": "2026-08-25",
+     "header": "2026-07-01"
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "radboud-university",
+   "country": "Netherlands",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "wageningen-university",
+   "country": "Netherlands",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-twente",
+   "country": "Netherlands",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "tilburg-university",
+   "country": "Netherlands",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "han-university",
+   "country": "Netherlands",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "amsterdam-university-of-applied-sciences",
+   "country": "Netherlands",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "kth-royal-institute-of-technology",
+   "country": "Sweden",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "lund-university",
+   "country": "Sweden",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "uppsala-university",
+   "country": "Sweden",
+   "courses": 112,
+   "ug": 0,
+   "pg": 112,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY"
+   ],
+   "dates": [
+    {
+     "file": "data/uppsala-university-courses.ts",
+     "git": "2026-08-25",
+     "header": null
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "stockholm-university",
+   "country": "Sweden",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "chalmers-university",
+   "country": "Sweden",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-gothenburg",
+   "country": "Sweden",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "linkoping-university",
+   "country": "Sweden",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "umea-university",
+   "country": "Sweden",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "stockholm-school-of-economics",
+   "country": "Sweden",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "karolinska-institutet",
+   "country": "Sweden",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "jonkoping-university",
+   "country": "Sweden",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "malardalen-university",
+   "country": "Sweden",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "mid-sweden-university",
+   "country": "Sweden",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "halmstad-university",
+   "country": "Sweden",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "slu-sweden",
+   "country": "Sweden",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-sharjah",
+   "country": "UAE",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 2,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "american-university-of-sharjah",
+   "country": "UAE",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "khalifa-university",
+   "country": "UAE",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "uae-university",
+   "country": "UAE",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "heriot-watt-university-dubai",
+   "country": "UAE",
+   "courses": 64,
+   "ug": 33,
+   "pg": 31,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/heriot-watt-university-dubai-courses.ts",
+     "git": "2026-08-25",
+     "header": null
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "middlesex-university-dubai",
+   "country": "UAE",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "murdoch-university-dubai",
+   "country": "UAE",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "uowd-dubai",
+   "country": "UAE",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "rit-dubai",
+   "country": "UAE",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "manipal-dubai",
+   "country": "UAE",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "bits-pilani-dubai",
+   "country": "UAE",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "canadian-university-dubai",
+   "country": "UAE",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "american-university-dubai",
+   "country": "UAE",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "amity-university-dubai",
+   "country": "UAE",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "sp-jain-dubai",
+   "country": "UAE",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "technical-university-of-denmark",
+   "country": "Denmark",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 2,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-copenhagen",
+   "country": "Denmark",
+   "courses": 136,
+   "ug": 18,
+   "pg": 118,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/university-of-copenhagen-courses.ts",
+     "git": "2026-08-25",
+     "header": "2026-07-01"
+    }
+   ],
+   "impressions": 2,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "aarhus-university",
+   "country": "Denmark",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "copenhagen-business-school",
+   "country": "Denmark",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 3,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "aalborg-university",
+   "country": "Denmark",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-southern-denmark",
+   "country": "Denmark",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "it-university-of-copenhagen",
+   "country": "Denmark",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "roskilde-university",
+   "country": "Denmark",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "via-university-college",
+   "country": "Denmark",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "ucn-university-college",
+   "country": "Denmark",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "business-academy-aarhus",
+   "country": "Denmark",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "iba-kolding",
+   "country": "Denmark",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "zealand-business-technology",
+   "country": "Denmark",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "ea-business-academy",
+   "country": "Denmark",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "dania-academy",
+   "country": "Denmark",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "politecnico-di-milano",
+   "country": "Italy",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 4,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "politecnico-di-torino",
+   "country": "Italy",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-bologna",
+   "country": "Italy",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "sapienza-university-rome",
+   "country": "Italy",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "bocconi-university",
+   "country": "Italy",
+   "courses": 22,
+   "ug": 8,
+   "pg": 14,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/bocconi-university-courses.ts",
+     "git": "2026-07-02",
+     "header": "2026-07-01"
+    }
+   ],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-milan",
+   "country": "Italy",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-padua",
+   "country": "Italy",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-naples",
+   "country": "Italy",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "ca-foscari-university-venice",
+   "country": "Italy",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-florence",
+   "country": "Italy",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-trento",
+   "country": "Italy",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 2,
+   "clicks": 0,
+   "profileImpressions": 2
+  },
+  {
+   "slug": "luiss-university",
+   "country": "Italy",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 1,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-pisa",
+   "country": "Italy",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-turin",
+   "country": "Italy",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "universita-cattolica",
+   "country": "Italy",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-barcelona",
+   "country": "Spain",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "autonomous-university-of-barcelona",
+   "country": "Spain",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "ie-university",
+   "country": "Spain",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "iese-business-school",
+   "country": "Spain",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "carlos-iii-university-madrid",
+   "country": "Spain",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "complutense-university-madrid",
+   "country": "Spain",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "pompeu-fabra-university",
+   "country": "Spain",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "autonomous-university-of-madrid",
+   "country": "Spain",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "esade-business-school",
+   "country": "Spain",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-navarra",
+   "country": "Spain",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-valencia",
+   "country": "Spain",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "eae-business-school",
+   "country": "Spain",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-salamanca",
+   "country": "Spain",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-granada",
+   "country": "Spain",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-seville",
+   "country": "Spain",
+   "courses": 0,
+   "ug": 0,
+   "pg": 0,
+   "unknown": 0,
+   "flags": [
+    "NO COURSE DATA"
+   ],
+   "dates": [],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-wollongong",
+   "country": "Australia",
+   "courses": 205,
+   "ug": 108,
+   "pg": 97,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/uow-courses.ts",
+     "git": "2026-08-22",
+     "header": null
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-helsinki",
+   "country": "Finland",
+   "courses": 112,
+   "ug": 5,
+   "pg": 107,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/university-of-helsinki-courses.ts",
+     "git": "2026-08-25",
+     "header": "2026-07-01"
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "london-south-bank-university",
+   "country": "UK",
+   "courses": 100,
+   "ug": 0,
+   "pg": 100,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY"
+   ],
+   "dates": [
+    {
+     "file": "data/lsbu-courses.ts",
+     "git": "2026-08-25",
+     "header": null
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "leeds-beckett-university",
+   "country": "UK",
+   "courses": 50,
+   "ug": 0,
+   "pg": 50,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY"
+   ],
+   "dates": [
+    {
+     "file": "data/leeds-beckett-courses.ts",
+     "git": "2026-08-25",
+     "header": null
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "liverpool-john-moores-university",
+   "country": "UK",
+   "courses": 100,
+   "ug": 50,
+   "pg": 50,
+   "unknown": 0,
+   "flags": [],
+   "dates": [
+    {
+     "file": "data/ljmu-courses.ts",
+     "git": "2026-08-25",
+     "header": null
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "sheffield-hallam-university",
+   "country": "UK",
+   "courses": 50,
+   "ug": 0,
+   "pg": 50,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY"
+   ],
+   "dates": [
+    {
+     "file": "data/sheffield-hallam-courses.ts",
+     "git": "2026-08-25",
+     "header": null
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  },
+  {
+   "slug": "university-of-chester",
+   "country": "UK",
+   "courses": 40,
+   "ug": 0,
+   "pg": 40,
+   "unknown": 0,
+   "flags": [
+    "PG ONLY"
+   ],
+   "dates": [
+    {
+     "file": "data/chester-courses.ts",
+     "git": "2026-07-04",
+     "header": null
+    }
+   ],
+   "impressions": 0,
+   "clicks": 0,
+   "profileImpressions": 0
+  }
+ ],
+ "unregisteredDataFiles": [
+  {
+   "file": "data/ucc-courses.ts",
+   "courses": 75,
+   "university": "university-college-cork",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/mtu-courses.ts",
+   "courses": 45,
+   "university": "munster-technological-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/torrens-courses.ts",
+   "courses": 45,
+   "university": "torrens-university-australia",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/uwa-courses.ts",
+   "courses": 44,
+   "university": "university-of-western-australia",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/acu-courses.ts",
+   "courses": 45,
+   "university": "australian-catholic-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/lmu-courses.ts",
+   "courses": 71,
+   "university": "lmu-munich",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/setu-courses.ts",
+   "courses": 45,
+   "university": "south-east-technological-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/utas-courses.ts",
+   "courses": 45,
+   "university": "university-of-tasmania",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/lse-courses.ts",
+   "courses": 61,
+   "university": "london-school-of-economics",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/politecnico-di-milano-courses.ts",
+   "courses": 45,
+   "university": "politecnico-di-milano",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/wsu-courses.ts",
+   "courses": 45,
+   "university": "western-sydney-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/canterbury-courses.ts",
+   "courses": 43,
+   "university": "university-of-canterbury",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/birmingham-courses.ts",
+   "courses": 112,
+   "university": "university-of-birmingham",
+   "universityShowsZero": false
+  },
+  {
+   "file": "data/ualberta-courses.ts",
+   "courses": 91,
+   "university": "university-of-alberta",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/kit-courses.ts",
+   "courses": 61,
+   "university": "karlsruhe-institute-of-technology",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/lincolnnz-courses.ts",
+   "courses": 45,
+   "university": "lincoln-university-new-zealand",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/uc-courses.ts",
+   "courses": 45,
+   "university": "university-of-canberra",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/brunel-courses.ts",
+   "courses": 80,
+   "university": "brunel-university-london",
+   "universityShowsZero": false
+  },
+  {
+   "file": "data/atu-courses.ts",
+   "courses": 45,
+   "university": "atlantic-technological-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/une-courses.ts",
+   "courses": 45,
+   "university": "university-of-new-england-australia",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/university-of-grenoble-alpes-courses.ts",
+   "courses": 45,
+   "university": "university-of-grenoble-alpes",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/university-of-sharjah-courses.ts",
+   "courses": 45,
+   "university": "university-of-sharjah",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/university-of-trento-courses.ts",
+   "courses": 45,
+   "university": "university-of-trento",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/dtu-courses.ts",
+   "courses": 36,
+   "university": "technical-university-of-denmark",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/technical-university-of-denmark-courses.ts",
+   "courses": 36,
+   "university": "technical-university-of-denmark",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/penn-state-courses.ts",
+   "courses": 81,
+   "university": "penn-state-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/pennstate-courses.ts",
+   "courses": 81,
+   "university": "penn-state-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/cardiff-courses.ts",
+   "courses": 76,
+   "university": "cardiff-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/asu-courses.ts",
+   "courses": 64,
+   "university": "arizona-state-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/uon-courses.ts",
+   "courses": 57,
+   "university": "university-of-newcastle-australia",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/curtin-courses.ts",
+   "courses": 53,
+   "university": "curtin-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/kent-courses.ts",
+   "courses": 52,
+   "university": "university-of-kent",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/macquarie-courses.ts",
+   "courses": 48,
+   "university": "macquarie-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/essex-courses.ts",
+   "courses": 47,
+   "university": "university-of-essex",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/aut-courses.ts",
+   "courses": 45,
+   "university": "auckland-university-of-technology",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/bcu-courses.ts",
+   "courses": 45,
+   "university": "birmingham-city-university",
+   "universityShowsZero": false
+  },
+  {
+   "file": "data/emlyon-business-school-courses.ts",
+   "courses": 45,
+   "university": "emlyon-business-school",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/goethe-courses.ts",
+   "courses": 45,
+   "university": "goethe-university-frankfurt",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/holmes-courses.ts",
+   "courses": 45,
+   "university": "holmes-institute",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/leicester-courses.ts",
+   "courses": 45,
+   "university": "university-of-leicester",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/luiss-university-courses.ts",
+   "courses": 45,
+   "university": "luiss-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/politecnico-di-torino-courses.ts",
+   "courses": 45,
+   "university": "politecnico-di-torino",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/tees-courses.ts",
+   "courses": 45,
+   "university": "teesside-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/tudresden-courses.ts",
+   "courses": 45,
+   "university": "tu-dresden",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/ul-courses.ts",
+   "courses": 45,
+   "university": "university-of-limerick",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/university-of-naples-courses.ts",
+   "courses": 45,
+   "university": "university-of-naples",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/university-of-padua-courses.ts",
+   "courses": 45,
+   "university": "university-of-padua",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/brighton-courses.ts",
+   "courses": 142,
+   "university": "university-of-brighton",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/salford-courses.ts",
+   "courses": 127,
+   "university": "university-of-salford",
+   "universityShowsZero": false
+  },
+  {
+   "file": "data/monash-courses.ts",
+   "courses": 118,
+   "university": "monash-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/umich-courses.ts",
+   "courses": 105,
+   "university": "university-of-michigan",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/maastricht-courses.ts",
+   "courses": 104,
+   "university": "maastricht-university",
+   "universityShowsZero": false
+  },
+  {
+   "file": "data/nyu-courses.ts",
+   "courses": 87,
+   "university": "new-york-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/bu-courses.ts",
+   "courses": 84,
+   "university": "brandon-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/western-courses.ts",
+   "courses": 80,
+   "university": "western-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/qub-courses.ts",
+   "courses": 63,
+   "university": null,
+   "universityShowsZero": null
+  },
+  {
+   "file": "data/lancs-courses.ts",
+   "courses": 61,
+   "university": null,
+   "universityShowsZero": null
+  },
+  {
+   "file": "data/nottm-courses.ts",
+   "courses": 61,
+   "university": null,
+   "universityShowsZero": null
+  },
+  {
+   "file": "data/uoa-courses.ts",
+   "courses": 61,
+   "university": "university-of-auckland",
+   "universityShowsZero": false
+  },
+  {
+   "file": "data/lund-courses.ts",
+   "courses": 59,
+   "university": "lund-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/lund-university-courses.ts",
+   "courses": 59,
+   "university": "lund-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/latrobe-courses.ts",
+   "courses": 58,
+   "university": "la-trobe-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/amsterdam-courses.ts",
+   "courses": 57,
+   "university": "university-of-amsterdam",
+   "universityShowsZero": false
+  },
+  {
+   "file": "data/rwth-courses.ts",
+   "courses": 53,
+   "university": "rwth-aachen-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/university-of-barcelona-courses.ts",
+   "courses": 53,
+   "university": "university-of-barcelona",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/deakin-courses.ts",
+   "courses": 51,
+   "university": "deakin-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/fub-courses.ts",
+   "courses": 50,
+   "university": null,
+   "universityShowsZero": null
+  },
+  {
+   "file": "data/mmu-courses.ts",
+   "courses": 48,
+   "university": "manchester-metropolitan-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/paris-saclay-courses.ts",
+   "courses": 47,
+   "university": "university-of-paris-saclay",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/university-of-paris-saclay-courses.ts",
+   "courses": 47,
+   "university": "university-of-paris-saclay",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/aarhus-university-courses.ts",
+   "courses": 45,
+   "university": "aarhus-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/american-university-dubai-courses.ts",
+   "courses": 45,
+   "university": "american-university-dubai",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/american-university-of-sharjah-courses.ts",
+   "courses": 45,
+   "university": "american-university-of-sharjah",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/amity-university-dubai-courses.ts",
+   "courses": 45,
+   "university": "amity-university-dubai",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/autonomous-university-of-barcelona-courses.ts",
+   "courses": 45,
+   "university": "autonomous-university-of-barcelona",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/autonomous-university-of-madrid-courses.ts",
+   "courses": 45,
+   "university": "autonomous-university-of-madrid",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/bradford-courses.ts",
+   "courses": 45,
+   "university": "university-of-bradford",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/ca-foscari-university-venice-courses.ts",
+   "courses": 45,
+   "university": null,
+   "universityShowsZero": null
+  },
+  {
+   "file": "data/canadian-university-dubai-courses.ts",
+   "courses": 45,
+   "university": "canadian-university-dubai",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/carlos-iii-university-madrid-courses.ts",
+   "courses": 45,
+   "university": "carlos-iii-university-madrid",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/chalmers-university-courses.ts",
+   "courses": 45,
+   "university": "chalmers-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/city-courses.ts",
+   "courses": 45,
+   "university": "city-university-london",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/complutense-university-madrid-courses.ts",
+   "courses": 45,
+   "university": "complutense-university-madrid",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/curtinsg-courses.ts",
+   "courses": 45,
+   "university": "curtin-singapore",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/eae-business-school-courses.ts",
+   "courses": 45,
+   "university": "eae-business-school",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/ecole-polytechnique-courses.ts",
+   "courses": 45,
+   "university": "ecole-polytechnique",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/erasmus-university-rotterdam-courses.ts",
+   "courses": 45,
+   "university": "erasmus-university-rotterdam",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/esade-business-school-courses.ts",
+   "courses": 45,
+   "university": "esade-business-school",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/federation-courses.ts",
+   "courses": 45,
+   "university": "federation-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/galway-courses.ts",
+   "courses": 45,
+   "university": "university-of-galway",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/gcd-courses.ts",
+   "courses": 45,
+   "university": null,
+   "universityShowsZero": null
+  },
+  {
+   "file": "data/gold-courses.ts",
+   "courses": 45,
+   "university": "goldsmiths-university-london",
+   "universityShowsZero": false
+  },
+  {
+   "file": "data/halmstad-university-courses.ts",
+   "courses": 45,
+   "university": "halmstad-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/hw-courses.ts",
+   "courses": 45,
+   "university": null,
+   "universityShowsZero": null
+  },
+  {
+   "file": "data/iese-business-school-courses.ts",
+   "courses": 45,
+   "university": "iese-business-school",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/jcusg-courses.ts",
+   "courses": 45,
+   "university": "james-cook-university-singapore",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/jonkoping-university-courses.ts",
+   "courses": 45,
+   "university": "jonkoping-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/kaplansg-courses.ts",
+   "courses": 45,
+   "university": null,
+   "universityShowsZero": null
+  },
+  {
+   "file": "data/karolinska-institutet-courses.ts",
+   "courses": 45,
+   "university": "karolinska-institutet",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/khalifa-courses.ts",
+   "courses": 45,
+   "university": "khalifa-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/kth-courses.ts",
+   "courses": 45,
+   "university": "kth-royal-institute-of-technology",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/kth-royal-institute-of-technology-courses.ts",
+   "courses": 45,
+   "university": "kth-royal-institute-of-technology",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/linkoping-university-courses.ts",
+   "courses": 45,
+   "university": "linkoping-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/malardalen-university-courses.ts",
+   "courses": 45,
+   "university": "malardalen-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/manipal-dubai-courses.ts",
+   "courses": 45,
+   "university": "manipal-dubai",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/mannheim-courses.ts",
+   "courses": 45,
+   "university": "university-of-mannheim",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/mdis-courses.ts",
+   "courses": 45,
+   "university": "mdis-singapore",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/mid-sweden-university-courses.ts",
+   "courses": 45,
+   "university": "mid-sweden-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/middlesex-university-dubai-courses.ts",
+   "courses": 45,
+   "university": "middlesex-university-dubai",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/mu-courses.ts",
+   "courses": 45,
+   "university": null,
+   "universityShowsZero": null
+  },
+  {
+   "file": "data/murdoch-university-dubai-courses.ts",
+   "courses": 45,
+   "university": "murdoch-university-dubai",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/murdochsg-courses.ts",
+   "courses": 45,
+   "university": "murdoch-university-singapore",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/navitas-courses.ts",
+   "courses": 45,
+   "university": "navitas-australia",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/nuig-courses.ts",
+   "courses": 45,
+   "university": null,
+   "universityShowsZero": null
+  },
+  {
+   "file": "data/pompeu-fabra-university-courses.ts",
+   "courses": 45,
+   "university": "pompeu-fabra-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/psbsg-courses.ts",
+   "courses": 45,
+   "university": null,
+   "universityShowsZero": null
+  },
+  {
+   "file": "data/radboud-university-courses.ts",
+   "courses": 45,
+   "university": "radboud-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/rcsi-courses.ts",
+   "courses": 45,
+   "university": "rcsi-university-of-medicine",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/rmitsg-courses.ts",
+   "courses": 45,
+   "university": "rmit-singapore",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/sapienza-university-rome-courses.ts",
+   "courses": 45,
+   "university": "sapienza-university-rome",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/sciences-po-paris-courses.ts",
+   "courses": 45,
+   "university": "sciences-po-paris",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/scu-courses.ts",
+   "courses": 45,
+   "university": "southern-cross-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/simsg-courses.ts",
+   "courses": 45,
+   "university": null,
+   "universityShowsZero": null
+  },
+  {
+   "file": "data/sit-courses.ts",
+   "courses": 45,
+   "university": "singapore-institute-of-technology",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/slu-sweden-courses.ts",
+   "courses": 45,
+   "university": "slu-sweden",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/sorbonne-courses.ts",
+   "courses": 45,
+   "university": "sorbonne-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/sorbonne-university-courses.ts",
+   "courses": 45,
+   "university": "sorbonne-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/sp-jain-dubai-courses.ts",
+   "courses": 45,
+   "university": "sp-jain-dubai",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/staffs-courses.ts",
+   "courses": 45,
+   "university": null,
+   "universityShowsZero": null
+  },
+  {
+   "file": "data/stockholm-school-of-economics-courses.ts",
+   "courses": 45,
+   "university": "stockholm-school-of-economics",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/stockholm-university-courses.ts",
+   "courses": 45,
+   "university": "stockholm-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/sussex-courses.ts",
+   "courses": 45,
+   "university": "university-of-sussex",
+   "universityShowsZero": false
+  },
+  {
+   "file": "data/sutd-courses.ts",
+   "courses": 45,
+   "university": "sutd",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/think-courses.ts",
+   "courses": 45,
+   "university": "think-education-australia",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/tilburg-university-courses.ts",
+   "courses": 45,
+   "university": "tilburg-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/tub-courses.ts",
+   "courses": 45,
+   "university": null,
+   "universityShowsZero": null
+  },
+  {
+   "file": "data/tud-courses.ts",
+   "courses": 45,
+   "university": null,
+   "universityShowsZero": null
+  },
+  {
+   "file": "data/ual-courses.ts",
+   "courses": 45,
+   "university": "university-of-the-arts-london",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/ubonn-courses.ts",
+   "courses": 45,
+   "university": null,
+   "universityShowsZero": null
+  },
+  {
+   "file": "data/ucologne-courses.ts",
+   "courses": 45,
+   "university": null,
+   "universityShowsZero": null
+  },
+  {
+   "file": "data/unisa-courses.ts",
+   "courses": 45,
+   "university": "university-of-south-australia",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/universita-cattolica-courses.ts",
+   "courses": 45,
+   "university": "universita-cattolica",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/university-of-bologna-courses.ts",
+   "courses": 45,
+   "university": "university-of-bologna",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/university-of-bordeaux-courses.ts",
+   "courses": 45,
+   "university": "university-of-bordeaux",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/university-of-florence-courses.ts",
+   "courses": 45,
+   "university": "university-of-florence",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/university-of-gothenburg-courses.ts",
+   "courses": 45,
+   "university": "university-of-gothenburg",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/university-of-granada-courses.ts",
+   "courses": 45,
+   "university": "university-of-granada",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/university-of-lyon-courses.ts",
+   "courses": 45,
+   "university": "university-of-lyon",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/university-of-milan-courses.ts",
+   "courses": 45,
+   "university": "university-of-milan",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/university-of-montpellier-courses.ts",
+   "courses": 45,
+   "university": "university-of-montpellier",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/university-of-navarra-courses.ts",
+   "courses": 45,
+   "university": "university-of-navarra",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/university-of-pisa-courses.ts",
+   "courses": 45,
+   "university": "university-of-pisa",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/university-of-salamanca-courses.ts",
+   "courses": 45,
+   "university": "university-of-salamanca",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/university-of-seville-courses.ts",
+   "courses": 45,
+   "university": "university-of-seville",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/university-of-strasbourg-courses.ts",
+   "courses": 45,
+   "university": "university-of-strasbourg",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/university-of-toulouse-courses.ts",
+   "courses": 45,
+   "university": "university-of-toulouse",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/university-of-turin-courses.ts",
+   "courses": 45,
+   "university": "university-of-turin",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/university-of-twente-courses.ts",
+   "courses": 45,
+   "university": "university-of-twente",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/university-of-valencia-courses.ts",
+   "courses": 45,
+   "university": "university-of-valencia",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/uowd-dubai-courses.ts",
+   "courses": 45,
+   "university": "uowd-dubai",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/usc-courses.ts",
+   "courses": 45,
+   "university": "university-of-sunshine-coast",
+   "universityShowsZero": false
+  },
+  {
+   "file": "data/usq-courses.ts",
+   "courses": 45,
+   "university": null,
+   "universityShowsZero": null
+  },
+  {
+   "file": "data/ustuttgart-courses.ts",
+   "courses": 45,
+   "university": null,
+   "universityShowsZero": null
+  },
+  {
+   "file": "data/usw-courses.ts",
+   "courses": 45,
+   "university": "university-of-south-wales",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/utrecht-university-courses.ts",
+   "courses": 45,
+   "university": "utrecht-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/vu-amsterdam-courses.ts",
+   "courses": 45,
+   "university": "vrije-universiteit-amsterdam",
+   "universityShowsZero": false
+  },
+  {
+   "file": "data/wageningen-university-courses.ts",
+   "courses": 45,
+   "university": "wageningen-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/waikato-courses.ts",
+   "courses": 45,
+   "university": "university-of-waikato",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/webster-courses.ts",
+   "courses": 45,
+   "university": "webster-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/wolves-courses.ts",
+   "courses": 45,
+   "university": null,
+   "universityShowsZero": null
+  },
+  {
+   "file": "data/worcs-courses.ts",
+   "courses": 45,
+   "university": null,
+   "universityShowsZero": null
+  },
+  {
+   "file": "data/insead-courses.ts",
+   "courses": 44,
+   "university": "insead",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/uoc-courses.ts",
+   "courses": 43,
+   "university": null,
+   "universityShowsZero": null
+  },
+  {
+   "file": "data/smu-courses.ts",
+   "courses": 42,
+   "university": "singapore-management-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/nottingham-courses.ts",
+   "courses": 41,
+   "university": "university-of-nottingham",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/heidelberg-courses.ts",
+   "courses": 40,
+   "university": "heidelberg-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/utdallas-courses.ts",
+   "courses": 35,
+   "university": null,
+   "universityShowsZero": null
+  },
+  {
+   "file": "data/khalifa-university-courses.ts",
+   "courses": 34,
+   "university": "khalifa-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/abdn-courses.ts",
+   "courses": 30,
+   "university": null,
+   "universityShowsZero": null
+  },
+  {
+   "file": "data/beds-courses.ts",
+   "courses": 30,
+   "university": null,
+   "universityShowsZero": null
+  },
+  {
+   "file": "data/hudds-courses.ts",
+   "courses": 30,
+   "university": null,
+   "universityShowsZero": null
+  },
+  {
+   "file": "data/ie-university-courses.ts",
+   "courses": 30,
+   "university": "ie-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/lincoln-courses.ts",
+   "courses": 30,
+   "university": "university-of-lincoln",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/msu-courses.ts",
+   "courses": 30,
+   "university": "michigan-state-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/plymouth-courses.ts",
+   "courses": 30,
+   "university": "university-of-plymouth",
+   "universityShowsZero": false
+  },
+  {
+   "file": "data/rutgers-courses.ts",
+   "courses": 30,
+   "university": "rutgers-university",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/stirling-courses.ts",
+   "courses": 30,
+   "university": "university-of-stirling",
+   "universityShowsZero": true
+  },
+  {
+   "file": "data/umn-courses.ts",
+   "courses": 30,
+   "university": null,
+   "universityShowsZero": null
+  }
+ ]
+}
