@@ -12,6 +12,7 @@
 export interface WaterlooUgCourse {
   feeVerified?: boolean;
   englishScope?: string;
+  englishVerified?: { ielts?: number; toefl?: number; pte?: number; sourceUrl: string; verifiedOn: string };
   feeScope?: string;
   feeBasis?: string;
   feeSourceUrl?: string | null;
@@ -43,8 +44,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -60,7 +61,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 27010
+    "instTuitionPerTermCAD": 27010,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-2",
@@ -78,8 +86,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "February",
@@ -96,7 +104,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 29259
+    "instTuitionPerTermCAD": 29259,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-3",
@@ -114,8 +129,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -131,7 +146,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 27010
+    "instTuitionPerTermCAD": 27010,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-4",
@@ -149,8 +171,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -166,7 +188,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 29259
+    "instTuitionPerTermCAD": 29259,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-5",
@@ -184,8 +213,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "Spring"
@@ -201,7 +230,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 29259
+    "instTuitionPerTermCAD": 29259,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-6",
@@ -219,8 +255,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "April",
@@ -237,7 +273,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 34942
+    "instTuitionPerTermCAD": 34942,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-7",
@@ -255,8 +298,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -272,7 +315,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 34942
+    "instTuitionPerTermCAD": 34942,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-8",
@@ -290,8 +340,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -307,7 +357,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "institution-wide",
     "feeBasis": "per term",
     "feeSourceUrl": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2026",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-9",
@@ -325,8 +382,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -342,7 +399,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "institution-wide",
     "feeBasis": "per term",
     "feeSourceUrl": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2026",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-10",
@@ -360,8 +424,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -377,7 +441,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 25296
+    "instTuitionPerTermCAD": 25296,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-11",
@@ -395,8 +466,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -412,7 +483,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 25296
+    "instTuitionPerTermCAD": 25296,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-12",
@@ -430,8 +508,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -447,7 +525,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 25296
+    "instTuitionPerTermCAD": 25296,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-13",
@@ -465,8 +550,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -482,7 +567,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 34942
+    "instTuitionPerTermCAD": 34942,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-14",
@@ -500,8 +592,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -517,7 +609,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 25296
+    "instTuitionPerTermCAD": 25296,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-15",
@@ -535,8 +634,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -552,7 +651,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 29259
+    "instTuitionPerTermCAD": 29259,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-16",
@@ -570,8 +676,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -587,7 +693,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 34942
+    "instTuitionPerTermCAD": 34942,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-17",
@@ -605,8 +718,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -622,7 +735,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 29259
+    "instTuitionPerTermCAD": 29259,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-18",
@@ -640,8 +760,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "January",
@@ -659,7 +779,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 34942
+    "instTuitionPerTermCAD": 34942,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-19",
@@ -677,8 +804,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -694,7 +821,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 25296
+    "instTuitionPerTermCAD": 25296,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-20",
@@ -712,8 +846,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -729,7 +863,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 34942
+    "instTuitionPerTermCAD": 34942,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-21",
@@ -747,8 +888,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -764,7 +905,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 27010
+    "instTuitionPerTermCAD": 27010,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-22",
@@ -782,8 +930,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -799,7 +947,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 23598
+    "instTuitionPerTermCAD": 23598,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-23",
@@ -817,8 +972,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -834,7 +989,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 29259
+    "instTuitionPerTermCAD": 29259,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-24",
@@ -852,8 +1014,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -869,7 +1031,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 27010
+    "instTuitionPerTermCAD": 27010,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-25",
@@ -887,8 +1056,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -904,7 +1073,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 29259
+    "instTuitionPerTermCAD": 29259,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-26",
@@ -922,8 +1098,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -939,7 +1115,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 34942
+    "instTuitionPerTermCAD": 34942,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-27",
@@ -957,8 +1140,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -974,7 +1157,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 34942
+    "instTuitionPerTermCAD": 34942,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-28",
@@ -992,8 +1182,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -1009,7 +1199,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 29259
+    "instTuitionPerTermCAD": 29259,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-29",
@@ -1027,8 +1224,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -1044,7 +1241,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "institution-wide",
     "feeBasis": "per term",
     "feeSourceUrl": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2026",
-    "instTuitionPerTermCAD": 34942
+    "instTuitionPerTermCAD": 34942,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-30",
@@ -1062,8 +1266,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -1079,7 +1283,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 25296
+    "instTuitionPerTermCAD": 25296,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-31",
@@ -1097,8 +1308,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -1114,7 +1325,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 27010
+    "instTuitionPerTermCAD": 27010,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-32",
@@ -1132,8 +1350,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -1149,7 +1367,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "institution-wide",
     "feeBasis": "per term",
     "feeSourceUrl": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2026",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-33",
@@ -1167,8 +1392,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -1184,7 +1409,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 34942
+    "instTuitionPerTermCAD": 34942,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-34",
@@ -1202,8 +1434,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -1219,7 +1451,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 27010
+    "instTuitionPerTermCAD": 27010,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-35",
@@ -1237,8 +1476,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -1254,7 +1493,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 23598
+    "instTuitionPerTermCAD": 23598,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-36",
@@ -1272,8 +1518,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -1289,7 +1535,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "institution-wide",
     "feeBasis": "per term",
     "feeSourceUrl": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2026",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-37",
@@ -1307,8 +1560,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -1324,7 +1577,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 34942
+    "instTuitionPerTermCAD": 34942,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-38",
@@ -1342,8 +1602,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -1359,7 +1619,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "institution-wide",
     "feeBasis": "per term",
     "feeSourceUrl": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2026",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-39",
@@ -1377,8 +1644,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -1394,7 +1661,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 27010
+    "instTuitionPerTermCAD": 27010,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-40",
@@ -1412,8 +1686,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -1429,7 +1703,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 27010
+    "instTuitionPerTermCAD": 27010,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-41",
@@ -1447,8 +1728,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -1464,7 +1745,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 27010
+    "instTuitionPerTermCAD": 27010,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-42",
@@ -1482,8 +1770,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "May",
@@ -1501,7 +1789,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 23598
+    "instTuitionPerTermCAD": 23598,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-43",
@@ -1519,8 +1814,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -1536,7 +1831,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 23598
+    "instTuitionPerTermCAD": 23598,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-44",
@@ -1554,8 +1856,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -1571,7 +1873,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 34942
+    "instTuitionPerTermCAD": 34942,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-45",
@@ -1589,8 +1898,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -1606,7 +1915,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 23598
+    "instTuitionPerTermCAD": 23598,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-46",
@@ -1624,8 +1940,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -1641,7 +1957,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 26378
+    "instTuitionPerTermCAD": 26378,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-47",
@@ -1659,8 +1982,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -1676,7 +1999,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 25296
+    "instTuitionPerTermCAD": 25296,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-48",
@@ -1694,8 +2024,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -1711,7 +2041,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 27010
+    "instTuitionPerTermCAD": 27010,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-49",
@@ -1729,8 +2066,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "June",
@@ -1747,7 +2084,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 27010
+    "instTuitionPerTermCAD": 27010,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-50",
@@ -1765,8 +2109,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "June",
@@ -1783,7 +2127,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 27010
+    "instTuitionPerTermCAD": 27010,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-51",
@@ -1801,8 +2152,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -1818,7 +2169,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 25296
+    "instTuitionPerTermCAD": 25296,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-52",
@@ -1836,8 +2194,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -1853,7 +2211,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "institution-wide",
     "feeBasis": "per term",
     "feeSourceUrl": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2026",
-    "instTuitionPerTermCAD": 27010
+    "instTuitionPerTermCAD": 27010,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-53",
@@ -1871,8 +2236,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -1888,7 +2253,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 29259
+    "instTuitionPerTermCAD": 29259,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-54",
@@ -1906,8 +2278,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -1923,7 +2295,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 25296
+    "instTuitionPerTermCAD": 25296,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-55",
@@ -1941,8 +2320,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -1958,7 +2337,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 27010
+    "instTuitionPerTermCAD": 27010,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-56",
@@ -1976,8 +2362,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -1993,7 +2379,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 27010
+    "instTuitionPerTermCAD": 27010,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-57",
@@ -2011,8 +2404,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -2028,7 +2421,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 25296
+    "instTuitionPerTermCAD": 25296,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-58",
@@ -2046,8 +2446,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -2063,7 +2463,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 34942
+    "instTuitionPerTermCAD": 34942,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-59",
@@ -2081,8 +2488,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -2098,7 +2505,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 25296
+    "instTuitionPerTermCAD": 25296,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-60",
@@ -2116,8 +2530,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -2133,7 +2547,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "institution-wide",
     "feeBasis": "per term",
     "feeSourceUrl": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2026",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-61",
@@ -2151,8 +2572,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -2168,7 +2589,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 29259
+    "instTuitionPerTermCAD": 29259,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-62",
@@ -2186,8 +2614,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -2203,7 +2631,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 29259
+    "instTuitionPerTermCAD": 29259,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-63",
@@ -2221,8 +2656,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -2238,7 +2673,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "institution-wide",
     "feeBasis": "per term",
     "feeSourceUrl": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2026",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-64",
@@ -2256,8 +2698,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -2273,7 +2715,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 29259
+    "instTuitionPerTermCAD": 29259,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-65",
@@ -2291,8 +2740,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -2308,7 +2757,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 29259
+    "instTuitionPerTermCAD": 29259,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-66",
@@ -2326,8 +2782,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -2343,7 +2799,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 29259
+    "instTuitionPerTermCAD": 29259,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-67",
@@ -2361,8 +2824,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -2378,7 +2841,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 29259
+    "instTuitionPerTermCAD": 29259,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-68",
@@ -2396,8 +2866,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -2413,7 +2883,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 29828
+    "instTuitionPerTermCAD": 29828,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-69",
@@ -2431,8 +2908,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -2448,7 +2925,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 29259
+    "instTuitionPerTermCAD": 29259,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-70",
@@ -2466,8 +2950,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -2483,7 +2967,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 34942
+    "instTuitionPerTermCAD": 34942,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-71",
@@ -2501,8 +2992,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -2518,7 +3009,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 34942
+    "instTuitionPerTermCAD": 34942,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-72",
@@ -2536,8 +3034,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -2553,7 +3051,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "institution-wide",
     "feeBasis": "per term",
     "feeSourceUrl": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2026",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-73",
@@ -2571,8 +3076,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -2588,7 +3093,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 25296
+    "instTuitionPerTermCAD": 25296,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-74",
@@ -2606,8 +3118,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -2623,7 +3135,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 27010
+    "instTuitionPerTermCAD": 27010,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-75",
@@ -2641,8 +3160,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -2658,7 +3177,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 27010
+    "instTuitionPerTermCAD": 27010,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-76",
@@ -2676,8 +3202,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -2693,7 +3219,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 34942
+    "instTuitionPerTermCAD": 34942,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-77",
@@ -2711,8 +3244,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -2728,7 +3261,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "institution-wide",
     "feeBasis": "per term",
     "feeSourceUrl": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2026",
-    "instTuitionPerTermCAD": 25296
+    "instTuitionPerTermCAD": 25296,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-78",
@@ -2746,8 +3286,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -2763,7 +3303,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 27010
+    "instTuitionPerTermCAD": 27010,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-79",
@@ -2781,8 +3328,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "January",
@@ -2803,7 +3350,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "institution-wide",
     "feeBasis": "per term",
     "feeSourceUrl": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2026",
-    "instTuitionPerTermCAD": 25296
+    "instTuitionPerTermCAD": 25296,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-80",
@@ -2821,8 +3375,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -2838,7 +3392,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 27010
+    "instTuitionPerTermCAD": 27010,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-81",
@@ -2856,8 +3417,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -2873,7 +3434,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 25296
+    "instTuitionPerTermCAD": 25296,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-82",
@@ -2891,8 +3459,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -2908,7 +3476,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 25296
+    "instTuitionPerTermCAD": 25296,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-83",
@@ -2926,8 +3501,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -2943,7 +3518,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 25296
+    "instTuitionPerTermCAD": 25296,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-84",
@@ -2961,8 +3543,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -2978,7 +3560,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 23598
+    "instTuitionPerTermCAD": 23598,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-85",
@@ -2996,8 +3585,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -3013,7 +3602,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 27010
+    "instTuitionPerTermCAD": 27010,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-86",
@@ -3031,8 +3627,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -3048,7 +3644,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "institution-wide",
     "feeBasis": "per term",
     "feeSourceUrl": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2026",
-    "instTuitionPerTermCAD": 25296
+    "instTuitionPerTermCAD": 25296,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-87",
@@ -3066,8 +3669,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -3083,7 +3686,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 27010
+    "instTuitionPerTermCAD": 27010,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-88",
@@ -3101,8 +3711,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -3118,7 +3728,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "institution-wide",
     "feeBasis": "per term",
     "feeSourceUrl": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2026",
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-89",
@@ -3136,8 +3753,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -3153,7 +3770,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 25296
+    "instTuitionPerTermCAD": 25296,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-90",
@@ -3171,8 +3795,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -3188,7 +3812,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 29259
+    "instTuitionPerTermCAD": 29259,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-91",
@@ -3206,8 +3837,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -3223,7 +3854,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 25296
+    "instTuitionPerTermCAD": 25296,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-92",
@@ -3241,8 +3879,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -3258,7 +3896,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 25296
+    "instTuitionPerTermCAD": 25296,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-93",
@@ -3276,8 +3921,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -3293,7 +3938,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 27010
+    "instTuitionPerTermCAD": 27010,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-94",
@@ -3311,8 +3963,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "May",
@@ -3330,7 +3982,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 25296
+    "instTuitionPerTermCAD": 25296,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-95",
@@ -3348,8 +4007,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -3365,7 +4024,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 25296
+    "instTuitionPerTermCAD": 25296,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-96",
@@ -3383,8 +4049,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -3400,7 +4066,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 25296
+    "instTuitionPerTermCAD": 25296,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-97",
@@ -3418,8 +4091,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -3435,7 +4108,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 27010
+    "instTuitionPerTermCAD": 27010,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-98",
@@ -3453,8 +4133,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -3470,7 +4150,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 27010
+    "instTuitionPerTermCAD": 27010,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-99",
@@ -3488,8 +4175,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -3505,7 +4192,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "institution-wide",
     "feeBasis": "per term",
     "feeSourceUrl": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2026",
-    "instTuitionPerTermCAD": 27010
+    "instTuitionPerTermCAD": 27010,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-100",
@@ -3523,8 +4217,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -3540,7 +4234,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 27010
+    "instTuitionPerTermCAD": 27010,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-101",
@@ -3558,8 +4259,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -3575,7 +4276,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 34942
+    "instTuitionPerTermCAD": 34942,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-102",
@@ -3593,8 +4301,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -3610,7 +4318,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 25296
+    "instTuitionPerTermCAD": 25296,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-103",
@@ -3628,8 +4343,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -3645,7 +4360,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 29259
+    "instTuitionPerTermCAD": 29259,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-104",
@@ -3663,8 +4385,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "May",
@@ -3681,7 +4403,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 23598
+    "instTuitionPerTermCAD": 23598,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-105",
@@ -3699,8 +4428,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "May",
@@ -3717,7 +4446,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 34942
+    "instTuitionPerTermCAD": 34942,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-106",
@@ -3735,8 +4471,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -3752,7 +4488,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 27010
+    "instTuitionPerTermCAD": 27010,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "waterlooug-107",
@@ -3770,8 +4513,8 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 7,
-    "toeflMin": 86,
+    "ieltsMin": 6.5,
+    "toeflMin": 90,
     "pteMin": 63,
     "intakeMonths": [
       "September"
@@ -3787,7 +4530,14 @@ export const waterlooUgCourses: WaterlooUgCourse[] = [
     "feeScope": "faculty/programme table",
     "feeBasis": "first year (two terms), tuition + incidental fees, rounded",
     "feeSourceUrl": "https://uwaterloo.ca/future-students/financing/tuition",
-    "instTuitionPerTermCAD": 25296
+    "instTuitionPerTermCAD": 25296,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 90,
+      "pte": 63,
+      "sourceUrl": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   }
 ];
 

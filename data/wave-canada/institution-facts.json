@@ -81,16 +81,32 @@
   },
   "University of Waterloo": {
     "university": "University of Waterloo",
-    "applicationFee": null,
-    "deposit": null,
+    "applicationFee": {
+      "resolved": false,
+      "checkedOn": "2026-09-21",
+      "note": "Waterloo publishes no application-fee amount on its admissions pages (applications go through OUAC), so a lead's C$266 is unconfirmed."
+    },
+    "deposit": {
+      "resolved": false,
+      "checkedOn": "2026-09-21",
+      "note": "No deposit figure found on Waterloo's own pages; a lead's C$5,000 is unconfirmed."
+    },
     "scholarship": {
       "maxAmountCAD": 2000,
       "evidence": "ive one or the other) . Expand all Collapse all President s Scholarship of Distinction (admission average of 95% or higher) Value $2,000 entrance scholarship $1,500 International Experience Award* and/or $1,500 Research Award* Criteria Your early May",
       "sourceUrl": "https://uwaterloo.ca/future-students/financing/scholarships",
       "verified": false,
-      "note": "auto-extracted; may be a domestic-only or niche award. Needs manual confirmation before publishing."
+      "note": "auto-extracted; may be a domestic-only or niche award. Needs manual confirmation before publishing. Re-checked 2026-09-21: a lead's \"average C$10,000\" is a third-party average, not a figure Waterloo publishes; still unverified."
     },
-    "pagesTried": 26
+    "pagesTried": 26,
+    "tuitionCheck": {
+      "verifiedOn": "2026-09-21",
+      "note": "Computer Science: a lead quoted C$69,884/yr, which is exactly 2 × Waterloo's published C$34,942 per-term CS rate — tuition only. The portal shows C$73,000, Waterloo's own published first-year figure for two terms including incidental fees, per the earlier decision to use the first-year table as published. Both are Waterloo numbers; they differ by the incidental fees.",
+      "sourceUrls": [
+        "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2026",
+        "https://uwaterloo.ca/future-students/financing/tuition"
+      ]
+    }
   },
   "Queen's University": {
     "university": "Queen's University",

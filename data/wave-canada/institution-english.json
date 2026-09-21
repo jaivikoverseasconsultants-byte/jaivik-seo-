@@ -81,14 +81,18 @@
   "University of Waterloo": {
     "url": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
     "http": "200",
-    "chars": 12286,
     "ielts": [
-      "7.0"
+      "6.5"
     ],
-    "toefl": [],
+    "toefl": [
+      "90"
+    ],
     "pte": [
       "63"
-    ]
+    ],
+    "resolved": false,
+    "unresolvedReason": "Published for UNDERGRADUATE admission only. Applied to the 107 undergraduate rows as englishVerified (scripts/apply-canada-published-fees.js); the 92 graduate programmes in waterloo-courses.ts set their own, so nothing publishes university-wide.",
+    "checkedOn": "2026-09-21"
   },
   "Queen's University": {
     "url": "https://www.queensu.ca/admission/applicants/english-proficiency",

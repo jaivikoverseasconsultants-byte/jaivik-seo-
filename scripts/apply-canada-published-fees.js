@@ -75,6 +75,15 @@ const INSTITUTION_ENGLISH = [
     verifiedOn: '2026-09-21',
     note: 'IELTS 6.5 overall (6.0 per module), TOEFL iBT 86 for tests before 20 Jan 2026, Pearson Test of English 58. The stored PTE was 59, which Manitoba does not publish.',
   },
+  {
+    file: 'data/waterlooug-courses.ts',
+    appliesTo: () => true, // every row in this file is an undergraduate programme
+    scores: { ielts: 6.5, toefl: 90, pte: 63 },
+    fields: { ieltsMin: 6.5, toeflMin: 90, pteMin: 63 },
+    sourceUrl: 'https://uwaterloo.ca/future-students/admissions/english-language-requirements',
+    verifiedOn: '2026-09-21',
+    note: 'IELTS 6.5 overall (6.5 writing/speaking, 6.0 reading/listening), TOEFL iBT 90 overall (25 writing, 25 speaking) for tests before 21 Jan 2026, PTE Academic 63 overall. The stored 7.0 came from a line further down the same page offering IELTS 7.0 with no band below 6.0 as an ALTERNATIVE acceptable combination — not the minimum. The stored TOEFL 86 was a house default.',
+  },
 ];
 
 const fs = require('fs');
