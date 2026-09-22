@@ -5459,6 +5459,21 @@
       "source": "/universities/kwantlen-polytechnic-university/courses/:path*",
       "destination": "/universities/kwantlen-polytechnic-university",
       "permanent": true
+    },
+    {
+      "source": "/universities/country/united-kingdom",
+      "destination": "/universities/country/uk",
+      "permanent": true
+    },
+    {
+      "source": "/universities/country/united-states",
+      "destination": "/universities/country/usa",
+      "permanent": true
+    },
+    {
+      "source": "/universities/country/united-arab-emirates",
+      "destination": "/universities/country/uae",
+      "permanent": true
     }
   ]
 }
