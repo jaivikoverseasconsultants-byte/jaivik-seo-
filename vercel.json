@@ -1961,16 +1961,6 @@
       "permanent": true
     },
     {
-      "source": "/universities/university-college-cork/courses",
-      "destination": "/universities/university-college-cork",
-      "permanent": true
-    },
-    {
-      "source": "/universities/university-college-cork/courses/:path*",
-      "destination": "/universities/university-college-cork",
-      "permanent": true
-    },
-    {
       "source": "/universities/university-of-galway/courses",
       "destination": "/universities/university-of-galway",
       "permanent": true

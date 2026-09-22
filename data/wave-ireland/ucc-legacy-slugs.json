@@ -1,0 +1,306 @@
+{
+ "_why": "Slugs used by the previous hand-curated ucc-courses.ts. Checked in Search Console on 2026-09-22: these URLs were never live (vercel.json redirected them to the profile page) and Google reports them unknown, so no redirect is owed. They are reused where the course still exists purely to keep the URLs stable from here on.",
+ "_retrieved": "2026-09-22",
+ "pairs": [
+  {
+   "name": "Arts",
+   "slug": "ucc-arts"
+  },
+  {
+   "name": "Mathematical Sciences",
+   "slug": "ucc-mathematical-sciences"
+  },
+  {
+   "name": "Law (BCL)",
+   "slug": "ucc-law-bcl"
+  },
+  {
+   "name": "Applied Psychology",
+   "slug": "ucc-applied-psychology"
+  },
+  {
+   "name": "Arts (International)",
+   "slug": "ucc-arts-international"
+  },
+  {
+   "name": "Arts with Music",
+   "slug": "ucc-arts-with-music"
+  },
+  {
+   "name": "Criminology",
+   "slug": "ucc-criminology"
+  },
+  {
+   "name": "Digital Humanities and Information Technology",
+   "slug": "ucc-digital-humanities-and-information-technology"
+  },
+  {
+   "name": "English",
+   "slug": "ucc-english"
+  },
+  {
+   "name": "Early Years and Childhood Studies",
+   "slug": "ucc-early-years-and-childhood-studies"
+  },
+  {
+   "name": "Film and Screen Media",
+   "slug": "ucc-film-and-screen-media"
+  },
+  {
+   "name": "Government and Political Science",
+   "slug": "ucc-government-and-political-science"
+  },
+  {
+   "name": "Physical Education Sports Studies and Arts",
+   "slug": "ucc-physical-education-sports-studies-and-arts"
+  },
+  {
+   "name": "Psychology and Computing",
+   "slug": "ucc-psychology-and-computing"
+  },
+  {
+   "name": "Social Science",
+   "slug": "ucc-social-science"
+  },
+  {
+   "name": "Social Work",
+   "slug": "ucc-social-work"
+  },
+  {
+   "name": "Theatre and Performative Practices",
+   "slug": "ucc-theatre-and-performative-practices"
+  },
+  {
+   "name": "World Languages",
+   "slug": "ucc-world-languages"
+  },
+  {
+   "name": "Youth and Community Work",
+   "slug": "ucc-youth-and-community-work"
+  },
+  {
+   "name": "Accounting",
+   "slug": "ucc-accounting"
+  },
+  {
+   "name": "Applied Economics",
+   "slug": "ucc-applied-economics"
+  },
+  {
+   "name": "Business Information Systems",
+   "slug": "ucc-business-information-systems"
+  },
+  {
+   "name": "Commerce",
+   "slug": "ucc-commerce"
+  },
+  {
+   "name": "Finance",
+   "slug": "ucc-finance"
+  },
+  {
+   "name": "Food Marketing and Entrepreneurship",
+   "slug": "ucc-food-marketing-and-entrepreneurship"
+  },
+  {
+   "name": "International Business with Languages",
+   "slug": "ucc-international-business-with-languages"
+  },
+  {
+   "name": "Law and French",
+   "slug": "ucc-law-and-french"
+  },
+  {
+   "name": "Law and Irish",
+   "slug": "ucc-law-and-irish"
+  },
+  {
+   "name": "Law and Business",
+   "slug": "ucc-law-and-business"
+  },
+  {
+   "name": "Agricultural Science",
+   "slug": "ucc-agricultural-science"
+  },
+  {
+   "name": "Architecture",
+   "slug": "ucc-architecture"
+  },
+  {
+   "name": "Biological and Chemical Sciences",
+   "slug": "ucc-biological-and-chemical-sciences"
+  },
+  {
+   "name": "Biological Environmental and Geological Sciences",
+   "slug": "ucc-biological-environmental-and-geological-sciences"
+  },
+  {
+   "name": "Chemical Sciences",
+   "slug": "ucc-chemical-sciences"
+  },
+  {
+   "name": "Computer Science",
+   "slug": "ucc-computer-science"
+  },
+  {
+   "name": "Data Science and Artificial Intelligence",
+   "slug": "ucc-data-science-and-artificial-intelligence"
+  },
+  {
+   "name": "Engineering",
+   "slug": "ucc-engineering"
+  },
+  {
+   "name": "Food Science",
+   "slug": "ucc-food-science"
+  },
+  {
+   "name": "Genetics",
+   "slug": "ucc-genetics"
+  },
+  {
+   "name": "Nutritional Sciences",
+   "slug": "ucc-nutritional-sciences"
+  },
+  {
+   "name": "Physics and Astrophysics",
+   "slug": "ucc-physics-and-astrophysics"
+  },
+  {
+   "name": "Dentistry",
+   "slug": "ucc-dentistry"
+  },
+  {
+   "name": "Medicine (MBBCh)",
+   "slug": "ucc-medicine-mbbch"
+  },
+  {
+   "name": "Medicine (Graduate Entry)",
+   "slug": "ucc-medicine-graduate-entry"
+  },
+  {
+   "name": "Medical and Health Sciences",
+   "slug": "ucc-medical-and-health-sciences"
+  },
+  {
+   "name": "Occupational Therapy",
+   "slug": "ucc-occupational-therapy"
+  },
+  {
+   "name": "Paramedicine",
+   "slug": "ucc-paramedicine"
+  },
+  {
+   "name": "Pharmacy",
+   "slug": "ucc-pharmacy"
+  },
+  {
+   "name": "Public Health Sciences",
+   "slug": "ucc-public-health-sciences"
+  },
+  {
+   "name": "Speech and Language Therapy",
+   "slug": "ucc-speech-and-language-therapy"
+  },
+  {
+   "name": "Midwifery",
+   "slug": "ucc-midwifery"
+  },
+  {
+   "name": "Nursing Children's and General",
+   "slug": "ucc-nursing-children-s-and-general"
+  },
+  {
+   "name": "Nursing (General)",
+   "slug": "ucc-nursing-general"
+  },
+  {
+   "name": "Nursing (Intellectual Disability)",
+   "slug": "ucc-nursing-intellectual-disability"
+  },
+  {
+   "name": "Nursing (Mental Health)",
+   "slug": "ucc-nursing-mental-health"
+  },
+  {
+   "name": "MSc Data Science and Analytics",
+   "slug": "ucc-msc-data-science-and-analytics"
+  },
+  {
+   "name": "MSc Computer Science",
+   "slug": "ucc-msc-computer-science"
+  },
+  {
+   "name": "MSc Software Development",
+   "slug": "ucc-msc-software-development"
+  },
+  {
+   "name": "MSc Cybersecurity",
+   "slug": "ucc-msc-cybersecurity"
+  },
+  {
+   "name": "MSc Business Analytics",
+   "slug": "ucc-msc-business-analytics"
+  },
+  {
+   "name": "MBA",
+   "slug": "ucc-mba"
+  },
+  {
+   "name": "MSc Financial Economics",
+   "slug": "ucc-msc-financial-economics"
+  },
+  {
+   "name": "MSc Accounting",
+   "slug": "ucc-msc-accounting"
+  },
+  {
+   "name": "LLM International and Comparative Law",
+   "slug": "ucc-llm-international-and-comparative-law"
+  },
+  {
+   "name": "MSc Food Business",
+   "slug": "ucc-msc-food-business"
+  },
+  {
+   "name": "MSc Public Health",
+   "slug": "ucc-msc-public-health"
+  },
+  {
+   "name": "MSc Cognitive Neuroscience",
+   "slug": "ucc-msc-cognitive-neuroscience"
+  },
+  {
+   "name": "MSc Bioinformatics and Systems Biology",
+   "slug": "ucc-msc-bioinformatics-and-systems-biology"
+  },
+  {
+   "name": "MSc Pharmaceutical Sciences",
+   "slug": "ucc-msc-pharmaceutical-sciences"
+  },
+  {
+   "name": "MSc Environmental Science",
+   "slug": "ucc-msc-environmental-science"
+  },
+  {
+   "name": "MSc Applied Linguistics",
+   "slug": "ucc-msc-applied-linguistics"
+  },
+  {
+   "name": "PhD Computer Science",
+   "slug": "ucc-phd-computer-science"
+  },
+  {
+   "name": "PhD Business",
+   "slug": "ucc-phd-business"
+  },
+  {
+   "name": "PhD Medicine",
+   "slug": "ucc-phd-medicine"
+  },
+  {
+   "name": "PhD Engineering",
+   "slug": "ucc-phd-engineering"
+  }
+ ]
+}

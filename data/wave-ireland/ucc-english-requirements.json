@@ -1,0 +1,78 @@
+{
+ "_source": "https://www.ucc.ie/en/study/comparison/english/undergraduate/ and .../postgraduate/",
+ "_retrieved": "2026-09-22",
+ "_note": "TOEFL figures are the scores UCC publishes for tests taken BEFORE 21 January 2026; UCC states a parallel requirement on the new TOEFL scale (4.5 / 5) for tests from that date, which our single toeflMin field cannot carry.",
+ "undergraduate": {
+  "standard": {
+   "ielts": 6.5,
+   "toefl": 90,
+   "pte": 63,
+   "appliesTo": "College of Arts, Celtic Studies and Social Sciences; College of Business and Law; College of Science, Engineering and Food Science; and all College of Medicine and Health undergraduate programmes except Speech and Language Therapy. The overall scores are the same across these colleges; only the per-band minimums differ."
+  },
+  "exceptions": [
+   {
+    "match": "Speech and Language Therapy",
+    "ielts": 7,
+    "toefl": 100,
+    "pte": 72
+   }
+  ]
+ },
+ "postgraduate": {
+  "standard": {
+   "ielts": 6.5,
+   "toefl": 90,
+   "pte": 63
+  },
+  "exceptions": [
+   {
+    "match": "Audiology",
+    "ielts": 7,
+    "toefl": 100,
+    "pte": 72
+   },
+   {
+    "match": "Diagnostic Radiography",
+    "ielts": 7,
+    "toefl": 100,
+    "pte": 72
+   },
+   {
+    "match": "Human Nutrition and Dietetics",
+    "ielts": 7,
+    "toefl": 100,
+    "pte": 72
+   },
+   {
+    "match": "Marine Biology",
+    "ielts": 7,
+    "toefl": 100,
+    "pte": 72
+   },
+   {
+    "match": "Medical Imaging and Radiation Sciences",
+    "ielts": 7,
+    "toefl": 100,
+    "pte": 72
+   },
+   {
+    "match": "Radiation Therapy",
+    "ielts": 7,
+    "toefl": 100,
+    "pte": 72
+   },
+   {
+    "match": "Physiotherapy",
+    "ielts": 7,
+    "toefl": 100,
+    "pte": 72
+   },
+   {
+    "match": "Public Health Nursing",
+    "ielts": 7,
+    "toefl": 100,
+    "pte": 72
+   }
+  ]
+ }
+}

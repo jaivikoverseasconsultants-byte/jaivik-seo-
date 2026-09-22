@@ -1,0 +1,2621 @@
+{
+ "_source": "https://www.ucc.ie/en/financeoffice/fees/schedules/internationalundergraduatefees202728/ and .../postgraduateeuandinternationalfees202728/",
+ "_why": "UCC course pages carry no fee figure — they link to the central Fee Schedule. These are the 2027/28 schedules, the year an applicant reading the site today would enter.",
+ "_basis": "The undergraduate table's column is headed \"Total Annual Non-EU Fee (incl capitation)\"; the postgraduate table is \"Total Annual Fee (incl capitation) for 2027/28\" and lists each programme once per fee category, so only rows whose Fee Category is Non-EU are kept here.",
+ "_retrieved": "2026-09-22",
+ "undergraduate": [
+  {
+   "name": "Business and Financial Economics - BA (Hons)",
+   "fee": 17214,
+   "duration": "2 Yr FT",
+   "college": "COBL",
+   "ck": null
+  },
+  {
+   "name": "Business and Financial Economics - Dip",
+   "fee": 17214,
+   "duration": "1 Yr FT",
+   "college": "COBL",
+   "ck": null
+  },
+  {
+   "name": "Law and Legal English - Dip",
+   "fee": 20314,
+   "duration": "1 Yr FT",
+   "college": "COBL",
+   "ck": null
+  },
+  {
+   "name": "Applied Economics - BSc (Hons) - CK212",
+   "fee": 22814,
+   "duration": "4 Yr FT",
+   "college": "COBL",
+   "ck": "ck212"
+  },
+  {
+   "name": "Law (Pathways) - BCL (Hons) - CK301",
+   "fee": 22814,
+   "duration": "3 or 4 Yr FT",
+   "college": "COBL",
+   "ck": "ck301"
+  },
+  {
+   "name": "Law and Business - BCL (Hons) - CK307",
+   "fee": 22814,
+   "duration": "4 Yr FT",
+   "college": "COBL",
+   "ck": "ck307"
+  },
+  {
+   "name": "Law and French - BCL (Hons) - CK302",
+   "fee": 22814,
+   "duration": "4 Yr FT",
+   "college": "COBL",
+   "ck": "ck302"
+  },
+  {
+   "name": "Law and Irish - BCL (Hons) - CK304",
+   "fee": 22814,
+   "duration": "4 Yr FT",
+   "college": "COBL",
+   "ck": "ck304"
+  },
+  {
+   "name": "Commerce - BComm (Hons) - CK201",
+   "fee": 22814,
+   "duration": "4 Yr FT",
+   "college": "COBL",
+   "ck": "ck201"
+  },
+  {
+   "name": "Food Marketing and Entrepreneurship - BSc (Hons)- CK213",
+   "fee": 22814,
+   "duration": "4 Yr FT",
+   "college": "COBL",
+   "ck": "ck213"
+  },
+  {
+   "name": "Accounting - BSc (Hons) - CK202",
+   "fee": 22814,
+   "duration": "4 Yr FT",
+   "college": "COBL",
+   "ck": "ck202"
+  },
+  {
+   "name": "Business Information Systems - BSc (Hons) - CK203",
+   "fee": 22814,
+   "duration": "4 Yr FT",
+   "college": "COBL",
+   "ck": "ck203"
+  },
+  {
+   "name": "Finance - BSc (Hons) - CK204",
+   "fee": 22814,
+   "duration": "4 Yr FT",
+   "college": "COBL",
+   "ck": "ck204"
+  },
+  {
+   "name": "International Business with Languages - BSc (Hons) - CK215",
+   "fee": 22814,
+   "duration": "4 Yr FT",
+   "college": "COBL",
+   "ck": "ck215"
+  },
+  {
+   "name": "Diploma in Common Law (European) - Full Year",
+   "fee": 15514,
+   "duration": "1 Yr FT",
+   "college": "COBL",
+   "ck": null
+  },
+  {
+   "name": "Nursing Studies - BSc (Hons)",
+   "fee": 12414,
+   "duration": "1 Yr FT",
+   "college": "COMH",
+   "ck": null
+  },
+  {
+   "name": "Dentistry - BDS (Hons) - CK702",
+   "fee": 55214,
+   "duration": "5 Yr FT",
+   "college": "COMH",
+   "ck": "ck702"
+  },
+  {
+   "name": "Pharmacy - BPharm (Hons) - CK703",
+   "fee": 23314,
+   "duration": "5 Yr FT",
+   "college": "COMH",
+   "ck": "ck703"
+  },
+  {
+   "name": "Medical and Health Sciences - BSc (Hons) - CK707",
+   "fee": 28014,
+   "duration": "4 Yr FT",
+   "college": "COMH",
+   "ck": "ck707"
+  },
+  {
+   "name": "Midwifery - BSc (Hons) - CK740",
+   "fee": 25614,
+   "duration": "4 Yr FT",
+   "college": "COMH",
+   "ck": "ck740"
+  },
+  {
+   "name": "Nursing - (Children's and General Integrated) - BSc (Hons) - CK712",
+   "fee": 25614,
+   "duration": "4.5 Yr FT",
+   "college": "COMH",
+   "ck": "ck712"
+  },
+  {
+   "name": "Nursing (General) - BSc (Hons) - CK710",
+   "fee": 25614,
+   "duration": "4 Yr FT",
+   "college": "COMH",
+   "ck": "ck710"
+  },
+  {
+   "name": "Nursing (Intellectual Disability) - BSc (Hons) - CK730",
+   "fee": 25614,
+   "duration": "4 Yr FT",
+   "college": "COMH",
+   "ck": "ck730"
+  },
+  {
+   "name": "Nursing (Mental Health) - BSc (Hons) - CK720",
+   "fee": 25614,
+   "duration": "4 Yr FT",
+   "college": "COMH",
+   "ck": "ck720"
+  },
+  {
+   "name": "Occupational Therapy - BSc (Hons) - CK704",
+   "fee": 23314,
+   "duration": "4 Yr FT",
+   "college": "COMH",
+   "ck": "ck704"
+  },
+  {
+   "name": "Public Health Sciences - BSc (Hons) - CK706",
+   "fee": 20914,
+   "duration": "4 Yr FT",
+   "college": "COMH",
+   "ck": "ck706"
+  },
+  {
+   "name": "Speech and Language Therapy - BSc (Hons) - CK705",
+   "fee": 23314,
+   "duration": "4 Yr FT",
+   "college": "COMH",
+   "ck": "ck705"
+  },
+  {
+   "name": "Medicine - MB, BCh, BAO - CK701",
+   "fee": 54414,
+   "duration": "5 Yr FT",
+   "college": "COMH",
+   "ck": "ck701"
+  },
+  {
+   "name": "Medicine (Graduate Entry) - MB, BCh, BAO - CK791",
+   "fee": 58614,
+   "duration": "4 Yr FT",
+   "college": "COMH",
+   "ck": "ck791"
+  },
+  {
+   "name": "Agricultural Science - BAgrSc (Hons) - CK412",
+   "fee": 28314,
+   "duration": "4 Yr FT",
+   "college": "SEFS",
+   "ck": "ck412"
+  },
+  {
+   "name": "Architecture - BSc (Hons) - CK606",
+   "fee": 28314,
+   "duration": "4 Yr FT",
+   "college": "SEFS",
+   "ck": "ck606"
+  },
+  {
+   "name": "Biological and Chemical Sciences - BSc (Hons) - CK402",
+   "fee": 28314,
+   "duration": "4 Yr FT",
+   "college": "SEFS",
+   "ck": "ck402"
+  },
+  {
+   "name": "Biological Sciences - Dip",
+   "fee": 28314,
+   "duration": "1 Yr FT",
+   "college": "SEFS",
+   "ck": null
+  },
+  {
+   "name": "Biological, Environmental and Geological Sciences - BSc (Hons) - CK404",
+   "fee": 28314,
+   "duration": "4 Yr FT",
+   "college": "SEFS",
+   "ck": "ck404"
+  },
+  {
+   "name": "Chemical Sciences - BSc (Hons) - CK406",
+   "fee": 28314,
+   "duration": "4 Yr FT",
+   "college": "SEFS",
+   "ck": "ck406"
+  },
+  {
+   "name": "Computer Science - BSc (Hons) - CK401",
+   "fee": 28314,
+   "duration": "4 Yr FT",
+   "college": "SEFS",
+   "ck": "ck401"
+  },
+  {
+   "name": "Computer Science - Single Honours - BSc (Hons)",
+   "fee": 28314,
+   "duration": "2 Yr FT",
+   "college": "SEFS",
+   "ck": null
+  },
+  {
+   "name": "Computer Studies - BSc (Ord)",
+   "fee": 28314,
+   "duration": "2 Yr FT",
+   "college": "SEFS",
+   "ck": null
+  },
+  {
+   "name": "Computer Studies - Dip",
+   "fee": 28314,
+   "duration": "1 Yr FT",
+   "college": "SEFS",
+   "ck": null
+  },
+  {
+   "name": "Data Science and Artificial Intelligence - BSc (Hons) - CK411",
+   "fee": 28314,
+   "duration": "4 Yr FT",
+   "college": "SEFS",
+   "ck": "ck411"
+  },
+  {
+   "name": "Electrical and Electronic Engineering - BE (Hons)",
+   "fee": 28314,
+   "duration": "2 Yr FT",
+   "college": "SEFS",
+   "ck": null
+  },
+  {
+   "name": "Electrical and Electronic Engineering Studies - Dip",
+   "fee": 28314,
+   "duration": "1 Yr FT",
+   "college": "SEFS",
+   "ck": null
+  },
+  {
+   "name": "Engineering - BE (Hons) - CK600",
+   "fee": 28314,
+   "duration": "4 Yr FT",
+   "college": "SEFS",
+   "ck": "ck600"
+  },
+  {
+   "name": "Environmental and Geological Sciences - Dip",
+   "fee": 28314,
+   "duration": "1 Yr FT",
+   "college": "SEFS",
+   "ck": null
+  },
+  {
+   "name": "Environmental Science with Environmental Management - BSc (Hons) - Year 1 and Year 2",
+   "fee": 4814,
+   "duration": "2 Yr FT",
+   "college": "SEFS",
+   "ck": null
+  },
+  {
+   "name": "Environmental Science with Environmental Management - BSc (Hons) - Year 3",
+   "fee": 28314,
+   "duration": "1 Yr FT",
+   "college": "SEFS",
+   "ck": null
+  },
+  {
+   "name": "Environmental Science with Environmental Management - BSc (Hons) - Year 4",
+   "fee": 6714,
+   "duration": "1 Yr FT",
+   "college": "SEFS",
+   "ck": null
+  },
+  {
+   "name": "Food Science - BSc (Hons) - CK505",
+   "fee": 28314,
+   "duration": "4 Yr FT",
+   "college": "SEFS",
+   "ck": "ck505"
+  },
+  {
+   "name": "Food Science and Technology - BSc (Hons)",
+   "fee": 28314,
+   "duration": "2 Yr FT",
+   "college": "SEFS",
+   "ck": null
+  },
+  {
+   "name": "Food Science and Technology - BSc (Ord)",
+   "fee": 28314,
+   "duration": "2 Yr FT",
+   "college": "SEFS",
+   "ck": null
+  },
+  {
+   "name": "Food Studies - Dip",
+   "fee": 28314,
+   "duration": "1 Yr FT",
+   "college": "SEFS",
+   "ck": null
+  },
+  {
+   "name": "Genetics - BSc (Hons) - CK405",
+   "fee": 28314,
+   "duration": "4 Yr FT",
+   "college": "SEFS",
+   "ck": "ck405"
+  },
+  {
+   "name": "Mathematical Sciences - BSc (Hons) - CK407",
+   "fee": 28314,
+   "duration": "4 Yr FT",
+   "college": "SEFS",
+   "ck": "ck407"
+  },
+  {
+   "name": "Nutritional Sciences - BSc (Hons) - CK504",
+   "fee": 28314,
+   "duration": "4 Yr FT",
+   "college": "SEFS",
+   "ck": "ck504"
+  },
+  {
+   "name": "Physics and Astrophysics - BSc (Hons) - CK408",
+   "fee": 28314,
+   "duration": "4 Yr FT",
+   "college": "SEFS",
+   "ck": "ck408"
+  },
+  {
+   "name": "Risk and Actuarial Studies - BSc (Hons)",
+   "fee": 28314,
+   "duration": "2 Yr FT",
+   "college": "SEFS",
+   "ck": null
+  },
+  {
+   "name": "Sustainability - BSc (Hons)",
+   "fee": 28314,
+   "duration": "4 Yr FT",
+   "college": "SEFS",
+   "ck": null
+  },
+  {
+   "name": "Arts and Social Sciences - Dip",
+   "fee": 19514,
+   "duration": "1 Yr FT",
+   "college": "CACSSS",
+   "ck": null
+  },
+  {
+   "name": "Physical Education, Sports Studies & Arts - BEd (Hons) - CK125",
+   "fee": 25214,
+   "duration": "4 Yr FT",
+   "college": "CACSSS",
+   "ck": "ck125"
+  },
+  {
+   "name": "Arts - BA (Hons) - CK101",
+   "fee": 19514,
+   "duration": "3 Yr FT",
+   "college": "CACSSS",
+   "ck": "ck101"
+  },
+  {
+   "name": "Anthropology - BA (Hons) - CK123",
+   "fee": 19514,
+   "duration": "3 or 4 Yr FT",
+   "college": "CACSSS",
+   "ck": "ck123"
+  },
+  {
+   "name": "Applied Psychology - BA (Hons) - CK120",
+   "fee": 25214,
+   "duration": "3 Yr FT",
+   "college": "CACSSS",
+   "ck": "ck120"
+  },
+  {
+   "name": "Arts - Music - BA (Hons) - CK104",
+   "fee": 19514,
+   "duration": "3 or 4 Yr FT",
+   "college": "CACSSS",
+   "ck": "ck104"
+  },
+  {
+   "name": "Criminology - BA (Hons) - CK113",
+   "fee": 19514,
+   "duration": "3 or 4 Yr FT",
+   "college": "CACSSS",
+   "ck": "ck113"
+  },
+  {
+   "name": "Digital Humanities and Information Technology - BA (Hons) - CK118",
+   "fee": 19514,
+   "duration": "3 or 4 Yr FT",
+   "college": "CACSSS",
+   "ck": "ck118"
+  },
+  {
+   "name": "Early Years and Childhood Studies - BA (Hons) - CK111",
+   "fee": 19514,
+   "duration": "4 Yr FT",
+   "college": "CACSSS",
+   "ck": "ck111"
+  },
+  {
+   "name": "English - BA (Hons) - CK109",
+   "fee": 19514,
+   "duration": "3 or 4 Yr FT",
+   "college": "CACSSS",
+   "ck": "ck109"
+  },
+  {
+   "name": "Film and Screen Media - BA (Hons) - CK105",
+   "fee": 19514,
+   "duration": "3 or 4 Yr FT",
+   "college": "CACSSS",
+   "ck": "ck105"
+  },
+  {
+   "name": "Arts (International) - BA (Hons) - CK108",
+   "fee": 19514,
+   "duration": "4 Yr FT",
+   "college": "CACSSS",
+   "ck": "ck108"
+  },
+  {
+   "name": "Psychology and Computing - BA (Hons) - CK121",
+   "fee": 25214,
+   "duration": "3 or 4 Yr FT",
+   "college": "CACSSS",
+   "ck": "ck121"
+  },
+  {
+   "name": "Theatre and Performative Practices - BA (Hons) - CK112",
+   "fee": 19514,
+   "duration": "3 or 4 Yr FT",
+   "college": "CACSSS",
+   "ck": "ck112"
+  },
+  {
+   "name": "World Languages - BA (Hons) - CK110",
+   "fee": 19514,
+   "duration": "4 Yr FT",
+   "college": "CACSSS",
+   "ck": "ck110"
+  },
+  {
+   "name": "Gaeilge - BEd (Hons) - CK124",
+   "fee": 25214,
+   "duration": "4 Yr FT",
+   "college": "CACSSS",
+   "ck": "ck124"
+  },
+  {
+   "name": "Government and Political Science - BSc (Hons) - CK122",
+   "fee": 19514,
+   "duration": "4 Yr FT",
+   "college": "CACSSS",
+   "ck": "ck122"
+  },
+  {
+   "name": "Social Science - BSocSc (Hons) - CK102",
+   "fee": 19514,
+   "duration": "3 Yr FT",
+   "college": "CACSSS",
+   "ck": "ck102"
+  },
+  {
+   "name": "Youth and Community Work - BSocSc (Hons) - CK114",
+   "fee": 20914,
+   "duration": "3 Yr FT",
+   "college": "CACSSS",
+   "ck": "ck114"
+  },
+  {
+   "name": "Social Work - BSW (Hons) - CK115",
+   "fee": 19514,
+   "duration": "4 Yr FT",
+   "college": "CACSSS",
+   "ck": "ck115"
+  }
+ ],
+ "postgraduateNonEu": [
+  {
+   "name": "Ancient Medieval Languages - PG Dip",
+   "fee": 13214,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Anthropology - MA",
+   "fee": 24914,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Social Policy and Social Justice - MSocSc (Online)",
+   "fee": 16714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Social Policy and Social Justice - MSocSc (Online)",
+   "fee": 9514,
+   "category": "Non-EU",
+   "mode": "Part-time, 2 Years",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Social Policy (Online) - HDip",
+   "fee": 13614,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Social Policy (Online) - HDip",
+   "fee": 7914,
+   "category": "Non-EU",
+   "mode": "Part-time, 2 Years",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Gaelic Literature and Culture (Online) - MA",
+   "fee": 9414,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Gaelic Literature and Culture (Online) - MA",
+   "fee": 6214,
+   "category": "Non-EU",
+   "mode": "Part-time, 2 Years",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Applied Coastal and Marine Management - MSc",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Irish Mythology and Folklore (Online) - MA",
+   "fee": 9414,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Irish Mythology and Folklore (Online) - MA",
+   "fee": 6214,
+   "category": "Non-EU",
+   "mode": "Part-time, 2 Years",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Archaeology - HDip in Arts",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Applied Linguistics - MA",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Celtic Civilisation - HDip in Arts",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "English - HDip in Arts",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Applied Psychology - MA",
+   "fee": 24914,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "French - HDip in Arts",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Nua Gaeilge (Modern Irish) - HDip in Arts",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Applied Psychology (Mental Health) - MA",
+   "fee": 24914,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "German - HDip in Arts",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Geography - HDip in Arts",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Applied Psychology (Positive and Coaching Psychology) - MA",
+   "fee": 24914,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Art & Design - PME",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 2 Years",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Arts Management and Creative Producing - MA",
+   "fee": 24914,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Asian Studies - MA",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Greek and Roman Civilisation - HDip in Arts",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Beginnings of Irish Christianity - MA",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "History - HDip in Arts",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Celtic Civilisation - MA",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Classical Studies - MA",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Creative Writing (English) - MA",
+   "fee": 21114,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "History of Art - HDip in Arts",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Criminology - MA",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Digital Arts and Humanities - MA",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Digital Cultures (Online) - MA",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Spanish - HDip in Arts",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Early and Medieval Irish - MA",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Italian - HDip in Arts",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Education - Professional Master of Education (PME) Secondary School/Post-Primary Initial Teacher Education Programme",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 2 Years",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Music - HDip in Arts",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "English (Medieval and Renaissance Literature) - MA",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "English (Modernities: Literature Theory and Culture from the Romantics to the Present) - MA",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Ethnomusicology - MA",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Experimental Sound Practice - MA",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Philosophy - HDip in Arts",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Film and Screen Media - MA",
+   "fee": 21114,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Folklore - HDip in Arts",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Study of Religions - HDip in Arts",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Geoinformatics - MSc",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Sociology - HDip in Arts",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Health and Society - MA",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Theatre and Performative Practices - HDip in Arts",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "History - MA",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Human Osteoarchaeology - MA",
+   "fee": 21114,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Social Policy (Campus Based) - HDip",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "International Public Policy and Diplomacy - MSc",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "International Relations - MA",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Irish Language and European Law - MA",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Politics - HDip in Arts",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Migration, Mobility and Culture - MA",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Modern and Contemporary Art History, Theory and Criticism - MA",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Modern Irish - MA",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Museum Studies - MA",
+   "fee": 21114,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Music and Cultural History - MA",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Philosophy - MA",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Philosophy - PG Dip",
+   "fee": 13214,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Planning (Planning and Sustainable Development) - MPlan",
+   "fee": 20914,
+   "category": "Non-EU",
+   "mode": "Full-time, 2 Years",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Planning and Sustainable Development - PG Dip",
+   "fee": 21114,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Psychology - HDip",
+   "fee": 19514,
+   "category": "Non-EU",
+   "mode": "Full-time, 2 Years",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Work and Organisational Behaviour - MA",
+   "fee": 24914,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Social Work - MSW",
+   "fee": 20914,
+   "category": "Non-EU",
+   "mode": "Full-time, 2 Years",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Social Work Studies - PG Dip",
+   "fee": 14114,
+   "category": "Non-EU",
+   "mode": "Full-time, 2 Years",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Sociology - MA",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Sociology of Sustainability and Global Challenges - MA",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Strategic Studies (Online) - MA",
+   "fee": 7914,
+   "category": "Non-EU",
+   "mode": "Part-time, 2 Years",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Teaching Chinese to Speakers of Other Languages - MA",
+   "fee": 21114,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Translation Studies - MA",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Women's Studies - MA",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Work and Organisational Psychology - MA",
+   "fee": 24914,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Youth Work - PG Dip",
+   "fee": 13214,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Irish Traditional Music - MA",
+   "fee": 19714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Global Gallery Studies - MA (Online)",
+   "fee": 7914,
+   "category": "Non-EU",
+   "mode": "Part-time, 2 Years",
+   "college": "CACSSS"
+  },
+  {
+   "name": "MPhil (Research)",
+   "fee": 16070,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "CACSSS"
+  },
+  {
+   "name": "MSc (Research)",
+   "fee": 16070,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "CACSSS"
+  },
+  {
+   "name": "MPhil (Research)",
+   "fee": 16070,
+   "category": "Non-EU",
+   "mode": "Full-time, 2 Years",
+   "college": "CACSSS"
+  },
+  {
+   "name": "MRes",
+   "fee": 16070,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "CACSSS"
+  },
+  {
+   "name": "MRes",
+   "fee": 16070,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Higher Education Professionals - PhD (College of Arts, Celtic Studies, and Social Studies)",
+   "fee": 13070,
+   "category": "Non-EU",
+   "mode": "Full-time, 4 Years",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Digital Arts and Humanities - Thematic PhD",
+   "fee": 13070,
+   "category": "Non-EU",
+   "mode": "Full-time, 4 Years",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Cohort PhD in Education - Thematic PhD",
+   "fee": 13070,
+   "category": "Non-EU",
+   "mode": "Full-time, 4 Years",
+   "college": "CACSSS"
+  },
+  {
+   "name": "PhD Arts, Celtic Studies and Social Sciences",
+   "fee": 13070,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Geography - PhD",
+   "fee": 15070,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Philosophy - PhD",
+   "fee": 15070,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Social Work - PhD",
+   "fee": 13070,
+   "category": "Non-EU",
+   "mode": "Full-time, 4 Years",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Doctor of Clinical Psychology - Practitioner Doctorate",
+   "fee": 29070,
+   "category": "Non-EU",
+   "mode": "Full-time, 3 Years",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Doctor of Social Science - Practitioner Doctorate",
+   "fee": 13070,
+   "category": "Non-EU",
+   "mode": "Full-time, 4 Years",
+   "college": "CACSSS"
+  },
+  {
+   "name": "Allergy and Clinical Immunology (Online) - PG Cert",
+   "fee": 8114,
+   "category": "Non-EU",
+   "mode": "Part-time, 1 Year",
+   "college": "COMH"
+  },
+  {
+   "name": "Audiology - MSc",
+   "fee": 20714,
+   "category": "Non-EU",
+   "mode": "Full-time, 2 Years",
+   "college": "COMH"
+  },
+  {
+   "name": "Clinical Measurement Physiology - MSc",
+   "fee": 22914,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Clinical Trials (Online) - MSc",
+   "fee": 12814,
+   "category": "Non-EU",
+   "mode": "Part-time, 1 Year",
+   "college": "COMH"
+  },
+  {
+   "name": "Clinical Trials (Online) - PG Cert",
+   "fee": 4714,
+   "category": "Non-EU",
+   "mode": "Part-time, 9 Months",
+   "college": "COMH"
+  },
+  {
+   "name": "Clinical Trials (Online) - PG Dip",
+   "fee": 9014,
+   "category": "Non-EU",
+   "mode": "Part-time, 1 Year",
+   "college": "COMH"
+  },
+  {
+   "name": "Clinical Pharmacy (Online) - MSc",
+   "fee": 9714,
+   "category": "Non-EU",
+   "mode": "Part-time, 2 Years",
+   "college": "COMH"
+  },
+  {
+   "name": "Dementia - MSc",
+   "fee": 23214,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COMH"
+  },
+  {
+   "name": "Dementia - PG Cert",
+   "fee": 7714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COMH"
+  },
+  {
+   "name": "Diagnostic Radiography - MSc",
+   "fee": 23314,
+   "category": "Non-EU",
+   "mode": "Full-time, 2 Years",
+   "college": "COMH"
+  },
+  {
+   "name": "Health and Wellbeing - PG Cert (online)",
+   "fee": 8114,
+   "category": "Non-EU",
+   "mode": "Part-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Health and Wellbeing - PG Dip",
+   "fee": 11014,
+   "category": "Non-EU",
+   "mode": "Part-time, 1 Year",
+   "college": "COMH"
+  },
+  {
+   "name": "Health Professions' Education (Online) - PG Cert",
+   "fee": 7114,
+   "category": "Non-EU",
+   "mode": "Part-time, 1 Year",
+   "college": "COMH"
+  },
+  {
+   "name": "Health Protection (Online) - PG Cert",
+   "fee": 4114,
+   "category": "Non-EU",
+   "mode": "Part-time, 6 Months",
+   "college": "COMH"
+  },
+  {
+   "name": "Healthcare Quality Improvement (Online) - MSc",
+   "fee": 8514,
+   "category": "Non-EU",
+   "mode": "Part-time, 2 Years",
+   "college": "COMH"
+  },
+  {
+   "name": "Hearing, Balance and Communication - MSc",
+   "fee": 11814,
+   "category": "Non-EU",
+   "mode": "Part-time, 2 Years",
+   "college": "COMH"
+  },
+  {
+   "name": "Human Anatomy - MSc",
+   "fee": 18414,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COMH"
+  },
+  {
+   "name": "Industrial Pharmaceutical Sciences, Operation and Management - MSc",
+   "fee": 23914,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COMH"
+  },
+  {
+   "name": "Infection Prevention and Control (Online) - MSc",
+   "fee": 11914,
+   "category": "Non-EU",
+   "mode": "Part-time, 1 Year",
+   "college": "COMH"
+  },
+  {
+   "name": "Infection Prevention and Control (Online)- PG Cert",
+   "fee": 4114,
+   "category": "Non-EU",
+   "mode": "Part-time, 8 Months",
+   "college": "COMH"
+  },
+  {
+   "name": "Medical Imaging and Radiation Sciences (Online) - MSc - January Intake",
+   "fee": 16314,
+   "category": "Non-EU",
+   "mode": "Part-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Medical Imaging and Radiation Sciences (Online) - MSc - September Intake",
+   "fee": 16314,
+   "category": "Non-EU",
+   "mode": "Part-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Medical Imaging and Radiation Sciences (Online) - PG Cert - January Intake",
+   "fee": 5614,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Medical Imaging and Radiation Sciences (Online) - PG Cert - January Intake",
+   "fee": 5614,
+   "category": "Non-EU",
+   "mode": "Part-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Medical Imaging and Radiation Sciences (Online) - PG Cert - September Intake",
+   "fee": 5614,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Medical Imaging and Radiation Sciences (Online) - PG Cert - September Intake",
+   "fee": 5614,
+   "category": "Non-EU",
+   "mode": "Part-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Medical Imaging and Radiation Sciences (Online) - PG Dip - January Intake",
+   "fee": 11014,
+   "category": "Non-EU",
+   "mode": "Part-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Medical Imaging and Radiation Sciences (Online) - PG Dip - September Intake",
+   "fee": 11014,
+   "category": "Non-EU",
+   "mode": "Part-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Midwifery (Pathway) - MSc",
+   "fee": 11914,
+   "category": "Non-EU",
+   "mode": "Part-time, 2 Years",
+   "college": "COMH"
+  },
+  {
+   "name": "Midwifery (Direct Entry to Year 2) - MSc",
+   "fee": 6214,
+   "category": "Non-EU",
+   "mode": "Part-time, 1 Year",
+   "college": "COMH"
+  },
+  {
+   "name": "Nursing (Direct Entry to Year 2) - MSc",
+   "fee": 6214,
+   "category": "Non-EU",
+   "mode": "Part-time, 1 Year",
+   "college": "COMH"
+  },
+  {
+   "name": "Nursing (for Non-EU Applicants only) - MSc",
+   "fee": 21414,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COMH"
+  },
+  {
+   "name": "Nursing (Gerontological Nursing) - PG Dip/MSc",
+   "fee": 16714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COMH"
+  },
+  {
+   "name": "Nursing (Intensive Care Nursing) - PG Dip/MSc",
+   "fee": 16714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COMH"
+  },
+  {
+   "name": "Nursing (Medical Surgical Nursing) - PG Dip/MSc",
+   "fee": 16714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COMH"
+  },
+  {
+   "name": "Nursing (Oncology Nursing) - PG Dip/MSc",
+   "fee": 16714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COMH"
+  },
+  {
+   "name": "Nursing (Specialist Mental Health Nursing Practice) - PG Dip/MSc",
+   "fee": 17814,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COMH"
+  },
+  {
+   "name": "Nursing (Trauma & Emergency Nursing) - PG Dip/MSc",
+   "fee": 17514,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COMH"
+  },
+  {
+   "name": "Nursing Advanced Practice (Nursing/Midwifery) - MSc",
+   "fee": 14114,
+   "category": "Non-EU",
+   "mode": "Part-time, 2 Years",
+   "college": "COMH"
+  },
+  {
+   "name": "Occupational Health - MSc (Online)",
+   "fee": 11814,
+   "category": "Non-EU",
+   "mode": "Part-time, 2 Years",
+   "college": "COMH"
+  },
+  {
+   "name": "Older Person Rehabilitation - MSc",
+   "fee": 23214,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COMH"
+  },
+  {
+   "name": "Older Person Rehabilitation - PG Cert",
+   "fee": 7714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COMH"
+  },
+  {
+   "name": "Paediatrics and Child Health (Online) - PG Cert",
+   "fee": 8114,
+   "category": "Non-EU",
+   "mode": "Part-time, 1 Year",
+   "college": "COMH"
+  },
+  {
+   "name": "Pharmaceutical Regulatory Sciences - MSc",
+   "fee": 21714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COMH"
+  },
+  {
+   "name": "Pharmaceutical Technology & Quality Systems - MSc",
+   "fee": 10514,
+   "category": "Non-EU",
+   "mode": "Part-time, 2 Years",
+   "college": "COMH"
+  },
+  {
+   "name": "Physiotherapy - MSc",
+   "fee": 23314,
+   "category": "Non-EU",
+   "mode": "Full-time, 2 Years",
+   "college": "COMH"
+  },
+  {
+   "name": "Public Health - MPH (Online)",
+   "fee": 11814,
+   "category": "Non-EU",
+   "mode": "Part-time, 2 Years",
+   "college": "COMH"
+  },
+  {
+   "name": "Public Health - MPH",
+   "fee": 17814,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COMH"
+  },
+  {
+   "name": "Public Health - Postgraduate Diploma",
+   "fee": 11314,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COMH"
+  },
+  {
+   "name": "Radiation Therapy - MSc",
+   "fee": 23314,
+   "category": "Non-EU",
+   "mode": "Full-time, 2 Years",
+   "college": "COMH"
+  },
+  {
+   "name": "Sports and Exercise Medicine - MMedSc",
+   "fee": 24614,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COMH"
+  },
+  {
+   "name": "Surgical Science - MCH",
+   "fee": 17914,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COMH"
+  },
+  {
+   "name": "Surgical Science - MCH",
+   "fee": 10814,
+   "category": "Non-EU",
+   "mode": "Part-time, 2 Years",
+   "college": "COMH"
+  },
+  {
+   "name": "Nursing - MSc (Research)",
+   "fee": 11970,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Midwifery - MSc (Research)",
+   "fee": 11970,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Oral Health and Development - MSc (Research)",
+   "fee": 12070,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "MSc (Research) Medicine",
+   "fee": 12470,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Public Health - MSc (Research)",
+   "fee": 11670,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Occupational Therapy - MSc (Research)",
+   "fee": 11670,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Pharmacy - MSc (Research)",
+   "fee": 11670,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Physiotherapy - MSc (Research)",
+   "fee": 11670,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Pharmaceutics - MSc (Research)",
+   "fee": 11670,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Speech and Hearing Sciences - MSc (Research)",
+   "fee": 11670,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Surgery - MCH",
+   "fee": 12470,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Industrial Pharmaceutics - MRes",
+   "fee": 20570,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Medical Sciences - MRes",
+   "fee": 10270,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Health Professions' Education - MRes",
+   "fee": 12470,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "SPHERE: Structured Population, Health, Policy and Health Services Research Education - PhD",
+   "fee": 11570,
+   "category": "Non-EU",
+   "mode": "Full-time, 4 Years",
+   "college": "COMH"
+  },
+  {
+   "name": "Higher Education Professionals - PhD (College of Medicine and Health)",
+   "fee": 13670,
+   "category": "Non-EU",
+   "mode": "Full-time, 4 Years",
+   "college": "COMH"
+  },
+  {
+   "name": "Anatomy - PhD",
+   "fee": 16070,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Neuroscience - MD",
+   "fee": 12170,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Medical Radiation Sciences - PhD",
+   "fee": 12170,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "General Practice - PhD",
+   "fee": 12170,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Midwifery - PhD",
+   "fee": 11570,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Medicine - PhD",
+   "fee": 12170,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Paramedic Studies - PhD",
+   "fee": 12170,
+   "category": "Non-EU",
+   "mode": "Full-time, 4 Years",
+   "college": "COMH"
+  },
+  {
+   "name": "Anaesthesia and Intensive Care Medicine - PhD",
+   "fee": 12170,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Clinical Pharmacy - PhD",
+   "fee": 11570,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Dental Surgery - PhD",
+   "fee": 12070,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Health Professions Education - PhD",
+   "fee": 12170,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Neuroscience - PhD",
+   "fee": 12170,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Nursing - PhD",
+   "fee": 11570,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Obstetrics and Gynaecology - PhD",
+   "fee": 12170,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Occupational Therapy - PhD",
+   "fee": 11570,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Oral Health and Development - PhD",
+   "fee": 12070,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Paediatrics - PhD",
+   "fee": 12170,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Pathology - PhD",
+   "fee": 12170,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Pharmaceutical Chemistry - PhD",
+   "fee": 11570,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Pharmaceutics - PhD",
+   "fee": 11570,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Pharmacology and Therapeutics - PhD",
+   "fee": 11570,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Pharmacy - PhD",
+   "fee": 11570,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Physiology - PhD",
+   "fee": 12170,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Physiotherapy - PhD",
+   "fee": 11570,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Psychiatry - PhD",
+   "fee": 12170,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Public Health - PhD",
+   "fee": 11570,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Restorative Dentistry - PhD",
+   "fee": 12070,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Speech and Hearing Sciences - PhD",
+   "fee": 11570,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Surgery - PhD",
+   "fee": 12170,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Anatomy - MD",
+   "fee": 12170,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "General Practice - MD",
+   "fee": 11670,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Health Professions' Education - MD",
+   "fee": 11570,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Medicine - MD",
+   "fee": 11670,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Ophthalmology - MD",
+   "fee": 11670,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Obstetrics and Gynaecology - MD",
+   "fee": 11670,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Paediatrics - MD",
+   "fee": 11670,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Pathology - MD",
+   "fee": 11670,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Pharmacology - MD",
+   "fee": 11670,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Physiology - MD",
+   "fee": 11670,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Psychiatry - MD",
+   "fee": 11670,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Public Health - MD",
+   "fee": 11670,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Anaesthesia - MD",
+   "fee": 11670,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Surgery - MD",
+   "fee": 11670,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Restorative Dentistry - MDS",
+   "fee": 12070,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COMH"
+  },
+  {
+   "name": "Doctor of Clinical Dentistry - Oral Surgery - Practitioner Doctorate",
+   "fee": 13670,
+   "category": "Non-EU",
+   "mode": "Full-time, 3 Years",
+   "college": "COMH"
+  },
+  {
+   "name": "Doctor of Clinical Dentistry - Orthodontics - Practitioner Doctorate",
+   "fee": 13670,
+   "category": "Non-EU",
+   "mode": "Full-time, 3 Years",
+   "college": "COMH"
+  },
+  {
+   "name": "PhD / MD - Medicine/Dental (Subsequent Years)",
+   "fee": 1770,
+   "category": "EU and Non-EU",
+   "mode": "Subsequent Years",
+   "college": "COMH"
+  },
+  {
+   "name": "Accounting - MACC",
+   "fee": 21914,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COBL"
+  },
+  {
+   "name": "Accounting and Performance Analytics - MSc",
+   "fee": 21914,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COBL"
+  },
+  {
+   "name": "Business Economics - MSc",
+   "fee": 21914,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COBL"
+  },
+  {
+   "name": "Design and Development of Digital Business - MSc",
+   "fee": 21914,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COBL"
+  },
+  {
+   "name": "Finance (Banking and Risk Management) - MSc",
+   "fee": 21914,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COBL"
+  },
+  {
+   "name": "Finance (Corporate Finance) - MSc",
+   "fee": 21914,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COBL"
+  },
+  {
+   "name": "Finance (Investment and Asset Management) - MSc",
+   "fee": 21914,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COBL"
+  },
+  {
+   "name": "Food Business and Innovation - MSc",
+   "fee": 21914,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COBL"
+  },
+  {
+   "name": "Information Systems for Business Performance - MSc",
+   "fee": 21914,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COBL"
+  },
+  {
+   "name": "International Sustainable Business - MSc",
+   "fee": 21914,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COBL"
+  },
+  {
+   "name": "Law - LLM",
+   "fee": 20914,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COBL"
+  },
+  {
+   "name": "Law - PG Dip",
+   "fee": 11714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COBL"
+  },
+  {
+   "name": "Law (Alternative Dispute Resolution) - LLM",
+   "fee": 20914,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COBL"
+  },
+  {
+   "name": "Law (Alternative Dispute Resolution) - PG Dip",
+   "fee": 11714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COBL"
+  },
+  {
+   "name": "Law (Children's and Family Law) - PG Dip",
+   "fee": 11714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COBL"
+  },
+  {
+   "name": "Law (Children's Rights and Family Law) - LLM",
+   "fee": 20914,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COBL"
+  },
+  {
+   "name": "Law (Environmental and Natural Resources Law) - LLM",
+   "fee": 20914,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COBL"
+  },
+  {
+   "name": "Law (Environmental and Natural Resources Law) - PG Dip",
+   "fee": 11714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COBL"
+  },
+  {
+   "name": "Law (International Human Rights Law and Public Policy) - LLM",
+   "fee": 20914,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COBL"
+  },
+  {
+   "name": "Law (International Human Rights Law and Public Policy) - PG Dip",
+   "fee": 11714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COBL"
+  },
+  {
+   "name": "Law (Law, Technology and Innovation) - PG Dip",
+   "fee": 11714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COBL"
+  },
+  {
+   "name": "Law (Law, Technology and Innovation)- LLM",
+   "fee": 20914,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COBL"
+  },
+  {
+   "name": "Law (Marine & Maritime Law) - LLM",
+   "fee": 20914,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COBL"
+  },
+  {
+   "name": "Law (Marine and Maritime Law) - PG Dip",
+   "fee": 11714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COBL"
+  },
+  {
+   "name": "LLB",
+   "fee": 20914,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COBL"
+  },
+  {
+   "name": "LLB (non-Law Graduates)",
+   "fee": 18314,
+   "category": "Non-EU",
+   "mode": "Full-time, 2 Years",
+   "college": "COBL"
+  },
+  {
+   "name": "Marketing - MSc",
+   "fee": 21914,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COBL"
+  },
+  {
+   "name": "MBA (Executive Programme)",
+   "fee": 17214,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COBL"
+  },
+  {
+   "name": "Sustainable Development, Agri-Food and Co-operatives - MSc",
+   "fee": 21914,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COBL"
+  },
+  {
+   "name": "Business Analytics - MSc (Non-EU applications only)",
+   "fee": 23314,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COBL"
+  },
+  {
+   "name": "Human Resource Management - MSc",
+   "fee": 21914,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COBL"
+  },
+  {
+   "name": "Law (International Business Law) - LLM",
+   "fee": 20914,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COBL"
+  },
+  {
+   "name": "Law (International Business Law) - PG Dip",
+   "fee": 11714,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COBL"
+  },
+  {
+   "name": "Management & Marketing - MSc (Non-EU applications only)",
+   "fee": 23314,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COBL"
+  },
+  {
+   "name": "CUBS MSc Research",
+   "fee": 15070,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COBL"
+  },
+  {
+   "name": "LLM (Research)",
+   "fee": 11570,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "COBL"
+  },
+  {
+   "name": "Higher Education Professionals - PhD (College of Business and Law)",
+   "fee": 13070,
+   "category": "Non-EU",
+   "mode": "Full-time, 4 Years",
+   "college": "COBL"
+  },
+  {
+   "name": "Business Information Systems - Thematic PhD",
+   "fee": 15070,
+   "category": "Non-EU",
+   "mode": "Full-time, 4 Years",
+   "college": "COBL"
+  },
+  {
+   "name": "PhD Business and Law",
+   "fee": 15070,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "COBL"
+  },
+  {
+   "name": "Doctor of Business Administration - Practitioner Doctorate",
+   "fee": 26070,
+   "category": "Non-EU",
+   "mode": "Full-time, 4 Years",
+   "college": "COBL"
+  },
+  {
+   "name": "Applied Computing Technology - HDip",
+   "fee": 28614,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "SEFS"
+  },
+  {
+   "name": "Industrial Biotechnology and Biomanufacturing - MEngSc",
+   "fee": 29614,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "SEFS"
+  },
+  {
+   "name": "Biotechnology - MSc (Non EU Applicants Only)",
+   "fee": 28614,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "SEFS"
+  },
+  {
+   "name": "Interactive Media - MSc (Non-EU Applications only)",
+   "fee": 29614,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "SEFS"
+  },
+  {
+   "name": "Microbiome Science – MSc",
+   "fee": 28614,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "SEFS"
+  },
+  {
+   "name": "Engineering in Pharmaceutical and Biopharmaceutical Systems - MEngSc",
+   "fee": 29614,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "SEFS"
+  },
+  {
+   "name": "Cybersecurity - MSc (Non-EU Applications Only)",
+   "fee": 29614,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "SEFS"
+  },
+  {
+   "name": "Data Science and Artificial Intelligence - MSc (Non EU Applicants Only)",
+   "fee": 29614,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "SEFS"
+  },
+  {
+   "name": "Advanced Cell and Gene Therapy - MSc",
+   "fee": 28614,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "SEFS"
+  },
+  {
+   "name": "Architecture - MArch",
+   "fee": 29614,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "SEFS"
+  },
+  {
+   "name": "Electrical and Electronic Engineering - MEngSc",
+   "fee": 29614,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "SEFS"
+  },
+  {
+   "name": "Mechanical Engineering (Manufacturing, Process and Automation Systems) - MEngSc",
+   "fee": 29614,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "SEFS"
+  },
+  {
+   "name": "Sustainable Energy - MEngSc",
+   "fee": 29614,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "SEFS"
+  },
+  {
+   "name": "Food Science - MSc",
+   "fee": 28614,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "SEFS"
+  },
+  {
+   "name": "Human Nutrition and Dietetics - MSc",
+   "fee": 29614,
+   "category": "Non-EU",
+   "mode": "Full-time, 2 Years",
+   "college": "SEFS"
+  },
+  {
+   "name": "Food Microbiology - MSc",
+   "fee": 28614,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "SEFS"
+  },
+  {
+   "name": "Applied Environmental Geoscience - MSc",
+   "fee": 28614,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "SEFS"
+  },
+  {
+   "name": "Bioinformatics and Computational Biology - MSc",
+   "fee": 29614,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "SEFS"
+  },
+  {
+   "name": "Marine Biology - MSc",
+   "fee": 28614,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "SEFS"
+  },
+  {
+   "name": "Mathematical Modelling and Machine Learning - MSc",
+   "fee": 29614,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "SEFS"
+  },
+  {
+   "name": "Analytical Chemistry - MSc",
+   "fee": 28614,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "SEFS"
+  },
+  {
+   "name": "Analysis of Pharmaceutical Compounds - MSc",
+   "fee": 28614,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "SEFS"
+  },
+  {
+   "name": "Computing Science - MSc (Non-EU Applications only)",
+   "fee": 29614,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "SEFS"
+  },
+  {
+   "name": "Dairy Technology and Innovation - PG Cert",
+   "fee": 11714,
+   "category": "Non-EU",
+   "mode": "Part-time, 1 Year",
+   "college": "SEFS"
+  },
+  {
+   "name": "Sustainability in Enterprise (Online) - PG Cert/MSc",
+   "fee": 9414,
+   "category": "Non-EU",
+   "mode": "Part-time, 1 Year",
+   "college": "SEFS"
+  },
+  {
+   "name": "Analytical Chemistry - PG Dip",
+   "fee": 28614,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "SEFS"
+  },
+  {
+   "name": "Analytical Chemistry - PG Dip",
+   "fee": 14414,
+   "category": "Non-EU",
+   "mode": "Part-time, 2 Years",
+   "college": "SEFS"
+  },
+  {
+   "name": "Masters by Research (Science)",
+   "fee": 15070,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "SEFS"
+  },
+  {
+   "name": "Sustainable Materials and the Environment - MRes",
+   "fee": 15070,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "SEFS"
+  },
+  {
+   "name": "Biochemistry and Biosciences - MRes",
+   "fee": 15070,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "SEFS"
+  },
+  {
+   "name": "Biotechnological Engineering - MRes",
+   "fee": 15070,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "SEFS"
+  },
+  {
+   "name": "Environmental Sciences - MRes",
+   "fee": 15070,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "SEFS"
+  },
+  {
+   "name": "Geological Sciences - MRes",
+   "fee": 15070,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "SEFS"
+  },
+  {
+   "name": "Plant Biology - MRes",
+   "fee": 15070,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "SEFS"
+  },
+  {
+   "name": "Higher Education Professionals - PhD (College of Science, Engineering, and Food Science)",
+   "fee": 13070,
+   "category": "Non-EU",
+   "mode": "Full-time, 4 Years",
+   "college": "SEFS"
+  },
+  {
+   "name": "Engineering Science - Thematic PhD",
+   "fee": 15070,
+   "category": "Non-EU",
+   "mode": "Full-time, 4 Years",
+   "college": "SEFS"
+  },
+  {
+   "name": "PhD Science, Engineering and Food Science",
+   "fee": 15070,
+   "category": "Non-EU",
+   "mode": "Full-time",
+   "college": "SEFS"
+  },
+  {
+   "name": "ME Civil Structural & Environmental Engineering (no direct entry)",
+   "fee": 28614,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "SEFS"
+  },
+  {
+   "name": "ME Electrical & Environment Engineering (no direct entry)",
+   "fee": 28614,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "SEFS"
+  },
+  {
+   "name": "ME Energy Engineering (no direct entry)",
+   "fee": 28614,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "SEFS"
+  },
+  {
+   "name": "ME Process & Chemical Engineering (no direct entry)",
+   "fee": 28614,
+   "category": "Non-EU",
+   "mode": "Full-time, 1 Year",
+   "college": "SEFS"
+  },
+  {
+   "name": "Teaching and Learning in Higher Education - MA",
+   "fee": 5214,
+   "category": "EU/Non-EU",
+   "mode": "Part-time",
+   "college": "CIRTL"
+  },
+  {
+   "name": "Teaching and Learning in Higher Education (Online) - PG Cert",
+   "fee": 2214,
+   "category": "EU/Non-EU",
+   "mode": "Part-time",
+   "college": "CIRTL"
+  },
+  {
+   "name": "Teaching and Learning in Higher Education (Online) - PG Dip",
+   "fee": 2214,
+   "category": "EU/Non-EU",
+   "mode": "Part-time",
+   "college": "CIRTL"
+  }
+ ]
+}
