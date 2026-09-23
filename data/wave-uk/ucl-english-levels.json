@@ -1,0 +1,38 @@
+{
+ "_source": "https://www.ucl.ac.uk/prospective-students/undergraduate/how-apply/english-language-requirements",
+ "_basis": "UCL does not state one institution-wide score. It defines five levels and each programme page names the level it requires.",
+ "_note": "TOEFL is deliberately absent. UCL now states TOEFL only on the new 4.5-5.5 scale, which our toeflMin field (0-120) cannot carry, so no TOEFL score is published for UCL.",
+ "_retrieved": "2026-09-23",
+ "levels": {
+  "1": {
+   "ielts": 6.5,
+   "ieltsPerComponent": 6,
+   "pte": 75,
+   "ptePerSkill": 67
+  },
+  "2": {
+   "ielts": 7,
+   "ieltsPerComponent": 6.5,
+   "pte": 76,
+   "ptePerSkill": 75
+  },
+  "3": {
+   "ielts": 7,
+   "ieltsPerComponent": 7,
+   "pte": 76,
+   "ptePerSkill": 76
+  },
+  "4": {
+   "ielts": 7.5,
+   "ieltsPerComponent": 7,
+   "pte": 80,
+   "ptePerSkill": 76
+  },
+  "5": {
+   "ielts": 8,
+   "ieltsPerComponent": 8,
+   "pte": 88,
+   "ptePerSkill": 80
+  }
+ }
+}

@@ -1,0 +1,3072 @@
+{
+ "_source": "https://www.ucl.ac.uk/prospective-students/undergraduate/degrees and each programme page beneath it.",
+ "_how": "UCL sits behind a Cloudflare challenge that command-line clients cannot pass, so the catalogue was read in a real browser session and each page fetched from within that page, where the clearance applies.",
+ "_basis": "Each programme page states \"Overseas tuition fees (2026/27)\" as a single annual figure, its duration in academic years, and which of UCL's five English levels it requires.",
+ "_retrieved": "2026-09-23",
+ "_counts": {
+  "total": 437,
+  "withFee": 417,
+  "withLevel": 415
+ },
+ "rows": [
+  {
+   "slug": "anthropology-bsc-2026",
+   "title": "Anthropology BSc",
+   "feeGBP": 39200,
+   "durationYears": 3,
+   "englishLevel": 2
+  },
+  {
+   "slug": "applied-medical-sciences-bsc-2026",
+   "title": "Applied Medical Sciences BSc",
+   "feeGBP": 39200,
+   "durationYears": 3,
+   "englishLevel": 3
+  },
+  {
+   "slug": "ancient-languages-ba-2026",
+   "title": "Ancient Languages BA",
+   "feeGBP": 32000,
+   "durationYears": 3,
+   "englishLevel": 2
+  },
+  {
+   "slug": "archaeology-ba-2026",
+   "title": "Archaeology BA",
+   "feeGBP": 39200,
+   "durationYears": 3,
+   "englishLevel": 2
+  },
+  {
+   "slug": "ancient-languages-year-abroad-ba-2026",
+   "title": "Ancient Languages with Year Abroad BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 2
+  },
+  {
+   "slug": "archaeology-and-anthropology-ba-2026",
+   "title": "Archaeology and Anthropology BA",
+   "feeGBP": 39200,
+   "durationYears": 3,
+   "englishLevel": 2
+  },
+  {
+   "slug": "architecture-bsc-2026",
+   "title": "Architecture BSc",
+   "feeGBP": 35400,
+   "durationYears": 3,
+   "englishLevel": 1
+  },
+  {
+   "slug": "architectural-and-interdisciplinary-studies-bsc-2026",
+   "title": "Architectural and Interdisciplinary Studies BSc",
+   "feeGBP": 39200,
+   "durationYears": 3,
+   "englishLevel": 1
+  },
+  {
+   "slug": "archaeology-year-abroad-ba-2026",
+   "title": "Archaeology with a Year Abroad BA",
+   "feeGBP": 39200,
+   "durationYears": 4,
+   "englishLevel": 2
+  },
+  {
+   "slug": "architectural-and-interdisciplinary-studies-year-abroad-bsc-2026",
+   "title": "Architectural and Interdisciplinary Studies with Year Abroad BSc",
+   "feeGBP": 39200,
+   "durationYears": 4,
+   "englishLevel": 1
+  },
+  {
+   "slug": "art-and-technology-ba-2026",
+   "title": "Art and Technology BA",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 1
+  },
+  {
+   "slug": "arts-and-sciences-basc-2026",
+   "title": "Arts and Sciences BASc",
+   "feeGBP": 35400,
+   "durationYears": 3,
+   "englishLevel": 4
+  },
+  {
+   "slug": "astrophysics-msci-2026",
+   "title": "Astrophysics MSci",
+   "feeGBP": 42700,
+   "durationYears": 4,
+   "englishLevel": 1
+  },
+  {
+   "slug": "ancient-history-ba-2026",
+   "title": "Ancient History BA",
+   "feeGBP": 32000,
+   "durationYears": 3,
+   "englishLevel": 4
+  },
+  {
+   "slug": "astrophysics-bsc-2026",
+   "title": "Astrophysics BSc",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 1
+  },
+  {
+   "slug": "bachelor-laws-ucl-and-bachelor-laws-hku-llb-2026",
+   "title": "Bachelor of Laws (UCL) and Bachelor of Laws (HKU) LLB",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "biochemical-engineering-beng-2026",
+   "title": "Biochemical Engineering BEng",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 1
+  },
+  {
+   "slug": "archaeology-bsc-2026",
+   "title": "Archaeology BSc",
+   "feeGBP": 39200,
+   "durationYears": 3,
+   "englishLevel": 2
+  },
+  {
+   "slug": "archaeology-placement-year-ba-2026",
+   "title": "Archaeology with a Placement Year BA",
+   "feeGBP": 39200,
+   "durationYears": 4,
+   "englishLevel": 2
+  },
+  {
+   "slug": "biochemistry-msci-2026",
+   "title": "Biochemistry MSci",
+   "feeGBP": 42700,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "biochemistry-bsc-2026",
+   "title": "Biochemistry BSc",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 4
+  },
+  {
+   "slug": "biological-sciences-bsc-2026",
+   "title": "Biological Sciences BSc",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 4
+  },
+  {
+   "slug": "architecture-msci-2026",
+   "title": "Architecture MSci",
+   "feeGBP": 35400,
+   "durationYears": 5,
+   "englishLevel": 1
+  },
+  {
+   "slug": "biomedical-engineering-beng-2026",
+   "title": "Biomedical Engineering BEng",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 1
+  },
+  {
+   "slug": "arts-and-sciences-study-abroad-basc-2026",
+   "title": "Arts and Sciences with Study Abroad BASc",
+   "feeGBP": 35400,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "biological-sciences-msci-2026",
+   "title": "Biological Sciences MSci",
+   "feeGBP": 42700,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "biomedical-sciences-bsc-2026",
+   "title": "Biomedical Sciences BSc",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 4
+  },
+  {
+   "slug": "audiology-bsc-2026",
+   "title": "Audiology BSc",
+   "feeGBP": 32000,
+   "durationYears": 3,
+   "englishLevel": 4
+  },
+  {
+   "slug": "bioprocessing-new-medicines-business-and-management-bsc-2026",
+   "title": "Bioprocessing of New Medicines (Business and Management) BSc",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 1
+  },
+  {
+   "slug": "bulgarian-and-dutch-ba-2026",
+   "title": "Bulgarian and Dutch BA",
+   "feeGBP": null,
+   "durationYears": null,
+   "englishLevel": null
+  },
+  {
+   "slug": "bulgarian-and-czech-ba-2026",
+   "title": "Bulgarian and Czech BA",
+   "feeGBP": null,
+   "durationYears": null,
+   "englishLevel": null
+  },
+  {
+   "slug": "biomedical-engineering-meng-2026",
+   "title": "Biomedical Engineering MEng",
+   "feeGBP": 42700,
+   "durationYears": 4,
+   "englishLevel": 1
+  },
+  {
+   "slug": "bulgarian-and-french-ba-2026",
+   "title": "Bulgarian and French BA",
+   "feeGBP": null,
+   "durationYears": null,
+   "englishLevel": null
+  },
+  {
+   "slug": "bulgarian-and-east-european-studies-ba-2026",
+   "title": "Bulgarian and East European Studies BA",
+   "feeGBP": null,
+   "durationYears": null,
+   "englishLevel": null
+  },
+  {
+   "slug": "bulgarian-and-finnish-ba-2026",
+   "title": "Bulgarian and Finnish BA",
+   "feeGBP": null,
+   "durationYears": null,
+   "englishLevel": null
+  },
+  {
+   "slug": "bulgarian-and-hungarian-ba-2026",
+   "title": "Bulgarian and Hungarian BA",
+   "feeGBP": null,
+   "durationYears": null,
+   "englishLevel": null
+  },
+  {
+   "slug": "bulgarian-and-german-ba-2026",
+   "title": "Bulgarian and German BA",
+   "feeGBP": null,
+   "durationYears": null,
+   "englishLevel": null
+  },
+  {
+   "slug": "bulgarian-and-norwegian-ba-2026",
+   "title": "Bulgarian and Norwegian BA",
+   "feeGBP": null,
+   "durationYears": null,
+   "englishLevel": null
+  },
+  {
+   "slug": "bulgarian-and-danish-ba-2026",
+   "title": "Bulgarian and Danish BA",
+   "feeGBP": null,
+   "durationYears": null,
+   "englishLevel": null
+  },
+  {
+   "slug": "bulgarian-and-polish-ba-2026",
+   "title": "Bulgarian and Polish BA",
+   "feeGBP": null,
+   "durationYears": null,
+   "englishLevel": null
+  },
+  {
+   "slug": "bulgarian-and-russian-ba-2026",
+   "title": "Bulgarian and Russian BA",
+   "feeGBP": null,
+   "durationYears": null,
+   "englishLevel": null
+  },
+  {
+   "slug": "bulgarian-and-serbian-croatian-ba-2026",
+   "title": "Bulgarian and Serbian/Croatian BA",
+   "feeGBP": null,
+   "durationYears": null,
+   "englishLevel": null
+  },
+  {
+   "slug": "bulgarian-and-romanian-ba-2026",
+   "title": "Bulgarian and Romanian BA",
+   "feeGBP": null,
+   "durationYears": null,
+   "englishLevel": null
+  },
+  {
+   "slug": "bulgarian-and-spanish-ba-2026",
+   "title": "Bulgarian and Spanish BA",
+   "feeGBP": null,
+   "durationYears": null,
+   "englishLevel": null
+  },
+  {
+   "slug": "bulgarian-and-hebrew-ba-2026",
+   "title": "Bulgarian and Hebrew BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "bulgarian-and-italian-ba-2026",
+   "title": "Bulgarian and Italian BA",
+   "feeGBP": null,
+   "durationYears": null,
+   "englishLevel": null
+  },
+  {
+   "slug": "business-and-health-msci-2026",
+   "title": "Business and Health MSci",
+   "feeGBP": 39200,
+   "durationYears": 4,
+   "englishLevel": 2
+  },
+  {
+   "slug": "bulgarian-and-portuguese-ba-2026",
+   "title": "Bulgarian and Portuguese BA",
+   "feeGBP": null,
+   "durationYears": null,
+   "englishLevel": null
+  },
+  {
+   "slug": "business-and-health-bsc-2026",
+   "title": "Business and Health BSc",
+   "feeGBP": 39200,
+   "durationYears": 3,
+   "englishLevel": 2
+  },
+  {
+   "slug": "cancer-biomedicine-bsc-2026",
+   "title": "Cancer Biomedicine BSc",
+   "feeGBP": 39200,
+   "durationYears": 3,
+   "englishLevel": 3
+  },
+  {
+   "slug": "bulgarian-and-swedish-ba-2026",
+   "title": "Bulgarian and Swedish BA",
+   "feeGBP": null,
+   "durationYears": null,
+   "englishLevel": null
+  },
+  {
+   "slug": "bulgarian-and-ukrainian-ba-2026",
+   "title": "Bulgarian and Ukrainian BA",
+   "feeGBP": null,
+   "durationYears": null,
+   "englishLevel": null
+  },
+  {
+   "slug": "chemical-engineering-beng-2026",
+   "title": "Chemical Engineering BEng",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 1
+  },
+  {
+   "slug": "chemical-engineering-meng-2026",
+   "title": "Chemical Engineering MEng",
+   "feeGBP": 42700,
+   "durationYears": 4,
+   "englishLevel": 1
+  },
+  {
+   "slug": "chemistry-international-programme-msci-2026",
+   "title": "Chemistry (International Programme) MSci",
+   "feeGBP": 42700,
+   "durationYears": 4,
+   "englishLevel": 2
+  },
+  {
+   "slug": "anthropology-year-abroad-bsc-2026",
+   "title": "Anthropology with a Year Abroad BSc",
+   "feeGBP": 39200,
+   "durationYears": 4,
+   "englishLevel": 2
+  },
+  {
+   "slug": "bulgarian-and-yiddish-ba-2026",
+   "title": "Bulgarian and Yiddish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "chemistry-management-studies-msci-2026",
+   "title": "Chemistry with Management Studies MSci",
+   "feeGBP": 42700,
+   "durationYears": 4,
+   "englishLevel": 2
+  },
+  {
+   "slug": "chemistry-management-studies-bsc-2026",
+   "title": "Chemistry with Management Studies BSc",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 2
+  },
+  {
+   "slug": "chemistry-msci-2026",
+   "title": "Chemistry MSci",
+   "feeGBP": 42700,
+   "durationYears": 4,
+   "englishLevel": 2
+  },
+  {
+   "slug": "chemistry-bsc-2026",
+   "title": "Chemistry BSc",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 2
+  },
+  {
+   "slug": "chemistry-mathematics-msci-2026",
+   "title": "Chemistry with Mathematics MSci",
+   "feeGBP": 42700,
+   "durationYears": 4,
+   "englishLevel": 2
+  },
+  {
+   "slug": "chemistry-mathematics-bsc-2026",
+   "title": "Chemistry with Mathematics BSc",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 2
+  },
+  {
+   "slug": "classics-and-ancient-world-ba-2026",
+   "title": "Classics and the Ancient World BA",
+   "feeGBP": 32000,
+   "durationYears": 3,
+   "englishLevel": 3
+  },
+  {
+   "slug": "civil-engineering-beng-2026",
+   "title": "Civil Engineering BEng",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 1
+  },
+  {
+   "slug": "civil-engineering-meng-2026",
+   "title": "Civil Engineering MEng",
+   "feeGBP": 42700,
+   "durationYears": 4,
+   "englishLevel": 1
+  },
+  {
+   "slug": "classics-and-ancient-world-study-abroad-ba-2026",
+   "title": "Classics and the Ancient World with Study Abroad BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 3
+  },
+  {
+   "slug": "biochemical-engineering-meng-2026",
+   "title": "Biochemical Engineering MEng",
+   "feeGBP": 42700,
+   "durationYears": 4,
+   "englishLevel": 1
+  },
+  {
+   "slug": "computer-science-bsc-2026",
+   "title": "Computer Science BSc",
+   "feeGBP": 46700,
+   "durationYears": 3,
+   "englishLevel": 1
+  },
+  {
+   "slug": "computer-science-and-mathematics-meng-2026",
+   "title": "Computer Science and Mathematics MEng",
+   "feeGBP": 46700,
+   "durationYears": 4,
+   "englishLevel": 1
+  },
+  {
+   "slug": "computer-science-meng-2026",
+   "title": "Computer Science MEng",
+   "feeGBP": 46700,
+   "durationYears": 4,
+   "englishLevel": 1
+  },
+  {
+   "slug": "construction-project-management-msci-2026",
+   "title": "Construction Project Management MSci",
+   "feeGBP": 39200,
+   "durationYears": 3,
+   "englishLevel": null
+  },
+  {
+   "slug": "creative-arts-and-humanities-ba-2026",
+   "title": "Creative Arts and Humanities BA",
+   "feeGBP": 35400,
+   "durationYears": 3,
+   "englishLevel": 3
+  },
+  {
+   "slug": "crime-and-security-science-bsc-2026",
+   "title": "Crime and Security Science BSc",
+   "feeGBP": 35400,
+   "durationYears": 3,
+   "englishLevel": 3
+  },
+  {
+   "slug": "classical-archaeology-and-classical-civilisation-ba-2026",
+   "title": "Classical Archaeology and Classical Civilisation BA",
+   "feeGBP": 39200,
+   "durationYears": 3,
+   "englishLevel": 2
+  },
+  {
+   "slug": "crime-and-security-science-msci-2026",
+   "title": "Crime and Security Science MSci",
+   "feeGBP": 35400,
+   "durationYears": 4,
+   "englishLevel": 3
+  },
+  {
+   "slug": "communications-ba-2026",
+   "title": "Communications BA",
+   "feeGBP": 35400,
+   "durationYears": 3,
+   "englishLevel": 2
+  },
+  {
+   "slug": "czech-slovak-and-east-european-studies-ba-2026",
+   "title": "Czech (with Slovak) and East European Studies BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 3
+  },
+  {
+   "slug": "comparative-literature-ba-2026",
+   "title": "Comparative Literature BA",
+   "feeGBP": 32000,
+   "durationYears": 3,
+   "englishLevel": 4
+  },
+  {
+   "slug": "czech-and-danish-ba-2026",
+   "title": "Czech and Danish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "comparative-literature-year-abroad-ba-2026",
+   "title": "Comparative Literature with a Year Abroad BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "czech-and-dutch-ba-2026",
+   "title": "Czech and Dutch BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "czech-and-french-ba-2026",
+   "title": "Czech and French BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "czech-and-finnish-ba-2026",
+   "title": "Czech and Finnish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "czech-and-german-ba-2026",
+   "title": "Czech and German BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "construction-engineering-innovation-and-leadership-meng-2026",
+   "title": "Construction Engineering, Innovation and Leadership MEng",
+   "feeGBP": 39200,
+   "durationYears": 4,
+   "englishLevel": 3
+  },
+  {
+   "slug": "czech-and-norwegian-ba-2026",
+   "title": "Czech and Norwegian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "czech-and-portuguese-ba-2026",
+   "title": "Czech and Portuguese BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "czech-and-russian-ba-2026",
+   "title": "Czech and Russian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "czech-and-serbian-croatian-ba-2026",
+   "title": "Czech and Serbian/Croatian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "czech-and-spanish-ba-2026",
+   "title": "Czech and Spanish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "czech-and-ukrainian-ba-2026",
+   "title": "Czech and Ukrainian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "czech-and-hebrew-ba-2026",
+   "title": "Czech and Hebrew BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "czech-and-hungarian-ba-2026",
+   "title": "Czech and Hungarian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "czech-and-polish-ba-2026",
+   "title": "Czech and Polish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "czech-and-italian-ba-2026",
+   "title": "Czech and Italian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "danish-and-german-ba-2026",
+   "title": "Danish and German BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "danish-and-french-ba-2026",
+   "title": "Danish and French BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "danish-and-hungarian-ba-2026",
+   "title": "Danish and Hungarian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "czech-and-swedish-ba-2026",
+   "title": "Czech and Swedish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "danish-and-italian-ba-2026",
+   "title": "Danish and Italian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "danish-and-polish-ba-2026",
+   "title": "Danish and Polish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "cancer-biomedicine-msci-2026",
+   "title": "Cancer Biomedicine MSci",
+   "feeGBP": 39200,
+   "durationYears": 4,
+   "englishLevel": 3
+  },
+  {
+   "slug": "czech-and-yiddish-ba-2026",
+   "title": "Czech and Yiddish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "danish-and-romanian-ba-2026",
+   "title": "Danish and Romanian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "danish-and-dutch-ba-2026",
+   "title": "Danish and Dutch BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "danish-and-spanish-ba-2026",
+   "title": "Danish and Spanish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "danish-and-yiddish-ba-2026",
+   "title": "Danish and Yiddish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "danish-and-ukrainian-ba-2026",
+   "title": "Danish and Ukrainian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "danish-and-hebrew-ba-2026",
+   "title": "Danish and Hebrew BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "danish-and-finnish-ba-2026",
+   "title": "Danish and Finnish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "data-science-bsc-2026",
+   "title": "Data Science BSc",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 2
+  },
+  {
+   "slug": "dutch-and-english-ba-2026",
+   "title": "Dutch and English BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "dutch-and-finnish-ba-2026",
+   "title": "Dutch and Finnish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "danish-and-portuguese-ba-2026",
+   "title": "Danish and Portuguese BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "danish-and-russian-ba-2026",
+   "title": "Danish and Russian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "danish-and-serbian-croatian-ba-2026",
+   "title": "Danish and Serbian/Croatian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "dutch-and-french-ba-2026",
+   "title": "Dutch and French BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "dutch-and-german-ba-2026",
+   "title": "Dutch and German BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "czech-and-romanian-ba-2026",
+   "title": "Czech and Romanian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "dutch-and-italian-ba-2026",
+   "title": "Dutch and Italian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "dutch-and-philosophy-ba-2026",
+   "title": "Dutch and Philosophy BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "dutch-and-latin-ba-2026",
+   "title": "Dutch and Latin BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "dutch-and-management-studies-ba-2026",
+   "title": "Dutch and Management Studies BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "dutch-and-hebrew-ba-2026",
+   "title": "Dutch and Hebrew BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "dutch-and-history-art-ba-2026",
+   "title": "Dutch and History of Art BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "dutch-and-romanian-ba-2026",
+   "title": "Dutch and Romanian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "dutch-and-russian-ba-2026",
+   "title": "Dutch and Russian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "dutch-and-serbian-croatian-ba-2026",
+   "title": "Dutch and Serbian/Croatian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "dutch-and-spanish-ba-2026",
+   "title": "Dutch and Spanish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "dutch-and-swedish-ba-2026",
+   "title": "Dutch and Swedish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "dutch-and-ukrainian-ba-2026",
+   "title": "Dutch and Ukrainian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "dutch-ba-2026",
+   "title": "Dutch BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "dutch-and-yiddish-ba-2026",
+   "title": "Dutch and Yiddish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "dutch-and-polish-ba-2026",
+   "title": "Dutch and Polish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "dutch-film-studies-ba-2026",
+   "title": "Dutch with Film Studies BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "dutch-management-studies-ba-2026",
+   "title": "Dutch with Management Studies BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "earth-sciences-international-programme-msci-2026",
+   "title": "Earth Sciences (International Programme) MSci",
+   "feeGBP": 42700,
+   "durationYears": 4,
+   "englishLevel": 1
+  },
+  {
+   "slug": "dutch-and-hungarian-ba-2026",
+   "title": "Dutch and Hungarian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "economics-and-business-east-european-studies-ba-2026",
+   "title": "Economics and Business with East European Studies BA",
+   "feeGBP": 35400,
+   "durationYears": 3,
+   "englishLevel": 3
+  },
+  {
+   "slug": "dutch-and-norwegian-ba-2026",
+   "title": "Dutch and Norwegian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "economics-and-business-east-european-studies-year-abroad-ba-2026",
+   "title": "Economics and Business with East European Studies with a Year Abroad BA",
+   "feeGBP": 35400,
+   "durationYears": 4,
+   "englishLevel": 3
+  },
+  {
+   "slug": "economics-and-statistics-bsc-econ-2026",
+   "title": "Economics and Statistics BSc (Econ)",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 2
+  },
+  {
+   "slug": "economics-year-abroad-bsc-econ-2026",
+   "title": "Economics with a Year Abroad BSc (Econ)",
+   "feeGBP": 39200,
+   "durationYears": 4,
+   "englishLevel": 2
+  },
+  {
+   "slug": "electronic-and-electrical-engineering-meng-2026",
+   "title": "Electronic and Electrical Engineering MEng",
+   "feeGBP": 42700,
+   "durationYears": 4,
+   "englishLevel": 2
+  },
+  {
+   "slug": "early-childhood-education-ba-2026",
+   "title": "Early Childhood Education BA",
+   "feeGBP": 35400,
+   "durationYears": 3,
+   "englishLevel": 2
+  },
+  {
+   "slug": "earth-sciences-bsc-2026",
+   "title": "Earth Sciences BSc",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 1
+  },
+  {
+   "slug": "earth-sciences-msci-2026",
+   "title": "Earth Sciences MSci",
+   "feeGBP": 42700,
+   "durationYears": 4,
+   "englishLevel": 1
+  },
+  {
+   "slug": "economics-bsc-econ-2026",
+   "title": "Economics BSc (Econ)",
+   "feeGBP": 39200,
+   "durationYears": 3,
+   "englishLevel": 2
+  },
+  {
+   "slug": "environmental-geoscience-bsc-2026",
+   "title": "Environmental Geoscience BSc",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 1
+  },
+  {
+   "slug": "electronic-and-electrical-engineering-beng-2026",
+   "title": "Electronic and Electrical Engineering BEng",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 2
+  },
+  {
+   "slug": "education-society-and-culture-ba-2026",
+   "title": "Education, Society and Culture BA",
+   "feeGBP": 35400,
+   "durationYears": 3,
+   "englishLevel": 3
+  },
+  {
+   "slug": "european-social-and-political-studies-ba-2026",
+   "title": "European Social and Political Studies BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "european-social-and-political-studies-dual-degree-ba-2026",
+   "title": "European Social and Political Studies: Dual Degree BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "engineering-and-architectural-design-meng-2026",
+   "title": "Engineering and Architectural Design MEng",
+   "feeGBP": 35400,
+   "durationYears": 4,
+   "englishLevel": 1
+  },
+  {
+   "slug": "experimental-linguistics-bsc-2026",
+   "title": "Experimental Linguistics BSc",
+   "feeGBP": 32000,
+   "durationYears": 3,
+   "englishLevel": 3
+  },
+  {
+   "slug": "finnish-and-east-european-studies-ba-2026",
+   "title": "Finnish and East European Studies BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 3
+  },
+  {
+   "slug": "engineering-foundation-year-2026",
+   "title": "Engineering Foundation Year",
+   "feeGBP": null,
+   "durationYears": 1,
+   "englishLevel": 1
+  },
+  {
+   "slug": "english-ba-2026",
+   "title": "English BA",
+   "feeGBP": 32000,
+   "durationYears": 3,
+   "englishLevel": 4
+  },
+  {
+   "slug": "finnish-and-french-ba-2026",
+   "title": "Finnish and French BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "finnish-and-hebrew-ba-2026",
+   "title": "Finnish and Hebrew BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "finnish-and-hungarian-ba-2026",
+   "title": "Finnish and Hungarian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "experimental-linguistics-international-programme-bsc-2026",
+   "title": "Experimental Linguistics (International Programme) BSc",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 3
+  },
+  {
+   "slug": "finnish-and-polish-ba-2026",
+   "title": "Finnish and Polish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "finnish-and-norwegian-ba-2026",
+   "title": "Finnish and Norwegian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "fine-art-ba-2026",
+   "title": "Fine Art BA",
+   "feeGBP": 42700,
+   "durationYears": 4,
+   "englishLevel": 1
+  },
+  {
+   "slug": "fine-art-bfa-2026",
+   "title": "Fine Art BFA",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 1
+  },
+  {
+   "slug": "finnish-and-russian-ba-2026",
+   "title": "Finnish and Russian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "finnish-and-romanian-ba-2026",
+   "title": "Finnish and Romanian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "finnish-and-portuguese-ba-2026",
+   "title": "Finnish and Portuguese BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "finnish-and-swedish-ba-2026",
+   "title": "Finnish and Swedish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "finnish-and-yiddish-ba-2026",
+   "title": "Finnish and Yiddish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "dutch-and-portuguese-ba-2026",
+   "title": "Dutch and Portuguese BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "finnish-and-ukrainian-ba-2026",
+   "title": "Finnish and Ukrainian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "french-and-german-ba-2026",
+   "title": "French and German BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "finnish-and-spanish-ba-2026",
+   "title": "Finnish and Spanish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "french-and-history-art-ba-2026",
+   "title": "French and History of Art BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "french-and-english-ba-2026",
+   "title": "French and English BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "french-and-latin-ba-2026",
+   "title": "French and Latin BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "french-and-norwegian-ba-2026",
+   "title": "French and Norwegian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "french-and-philosophy-ba-2026",
+   "title": "French and Philosophy BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "french-and-hebrew-ba-2026",
+   "title": "French and Hebrew BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "french-and-hungarian-ba-2026",
+   "title": "French and Hungarian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "french-and-polish-ba-2026",
+   "title": "French and Polish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "french-and-italian-ba-2026",
+   "title": "French and Italian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "french-and-portuguese-ba-2026",
+   "title": "French and Portuguese BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "french-and-russian-ba-2026",
+   "title": "French and Russian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "french-and-spanish-ba-2026",
+   "title": "French and Spanish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "french-and-serbian-croatian-ba-2026",
+   "title": "French and Serbian/Croatian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "french-and-swedish-ba-2026",
+   "title": "French and Swedish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "french-and-ukrainian-ba-2026",
+   "title": "French and Ukrainian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "french-ba-2026",
+   "title": "French BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "french-film-studies-ba-2026",
+   "title": "French with Film Studies BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "geography-international-programme-ba-2026",
+   "title": "Geography (International Programme) BA",
+   "feeGBP": 39200,
+   "durationYears": 4,
+   "englishLevel": 2
+  },
+  {
+   "slug": "french-management-studies-ba-2026",
+   "title": "French with Management Studies BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "geography-and-economics-bsc-2026",
+   "title": "Geography and Economics BSc",
+   "feeGBP": 39200,
+   "durationYears": 3,
+   "englishLevel": 2
+  },
+  {
+   "slug": "geography-ba-2026",
+   "title": "Geography BA",
+   "feeGBP": 39200,
+   "durationYears": 3,
+   "englishLevel": 2
+  },
+  {
+   "slug": "geography-international-programme-bsc-2026",
+   "title": "Geography (International Programme) BSc",
+   "feeGBP": 39200,
+   "durationYears": 4,
+   "englishLevel": 2
+  },
+  {
+   "slug": "environmental-geoscience-msci-2026",
+   "title": "Environmental Geoscience MSci",
+   "feeGBP": 42700,
+   "durationYears": 4,
+   "englishLevel": 1
+  },
+  {
+   "slug": "geography-bsc-2026",
+   "title": "Geography BSc",
+   "feeGBP": 39200,
+   "durationYears": 3,
+   "englishLevel": 2
+  },
+  {
+   "slug": "geology-bsc-2026",
+   "title": "Geology BSc",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 1
+  },
+  {
+   "slug": "french-and-yiddish-ba-2026",
+   "title": "French and Yiddish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "finnish-and-serbian-croatian-ba-2026",
+   "title": "Finnish and Serbian/Croatian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "geophysics-bsc-2026",
+   "title": "Geophysics BSc",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 1
+  },
+  {
+   "slug": "geology-msci-2026",
+   "title": "Geology MSci",
+   "feeGBP": 42700,
+   "durationYears": 4,
+   "englishLevel": 1
+  },
+  {
+   "slug": "german-and-english-ba-2026",
+   "title": "German and English BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "german-and-italian-ba-2026",
+   "title": "German and Italian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "german-and-latin-ba-2026",
+   "title": "German and Latin BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "german-and-norwegian-ba-2026",
+   "title": "German and Norwegian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "german-and-philosophy-ba-2026",
+   "title": "German and Philosophy BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "finnish-and-italian-ba-2026",
+   "title": "Finnish and Italian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "geophysics-msci-2026",
+   "title": "Geophysics MSci",
+   "feeGBP": 42700,
+   "durationYears": 4,
+   "englishLevel": 1
+  },
+  {
+   "slug": "german-and-history-art-ba-2026",
+   "title": "German and History of Art BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "german-and-hebrew-ba-2026",
+   "title": "German and Hebrew BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "german-and-hungarian-ba-2026",
+   "title": "German and Hungarian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "german-and-serbian-croatian-ba-2026",
+   "title": "German and Serbian/Croatian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "german-and-russian-ba-2026",
+   "title": "German and Russian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "german-and-romanian-ba-2026",
+   "title": "German and Romanian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "german-and-swedish-ba-2026",
+   "title": "German and Swedish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "german-and-yiddish-ba-2026",
+   "title": "German and Yiddish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "german-ba-2026",
+   "title": "German BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "german-and-ukrainian-ba-2026",
+   "title": "German and Ukrainian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "german-film-studies-ba-2026",
+   "title": "German with Film Studies BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "german-and-portuguese-ba-2026",
+   "title": "German and Portuguese BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "german-and-polish-ba-2026",
+   "title": "German and Polish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "finnish-and-german-ba-2026",
+   "title": "Finnish and German BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "global-humanitarian-studies-bsc-2026",
+   "title": "Global Humanitarian Studies BSc",
+   "feeGBP": 29500,
+   "durationYears": 3,
+   "englishLevel": 2
+  },
+  {
+   "slug": "hebrew-and-italian-ba-2026",
+   "title": "Hebrew and Italian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "hebrew-and-jewish-studies-year-abroad-ba-2026",
+   "title": "Hebrew and Jewish Studies with Year Abroad BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 2
+  },
+  {
+   "slug": "hebrew-and-jewish-studies-ba-2026",
+   "title": "Hebrew and Jewish Studies BA",
+   "feeGBP": 32000,
+   "durationYears": 3,
+   "englishLevel": 2
+  },
+  {
+   "slug": "hebrew-and-polish-ba-2026",
+   "title": "Hebrew and Polish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "hebrew-and-russian-ba-2026",
+   "title": "Hebrew and Russian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "hebrew-and-serbian-croatian-ba-2026",
+   "title": "Hebrew and Serbian/Croatian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "hebrew-and-hungarian-ba-2026",
+   "title": "Hebrew and Hungarian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "french-and-romanian-ba-2026",
+   "title": "French and Romanian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "hebrew-and-portuguese-ba-2026",
+   "title": "Hebrew and Portuguese BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": null
+  },
+  {
+   "slug": "hebrew-and-norwegian-ba-2026",
+   "title": "Hebrew and Norwegian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "hebrew-and-spanish-ba-2026",
+   "title": "Hebrew and Spanish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "history-and-philosophy-science-bsc-2026",
+   "title": "History and Philosophy of Science BSc",
+   "feeGBP": 39200,
+   "durationYears": 3,
+   "englishLevel": 2
+  },
+  {
+   "slug": "history-central-and-east-european-and-jewish-studies-year-abroad-ba-2026",
+   "title": "History (Central and East European) and Jewish Studies with Year Abroad BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 2
+  },
+  {
+   "slug": "hebrew-and-ukrainian-ba-2026",
+   "title": "Hebrew and Ukrainian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "hebrew-and-yiddish-ba-2026",
+   "title": "Hebrew and Yiddish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "history-and-politics-americas-ba-2026",
+   "title": "History and Politics of the Americas BA",
+   "feeGBP": 32000,
+   "durationYears": 3,
+   "englishLevel": 4
+  },
+  {
+   "slug": "history-and-politics-americas-year-abroad-ba-2026",
+   "title": "History and Politics of the Americas with a Year Abroad BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "history-year-abroad-ba-2026",
+   "title": "History with a Year Abroad BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "history-art-ba-2026",
+   "title": "History of Art BA",
+   "feeGBP": 32000,
+   "durationYears": 3,
+   "englishLevel": 2
+  },
+  {
+   "slug": "human-sciences-and-evolution-msci-2026",
+   "title": "Human Sciences and Evolution MSci",
+   "feeGBP": 42700,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "german-management-studies-ba-2026",
+   "title": "German with Management Studies BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "human-sciences-bsc-2026",
+   "title": "Human Sciences BSc",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 4
+  },
+  {
+   "slug": "history-ba-2026",
+   "title": "History BA",
+   "feeGBP": 32000,
+   "durationYears": 3,
+   "englishLevel": 4
+  },
+  {
+   "slug": "german-and-spanish-ba-2026",
+   "title": "German and Spanish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "hebrew-and-romanian-ba-2026",
+   "title": "Hebrew and Romanian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "hungarian-and-italian-ba-2026",
+   "title": "Hungarian and Italian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "hungarian-and-norwegian-ba-2026",
+   "title": "Hungarian and Norwegian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "hungarian-and-polish-ba-2026",
+   "title": "Hungarian and Polish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "history-politics-and-economics-ba-2026",
+   "title": "History, Politics and Economics BA",
+   "feeGBP": 32000,
+   "durationYears": 3,
+   "englishLevel": 3
+  },
+  {
+   "slug": "hungarian-and-romanian-ba-2026",
+   "title": "Hungarian and Romanian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "hungarian-and-russian-ba-2026",
+   "title": "Hungarian and Russian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "human-neuroscience-bsc-2026",
+   "title": "Human Neuroscience BSc",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 3
+  },
+  {
+   "slug": "hungarian-and-swedish-ba-2026",
+   "title": "Hungarian and Swedish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "hungarian-and-ukrainian-ba-2026",
+   "title": "Hungarian and Ukrainian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "icelandic-ba-2026",
+   "title": "Icelandic BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "hungarian-and-yiddish-ba-2026",
+   "title": "Hungarian and Yiddish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "hungarian-and-spanish-ba-2026",
+   "title": "Hungarian and Spanish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "infection-and-immunity-bsc-2026",
+   "title": "Infection and Immunity BSc",
+   "feeGBP": 39200,
+   "durationYears": 3,
+   "englishLevel": 3
+  },
+  {
+   "slug": "international-management-bsc-2026",
+   "title": "International Management BSc",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 4
+  },
+  {
+   "slug": "information-management-business-bsc-2026",
+   "title": "Information Management for Business BSc",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 4
+  },
+  {
+   "slug": "hungarian-and-east-european-studies-ba-2026",
+   "title": "Hungarian and East European Studies BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 3
+  },
+  {
+   "slug": "italian-and-management-studies-ba-2026",
+   "title": "Italian and Management Studies BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "hungarian-and-portuguese-ba-2026",
+   "title": "Hungarian and Portuguese BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "italian-and-norwegian-ba-2026",
+   "title": "Italian and Norwegian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "italian-and-philosophy-ba-2026",
+   "title": "Italian and Philosophy BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "hungarian-and-serbian-croatian-ba-2026",
+   "title": "Hungarian and Serbian/Croatian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "italian-and-portuguese-ba-2026",
+   "title": "Italian and Portuguese BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "italian-and-romanian-ba-2026",
+   "title": "Italian and Romanian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "international-social-and-political-studies-ba-2026",
+   "title": "International Social and Political Studies BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "italian-and-serbian-croatian-ba-2026",
+   "title": "Italian and Serbian/Croatian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "information-data-and-society-bsc-2026",
+   "title": "Information, Data and Society BSc",
+   "feeGBP": 32000,
+   "durationYears": 3,
+   "englishLevel": 2
+  },
+  {
+   "slug": "italian-and-latin-ba-2026",
+   "title": "Italian and Latin BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "italian-and-ukrainian-ba-2026",
+   "title": "Italian and Ukrainian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "italian-and-history-art-ba-2026",
+   "title": "Italian and History of Art BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "italian-and-swedish-ba-2026",
+   "title": "Italian and Swedish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "italian-and-yiddish-ba-2026",
+   "title": "Italian and Yiddish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "italian-ba-2026",
+   "title": "Italian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "italian-and-polish-ba-2026",
+   "title": "Italian and Polish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "hebrew-and-swedish-ba-2026",
+   "title": "Hebrew and Swedish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "italian-and-russian-ba-2026",
+   "title": "Italian and Russian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "law-hispanic-law-llb-2026",
+   "title": "Law with Hispanic Law LLB",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "italian-and-spanish-ba-2026",
+   "title": "Italian and Spanish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "linguistics-international-programme-ba-2026",
+   "title": "Linguistics (International Programme) BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 3
+  },
+  {
+   "slug": "linguistics-ba-2026",
+   "title": "Linguistics BA",
+   "feeGBP": 32000,
+   "durationYears": 3,
+   "englishLevel": 3
+  },
+  {
+   "slug": "italian-film-studies-ba-2026",
+   "title": "Italian with Film Studies BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "language-and-culture-ba-2026",
+   "title": "Language and Culture BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "law-llb-2026",
+   "title": "Law LLB",
+   "feeGBP": 35400,
+   "durationYears": 3,
+   "englishLevel": 4
+  },
+  {
+   "slug": "mathematics-and-physics-bsc-2026",
+   "title": "Mathematics and Physics BSc",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 1
+  },
+  {
+   "slug": "mathematics-and-physics-msci-2026",
+   "title": "Mathematics and Physics MSci",
+   "feeGBP": 42700,
+   "durationYears": 4,
+   "englishLevel": 1
+  },
+  {
+   "slug": "law-french-law-llb-2026",
+   "title": "Law with French Law LLB",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "mathematics-and-statistical-science-msci-2026",
+   "title": "Mathematics and Statistical Science MSci",
+   "feeGBP": 42700,
+   "durationYears": 4,
+   "englishLevel": 1
+  },
+  {
+   "slug": "law-german-law-llb-2026",
+   "title": "Law with German Law LLB",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "mathematics-bsc-2026",
+   "title": "Mathematics BSc",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 1
+  },
+  {
+   "slug": "mathematics-economics-bsc-2026",
+   "title": "Mathematics with Economics BSc",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 1
+  },
+  {
+   "slug": "mathematics-management-studies-bsc-2026",
+   "title": "Mathematics with Management Studies BSc",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 1
+  },
+  {
+   "slug": "management-social-change-bsc-2026",
+   "title": "Management for Social Change BSc",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 4
+  },
+  {
+   "slug": "management-science-bsc-2026",
+   "title": "Management Science BSc",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 4
+  },
+  {
+   "slug": "mathematics-and-secondary-mathematics-education-teacher-degree-apprenticeship-bsc-2026",
+   "title": "Mathematics and Secondary Mathematics Education Teacher Degree Apprenticeship BSc",
+   "feeGBP": null,
+   "durationYears": null,
+   "englishLevel": null
+  },
+  {
+   "slug": "mathematics-management-studies-msci-2026",
+   "title": "Mathematics with Management Studies MSci",
+   "feeGBP": 42700,
+   "durationYears": 4,
+   "englishLevel": 1
+  },
+  {
+   "slug": "mathematics-mathematical-physics-bsc-2026",
+   "title": "Mathematics with Mathematical Physics BSc",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 1
+  },
+  {
+   "slug": "mathematics-modern-languages-bsc-2026",
+   "title": "Mathematics with Modern Languages BSc",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 1
+  },
+  {
+   "slug": "management-science-msci-2026",
+   "title": "Management Science MSci",
+   "feeGBP": 42700,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "mathematics-mathematical-physics-msci-2026",
+   "title": "Mathematics with Mathematical Physics MSci",
+   "feeGBP": 42700,
+   "durationYears": 4,
+   "englishLevel": 1
+  },
+  {
+   "slug": "mathematics-modern-languages-msci-2026",
+   "title": "Mathematics with Modern Languages MSci",
+   "feeGBP": 42700,
+   "durationYears": 4,
+   "englishLevel": 1
+  },
+  {
+   "slug": "mathematics-and-statistical-science-bsc-2026",
+   "title": "Mathematics and Statistical Science BSc",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 1
+  },
+  {
+   "slug": "media-ba-2026",
+   "title": "Media BA",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 2
+  },
+  {
+   "slug": "mechanical-engineering-beng-2026",
+   "title": "Mechanical Engineering BEng",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 1
+  },
+  {
+   "slug": "mathematics-msci-2026",
+   "title": "Mathematics MSci",
+   "feeGBP": 42700,
+   "durationYears": 4,
+   "englishLevel": 1
+  },
+  {
+   "slug": "medical-innovation-and-enterprise-msci-2026",
+   "title": "Medical Innovation and Enterprise MSci",
+   "feeGBP": 39200,
+   "durationYears": 4,
+   "englishLevel": 3
+  },
+  {
+   "slug": "mathematics-economics-msci-2026",
+   "title": "Mathematics with Economics MSci",
+   "feeGBP": 42700,
+   "durationYears": 4,
+   "englishLevel": 1
+  },
+  {
+   "slug": "medical-innovation-and-enterprise-bsc-2026",
+   "title": "Medical Innovation and Enterprise BSc",
+   "feeGBP": 39200,
+   "durationYears": 3,
+   "englishLevel": 3
+  },
+  {
+   "slug": "medicine-mbbs-bsc-2026",
+   "title": "Medicine MBBS BSc",
+   "feeGBP": 57300,
+   "durationYears": 6,
+   "englishLevel": 4
+  },
+  {
+   "slug": "neuroscience-bsc-2026",
+   "title": "Neuroscience BSc",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 4
+  },
+  {
+   "slug": "neuroscience-msci-2026",
+   "title": "Neuroscience MSci",
+   "feeGBP": 42700,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "natural-sciences-msci-2026",
+   "title": "Natural Sciences MSci",
+   "feeGBP": 42700,
+   "durationYears": 4,
+   "englishLevel": 2
+  },
+  {
+   "slug": "norwegian-and-portuguese-ba-2026",
+   "title": "Norwegian and Portuguese BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "norwegian-and-serbian-croatian-ba-2026",
+   "title": "Norwegian and Serbian/Croatian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "mechanical-engineering-business-finance-meng-2026",
+   "title": "Mechanical Engineering with Business Finance MEng",
+   "feeGBP": 42700,
+   "durationYears": 4,
+   "englishLevel": 1
+  },
+  {
+   "slug": "mechanical-engineering-meng-2026",
+   "title": "Mechanical Engineering MEng",
+   "feeGBP": 42700,
+   "durationYears": 4,
+   "englishLevel": 1
+  },
+  {
+   "slug": "norwegian-and-romanian-ba-2026",
+   "title": "Norwegian and Romanian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "norwegian-and-spanish-ba-2026",
+   "title": "Norwegian and Spanish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "norwegian-and-yiddish-ba-2026",
+   "title": "Norwegian and Yiddish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "nutrition-and-medical-sciences-bsc-2026",
+   "title": "Nutrition and Medical Sciences BSc",
+   "feeGBP": 39200,
+   "durationYears": 3,
+   "englishLevel": 3
+  },
+  {
+   "slug": "natural-sciences-bsc-2026",
+   "title": "Natural Sciences BSc",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 2
+  },
+  {
+   "slug": "pharmacology-msci-2026",
+   "title": "Pharmacology MSci",
+   "feeGBP": 42700,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "pharmacy-mpharm-2026",
+   "title": "Pharmacy MPharm",
+   "feeGBP": 35400,
+   "durationYears": 4,
+   "englishLevel": 3
+  },
+  {
+   "slug": "norwegian-and-polish-ba-2026",
+   "title": "Norwegian and Polish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "philosophy-and-economics-ba-2026",
+   "title": "Philosophy and Economics BA",
+   "feeGBP": 32000,
+   "durationYears": 3,
+   "englishLevel": 4
+  },
+  {
+   "slug": "philosophy-and-history-art-ba-2026",
+   "title": "Philosophy and History of Art BA",
+   "feeGBP": 32000,
+   "durationYears": 3,
+   "englishLevel": 4
+  },
+  {
+   "slug": "norwegian-and-russian-ba-2026",
+   "title": "Norwegian and Russian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "philosophy-politics-and-economics-bsc-2026",
+   "title": "Philosophy, Politics and Economics BSc",
+   "feeGBP": 39200,
+   "durationYears": 3,
+   "englishLevel": 4
+  },
+  {
+   "slug": "physics-bsc-2026",
+   "title": "Physics BSc",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 1
+  },
+  {
+   "slug": "norwegian-and-ukrainian-ba-2026",
+   "title": "Norwegian and Ukrainian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "pharmacology-bsc-2026",
+   "title": "Pharmacology BSc",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 4
+  },
+  {
+   "slug": "polish-and-portuguese-ba-2026",
+   "title": "Polish and Portuguese BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "pharmacy-integrated-foundation-training-mpharm-2026",
+   "title": "Pharmacy with Integrated Foundation Training MPharm",
+   "feeGBP": 35400,
+   "durationYears": 5,
+   "englishLevel": 3
+  },
+  {
+   "slug": "philosophy-ba-2026",
+   "title": "Philosophy BA",
+   "feeGBP": 32000,
+   "durationYears": 3,
+   "englishLevel": 4
+  },
+  {
+   "slug": "philosophy-and-computer-science-ba-2026",
+   "title": "Philosophy and Computer Science BA",
+   "feeGBP": 32000,
+   "durationYears": 3,
+   "englishLevel": 4
+  },
+  {
+   "slug": "polish-and-serbian-croatian-ba-2026",
+   "title": "Polish and Serbian/Croatian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "physics-medical-physics-bsc-2026",
+   "title": "Physics with Medical Physics BSc",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 1
+  },
+  {
+   "slug": "physics-msci-2026",
+   "title": "Physics MSci",
+   "feeGBP": 42700,
+   "durationYears": 4,
+   "englishLevel": 1
+  },
+  {
+   "slug": "polish-and-swedish-ba-2026",
+   "title": "Polish and Swedish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "polish-and-romanian-ba-2026",
+   "title": "Polish and Romanian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "politics-and-international-relations-bsc-2026",
+   "title": "Politics and International Relations BSc",
+   "feeGBP": 35400,
+   "durationYears": 3,
+   "englishLevel": 4
+  },
+  {
+   "slug": "politics-sociology-and-east-european-studies-ba-2026",
+   "title": "Politics, Sociology and East European Studies BA",
+   "feeGBP": 32000,
+   "durationYears": 3,
+   "englishLevel": 3
+  },
+  {
+   "slug": "polish-and-east-european-studies-ba-2026",
+   "title": "Polish and East European Studies BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 3
+  },
+  {
+   "slug": "polish-and-spanish-ba-2026",
+   "title": "Polish and Spanish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "polish-and-ukrainian-ba-2026",
+   "title": "Polish and Ukrainian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "politics-sociology-and-east-european-studies-year-abroad-ba-2026",
+   "title": "Politics, Sociology and East European Studies with a Year Abroad BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 3
+  },
+  {
+   "slug": "population-health-sciences-data-science-msci-2026",
+   "title": "Population Health Sciences (Data Science) MSci",
+   "feeGBP": 39200,
+   "durationYears": 4,
+   "englishLevel": 2
+  },
+  {
+   "slug": "population-health-sciences-msci-2026",
+   "title": "Population Health Sciences MSci",
+   "feeGBP": 39200,
+   "durationYears": 4,
+   "englishLevel": 2
+  },
+  {
+   "slug": "portuguese-and-yiddish-ba-2026",
+   "title": "Portuguese and Yiddish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": null
+  },
+  {
+   "slug": "population-health-sciences-bsc-2026",
+   "title": "Population Health Sciences BSc",
+   "feeGBP": 39200,
+   "durationYears": 3,
+   "englishLevel": 2
+  },
+  {
+   "slug": "psychology-and-language-sciences-msci-2026",
+   "title": "Psychology and Language Sciences MSci",
+   "feeGBP": 42700,
+   "durationYears": 4,
+   "englishLevel": 3
+  },
+  {
+   "slug": "psychology-msci-2026",
+   "title": "Psychology MSci",
+   "feeGBP": 42700,
+   "durationYears": 4,
+   "englishLevel": 3
+  },
+  {
+   "slug": "psychology-bsc-2026",
+   "title": "Psychology BSc",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 3
+  },
+  {
+   "slug": "robotics-and-artificial-intelligence-meng-2026",
+   "title": "Robotics and Artificial Intelligence MEng",
+   "feeGBP": 46700,
+   "durationYears": 4,
+   "englishLevel": 1
+  },
+  {
+   "slug": "romanian-and-east-european-studies-ba-2026",
+   "title": "Romanian and East European Studies BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 3
+  },
+  {
+   "slug": "psychology-and-language-sciences-bsc-2026",
+   "title": "Psychology and Language Sciences BSc",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 3
+  },
+  {
+   "slug": "medical-physics-msci-2026",
+   "title": "Medical Physics MSci",
+   "feeGBP": 42700,
+   "durationYears": 4,
+   "englishLevel": 1
+  },
+  {
+   "slug": "population-health-sciences-data-science-bsc-2026",
+   "title": "Population Health Sciences (Data Science) BSc",
+   "feeGBP": 39200,
+   "durationYears": 3,
+   "englishLevel": 2
+  },
+  {
+   "slug": "romanian-and-russian-ba-2026",
+   "title": "Romanian and Russian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "polish-and-yiddish-ba-2026",
+   "title": "Polish and Yiddish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "romanian-and-yiddish-ba-2026",
+   "title": "Romanian and Yiddish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "romanian-and-swedish-ba-2026",
+   "title": "Romanian and Swedish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "russian-and-history-ba-2026",
+   "title": "Russian and History BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 3
+  },
+  {
+   "slug": "psychology-education-bsc-2026",
+   "title": "Psychology with Education BSc",
+   "feeGBP": 35400,
+   "durationYears": 3,
+   "englishLevel": 3
+  },
+  {
+   "slug": "polish-and-russian-ba-2026",
+   "title": "Polish and Russian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "russian-and-serbian-croatian-ba-2026",
+   "title": "Russian and Serbian/Croatian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "russian-and-spanish-ba-2026",
+   "title": "Russian and Spanish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "romanian-and-serbian-croatian-ba-2026",
+   "title": "Romanian and Serbian/Croatian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "russian-and-ukrainian-ba-2026",
+   "title": "Russian and Ukrainian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "romanian-and-spanish-ba-2026",
+   "title": "Romanian and Spanish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "romanian-and-portuguese-ba-2026",
+   "title": "Romanian and Portuguese BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "romanian-and-ukrainian-ba-2026",
+   "title": "Romanian and Ukrainian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "russian-and-portuguese-ba-2026",
+   "title": "Russian and Portuguese BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "russian-and-swedish-ba-2026",
+   "title": "Russian and Swedish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "scandinavian-studies-ba-2026",
+   "title": "Scandinavian Studies BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "russian-east-european-language-ba-2026",
+   "title": "Russian with an East European Language BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 3
+  },
+  {
+   "slug": "russian-studies-ba-2026",
+   "title": "Russian Studies BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 3
+  },
+  {
+   "slug": "scandinavian-studies-and-english-ba-2026",
+   "title": "Scandinavian Studies and English BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "scandinavian-studies-and-history-art-ba-2026",
+   "title": "Scandinavian Studies and History of Art BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "scandinavian-studies-film-studies-ba-2026",
+   "title": "Scandinavian Studies with Film Studies BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "scandinavian-studies-management-studies-ba-2026",
+   "title": "Scandinavian Studies with Management Studies BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "serbian-croatian-and-east-european-studies-ba-2026",
+   "title": "Serbian / Croatian and East European Studies BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 3
+  },
+  {
+   "slug": "scandinavian-studies-and-latin-ba-2026",
+   "title": "Scandinavian Studies and Latin BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "serbian-croatian-and-spanish-ba-2026",
+   "title": "Serbian/Croatian and Spanish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "serbian-croatian-and-swedish-ba-2026",
+   "title": "Serbian/Croatian and Swedish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "serbian-croatian-and-portuguese-ba-2026",
+   "title": "Serbian/Croatian and Portuguese BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "social-sciences-bsc-2026",
+   "title": "Social Sciences BSc",
+   "feeGBP": 39200,
+   "durationYears": 3,
+   "englishLevel": 3
+  },
+  {
+   "slug": "serbian-croatian-and-yiddish-ba-2026",
+   "title": "Serbian/Croatian and Yiddish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "social-sciences-data-science-bsc-2026",
+   "title": "Social Sciences with Data Science BSc",
+   "feeGBP": 39200,
+   "durationYears": 3,
+   "englishLevel": 3
+  },
+  {
+   "slug": "spanish-and-history-art-ba-2026",
+   "title": "Spanish and History of Art BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "spanish-and-latin-american-studies-ba-2026",
+   "title": "Spanish and Latin American Studies BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "scandinavian-studies-and-philosophy-ba-2026",
+   "title": "Scandinavian Studies and Philosophy BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "sociology-bsc-2026",
+   "title": "Sociology BSc",
+   "feeGBP": 39200,
+   "durationYears": 3,
+   "englishLevel": 3
+  },
+  {
+   "slug": "spanish-and-philosophy-ba-2026",
+   "title": "Spanish and Philosophy BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "spanish-and-swedish-ba-2026",
+   "title": "Spanish and Swedish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "spanish-and-yiddish-ba-2026",
+   "title": "Spanish and Yiddish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "science-and-engineering-social-change-bsc-2026",
+   "title": "Science and Engineering for Social Change BSc",
+   "feeGBP": 39200,
+   "durationYears": 3,
+   "englishLevel": 3
+  },
+  {
+   "slug": "serbian-croatian-and-ukrainian-ba-2026",
+   "title": "Serbian/Croatian and Ukrainian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "sociology-and-politics-science-bsc-2026",
+   "title": "Sociology and Politics of Science BSc",
+   "feeGBP": 39200,
+   "durationYears": 3,
+   "englishLevel": 2
+  },
+  {
+   "slug": "spanish-management-studies-ba-2026",
+   "title": "Spanish with Management Studies BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "spanish-and-latin-ba-2026",
+   "title": "Spanish and Latin BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "spanish-and-portuguese-ba-2026",
+   "title": "Spanish and Portuguese BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "spanish-and-ukrainian-ba-2026",
+   "title": "Spanish and Ukrainian BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "statistics-economics-and-finance-bsc-2026",
+   "title": "Statistics, Economics and Finance BSc",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 2
+  },
+  {
+   "slug": "russian-and-yiddish-ba-2026",
+   "title": "Russian and Yiddish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "sustainable-built-environments-energy-and-resources-meng-2026",
+   "title": "Sustainable Built Environments, Energy and Resources MEng",
+   "feeGBP": 35400,
+   "durationYears": null,
+   "englishLevel": 1
+  },
+  {
+   "slug": "sport-and-exercise-medical-sciences-bsc-2026",
+   "title": "Sport and Exercise Medical Sciences BSc",
+   "feeGBP": 39200,
+   "durationYears": 3,
+   "englishLevel": 3
+  },
+  {
+   "slug": "spanish-film-studies-ba-2026",
+   "title": "Spanish with Film Studies BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "statistical-science-international-programme-msci-2026",
+   "title": "Statistical Science (International Programme) MSci",
+   "feeGBP": 42700,
+   "durationYears": 4,
+   "englishLevel": 2
+  },
+  {
+   "slug": "swedish-and-portuguese-ba-2026",
+   "title": "Swedish and Portuguese BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "statistics-and-management-business-bsc-2026",
+   "title": "Statistics and Management for Business BSc",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 2
+  },
+  {
+   "slug": "theoretical-physics-bsc-2026",
+   "title": "Theoretical Physics BSc",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 1
+  },
+  {
+   "slug": "technology-and-innovation-bsc-2026",
+   "title": "Technology and Innovation BSc",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 4
+  },
+  {
+   "slug": "theoretical-physics-msci-2026",
+   "title": "Theoretical Physics MSci",
+   "feeGBP": 42700,
+   "durationYears": 4,
+   "englishLevel": 1
+  },
+  {
+   "slug": "ukrainian-and-east-european-studies-ba-2026",
+   "title": "Ukrainian and East European Studies BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 3
+  },
+  {
+   "slug": "statistics-bsc-2026",
+   "title": "Statistics BSc",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 2
+  },
+  {
+   "slug": "statistics-economics-and-language-bsc-2026",
+   "title": "Statistics, Economics and a Language BSc",
+   "feeGBP": 42700,
+   "durationYears": 3,
+   "englishLevel": 2
+  },
+  {
+   "slug": "ukrainian-and-swedish-ba-2026",
+   "title": "Ukrainian and Swedish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "swedish-and-yiddish-ba-2026",
+   "title": "Swedish and Yiddish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "sustainable-built-environments-energy-and-resources-bsc-2026",
+   "title": "Sustainable Built Environments, Energy and Resources BSc",
+   "feeGBP": 35400,
+   "durationYears": null,
+   "englishLevel": 1
+  },
+  {
+   "slug": "ukrainian-and-yiddish-ba-2026",
+   "title": "Ukrainian and Yiddish BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "urban-planning-and-real-estate-bsc-2026",
+   "title": "Urban Planning and Real Estate BSc",
+   "feeGBP": 39200,
+   "durationYears": 3,
+   "englishLevel": 2
+  },
+  {
+   "slug": "urban-studies-bsc-2026",
+   "title": "Urban Studies BSc",
+   "feeGBP": 39200,
+   "durationYears": 3,
+   "englishLevel": 2
+  },
+  {
+   "slug": "viking-and-old-norse-studies-ba-2026",
+   "title": "Viking and Old Norse Studies BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  },
+  {
+   "slug": "urban-planning-design-and-management-bsc-2026",
+   "title": "Urban Planning, Design and Management BSc",
+   "feeGBP": 39200,
+   "durationYears": 3,
+   "englishLevel": 2
+  },
+  {
+   "slug": "youth-society-and-sustainable-futures-ba-2026",
+   "title": "Youth, Society and Sustainable Futures BA",
+   "feeGBP": 35400,
+   "durationYears": 3,
+   "englishLevel": 2
+  },
+  {
+   "slug": "ukrainian-and-portuguese-ba-2026",
+   "title": "Ukrainian and Portuguese BA",
+   "feeGBP": 32000,
+   "durationYears": 4,
+   "englishLevel": 4
+  }
+ ]
+}
