@@ -8,8 +8,8 @@
 // (same deliberate default as lib/fee-verification: silence here must not blank out the ~42
 // universities whose real per-course IELTS varies). Add universities here as they are checked.
 //
-// Canada rows come from data/wave-canada/institution-english.json (16 universities,
-// generated 2026-09-21).
+// Canada rows come from data/wave-canada/institution-english.json (17 universities,
+// generated 2026-09-23).
 
 export interface EnglishPublication {
   /** the university's own page states an IELTS score */
@@ -32,6 +32,7 @@ export const ENGLISH_PUBLISHED: Record<string, EnglishPublication> = {
   'red-river-college-polytechnic': { ielts: false, toefl: false, pte: false, scope: 'institution-wide', sourceUrl: 'https://www.rrc.ca/international/future-students/admission-requirements/', note: null },
   'toronto-metropolitan-university': { ielts: true, toefl: false, pte: true, scope: 'institution-wide', sourceUrl: 'https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/', note: null },
   'university-of-alberta': { ielts: false, toefl: false, pte: false, scope: 'institution-wide', sourceUrl: 'https://www.ualberta.ca/en/admissions/undergraduate/admission/admission-requirements/english-language-requirement/index.html', note: null },
+  'university-of-calgary': { ielts: false, toefl: false, pte: false, scope: 'institution-wide', sourceUrl: 'https://www.ucalgary.ca/future-students/undergraduate/admissions/requirements', note: 'UCalgary serves admission requirements from a Drupal view filtered by education system and programme, and no server-rendered response carries the English-proficiency figures. Checked the requirements page, the international-students page, the academic calendar and the view filtered to India. Needs a browser session; until then the stored 6.5/86/58 is a house default and must not be shown.' },
   'university-of-guelph': { ielts: true, toefl: true, pte: true, scope: 'institution-wide', sourceUrl: 'https://admission.uoguelph.ca/englishproficiency', note: null },
   'university-of-manitoba': { ielts: false, toefl: false, pte: false, scope: 'institution-wide', sourceUrl: 'https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements', note: 'Published for UNDERGRADUATE admission only — the page states graduate applicants must check each programme. Applied to the 200 undergraduate rows as englishVerified (scripts/apply-canada-published-fees.js); nothing publishes university-wide.' },
   'university-of-new-brunswick': { ielts: true, toefl: true, pte: true, scope: 'institution-wide', sourceUrl: 'https://www.unb.ca/international/admission/english.html', note: null },

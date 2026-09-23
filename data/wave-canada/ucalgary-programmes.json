@@ -1,0 +1,802 @@
+{
+ "_source": "https://www.ucalgary.ca/future-students/undergraduate/programs (Drupal view, paged) and each programme page, which states its degree and faculty.",
+ "_why": "The registry held 97 UCalgary rows, all postgraduate and all carrying the same fabricated C$25,000 fee. This is the undergraduate catalogue, read from UCalgary.",
+ "_note": "UCalgary lists seven graduate or professional degrees inside its undergraduate explore-programs index (MArch, MEDes, MLA, MPlan, JD, MD, DVM); studyLevel records what each award actually is. \"Undeclared (Arts)\" is an entry route, not a degree, and is excluded.",
+ "_retrieved": "2026-09-22",
+ "rows": [
+  {
+   "slug": "accounting",
+   "name": "Accounting",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/accounting",
+   "degree": "Bachelor of Commerce (BComm)",
+   "faculty": "Haskayne School of Business",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "actuarial-science",
+   "name": "Actuarial Science",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/actuarial-science",
+   "degree": "Bachelor of Science (BSc)",
+   "faculty": "Faculty of Science",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "anthropology-arts",
+   "name": "Anthropology (Bachelor of Arts)",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/anthropology-arts",
+   "degree": "Bachelor of Arts (BA)",
+   "faculty": "Faculty of Arts",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "anthropology-science",
+   "name": "Anthropology (Bachelor of Science)",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/anthropology-science",
+   "degree": "Bachelor of Science",
+   "faculty": "Faculty of Arts",
+   "degreeFrom": "page",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "archaeology-arts",
+   "name": "Archaeology (Bachelor of Arts)",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/archaeology-arts",
+   "degree": "Bachelor of Arts (BA)",
+   "faculty": "Faculty of Arts",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "archaeology-science",
+   "name": "Archaeology (Bachelor of Science)",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/archaeology-science",
+   "degree": "Bachelor of Science",
+   "faculty": "Faculty of Arts",
+   "degreeFrom": "page",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "architecture",
+   "name": "Architecture",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/architecture",
+   "degree": "Master of Architecture (MArch)",
+   "faculty": "School of Architecture, Planning and Landscape",
+   "studyLevel": "Postgraduate"
+  },
+  {
+   "slug": "art-history",
+   "name": "Art History",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/art-history",
+   "degree": "Bachelor of Arts (BA)",
+   "faculty": "Faculty of Arts",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "astrophysics",
+   "name": "Astrophysics",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/astrophysics",
+   "degree": "Bachelor of Science (BSc)",
+   "faculty": "Faculty of Science",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "biochemistry",
+   "name": "Biochemistry",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/biochemistry",
+   "degree": "Bachelor of Science (BSc)",
+   "faculty": "Faculty of Science",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "bioinformatics",
+   "name": "Bioinformatics",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/bioinformatics",
+   "degree": "Bachelor of Health Sciences (BHSc)",
+   "faculty": "Cumming School of Medicine",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "biological-sciences",
+   "name": "Biological Sciences",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/biological-sciences",
+   "degree": "Bachelor of Science (BSc)",
+   "faculty": "Faculty of Science",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "biomechanics",
+   "name": "Biomechanics",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/biomechanics",
+   "degree": "Bachelor of Science (BSc)",
+   "faculty": "Faculty of Kinesiology",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "biomedical-engineering",
+   "name": "Biomedical Engineering",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/biomedical-engineering",
+   "degree": "Bachelor of Science in Engineering (BSc in Eng)",
+   "faculty": "Schulich School of Engineering",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "biomedical-science",
+   "name": "Biomedical Sciences",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/biomedical-science",
+   "degree": "Bachelor of Health Sciences (BHSc)",
+   "faculty": "Cumming School of Medicine",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "business",
+   "name": "Business",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/business",
+   "degree": "Bachelor of Commerce (BComm)",
+   "faculty": "Haskayne School of Business",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "business-analytics",
+   "name": "Business Analytics",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/business-analytics",
+   "degree": "Bachelor of Commerce (BComm)",
+   "faculty": "Haskayne School of Business",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "business-technology-management",
+   "name": "Business Technology Management",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/business-technology-management",
+   "degree": "Bachelor of Commerce (BComm)",
+   "faculty": "Haskayne School of Business",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "cellular-molecular-microbial-biology",
+   "name": "Cellular, Molecular and Microbial Biology",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/cellular-molecular-microbial-biology",
+   "degree": "Bachelor of Science (BSc)",
+   "faculty": "Faculty of Science",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "chemical-engineering",
+   "name": "Chemical Engineering",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/chemical-engineering",
+   "degree": "Bachelor of Science in Engineering (BSc in Eng)",
+   "faculty": "Schulich School of Engineering",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "chemistry",
+   "name": "Chemistry",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/chemistry",
+   "degree": "Bachelor of Science (BSc)",
+   "faculty": "Faculty of Science",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "civil-engineering",
+   "name": "Civil Engineering",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/civil-engineering",
+   "degree": "Bachelor of Science in Engineering (BSc in Eng)",
+   "faculty": "Schulich School of Engineering",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "communication-media-studies",
+   "name": "Communication and Media Studies",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/communication-media-studies",
+   "degree": "Bachelor of Communication and Media Studies (BCMS)",
+   "faculty": "Faculty of Arts",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "community-rehabilitation",
+   "name": "Community Rehabilitation",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/community-rehabilitation",
+   "degree": "Bachelor of Community Rehabilitation (BCR)",
+   "faculty": "Cumming School of Medicine",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "computer-science",
+   "name": "Computer Science",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/computer-science",
+   "degree": "Bachelor of Science (BSc)",
+   "faculty": "Faculty of Science",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "dance",
+   "name": "Dance",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/dance",
+   "degree": "Bachelor of Fine Arts (BFA)",
+   "faculty": "Faculty of Arts",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "data-science",
+   "name": "Data Science",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/data-science",
+   "degree": "Bachelor of Science (BSc)",
+   "faculty": "Faculty of Science",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "design-city-innovation",
+   "name": "Design in City Innovation",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/design-city-innovation",
+   "degree": "Bachelor of Design in City Innovation",
+   "faculty": "School of Architecture, Planning and Landscape",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "drama",
+   "name": "Drama",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/drama",
+   "degree": "Bachelor of Fine Arts (BFA)",
+   "faculty": "Faculty of Arts",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "economics",
+   "name": "Economics",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/economics",
+   "degree": "Bachelor of Arts (BA)",
+   "faculty": "Faculty of Arts",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "education",
+   "name": "Education",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/education",
+   "degree": "Bachelor of Education (BEd)",
+   "faculty": "Werklund School of Education",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "electrical-engineering",
+   "name": "Electrical Engineering",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/electrical-engineering",
+   "degree": "Bachelor of Science in Engineering (BSc in Eng)",
+   "faculty": "Schulich School of Engineering",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "energy-engineering",
+   "name": "Energy Engineering",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/energy-engineering",
+   "degree": "Bachelor of Science in Engineering (BSc in Eng)",
+   "faculty": "Schulich School of Engineering",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "energy-science",
+   "name": "Energy Science",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/energy-science",
+   "degree": "Bachelor of Science (BSc)",
+   "faculty": "Faculty of Science",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "common-core-engineering",
+   "name": "Engineering (common first year)",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/common-core-engineering",
+   "degree": "Bachelor of Science in Engineering (BSc in Eng)",
+   "faculty": "Schulich School of Engineering",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "engineering-physics",
+   "name": "Engineering Physics",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/engineering-physics",
+   "degree": "Bachelor of Science in Engineering (BSc in Eng)",
+   "faculty": "Schulich School of Engineering",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "english",
+   "name": "English",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/english",
+   "degree": "Bachelor of Arts (BA)",
+   "faculty": "Faculty of Arts",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "entrepreneurship-innovation",
+   "name": "Entrepreneurship and Innovation",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/entrepreneurship-innovation",
+   "degree": "Bachelor of Commerce (BComm)",
+   "faculty": "Haskayne School of Business",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "environmental-design",
+   "name": "Environmental Design",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/environmental-design",
+   "degree": "Master of Environmental Design (MEDes)",
+   "faculty": "School of Architecture, Planning and Landscape",
+   "studyLevel": "Postgraduate"
+  },
+  {
+   "slug": "environmental-science",
+   "name": "Environmental Science",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/environmental-science",
+   "degree": "Bachelor of Science (BSc)",
+   "faculty": "Faculty of Science",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "exercise-health-physiology",
+   "name": "Exercise and Health Physiology",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/exercise-health-physiology",
+   "degree": "Bachelor of Science (BSc)",
+   "faculty": "Faculty of Kinesiology",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "film-studies",
+   "name": "Film Studies",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/film-studies",
+   "degree": "Bachelor of Film Studies (BFS)",
+   "faculty": "Faculty of Arts",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "finance",
+   "name": "Finance",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/finance",
+   "degree": "Bachelor of Commerce (BComm)",
+   "faculty": "Haskayne School of Business",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "french",
+   "name": "French",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/french",
+   "degree": "Bachelor of Arts (BA)",
+   "faculty": "Faculty of Arts",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "gender-sexuality-studies",
+   "name": "Gender and Sexuality Studies",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/gender-sexuality-studies",
+   "degree": "Bachelor of Arts (BA)",
+   "faculty": "Faculty of Arts",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "geography-arts",
+   "name": "Geography (Bachelor of Arts)",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/geography-arts",
+   "degree": "Bachelor of Arts (BA)",
+   "faculty": "Faculty of Arts",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "geography-science",
+   "name": "Geography (Bachelor of Science)",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/geography-science",
+   "degree": "Bachelor of Science (BSc)",
+   "faculty": "Faculty of Arts",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "geomatics-engineering",
+   "name": "Geomatics Engineering",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/geomatics-engineering",
+   "degree": "Bachelor of Science in Engineering (BSc in Eng)",
+   "faculty": "Schulich School of Engineering",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "geoscience",
+   "name": "Geoscience",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/geoscience",
+   "degree": "Bachelor of Science (BSc)",
+   "faculty": "Faculty of Science",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "global-development-studies",
+   "name": "Global Development Studies",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/global-development-studies",
+   "degree": "Bachelor of Arts (BA)",
+   "faculty": "Faculty of Arts",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "health-science",
+   "name": "Health and Society",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/health-science",
+   "degree": "Bachelor of Health Sciences (BHSc)",
+   "faculty": "Cumming School of Medicine",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "history",
+   "name": "History",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/history",
+   "degree": "Bachelor of Arts (BA)",
+   "faculty": "Faculty of Arts",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "international-business-strategy",
+   "name": "International Business Strategy",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/international-business-strategy",
+   "degree": "Bachelor of Commerce (BComm)",
+   "faculty": "Haskayne School of Business",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "international-indigenous-studies",
+   "name": "International Indigenous Studies",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/international-indigenous-studies",
+   "degree": "Bachelor of Arts (BA)",
+   "faculty": "Faculty of Arts",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "international-relations",
+   "name": "International Relations",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/international-relations",
+   "degree": "Bachelor of Arts (BA)",
+   "faculty": "Faculty of Arts",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "kinesiology",
+   "name": "Kinesiology",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/kinesiology",
+   "degree": "Bachelor of Science (BSc)",
+   "faculty": "Faculty of Kinesiology",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "landscape-architecture",
+   "name": "Landscape Architecture",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/landscape-architecture",
+   "degree": "Master of Landscape Architecture (MLA)",
+   "faculty": "School of Architecture, Planning and Landscape",
+   "studyLevel": "Postgraduate"
+  },
+  {
+   "slug": "language-culture",
+   "name": "Language and Culture",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/language-culture",
+   "degree": "Bachelor of Arts (BA)",
+   "faculty": "Faculty of Arts",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "law",
+   "name": "Law",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/law",
+   "degree": "Juris Doctor",
+   "faculty": "Faculty of Law",
+   "studyLevel": "Postgraduate"
+  },
+  {
+   "slug": "law-society",
+   "name": "Law and Society",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/law-society",
+   "degree": "Bachelor of Arts (BA)",
+   "faculty": "Faculty of Arts",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "leadership-coaching",
+   "name": "Leadership and Coaching",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/leadership-coaching",
+   "degree": "Bachelor of Kinesiology (BKin)",
+   "faculty": "Faculty of Kinesiology",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "linguistics",
+   "name": "Linguistics",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/linguistics",
+   "degree": "Bachelor of Arts (BA)",
+   "faculty": "Faculty of Arts",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "linguistics-language",
+   "name": "Linguistics and Language",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/linguistics-language",
+   "degree": "Bachelor of Arts (BA)",
+   "faculty": "Faculty of Arts",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "marketing",
+   "name": "Marketing",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/marketing",
+   "degree": "Bachelor of Commerce (BComm)",
+   "faculty": "Haskayne School of Business",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "mathematics",
+   "name": "Mathematics",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/mathematics",
+   "degree": "Bachelor of Science (BSc)",
+   "faculty": "Faculty of Science",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "mechanical-engineering",
+   "name": "Mechanical Engineering",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/mechanical-engineering",
+   "degree": "Bachelor of Science in Engineering (BSc in Eng)",
+   "faculty": "Schulich School of Engineering",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "medicine",
+   "name": "Medicine",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/medicine",
+   "degree": "Doctor of Medicine (MD)",
+   "faculty": "Cumming School of Medicine",
+   "studyLevel": "Postgraduate"
+  },
+  {
+   "slug": "motor-psychosocial-aspects-movement",
+   "name": "Motor and Psychosocial Aspects of Movement",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/motor-psychosocial-aspects-movement",
+   "degree": "Bachelor of Science (BSc)",
+   "faculty": "Faculty of Kinesiology",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "multidisciplinary-studies-bachelor-arts",
+   "name": "Multidisciplinary Studies",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/multidisciplinary-studies-bachelor-arts",
+   "degree": "Bachelor of Arts (BA)",
+   "faculty": "Faculty of Arts",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "music-arts",
+   "name": "Music (Bachelor of Arts)",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/music-arts",
+   "degree": "Bachelor of Arts (BA)",
+   "faculty": "Faculty of Arts",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "music-music",
+   "name": "Music (Bachelor of Music)",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/music-music",
+   "degree": "Bachelor of Music (BMus)",
+   "faculty": "Faculty of Arts",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "natural-sciences",
+   "name": "Natural Sciences",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/natural-sciences",
+   "degree": "Bachelor of Science (BSc)",
+   "faculty": "Faculty of Science",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "neuroscience",
+   "name": "Neuroscience",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/neuroscience",
+   "degree": "Bachelor of Science (BSc)",
+   "faculty": "Faculty of Science",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "nursing-indigenous-community",
+   "name": "Nursing (Indigenous Community Route)",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/nursing-indigenous-community",
+   "degree": "Bachelor of Science in Nursing (BScN)",
+   "faculty": "Faculty of Nursing",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "nursing-medicine-hat",
+   "name": "Nursing (Medicine Hat)",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/nursing-medicine-hat",
+   "degree": "Bachelor of Science in Nursing (BScN)",
+   "faculty": "Faculty of Nursing",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "nursing-rural-community",
+   "name": "Nursing (Rural Community Route)",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/nursing-rural-community",
+   "degree": "Bachelor of Science in Nursing (BScN)",
+   "faculty": "Faculty of Nursing",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "nursing-year-one",
+   "name": "Nursing (year 1)",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/nursing-year-one",
+   "degree": "Bachelor of Science in Nursing (BScN)",
+   "faculty": "Faculty of Nursing",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "nursing-year-two",
+   "name": "Nursing (year 2)",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/nursing-year-two",
+   "degree": "Bachelor of Science in Nursing (BScN)",
+   "faculty": "Faculty of Nursing",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "oil-gas-engineering",
+   "name": "Oil and Gas engineering",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/oil-gas-engineering",
+   "degree": "Bachelor of Science in Engineering (BSc in Eng)",
+   "faculty": "Schulich School of Engineering",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "operations-supply-chain-management",
+   "name": "Operations and Supply Chain Management",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/operations-supply-chain-management",
+   "degree": "Bachelor of Commerce (BComm)",
+   "faculty": "Haskayne School of Business",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "organizational-behaviour-human-resources",
+   "name": "Organizational Behaviour and Human Resources",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/organizational-behaviour-human-resources",
+   "degree": "Bachelor of Commerce (BComm)",
+   "faculty": "Haskayne School of Business",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "philosophy",
+   "name": "Philosophy",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/philosophy",
+   "degree": "Bachelor of Arts (BA)",
+   "faculty": "Faculty of Arts",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "physics",
+   "name": "Physics",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/physics",
+   "degree": "Bachelor of Science (BSc)",
+   "faculty": "Faculty of Science",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "planning",
+   "name": "Planning",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/planning",
+   "degree": "Master of Planning (MPlan)",
+   "faculty": "School of Architecture, Planning and Landscape",
+   "studyLevel": "Postgraduate"
+  },
+  {
+   "slug": "plant-biology",
+   "name": "Plant Biology",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/plant-biology",
+   "degree": "Bachelor of Science (BSc)",
+   "faculty": "Faculty of Science",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "political-science",
+   "name": "Political Science",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/political-science",
+   "degree": "Bachelor of Arts (BA)",
+   "faculty": "Faculty of Arts",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "psychology-arts",
+   "name": "Psychology (Bachelor of Arts)",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/psychology-arts",
+   "degree": "Bachelor of Arts (BA)",
+   "faculty": "Faculty of Arts",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "psychology-science",
+   "name": "Psychology (Bachelor of Science)",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/psychology-science",
+   "degree": "Bachelor of Science (BSc)",
+   "faculty": "Faculty of Arts",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "risk-management",
+   "name": "Risk Management",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/risk-management",
+   "degree": "Bachelor of Commerce (BComm)",
+   "faculty": "Haskayne School of Business",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "social-work",
+   "name": "Social Work",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/social-work",
+   "degree": "Bachelor of Social Work (BSW)",
+   "faculty": "Faculty of Social Work",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "sociology",
+   "name": "Sociology",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/sociology",
+   "degree": "Bachelor of Arts (BA)",
+   "faculty": "Faculty of Arts",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "software-engineering",
+   "name": "Software Engineering",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/software-engineering",
+   "degree": "Bachelor of Science in Engineering (BSc in Eng)",
+   "faculty": "Schulich School of Engineering",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "statistics",
+   "name": "Statistics",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/statistics",
+   "degree": "Bachelor of Science (BSc)",
+   "faculty": "Faculty of Science",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "sustainable-systems-engineering",
+   "name": "Sustainable Systems Engineering",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/sustainable-systems-engineering",
+   "degree": "Bachelor of Science in Engineering (BSc in Eng)",
+   "faculty": "Schulich School of Engineering",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "arts-undeclared",
+   "name": "Undeclared (Arts)",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/arts-undeclared",
+   "degree": null,
+   "faculty": "Faculty of Arts",
+   "studyLevel": null
+  },
+  {
+   "slug": "urban-studies",
+   "name": "Urban Studies",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/urban-studies",
+   "degree": "Bachelor of Arts (BA)",
+   "faculty": "Faculty of Arts",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "veterinary-medicine",
+   "name": "Veterinary Medicine",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/veterinary-medicine",
+   "degree": "Doctor of Veterinary Medicine",
+   "faculty": "Faculty of Veterinary Medicine",
+   "studyLevel": "Postgraduate"
+  },
+  {
+   "slug": "visual-studies",
+   "name": "Visual Studies",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/visual-studies",
+   "degree": "Bachelor of Fine Arts (BFA)",
+   "faculty": "Faculty of Arts",
+   "studyLevel": "Undergraduate"
+  },
+  {
+   "slug": "zoology",
+   "name": "Zoology",
+   "url": "https://www.ucalgary.ca/future-students/undergraduate/explore-programs/zoology",
+   "degree": "Bachelor of Science (BSc)",
+   "faculty": "Faculty of Science",
+   "studyLevel": "Undergraduate"
+  }
+ ]
+}

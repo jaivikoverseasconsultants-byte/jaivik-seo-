@@ -24,6 +24,7 @@ const SLUGS = {
   'Kwantlen (KPU)': 'kwantlen-polytechnic-university',
   'Red River College': 'red-river-college-polytechnic',
   'University of Alberta': 'university-of-alberta',
+  'University of Calgary': 'university-of-calgary',
   'University of Waterloo': 'university-of-waterloo',
   "Queen's University": 'queens-university',
   'University of Ottawa': 'university-of-ottawa',

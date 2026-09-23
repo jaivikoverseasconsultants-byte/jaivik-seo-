@@ -1,0 +1,176 @@
+{
+ "_source": "https://www.ucalgary.ca/registrar/finances/understanding-your-fees/undergraduate-student-cost-estimator — a Drupal view with exposed filters, queried as an international student for each faculty, first-year and upper-year.",
+ "_basis": "UCalgary states these as \"Student Tuition — Full time course load for two terms\" and \"General fees for two terms\", for one year of study on 2026-2027 fees. They are the university's own annual figures, not a per-course rate multiplied out.",
+ "_note": "Only Haskayne and Schulich differ between first and upper years; everywhere else the two are identical.",
+ "_retrieved": "2026-09-22",
+ "rows": [
+  {
+   "faculty": "Cumming School of Medicine",
+   "year": "first",
+   "tuitionCAD": 30782,
+   "generalFeesCAD": 1787.8,
+   "totalCAD": 32569.8
+  },
+  {
+   "faculty": "Cumming School of Medicine",
+   "year": "upper",
+   "tuitionCAD": 30782,
+   "generalFeesCAD": 1787.8,
+   "totalCAD": 32569.8
+  },
+  {
+   "faculty": "Faculty of Arts",
+   "year": "first",
+   "tuitionCAD": 30782,
+   "generalFeesCAD": 1787.8,
+   "totalCAD": 32569.8
+  },
+  {
+   "faculty": "Faculty of Arts",
+   "year": "upper",
+   "tuitionCAD": 30782,
+   "generalFeesCAD": 1787.8,
+   "totalCAD": 32569.8
+  },
+  {
+   "faculty": "Faculty of Kinesiology",
+   "year": "first",
+   "tuitionCAD": 30782,
+   "generalFeesCAD": 1787.8,
+   "totalCAD": 32569.8
+  },
+  {
+   "faculty": "Faculty of Kinesiology",
+   "year": "upper",
+   "tuitionCAD": 30782,
+   "generalFeesCAD": 1787.8,
+   "totalCAD": 32569.8
+  },
+  {
+   "faculty": "Faculty of Law",
+   "year": "first",
+   "tuitionCAD": 63708.12,
+   "generalFeesCAD": 1805.98,
+   "totalCAD": 65514.1
+  },
+  {
+   "faculty": "Faculty of Law",
+   "year": "upper",
+   "tuitionCAD": 63708.12,
+   "generalFeesCAD": 1805.98,
+   "totalCAD": 65514.1
+  },
+  {
+   "faculty": "Faculty of Nursing",
+   "year": "first",
+   "tuitionCAD": 30782,
+   "generalFeesCAD": 1787.8,
+   "totalCAD": 32569.8
+  },
+  {
+   "faculty": "Faculty of Nursing",
+   "year": "upper",
+   "tuitionCAD": 30782,
+   "generalFeesCAD": 1787.8,
+   "totalCAD": 32569.8
+  },
+  {
+   "faculty": "Faculty of Science",
+   "year": "first",
+   "tuitionCAD": 30782,
+   "generalFeesCAD": 1787.8,
+   "totalCAD": 32569.8
+  },
+  {
+   "faculty": "Faculty of Science",
+   "year": "upper",
+   "tuitionCAD": 30782,
+   "generalFeesCAD": 1787.8,
+   "totalCAD": 32569.8
+  },
+  {
+   "faculty": "Faculty of Social Work",
+   "year": "first",
+   "tuitionCAD": 30782,
+   "generalFeesCAD": 1787.8,
+   "totalCAD": 32569.8
+  },
+  {
+   "faculty": "Faculty of Social Work",
+   "year": "upper",
+   "tuitionCAD": 30782,
+   "generalFeesCAD": 1787.8,
+   "totalCAD": 32569.8
+  },
+  {
+   "faculty": "Faculty of Veterinary Medicine",
+   "year": "first",
+   "tuitionCAD": 14901,
+   "generalFeesCAD": 1787.8,
+   "totalCAD": 16688.8
+  },
+  {
+   "faculty": "Faculty of Veterinary Medicine",
+   "year": "upper",
+   "tuitionCAD": 14901,
+   "generalFeesCAD": 1787.8,
+   "totalCAD": 16688.8
+  },
+  {
+   "faculty": "Haskayne School of Business",
+   "year": "first",
+   "tuitionCAD": 32379,
+   "generalFeesCAD": 1787.8,
+   "totalCAD": 34166.8
+  },
+  {
+   "faculty": "Haskayne School of Business",
+   "year": "upper",
+   "tuitionCAD": 33975,
+   "generalFeesCAD": 1787.8,
+   "totalCAD": 35762.8
+  },
+  {
+   "faculty": "Schulich School of Engineering",
+   "year": "first",
+   "tuitionCAD": 40283,
+   "generalFeesCAD": 1787.8,
+   "totalCAD": 42070.8
+  },
+  {
+   "faculty": "Schulich School of Engineering",
+   "year": "upper",
+   "tuitionCAD": 44566,
+   "generalFeesCAD": 1787.8,
+   "totalCAD": 46353.8
+  },
+  {
+   "faculty": "School of Architecture, Planning and Landscape",
+   "year": "first",
+   "tuitionCAD": 30782,
+   "generalFeesCAD": 1787.8,
+   "totalCAD": 32569.8
+  },
+  {
+   "faculty": "School of Architecture, Planning and Landscape",
+   "year": "upper",
+   "tuitionCAD": 30782,
+   "generalFeesCAD": 1787.8,
+   "totalCAD": 32569.8
+  },
+  {
+   "faculty": "Werklund School of Education",
+   "year": "first",
+   "tuitionCAD": 30782,
+   "generalFeesCAD": 1787.8,
+   "totalCAD": 32569.8
+  },
+  {
+   "faculty": "Werklund School of Education",
+   "year": "upper",
+   "tuitionCAD": 30782,
+   "generalFeesCAD": 1787.8,
+   "totalCAD": 32569.8
+  }
+ ]
+}

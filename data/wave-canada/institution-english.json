@@ -1,231 +1,244 @@
 {
-  "Red River College": {
-    "url": "https://www.rrc.ca/international/future-students/admission-requirements/",
-    "http": "200",
-    "chars": 3327,
-    "ielts": [],
-    "toefl": [],
-    "pte": []
-  },
-  "Algonquin College": {
-    "url": "https://www.algonquincollege.com/international/admission-requirements/",
-    "http": "200",
-    "chars": 273505,
-    "ielts": [
-      "6.0",
-      "6.5"
-    ],
-    "toefl": [
-      "80",
-      "88"
-    ],
-    "pte": []
-  },
-  "Durham College": {
-    "url": "https://durhamcollege.ca/international/english-language-proficiency",
-    "http": "200",
-    "chars": 9734,
-    "ielts": [
-      "6.0"
-    ],
-    "toefl": [],
-    "pte": [
-      "53"
-    ]
-  },
-  "Kwantlen (KPU)": {
-    "url": "https://www.kpu.ca/pathway",
-    "label": "English Pathway",
-    "http": "200",
-    "chars": 9762,
-    "ielts": [],
-    "toefl": [],
-    "pte": [],
-    "resolved": false,
-    "unresolvedReason": "Page reached was a PATHWAY page, not the direct-entry requirement (bands seen: 5.5 / 6.0).",
-    "doNotPublish": true,
-    "bandsSeen": {
-      "ielts": [
-        "5.5",
-        "6.0"
-      ],
-      "toefl": [
-        "61",
-        "80"
-      ],
-      "pte": []
-    }
-  },
-  "UBC Okanagan": {
-    "url": "https://you.ubc.ca/applying-ubc/requirements/english-language-competency/",
-    "http": "200",
-    "chars": 14431,
-    "ielts": [
-      "6.5"
-    ],
-    "toefl": [
-      "120"
-    ],
-    "pte": [
-      "65"
-    ]
-  },
-  "University of Alberta": {
-    "url": "https://www.ualberta.ca/en/admissions/undergraduate/admission/admission-requirements/english-language-requirement/index.html",
-    "http": "202",
-    "chars": 1,
-    "ielts": [],
-    "toefl": [],
-    "pte": []
-  },
-  "University of Waterloo": {
-    "url": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
-    "http": "200",
-    "ielts": [
-      "6.5"
-    ],
-    "toefl": [
-      "90"
-    ],
-    "pte": [
-      "63"
-    ],
-    "resolved": false,
-    "unresolvedReason": "Published for UNDERGRADUATE admission only. Applied to the 107 undergraduate rows as englishVerified (scripts/apply-canada-published-fees.js); the 92 graduate programmes in waterloo-courses.ts set their own, so nothing publishes university-wide.",
-    "checkedOn": "2026-09-21"
-  },
-  "Queen's University": {
-    "url": "https://www.queensu.ca/admission/applicants/english-proficiency",
-    "label": "English Proficiency Requirements",
-    "http": "200",
-    "chars": 9789,
-    "ielts": [],
-    "toefl": [],
-    "pte": [],
-    "resolved": false,
-    "unresolvedReason": "Tiered by faculty/programme group (bands seen: 6.5 / 6.0 / 5.5). No stated institution-wide default.",
-    "doNotPublish": true,
-    "bandsSeen": {
-      "ielts": [
-        "6.5",
-        "6.0",
-        "5.5"
-      ],
-      "toefl": [
-        "70",
-        "80",
-        "58"
-      ],
-      "pte": [
-        "60",
-        "55",
-        "40"
-      ]
-    }
-  },
-  "University of Ottawa": {
-    "url": "https://www.uottawa.ca/study/undergraduate-studies/admission/language-requirements",
-    "http": "404",
-    "ielts": [],
-    "toefl": [],
-    "pte": []
-  },
-  "Dalhousie University": {
-    "url": "https://www.dal.ca/admissions/undergraduate/requirements/english-language-requirements.html",
-    "http": "404",
-    "ielts": [],
-    "toefl": [],
-    "pte": []
-  },
-  "York University": {
-    "url": "https://futurestudents.yorku.ca/requirements/language-tests",
-    "http": "200",
-    "ielts": [
-      "6.5"
-    ],
-    "toefl": [
-      "88"
-    ],
-    "pte": [
-      "60"
-    ],
-    "resolved": false,
-    "unresolvedReason": "York states minimums for \"most programs\" (IELTS 6.5 / TOEFL iBT 88 before Jan 2026 / PTE 60) plus a table of programmes needing more (Nursing 7.0/94/67; TESOL Certificate 7.0/102) and Education, which it refers to the Faculty of Education site. Applied per row as englishVerified (scripts/apply-canada-published-fees.js): 104 rows at the baseline, 3 Nursing rows at the higher scores, 2 Education rows left unpublished. Nothing publishes university-wide.",
-    "checkedOn": "2026-09-21"
-  },
-  "University of Victoria": {
-    "url": "https://www.uvic.ca/undergraduate/admissions/admission-requirements/english-language-requirements/index.php",
-    "http": "000",
-    "chars": 0,
-    "ielts": [],
-    "toefl": [],
-    "pte": []
-  },
-  "University of Windsor": {
-    "url": "https://www.uwindsor.ca/registrar/english-language-requirements",
-    "http": "404",
-    "chars": 3324,
-    "ielts": [],
-    "toefl": [],
-    "pte": []
-  },
-  "University of Guelph": {
-    "url": "https://admission.uoguelph.ca/englishproficiency",
-    "http": "200",
-    "chars": 5157,
-    "ielts": [
-      "6.5"
-    ],
-    "toefl": [
-      "89"
-    ],
-    "pte": [
-      "60"
-    ]
-  },
-  "University of Manitoba": {
-    "url": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
-    "http": "200",
-    "ielts": [
-      "6.5"
-    ],
-    "toefl": [
-      "86"
-    ],
-    "pte": [
-      "58"
-    ],
-    "resolved": false,
-    "unresolvedReason": "Published for UNDERGRADUATE admission only — the page states graduate applicants must check each programme. Applied to the 200 undergraduate rows as englishVerified (scripts/apply-canada-published-fees.js); nothing publishes university-wide.",
-    "checkedOn": "2026-09-21"
-  },
-  "Toronto Metropolitan": {
-    "url": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
-    "label": "English Language Requirements",
-    "http": "200",
-    "chars": 13222,
-    "ielts": [
-      "6.5"
-    ],
-    "toefl": [],
-    "pte": [
-      "60"
-    ]
-  },
-  "Univ of New Brunswick": {
-    "url": "https://www.unb.ca/international/admission/english.html",
-    "http": "200",
-    "resolved": true,
-    "ielts": [
-      6.5
-    ],
-    "toefl": [
-      85
-    ],
-    "pte": [
-      59
-    ],
-    "sourceQuote": "TOEFL iBT with a minimum overall score of 85 ... PTE Academic with a minimum score of 59",
-    "note": "Confirmed live 2026-09-12. IELTS band read from the same table; TOEFL 85 and PTE 59 quoted verbatim."
+ "Red River College": {
+  "url": "https://www.rrc.ca/international/future-students/admission-requirements/",
+  "http": "200",
+  "chars": 3327,
+  "ielts": [],
+  "toefl": [],
+  "pte": []
+ },
+ "Algonquin College": {
+  "url": "https://www.algonquincollege.com/international/admission-requirements/",
+  "http": "200",
+  "chars": 273505,
+  "ielts": [
+   "6.0",
+   "6.5"
+  ],
+  "toefl": [
+   "80",
+   "88"
+  ],
+  "pte": []
+ },
+ "Durham College": {
+  "url": "https://durhamcollege.ca/international/english-language-proficiency",
+  "http": "200",
+  "chars": 9734,
+  "ielts": [
+   "6.0"
+  ],
+  "toefl": [],
+  "pte": [
+   "53"
+  ]
+ },
+ "Kwantlen (KPU)": {
+  "url": "https://www.kpu.ca/pathway",
+  "label": "English Pathway",
+  "http": "200",
+  "chars": 9762,
+  "ielts": [],
+  "toefl": [],
+  "pte": [],
+  "resolved": false,
+  "unresolvedReason": "Page reached was a PATHWAY page, not the direct-entry requirement (bands seen: 5.5 / 6.0).",
+  "doNotPublish": true,
+  "bandsSeen": {
+   "ielts": [
+    "5.5",
+    "6.0"
+   ],
+   "toefl": [
+    "61",
+    "80"
+   ],
+   "pte": []
   }
+ },
+ "UBC Okanagan": {
+  "url": "https://you.ubc.ca/applying-ubc/requirements/english-language-competency/",
+  "http": "200",
+  "chars": 14431,
+  "ielts": [
+   "6.5"
+  ],
+  "toefl": [
+   "120"
+  ],
+  "pte": [
+   "65"
+  ]
+ },
+ "University of Alberta": {
+  "url": "https://www.ualberta.ca/en/admissions/undergraduate/admission/admission-requirements/english-language-requirement/index.html",
+  "http": "202",
+  "chars": 1,
+  "ielts": [],
+  "toefl": [],
+  "pte": []
+ },
+ "University of Waterloo": {
+  "url": "https://uwaterloo.ca/future-students/admissions/english-language-requirements",
+  "http": "200",
+  "ielts": [
+   "6.5"
+  ],
+  "toefl": [
+   "90"
+  ],
+  "pte": [
+   "63"
+  ],
+  "resolved": false,
+  "unresolvedReason": "Published for UNDERGRADUATE admission only. Applied to the 107 undergraduate rows as englishVerified (scripts/apply-canada-published-fees.js); the 92 graduate programmes in waterloo-courses.ts set their own, so nothing publishes university-wide.",
+  "checkedOn": "2026-09-21"
+ },
+ "Queen's University": {
+  "url": "https://www.queensu.ca/admission/applicants/english-proficiency",
+  "label": "English Proficiency Requirements",
+  "http": "200",
+  "chars": 9789,
+  "ielts": [],
+  "toefl": [],
+  "pte": [],
+  "resolved": false,
+  "unresolvedReason": "Tiered by faculty/programme group (bands seen: 6.5 / 6.0 / 5.5). No stated institution-wide default.",
+  "doNotPublish": true,
+  "bandsSeen": {
+   "ielts": [
+    "6.5",
+    "6.0",
+    "5.5"
+   ],
+   "toefl": [
+    "70",
+    "80",
+    "58"
+   ],
+   "pte": [
+    "60",
+    "55",
+    "40"
+   ]
+  }
+ },
+ "University of Ottawa": {
+  "url": "https://www.uottawa.ca/study/undergraduate-studies/admission/language-requirements",
+  "http": "404",
+  "ielts": [],
+  "toefl": [],
+  "pte": []
+ },
+ "Dalhousie University": {
+  "url": "https://www.dal.ca/admissions/undergraduate/requirements/english-language-requirements.html",
+  "http": "404",
+  "ielts": [],
+  "toefl": [],
+  "pte": []
+ },
+ "York University": {
+  "url": "https://futurestudents.yorku.ca/requirements/language-tests",
+  "http": "200",
+  "ielts": [
+   "6.5"
+  ],
+  "toefl": [
+   "88"
+  ],
+  "pte": [
+   "60"
+  ],
+  "resolved": false,
+  "unresolvedReason": "York states minimums for \"most programs\" (IELTS 6.5 / TOEFL iBT 88 before Jan 2026 / PTE 60) plus a table of programmes needing more (Nursing 7.0/94/67; TESOL Certificate 7.0/102) and Education, which it refers to the Faculty of Education site. Applied per row as englishVerified (scripts/apply-canada-published-fees.js): 104 rows at the baseline, 3 Nursing rows at the higher scores, 2 Education rows left unpublished. Nothing publishes university-wide.",
+  "checkedOn": "2026-09-21"
+ },
+ "University of Victoria": {
+  "url": "https://www.uvic.ca/undergraduate/admissions/admission-requirements/english-language-requirements/index.php",
+  "http": "000",
+  "chars": 0,
+  "ielts": [],
+  "toefl": [],
+  "pte": []
+ },
+ "University of Windsor": {
+  "url": "https://www.uwindsor.ca/registrar/english-language-requirements",
+  "http": "404",
+  "chars": 3324,
+  "ielts": [],
+  "toefl": [],
+  "pte": []
+ },
+ "University of Guelph": {
+  "url": "https://admission.uoguelph.ca/englishproficiency",
+  "http": "200",
+  "chars": 5157,
+  "ielts": [
+   "6.5"
+  ],
+  "toefl": [
+   "89"
+  ],
+  "pte": [
+   "60"
+  ]
+ },
+ "University of Manitoba": {
+  "url": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+  "http": "200",
+  "ielts": [
+   "6.5"
+  ],
+  "toefl": [
+   "86"
+  ],
+  "pte": [
+   "58"
+  ],
+  "resolved": false,
+  "unresolvedReason": "Published for UNDERGRADUATE admission only — the page states graduate applicants must check each programme. Applied to the 200 undergraduate rows as englishVerified (scripts/apply-canada-published-fees.js); nothing publishes university-wide.",
+  "checkedOn": "2026-09-21"
+ },
+ "Toronto Metropolitan": {
+  "url": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",
+  "label": "English Language Requirements",
+  "http": "200",
+  "chars": 13222,
+  "ielts": [
+   "6.5"
+  ],
+  "toefl": [],
+  "pte": [
+   "60"
+  ]
+ },
+ "Univ of New Brunswick": {
+  "url": "https://www.unb.ca/international/admission/english.html",
+  "http": "200",
+  "resolved": true,
+  "ielts": [
+   6.5
+  ],
+  "toefl": [
+   85
+  ],
+  "pte": [
+   59
+  ],
+  "sourceQuote": "TOEFL iBT with a minimum overall score of 85 ... PTE Academic with a minimum score of 59",
+  "note": "Confirmed live 2026-09-12. IELTS band read from the same table; TOEFL 85 and PTE 59 quoted verbatim."
+ },
+ "University of Calgary": {
+  "url": "https://www.ucalgary.ca/future-students/undergraduate/admissions/requirements",
+  "label": "Admission requirements",
+  "http": "200",
+  "chars": 93607,
+  "ielts": [],
+  "toefl": [],
+  "pte": [],
+  "resolved": false,
+  "unresolvedReason": "UCalgary serves admission requirements from a Drupal view filtered by education system and programme, and no server-rendered response carries the English-proficiency figures. Checked the requirements page, the international-students page, the academic calendar and the view filtered to India. Needs a browser session; until then the stored 6.5/86/58 is a house default and must not be shown.",
+  "doNotPublish": true,
+  "checkedOn": "2026-09-23"
+ }
 }
