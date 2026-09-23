@@ -1,0 +1,104 @@
+{
+ "_source": "https://studentaccount.utoronto.ca/fees-payments/tuition-fee-schedules/ — U of T publishes a separate international fee schedule PDF per faculty. Figures read from the 2025-26 Fall-Winter INTERNATIONAL schedules, the latest published.",
+ "_basis": "Each figure is the full-time PROGRAM fee for the Fall-Winter session, the flat rate charged to a full-time international student. Mandatory incidental fees and UHIP are charged on top and are recorded separately.",
+ "_retrieved": "2026-09-23",
+ "_excluded": {
+  "UTM": "Its schedule gives two full-time programme rates (C$65,740 and C$72,260) and every row is labelled for the cohort admitted in 2023 or earlier. Which rate a new applicant pays cannot be read off the PDF, so UTM-only programmes are left unpriced.",
+  "UTSC": "Its schedule bills per credit by semester (C$6,357.00 per 0.5 credit) and states no annual programme fee. Multiplying it out would be our arithmetic, not UTSC's published figure, so UTSC-only programmes are left unpriced.",
+  "Dentistry": "Layout differs; the four columns did not align on extraction and the numbers were not trusted.",
+  "CHRM": "Certificate in Human Resource Management, not a degree programme."
+ },
+ "faculties": [
+  {
+   "key": "APSC",
+   "name": "Faculty of Applied Science & Engineering",
+   "programFeeCAD": 70060,
+   "incidentalsCAD": 2203.84,
+   "uhipCAD": 792,
+   "totalCAD": 73055.84,
+   "pdf": "25-26-APSC-INT.pdf"
+  },
+  {
+   "key": "ARCLA",
+   "name": "John H. Daniels Faculty of Architecture, Landscape & Design",
+   "programFeeCAD": 63570,
+   "incidentalsCAD": 1988.4,
+   "uhipCAD": 792,
+   "totalCAD": 66350.4,
+   "pdf": "25-26-Arch-INT.pdf"
+  },
+  {
+   "key": "ARTSC",
+   "name": "Faculty of Arts & Science (St. George)",
+   "programFeeCAD": 63570,
+   "incidentalsCAD": 2040.9,
+   "uhipCAD": 792,
+   "totalCAD": 66402.9,
+   "pdf": "25-26-FAS-UC-INT.pdf",
+   "note": "Table 1A, full-time international, 4.0 credits or more. Incidental fees vary slightly by college; University College is quoted."
+  },
+  {
+   "key": "FIS",
+   "name": "Faculty of Information",
+   "programFeeCAD": 65740,
+   "incidentalsCAD": 1870.34,
+   "uhipCAD": 792,
+   "totalCAD": 68402.34,
+   "pdf": "25-26-Info-INT.pdf"
+  },
+  {
+   "key": "FPEH",
+   "name": "Faculty of Kinesiology and Physical Education",
+   "programFeeCAD": 49010,
+   "incidentalsCAD": 1993.4,
+   "uhipCAD": 792,
+   "totalCAD": 51795.4,
+   "pdf": "25-26-KPE-INT.pdf"
+  },
+  {
+   "key": "LAW",
+   "name": "Faculty of Law",
+   "programFeeCAD": 69320,
+   "incidentalsCAD": 2106.4,
+   "uhipCAD": 792,
+   "totalCAD": 72218.4,
+   "pdf": "25-26-Law-INT.pdf"
+  },
+  {
+   "key": "MED",
+   "name": "Temerty Faculty of Medicine",
+   "programFeeCAD": 97350,
+   "incidentalsCAD": 2064.94,
+   "uhipCAD": 792,
+   "totalCAD": 100206.94,
+   "pdf": "25-26-Med-INT.pdf"
+  },
+  {
+   "key": "MUSIC",
+   "name": "Faculty of Music",
+   "programFeeCAD": 48090,
+   "incidentalsCAD": 2556.4,
+   "uhipCAD": 792,
+   "totalCAD": 51438.4,
+   "pdf": "25-26-Music-INT.pdf"
+  },
+  {
+   "key": "NURS",
+   "name": "Lawrence Bloomberg Faculty of Nursing",
+   "programFeeCAD": 51060,
+   "incidentalsCAD": 2017.74,
+   "uhipCAD": 792,
+   "totalCAD": 53869.74,
+   "pdf": "25-26-Nurs-INT.pdf"
+  },
+  {
+   "key": "PHARM",
+   "name": "Leslie Dan Faculty of Pharmacy",
+   "programFeeCAD": 54550,
+   "incidentalsCAD": 2062.36,
+   "uhipCAD": 792,
+   "totalCAD": 57404.36,
+   "pdf": "25-26-Pharm-INT_.pdf"
+  }
+ ]
+}

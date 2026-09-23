@@ -1,0 +1,3017 @@
+{
+ "_source": "https://future.utoronto.ca/api/program-listing — the feed behind U of T's own undergraduate programme finder.",
+ "_retrieved": "2026-09-23",
+ "_note": "U of T admits to a degree and campus; Specialist/Major/Minor are programs of study chosen within it. Minor-only entries are not something an international student applies to on their own and are excluded when building course pages.",
+ "_counts": {
+  "entries": 334,
+  "distinctPages": 278
+ },
+ "rows": [
+  {
+   "study": "Business, Commerce & Management",
+   "item": "Accounting",
+   "alias": "/program/accounting",
+   "campus": "UTM, UTSC",
+   "type": "Specialist",
+   "degree": "BBA, BCom",
+   "el": "1"
+  },
+  {
+   "study": "Business, Commerce & Management",
+   "item": "Accounting & Finance",
+   "alias": "/program/accounting-finance",
+   "campus": "UTM",
+   "type": "Specialist",
+   "degree": "BBA",
+   "el": "1"
+  },
+  {
+   "study": "Business, Commerce & Management",
+   "item": "Accounting (Rotman Commerce)",
+   "alias": "/program/accounting",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "BCom",
+   "el": "1"
+  },
+  {
+   "study": "Business, Commerce & Management",
+   "item": "Accounting + Master of Accounting & Finance",
+   "alias": "/program/accounting",
+   "campus": "UTSC",
+   "type": "Specialist",
+   "degree": "BBA + MAccFin",
+   "el": "1"
+  },
+  {
+   "study": "Business, Commerce & Management",
+   "item": "Business, Science and Entrepreneurship",
+   "alias": "/program/business-science-and-entrepreneurship",
+   "campus": "UTM",
+   "type": "Minor",
+   "degree": "BBA",
+   "el": "0"
+  },
+  {
+   "study": "Business, Commerce & Management",
+   "item": "Commerce (BCom)",
+   "alias": "/program/commerce",
+   "campus": "UTM",
+   "type": "Specialist",
+   "degree": "BCom",
+   "el": "1"
+  },
+  {
+   "study": "Business, Commerce & Management",
+   "item": "Commerce (HBA)",
+   "alias": "/program/commerce",
+   "campus": "UTM",
+   "type": "Major",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Business, Commerce & Management",
+   "item": "Digital Enterprise Management",
+   "alias": "/program/digital-enterprise-management",
+   "campus": "UTM",
+   "type": "Specialist",
+   "degree": "HBA",
+   "el": "1"
+  },
+  {
+   "study": "Business, Commerce & Management",
+   "item": "Economics",
+   "alias": "/program/economics",
+   "campus": "UTM, UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBA",
+   "el": "1"
+  },
+  {
+   "study": "Business, Commerce & Management",
+   "item": "Economics (BCom)",
+   "alias": "/program/economics",
+   "campus": "UTM",
+   "type": "Specialist",
+   "degree": "BCom",
+   "el": "1"
+  },
+  {
+   "study": "Business, Commerce & Management",
+   "item": "Economics and Mathematics",
+   "alias": "/program/economics-and-mathematics",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Business, Commerce & Management",
+   "item": "Economics for Management Studies (BBA)",
+   "alias": "/program/economics-management-studies-bba",
+   "campus": "UTSC",
+   "type": "Specialist",
+   "degree": "BBA",
+   "el": "1"
+  },
+  {
+   "study": "Business, Commerce & Management",
+   "item": "Economics for Management Studies (HBA)",
+   "alias": "/program/economics-management-studies-ba",
+   "campus": "UTSC",
+   "type": "Major, Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Business, Commerce & Management",
+   "item": "Finance",
+   "alias": "/program/finance",
+   "campus": "UTM, UTSC",
+   "type": "Specialist",
+   "degree": "BBA, BCom",
+   "el": "1"
+  },
+  {
+   "study": "Business, Commerce & Management",
+   "item": "Finance and Economics (Rotman Commerce)",
+   "alias": "/program/finance-and-economics",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "BCom",
+   "el": "1"
+  },
+  {
+   "study": "Business, Commerce & Management",
+   "item": "Finance and Statistics: Quantitative Finance",
+   "alias": "/program/management-finance-and-statistics",
+   "campus": "UTSC",
+   "type": "Specialist",
+   "degree": "BBA + HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Business, Commerce & Management",
+   "item": "Financial Economics",
+   "alias": "/program/financial-economics",
+   "campus": "UTM, UTSG",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Business, Commerce & Management",
+   "item": "Human Resources",
+   "alias": "/program/human-resources",
+   "campus": "UTSC",
+   "type": "Specialist",
+   "degree": "BBA",
+   "el": "1"
+  },
+  {
+   "study": "Business, Commerce & Management",
+   "item": "Information Technology",
+   "alias": "/program/information-technology",
+   "campus": "UTSC",
+   "type": "Specialist",
+   "degree": "BBA",
+   "el": "1"
+  },
+  {
+   "study": "Business, Commerce & Management",
+   "item": "International Business",
+   "alias": "/program/international-business",
+   "campus": "UTSC",
+   "type": "Specialist",
+   "degree": "BBA",
+   "el": "1"
+  },
+  {
+   "study": "Business, Commerce & Management",
+   "item": "Management",
+   "alias": "/program/management",
+   "campus": "UTM, UTSC",
+   "type": "Specialist",
+   "degree": "BBA",
+   "el": "1"
+  },
+  {
+   "study": "Business, Commerce & Management",
+   "item": "Management (HBA)",
+   "alias": "/program/management-hba",
+   "campus": "UTM",
+   "type": "Major",
+   "degree": "HBA",
+   "el": "1"
+  },
+  {
+   "study": "Business, Commerce & Management",
+   "item": "Management (Rotman Commerce)",
+   "alias": "/program/management-bcom",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "BCom",
+   "el": "1"
+  },
+  {
+   "study": "Business, Commerce & Management",
+   "item": "Marketing",
+   "alias": "/program/marketing",
+   "campus": "UTM, UTSC",
+   "type": "Specialist",
+   "degree": "BBA, BCom",
+   "el": "1"
+  },
+  {
+   "study": "Business, Commerce & Management",
+   "item": "Strategic Management",
+   "alias": "/program/strategic-management",
+   "campus": "UTSC",
+   "type": "Specialist",
+   "degree": "BBA",
+   "el": "1"
+  },
+  {
+   "study": "Data, Information & Computer Science",
+   "item": "Applied Data Science",
+   "alias": "/program/applied-data-science",
+   "campus": "UTSG",
+   "type": "Minor",
+   "degree": "HBSc",
+   "el": "0"
+  },
+  {
+   "study": "Data, Information & Computer Science",
+   "item": "Computer Science",
+   "alias": "/program/computer-science",
+   "campus": "UTM, UTSC, UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "BCS, HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Data, Information & Computer Science",
+   "item": "Data Science",
+   "alias": "/program/data-science",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Data, Information & Computer Science",
+   "item": "Information",
+   "alias": "/program/information",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "BI",
+   "el": "1"
+  },
+  {
+   "study": "Data, Information & Computer Science",
+   "item": "Information Security",
+   "alias": "/program/information-security",
+   "campus": "UTM",
+   "type": "Specialist",
+   "degree": "BCS",
+   "el": "1"
+  },
+  {
+   "study": "Data, Information & Computer Science",
+   "item": "Technology, Coding and Society",
+   "alias": "/program/technology-coding-and-society",
+   "campus": "UTM",
+   "type": "Major",
+   "degree": "HBA",
+   "el": "1"
+  },
+  {
+   "study": "Design & Visual Studies",
+   "item": "Architectural Studies",
+   "alias": "/program/architectural-studies",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Design & Visual Studies",
+   "item": "Art & Art History",
+   "alias": "/program/art-and-art-history",
+   "campus": "UTM",
+   "type": "Major, Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Design & Visual Studies",
+   "item": "Art History",
+   "alias": "/program/art-history",
+   "campus": "UTM, UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Design & Visual Studies",
+   "item": "Art History & Visual Culture",
+   "alias": "/program/art-history-visual-culture",
+   "campus": "UTSC",
+   "type": "Major, Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Design & Visual Studies",
+   "item": "Arts and Media Management",
+   "alias": "/program/arts-and-media-management",
+   "campus": "UTSC",
+   "type": "Major",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Design & Visual Studies",
+   "item": "Arts Management",
+   "alias": "/program/arts-management",
+   "campus": "UTSC",
+   "type": "Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Design & Visual Studies",
+   "item": "Communication, Culture, Information, and Technology",
+   "alias": "/program/communication-culture-information-and-technology",
+   "campus": "UTM",
+   "type": "Major",
+   "degree": "HBA",
+   "el": "1"
+  },
+  {
+   "study": "Design & Visual Studies",
+   "item": "Studio Art",
+   "alias": "/program/studio-art",
+   "campus": "UTSC",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Design & Visual Studies",
+   "item": "Visual Culture",
+   "alias": "/program/visual-culture",
+   "campus": "UTM",
+   "type": "Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Design & Visual Studies",
+   "item": "Visual Culture & Communication",
+   "alias": "/program/visual-culture-and-communication",
+   "campus": "UTM",
+   "type": "Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Design & Visual Studies",
+   "item": "Visual Studies",
+   "alias": "/program/visual-studies",
+   "campus": "UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Engineering & Applied Sciences",
+   "item": "Chemical Engineering",
+   "alias": "/program/chemical-engineering",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "BASc",
+   "el": "1"
+  },
+  {
+   "study": "Engineering & Applied Sciences",
+   "item": "Civil Engineering",
+   "alias": "/program/civil-engineering",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "BASc",
+   "el": "1"
+  },
+  {
+   "study": "Engineering & Applied Sciences",
+   "item": "Computer Engineering",
+   "alias": "/program/computer-engineering",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "BASc",
+   "el": "1"
+  },
+  {
+   "study": "Engineering & Applied Sciences",
+   "item": "Electrical Engineering",
+   "alias": "/program/electical-engineering",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "BASc",
+   "el": "1"
+  },
+  {
+   "study": "Engineering & Applied Sciences",
+   "item": "Engineering Science",
+   "alias": "/program/engineering-science",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "BASc in Engineering Science",
+   "el": "1"
+  },
+  {
+   "study": "Engineering & Applied Sciences",
+   "item": "Industrial Engineering",
+   "alias": "/program/industrial-engineering",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "BASc",
+   "el": "1"
+  },
+  {
+   "study": "Engineering & Applied Sciences",
+   "item": "Materials Engineering",
+   "alias": "/program/materials-engineering",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "BASc",
+   "el": "1"
+  },
+  {
+   "study": "Engineering & Applied Sciences",
+   "item": "Mechanical Engineering",
+   "alias": "/program/mechanical-engineering",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "BASc",
+   "el": "1"
+  },
+  {
+   "study": "Engineering & Applied Sciences",
+   "item": "Mineral Engineering",
+   "alias": "/program/mineral-engineering",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "BASc",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Animal Physiology",
+   "alias": "/program/animal-physiology",
+   "campus": "UTSG",
+   "type": "Major",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Anthropology (HBSc)",
+   "alias": "/program/anthropology-hbsc",
+   "campus": "UTM",
+   "type": "Major, Specialist",
+   "degree": "HBSc",
+   "el": "0"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Anthropology: Evolutionary",
+   "alias": "/program/anthropology-evolutionary",
+   "campus": "UTSC, UTSG",
+   "type": "Major, Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Anthropology: Evolutionary (Health Sciences Stream)",
+   "alias": "/program/anthropology-evolutionary",
+   "campus": "UTSC",
+   "type": "Major, Specialist",
+   "degree": "HBSc + HSC",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Applied Genetics and Biotechnology",
+   "alias": "/program/applied-genetics-and-biotechnology",
+   "campus": "UTSG",
+   "type": "Major, Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Biochemistry",
+   "alias": "/program/biochemistry",
+   "campus": "UTSC, UTSG",
+   "type": "Major, Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Biochemistry (Health Sciences Stream)",
+   "alias": "/program/biochemistry",
+   "campus": "UTSC",
+   "type": "Major",
+   "degree": "HBSc + HSC",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Biodiversity and Conservation Biology",
+   "alias": "/program/biodiversity-and-conservation-biology",
+   "campus": "UTSG",
+   "type": "Major",
+   "degree": "HBSc",
+   "el": "0"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Bioinformatics and Computational Biology",
+   "alias": "/program/bioinformatics-and-computational-biology",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "BCS",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Biological Chemistry",
+   "alias": "/program/biological-chemistry",
+   "campus": "UTM, UTSG",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Biological Physics",
+   "alias": "/program/biological-physics",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Biology",
+   "alias": "/program/biology",
+   "campus": "UTM, UTSC, UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Biology (Health Sciences Stream)",
+   "alias": "/program/biology",
+   "campus": "UTSC",
+   "type": "Major, Minor",
+   "degree": "HBSc",
+   "el": "0"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Biology for Health Sciences",
+   "alias": "/program/biology-health-sciences",
+   "campus": "UTM",
+   "type": "Major",
+   "degree": "HBSc",
+   "el": "0"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Biomedical Communications",
+   "alias": "/program/biomedical-communications",
+   "campus": "UTM",
+   "type": "Minor",
+   "degree": "HBSc",
+   "el": "0"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Biomedical Toxicology",
+   "alias": "/program/biomedical-toxicology",
+   "campus": "UTSG",
+   "type": "Major, Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Biotechnology",
+   "alias": "/program/biotechnology",
+   "campus": "UTM",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Cell and Molecular Biology",
+   "alias": "/program/cell-and-molecular-biology",
+   "campus": "UTSG",
+   "type": "Major, Specialist",
+   "degree": "HBA",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Comparative Physiology",
+   "alias": "/program/comparative-physiology",
+   "campus": "UTM",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "0"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Conservation and Biodiversity",
+   "alias": "/program/biodiversity-and-conservation-biology",
+   "campus": "UTSC",
+   "type": "Major, Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Conservation and Biodiversity (Health Sciences Stream)",
+   "alias": "/program/biodiversity-and-conservation-biology",
+   "campus": "UTSC",
+   "type": "Major, Specialist",
+   "degree": "HBSc + HSC",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Forensic Anthropology",
+   "alias": "/program/forensic-anthropology",
+   "campus": "UTM",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Forensic Biology",
+   "alias": "/program/forensic-biology",
+   "campus": "UTM",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Forensic Chemistry",
+   "alias": "/program/forensic-chemistry",
+   "campus": "UTM",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Forensic Psychology",
+   "alias": "/program/forensic-psychology",
+   "campus": "UTM",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Forensic Science",
+   "alias": "/program/forensic-science",
+   "campus": "UTM",
+   "type": "Major, Minor",
+   "degree": "HBSc",
+   "el": "0"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Genome Biology",
+   "alias": "/program/genome-biology",
+   "campus": "UTSG",
+   "type": "Major",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Global Health",
+   "alias": "/program/global-health",
+   "campus": "UTSG",
+   "type": "Major, Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Health and Disease",
+   "alias": "/program/health-and-disease",
+   "campus": "UTSG",
+   "type": "Major, Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Health Humanities",
+   "alias": "/program/health-humanities",
+   "campus": "UTSC",
+   "type": "Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Health Policy",
+   "alias": "/program/health-policy",
+   "campus": "UTSC",
+   "type": "Major",
+   "degree": "HBA",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Health, Environments, and Society ",
+   "alias": "/program/health-environments-and-society",
+   "campus": "UTM",
+   "type": "Minor",
+   "degree": "HBSc",
+   "el": "0"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Human Biology",
+   "alias": "/program/human-biology",
+   "campus": "UTSC, UTSG",
+   "type": "Major, Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Human Biology (Health Sciences Stream)",
+   "alias": "/program/human-biology",
+   "campus": "UTSC",
+   "type": "Major, Specialist",
+   "degree": "HBSc + HSC",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Immunology",
+   "alias": "/program/immunology",
+   "campus": "UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBSc",
+   "el": "0"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Integrative Biology",
+   "alias": "/program/integrative-biology",
+   "campus": "UTSC",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Integrative Biology (Health Sciences Stream)",
+   "alias": "/program/integrative-biology",
+   "campus": "UTSC",
+   "type": "Specialist",
+   "degree": "HBSc + HSC",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Kinesiology and Physical Education",
+   "alias": "/program/kinesiology",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "BKin",
+   "el": "0"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Medicinal & Biological Chemistry",
+   "alias": "/program/medicinal-biological-chemistry",
+   "campus": "UTSC",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Medicinal & Biological Chemistry (Health Sciences Stream)",
+   "alias": "/program/medicinal-biological-chemistry",
+   "campus": "UTSC",
+   "type": "Specialist",
+   "degree": "HBSc + HSC",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Mental Health Studies",
+   "alias": "/program/mental-health-studies",
+   "campus": "UTSC",
+   "type": "Major, Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Mental Health Studies (Health Sciences Stream)",
+   "alias": "/program/mental-health-studies",
+   "campus": "UTSC",
+   "type": "Major, Specialist",
+   "degree": "HBSc + HSC",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Molecular Biology",
+   "alias": "/program/molecular-biology",
+   "campus": "UTM",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Molecular Biology and Biotechnology",
+   "alias": "/program/molecular-biology-and-biotechnology",
+   "campus": "UTSC",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "0"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Molecular Biology and Biotechnology (Health Sciences Stream)",
+   "alias": "/program/molecular-biology-and-biotechnology",
+   "campus": "UTSC",
+   "type": "Specialist",
+   "degree": "HBSc + HSC",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Molecular Biology, Immunology & Disease",
+   "alias": "/program/molecular-biology-immunology-disease",
+   "campus": "UTSC",
+   "type": "Major",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Molecular Biology, Immunology & Disease (Health Sciences Stream)",
+   "alias": "/program/molecular-biology-immunology-disease",
+   "campus": "UTSC",
+   "type": "Major",
+   "degree": "HBSc + HSC",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Molecular Genetics and Microbiology",
+   "alias": "/program/molecular-genetics-and-microbiology",
+   "campus": "UTSG",
+   "type": "Major, Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Neuroscience",
+   "alias": "/program/neuroscience",
+   "campus": "UTM, UTSC, UTSG",
+   "type": "Major, Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Neuroscience (Health Sciences Stream)",
+   "alias": "/program/neuroscience",
+   "campus": "UTSC",
+   "type": "Major, Specialist",
+   "degree": "HBSc + HSC",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Nutritional Sciences",
+   "alias": "/program/nutritional-sciences",
+   "campus": "UTSG",
+   "type": "Major",
+   "degree": "HBSc",
+   "el": "0"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Paleontology",
+   "alias": "/program/paleontology",
+   "campus": "UTM",
+   "type": "Major",
+   "degree": "HBSc",
+   "el": "0"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Paramedicine",
+   "alias": "/program/paramedicine",
+   "campus": "UTSC",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "0"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Pathobiology",
+   "alias": "/program/pathobiology",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Pharmaceutical Chemistry",
+   "alias": "/program/pharmaceutical-chemistry",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Pharmacology",
+   "alias": "/program/pharmacology",
+   "campus": "UTSG",
+   "type": "Major, Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Pharmacology and Biomedical Toxicology",
+   "alias": "/program/pharmacology-and-biomedical-toxicology",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Physiology",
+   "alias": "/program/physiology",
+   "campus": "UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBSc",
+   "el": "0"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Plant Biology",
+   "alias": "/program/plant-biology",
+   "campus": "UTSC",
+   "type": "Major",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Plant Biology (Health Sciences Stream)",
+   "alias": "/program/plant-biology",
+   "campus": "UTSC",
+   "type": "Major",
+   "degree": "HBSc + HSC",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Population Health",
+   "alias": "/program/population-health",
+   "campus": "UTSC",
+   "type": "Major",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Population Health (Health Sciences Stream)",
+   "alias": "/program/population-health",
+   "campus": "UTSC",
+   "type": "Major",
+   "degree": "HBSc + HSC",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Psycholinguistics",
+   "alias": "/program/psycholinguistics",
+   "campus": "UTSC",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Psycholinguistics (Health Sciences Stream)",
+   "alias": "/program/psycholinguistics",
+   "campus": "UTSC",
+   "type": "Specialist",
+   "degree": "HBSc + HSC",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Psychology",
+   "alias": "/program/psychology",
+   "campus": "UTM, UTSC, UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Psychology (Health Sciences Stream)",
+   "alias": "/program/psychology",
+   "campus": "UTSC",
+   "type": "Major, Specialist",
+   "degree": "HBSc + HSC",
+   "el": "1"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Psychology Research",
+   "alias": "/program/psychology-research",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "0"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Public Health ",
+   "alias": "/program/public-health",
+   "campus": "UTSG",
+   "type": "Major",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Health & Life Sciences",
+   "item": "Quantitative Biology",
+   "alias": "/program/quantitative-biology",
+   "campus": "UTSG",
+   "type": "Major",
+   "degree": "HBSc",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "African Studies",
+   "alias": "/program/african-studies",
+   "campus": "UTSC, UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBA",
+   "el": "1"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Asian Canadian Studies",
+   "alias": "/program/asian-canadian-studies",
+   "campus": "UTSG",
+   "type": "Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Book and Media Studies",
+   "alias": "/program/book-and-media-studies",
+   "campus": "UTSG",
+   "type": "Major, Minor",
+   "degree": "HBA",
+   "el": "1"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Buddhist Studies",
+   "alias": "/program/buddhist-studies",
+   "campus": "UTSG",
+   "type": "Major, Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Business German",
+   "alias": "/program/german",
+   "campus": "UTSG",
+   "type": "Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Canadian Studies",
+   "alias": "/program/canadian-studies",
+   "campus": "UTM, UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Caribbean Studies",
+   "alias": "/program/caribbean-studies",
+   "campus": "UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Celtic Studies",
+   "alias": "/program/celtic-studies",
+   "campus": "UTSG",
+   "type": "Major, Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Chinese Language and Culture",
+   "alias": "/program/chinese-language-and-culture",
+   "campus": "UTM",
+   "type": "Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Christianity and Culture",
+   "alias": "/program/christianity-and-culture",
+   "campus": "UTSG",
+   "type": "Major, Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Christianity and Education",
+   "alias": "/program/christianity-and-education",
+   "campus": "UTSG",
+   "type": "Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Classical Civilization",
+   "alias": "/program/classical-civilization",
+   "campus": "UTM, UTSG",
+   "type": "Major, Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Classical Studies",
+   "alias": "/program/classical-studies",
+   "campus": "UTSC",
+   "type": "Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Classics (Greek and Latin)",
+   "alias": "/program/classics-greek-and-latin",
+   "campus": "UTSG",
+   "type": "Major",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Cognitive Science (HBA)",
+   "alias": "/program/cognitive-science-hba",
+   "campus": "UTSG",
+   "type": "Major",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Contemporary Asian Studies",
+   "alias": "/program/contemporary-asian-studies-program-dr-david-chu",
+   "campus": "UTSG",
+   "type": "Major, Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Creative Writing",
+   "alias": "/program/creative-writing",
+   "campus": "UTM, UTSC, UTSG",
+   "type": "Major, Minor",
+   "degree": "HBA",
+   "el": "1"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Creativity & Society",
+   "alias": "/program/creativity-and-society",
+   "campus": "UTSG",
+   "type": "Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Diaspora and Transnational Studies",
+   "alias": "/program/diaspora-and-transnational-studies",
+   "campus": "UTM, UTSG",
+   "type": "Major, Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Digital Humanities",
+   "alias": "/program/digital-humanities",
+   "campus": "UTSG",
+   "type": "Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Dramaturgy and Drama Studies",
+   "alias": "/program/dramaturgy-and-drama-studies",
+   "campus": "UTM",
+   "type": "Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "East Asian Studies",
+   "alias": "/program/east-asian-studies",
+   "campus": "UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "English",
+   "alias": "/program/english",
+   "campus": "UTM, UTSC, UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBA",
+   "el": "1"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "English Language Linguistics",
+   "alias": "/program/english-language-linguistics",
+   "campus": "UTM",
+   "type": "Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "English/Chinese Translation",
+   "alias": "/program/englishchinese-translation",
+   "campus": "UTSC",
+   "type": "Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Film Studies",
+   "alias": "/program/film-studies",
+   "campus": "UTSC",
+   "type": "Major, Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "French",
+   "alias": "/program/french",
+   "campus": "UTSC",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBA",
+   "el": "1"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "French Language",
+   "alias": "/program/french",
+   "campus": "UTSG",
+   "type": "Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "French Language and French Linguistics",
+   "alias": "/program/french",
+   "campus": "UTSG",
+   "type": "Major, Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "French Language and Literature",
+   "alias": "/program/french",
+   "campus": "UTSG",
+   "type": "Major, Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "French Language Learning",
+   "alias": "/program/french",
+   "campus": "UTSG",
+   "type": "Major",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "French Studies",
+   "alias": "/program/french",
+   "campus": "UTM, UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Functional French",
+   "alias": "/program/functional-french",
+   "campus": "UTM",
+   "type": "Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Game Studies",
+   "alias": "/program/game-studies",
+   "campus": "UTM",
+   "type": "Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "German Studies",
+   "alias": "/program/german",
+   "campus": "UTSG",
+   "type": "Major, Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "German Studies in English",
+   "alias": "/program/german",
+   "campus": "UTSG",
+   "type": "Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Global Asia Studies",
+   "alias": "/program/global-asia-studies",
+   "campus": "UTSC",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Global Leadership",
+   "alias": "/program/global-leadership",
+   "campus": "UTM, UTSC",
+   "type": "Minor",
+   "degree": "BBA, HBA",
+   "el": "1"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Greek",
+   "alias": "/program/greek",
+   "campus": "UTSG",
+   "type": "Major, Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "History",
+   "alias": "/program/history",
+   "campus": "UTM, UTSC, UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBA",
+   "el": "1"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "History and Philosophy of Science and Technology",
+   "alias": "/program/history-and-philosophy-science-and-technology",
+   "campus": "UTSG",
+   "type": "Major, Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Indigenous Studies",
+   "alias": "/program/indigenous-studies",
+   "campus": "UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Islamic Studies",
+   "alias": "/program/islamic-studies",
+   "campus": "UTSG",
+   "type": "Major",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Italian",
+   "alias": "/program/italian",
+   "campus": "UTM, UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Italian Culture and Communication Studies",
+   "alias": "/program/italian",
+   "campus": "UTSG",
+   "type": "Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Italian Language & Culture",
+   "alias": "/program/italian",
+   "campus": "UTM",
+   "type": "Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Jewish Studies",
+   "alias": "/program/jewish-studies",
+   "campus": "UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Journalism",
+   "alias": "/program/journalism",
+   "campus": "UTSC",
+   "type": "Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Language Teaching and Learning: French",
+   "alias": "/program/language-teaching-and-learning-french",
+   "campus": "UTM",
+   "type": "Major",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Language Teaching and Learning: French & Italian",
+   "alias": "/program/language-teaching-and-learning-french-italian",
+   "campus": "UTM",
+   "type": "Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Language Teaching and Learning: Italian",
+   "alias": "/program/language-teaching-and-learning-italian",
+   "campus": "UTM",
+   "type": "Major",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Latin",
+   "alias": "/program/latin",
+   "campus": "UTSG",
+   "type": "Major, Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Latin American & Caribbean Studies",
+   "alias": "/program/latin-american-and-caribbean-studies",
+   "campus": "UTM",
+   "type": "Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Latin American Studies",
+   "alias": "/program/latin-american-studies",
+   "campus": "UTSG",
+   "type": "Major, Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Linguistics",
+   "alias": "/program/linguistics",
+   "campus": "UTM, UTSC, UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBA",
+   "el": "1"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Literature and Critical Theory",
+   "alias": "/program/literature-and-critical-theory",
+   "campus": "UTSG",
+   "type": "Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Literature and Critical Theory: Comparative Literature Stream",
+   "alias": "/program/literature-and-critical-theory",
+   "campus": "UTSG",
+   "type": "Major, Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Literature and Critical Theory: Cultural Theory Stream",
+   "alias": "/program/literature-and-critical-theory",
+   "campus": "UTSG",
+   "type": "Major, Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Logic",
+   "alias": "/program/logic",
+   "campus": "UTM",
+   "type": "Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Media and Communication Studies",
+   "alias": "/program/media-and-communication-studies",
+   "campus": "UTSC",
+   "type": "Major",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Media Studies",
+   "alias": "/program/media-studies",
+   "campus": "UTSC",
+   "type": "Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Medieval Studies",
+   "alias": "/program/medieval-studies",
+   "campus": "UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Near and Middle Eastern Civilizations",
+   "alias": "/program/near-and-middle-eastern-civilizations",
+   "campus": "UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Philosophy",
+   "alias": "/program/philosophy",
+   "campus": "UTM, UTSC, UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBA",
+   "el": "1"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Philosophy of Science",
+   "alias": "/program/philosophy-science",
+   "campus": "UTM",
+   "type": "Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Portuguese",
+   "alias": "/program/portuguese",
+   "campus": "UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Professional Writing and Communication",
+   "alias": "/program/professional-writing-and-communication",
+   "campus": "UTM",
+   "type": "Major, Minor",
+   "degree": "HBA",
+   "el": "1"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Religion",
+   "alias": "/program/religion",
+   "campus": "UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBA",
+   "el": "1"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Renaissance Studies",
+   "alias": "/program/renaissance-studies",
+   "campus": "UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Slavic and East European Languages and Cultures",
+   "alias": "/program/slavic-and-east-european-languages-and-cultures",
+   "campus": "UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Slavic and East European Literature in Translation",
+   "alias": "/program/slavic-and-east-european-languages-and-cultures",
+   "campus": "UTSG",
+   "type": "Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "South Asian Humanities",
+   "alias": "/program/south-asian-studies",
+   "campus": "UTM",
+   "type": "Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "South Asian Studies",
+   "alias": "/program/south-asian-studies",
+   "campus": "UTSG",
+   "type": "Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Spanish",
+   "alias": "/program/spanish",
+   "campus": "UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Women and Gender Studies",
+   "alias": "/program/women-and-gender-studies",
+   "campus": "UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Women, Gender and Sexuality Studies",
+   "alias": "/program/women-and-gender-studies",
+   "campus": "UTM",
+   "type": "Major, Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Women’s and Gender Studies",
+   "alias": "/program/women-and-gender-studies",
+   "campus": "UTSC",
+   "type": "Major, Minor",
+   "degree": "HBA",
+   "el": "1"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Writing and Rhetoric",
+   "alias": "/program/writing-and-rhetoric",
+   "campus": "UTSG",
+   "type": "Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Literature, Language, & Culture",
+   "item": "Yiddish, Al and Malka Green Program",
+   "alias": "/program/yiddish-studies",
+   "campus": "UTSG",
+   "type": "Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Mathematics & Physical Sciences",
+   "item": "Actuarial Science",
+   "alias": "/program/actuarial-science",
+   "campus": "UTSG",
+   "type": "Major, Specialist",
+   "degree": "HBSc",
+   "el": "0"
+  },
+  {
+   "study": "Mathematics & Physical Sciences",
+   "item": "Applied Mathematics",
+   "alias": "/program/applied-mathematics",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Mathematics & Physical Sciences",
+   "item": "Applied Statistics",
+   "alias": "/program/applied-statistics",
+   "campus": "UTM, UTSC",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Mathematics & Physical Sciences",
+   "item": "Astronomical Sciences",
+   "alias": "/program/astronomical-sciences",
+   "campus": "UTM",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Mathematics & Physical Sciences",
+   "item": "Astronomy",
+   "alias": "/program/astronomy",
+   "campus": "UTM",
+   "type": "Major",
+   "degree": "HBSc",
+   "el": "0"
+  },
+  {
+   "study": "Mathematics & Physical Sciences",
+   "item": "Astronomy and Astrophysics",
+   "alias": "/program/astronomy-and-astrophysics",
+   "campus": "UTSC, UTSG",
+   "type": "Major, Minor",
+   "degree": "HBSc",
+   "el": "0"
+  },
+  {
+   "study": "Mathematics & Physical Sciences",
+   "item": "Astronomy and Physics",
+   "alias": "/program/astronomy-and-physics",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "0"
+  },
+  {
+   "study": "Mathematics & Physical Sciences",
+   "item": "Biophysics",
+   "alias": "/program/biophysics",
+   "campus": "UTM",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Mathematics & Physical Sciences",
+   "item": "Chemical Physics",
+   "alias": "/program/chemical-physics",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Mathematics & Physical Sciences",
+   "item": "Chemistry",
+   "alias": "/program/chemistry",
+   "campus": "UTM, UTSC, UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Mathematics & Physical Sciences",
+   "item": "Chemistry (Health Sciences Stream)",
+   "alias": "/program/chemistry",
+   "campus": "UTSC",
+   "type": "Major, Specialist",
+   "degree": "HBSc + HSC",
+   "el": "1"
+  },
+  {
+   "study": "Mathematics & Physical Sciences",
+   "item": "Cognitive Science (HBSc)",
+   "alias": "/program/cognitive-science-hbsc",
+   "campus": "UTSG",
+   "type": "Major",
+   "degree": "HBSc",
+   "el": "0"
+  },
+  {
+   "study": "Mathematics & Physical Sciences",
+   "item": "Materials Science",
+   "alias": "/program/materials-science",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Mathematics & Physical Sciences",
+   "item": "Mathematical Applications in Economics and Finance",
+   "alias": "/program/mathematical-applications-economics-and-finance",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Mathematics & Physical Sciences",
+   "item": "Mathematical Sciences",
+   "alias": "/program/mathematical-sciences",
+   "campus": "UTM",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBSc",
+   "el": "0"
+  },
+  {
+   "study": "Mathematics & Physical Sciences",
+   "item": "Mathematics",
+   "alias": "/program/mathematics",
+   "campus": "UTSC, UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Mathematics & Physical Sciences",
+   "item": "Mathematics and Its Applications: Physical Science",
+   "alias": "/program/mathematics-and-its-applications-physical-science",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Mathematics & Physical Sciences",
+   "item": "Mathematics and Its Applications: Probability/Statistics",
+   "alias": "/program/mathematics-and-its-applications-probabilitystatistics",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Mathematics & Physical Sciences",
+   "item": "Mathematics and Its Applications: Teaching",
+   "alias": "/program/mathematics-and-its-applications-teaching",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Mathematics & Physical Sciences",
+   "item": "Mathematics and Philosophy",
+   "alias": "/program/mathematics-and-philosophy",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Mathematics & Physical Sciences",
+   "item": "Mathematics and Physics",
+   "alias": "/program/mathematics-and-physics",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Mathematics & Physical Sciences",
+   "item": "Physical and Mathematical Sciences",
+   "alias": "/program/physical-and-mathematical-sciences",
+   "campus": "UTSC",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "0"
+  },
+  {
+   "study": "Mathematics & Physical Sciences",
+   "item": "Physical Sciences",
+   "alias": "/program/physical-sciences",
+   "campus": "UTSC",
+   "type": "Major",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Mathematics & Physical Sciences",
+   "item": "Physics",
+   "alias": "/program/physics",
+   "campus": "UTM, UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Mathematics & Physical Sciences",
+   "item": "Physics and Astrophysics",
+   "alias": "/program/physics-and-astrophysics",
+   "campus": "UTSC",
+   "type": "Major, Specialist",
+   "degree": "HBSc",
+   "el": "0"
+  },
+  {
+   "study": "Mathematics & Physical Sciences",
+   "item": "Physics and Philosophy",
+   "alias": "/program/physics-and-philosophy",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "0"
+  },
+  {
+   "study": "Mathematics & Physical Sciences",
+   "item": "Planetary Science",
+   "alias": "/program/planetary-science",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "0"
+  },
+  {
+   "study": "Mathematics & Physical Sciences",
+   "item": "Statistical Science: Methods and Practice",
+   "alias": "/program/statistical-science",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Mathematics & Physical Sciences",
+   "item": "Statistical Science: Theory and Methods",
+   "alias": "/program/statistical-science",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Mathematics & Physical Sciences",
+   "item": "Statistics",
+   "alias": "/program/statistics",
+   "campus": "UTSC, UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Mathematics & Physical Sciences",
+   "item": "Synthetic and Catalytic Chemistry",
+   "alias": "/program/synthetic-and-catalytic-chemistry",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Music & the Performing Arts",
+   "item": "Drama",
+   "alias": "/program/drama",
+   "campus": "UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Music & the Performing Arts",
+   "item": "Music",
+   "alias": "/program/music",
+   "campus": "UTSC, UTSG",
+   "type": "Major, Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Music & the Performing Arts",
+   "item": "Music Education (Classical)",
+   "alias": "/program/music-classical",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "MusBac",
+   "el": "0"
+  },
+  {
+   "study": "Music & the Performing Arts",
+   "item": "Music Education (Jazz)",
+   "alias": "/program/music-jazz",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "MusBac",
+   "el": "0"
+  },
+  {
+   "study": "Music & the Performing Arts",
+   "item": "Music Industry & Technology",
+   "alias": "/program/music-industry-and-technology",
+   "campus": "UTSC",
+   "type": "Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Music & the Performing Arts",
+   "item": "Music Performance (Classical)",
+   "alias": "/program/music-classical",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "MusBacPerf",
+   "el": "0"
+  },
+  {
+   "study": "Music & the Performing Arts",
+   "item": "Music Performance (Jazz)",
+   "alias": "/program/music-jazz",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "MusBacPerf",
+   "el": "0"
+  },
+  {
+   "study": "Music & the Performing Arts",
+   "item": "Music Technology & Digital Media (Classical)",
+   "alias": "/program/music-technology-digital-media-classical",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "MusBac",
+   "el": "0"
+  },
+  {
+   "study": "Music & the Performing Arts",
+   "item": "Music Technology & Digital Media (Jazz)",
+   "alias": "/program/music-technology-digital-media-jazz",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "MusBac",
+   "el": "0"
+  },
+  {
+   "study": "Music & the Performing Arts",
+   "item": "Music with Ensemble Option",
+   "alias": "/program/music",
+   "campus": "UTSG",
+   "type": "Major",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Music & the Performing Arts",
+   "item": "Music: Composition (Classical)",
+   "alias": "/program/music-classical",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "MusBac",
+   "el": "0"
+  },
+  {
+   "study": "Music & the Performing Arts",
+   "item": "Music: History, Culture & Theory (Classical)",
+   "alias": "/program/music-classical",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "MusBac",
+   "el": "0"
+  },
+  {
+   "study": "Music & the Performing Arts",
+   "item": "Music: Interdisciplinary Music Studies (Classical)",
+   "alias": "/program/music-classical",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "MusBac",
+   "el": "0"
+  },
+  {
+   "study": "Music & the Performing Arts",
+   "item": "Music: Interdisciplinary Music Studies (Jazz)",
+   "alias": "/program/music-jazz",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "MusBac",
+   "el": "0"
+  },
+  {
+   "study": "Music & the Performing Arts",
+   "item": "Theatre and Drama Studies",
+   "alias": "/program/theatre-and-drama-studies",
+   "campus": "UTM",
+   "type": "Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Music & the Performing Arts",
+   "item": "Theatre and Performance",
+   "alias": "/program/theatre-and-performance",
+   "campus": "UTSC",
+   "type": "Major, Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Social Sciences",
+   "item": "Aging and Society ",
+   "alias": "/program/aging-and-society",
+   "campus": "UTSC",
+   "type": "Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Social Sciences",
+   "item": "American Studies",
+   "alias": "/program/american-studies",
+   "campus": "UTSG",
+   "type": "Major, Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Social Sciences",
+   "item": "Anthropology (HBA)",
+   "alias": "/program/anthropology-hba",
+   "campus": "UTM, UTSC",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Social Sciences",
+   "item": "Anthropology: General",
+   "alias": "/program/anthropology-hba",
+   "campus": "UTSG",
+   "type": "Major, Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Social Sciences",
+   "item": "Anthropology: Society, Culture, and Language",
+   "alias": "/program/anthropology-hba",
+   "campus": "UTSG",
+   "type": "Major, Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Social Sciences",
+   "item": "Anthropology: Socio-Cultural",
+   "alias": "/program/anthropology-socio-cultural",
+   "campus": "UTSC",
+   "type": "Major, Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Social Sciences",
+   "item": "Archaeology",
+   "alias": "/program/archaeology",
+   "campus": "UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Social Sciences",
+   "item": "Bioethics",
+   "alias": "/program/bioethics",
+   "campus": "UTSC, UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBA, HBSc",
+   "el": "0"
+  },
+  {
+   "study": "Social Sciences",
+   "item": "Cinema Studies",
+   "alias": "/program/cinema-studies",
+   "campus": "UTM, UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Social Sciences",
+   "item": "City Studies",
+   "alias": "/program/city-studies",
+   "campus": "UTSC",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBA",
+   "el": "1"
+  },
+  {
+   "study": "Social Sciences",
+   "item": "Criminology & Socio-Legal Studies",
+   "alias": "/program/criminology",
+   "campus": "UTSG",
+   "type": "Major, Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Social Sciences",
+   "item": "Criminology, Law & Society",
+   "alias": "/program/criminology",
+   "campus": "UTM",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Social Sciences",
+   "item": "Critical Migration Studies",
+   "alias": "/program/critical-migration-studies",
+   "campus": "UTSC",
+   "type": "Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Social Sciences",
+   "item": "Critical Studies in Equity and Solidarity",
+   "alias": "/program/critical-studies-equity-and-solidarity",
+   "campus": "UTSG",
+   "type": "Major, Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Social Sciences",
+   "item": "Culture, Creativity and Cities",
+   "alias": "/program/culture-creativity-amd-cities",
+   "campus": "UTSC",
+   "type": "Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Social Sciences",
+   "item": "Economics & Political Science",
+   "alias": "/program/economics-and-political-science",
+   "campus": "UTM",
+   "type": "Specialist",
+   "degree": "HBA",
+   "el": "1"
+  },
+  {
+   "study": "Social Sciences",
+   "item": "Education and Society",
+   "alias": "/program/education-and-society",
+   "campus": "UTSG",
+   "type": "Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Social Sciences",
+   "item": "Education Studies",
+   "alias": "/program/education-studies",
+   "campus": "UTM",
+   "type": "Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Social Sciences",
+   "item": "Ethics, Law & Society",
+   "alias": "/program/ethics-society-and-law",
+   "campus": "UTM",
+   "type": "Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Social Sciences",
+   "item": "Ethics, Society and Law",
+   "alias": "/program/ethics-society-and-law",
+   "campus": "UTSG",
+   "type": "Major",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Social Sciences",
+   "item": "European Affairs",
+   "alias": "/program/european-studies",
+   "campus": "UTSG",
+   "type": "Major, Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Social Sciences",
+   "item": "Exceptionality in Human Learning",
+   "alias": "/program/exceptionality-human-learning",
+   "campus": "UTM",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "0"
+  },
+  {
+   "study": "Social Sciences",
+   "item": "Food Studies",
+   "alias": "/program/food-studies",
+   "campus": "UTSC",
+   "type": "Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Social Sciences",
+   "item": "History of Religions",
+   "alias": "/program/history-religions",
+   "campus": "UTM",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Social Sciences",
+   "item": "Industrial Relations and Human Resources",
+   "alias": "/program/industrial-relations-and-human-resources",
+   "campus": "UTSG",
+   "type": "Major, Specialist",
+   "degree": "HBA",
+   "el": "1"
+  },
+  {
+   "study": "Social Sciences",
+   "item": "International Affairs",
+   "alias": "/program/international-affairs",
+   "campus": "UTM",
+   "type": "Specialist",
+   "degree": "HBA",
+   "el": "1"
+  },
+  {
+   "study": "Social Sciences",
+   "item": "International Development Studies (Co-op) (HBA)",
+   "alias": "/program/international-development-studies-hba",
+   "campus": "UTSC",
+   "type": "Specialist",
+   "degree": "HBA",
+   "el": "1"
+  },
+  {
+   "study": "Social Sciences",
+   "item": "International Development Studies (Co-op) (HBSc)",
+   "alias": "/program/international-development-studies-hbsc",
+   "campus": "UTSC",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Social Sciences",
+   "item": "International Development Studies (HBA)",
+   "alias": "/program/international-development-studies-hba",
+   "campus": "UTSC",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Social Sciences",
+   "item": "International Development Studies (HBSc)",
+   "alias": "/program/international-development-studies-hbsc",
+   "campus": "UTSC",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "0"
+  },
+  {
+   "study": "Social Sciences",
+   "item": "International Relations",
+   "alias": "/program/international-relations",
+   "campus": "UTSG",
+   "type": "Major, Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Social Sciences",
+   "item": "Material Culture and Semiotics",
+   "alias": "/program/material-culture-and-semiotics",
+   "campus": "UTSG",
+   "type": "Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Social Sciences",
+   "item": "Peace, Conflict and Justice",
+   "alias": "/program/peace-conflict-and-justice",
+   "campus": "UTSG",
+   "type": "Major, Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Social Sciences",
+   "item": "Political Science",
+   "alias": "/program/political-science",
+   "campus": "UTM, UTSC, UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBA",
+   "el": "1"
+  },
+  {
+   "study": "Social Sciences",
+   "item": "Public Law",
+   "alias": "/program/public-law",
+   "campus": "UTSC",
+   "type": "Major, Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Social Sciences",
+   "item": "Public Policy",
+   "alias": "/program/public-policy",
+   "campus": "UTSC, UTSG",
+   "type": "Major",
+   "degree": "HBA",
+   "el": "1"
+  },
+  {
+   "study": "Social Sciences",
+   "item": "Science, Technology and Society",
+   "alias": "/program/science-technology-and-society",
+   "campus": "UTSG",
+   "type": "Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Social Sciences",
+   "item": "Sexual Diversity Studies",
+   "alias": "/program/sexual-diversity-studies",
+   "campus": "UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Social Sciences",
+   "item": "Social Data Science ",
+   "alias": "/program/social-data-science",
+   "campus": "UTSC",
+   "type": "Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Social Sciences",
+   "item": "Sociology",
+   "alias": "/program/sociology",
+   "campus": "UTM, UTSC, UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBA",
+   "el": "1"
+  },
+  {
+   "study": "Social Sciences",
+   "item": "Urban Public Policy and Governance",
+   "alias": "/program/urban-public-policy-and-governance",
+   "campus": "UTSC",
+   "type": "Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Social Sciences",
+   "item": "Urban Studies",
+   "alias": "/program/urban-studies",
+   "campus": "UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Social Sciences",
+   "item": "Work and Organizations: Humanities Contexts",
+   "alias": "/program/work-and-organizations-humanities-contexts",
+   "campus": "UTSG",
+   "type": "Major",
+   "degree": "HBA",
+   "el": "1"
+  },
+  {
+   "study": "Social Sciences",
+   "item": "Work and Organizations: Sciences Contexts",
+   "alias": "/program/work-and-organizations-sciences-contexts",
+   "campus": "UTSG",
+   "type": "Major",
+   "degree": "HBA",
+   "el": "1"
+  },
+  {
+   "study": "Social Sciences",
+   "item": "Work and Organizations: Social Sciences Contexts",
+   "alias": "/program/work-and-organizations-social-sciences-contexts",
+   "campus": "UTSG",
+   "type": "Major",
+   "degree": "HBA",
+   "el": "1"
+  },
+  {
+   "study": "Sustainability & the Environment",
+   "item": "Applied Climatology",
+   "alias": "/program/applied-climatology",
+   "campus": "UTSC",
+   "type": "Minor",
+   "degree": "HBSc",
+   "el": "0"
+  },
+  {
+   "study": "Sustainability & the Environment",
+   "item": "Climate Change Studies",
+   "alias": "/program/climate-change-studies",
+   "campus": "UTSC, UTSG",
+   "type": "Major, Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Sustainability & the Environment",
+   "item": "Earth and Environmental Systems",
+   "alias": "/program/earth-and-environmental-systems",
+   "campus": "UTSG",
+   "type": "Major",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Sustainability & the Environment",
+   "item": "Earth Science",
+   "alias": "/program/earth-science",
+   "campus": "UTM",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBSc",
+   "el": "0"
+  },
+  {
+   "study": "Sustainability & the Environment",
+   "item": "Ecology & Evolution",
+   "alias": "/program/ecology-evolution",
+   "campus": "UTM",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "0"
+  },
+  {
+   "study": "Sustainability & the Environment",
+   "item": "Ecology and Evolutionary Biology",
+   "alias": "/program/ecology-evolution",
+   "campus": "UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBSc",
+   "el": "0"
+  },
+  {
+   "study": "Sustainability & the Environment",
+   "item": "Environment and Behaviour",
+   "alias": "/program/environment-and-behaviour",
+   "campus": "UTSG",
+   "type": "Minor",
+   "degree": "HBSc",
+   "el": "0"
+  },
+  {
+   "study": "Sustainability & the Environment",
+   "item": "Environment and Energy",
+   "alias": "/program/environment-and-energy",
+   "campus": "UTSG",
+   "type": "Minor",
+   "degree": "HBSc",
+   "el": "0"
+  },
+  {
+   "study": "Sustainability & the Environment",
+   "item": "Environment and Health",
+   "alias": "/program/environment-and-health",
+   "campus": "UTSG",
+   "type": "Major, Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Sustainability & the Environment",
+   "item": "Environment and Toxicology",
+   "alias": "/program/environment-and-toxicology",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Sustainability & the Environment",
+   "item": "Environmental Anthropology",
+   "alias": "/program/environmental-anthropology",
+   "campus": "UTSG",
+   "type": "Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Sustainability & the Environment",
+   "item": "Environmental Biology",
+   "alias": "/program/environmental-biology",
+   "campus": "UTSG",
+   "type": "Major, Minor",
+   "degree": "HBSc",
+   "el": "0"
+  },
+  {
+   "study": "Sustainability & the Environment",
+   "item": "Environmental Chemistry",
+   "alias": "/program/environmental-chemistry",
+   "campus": "UTSC, UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Sustainability & the Environment",
+   "item": "Environmental Chemistry (Health Sciences Stream)",
+   "alias": "/program/environmental-chemistry",
+   "campus": "UTSC",
+   "type": "Major",
+   "degree": "HBSc + HSC",
+   "el": "1"
+  },
+  {
+   "study": "Sustainability & the Environment",
+   "item": "Environmental Economics",
+   "alias": "/program/environmental-economics",
+   "campus": "UTSG",
+   "type": "Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Sustainability & the Environment",
+   "item": "Environmental Ethics",
+   "alias": "/program/environmental-ethics",
+   "campus": "UTSG",
+   "type": "Major, Minor",
+   "degree": "HBA",
+   "el": "1"
+  },
+  {
+   "study": "Sustainability & the Environment",
+   "item": "Environmental Geography",
+   "alias": "/program/environmental-geography",
+   "campus": "UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Sustainability & the Environment",
+   "item": "Environmental Geoscience",
+   "alias": "/program/environmental-geosciences",
+   "campus": "UTSC",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Sustainability & the Environment",
+   "item": "Environmental Geoscience (Health Sciences Stream)",
+   "alias": "/program/environmental-geosciences",
+   "campus": "UTSC",
+   "type": "Specialist",
+   "degree": "HBSc + HSC",
+   "el": "1"
+  },
+  {
+   "study": "Sustainability & the Environment",
+   "item": "Environmental Geosciences",
+   "alias": "/program/environmental-geosciences",
+   "campus": "UTM, UTSG",
+   "type": "Minor, Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Sustainability & the Environment",
+   "item": "Environmental Law and Policy",
+   "alias": "/program/environmental-law-and-policy",
+   "campus": "UTM",
+   "type": "Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Sustainability & the Environment",
+   "item": "Environmental Management",
+   "alias": "/program/environmental-management",
+   "campus": "UTM",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Sustainability & the Environment",
+   "item": "Environmental Physics",
+   "alias": "/program/environmental-physics",
+   "campus": "UTSC",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Sustainability & the Environment",
+   "item": "Environmental Science",
+   "alias": "/program/environmental-science",
+   "campus": "UTM, UTSC, UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Sustainability & the Environment",
+   "item": "Environmental Science (Health Sciences Stream)",
+   "alias": "/program/environmental-science",
+   "campus": "UTSC",
+   "type": "Major",
+   "degree": "HBSc + HSC",
+   "el": "1"
+  },
+  {
+   "study": "Sustainability & the Environment",
+   "item": "Environmental Studies",
+   "alias": "/program/environmental-studies",
+   "campus": "UTSC, UTSG",
+   "type": "Major, Minor",
+   "degree": "HBA",
+   "el": "1"
+  },
+  {
+   "study": "Sustainability & the Environment",
+   "item": "Forest Conservation",
+   "alias": "/program/forest-conservation",
+   "campus": "UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Sustainability & the Environment",
+   "item": "Forest Conservation Science",
+   "alias": "/program/forest-conservation-science",
+   "campus": "UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBSc",
+   "el": "0"
+  },
+  {
+   "study": "Sustainability & the Environment",
+   "item": "Geographic Data Science ",
+   "alias": "/program/geographic-data-science",
+   "campus": "UTSG",
+   "type": "Major",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Sustainability & the Environment",
+   "item": "Geographic Information Science",
+   "alias": "/program/geographic-information-science",
+   "campus": "UTSC",
+   "type": "Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Sustainability & the Environment",
+   "item": "Geographical Information Systems",
+   "alias": "/program/geographical-information-systems",
+   "campus": "UTSG",
+   "type": "Minor",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Sustainability & the Environment",
+   "item": "Geography (HBA)",
+   "alias": "/program/geography-hba",
+   "campus": "UTM",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Sustainability & the Environment",
+   "item": "Geography (HBSc)",
+   "alias": "/program/geography-hbsc",
+   "campus": "UTM",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBSc",
+   "el": "0"
+  },
+  {
+   "study": "Sustainability & the Environment",
+   "item": "Geology",
+   "alias": "/program/geology",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Sustainability & the Environment",
+   "item": "Geophysics",
+   "alias": "/program/geophysics",
+   "campus": "UTSG",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Sustainability & the Environment",
+   "item": "Geoscience",
+   "alias": "/program/geoscience",
+   "campus": "UTSG",
+   "type": "Major, Minor",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Sustainability & the Environment",
+   "item": "GeoSpatial Data Science",
+   "alias": "/program/geospatial-data-science",
+   "campus": "UTM",
+   "type": "Major, Minor",
+   "degree": "HBSc",
+   "el": "0"
+  },
+  {
+   "study": "Sustainability & the Environment",
+   "item": "Global Environmental Change",
+   "alias": "/program/global-environmental-change",
+   "campus": "UTSC",
+   "type": "Specialist",
+   "degree": "HBSc",
+   "el": "1"
+  },
+  {
+   "study": "Sustainability & the Environment",
+   "item": "Global Environmental Change (Health Sciences Stream)",
+   "alias": "/program/global-environmental-change",
+   "campus": "UTSC",
+   "type": "Specialist",
+   "degree": "HBSc + HSC",
+   "el": "1"
+  },
+  {
+   "study": "Sustainability & the Environment",
+   "item": "Human Geography",
+   "alias": "/program/human-geography",
+   "campus": "UTSC, UTSG",
+   "type": "Major, Minor, Specialist",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Sustainability & the Environment",
+   "item": "Natural Sciences & Environmental Management",
+   "alias": "/program/natural-sciences-and-environmental-management",
+   "campus": "UTSC",
+   "type": "Minor",
+   "degree": "HBSc",
+   "el": "0"
+  },
+  {
+   "study": "Sustainability & the Environment",
+   "item": "Physical and Human Geography",
+   "alias": "/program/physical-human-geography",
+   "campus": "UTSC",
+   "type": "Major",
+   "degree": "HBA",
+   "el": "0"
+  },
+  {
+   "study": "Sustainability & the Environment",
+   "item": "Sustainability",
+   "alias": "/program/sustainability",
+   "campus": "UTM",
+   "type": "Minor",
+   "degree": "HBA",
+   "el": "0"
+  }
+ ]
+}
