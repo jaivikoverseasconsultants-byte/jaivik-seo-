@@ -1,0 +1,82 @@
+{
+ "_source": "https://www.uwindsor.ca/finance/fee-estimator — Windsor's own tuition fee estimator, driven in a browser (it is a Drupal AJAX form that a plain POST cannot complete).",
+ "_query": "Program type Undergraduate, Course Load Full Time, Fee Category International, Term Fall.",
+ "_basis": "The figure is Base Tuition, which the estimator itself labels \"Assessed each term\". It is PER TERM, not annual. Windsor is not annualised here — the same decision taken for uOttawa.",
+ "_verification": "Each reading was accepted only when the results panel echoed back the major that was requested. An earlier unverified pass raced the AJAX and returned the previous major's figures on 8 of 12 majors.",
+ "_note": "Estimated Total additionally includes incidental and ancillary fees for that term and varies by programme; Commercial Aviation Leadership is far higher than its base tuition because of flight training charges.",
+ "_retrieved": "2026-09-24",
+ "majors": [
+  {
+   "code": "ARTHUMSS",
+   "label": "Arts, Humanities, Soc Science",
+   "termTuitionCAD": 16500,
+   "termEstimatedTotalCAD": 19336.42
+  },
+  {
+   "code": "ARTSS-VABE",
+   "label": "Arts, Humanities, Soc Science - Visual Arts & Built Environment",
+   "termTuitionCAD": 16500,
+   "termEstimatedTotalCAD": 20323.92
+  },
+  {
+   "code": "BUSINESS",
+   "label": "Business",
+   "termTuitionCAD": 19310,
+   "termEstimatedTotalCAD": 22245.16
+  },
+  {
+   "code": "ARTSS-AREO",
+   "label": "Commercial Aviation Leadership",
+   "termTuitionCAD": 16500,
+   "termEstimatedTotalCAD": 30899.92
+  },
+  {
+   "code": "COMPSCIENC",
+   "label": "Computer Science",
+   "termTuitionCAD": 18750,
+   "termEstimatedTotalCAD": 21593.92
+  },
+  {
+   "code": "CONCUREDUC",
+   "label": "Concurrent Education",
+   "termTuitionCAD": 16500,
+   "termEstimatedTotalCAD": 19323.92
+  },
+  {
+   "code": "ECONOMICS",
+   "label": "Economics",
+   "termTuitionCAD": 18025,
+   "termEstimatedTotalCAD": 20848.92
+  },
+  {
+   "code": "ENGINEERNG",
+   "label": "Engineering",
+   "termTuitionCAD": 22050,
+   "termEstimatedTotalCAD": 24917.84
+  },
+  {
+   "code": "HUMKINETIC",
+   "label": "Human Kinetics",
+   "termTuitionCAD": 18025,
+   "termEstimatedTotalCAD": 20878.92
+  },
+  {
+   "code": "NURSING",
+   "label": "Nursing",
+   "termTuitionCAD": 21675,
+   "termEstimatedTotalCAD": 24656.8
+  },
+  {
+   "code": "SCIENCE",
+   "label": "Science",
+   "termTuitionCAD": 18025,
+   "termEstimatedTotalCAD": 20858.92
+  },
+  {
+   "code": "SOCIALWORK",
+   "label": "Social Work",
+   "termTuitionCAD": 16500,
+   "termEstimatedTotalCAD": 19328.92
+  }
+ ]
+}

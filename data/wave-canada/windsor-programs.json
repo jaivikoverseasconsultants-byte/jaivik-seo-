@@ -1,0 +1,1943 @@
+{
+ "_source": "https://www.future.uwindsor.ca/wp-json/wp/v2/program — the WordPress REST feed behind Windsor's own programme finder.",
+ "_why": "future.uwindsor.ca serves a JavaScript shell to ordinary requests, so the catalogue was first read in a browser session; the REST endpoint then answers curl directly when the Accept header asks for JSON.",
+ "_retrieved": "2026-09-24",
+ "_counts": {
+  "total": 168,
+  "undergraduate": 93,
+  "graduate": 71
+ },
+ "rows": [
+  {
+   "slug": "etudes_francaises",
+   "name": "Études Françaises",
+   "level": "",
+   "award": [],
+   "faculties": [],
+   "url": "https://www.future.uwindsor.ca/program/etudes_francaises/"
+  },
+  {
+   "slug": "conjoint_etudes_francaises_education",
+   "name": "Programme conjoint Études françaises/Éducation",
+   "level": "",
+   "award": [],
+   "faculties": [],
+   "url": "https://www.future.uwindsor.ca/program/conjoint_etudes_francaises_education/"
+  },
+  {
+   "slug": "sciences-politiques-avec-specialisation-en-francais",
+   "name": "Sciences politiques avec spécialisation en français",
+   "level": "",
+   "award": [],
+   "faculties": [],
+   "url": "https://www.future.uwindsor.ca/program/sciences-politiques-avec-specialisation-en-francais/"
+  },
+  {
+   "slug": "sport-management-leadership-msml-internship",
+   "name": "Sport Management & Leadership, MSML (Internship)",
+   "level": "Graduate",
+   "award": [
+    "Master",
+    "Master—Internship Based"
+   ],
+   "faculties": [
+    "Human Kinetics"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/sport-management-leadership-msml-internship/"
+  },
+  {
+   "slug": "graduate-diploma-nurse-practitioner-gd-np",
+   "name": "Graduate Diploma Nurse Practitioner (GD/NP)",
+   "level": "Graduate",
+   "award": [
+    "Certificate/Diploma"
+   ],
+   "faculties": [
+    "Nursing"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/graduate-diploma-nurse-practitioner-gd-np/"
+  },
+  {
+   "slug": "master-of-applied-computing-mac-artificial-intelligence-stream",
+   "name": "Master of Applied Computing, MAC - Artificial Intelligence Stream",
+   "level": "Graduate",
+   "award": [
+    "Master"
+   ],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/master-of-applied-computing-mac-artificial-intelligence-stream/"
+  },
+  {
+   "slug": "mathematics-bmath-general",
+   "name": "Mathematics, BMath (General)",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/mathematics-bmath-general/"
+  },
+  {
+   "slug": "economics-ba-general",
+   "name": "Economics, BA (General)",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/economics-ba-general/"
+  },
+  {
+   "slug": "master-of-laws-llm",
+   "name": "Master of Laws (LLM)",
+   "level": "Graduate",
+   "award": [
+    "Master"
+   ],
+   "faculties": [
+    "Law"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/master-of-laws-llm/"
+  },
+  {
+   "slug": "sport-management-leadership-msml-thesis",
+   "name": "Sport Management & Leadership, MSML (Thesis)",
+   "level": "Graduate",
+   "award": [
+    "Master",
+    "Master—Research Based"
+   ],
+   "faculties": [
+    "Human Kinetics"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/sport-management-leadership-msml-thesis/"
+  },
+  {
+   "slug": "automotive-engineering-meng",
+   "name": "Automotive Engineering, MEng",
+   "level": "Graduate",
+   "award": [
+    "Master"
+   ],
+   "faculties": [
+    "Engineering"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/automotive-engineering-meng/"
+  },
+  {
+   "slug": "master-of-engineering-meng",
+   "name": "Master of Engineering, MEng",
+   "level": "Graduate",
+   "award": [
+    "International Course Based Master (ICBM)",
+    "Master",
+    "Master—Course Based"
+   ],
+   "faculties": [
+    "Engineering"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/master-of-engineering-meng/"
+  },
+  {
+   "slug": "sociology-ma",
+   "name": "Sociology, MA",
+   "level": "Graduate",
+   "award": [
+    "Master",
+    "Master—Research Based"
+   ],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/sociology-ma/"
+  },
+  {
+   "slug": "sociology-phd",
+   "name": "Sociology, PhD",
+   "level": "Graduate",
+   "award": [
+    "PhD"
+   ],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/sociology-phd/"
+  },
+  {
+   "slug": "psychology-ma",
+   "name": "Psychology, MA",
+   "level": "Graduate",
+   "award": [
+    "Master",
+    "Master—Research Based"
+   ],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/psychology-ma/"
+  },
+  {
+   "slug": "psychology-phd",
+   "name": "Psychology, PhD",
+   "level": "Graduate",
+   "award": [
+    "PhD"
+   ],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/psychology-phd/"
+  },
+  {
+   "slug": "political-science-ma",
+   "name": "Political Science, MA",
+   "level": "Graduate",
+   "award": [
+    "Master",
+    "Master—Research Based"
+   ],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/political-science-ma/"
+  },
+  {
+   "slug": "physics-msc",
+   "name": "Physics, MSc",
+   "level": "Graduate",
+   "award": [
+    "Master",
+    "Master—Research Based"
+   ],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/physics-msc/"
+  },
+  {
+   "slug": "physics-phd",
+   "name": "Physics, PhD",
+   "level": "Graduate",
+   "award": [
+    "PhD"
+   ],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/physics-phd/"
+  },
+  {
+   "slug": "philosophy-ma",
+   "name": "Philosophy, MA",
+   "level": "Graduate",
+   "award": [
+    "Master",
+    "Master—Research Based"
+   ],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/philosophy-ma/"
+  },
+  {
+   "slug": "medical-biotechnology-mmb",
+   "name": "Master of Medical Biotechnology, MMB",
+   "level": "Graduate",
+   "award": [
+    "International Course Based Master (ICBM)",
+    "Master",
+    "Master—Course Based"
+   ],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/medical-biotechnology-mmb/"
+  },
+  {
+   "slug": "mechanical-engineering-meng",
+   "name": "Mechanical Engineering, MEng",
+   "level": "Graduate",
+   "award": [
+    "Master"
+   ],
+   "faculties": [
+    "Engineering"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/mechanical-engineering-meng/"
+  },
+  {
+   "slug": "mechanical-engineering-masc",
+   "name": "Mechanical Engineering, MASc",
+   "level": "Graduate",
+   "award": [
+    "Master",
+    "Master—Research Based"
+   ],
+   "faculties": [
+    "Engineering"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/mechanical-engineering-masc/"
+  },
+  {
+   "slug": "mechanical-engineering-phd",
+   "name": "Mechanical Engineering, PhD",
+   "level": "Graduate",
+   "award": [
+    "PhD"
+   ],
+   "faculties": [
+    "Engineering"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/mechanical-engineering-phd/"
+  },
+  {
+   "slug": "mathematics-statistics-msc",
+   "name": "Mathematics & Statistics, MSc",
+   "level": "Graduate",
+   "award": [
+    "Master",
+    "Master—Research Based"
+   ],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/mathematics-statistics-msc/"
+  },
+  {
+   "slug": "mathematics-statistics-phd",
+   "name": "Mathematics & Statistics, PhD",
+   "level": "Graduate",
+   "award": [
+    "PhD"
+   ],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/mathematics-statistics-phd/"
+  },
+  {
+   "slug": "master-of-science-in-translational-health-sciences-msc",
+   "name": "Master of Science in Translational Health Sciences, MSc",
+   "level": "Graduate",
+   "award": [
+    "Master",
+    "Master—Course Based"
+   ],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/master-of-science-in-translational-health-sciences-msc/"
+  },
+  {
+   "slug": "industrial-and-manufacturing-systems-engineering-phd",
+   "name": "Industrial and Manufacturing Systems Engineering, PhD",
+   "level": "Graduate",
+   "award": [
+    "PhD"
+   ],
+   "faculties": [
+    "Engineering"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/industrial-and-manufacturing-systems-engineering-phd/"
+  },
+  {
+   "slug": "industrial-engineering-meng",
+   "name": "Industrial Engineering, MEng",
+   "level": "Graduate",
+   "award": [
+    "Master"
+   ],
+   "faculties": [
+    "Engineering"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/industrial-engineering-meng/"
+  },
+  {
+   "slug": "industrial-engineering-masc",
+   "name": "Industrial Engineering, MASc",
+   "level": "Graduate",
+   "award": [
+    "Master",
+    "Master—Course Based"
+   ],
+   "faculties": [
+    "Engineering"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/industrial-engineering-masc/"
+  },
+  {
+   "slug": "kinesiology-phd-kinesiology-health-studies-or-sport-management-leadership",
+   "name": "Kinesiology, PhD (Kinesiology & Health Studies or Sport Management & Leadership)",
+   "level": "Graduate",
+   "award": [
+    "PhD"
+   ],
+   "faculties": [
+    "Human Kinetics"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/kinesiology-phd-kinesiology-health-studies-or-sport-management-leadership/"
+  },
+  {
+   "slug": "kinesiology-health-studies-msc-khs",
+   "name": "Kinesiology & Health Studies, MSc (KHS)",
+   "level": "Graduate",
+   "award": [
+    "Master",
+    "Master—Research Based"
+   ],
+   "faculties": [
+    "Human Kinetics"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/kinesiology-health-studies-msc-khs/"
+  },
+  {
+   "slug": "history-ma",
+   "name": "History, MA",
+   "level": "Graduate",
+   "award": [
+    "Master",
+    "Master—Research Based"
+   ],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/history-ma/"
+  },
+  {
+   "slug": "film-media-arts-mfa",
+   "name": "Film & Media Arts, MFA",
+   "level": "Graduate",
+   "award": [
+    "Master",
+    "Master—Course Based"
+   ],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/film-media-arts-mfa/"
+  },
+  {
+   "slug": "environmental-science-msc",
+   "name": "Environmental Science, MSc",
+   "level": "Graduate",
+   "award": [
+    "Master",
+    "Master—Research Based"
+   ],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/environmental-science-msc/"
+  },
+  {
+   "slug": "environmental-science-phd",
+   "name": "Environmental Science, PhD",
+   "level": "Graduate",
+   "award": [
+    "PhD"
+   ],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/environmental-science-phd/"
+  },
+  {
+   "slug": "environmental-engineering-meng",
+   "name": "Environmental Engineering, MEng",
+   "level": "Graduate",
+   "award": [
+    "Master"
+   ],
+   "faculties": [
+    "Engineering"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/environmental-engineering-meng/"
+  },
+  {
+   "slug": "environmental-engineering-masc",
+   "name": "Environmental Engineering, MASc",
+   "level": "Graduate",
+   "award": [
+    "Master",
+    "Master—Research Based"
+   ],
+   "faculties": [
+    "Engineering"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/environmental-engineering-masc/"
+  },
+  {
+   "slug": "environmental-engineering-phd",
+   "name": "Environmental Engineering, PhD",
+   "level": "Graduate",
+   "award": [
+    "PhD"
+   ],
+   "faculties": [
+    "Engineering"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/environmental-engineering-phd/"
+  },
+  {
+   "slug": "english-ma",
+   "name": "English, MA",
+   "level": "Graduate",
+   "award": [
+    "Master",
+    "Master—Research Based"
+   ],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/english-ma/"
+  },
+  {
+   "slug": "electrical-engineering-meng",
+   "name": "Electrical Engineering, MEng",
+   "level": "Graduate",
+   "award": [
+    "Master"
+   ],
+   "faculties": [
+    "Engineering"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/electrical-engineering-meng/"
+  },
+  {
+   "slug": "electrical-engineering-masc",
+   "name": "Electrical Engineering, MASc",
+   "level": "Graduate",
+   "award": [
+    "Master",
+    "Master—Research Based"
+   ],
+   "faculties": [
+    "Engineering"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/electrical-engineering-masc/"
+  },
+  {
+   "slug": "electrical-engineering-phd",
+   "name": "Electrical Engineering, PhD",
+   "level": "Graduate",
+   "award": [
+    "PhD"
+   ],
+   "faculties": [
+    "Engineering"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/electrical-engineering-phd/"
+  },
+  {
+   "slug": "education-educational-studies-med",
+   "name": "Master of Education",
+   "level": "Graduate",
+   "award": [
+    "Master",
+    "Master—Course Based"
+   ],
+   "faculties": [
+    "Education"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/education-educational-studies-med/"
+  },
+  {
+   "slug": "economics-ma",
+   "name": "Economics, MA",
+   "level": "Graduate",
+   "award": [
+    "Master",
+    "Master—Course Based"
+   ],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/economics-ma/"
+  },
+  {
+   "slug": "earth-sciences-msc",
+   "name": "Earth Sciences, MSc",
+   "level": "Graduate",
+   "award": [
+    "Master",
+    "Master—Research Based"
+   ],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/earth-sciences-msc/"
+  },
+  {
+   "slug": "earth-sciences-phd",
+   "name": "Earth Sciences, PhD",
+   "level": "Graduate",
+   "award": [
+    "PhD"
+   ],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/earth-sciences-phd/"
+  },
+  {
+   "slug": "criminology-ma",
+   "name": "Criminology, MA",
+   "level": "Graduate",
+   "award": [
+    "Master",
+    "Master—Research Based"
+   ],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/criminology-ma/"
+  },
+  {
+   "slug": "computer-science-msc",
+   "name": "Computer Science, MSc",
+   "level": "Graduate",
+   "award": [
+    "Master",
+    "Master—Research Based"
+   ],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/computer-science-msc/"
+  },
+  {
+   "slug": "computer-science-phd",
+   "name": "Computer Science, PhD",
+   "level": "Graduate",
+   "award": [
+    "PhD"
+   ],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/computer-science-phd/"
+  },
+  {
+   "slug": "civil-engineering-meng",
+   "name": "Civil Engineering, MEng",
+   "level": "Graduate",
+   "award": [
+    "Master"
+   ],
+   "faculties": [
+    "Engineering"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/civil-engineering-meng/"
+  },
+  {
+   "slug": "civil-engineering-masc",
+   "name": "Civil Engineering, MASc",
+   "level": "Graduate",
+   "award": [
+    "Master",
+    "Master—Research Based"
+   ],
+   "faculties": [
+    "Engineering"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/civil-engineering-masc/"
+  },
+  {
+   "slug": "civil-engineering-phd",
+   "name": "Civil Engineering, PhD",
+   "level": "Graduate",
+   "award": [
+    "PhD"
+   ],
+   "faculties": [
+    "Engineering"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/civil-engineering-phd/"
+  },
+  {
+   "slug": "chemistry-biochemistry-msc",
+   "name": "Chemistry & Biochemistry, MSc",
+   "level": "Graduate",
+   "award": [
+    "Master",
+    "Master—Research Based"
+   ],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/chemistry-biochemistry-msc/"
+  },
+  {
+   "slug": "chemistry-biochemistry-phd",
+   "name": "Chemistry & Biochemistry, PhD",
+   "level": "Graduate",
+   "award": [
+    "PhD"
+   ],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/chemistry-biochemistry-phd/"
+  },
+  {
+   "slug": "business-administration-professional-accounting-specialization-mba",
+   "name": "Master of Business Administration - Professional Accounting Specialization, MBA",
+   "level": "Graduate",
+   "award": [
+    "Master",
+    "Master—Course Based"
+   ],
+   "faculties": [
+    "The Odette School of Business"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/business-administration-professional-accounting-specialization-mba/"
+  },
+  {
+   "slug": "business-administration-managers-professionals-mba",
+   "name": "Master of Business Administration - Managers & Professionals, MBA",
+   "level": "Graduate",
+   "award": [
+    "Master",
+    "Master—Course Based"
+   ],
+   "faculties": [
+    "The Odette School of Business"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/business-administration-managers-professionals-mba/"
+  },
+  {
+   "slug": "biology-msc",
+   "name": "Biology, MSc",
+   "level": "Graduate",
+   "award": [
+    "Master",
+    "Master—Research Based"
+   ],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/biology-msc/"
+  },
+  {
+   "slug": "biology-phd",
+   "name": "Biology, PhD",
+   "level": "Graduate",
+   "award": [
+    "PhD"
+   ],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/biology-phd/"
+  },
+  {
+   "slug": "computer-science-general",
+   "name": "Computer Science (General)",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/computer-science-general/"
+  },
+  {
+   "slug": "automotive-engineering-international-masc",
+   "name": "Automotive Engineering - International MASc",
+   "level": "Graduate",
+   "award": [
+    "Master",
+    "Master—Course Based"
+   ],
+   "faculties": [
+    "Engineering"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/automotive-engineering-international-masc/"
+  },
+  {
+   "slug": "argumentation-studies-phd",
+   "name": "Argumentation Studies, PhD",
+   "level": "Graduate",
+   "award": [
+    "PhD"
+   ],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/argumentation-studies-phd/"
+  },
+  {
+   "slug": "doctor-of-philosophy-in-nursing-phd",
+   "name": "Doctor of Philosophy in Nursing (PhD)",
+   "level": "Graduate",
+   "award": [
+    "PhD"
+   ],
+   "faculties": [
+    "Nursing"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/doctor-of-philosophy-in-nursing-phd/"
+  },
+  {
+   "slug": "master-of-science-in-nursing-nurse-practitioner-mscn-np",
+   "name": "Master of Science in Nursing/Nurse Practitioner (MScN/NP)",
+   "level": "Graduate",
+   "award": [
+    "Master",
+    "Master—Research Based"
+   ],
+   "faculties": [
+    "Nursing"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/master-of-science-in-nursing-nurse-practitioner-mscn-np/"
+  },
+  {
+   "slug": "master-of-science-in-nursing-mscn-course-based",
+   "name": "Master of Science in Nursing (MScN), Course-based",
+   "level": "Graduate",
+   "award": [
+    "Master",
+    "Master—Research Based"
+   ],
+   "faculties": [
+    "Nursing"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/master-of-science-in-nursing-mscn-course-based/"
+  },
+  {
+   "slug": "master-of-science-in-nursing-mscn-thesis-based",
+   "name": "Master of Science in Nursing (MScN), Thesis-based",
+   "level": "Graduate",
+   "award": [
+    "Master",
+    "Master—Research Based"
+   ],
+   "faculties": [
+    "Nursing"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/master-of-science-in-nursing-mscn-thesis-based/"
+  },
+  {
+   "slug": "interdisciplinary-health-science",
+   "name": "Interdisciplinary Health Science",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Science",
+    "Social Sciences and Professional Studies"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/interdisciplinary-health-science/"
+  },
+  {
+   "slug": "combined-honours-mathematics-programs",
+   "name": "Combined Honours Mathematics Programs",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/combined-honours-mathematics-programs/"
+  },
+  {
+   "slug": "master-of-management",
+   "name": "Master of Management, MM",
+   "level": "Graduate",
+   "award": [
+    "International Course Based Master (ICBM)",
+    "Master",
+    "Master—Course Based"
+   ],
+   "faculties": [
+    "The Odette School of Business"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/master-of-management/"
+  },
+  {
+   "slug": "master-of-social-work",
+   "name": "Social Work, MSW",
+   "level": "Graduate",
+   "award": [
+    "Master",
+    "Master—Research Based"
+   ],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Social Sciences and Professional Studies"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/master-of-social-work/"
+  },
+  {
+   "slug": "phd-in-social-work",
+   "name": "Social Work, PhD",
+   "level": "Graduate",
+   "award": [
+    "PhD"
+   ],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Social Sciences and Professional Studies"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/phd-in-social-work/"
+  },
+  {
+   "slug": "master-of-business-administration-full-time-program",
+   "name": "Master of Business Administration - Full Time Program, MBA",
+   "level": "Graduate",
+   "award": [
+    "Master"
+   ],
+   "faculties": [
+    "The Odette School of Business"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/master-of-business-administration-full-time-program/"
+  },
+  {
+   "slug": "master-of-applied-computing",
+   "name": "Master of Applied Computing, MAC",
+   "level": "Graduate",
+   "award": [
+    "International Course Based Master (ICBM)",
+    "Master",
+    "Master—Course Based"
+   ],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/master-of-applied-computing/"
+  },
+  {
+   "slug": "master-of-actuarial-science",
+   "name": "Master of Actuarial Science, MActSc",
+   "level": "Graduate",
+   "award": [
+    "International Course Based Master (ICBM)",
+    "Master",
+    "Master—Course Based"
+   ],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/master-of-actuarial-science/"
+  },
+  {
+   "slug": "master-of-engineering-management",
+   "name": "Master of Engineering Management",
+   "level": "Graduate",
+   "award": [
+    "International Course Based Master (ICBM)",
+    "Master",
+    "Master—Course Based"
+   ],
+   "faculties": [
+    "Engineering"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/master-of-engineering-management/"
+  },
+  {
+   "slug": "business-administration-and-psychology",
+   "name": "Business Administration and Psychology",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Social Sciences and Professional Studies",
+    "The Odette School of Business"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/business-administration-and-psychology/"
+  },
+  {
+   "slug": "industrial-engineering-with-minor-in-business-administration",
+   "name": "Industrial Engineering with Minor in Business Administration",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Engineering",
+    "The Odette School of Business"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/industrial-engineering-with-minor-in-business-administration/"
+  },
+  {
+   "slug": "mechatronics-system-engineering",
+   "name": "Mechatronic Systems Engineering",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Engineering"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/mechatronics-system-engineering/"
+  },
+  {
+   "slug": "developmental-psychology",
+   "name": "Developmental Psychology",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Social Sciences and Professional Studies"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/developmental-psychology/"
+  },
+  {
+   "slug": "child-psychology",
+   "name": "Child Psychology",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Social Sciences and Professional Studies"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/child-psychology/"
+  },
+  {
+   "slug": "english",
+   "name": "English Language and Literature",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Humanities and Culture"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/english/"
+  },
+  {
+   "slug": "sociology-and-criminology",
+   "name": "Sociology and Criminology",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Social Sciences and Professional Studies"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/sociology-and-criminology/"
+  },
+  {
+   "slug": "social-work-and-disability-studies",
+   "name": "Social Work and Disability Studies",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Social Sciences and Professional Studies"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/social-work-and-disability-studies/"
+  },
+  {
+   "slug": "political-science-with-french-immersion",
+   "name": "Political Science with French Specialization",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Social Sciences and Professional Studies"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/political-science-with-french-immersion/"
+  },
+  {
+   "slug": "modern-languages-with-year-abroad",
+   "name": "Modern Languages with Year Abroad",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Humanities and Culture"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/modern-languages-with-year-abroad/"
+  },
+  {
+   "slug": "modern-languages-and-second-language-education",
+   "name": "Second Language Education",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Humanities and Culture"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/modern-languages-and-second-language-education/"
+  },
+  {
+   "slug": "mathematics-with-finance-concentration",
+   "name": "Mathematics with Finance Concentration",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Science",
+    "The Odette School of Business"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/mathematics-with-finance-concentration/"
+  },
+  {
+   "slug": "actuarial-science",
+   "name": "Mathematics, Actuarial Science",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/actuarial-science/"
+  },
+  {
+   "slug": "visual-arts",
+   "name": "Visual Arts",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Creative and Performing Arts"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/visual-arts/"
+  },
+  {
+   "slug": "juris-doctor-master-of-business-administration-mba-jd",
+   "name": "Juris Doctor / Master of Business Administration MBA / JD",
+   "level": "Graduate",
+   "award": [
+    "Law",
+    "Master"
+   ],
+   "faculties": [
+    "Law",
+    "The Odette School of Business"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/juris-doctor-master-of-business-administration-mba-jd/"
+  },
+  {
+   "slug": "canadian-american-dual-juris-doctor",
+   "name": "Canadian & American Dual Juris Doctor (JD)",
+   "level": "Graduate",
+   "award": [
+    "Law"
+   ],
+   "faculties": [
+    "Law"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/canadian-american-dual-juris-doctor/"
+  },
+  {
+   "slug": "forensic-science-ba",
+   "name": "Forensic Science (BA)",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/forensic-science-ba/"
+  },
+  {
+   "slug": "environmental-studies",
+   "name": "Environmental Studies",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/environmental-studies/"
+  },
+  {
+   "slug": "english-and-creative-writing",
+   "name": "English and Creative Writing",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Humanities and Culture"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/english-and-creative-writing/"
+  },
+  {
+   "slug": "film-production",
+   "name": "Film Production",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Creative and Performing Arts"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/film-production/"
+  },
+  {
+   "slug": "disability-studies-and-psychology",
+   "name": "Disability Studies and Psychology",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Social Sciences and Professional Studies"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/disability-studies-and-psychology/"
+  },
+  {
+   "slug": "modern-languages-with-second-language-education-concurrent-education",
+   "name": "Second Language Education / Concurrent Education",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Education",
+    "Humanities and Culture"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/modern-languages-with-second-language-education-concurrent-education/"
+  },
+  {
+   "slug": "drama-in-education-and-community-with-concentration-in-applied-theatre",
+   "name": "Drama in Education and Community with Concentration in Applied Theatre",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Creative and Performing Arts"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/drama-in-education-and-community-with-concentration-in-applied-theatre/"
+  },
+  {
+   "slug": "computer-science-and-mathematics",
+   "name": "Mathematics and Computer Science",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/computer-science-and-mathematics/"
+  },
+  {
+   "slug": "computer-science-software-engineering-specialization",
+   "name": "Computer Science, Software Engineering Specialization",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/computer-science-software-engineering-specialization/"
+  },
+  {
+   "slug": "computer-science-applied-computing",
+   "name": "Computer Science, Applied Computing",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/computer-science-applied-computing/"
+  },
+  {
+   "slug": "bachelor-of-information-technology",
+   "name": "Computer Science, Bachelor of Information Technology",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/bachelor-of-information-technology/"
+  },
+  {
+   "slug": "biochemistry-and-biomedical-sciences-health-science-stream",
+   "name": "Biochemistry and Biomedical Sciences - Health Science Stream",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/biochemistry-and-biomedical-sciences-health-science-stream/"
+  },
+  {
+   "slug": "biochemistry-pharmacy-stream",
+   "name": "Biochemistry - Pharmacy Stream",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/biochemistry-pharmacy-stream/"
+  },
+  {
+   "slug": "business-administration-and-mathematics",
+   "name": "Business Administration and Mathematics",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Science",
+    "The Odette School of Business"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/business-administration-and-mathematics/"
+  },
+  {
+   "slug": "business-administration-and-computer-science",
+   "name": "Business Administration and Computer Science",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Science",
+    "The Odette School of Business"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/business-administration-and-computer-science/"
+  },
+  {
+   "slug": "medical-physics",
+   "name": "Physics, Medical Physics",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/medical-physics/"
+  },
+  {
+   "slug": "psychology-interdisciplinary-health-science-stream",
+   "name": "Psychology - Interdisciplinary Health Science Stream",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Science",
+    "Social Sciences and Professional Studies"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/psychology-interdisciplinary-health-science-stream/"
+  },
+  {
+   "slug": "biological-sciences-interdisciplinary-health-sciences",
+   "name": "Biological Sciences - Interdisciplinary Health Sciences",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/biological-sciences-interdisciplinary-health-sciences/"
+  },
+  {
+   "slug": "biomedical-sciences-interdisciplinary-health-sciences",
+   "name": "Biomedical Sciences - Interdisciplinary Health Sciences",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/biomedical-sciences-interdisciplinary-health-sciences/"
+  },
+  {
+   "slug": "mathematics",
+   "name": "Mathematics, BMath (Honours)",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/mathematics/"
+  },
+  {
+   "slug": "concurrent-general-b-a-political-science-b-ed",
+   "name": "Political Science / Concurrent Education",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Education",
+    "Social Sciences and Professional Studies"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/concurrent-general-b-a-political-science-b-ed/"
+  },
+  {
+   "slug": "visual-arts-concurrent-education",
+   "name": "Visual Arts / Concurrent Education",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Creative and Performing Arts",
+    "Education"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/visual-arts-concurrent-education/"
+  },
+  {
+   "slug": "concurrent-general-b-a-psychology-b-ed-e-c-e",
+   "name": "Psychology / Concurrent Education / Early Childhood Education",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Education",
+    "Social Sciences and Professional Studies"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/concurrent-general-b-a-psychology-b-ed-e-c-e/"
+  },
+  {
+   "slug": "mathematics-concurrent-education",
+   "name": "Mathematics / Concurrent Education",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Education",
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/mathematics-concurrent-education/"
+  },
+  {
+   "slug": "history-concurrent-education",
+   "name": "History / Concurrent Education",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Education",
+    "Social Sciences and Professional Studies"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/history-concurrent-education/"
+  },
+  {
+   "slug": "general-science-concurrent-education",
+   "name": "General Science / Concurrent Education",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Education",
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/general-science-concurrent-education/"
+  },
+  {
+   "slug": "french-studies-concurrent-education",
+   "name": "French Studies / Concurrent Education",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Education",
+    "Humanities and Culture"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/french-studies-concurrent-education/"
+  },
+  {
+   "slug": "english-concurrent-education",
+   "name": "English / Concurrent Education",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Education",
+    "Humanities and Culture"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/english-concurrent-education/"
+  },
+  {
+   "slug": "drama-concurrent-education",
+   "name": "Dramatic Art / Concurrent Education",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Creative and Performing Arts",
+    "Education"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/drama-concurrent-education/"
+  },
+  {
+   "slug": "communication-media-and-film-concurrent-education",
+   "name": "Communication, Media and Film / Concurrent Education",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Education",
+    "Social Sciences and Professional Studies"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/communication-media-and-film-concurrent-education/"
+  },
+  {
+   "slug": "business-administration-and-economics",
+   "name": "Business Administration and Economics",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Science",
+    "The Odette School of Business"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/business-administration-and-economics/"
+  },
+  {
+   "slug": "economics-bsc",
+   "name": "Economics, BSc",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/economics-bsc/"
+  },
+  {
+   "slug": "economics-ba-honours",
+   "name": "Economics, BA (Honours)",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/economics-ba-honours/"
+  },
+  {
+   "slug": "behaviour-cognition-and-neuroscience",
+   "name": "Behaviour, Cognition and Neuroscience",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/behaviour-cognition-and-neuroscience/"
+  },
+  {
+   "slug": "joint-ph-d-educational-studies",
+   "name": "Educational Studies (Joint Ph.D)",
+   "level": "Graduate",
+   "award": [
+    "PhD"
+   ],
+   "faculties": [
+    "Education"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/joint-ph-d-educational-studies/"
+  },
+  {
+   "slug": "disability-studies",
+   "name": "Disability Studies",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Social Sciences and Professional Studies"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/disability-studies/"
+  },
+  {
+   "slug": "womens-and-gender-studies",
+   "name": "Women’s and Gender Studies",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Social Sciences and Professional Studies"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/womens-and-gender-studies/"
+  },
+  {
+   "slug": "visual-arts-built-environment-architecture-university-of-detroit-mercy-visual-arts",
+   "name": "Visual Arts & the Built Environment",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Creative and Performing Arts"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/visual-arts-built-environment-architecture-university-of-detroit-mercy-visual-arts/"
+  },
+  {
+   "slug": "sport-management-and-leadership",
+   "name": "Sport Management and Leadership",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Human Kinetics"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/sport-management-and-leadership/"
+  },
+  {
+   "slug": "sociology",
+   "name": "Sociology",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/sociology/"
+  },
+  {
+   "slug": "social-work",
+   "name": "Social Work",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Social Sciences and Professional Studies"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/social-work/"
+  },
+  {
+   "slug": "psychology",
+   "name": "Psychology",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Social Sciences and Professional Studies"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/psychology/"
+  },
+  {
+   "slug": "political-science",
+   "name": "Political Science",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Social Sciences and Professional Studies"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/political-science/"
+  },
+  {
+   "slug": "physics",
+   "name": "Physics",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/physics/"
+  },
+  {
+   "slug": "philosophy",
+   "name": "Philosophy",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Humanities and Culture"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/philosophy/"
+  },
+  {
+   "slug": "nursing",
+   "name": "Nursing",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Nursing"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/nursing/"
+  },
+  {
+   "slug": "music",
+   "name": "Music (BA)",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Creative and Performing Arts"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/music/"
+  },
+  {
+   "slug": "mechanical-engineering",
+   "name": "Mechanical Engineering",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Engineering"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/mechanical-engineering/"
+  },
+  {
+   "slug": "mathematics-statistics",
+   "name": "Mathematics and Statistics",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/mathematics-statistics/"
+  },
+  {
+   "slug": "liberal-arts-and-professional-studies",
+   "name": "Liberal Arts and Professional Studies",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Social Sciences and Professional Studies"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/liberal-arts-and-professional-studies/"
+  },
+  {
+   "slug": "law-and-politics",
+   "name": "Law and Politics",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Social Sciences and Professional Studies"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/law-and-politics/"
+  },
+  {
+   "slug": "juris-doctor",
+   "name": "Juris Doctor",
+   "level": "Graduate",
+   "award": [
+    "Law"
+   ],
+   "faculties": [
+    "Law"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/juris-doctor/"
+  },
+  {
+   "slug": "kinesiology-health-studies",
+   "name": "Kinesiology & Health Studies",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Human Kinetics"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/kinesiology-health-studies/"
+  },
+  {
+   "slug": "international-relations-and-development-studies",
+   "name": "International Relations",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Social Sciences and Professional Studies"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/international-relations-and-development-studies/"
+  },
+  {
+   "slug": "interdisciplinary-arts-and-science",
+   "name": "Interdisciplinary Arts and Science",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/interdisciplinary-arts-and-science/"
+  },
+  {
+   "slug": "industrial-engineering",
+   "name": "Industrial Engineering",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Engineering"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/industrial-engineering/"
+  },
+  {
+   "slug": "history",
+   "name": "History",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Social Sciences and Professional Studies"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/history/"
+  },
+  {
+   "slug": "general-engineering",
+   "name": "General Engineering",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Engineering"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/general-engineering/"
+  },
+  {
+   "slug": "french-studies",
+   "name": "French Studies",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Humanities and Culture"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/french-studies/"
+  },
+  {
+   "slug": "forensic-science-bfs",
+   "name": "Forensic Science (BFS)",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/forensic-science-bfs/"
+  },
+  {
+   "slug": "environmental-sciences",
+   "name": "Environmental Science",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/environmental-sciences/"
+  },
+  {
+   "slug": "environmental-engineering",
+   "name": "Environmental Engineering",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Engineering"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/environmental-engineering/"
+  },
+  {
+   "slug": "engineering-technology",
+   "name": "Engineering Technology",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Engineering"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/engineering-technology/"
+  },
+  {
+   "slug": "electrical-and-computer-engineering",
+   "name": "Electrical Engineering",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Engineering"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/electrical-and-computer-engineering/"
+  },
+  {
+   "slug": "consecutive-education-bed",
+   "name": "Consecutive Education",
+   "level": "",
+   "award": [
+    "Education"
+   ],
+   "faculties": [
+    "Education"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/consecutive-education-bed/"
+  },
+  {
+   "slug": "drama",
+   "name": "Dramatic Art",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Creative and Performing Arts"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/drama/"
+  },
+  {
+   "slug": "criminology",
+   "name": "Criminology",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Social Sciences and Professional Studies"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/criminology/"
+  },
+  {
+   "slug": "computer-science",
+   "name": "Computer Science (Honours)",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/computer-science/"
+  },
+  {
+   "slug": "communication-media-film",
+   "name": "Communication, Media & Film",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Social Sciences and Professional Studies"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/communication-media-film/"
+  },
+  {
+   "slug": "civil-engineering",
+   "name": "Civil Engineering",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Engineering"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/civil-engineering/"
+  },
+  {
+   "slug": "chemistry",
+   "name": "Chemistry",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/chemistry/"
+  },
+  {
+   "slug": "business-administration",
+   "name": "Business Administration",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "The Odette School of Business"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/business-administration/"
+  },
+  {
+   "slug": "biomedical-sciences",
+   "name": "Biomedical Sciences",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/biomedical-sciences/"
+  },
+  {
+   "slug": "biology",
+   "name": "Biology",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/biology/"
+  },
+  {
+   "slug": "biochemistry",
+   "name": "Biochemistry",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/biochemistry/"
+  },
+  {
+   "slug": "commercial-aviation-leadership",
+   "name": "Commercial Aviation Leadership",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Arts, Humanities, and Social Sciences",
+    "Social Sciences and Professional Studies"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/commercial-aviation-leadership/"
+  },
+  {
+   "slug": "computer-science-computer-information-systems",
+   "name": "Computer Science, Computer Information Systems",
+   "level": "Undergraduate",
+   "award": [],
+   "faculties": [
+    "Science"
+   ],
+   "url": "https://www.future.uwindsor.ca/program/computer-science-computer-information-systems/"
+  }
+ ]
+}

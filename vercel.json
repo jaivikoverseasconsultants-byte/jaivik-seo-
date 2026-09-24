@@ -891,16 +891,6 @@
       "permanent": true
     },
     {
-      "source": "/universities/university-of-windsor/courses",
-      "destination": "/universities/university-of-windsor",
-      "permanent": true
-    },
-    {
-      "source": "/universities/university-of-windsor/courses/:path*",
-      "destination": "/universities/university-of-windsor",
-      "permanent": true
-    },
-    {
       "source": "/universities/trent-university/courses",
       "destination": "/universities/trent-university",
       "permanent": true

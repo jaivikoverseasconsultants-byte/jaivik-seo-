@@ -62,6 +62,7 @@ import { bathCourses as m_university_of_bath } from './bath-courses';
 import { bristolCourses as m_university_of_bristol } from './bristol-courses';
 import { ubcCourses as m_university_of_british_columbia } from './ubc-courses';
 import { ucalgaryCourses as m_university_of_calgary } from './ucalgary-courses';
+import { windsorCourses as m_university_of_windsor } from './windsor-courses';
 import { uccCourses as m_university_college_cork } from './ucc-courses';
 import { chesterCourses as m_university_of_chester } from './chester-courses';
 import { universityOfCopenhagenCourses as m_university_of_copenhagen } from './university-of-copenhagen-courses';
@@ -190,6 +191,7 @@ const REGISTRY: Record<string, readonly unknown[]> = {
   'university-of-british-columbia': m_university_of_british_columbia,  'university-college-cork': m_university_college_cork,
 
   'university-of-calgary': m_university_of_calgary,
+  'university-of-windsor': m_university_of_windsor,
   'university-of-chester': m_university_of_chester,
   'university-of-copenhagen': m_university_of_copenhagen,
   'university-of-derby': m_university_of_derby,
