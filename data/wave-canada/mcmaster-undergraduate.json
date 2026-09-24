@@ -1,0 +1,205 @@
+{
+ "_source": "https://future.mcmaster.ca/programs/ for the catalogue, and McMaster's own Cost Estimator (wp-admin/admin-ajax.php, action course_cost_func) for the fees.",
+ "_basis": "The estimator was asked as a \"Non-Canadian/International Visa Student\" on a Full-Time load. It answers \"Estimated tuition Full-Time $X\" — tuition, not total cost, and McMaster calls it an estimate.",
+ "_note": "McMaster admits to a Level I entry programme rather than to a named major, so these are the programmes an applicant actually applies to. MELD and the Summer Transition English Prep entries are language programmes, not degrees, and are excluded. Midwifery returns a WordPress error from McMaster's own estimator and has no figure.",
+ "_retrieved": "2026-09-24",
+ "programmes": [
+  {
+   "slug": "arts-science",
+   "url": "https://future.mcmaster.ca/programs/arts-science/",
+   "name": "Arts & Science"
+  },
+  {
+   "slug": "bachelor-of-technology",
+   "url": "https://future.mcmaster.ca/programs/bachelor-of-technology/",
+   "name": "Bachelor of Technology"
+  },
+  {
+   "slug": "business",
+   "url": "https://future.mcmaster.ca/programs/business/",
+   "name": "Business"
+  },
+  {
+   "slug": "computer-science",
+   "url": "https://future.mcmaster.ca/programs/computer-science/",
+   "name": "Computer Science"
+  },
+  {
+   "slug": "economics",
+   "url": "https://future.mcmaster.ca/programs/economics/",
+   "name": "Honours Economics I Economics I"
+  },
+  {
+   "slug": "engineering",
+   "url": "https://future.mcmaster.ca/programs/engineering/",
+   "name": "Engineering"
+  },
+  {
+   "slug": "health-and-society",
+   "url": "https://future.mcmaster.ca/programs/health-and-society/",
+   "name": "Health and Society I"
+  },
+  {
+   "slug": "health-sciences",
+   "url": "https://future.mcmaster.ca/programs/health-sciences/",
+   "name": "Honours Health Sciences Program Honours Health Sciences"
+  },
+  {
+   "slug": "honours-integrated-science",
+   "url": "https://future.mcmaster.ca/programs/honours-integrated-science/",
+   "name": "Honours Integrated Science"
+  },
+  {
+   "slug": "kinesiology",
+   "url": "https://future.mcmaster.ca/programs/kinesiology/",
+   "name": "Honours Kinesiology"
+  },
+  {
+   "slug": "humanities",
+   "url": "https://future.mcmaster.ca/programs/humanities/",
+   "name": "Humanities I"
+  },
+  {
+   "slug": "iarts",
+   "url": "https://future.mcmaster.ca/programs/iarts/",
+   "name": "iArts (Integrated Arts)"
+  },
+  {
+   "slug": "ibh",
+   "url": "https://future.mcmaster.ca/programs/ibh/",
+   "name": "Integrated Business & Humanities"
+  },
+  {
+   "slug": "lifesci",
+   "url": "https://future.mcmaster.ca/programs/lifesci/",
+   "name": "Life Sciences Gateway"
+  },
+  {
+   "slug": "math-stats",
+   "url": "https://future.mcmaster.ca/programs/math-stats/",
+   "name": "Mathematics & Statistics Gateway"
+  },
+  {
+   "slug": "medical-radiation-services",
+   "url": "https://future.mcmaster.ca/programs/medical-radiation-services/",
+   "name": "Medical Radiation Sciences"
+  },
+  {
+   "slug": "medicine",
+   "url": "https://future.mcmaster.ca/programs/medicine/",
+   "name": "Medicine"
+  },
+  {
+   "slug": "midwifery",
+   "url": "https://future.mcmaster.ca/programs/midwifery/",
+   "name": "Midwifery"
+  },
+  {
+   "slug": "nursing",
+   "url": "https://future.mcmaster.ca/programs/nursing/",
+   "name": "Nursing"
+  },
+  {
+   "slug": "social-sciences",
+   "url": "https://future.mcmaster.ca/programs/social-sciences/",
+   "name": "Social Sciences I"
+  }
+ ],
+ "estimatorCosts": [
+  {
+   "id": "1",
+   "name": "Arts & Science",
+   "tuitionCAD": 47535.3
+  },
+  {
+   "id": "2",
+   "name": "Bachelor of Fine Arts (Integrated Arts I)",
+   "tuitionCAD": 45158.4
+  },
+  {
+   "id": "39",
+   "name": "Bachelor of Technology - Automation Systems Engineering Technology I",
+   "tuitionCAD": 49485
+  },
+  {
+   "id": "37",
+   "name": "Bachelor of Technology - Automotive & Vehicle Engineering Technology I",
+   "tuitionCAD": 49485
+  },
+  {
+   "id": "38",
+   "name": "Bachelor of Technology - Biotechnology I",
+   "tuitionCAD": 49485
+  },
+  {
+   "id": "5",
+   "name": "Business",
+   "tuitionCAD": 50003.4
+  },
+  {
+   "id": "4",
+   "name": "Computer Science",
+   "tuitionCAD": 56232.6
+  },
+  {
+   "id": "47",
+   "name": "Economics I",
+   "tuitionCAD": 45158.4
+  },
+  {
+   "id": "6",
+   "name": "Engineering I",
+   "tuitionCAD": 69353.54
+  },
+  {
+   "id": "48",
+   "name": "Health & Society I",
+   "tuitionCAD": 45158.4
+  },
+  {
+   "id": "7",
+   "name": "Health Sciences",
+   "tuitionCAD": 54017.4
+  },
+  {
+   "id": "8",
+   "name": "Humanities",
+   "tuitionCAD": 45158.4
+  },
+  {
+   "id": "61",
+   "name": "Integrated Business and Humanities",
+   "tuitionCAD": 58207.5
+  },
+  {
+   "id": "9",
+   "name": "Kinesiology",
+   "tuitionCAD": 47535.3
+  },
+  {
+   "id": "16",
+   "name": "Mathematics & Statistics",
+   "tuitionCAD": 47535.3
+  },
+  {
+   "id": "10",
+   "name": "Medical Radiation Sciences",
+   "tuitionCAD": 47535.3
+  },
+  {
+   "id": "13",
+   "name": "Nursing",
+   "tuitionCAD": 51734.4
+  },
+  {
+   "id": "18",
+   "name": "Social Sciences",
+   "tuitionCAD": 45158.4
+  },
+  {
+   "id": "20",
+   "name": "Wilson College Leadership & Civic Studies I",
+   "tuitionCAD": 45158.4
+  }
+ ]
+}

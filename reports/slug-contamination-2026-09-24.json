@@ -1,0 +1,138 @@
+{
+ "generated": "2026-09-24",
+ "note": "Zero-width characters in course names collapse distinct rows to one slug, so several rows compete for one URL. Found first in U of T data (commit b2ecfdfd). This is the survey, not the fix.",
+ "files": [
+  {
+   "file": "university-of-groningen-courses.ts",
+   "rows": 355,
+   "zeroWidthNames": 0,
+   "duplicateSlugs": 47
+  },
+  {
+   "file": "kcl-courses.ts",
+   "rows": 389,
+   "zeroWidthNames": 0,
+   "duplicateSlugs": 35
+  },
+  {
+   "file": "rdg-courses.ts",
+   "rows": 130,
+   "zeroWidthNames": 0,
+   "duplicateSlugs": 33
+  },
+  {
+   "file": "strath-courses.ts",
+   "rows": 561,
+   "zeroWidthNames": 0,
+   "duplicateSlugs": 25
+  },
+  {
+   "file": "lboro-courses.ts",
+   "rows": 236,
+   "zeroWidthNames": 0,
+   "duplicateSlugs": 11
+  },
+  {
+   "file": "khalifa-courses.ts",
+   "rows": 45,
+   "zeroWidthNames": 0,
+   "duplicateSlugs": 7
+  },
+  {
+   "file": "northeastern-courses.ts",
+   "rows": 140,
+   "zeroWidthNames": 0,
+   "duplicateSlugs": 6
+  },
+  {
+   "file": "university-of-barcelona-courses.ts",
+   "rows": 53,
+   "zeroWidthNames": 0,
+   "duplicateSlugs": 6
+  },
+  {
+   "file": "maastricht-courses.ts",
+   "rows": 104,
+   "zeroWidthNames": 0,
+   "duplicateSlugs": 5
+  },
+  {
+   "file": "maastricht-university-courses.ts",
+   "rows": 104,
+   "zeroWidthNames": 0,
+   "duplicateSlugs": 5
+  },
+  {
+   "file": "university-of-amsterdam-courses.ts",
+   "rows": 169,
+   "zeroWidthNames": 0,
+   "duplicateSlugs": 5
+  },
+  {
+   "file": "durhamuni-courses.ts",
+   "rows": 314,
+   "zeroWidthNames": 0,
+   "duplicateSlugs": 4
+  },
+  {
+   "file": "leiden-university-courses.ts",
+   "rows": 58,
+   "zeroWidthNames": 0,
+   "duplicateSlugs": 4
+  },
+  {
+   "file": "swinburne-courses.ts",
+   "rows": 37,
+   "zeroWidthNames": 0,
+   "duplicateSlugs": 4
+  },
+  {
+   "file": "yorkuni-courses.ts",
+   "rows": 218,
+   "zeroWidthNames": 0,
+   "duplicateSlugs": 4
+  },
+  {
+   "file": "exeter-courses.ts",
+   "rows": 394,
+   "zeroWidthNames": 0,
+   "duplicateSlugs": 3
+  },
+  {
+   "file": "ncl-courses.ts",
+   "rows": 228,
+   "zeroWidthNames": 0,
+   "duplicateSlugs": 3
+  },
+  {
+   "file": "tu-munich-courses.ts",
+   "rows": 193,
+   "zeroWidthNames": 0,
+   "duplicateSlugs": 3
+  },
+  {
+   "file": "ubc-courses.ts",
+   "rows": 212,
+   "zeroWidthNames": 0,
+   "duplicateSlugs": 2
+  },
+  {
+   "file": "auckland-courses.ts",
+   "rows": 527,
+   "zeroWidthNames": 0,
+   "duplicateSlugs": 1
+  },
+  {
+   "file": "bmouth-courses.ts",
+   "rows": 45,
+   "zeroWidthNames": 0,
+   "duplicateSlugs": 1
+  },
+  {
+   "file": "kth-courses.ts",
+   "rows": 45,
+   "zeroWidthNames": 0,
+   "duplicateSlugs": 1
+  }
+ ]
+}
