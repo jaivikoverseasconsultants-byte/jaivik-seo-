@@ -1,0 +1,1515 @@
+{
+ "generated": "2026-09-24",
+ "applied": true,
+ "note": "The first row of each colliding group keeps its slug, so no URL that exists today moves. Only shadowed rows — which have no URL — are renamed.",
+ "renamed": [
+  {
+   "file": "auckland-courses.ts",
+   "index": 526,
+   "from": "auckland-bachelor-of-global-studies-bachelor-of-health-sciences",
+   "to": "auckland-bachelor-of-global-studies-bachelor-of-health-sciences-html",
+   "name": "Bachelor of Global Studies/Bachelor of Health Sciences"
+  },
+  {
+   "file": "durhamuni-courses.ts",
+   "index": 142,
+   "from": "accounting-with-study-abroad-n410",
+   "to": "accounting-with-study-abroad-n410-masters",
+   "name": "Accounting With Study Abroad"
+  },
+  {
+   "file": "durhamuni-courses.ts",
+   "index": 145,
+   "from": "accounting-and-finance-with-study-abroad-n313",
+   "to": "accounting-and-finance-with-study-abroad-n313-masters",
+   "name": "Accounting And Finance With Study Abroad"
+  },
+  {
+   "file": "durhamuni-courses.ts",
+   "index": 147,
+   "from": "accounting-and-finance-n311",
+   "to": "accounting-and-finance-n311-masters",
+   "name": "Accounting And Finance"
+  },
+  {
+   "file": "durhamuni-courses.ts",
+   "index": 150,
+   "from": "accounting-n408",
+   "to": "accounting-n408-masters",
+   "name": "Accounting"
+  },
+  {
+   "file": "kcl-courses.ts",
+   "index": 3,
+   "from": "kcl-anatomy-developmental-human-biology",
+   "to": "kcl-anatomy-developmental-human-biology-and-ibsc",
+   "name": "Anatomy, Developmental & Human Biology"
+  },
+  {
+   "file": "kcl-courses.ts",
+   "index": 6,
+   "from": "kcl-artificial-intelligence",
+   "to": "kcl-artificial-intelligence-bachelor",
+   "name": "Artificial Intelligence"
+  },
+  {
+   "file": "kcl-courses.ts",
+   "index": 11,
+   "from": "kcl-biomedical-engineering",
+   "to": "kcl-biomedical-engineering-meng",
+   "name": "Biomedical Engineering"
+  },
+  {
+   "file": "kcl-courses.ts",
+   "index": 19,
+   "from": "kcl-chemistry",
+   "to": "kcl-chemistry-3-4-years",
+   "name": "Chemistry"
+  },
+  {
+   "file": "kcl-courses.ts",
+   "index": 21,
+   "from": "kcl-chemistry-with-a-year-in-industry",
+   "to": "kcl-chemistry-with-a-year-in-industry-4-years",
+   "name": "Chemistry with a Year in Industry"
+  },
+  {
+   "file": "kcl-courses.ts",
+   "index": 23,
+   "from": "kcl-chemistry-with-biomedicine",
+   "to": "kcl-chemistry-with-biomedicine-3-4-years",
+   "name": "Chemistry with Biomedicine"
+  },
+  {
+   "file": "kcl-courses.ts",
+   "index": 25,
+   "from": "kcl-chemistry-with-biomedicine-with-a-year-in-industry",
+   "to": "kcl-chemistry-with-biomedicine-with-a-year-in-industry-5-years",
+   "name": "Chemistry with Biomedicine with a Year in Industry"
+  },
+  {
+   "file": "kcl-courses.ts",
+   "index": 31,
+   "from": "kcl-computer-science",
+   "to": "kcl-computer-science-msci",
+   "name": "Computer Science"
+  },
+  {
+   "file": "kcl-courses.ts",
+   "index": 47,
+   "from": "kcl-electronic-engineering",
+   "to": "kcl-electronic-engineering-meng",
+   "name": "Electronic Engineering"
+  },
+  {
+   "file": "kcl-courses.ts",
+   "index": 65,
+   "from": "kcl-general-engineering",
+   "to": "kcl-general-engineering-meng",
+   "name": "General Engineering"
+  },
+  {
+   "file": "kcl-courses.ts",
+   "index": 93,
+   "from": "kcl-mathematics",
+   "to": "kcl-mathematics-bachelor",
+   "name": "Mathematics"
+  },
+  {
+   "file": "kcl-courses.ts",
+   "index": 100,
+   "from": "kcl-mathematics-with-year-in-industry",
+   "to": "kcl-mathematics-with-year-in-industry-msci",
+   "name": "Mathematics with Year in Industry"
+  },
+  {
+   "file": "kcl-courses.ts",
+   "index": 109,
+   "from": "kcl-natural-sciences",
+   "to": "kcl-natural-sciences-3-4-years",
+   "name": "Natural Sciences"
+  },
+  {
+   "file": "kcl-courses.ts",
+   "index": 112,
+   "from": "kcl-neuroscience",
+   "to": "kcl-neuroscience-bachelor",
+   "name": "Neuroscience"
+  },
+  {
+   "file": "kcl-courses.ts",
+   "index": 116,
+   "from": "kcl-nursing-with-registration-as-a-mental-health-nurse",
+   "to": "kcl-nursing-with-registration-as-a-mental-health-nurse-bsc",
+   "name": "Nursing with Registration as a Mental Health Nurse"
+  },
+  {
+   "file": "kcl-courses.ts",
+   "index": 118,
+   "from": "kcl-nursing-with-registration-as-an-adult-nurse",
+   "to": "kcl-nursing-with-registration-as-an-adult-nurse-msc",
+   "name": "Nursing with Registration as an Adult Nurse"
+  },
+  {
+   "file": "kcl-courses.ts",
+   "index": 126,
+   "from": "kcl-physics",
+   "to": "kcl-physics-bachelor",
+   "name": "Physics"
+  },
+  {
+   "file": "kcl-courses.ts",
+   "index": 128,
+   "from": "kcl-physics-philosophy",
+   "to": "kcl-physics-philosophy-and-bsc",
+   "name": "Physics & Philosophy"
+  },
+  {
+   "file": "kcl-courses.ts",
+   "index": 130,
+   "from": "kcl-physics-with-astrophysics-and-cosmology",
+   "to": "kcl-physics-with-astrophysics-and-cosmology-3-4-years",
+   "name": "Physics with Astrophysics and Cosmology"
+  },
+  {
+   "file": "kcl-courses.ts",
+   "index": 132,
+   "from": "kcl-physics-with-theoretical-physics",
+   "to": "kcl-physics-with-theoretical-physics-msci",
+   "name": "Physics with Theoretical Physics"
+  },
+  {
+   "file": "kcl-courses.ts",
+   "index": 162,
+   "from": "kcl-ancient-history",
+   "to": "kcl-ancient-history-masters",
+   "name": "Ancient History"
+  },
+  {
+   "file": "kcl-courses.ts",
+   "index": 166,
+   "from": "kcl-artificial-intelligence",
+   "to": "kcl-artificial-intelligence-masters",
+   "name": "Artificial Intelligence"
+  },
+  {
+   "file": "kcl-courses.ts",
+   "index": 194,
+   "from": "kcl-comparative-literature",
+   "to": "kcl-comparative-literature-masters",
+   "name": "Comparative Literature"
+  },
+  {
+   "file": "kcl-courses.ts",
+   "index": 257,
+   "from": "kcl-family-therapy",
+   "to": "kcl-family-therapy-masters",
+   "name": "Family Therapy"
+  },
+  {
+   "file": "kcl-courses.ts",
+   "index": 272,
+   "from": "kcl-global-health",
+   "to": "kcl-global-health-masters",
+   "name": "Global Health"
+  },
+  {
+   "file": "kcl-courses.ts",
+   "index": 298,
+   "from": "kcl-international-management",
+   "to": "kcl-international-management-masters",
+   "name": "International Management"
+  },
+  {
+   "file": "kcl-courses.ts",
+   "index": 301,
+   "from": "kcl-international-relations",
+   "to": "kcl-international-relations-masters",
+   "name": "International Relations"
+  },
+  {
+   "file": "kcl-courses.ts",
+   "index": 312,
+   "from": "kcl-mathematics",
+   "to": "kcl-mathematics-masters",
+   "name": "Mathematics"
+  },
+  {
+   "file": "kcl-courses.ts",
+   "index": 324,
+   "from": "kcl-music",
+   "to": "kcl-music-masters",
+   "name": "Music"
+  },
+  {
+   "file": "kcl-courses.ts",
+   "index": 326,
+   "from": "kcl-neuroscience",
+   "to": "kcl-neuroscience-masters",
+   "name": "Neuroscience"
+  },
+  {
+   "file": "kcl-courses.ts",
+   "index": 338,
+   "from": "kcl-philosophy",
+   "to": "kcl-philosophy-masters",
+   "name": "Philosophy"
+  },
+  {
+   "file": "kcl-courses.ts",
+   "index": 340,
+   "from": "kcl-physics",
+   "to": "kcl-physics-masters",
+   "name": "Physics"
+  },
+  {
+   "file": "kcl-courses.ts",
+   "index": 343,
+   "from": "kcl-political-economy",
+   "to": "kcl-political-economy-masters",
+   "name": "Political Economy"
+  },
+  {
+   "file": "kcl-courses.ts",
+   "index": 383,
+   "from": "kcl-translational-cancer-medicine",
+   "to": "kcl-translational-cancer-medicine-mres",
+   "name": "Translational Cancer Medicine"
+  },
+  {
+   "file": "kcl-courses.ts",
+   "index": 387,
+   "from": "kcl-war-studies",
+   "to": "kcl-war-studies-masters",
+   "name": "War Studies"
+  },
+  {
+   "file": "khalifa-courses.ts",
+   "index": 34,
+   "from": "khalifa-msc-advanced-computer-science",
+   "to": "khalifa-msc-advanced-computer-science-2-years",
+   "name": "MSc Advanced Computer Science"
+  },
+  {
+   "file": "khalifa-courses.ts",
+   "index": 35,
+   "from": "khalifa-msc-data-science",
+   "to": "khalifa-msc-data-science-2-years",
+   "name": "MSc Data Science"
+  },
+  {
+   "file": "khalifa-courses.ts",
+   "index": 38,
+   "from": "khalifa-msc-biomedical-engineering",
+   "to": "khalifa-msc-biomedical-engineering-2-years",
+   "name": "MSc Biomedical Engineering"
+  },
+  {
+   "file": "khalifa-courses.ts",
+   "index": 39,
+   "from": "khalifa-msc-aerospace-engineering",
+   "to": "khalifa-msc-aerospace-engineering-2-years",
+   "name": "MSc Aerospace Engineering"
+  },
+  {
+   "file": "khalifa-courses.ts",
+   "index": 40,
+   "from": "khalifa-msc-nuclear-engineering",
+   "to": "khalifa-msc-nuclear-engineering-2-years",
+   "name": "MSc Nuclear Engineering"
+  },
+  {
+   "file": "khalifa-courses.ts",
+   "index": 43,
+   "from": "khalifa-msc-materials-science",
+   "to": "khalifa-msc-materials-science-2-years",
+   "name": "MSc Materials Science"
+  },
+  {
+   "file": "khalifa-courses.ts",
+   "index": 44,
+   "from": "khalifa-msc-cyber-security",
+   "to": "khalifa-msc-cyber-security-2-years",
+   "name": "MSc Cyber Security"
+  },
+  {
+   "file": "kth-courses.ts",
+   "index": 43,
+   "from": "kth-msc-human-computer-interaction",
+   "to": "kth-msc-human-computer-interaction-stockholm-campus",
+   "name": "MSc Human-Computer Interaction"
+  },
+  {
+   "file": "lboro-courses.ts",
+   "index": 39,
+   "from": "lboro-management",
+   "to": "lboro-management-undergraduate",
+   "name": "Management"
+  },
+  {
+   "file": "lboro-courses.ts",
+   "index": 44,
+   "from": "lboro-international-relations",
+   "to": "lboro-international-relations-postgraduate",
+   "name": "International Relations"
+  },
+  {
+   "file": "lboro-courses.ts",
+   "index": 59,
+   "from": "lboro-criminology",
+   "to": "lboro-criminology-postgraduate",
+   "name": "Criminology"
+  },
+  {
+   "file": "lboro-courses.ts",
+   "index": 88,
+   "from": "lboro-marketing",
+   "to": "lboro-marketing-undergraduate",
+   "name": "Marketing"
+  },
+  {
+   "file": "lboro-courses.ts",
+   "index": 94,
+   "from": "lboro-international-business",
+   "to": "lboro-international-business-postgraduate",
+   "name": "International Business"
+  },
+  {
+   "file": "lboro-courses.ts",
+   "index": 113,
+   "from": "lboro-engineering-management",
+   "to": "lboro-engineering-management-undergraduate",
+   "name": "Engineering Management"
+  },
+  {
+   "file": "lboro-courses.ts",
+   "index": 195,
+   "from": "lboro-financial-mathematics",
+   "to": "lboro-financial-mathematics-undergraduate",
+   "name": "Financial Mathematics"
+  },
+  {
+   "file": "lboro-courses.ts",
+   "index": 199,
+   "from": "lboro-business-analytics",
+   "to": "lboro-business-analytics-undergraduate",
+   "name": "Business Analytics"
+  },
+  {
+   "file": "lboro-courses.ts",
+   "index": 201,
+   "from": "lboro-banner",
+   "to": "lboro-banner-undergraduate",
+   "name": "Banner"
+  },
+  {
+   "file": "lboro-courses.ts",
+   "index": 221,
+   "from": "lboro-sport-management",
+   "to": "lboro-sport-management-postgraduate",
+   "name": "Sport Management"
+  },
+  {
+   "file": "lboro-courses.ts",
+   "index": 226,
+   "from": "lboro-finance",
+   "to": "lboro-finance-undergraduate",
+   "name": "Finance"
+  },
+  {
+   "file": "leiden-university-courses.ts",
+   "index": 2,
+   "from": "leiden-african-studies",
+   "to": "leiden-african-studies-master",
+   "name": "African Studies"
+  },
+  {
+   "file": "leiden-university-courses.ts",
+   "index": 13,
+   "from": "leiden-archaeology",
+   "to": "leiden-archaeology-master",
+   "name": "Archaeology"
+  },
+  {
+   "file": "leiden-university-courses.ts",
+   "index": 14,
+   "from": "leiden-archaeology",
+   "to": "leiden-archaeology-postgraduate",
+   "name": "Archaeology"
+  },
+  {
+   "file": "leiden-university-courses.ts",
+   "index": 16,
+   "from": "leiden-art-history",
+   "to": "leiden-art-history-master",
+   "name": "Art History"
+  },
+  {
+   "file": "maastricht-courses.ts",
+   "index": 25,
+   "from": "maastricht-european-law-school",
+   "to": "maastricht-european-law-school-masters",
+   "name": "European Law School"
+  },
+  {
+   "file": "maastricht-courses.ts",
+   "index": 28,
+   "from": "maastricht-biomedical-sciences",
+   "to": "maastricht-biomedical-sciences-masters",
+   "name": "Biomedical Sciences"
+  },
+  {
+   "file": "maastricht-courses.ts",
+   "index": 37,
+   "from": "maastricht-medicine",
+   "to": "maastricht-medicine-masters",
+   "name": "Medicine"
+  },
+  {
+   "file": "maastricht-courses.ts",
+   "index": 56,
+   "from": "maastricht-european-studies",
+   "to": "maastricht-european-studies-masters",
+   "name": "European Studies"
+  },
+  {
+   "file": "maastricht-courses.ts",
+   "index": 74,
+   "from": "maastricht-econometrics-operations-research",
+   "to": "maastricht-econometrics-operations-research-masters",
+   "name": "Econometrics Operations Research"
+  },
+  {
+   "file": "maastricht-university-courses.ts",
+   "index": 25,
+   "from": "maastricht-european-law-school",
+   "to": "maastricht-european-law-school-masters",
+   "name": "European Law School"
+  },
+  {
+   "file": "maastricht-university-courses.ts",
+   "index": 28,
+   "from": "maastricht-biomedical-sciences",
+   "to": "maastricht-biomedical-sciences-masters",
+   "name": "Biomedical Sciences"
+  },
+  {
+   "file": "maastricht-university-courses.ts",
+   "index": 37,
+   "from": "maastricht-medicine",
+   "to": "maastricht-medicine-masters",
+   "name": "Medicine"
+  },
+  {
+   "file": "maastricht-university-courses.ts",
+   "index": 56,
+   "from": "maastricht-european-studies",
+   "to": "maastricht-european-studies-masters",
+   "name": "European Studies"
+  },
+  {
+   "file": "maastricht-university-courses.ts",
+   "index": 74,
+   "from": "maastricht-econometrics-operations-research",
+   "to": "maastricht-econometrics-operations-research-masters",
+   "name": "Econometrics Operations Research"
+  },
+  {
+   "file": "ncl-courses.ts",
+   "index": 139,
+   "from": "ncl-international-politics-ma",
+   "to": "ncl-international-politics-ma-global-justice-and",
+   "name": "International Politics (Global Justice and Ethics) MA"
+  },
+  {
+   "file": "ncl-courses.ts",
+   "index": 147,
+   "from": "ncl-landscape-architecture-master-of",
+   "to": "ncl-landscape-architecture-master-of-mla",
+   "name": "Landscape Architecture, Master of (MLA)"
+  },
+  {
+   "file": "ncl-courses.ts",
+   "index": 186,
+   "from": "ncl-postgraduate-certificate-in-education",
+   "to": "ncl-postgraduate-certificate-in-education-pgce-secondary-with",
+   "name": "Postgraduate Certificate in Education (PGCE) Secondary (with Qualified Teacher Status QTS)"
+  },
+  {
+   "file": "northeastern-courses.ts",
+   "index": 32,
+   "from": "ne-interdisciplinary",
+   "to": "ne-interdisciplinary-health-sciences",
+   "name": "Interdisciplinary Masters"
+  },
+  {
+   "file": "northeastern-courses.ts",
+   "index": 42,
+   "from": "ne-dual-degrees",
+   "to": "ne-dual-degrees-law",
+   "name": "Dual Degrees Masters"
+  },
+  {
+   "file": "northeastern-courses.ts",
+   "index": 52,
+   "from": "ne-graduate-certificate-programs",
+   "to": "ne-graduate-certificate-programs-professional-studies",
+   "name": "Graduate Certificate Programs PGCert"
+  },
+  {
+   "file": "northeastern-courses.ts",
+   "index": 56,
+   "from": "ne-graduate-certificate-programs",
+   "to": "ne-graduate-certificate-programs-science",
+   "name": "Graduate Certificate Programs PGCert"
+  },
+  {
+   "file": "northeastern-courses.ts",
+   "index": 57,
+   "from": "ne-interdisciplinary",
+   "to": "ne-interdisciplinary-science",
+   "name": "Interdisciplinary Masters"
+  },
+  {
+   "file": "northeastern-courses.ts",
+   "index": 67,
+   "from": "ne-interdisciplinary",
+   "to": "ne-interdisciplinary-social-sciences-humanities",
+   "name": "Interdisciplinary Masters"
+  },
+  {
+   "file": "rdg-courses.ts",
+   "index": 71,
+   "from": "rdg-accounting",
+   "to": "rdg-accounting-masters",
+   "name": "Accounting"
+  },
+  {
+   "file": "rdg-courses.ts",
+   "index": 72,
+   "from": "rdg-agriculture",
+   "to": "rdg-agriculture-masters",
+   "name": "Agriculture"
+  },
+  {
+   "file": "rdg-courses.ts",
+   "index": 73,
+   "from": "rdg-ancient-history",
+   "to": "rdg-ancient-history-masters",
+   "name": "Ancient History"
+  },
+  {
+   "file": "rdg-courses.ts",
+   "index": 74,
+   "from": "rdg-archaeology",
+   "to": "rdg-archaeology-masters",
+   "name": "Archaeology"
+  },
+  {
+   "file": "rdg-courses.ts",
+   "index": 75,
+   "from": "rdg-architecture",
+   "to": "rdg-architecture-masters",
+   "name": "Architecture"
+  },
+  {
+   "file": "rdg-courses.ts",
+   "index": 76,
+   "from": "rdg-art",
+   "to": "rdg-art-masters",
+   "name": "Art"
+  },
+  {
+   "file": "rdg-courses.ts",
+   "index": 78,
+   "from": "rdg-biological-sciences",
+   "to": "rdg-biological-sciences-masters",
+   "name": "Biological Sciences"
+  },
+  {
+   "file": "rdg-courses.ts",
+   "index": 79,
+   "from": "rdg-biomedical-sciences",
+   "to": "rdg-biomedical-sciences-masters",
+   "name": "Biomedical Sciences"
+  },
+  {
+   "file": "rdg-courses.ts",
+   "index": 83,
+   "from": "rdg-climate-science",
+   "to": "rdg-climate-science-masters",
+   "name": "Climate Science"
+  },
+  {
+   "file": "rdg-courses.ts",
+   "index": 84,
+   "from": "rdg-computer-science",
+   "to": "rdg-computer-science-masters",
+   "name": "Computer Science"
+  },
+  {
+   "file": "rdg-courses.ts",
+   "index": 90,
+   "from": "rdg-ecology",
+   "to": "rdg-ecology-masters",
+   "name": "Ecology"
+  },
+  {
+   "file": "rdg-courses.ts",
+   "index": 91,
+   "from": "rdg-economics",
+   "to": "rdg-economics-masters",
+   "name": "Economics"
+  },
+  {
+   "file": "rdg-courses.ts",
+   "index": 92,
+   "from": "rdg-education",
+   "to": "rdg-education-masters",
+   "name": "Education"
+  },
+  {
+   "file": "rdg-courses.ts",
+   "index": 94,
+   "from": "rdg-engineering",
+   "to": "rdg-engineering-masters",
+   "name": "Engineering"
+  },
+  {
+   "file": "rdg-courses.ts",
+   "index": 95,
+   "from": "rdg-english-language-and-applied-linguistics",
+   "to": "rdg-english-language-and-applied-linguistics-masters",
+   "name": "English Language and Applied Linguistics"
+  },
+  {
+   "file": "rdg-courses.ts",
+   "index": 96,
+   "from": "rdg-english-literature",
+   "to": "rdg-english-literature-masters",
+   "name": "English Literature"
+  },
+  {
+   "file": "rdg-courses.ts",
+   "index": 99,
+   "from": "rdg-finance",
+   "to": "rdg-finance-masters",
+   "name": "Finance"
+  },
+  {
+   "file": "rdg-courses.ts",
+   "index": 103,
+   "from": "rdg-healthcare",
+   "to": "rdg-healthcare-masters",
+   "name": "Healthcare"
+  },
+  {
+   "file": "rdg-courses.ts",
+   "index": 104,
+   "from": "rdg-history",
+   "to": "rdg-history-masters",
+   "name": "History"
+  },
+  {
+   "file": "rdg-courses.ts",
+   "index": 107,
+   "from": "rdg-law",
+   "to": "rdg-law-masters",
+   "name": "Law"
+  },
+  {
+   "file": "rdg-courses.ts",
+   "index": 108,
+   "from": "rdg-linguistics",
+   "to": "rdg-linguistics-masters",
+   "name": "Linguistics"
+  },
+  {
+   "file": "rdg-courses.ts",
+   "index": 110,
+   "from": "rdg-marketing",
+   "to": "rdg-marketing-masters",
+   "name": "Marketing"
+  },
+  {
+   "file": "rdg-courses.ts",
+   "index": 111,
+   "from": "rdg-meteorology-and-climate",
+   "to": "rdg-meteorology-and-climate-masters",
+   "name": "Meteorology and Climate"
+  },
+  {
+   "file": "rdg-courses.ts",
+   "index": 112,
+   "from": "rdg-microbiology",
+   "to": "rdg-microbiology-masters",
+   "name": "Microbiology"
+  },
+  {
+   "file": "rdg-courses.ts",
+   "index": 114,
+   "from": "rdg-pharmacy",
+   "to": "rdg-pharmacy-masters",
+   "name": "Pharmacy"
+  },
+  {
+   "file": "rdg-courses.ts",
+   "index": 115,
+   "from": "rdg-philosophy",
+   "to": "rdg-philosophy-masters",
+   "name": "Philosophy"
+  },
+  {
+   "file": "rdg-courses.ts",
+   "index": 116,
+   "from": "rdg-physician-associate",
+   "to": "rdg-physician-associate-masters",
+   "name": "Physician Associate"
+  },
+  {
+   "file": "rdg-courses.ts",
+   "index": 119,
+   "from": "rdg-psychology",
+   "to": "rdg-psychology-masters",
+   "name": "Psychology"
+  },
+  {
+   "file": "rdg-courses.ts",
+   "index": 121,
+   "from": "rdg-real-estate-and-planning",
+   "to": "rdg-real-estate-and-planning-masters",
+   "name": "Real Estate and Planning"
+  },
+  {
+   "file": "rdg-courses.ts",
+   "index": 123,
+   "from": "rdg-speech-and-language-therapy",
+   "to": "rdg-speech-and-language-therapy-masters",
+   "name": "Speech and Language Therapy"
+  },
+  {
+   "file": "rdg-courses.ts",
+   "index": 125,
+   "from": "rdg-teaching",
+   "to": "rdg-teaching-masters",
+   "name": "Teaching"
+  },
+  {
+   "file": "rdg-courses.ts",
+   "index": 126,
+   "from": "rdg-theatre",
+   "to": "rdg-theatre-masters",
+   "name": "Theatre"
+  },
+  {
+   "file": "rdg-courses.ts",
+   "index": 129,
+   "from": "rdg-zoology",
+   "to": "rdg-zoology-masters",
+   "name": "Zoology"
+  },
+  {
+   "file": "strath-courses.ts",
+   "index": 344,
+   "from": "strath-dataanalytics",
+   "to": "strath-dataanalytics-postgraduate",
+   "name": "MSc Data Analytics"
+  },
+  {
+   "file": "strath-courses.ts",
+   "index": 355,
+   "from": "strath-economicsfinance",
+   "to": "strath-economicsfinance-postgraduate",
+   "name": "MSc Economics & Finance"
+  },
+  {
+   "file": "strath-courses.ts",
+   "index": 371,
+   "from": "strath-finance",
+   "to": "strath-finance-postgraduate",
+   "name": "MSc Finance"
+  },
+  {
+   "file": "strath-courses.ts",
+   "index": 383,
+   "from": "strath-history",
+   "to": "strath-history-masters",
+   "name": "MSc/PgDip History"
+  },
+  {
+   "file": "strath-courses.ts",
+   "index": 384,
+   "from": "strath-humanresourcemanagement",
+   "to": "strath-humanresourcemanagement-postgraduate",
+   "name": "MSc Human Resource Management"
+  },
+  {
+   "file": "strath-courses.ts",
+   "index": 404,
+   "from": "strath-law",
+   "to": "strath-law-masters",
+   "name": "LLM / PgDip / PgCert Law"
+  },
+  {
+   "file": "strath-courses.ts",
+   "index": 412,
+   "from": "strath-marketing",
+   "to": "strath-marketing-masters",
+   "name": "MSc Marketing"
+  },
+  {
+   "file": "strath-courses.ts",
+   "index": 442,
+   "from": "strath-primaryeducation",
+   "to": "strath-primaryeducation-postgraduate",
+   "name": "PGDE Primary Education"
+  },
+  {
+   "file": "strath-courses.ts",
+   "index": 449,
+   "from": "strath-prostheticsorthotics",
+   "to": "strath-prostheticsorthotics-postgraduate",
+   "name": "MSc Prosthetics & Orthotics"
+  },
+  {
+   "file": "strath-courses.ts",
+   "index": 483,
+   "from": "strath-socialwork",
+   "to": "strath-socialwork-postgraduate",
+   "name": "MSW Social Work"
+  },
+  {
+   "file": "strath-courses.ts",
+   "index": 514,
+   "from": "strath-internationalbusiness",
+   "to": "strath-internationalbusiness-phd",
+   "name": "PhD International Business"
+  },
+  {
+   "file": "strath-courses.ts",
+   "index": 515,
+   "from": "strath-translationstudies",
+   "to": "strath-translationstudies-phd",
+   "name": "PhD Translation Studies"
+  },
+  {
+   "file": "strath-courses.ts",
+   "index": 517,
+   "from": "strath-accountingfinance",
+   "to": "strath-accountingfinance-phd",
+   "name": "PhD, MPhil, MRes Accounting & finance"
+  },
+  {
+   "file": "strath-courses.ts",
+   "index": 521,
+   "from": "strath-biomedicalengineering",
+   "to": "strath-biomedicalengineering-phd",
+   "name": "MRes, MPhil, PhD Biomedical engineering"
+  },
+  {
+   "file": "strath-courses.ts",
+   "index": 523,
+   "from": "strath-chemistry",
+   "to": "strath-chemistry-phd",
+   "name": "MPhil, PhD Chemistry"
+  },
+  {
+   "file": "strath-courses.ts",
+   "index": 527,
+   "from": "strath-creativewriting",
+   "to": "strath-creativewriting-phd",
+   "name": "PhD, MPhil, MRes Creative writing"
+  },
+  {
+   "file": "strath-courses.ts",
+   "index": 533,
+   "from": "strath-economics",
+   "to": "strath-economics-phd",
+   "name": "MPhil, MRes, PhD Economics"
+  },
+  {
+   "file": "strath-courses.ts",
+   "index": 536,
+   "from": "strath-electronicelectricalengineering",
+   "to": "strath-electronicelectricalengineering-phd",
+   "name": "MPhil, PhD, EngD & Industrial Doctorate Electronic & electrical engineering"
+  },
+  {
+   "file": "strath-courses.ts",
+   "index": 537,
+   "from": "strath-english",
+   "to": "strath-english-phd",
+   "name": "PhD, MPhil, MRes English"
+  },
+  {
+   "file": "strath-courses.ts",
+   "index": 540,
+   "from": "strath-history",
+   "to": "strath-history-phd",
+   "name": "PhD, MPhil, MRes History"
+  },
+  {
+   "file": "strath-courses.ts",
+   "index": 543,
+   "from": "strath-law",
+   "to": "strath-law-phd",
+   "name": "PhD, MPhil Law"
+  },
+  {
+   "file": "strath-courses.ts",
+   "index": 545,
+   "from": "strath-marketing",
+   "to": "strath-marketing-phd",
+   "name": "PhD, MPhil, MRes Marketing"
+  },
+  {
+   "file": "strath-courses.ts",
+   "index": 552,
+   "from": "strath-physics",
+   "to": "strath-physics-phd",
+   "name": "PhD, MPhil Physics"
+  },
+  {
+   "file": "strath-courses.ts",
+   "index": 553,
+   "from": "strath-politics",
+   "to": "strath-politics-phd",
+   "name": "PhD, MPhil Politics"
+  },
+  {
+   "file": "strath-courses.ts",
+   "index": 554,
+   "from": "strath-psychology",
+   "to": "strath-psychology-phd",
+   "name": "MPhil, PhD, DEdPsy Psychology"
+  },
+  {
+   "file": "tu-munich-courses.ts",
+   "index": 172,
+   "from": "tum-vocational-education-electrical-engineering-and-information-technology-teaching-",
+   "to": "tum-vocational-education-electrical-engineering-and-information-technology-te-2",
+   "name": "Vocational Education Electrical Engineering and Information Technology Teaching at Vocational Schools Master of Education Med"
+  },
+  {
+   "file": "tu-munich-courses.ts",
+   "index": 174,
+   "from": "tum-vocational-education-health-and-health-care-science-teaching-at-vocational-schoo",
+   "to": "tum-vocational-education-health-and-health-care-science-teaching-at-vocationa-2",
+   "name": "Vocational Education Health and Health Care Science Teaching at Vocational Schools Bachelor of Education Bed"
+  },
+  {
+   "file": "tu-munich-courses.ts",
+   "index": 178,
+   "from": "tum-vocational-education-nutrition-and-home-economics-teaching-at-vocational-schools",
+   "to": "tum-vocational-education-nutrition-and-home-economics-teaching-at-vocational-2",
+   "name": "Vocational Education Nutrition and Home Economics Teaching at Vocational Schools Master of Education Med"
+  },
+  {
+   "file": "university-of-amsterdam-courses.ts",
+   "index": 56,
+   "from": "amsterdam-sociology",
+   "to": "amsterdam-sociology-masters",
+   "name": "Sociology"
+  },
+  {
+   "file": "university-of-amsterdam-courses.ts",
+   "index": 98,
+   "from": "amsterdam-archaeology",
+   "to": "amsterdam-archaeology-masters",
+   "name": "Archaeology"
+  },
+  {
+   "file": "university-of-amsterdam-courses.ts",
+   "index": 141,
+   "from": "amsterdam-business-administration",
+   "to": "amsterdam-business-administration-masters",
+   "name": "Business Administration"
+  },
+  {
+   "file": "university-of-amsterdam-courses.ts",
+   "index": 157,
+   "from": "amsterdam-linguistics",
+   "to": "amsterdam-linguistics-masters",
+   "name": "Linguistics"
+  },
+  {
+   "file": "university-of-amsterdam-courses.ts",
+   "index": 158,
+   "from": "amsterdam-european-studies",
+   "to": "amsterdam-european-studies-masters",
+   "name": "European Studies"
+  },
+  {
+   "file": "university-of-barcelona-courses.ts",
+   "index": 45,
+   "from": "ub-chemistry",
+   "to": "ub-chemistry-bachelor",
+   "name": "Chemistry"
+  },
+  {
+   "file": "university-of-barcelona-courses.ts",
+   "index": 47,
+   "from": "ub-economics",
+   "to": "ub-economics-bachelor",
+   "name": "Economics"
+  },
+  {
+   "file": "university-of-barcelona-courses.ts",
+   "index": 48,
+   "from": "ub-law",
+   "to": "ub-law-bachelor",
+   "name": "Law"
+  },
+  {
+   "file": "university-of-barcelona-courses.ts",
+   "index": 49,
+   "from": "ub-medicine",
+   "to": "ub-medicine-bachelor",
+   "name": "Medicine"
+  },
+  {
+   "file": "university-of-barcelona-courses.ts",
+   "index": 50,
+   "from": "ub-nursing",
+   "to": "ub-nursing-bachelor",
+   "name": "Nursing"
+  },
+  {
+   "file": "university-of-barcelona-courses.ts",
+   "index": 52,
+   "from": "ub-psychology",
+   "to": "ub-psychology-bachelor",
+   "name": "Psychology"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 262,
+   "from": "grug-american-studies",
+   "to": "grug-american-studies-bachelor",
+   "name": "American Studies"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 263,
+   "from": "grug-applied-mathematics",
+   "to": "grug-applied-mathematics-bachelor",
+   "name": "Applied Mathematics"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 264,
+   "from": "grug-applied-physics",
+   "to": "grug-applied-physics-bachelor",
+   "name": "Applied Physics"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 265,
+   "from": "grug-archaeology",
+   "to": "grug-archaeology-bachelor",
+   "name": "Archaeology"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 266,
+   "from": "grug-art-history",
+   "to": "grug-art-history-bachelor",
+   "name": "Art History"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 267,
+   "from": "grug-artificial-intelligence",
+   "to": "grug-artificial-intelligence-bachelor",
+   "name": "Artificial Intelligence"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 270,
+   "from": "grug-astronomy",
+   "to": "grug-astronomy-bachelor",
+   "name": "Astronomy"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 276,
+   "from": "grug-biology",
+   "to": "grug-biology-bachelor",
+   "name": "Biology"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 277,
+   "from": "grug-biomedical-engineering",
+   "to": "grug-biomedical-engineering-bachelor",
+   "name": "Biomedical Engineering"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 278,
+   "from": "grug-business-administration",
+   "to": "grug-business-administration-bachelor",
+   "name": "Business Administration"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 279,
+   "from": "grug-by-faculty",
+   "to": "grug-by-faculty-bachelor",
+   "name": "By Faculty"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 280,
+   "from": "grug-by-subject",
+   "to": "grug-by-subject-bachelor",
+   "name": "By Subject"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 281,
+   "from": "grug-campus-fryslan",
+   "to": "grug-campus-fryslan-bachelor",
+   "name": "Campus Fryslan"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 282,
+   "from": "grug-chemical-engineering",
+   "to": "grug-chemical-engineering-bachelor",
+   "name": "Chemical Engineering"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 283,
+   "from": "grug-chemistry",
+   "to": "grug-chemistry-bachelor",
+   "name": "Chemistry"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 285,
+   "from": "grug-classics-parttime",
+   "to": "grug-classics-parttime-bachelor",
+   "name": "Classics Parttime"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 286,
+   "from": "grug-communication-and-information-studies",
+   "to": "grug-communication-and-information-studies-bachelor",
+   "name": "Communication and Information Studies"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 287,
+   "from": "grug-computing-science",
+   "to": "grug-computing-science-bachelor",
+   "name": "Computing Science"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 289,
+   "from": "grug-dentistry",
+   "to": "grug-dentistry-bachelor",
+   "name": "Dentistry"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 300,
+   "from": "grug-faculty-of-arts",
+   "to": "grug-faculty-of-arts-bachelor",
+   "name": "Faculty of Arts"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 301,
+   "from": "grug-faculty-of-behavioural-and-social-sciences",
+   "to": "grug-faculty-of-behavioural-and-social-sciences-bachelor",
+   "name": "Faculty of Behavioural and Social Sciences"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 302,
+   "from": "grug-faculty-of-economics-and-business",
+   "to": "grug-faculty-of-economics-and-business-bachelor",
+   "name": "Faculty of Economics and Business"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 303,
+   "from": "grug-faculty-of-law",
+   "to": "grug-faculty-of-law-bachelor",
+   "name": "Faculty of Law"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 304,
+   "from": "grug-faculty-of-medical-sciences",
+   "to": "grug-faculty-of-medical-sciences-bachelor",
+   "name": "Faculty of Medical Sciences"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 305,
+   "from": "grug-faculty-of-philosophy",
+   "to": "grug-faculty-of-philosophy-bachelor",
+   "name": "Faculty of Philosophy"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 306,
+   "from": "grug-faculty-of-religion-culture-and-society",
+   "to": "grug-faculty-of-religion-culture-and-society-bachelor",
+   "name": "Faculty of Religion Culture and Society"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 307,
+   "from": "grug-faculty-of-science-and-engineering",
+   "to": "grug-faculty-of-science-and-engineering-bachelor",
+   "name": "Faculty of Science and Engineering"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 308,
+   "from": "grug-faculty-of-spatial-sciences",
+   "to": "grug-faculty-of-spatial-sciences-bachelor",
+   "name": "Faculty of Spatial Sciences"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 314,
+   "from": "grug-history",
+   "to": "grug-history-bachelor",
+   "name": "History"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 316,
+   "from": "grug-in-english",
+   "to": "grug-in-english-bachelor",
+   "name": "In English"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 317,
+   "from": "grug-industrial-engineering-and-management",
+   "to": "grug-industrial-engineering-and-management-bachelor",
+   "name": "Industrial Engineering and Management"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 318,
+   "from": "grug-information-science",
+   "to": "grug-information-science-bachelor",
+   "name": "Information Science"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 322,
+   "from": "grug-international-relations-and-international-organization",
+   "to": "grug-international-relations-and-international-organization-bachelor",
+   "name": "International Relations and International Organization"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 327,
+   "from": "grug-law",
+   "to": "grug-law-bachelor",
+   "name": "Law"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 330,
+   "from": "grug-linguistics",
+   "to": "grug-linguistics-bachelor",
+   "name": "Linguistics"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 331,
+   "from": "grug-mathematics",
+   "to": "grug-mathematics-bachelor",
+   "name": "Mathematics"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 332,
+   "from": "grug-media-studies",
+   "to": "grug-media-studies-bachelor",
+   "name": "Media Studies"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 333,
+   "from": "grug-medicine",
+   "to": "grug-medicine-bachelor",
+   "name": "Medicine"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 334,
+   "from": "grug-middle-eastern-studies",
+   "to": "grug-middle-eastern-studies-bachelor",
+   "name": "Middle Eastern Studies"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 337,
+   "from": "grug-notarial-law",
+   "to": "grug-notarial-law-bachelor",
+   "name": "Notarial Law"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 338,
+   "from": "grug-pedagogical-sciences",
+   "to": "grug-pedagogical-sciences-bachelor",
+   "name": "Pedagogical Sciences"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 339,
+   "from": "grug-pharmacy",
+   "to": "grug-pharmacy-bachelor",
+   "name": "Pharmacy"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 341,
+   "from": "grug-philosophy",
+   "to": "grug-philosophy-bachelor",
+   "name": "Philosophy"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 342,
+   "from": "grug-physics",
+   "to": "grug-physics-bachelor",
+   "name": "Physics"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 347,
+   "from": "grug-sociology",
+   "to": "grug-sociology-bachelor",
+   "name": "Sociology"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 351,
+   "from": "grug-subject-philosophy",
+   "to": "grug-subject-philosophy-bachelor",
+   "name": "Subject Philosophy"
+  },
+  {
+   "file": "university-of-groningen-courses.ts",
+   "index": 352,
+   "from": "grug-tax-law",
+   "to": "grug-tax-law-bachelor",
+   "name": "Tax Law"
+  },
+  {
+   "file": "yorkuni-courses.ts",
+   "index": 18,
+   "from": "yorkuni-pgce-biology",
+   "to": "yorkuni-pgce-biology-nicholas-postgate-trust",
+   "name": "Biology - Nicholas Postgate Trust PGCE"
+  },
+  {
+   "file": "yorkuni-courses.ts",
+   "index": 26,
+   "from": "yorkuni-pgce-chemistry",
+   "to": "yorkuni-pgce-chemistry-nicholas-postgate-trust",
+   "name": "Chemistry - Nicholas Postgate Trust PGCE"
+  },
+  {
+   "file": "yorkuni-courses.ts",
+   "index": 105,
+   "from": "yorkuni-pgce-history",
+   "to": "yorkuni-pgce-history-nicholas-postgate-trust",
+   "name": "History - Nicholas Postgate Trust PGCE"
+  },
+  {
+   "file": "yorkuni-courses.ts",
+   "index": 147,
+   "from": "yorkuni-pgce-mathematics",
+   "to": "yorkuni-pgce-mathematics-nicholas-postgate-trust",
+   "name": "Mathematics - Nicholas Postgate Trust PGCE"
+  }
+ ],
+ "identicalRowsToRemove": [
+  {
+   "file": "bmouth-courses.ts",
+   "index": 37,
+   "slug": "bmouth-msc-digital-marketing",
+   "name": "MSc Digital Marketing"
+  }
+ ],
+ "notCoursesLeftShadowed": [
+  {
+   "file": "exeter-courses.ts",
+   "index": 170,
+   "slug": "exeter-skip-to-main-content",
+   "name": "Skip to main content",
+   "url": "https://www.exeter.ac.uk/undergraduate-degrees/#main-col"
+  },
+  {
+   "file": "exeter-courses.ts",
+   "index": 172,
+   "slug": "exeter-search-for-a-course",
+   "name": "Search for a course",
+   "url": "https://www.exeter.ac.uk/undergraduate-degrees/#courses"
+  },
+  {
+   "file": "exeter-courses.ts",
+   "index": 173,
+   "slug": "exeter-frequently-asked-questions-faqs",
+   "name": "Frequently asked questions (FAQs)",
+   "url": "https://www.exeter.ac.uk/undergraduate-degrees/#faqs"
+  },
+  {
+   "file": "swinburne-courses.ts",
+   "index": 1,
+   "slug": "swinburne-",
+   "name": "Orientation",
+   "url": "https://www.swinburne.edu.au/courses/orientation/"
+  },
+  {
+   "file": "swinburne-courses.ts",
+   "index": 2,
+   "slug": "swinburne-",
+   "name": "Swinburne intakes",
+   "url": "https://www.swinburne.edu.au/courses/intakes/"
+  },
+  {
+   "file": "swinburne-courses.ts",
+   "index": 3,
+   "slug": "swinburne-",
+   "name": "Study levels and options",
+   "url": "https://www.swinburne.edu.au/courses/study-levels-explained/"
+  },
+  {
+   "file": "swinburne-courses.ts",
+   "index": 4,
+   "slug": "swinburne-",
+   "name": "Course delivery options",
+   "url": "https://www.swinburne.edu.au/courses/course-delivery-options/"
+  },
+  {
+   "file": "ubc-courses.ts",
+   "index": 177,
+   "slug": "ubc-living-in-residence",
+   "name": "Living in residence",
+   "url": "https://you.ubc.ca/ubc-life/okanagan/residence-ok/"
+  },
+  {
+   "file": "ubc-courses.ts",
+   "index": 178,
+   "slug": "ubc-living-off-campus",
+   "name": "Living off campus",
+   "url": "https://you.ubc.ca/ubc-life/okanagan/living-off-campus-ok/"
+  }
+ ]
+}

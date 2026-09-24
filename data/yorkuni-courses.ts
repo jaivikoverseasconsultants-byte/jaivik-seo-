@@ -556,7 +556,7 @@ export const yorkuniCourses: YorkuniCourse[] = [
   {
     "id": "yorkuni-19",
     "name": "Biology - Nicholas Postgate Trust PGCE",
-    "slug": "yorkuni-pgce-biology",
+    "slug": "yorkuni-pgce-biology-nicholas-postgate-trust",
     "url": "https://www.york.ac.uk/study/postgraduate-taught/courses/pgce-biology/",
     "level": "PGCE",
     "studyLevel": "Postgraduate",
@@ -796,7 +796,7 @@ export const yorkuniCourses: YorkuniCourse[] = [
   {
     "id": "yorkuni-27",
     "name": "Chemistry - Nicholas Postgate Trust PGCE",
-    "slug": "yorkuni-pgce-chemistry",
+    "slug": "yorkuni-pgce-chemistry-nicholas-postgate-trust",
     "url": "https://www.york.ac.uk/study/postgraduate-taught/courses/pgce-chemistry/",
     "level": "PGCE",
     "studyLevel": "Postgraduate",
@@ -3166,7 +3166,7 @@ export const yorkuniCourses: YorkuniCourse[] = [
   {
     "id": "yorkuni-106",
     "name": "History - Nicholas Postgate Trust PGCE",
-    "slug": "yorkuni-pgce-history",
+    "slug": "yorkuni-pgce-history-nicholas-postgate-trust",
     "url": "https://www.york.ac.uk/study/postgraduate-taught/courses/pgce-history/",
     "level": "PGCE",
     "studyLevel": "Postgraduate",
@@ -4426,7 +4426,7 @@ export const yorkuniCourses: YorkuniCourse[] = [
   {
     "id": "yorkuni-148",
     "name": "Mathematics - Nicholas Postgate Trust PGCE",
-    "slug": "yorkuni-pgce-mathematics",
+    "slug": "yorkuni-pgce-mathematics-nicholas-postgate-trust",
     "url": "https://www.york.ac.uk/study/postgraduate-taught/courses/pgce-mathematics/",
     "level": "PGCE",
     "studyLevel": "Postgraduate",

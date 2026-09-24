@@ -67,7 +67,7 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
   {
     "id": "leiden-3",
     "name": "African Studies",
-    "slug": "leiden-african-studies",
+    "slug": "leiden-african-studies-master",
     "url": "https://www.universiteitleiden.nl/en/education/study-programmes/master/african-studies",
     "level": "Master",
     "studyLevel": "Postgraduate",
@@ -394,7 +394,7 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
   {
     "id": "leiden-14",
     "name": "Archaeology",
-    "slug": "leiden-archaeology",
+    "slug": "leiden-archaeology-master",
     "url": "https://www.universiteitleiden.nl/en/education/study-programmes/master/archaeology",
     "level": "Master",
     "studyLevel": "Postgraduate",
@@ -424,7 +424,7 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
   {
     "id": "leiden-15",
     "name": "Archaeology",
-    "slug": "leiden-archaeology",
+    "slug": "leiden-archaeology-postgraduate",
     "url": "https://www.universiteitleiden.nl/en/education/study-programmes/master/archaeology-research",
     "level": "Master",
     "studyLevel": "Postgraduate",
@@ -483,7 +483,7 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
   {
     "id": "leiden-17",
     "name": "Art History",
-    "slug": "leiden-art-history",
+    "slug": "leiden-art-history-master",
     "url": "https://www.universiteitleiden.nl/en/education/study-programmes/master/arts-and-culture/art-history",
     "level": "Master",
     "studyLevel": "Postgraduate",

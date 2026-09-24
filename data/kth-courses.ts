@@ -1219,7 +1219,7 @@ export const kthCourses: KthCourse[] = [
 {
   "id": "kth-44",
   "name": "MSc Human-Computer Interaction",
-  "slug": "kth-msc-human-computer-interaction",
+  "slug": "kth-msc-human-computer-interaction-stockholm-campus",
   "url": "https://www.kth.se",
   "level": "Masters",
   "studyLevel": "Postgraduate",

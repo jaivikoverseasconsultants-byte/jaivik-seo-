@@ -7867,7 +7867,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-263",
     "name": "American Studies",
-    "slug": "grug-american-studies",
+    "slug": "grug-american-studies-bachelor",
     "url": "https://www.rug.nl/bachelors/american-studies/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -7896,7 +7896,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-264",
     "name": "Applied Mathematics",
-    "slug": "grug-applied-mathematics",
+    "slug": "grug-applied-mathematics-bachelor",
     "url": "https://www.rug.nl/bachelors/applied-mathematics/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -7925,7 +7925,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-265",
     "name": "Applied Physics",
-    "slug": "grug-applied-physics",
+    "slug": "grug-applied-physics-bachelor",
     "url": "https://www.rug.nl/bachelors/applied-physics/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -7954,7 +7954,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-266",
     "name": "Archaeology",
-    "slug": "grug-archaeology",
+    "slug": "grug-archaeology-bachelor",
     "url": "https://www.rug.nl/bachelors/archaeology/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -7983,7 +7983,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-267",
     "name": "Art History",
-    "slug": "grug-art-history",
+    "slug": "grug-art-history-bachelor",
     "url": "https://www.rug.nl/bachelors/art-history/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -8012,7 +8012,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-268",
     "name": "Artificial Intelligence",
-    "slug": "grug-artificial-intelligence",
+    "slug": "grug-artificial-intelligence-bachelor",
     "url": "https://www.rug.nl/bachelors/artificial-intelligence/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -8099,7 +8099,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-271",
     "name": "Astronomy",
-    "slug": "grug-astronomy",
+    "slug": "grug-astronomy-bachelor",
     "url": "https://www.rug.nl/bachelors/astronomy/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -8273,7 +8273,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-277",
     "name": "Biology",
-    "slug": "grug-biology",
+    "slug": "grug-biology-bachelor",
     "url": "https://www.rug.nl/bachelors/biology/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -8302,7 +8302,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-278",
     "name": "Biomedical Engineering",
-    "slug": "grug-biomedical-engineering",
+    "slug": "grug-biomedical-engineering-bachelor",
     "url": "https://www.rug.nl/bachelors/biomedical-engineering/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -8331,7 +8331,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-279",
     "name": "Business Administration",
-    "slug": "grug-business-administration",
+    "slug": "grug-business-administration-bachelor",
     "url": "https://www.rug.nl/bachelors/business-administration/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -8360,7 +8360,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-280",
     "name": "By Faculty",
-    "slug": "grug-by-faculty",
+    "slug": "grug-by-faculty-bachelor",
     "url": "https://www.rug.nl/bachelors/by-faculty/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -8389,7 +8389,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-281",
     "name": "By Subject",
-    "slug": "grug-by-subject",
+    "slug": "grug-by-subject-bachelor",
     "url": "https://www.rug.nl/bachelors/by-subject/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -8418,7 +8418,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-282",
     "name": "Campus Fryslan",
-    "slug": "grug-campus-fryslan",
+    "slug": "grug-campus-fryslan-bachelor",
     "url": "https://www.rug.nl/bachelors/campus-fryslan/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -8447,7 +8447,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-283",
     "name": "Chemical Engineering",
-    "slug": "grug-chemical-engineering",
+    "slug": "grug-chemical-engineering-bachelor",
     "url": "https://www.rug.nl/bachelors/chemical-engineering/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -8476,7 +8476,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-284",
     "name": "Chemistry",
-    "slug": "grug-chemistry",
+    "slug": "grug-chemistry-bachelor",
     "url": "https://www.rug.nl/bachelors/chemistry/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -8534,7 +8534,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-286",
     "name": "Classics Parttime",
-    "slug": "grug-classics-parttime",
+    "slug": "grug-classics-parttime-bachelor",
     "url": "https://www.rug.nl/bachelors/classics-parttime/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -8563,7 +8563,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-287",
     "name": "Communication and Information Studies",
-    "slug": "grug-communication-and-information-studies",
+    "slug": "grug-communication-and-information-studies-bachelor",
     "url": "https://www.rug.nl/bachelors/communication-and-information-studies/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -8592,7 +8592,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-288",
     "name": "Computing Science",
-    "slug": "grug-computing-science",
+    "slug": "grug-computing-science-bachelor",
     "url": "https://www.rug.nl/bachelors/computing-science/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -8650,7 +8650,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-290",
     "name": "Dentistry",
-    "slug": "grug-dentistry",
+    "slug": "grug-dentistry-bachelor",
     "url": "https://www.rug.nl/bachelors/dentistry/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -8969,7 +8969,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-301",
     "name": "Faculty of Arts",
-    "slug": "grug-faculty-of-arts",
+    "slug": "grug-faculty-of-arts-bachelor",
     "url": "https://www.rug.nl/bachelors/faculty-of-arts/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -8998,7 +8998,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-302",
     "name": "Faculty of Behavioural and Social Sciences",
-    "slug": "grug-faculty-of-behavioural-and-social-sciences",
+    "slug": "grug-faculty-of-behavioural-and-social-sciences-bachelor",
     "url": "https://www.rug.nl/bachelors/faculty-of-behavioural-and-social-sciences/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -9027,7 +9027,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-303",
     "name": "Faculty of Economics and Business",
-    "slug": "grug-faculty-of-economics-and-business",
+    "slug": "grug-faculty-of-economics-and-business-bachelor",
     "url": "https://www.rug.nl/bachelors/faculty-of-economics-and-business/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -9056,7 +9056,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-304",
     "name": "Faculty of Law",
-    "slug": "grug-faculty-of-law",
+    "slug": "grug-faculty-of-law-bachelor",
     "url": "https://www.rug.nl/bachelors/faculty-of-law/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -9085,7 +9085,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-305",
     "name": "Faculty of Medical Sciences",
-    "slug": "grug-faculty-of-medical-sciences",
+    "slug": "grug-faculty-of-medical-sciences-bachelor",
     "url": "https://www.rug.nl/bachelors/faculty-of-medical-sciences/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -9114,7 +9114,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-306",
     "name": "Faculty of Philosophy",
-    "slug": "grug-faculty-of-philosophy",
+    "slug": "grug-faculty-of-philosophy-bachelor",
     "url": "https://www.rug.nl/bachelors/faculty-of-philosophy/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -9143,7 +9143,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-307",
     "name": "Faculty of Religion Culture and Society",
-    "slug": "grug-faculty-of-religion-culture-and-society",
+    "slug": "grug-faculty-of-religion-culture-and-society-bachelor",
     "url": "https://www.rug.nl/bachelors/faculty-of-religion-culture-and-society/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -9172,7 +9172,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-308",
     "name": "Faculty of Science and Engineering",
-    "slug": "grug-faculty-of-science-and-engineering",
+    "slug": "grug-faculty-of-science-and-engineering-bachelor",
     "url": "https://www.rug.nl/bachelors/faculty-of-science-and-engineering/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -9201,7 +9201,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-309",
     "name": "Faculty of Spatial Sciences",
-    "slug": "grug-faculty-of-spatial-sciences",
+    "slug": "grug-faculty-of-spatial-sciences-bachelor",
     "url": "https://www.rug.nl/bachelors/faculty-of-spatial-sciences/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -9375,7 +9375,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-315",
     "name": "History",
-    "slug": "grug-history",
+    "slug": "grug-history-bachelor",
     "url": "https://www.rug.nl/bachelors/history/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -9433,7 +9433,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-317",
     "name": "In English",
-    "slug": "grug-in-english",
+    "slug": "grug-in-english-bachelor",
     "url": "https://www.rug.nl/bachelors/in-english/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -9462,7 +9462,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-318",
     "name": "Industrial Engineering and Management",
-    "slug": "grug-industrial-engineering-and-management",
+    "slug": "grug-industrial-engineering-and-management-bachelor",
     "url": "https://www.rug.nl/bachelors/industrial-engineering-and-management/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -9491,7 +9491,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-319",
     "name": "Information Science",
-    "slug": "grug-information-science",
+    "slug": "grug-information-science-bachelor",
     "url": "https://www.rug.nl/bachelors/information-science/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -9607,7 +9607,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-323",
     "name": "International Relations and International Organization",
-    "slug": "grug-international-relations-and-international-organization",
+    "slug": "grug-international-relations-and-international-organization-bachelor",
     "url": "https://www.rug.nl/bachelors/international-relations-and-international-organization/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -9752,7 +9752,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-328",
     "name": "Law",
-    "slug": "grug-law",
+    "slug": "grug-law-bachelor",
     "url": "https://www.rug.nl/bachelors/law/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -9839,7 +9839,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-331",
     "name": "Linguistics",
-    "slug": "grug-linguistics",
+    "slug": "grug-linguistics-bachelor",
     "url": "https://www.rug.nl/bachelors/linguistics/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -9868,7 +9868,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-332",
     "name": "Mathematics",
-    "slug": "grug-mathematics",
+    "slug": "grug-mathematics-bachelor",
     "url": "https://www.rug.nl/bachelors/mathematics/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -9897,7 +9897,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-333",
     "name": "Media Studies",
-    "slug": "grug-media-studies",
+    "slug": "grug-media-studies-bachelor",
     "url": "https://www.rug.nl/bachelors/media-studies/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -9926,7 +9926,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-334",
     "name": "Medicine",
-    "slug": "grug-medicine",
+    "slug": "grug-medicine-bachelor",
     "url": "https://www.rug.nl/bachelors/medicine/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -9955,7 +9955,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-335",
     "name": "Middle Eastern Studies",
-    "slug": "grug-middle-eastern-studies",
+    "slug": "grug-middle-eastern-studies-bachelor",
     "url": "https://www.rug.nl/bachelors/middle-eastern-studies/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -10042,7 +10042,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-338",
     "name": "Notarial Law",
-    "slug": "grug-notarial-law",
+    "slug": "grug-notarial-law-bachelor",
     "url": "https://www.rug.nl/bachelors/notarial-law/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -10071,7 +10071,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-339",
     "name": "Pedagogical Sciences",
-    "slug": "grug-pedagogical-sciences",
+    "slug": "grug-pedagogical-sciences-bachelor",
     "url": "https://www.rug.nl/bachelors/pedagogical-sciences/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -10100,7 +10100,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-340",
     "name": "Pharmacy",
-    "slug": "grug-pharmacy",
+    "slug": "grug-pharmacy-bachelor",
     "url": "https://www.rug.nl/bachelors/pharmacy/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -10158,7 +10158,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-342",
     "name": "Philosophy",
-    "slug": "grug-philosophy",
+    "slug": "grug-philosophy-bachelor",
     "url": "https://www.rug.nl/bachelors/philosophy/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -10187,7 +10187,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-343",
     "name": "Physics",
-    "slug": "grug-physics",
+    "slug": "grug-physics-bachelor",
     "url": "https://www.rug.nl/bachelors/physics/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -10332,7 +10332,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-348",
     "name": "Sociology",
-    "slug": "grug-sociology",
+    "slug": "grug-sociology-bachelor",
     "url": "https://www.rug.nl/bachelors/sociology/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -10448,7 +10448,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-352",
     "name": "Subject Philosophy",
-    "slug": "grug-subject-philosophy",
+    "slug": "grug-subject-philosophy-bachelor",
     "url": "https://www.rug.nl/bachelors/subject-philosophy/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -10477,7 +10477,7 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
     "id": "grug-353",
     "name": "Tax Law",
-    "slug": "grug-tax-law",
+    "slug": "grug-tax-law-bachelor",
     "url": "https://www.rug.nl/bachelors/tax-law/",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",

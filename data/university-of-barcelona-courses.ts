@@ -1267,7 +1267,7 @@ export const universityOfBarcelonaCourses: UniversityOfBarcelonaCourse[] = [
   {
     "id": "ub-46",
     "name": "Chemistry",
-    "slug": "ub-chemistry",
+    "slug": "ub-chemistry-bachelor",
     "url": "https://web.ub.edu/en/web/ub/bachelor-degrees",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -1323,7 +1323,7 @@ export const universityOfBarcelonaCourses: UniversityOfBarcelonaCourse[] = [
   {
     "id": "ub-48",
     "name": "Economics",
-    "slug": "ub-economics",
+    "slug": "ub-economics-bachelor",
     "url": "https://web.ub.edu/en/web/ub/bachelor-degrees",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -1351,7 +1351,7 @@ export const universityOfBarcelonaCourses: UniversityOfBarcelonaCourse[] = [
   {
     "id": "ub-49",
     "name": "Law",
-    "slug": "ub-law",
+    "slug": "ub-law-bachelor",
     "url": "https://web.ub.edu/en/web/ub/bachelor-degrees",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -1379,7 +1379,7 @@ export const universityOfBarcelonaCourses: UniversityOfBarcelonaCourse[] = [
   {
     "id": "ub-50",
     "name": "Medicine",
-    "slug": "ub-medicine",
+    "slug": "ub-medicine-bachelor",
     "url": "https://web.ub.edu/en/web/ub/bachelor-degrees",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -1407,7 +1407,7 @@ export const universityOfBarcelonaCourses: UniversityOfBarcelonaCourse[] = [
   {
     "id": "ub-51",
     "name": "Nursing",
-    "slug": "ub-nursing",
+    "slug": "ub-nursing-bachelor",
     "url": "https://web.ub.edu/en/web/ub/bachelor-degrees",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
@@ -1463,7 +1463,7 @@ export const universityOfBarcelonaCourses: UniversityOfBarcelonaCourse[] = [
   {
     "id": "ub-53",
     "name": "Psychology",
-    "slug": "ub-psychology",
+    "slug": "ub-psychology-bachelor",
     "url": "https://web.ub.edu/en/web/ub/bachelor-degrees",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",

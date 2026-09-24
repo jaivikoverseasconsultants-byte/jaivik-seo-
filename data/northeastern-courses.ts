@@ -975,7 +975,7 @@ export const northeasternCourses: NortheasternCourse[] = [
   {
     "id": "ne-33",
     "name": "Interdisciplinary Masters",
-    "slug": "ne-interdisciplinary",
+    "slug": "ne-interdisciplinary-health-sciences",
     "url": "https://catalog.northeastern.edu/graduate/health-sciences/interdisciplinary/",
     "level": "Masters",
     "studyLevel": "Postgraduate",
@@ -1275,7 +1275,7 @@ export const northeasternCourses: NortheasternCourse[] = [
   {
     "id": "ne-43",
     "name": "Dual Degrees Masters",
-    "slug": "ne-dual-degrees",
+    "slug": "ne-dual-degrees-law",
     "url": "https://catalog.northeastern.edu/graduate/law/dual-degrees/",
     "level": "Masters",
     "studyLevel": "Postgraduate",
@@ -1575,7 +1575,7 @@ export const northeasternCourses: NortheasternCourse[] = [
   {
     "id": "ne-53",
     "name": "Graduate Certificate Programs PGCert",
-    "slug": "ne-graduate-certificate-programs",
+    "slug": "ne-graduate-certificate-programs-professional-studies",
     "url": "https://catalog.northeastern.edu/graduate/professional-studies/graduate-certificate-programs/",
     "level": "PGCert",
     "studyLevel": "Postgraduate",
@@ -1695,7 +1695,7 @@ export const northeasternCourses: NortheasternCourse[] = [
   {
     "id": "ne-57",
     "name": "Graduate Certificate Programs PGCert",
-    "slug": "ne-graduate-certificate-programs",
+    "slug": "ne-graduate-certificate-programs-science",
     "url": "https://catalog.northeastern.edu/graduate/science/graduate-certificate-programs/",
     "level": "PGCert",
     "studyLevel": "Postgraduate",
@@ -1725,7 +1725,7 @@ export const northeasternCourses: NortheasternCourse[] = [
   {
     "id": "ne-58",
     "name": "Interdisciplinary Masters",
-    "slug": "ne-interdisciplinary",
+    "slug": "ne-interdisciplinary-science",
     "url": "https://catalog.northeastern.edu/graduate/science/interdisciplinary/",
     "level": "Masters",
     "studyLevel": "Postgraduate",
@@ -2025,7 +2025,7 @@ export const northeasternCourses: NortheasternCourse[] = [
   {
     "id": "ne-68",
     "name": "Interdisciplinary Masters",
-    "slug": "ne-interdisciplinary",
+    "slug": "ne-interdisciplinary-social-sciences-humanities",
     "url": "https://catalog.northeastern.edu/graduate/social-sciences-humanities/interdisciplinary/",
     "level": "Masters",
     "studyLevel": "Postgraduate",

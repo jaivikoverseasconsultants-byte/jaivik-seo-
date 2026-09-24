@@ -4047,7 +4047,7 @@ export const nclCourses: NclCourse[] = [
   {
     "id": "ncl-140",
     "name": "International Politics (Global Justice and Ethics) MA",
-    "slug": "ncl-international-politics-ma",
+    "slug": "ncl-international-politics-ma-global-justice-and",
     "url": "https://www.ncl.ac.uk/postgraduate/degrees/4087f/",
     "level": "Masters",
     "studyLevel": "Postgraduate",
@@ -4279,7 +4279,7 @@ export const nclCourses: NclCourse[] = [
   {
     "id": "ncl-148",
     "name": "Landscape Architecture, Master of (MLA)",
-    "slug": "ncl-landscape-architecture-master-of",
+    "slug": "ncl-landscape-architecture-master-of-mla",
     "url": "https://www.ncl.ac.uk/postgraduate/degrees/4157f/",
     "level": "Masters",
     "studyLevel": "Postgraduate",
@@ -5410,7 +5410,7 @@ export const nclCourses: NclCourse[] = [
   {
     "id": "ncl-187",
     "name": "Postgraduate Certificate in Education (PGCE) Secondary (with Qualified Teacher Status QTS)",
-    "slug": "ncl-postgraduate-certificate-in-education",
+    "slug": "ncl-postgraduate-certificate-in-education-pgce-secondary-with",
     "url": "https://www.ncl.ac.uk/postgraduate/degrees/f8x1/",
     "level": "Masters",
     "studyLevel": "Postgraduate",

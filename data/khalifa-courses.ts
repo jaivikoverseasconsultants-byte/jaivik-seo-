@@ -923,7 +923,7 @@ export const khalifaCourses: KhalifaCourse[] = [
 {
   "id": "khalifa-35",
   "name": "MSc Advanced Computer Science",
-  "slug": "khalifa-msc-advanced-computer-science",
+  "slug": "khalifa-msc-advanced-computer-science-2-years",
   "url": "https://www.ku.ac.ae",
   "level": "Masters",
   "studyLevel": "Postgraduate",
@@ -949,7 +949,7 @@ export const khalifaCourses: KhalifaCourse[] = [
 {
   "id": "khalifa-36",
   "name": "MSc Data Science",
-  "slug": "khalifa-msc-data-science",
+  "slug": "khalifa-msc-data-science-2-years",
   "url": "https://www.ku.ac.ae",
   "level": "Masters",
   "studyLevel": "Postgraduate",
@@ -1027,7 +1027,7 @@ export const khalifaCourses: KhalifaCourse[] = [
 {
   "id": "khalifa-39",
   "name": "MSc Biomedical Engineering",
-  "slug": "khalifa-msc-biomedical-engineering",
+  "slug": "khalifa-msc-biomedical-engineering-2-years",
   "url": "https://www.ku.ac.ae",
   "level": "Masters",
   "studyLevel": "Postgraduate",
@@ -1053,7 +1053,7 @@ export const khalifaCourses: KhalifaCourse[] = [
 {
   "id": "khalifa-40",
   "name": "MSc Aerospace Engineering",
-  "slug": "khalifa-msc-aerospace-engineering",
+  "slug": "khalifa-msc-aerospace-engineering-2-years",
   "url": "https://www.ku.ac.ae",
   "level": "Masters",
   "studyLevel": "Postgraduate",
@@ -1079,7 +1079,7 @@ export const khalifaCourses: KhalifaCourse[] = [
 {
   "id": "khalifa-41",
   "name": "MSc Nuclear Engineering",
-  "slug": "khalifa-msc-nuclear-engineering",
+  "slug": "khalifa-msc-nuclear-engineering-2-years",
   "url": "https://www.ku.ac.ae",
   "level": "Masters",
   "studyLevel": "Postgraduate",
@@ -1157,7 +1157,7 @@ export const khalifaCourses: KhalifaCourse[] = [
 {
   "id": "khalifa-44",
   "name": "MSc Materials Science",
-  "slug": "khalifa-msc-materials-science",
+  "slug": "khalifa-msc-materials-science-2-years",
   "url": "https://www.ku.ac.ae",
   "level": "Masters",
   "studyLevel": "Postgraduate",
@@ -1183,7 +1183,7 @@ export const khalifaCourses: KhalifaCourse[] = [
 {
   "id": "khalifa-45",
   "name": "MSc Cyber Security",
-  "slug": "khalifa-msc-cyber-security",
+  "slug": "khalifa-msc-cyber-security-2-years",
   "url": "https://www.ku.ac.ae",
   "level": "Masters",
   "studyLevel": "Postgraduate",
