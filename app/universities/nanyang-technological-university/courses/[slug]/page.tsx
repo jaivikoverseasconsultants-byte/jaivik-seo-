@@ -73,6 +73,8 @@ export default async function CourseDetailPage(
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {[
                 ...(hasPublishedIelts(UNIVERSITY_SLUG, c as never) ? [{ label: 'IELTS', value: `${c.ieltsMin}+ overall` }] : []),
+                ...(publishedScore(UNIVERSITY_SLUG, c as never, 'toefl') ? [{ label: 'TOEFL', value: `${c.toeflMin}+` }] : []),
+                ...(publishedScore(UNIVERSITY_SLUG, c as never, 'pte') ? [{ label: 'PTE', value: `${c.pteMin}+` }] : []),
                 ...(publishedScore(UNIVERSITY_SLUG, c as never, 'toefl') ? [{ label: 'TOEFL', value: `${c.toeflMin}+ iBT` }] : []),
                 ...(publishedScore(UNIVERSITY_SLUG, c as never, 'pte') ? [{ label: 'PTE', value: `${c.pteMin}+` }] : []),
                 { label: 'Intake', value: c.intakeMonths.join(' & ') },

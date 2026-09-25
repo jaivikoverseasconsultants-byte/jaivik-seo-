@@ -189,7 +189,9 @@ export default function CoursesPage() {
                       <p className="text-xs text-gray-500 mt-1">{c.duration} · {c.intakeMonths.join(' & ')} · {c.campus}</p>
                     </div>
                     <div className="ml-4 text-right flex-shrink-0">
-                      <p className="text-sm font-bold text-brand-700">{isFeeVerified(c as any) && Number(c.annualCAD) > 0 ? `$${c.annualCAD.toLocaleString()} CAD/yr` : 'Fee on request'}</p>
+                      {/* Windsor bills per term and publishes no annual rate, so the card shows the
+                          per-term figure rather than falling back to "on request". */}
+                      <p className="text-sm font-bold text-brand-700">{c.termTuitionCAD ? `C$${c.termTuitionCAD.toLocaleString('en-CA')}/term` : isFeeVerified(c as any) && Number(c.annualCAD) > 0 ? `$${c.annualCAD.toLocaleString()} CAD/yr` : 'Fee on request'}</p>
                       {isFeeVerified(c as any) && <p className="text-xs text-gray-400">≈ ₹{(courseAnnualINRLakh(c as any, 1) ?? '0')}L/yr</p>}
                       {hasPublishedIelts(UNIVERSITY_SLUG, c as never) && <p className="text-xs text-gray-500">IELTS {c.ieltsMin}+</p>}
                     </div>

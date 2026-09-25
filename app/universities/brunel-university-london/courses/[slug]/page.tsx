@@ -9,7 +9,7 @@ import CourseRichContent from '@/components/CourseRichContent';
 import CourseKeyFacts from '@/components/CourseKeyFacts';
 import { feeSentenceINR, feeDisplay, feeDisplayINRLakh, titleFeeFragment } from '@/lib/fee-verification';
 import { courseAnnualINRLakh } from '@/lib/currency';
-import { hasPublishedIelts } from '@/lib/english-verification';
+import { hasPublishedIelts, publishedScore } from '@/lib/english-verification';
 const UNIVERSITY_SLUG = 'brunel-university-london';
 
 export async function generateStaticParams() {
@@ -63,6 +63,7 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
                 {[
                   fee > 0 ? { label: 'Annual Fee', value: feeDisplay(course as any, fee, 'GBP'), sub: feeDisplayINRLakh(course as any, feeINRLakh, '/year') } : null,
                   hasPublishedIelts(UNIVERSITY_SLUG, course as never) ? { label: 'IELTS', value: `${course.ieltsMin}+`, sub: undefined } : null,
+                  publishedScore(UNIVERSITY_SLUG, course as never, 'toefl') ? { label: 'TOEFL', value: `${course.toeflMin}+` } : null,
                   { label: 'Duration', value: course.duration, sub: course.studyLevel },
                   { label: 'Campus', value: 'Uxbridge', sub: 'UK' },
                 ].filter((x): x is { label: string; value: string; sub: string | undefined } => x !== null).map(({ label, value, sub }) => (

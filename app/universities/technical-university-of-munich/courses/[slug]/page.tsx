@@ -9,7 +9,7 @@ import CourseRichContent from '@/components/CourseRichContent';
 
 import { isPswEligible } from '@/lib/psw-eligibility';
 import { showOnCoursePage, entryRequirementsVaryByCourse } from '@/lib/course-field-variance';
-import { publishedEnglishTests, englishOnRequestNote, hasPublishedIelts } from '@/lib/english-verification';
+import { publishedEnglishTests, englishOnRequestNote, hasPublishedIelts, publishedScore } from '@/lib/english-verification';
 
 import { feeDisplay, feeDisplayINRLakh, isFeeVerified, feeSentenceINR, titleFeeFragment } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
@@ -114,6 +114,8 @@ export default async function CoursePage(
                   { label: 'Annual Fee (EUR)', value: feeDisplay(course as any, course.annualEUR, 'EUR') },
                   { label: 'Fee in INR', value: feeDisplayINRLakh(course as any, feeINRLakh, '/yr') },
                   ...(hasPublishedIelts(UNIVERSITY_SLUG, course as never) ? [{ label: 'IELTS Min', value: `${course.ieltsMin}+` }] : []),
+                  ...(publishedScore(UNIVERSITY_SLUG, course as never, 'toefl') ? [{ label: 'TOEFL', value: `${course.toeflMin}+` }] : []),
+                  ...(publishedScore(UNIVERSITY_SLUG, course as never, 'pte') ? [{ label: 'PTE', value: `${course.pteMin}+` }] : []),
                   { label: 'Duration', value: course.duration },
                 ].map(s => (
                   <div key={s.label} className="bg-white/10 rounded-xl p-3 text-center">

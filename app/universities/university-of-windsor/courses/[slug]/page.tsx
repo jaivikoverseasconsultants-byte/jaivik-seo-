@@ -8,7 +8,7 @@ import JsonLd from '@/components/JsonLd';
 import CourseRichContent from '@/components/CourseRichContent';
 
 import { showOnCoursePage, entryRequirementsVaryByCourse } from '@/lib/course-field-variance';
-import { publishedEnglishTests, englishOnRequestNote, hasPublishedIelts } from '@/lib/english-verification';
+import { publishedEnglishTests, englishOnRequestNote, hasPublishedIelts, publishedScore } from '@/lib/english-verification';
 
 import { feeDisplay, feeDisplayINRLakh, isFeeVerified, feeSentenceINR, titleFeeFragment } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
@@ -81,9 +81,15 @@ export default async function CoursePage(
               </p>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                 {[
-                  { label: 'Annual Fee (CAD)', value: feeDisplay(course as any, course.annualCAD, 'CAD') },
-                  { label: 'Fee in INR', value: feeDisplayINRLakh(course as any, feeINRLakh, '/yr') },
+                  // Windsor publishes tuition per term and states no annual figure, so the annual
+                  // row gives way to the per-term rate, shown for what it is.
+                  ...(course.termTuitionCAD
+                    ? [{ label: 'Tuition (per term)', value: `C$${course.termTuitionCAD.toLocaleString('en-CA')}` }]
+                    : [{ label: 'Annual Fee (CAD)', value: feeDisplay(course as any, course.annualCAD, 'CAD') }]),
+                  ...(course.termTuitionCAD ? [] : [{ label: 'Fee in INR', value: feeDisplayINRLakh(course as any, feeINRLakh, '/yr') }]),
                   ...(showOnCoursePage(UNIVERSITY_SLUG, 'ieltsMin') && publishedEnglishTests(UNIVERSITY_SLUG, course as never).some(t => t.test === 'ielts') ? [{ label: 'IELTS Minimum', value: `${course.ieltsMin}+` }] : []),
+                  ...(publishedScore(UNIVERSITY_SLUG, course as never, 'toefl') ? [{ label: 'TOEFL', value: `${course.toeflMin}+` }] : []),
+                  ...(publishedScore(UNIVERSITY_SLUG, course as never, 'pte') ? [{ label: 'PTE', value: `${course.pteMin}+` }] : []),
                   { label: 'Duration', value: course.duration },
                 ].map(s => (
                   <div key={s.label} className="bg-white/10 rounded-xl p-3 text-center">
@@ -148,6 +154,19 @@ export default async function CoursePage(
 
           <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
             <h2 className="text-xl font-bold text-gray-900 mb-4">Total Cost of Study (Indian Students)</h2>
+            {/* A bare per-term number invites being read as a year's tuition, so say what it is and
+                what sits on top of it, in Windsor's own terms. */}
+            {course.termTuitionCAD && (
+              <p className="text-sm text-gray-600 mb-4">
+                Windsor charges tuition by term rather than by year. This programme is
+                {' '}<strong>C${course.termTuitionCAD.toLocaleString('en-CA')} per term</strong> for an international
+                student studying full time{course.feeCategory ? ` (${course.feeCategory} rate)` : ''}, which is what
+                Windsor&rsquo;s own fee estimator states; incidental and ancillary fees are charged on top
+                {course.termEstimatedTotalCAD ? `, bringing the term to about C$${course.termEstimatedTotalCAD.toLocaleString('en-CA')}` : ''}.
+                Windsor publishes no annual figure, so the yearly totals below are left out rather than
+                estimated here. <a className="text-brand-700 underline" href={course.feeSourceUrl} target="_blank" rel="noopener noreferrer">Check Windsor&rsquo;s fee estimator</a>.
+              </p>
+            )}
             <div className="space-y-3">
               {[
                 { label: `Tuition Fee × ${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}`, value: (isFeeVerified(course as any) ? `$${course.totalCAD.toLocaleString()} CAD` : 'On request'), highlight: true },

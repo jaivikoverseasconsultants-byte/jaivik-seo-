@@ -8,7 +8,7 @@ import JsonLd from '@/components/JsonLd';
 import CourseRichContent from '@/components/CourseRichContent';
 
 import { showOnCoursePage, entryRequirementsVaryByCourse } from '@/lib/course-field-variance';
-import { publishedEnglishTests, englishOnRequestNote, hasPublishedIelts } from '@/lib/english-verification';
+import { publishedEnglishTests, englishOnRequestNote, hasPublishedIelts, publishedScore } from '@/lib/english-verification';
 
 import { feeDisplay, feeDisplayINRLakh, isFeeVerified, feeSentenceINR, titleFeeFragment } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
@@ -83,6 +83,8 @@ export default async function CoursePage(
                   { label: 'Annual Fee (GBP)', value: feeDisplay(course as any, course.annualGBP, 'GBP') },
                   { label: 'Fee in INR', value: feeDisplayINRLakh(course as any, feeINRLakh, '/yr') },
                   ...(showOnCoursePage(UNIVERSITY_SLUG, 'ieltsMin') && publishedEnglishTests(UNIVERSITY_SLUG, course as never).some(t => t.test === 'ielts') ? [{ label: 'IELTS Minimum', value: `${course.ieltsMin}+` }] : []),
+                  ...(publishedScore(UNIVERSITY_SLUG, course as never, 'toefl') ? [{ label: 'TOEFL', value: `${course.toeflMin}+` }] : []),
+                  ...(publishedScore(UNIVERSITY_SLUG, course as never, 'pte') ? [{ label: 'PTE', value: `${course.pteMin}+` }] : []),
                   { label: 'Duration', value: course.duration },
                 ].map(s => (
                   <div key={s.label} className="bg-white/10 rounded-xl p-3 text-center">
