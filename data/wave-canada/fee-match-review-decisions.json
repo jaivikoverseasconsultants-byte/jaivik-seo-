@@ -1,0 +1,2185 @@
+{
+ "_source": "Manual confirmations recorded in the fee-match review tool (https://claude.ai/artifact/EDFVTKdwrc9Aj8yWkJKJQy), read from its own database.",
+ "_why": "Waterloo, UNB and uOttawa each publish fees by a category — faculty, degree, or programme band — that a course row does not name, so the row-to-category match was reviewed by hand rather than guessed. These are those decisions.",
+ "_basis": "Each decision carries the category chosen and the basis the figure is stated on. The basis differs by university and must not be flattened: UNB is annual, Waterloo is a first-year total over two terms including incidental fees, uOttawa is per term or per unit. A choice of \"none\" means none of the offered categories fitted, and that row stays on request.",
+ "_confirmedOn": "2026-09-25",
+ "_counts": {
+  "UNB/per year": 24,
+  "uOttawa/per term": 192,
+  "uOttawa/on request": 3,
+  "uOttawa/per unit": 7,
+  "Waterloo/first year, 2 terms incl. incidentals": 13,
+  "Waterloo/on request": 2
+ },
+ "decisions": [
+  {
+   "basis": "per year",
+   "choice": "Bachelor of Applied Management (Online) — Saint John",
+   "decidedAt": "2026-09-25T10:32:50.157Z",
+   "fee": "$22,996.00",
+   "name": "Accounting",
+   "slug": "unb-accounting",
+   "uni": "UNB"
+  },
+  {
+   "basis": "per year",
+   "choice": "Bachelor of Education (4 year program) — Fredericton",
+   "decidedAt": "2026-09-25T10:32:51.880Z",
+   "fee": "$20,903.00",
+   "name": "Adult Education",
+   "slug": "unb-adult-education",
+   "uni": "UNB"
+  },
+  {
+   "basis": "per year",
+   "choice": "Bachelor of Arts — Fredericton",
+   "decidedAt": "2026-09-25T10:32:49.777Z",
+   "fee": "$20,903.00",
+   "name": "Applied Arts",
+   "slug": "unb-applied-arts",
+   "uni": "UNB"
+  },
+  {
+   "basis": "per year",
+   "choice": "Bachelor of Arts — Fredericton",
+   "decidedAt": "2026-09-25T10:32:50.745Z",
+   "fee": "$20,903.00",
+   "name": "Biology",
+   "slug": "unb-biology",
+   "uni": "UNB"
+  },
+  {
+   "basis": "per year",
+   "choice": "Bachelor of Health — Saint John",
+   "decidedAt": "2026-09-25T10:32:53.014Z",
+   "fee": "$20,860.00",
+   "name": "Biomedical Sciences and Health",
+   "slug": "unb-biomedical-sciences-and-health",
+   "uni": "UNB"
+  },
+  {
+   "basis": "per year",
+   "choice": "Bachelor of Education (4 year program) — Fredericton",
+   "decidedAt": "2026-09-25T10:32:52.048Z",
+   "fee": "$20,903.00",
+   "name": "Early Childhood Education",
+   "slug": "unb-early-childhood-education",
+   "uni": "UNB"
+  },
+  {
+   "basis": "per year",
+   "choice": "Bachelor of Arts — Fredericton",
+   "decidedAt": "2026-09-25T10:32:50.944Z",
+   "fee": "$20,903.00",
+   "name": "Economics",
+   "slug": "unb-economics",
+   "uni": "UNB"
+  },
+  {
+   "basis": "per year",
+   "choice": "Bachelor of Education (4 year program) — Fredericton",
+   "decidedAt": "2026-09-25T10:32:52.417Z",
+   "fee": "$20,903.00",
+   "name": "Education",
+   "slug": "unb-education",
+   "uni": "UNB"
+  },
+  {
+   "basis": "per year",
+   "choice": "Bachelor of Science — Fredericton",
+   "decidedAt": "2026-09-25T10:32:54.662Z",
+   "fee": "$21,618.00",
+   "name": "Engineering Physics",
+   "slug": "unb-engineering-physics",
+   "uni": "UNB"
+  },
+  {
+   "basis": "per year",
+   "choice": "Bachelor of Engineering — Fredericton",
+   "decidedAt": "2026-09-25T10:32:52.818Z",
+   "fee": "$25,871.00",
+   "name": "Environmental Engineering Technology",
+   "slug": "unb-environmental-engineering-technology",
+   "uni": "UNB"
+  },
+  {
+   "basis": "per year",
+   "choice": "Bachelor of Applied Management (Online) — Saint John",
+   "decidedAt": "2026-09-25T10:32:50.432Z",
+   "fee": "$22,996.00",
+   "name": "General Business",
+   "slug": "unb-general-business",
+   "uni": "UNB"
+  },
+  {
+   "basis": "per year",
+   "choice": "Bachelor of Health — Saint John",
+   "decidedAt": "2026-09-25T10:32:53.191Z",
+   "fee": "$20,860.00",
+   "name": "Management in Health",
+   "slug": "unb-management-in-health",
+   "uni": "UNB"
+  },
+  {
+   "basis": "per year",
+   "choice": "Bachelor of Arts — Fredericton",
+   "decidedAt": "2026-09-25T10:32:51.144Z",
+   "fee": "$20,903.00",
+   "name": "Mathematics",
+   "slug": "unb-mathematics",
+   "uni": "UNB"
+  },
+  {
+   "basis": "per year",
+   "choice": "Bachelor of Health Sciences — Saint John",
+   "decidedAt": "2026-09-25T10:32:53.915Z",
+   "fee": "$21,618.00",
+   "name": "Medical Laboratory Science",
+   "slug": "unb-medical-laboratory-science",
+   "uni": "UNB"
+  },
+  {
+   "basis": "per year",
+   "choice": "Bachelor of Arts — Fredericton",
+   "decidedAt": "2026-09-25T10:32:51.326Z",
+   "fee": "$20,903.00",
+   "name": "Neuroscience",
+   "slug": "unb-neuroscience",
+   "uni": "UNB"
+  },
+  {
+   "basis": "per year",
+   "choice": "Bachelor of Nursing/LPN Pathway — Fredericton",
+   "decidedAt": "2026-09-25T10:32:54.090Z",
+   "fee": "$22,959.00",
+   "name": "Nursing",
+   "slug": "unb-nursing",
+   "uni": "UNB"
+  },
+  {
+   "basis": "per year",
+   "choice": "Bachelor of Nursing Accelerated Program (Moncton) — Fredericton",
+   "decidedAt": "2026-09-25T10:32:54.283Z",
+   "fee": "$34,438.50",
+   "name": "Nursing - Accelerated Program",
+   "slug": "unb-nursing-accelerated-program",
+   "uni": "UNB"
+  },
+  {
+   "basis": "per year",
+   "choice": "Bachelor of Arts — Fredericton",
+   "decidedAt": "2026-09-25T10:32:51.497Z",
+   "fee": "$20,903.00",
+   "name": "Psychology",
+   "slug": "unb-psychology",
+   "uni": "UNB"
+  },
+  {
+   "basis": "per year",
+   "choice": "Bachelor of Health Sciences — Saint John",
+   "decidedAt": "2026-09-25T10:32:53.550Z",
+   "fee": "$21,618.00",
+   "name": "Radiography",
+   "slug": "unb-radiography",
+   "uni": "UNB"
+  },
+  {
+   "basis": "per year",
+   "choice": "Bachelor of Science in Kinesiology — Fredericton",
+   "decidedAt": "2026-09-25T10:32:54.470Z",
+   "fee": "$22,996.00",
+   "name": "Recreation and Sport Studies",
+   "slug": "unb-recreation-and-sport-studies",
+   "uni": "UNB"
+  },
+  {
+   "basis": "per year",
+   "choice": "Bachelor of Health Sciences — Saint John",
+   "decidedAt": "2026-09-25T10:32:53.718Z",
+   "fee": "$21,618.00",
+   "name": "Respiratory Therapy",
+   "slug": "unb-respiratory-therapy",
+   "uni": "UNB"
+  },
+  {
+   "basis": "per year",
+   "choice": "Bachelor of Health — Saint John",
+   "decidedAt": "2026-09-25T10:32:53.378Z",
+   "fee": "$20,860.00",
+   "name": "Society and Health",
+   "slug": "unb-society-and-health",
+   "uni": "UNB"
+  },
+  {
+   "basis": "per year",
+   "choice": "Bachelor of Arts — Fredericton",
+   "decidedAt": "2026-09-25T10:32:51.692Z",
+   "fee": "$20,903.00",
+   "name": "Statistics",
+   "slug": "unb-statistics",
+   "uni": "UNB"
+  },
+  {
+   "basis": "per year",
+   "choice": "Bachelor of Education (4 year program) — Fredericton",
+   "decidedAt": "2026-09-25T10:32:52.636Z",
+   "fee": "$20,903.00",
+   "name": "Wabanaki Governance",
+   "slug": "unb-wabanaki-governance",
+   "uni": "UNB"
+  },
+  {
+   "basis": "per term",
+   "choice": "Arts › Lettres françaises et éducation (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:21.437Z",
+   "fee": "CA$21,667.54",
+   "name": "B.A. spécialisé Lettres françaises et Baccalauréat en éducation",
+   "slug": "uottawa-ba-spcialis-lettres-franaises-et-baccalaurat-en-ducation",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Education › Teacher Education (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:29.798Z",
+   "fee": "CA$21,262.54",
+   "name": "Baccalauréat spécialisé en sciences de l'activité physique - éducation et coaching et Formation à l'enseignement - cycles intermédiaire/supérieur",
+   "slug": "uottawa-baccalaurat-spcialis-en-sciences-de-lactivit-physique-ducation-et-coaching-et-fo",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Education › Education (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:15.369Z",
+   "fee": "CA$21,262.54",
+   "name": "Baccalauréat spécialisé en sciences de l'activité physique - éducation et coaching et Formation à l'enseignement - cycles moyen/intermédiaire",
+   "slug": "uottawa-baccalaurat-spcialis-en-sciences-de-lactivit-physique-ducation-et-coaching-et-fo-2",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Education › Education (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:16.177Z",
+   "fee": "CA$21,262.54",
+   "name": "Baccalauréat spécialisé en sciences de l'activité physique - éducation et coaching et Formation à l'enseignement - cycles primaire/moyen",
+   "slug": "uottawa-baccalaurat-spcialis-en-sciences-de-lactivit-physique-ducation-et-coaching-et-fo-3",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Arts › Arts (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:17.217Z",
+   "fee": "CA$21,667.54",
+   "name": "Bachelor of Fine Arts (BFA)",
+   "slug": "uottawa-bachelor-of-fine-arts-bfa",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Arts › Acting (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:19.657Z",
+   "fee": "CA$21,667.54",
+   "name": "Bachelor of Fine Arts in Acting",
+   "slug": "uottawa-bachelor-of-fine-arts-in-acting",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Engineering › Multidisciplinary Design (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:34:03.117Z",
+   "fee": "CA$31,582.15",
+   "name": "Bachelor of Multidisciplinary Design - Experiential Learning",
+   "slug": "uottawa-bachelor-of-multidisciplinary-design-experiential-learning",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Engineering › Civil Engineering (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:18.902Z",
+   "fee": "CA$31,582.15",
+   "name": "BASc Civil Engineering, Environmental and Water Resources Option",
+   "slug": "uottawa-basc-civil-engineering-environmental-and-water-resources-option",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Education › Education (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:22.168Z",
+   "fee": "CA$21,262.54",
+   "name": "B.Sc. spécialisé Sciences et Baccalauréat en éducation - Cycles intermédiaire/supérieur",
+   "slug": "uottawa-bsc-spcialis-sciences-et-baccalaurat-en-ducation-cycles-intermdiairesuprieur",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Education › Education (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:22.687Z",
+   "fee": "CA$21,262.54",
+   "name": "Certificat/Baccalauréat en éducation - Éducation technologique",
+   "slug": "uottawa-certificatbaccalaurat-en-ducation-ducation-technologique",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Arts › Indigenous Studies (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:23.716Z",
+   "fee": "CA$21,667.54",
+   "name": "Certificate Indigenous Laws",
+   "slug": "uottawa-certificate-indigenous-laws",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Law › Law (General Certificate) (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:24.411Z",
+   "fee": "CA$24,719.50",
+   "name": "Certificate Law",
+   "slug": "uottawa-certificate-law",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Arts › English (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:25.111Z",
+   "fee": "CA$21,667.54",
+   "name": "Certificate translation English-French (Online)",
+   "slug": "uottawa-certificate-translation-english-french-online",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Medicine › Biochemistry (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:26.376Z",
+   "fee": "CA$5,825.85",
+   "name": "Doctorate in Philosophy Biochemistry and Specialization Human and Molecular Genetics",
+   "slug": "uottawa-doctorate-in-philosophy-biochemistry-and-specialization-human-and-molecular-gene",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Science › Biology (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:27.150Z",
+   "fee": "CA$5,825.85",
+   "name": "Doctorate in Philosophy Biology and Specialization Chemical and Environmental Toxicology",
+   "slug": "uottawa-doctorate-in-philosophy-biology-and-specialization-chemical-and-environmental-to",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Social Sciences › Environmental Sustainability (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:27.850Z",
+   "fee": "CA$5,825.85",
+   "name": "Doctorate in Philosophy Chemistry and Specialization Chemical and Environmental Toxicology",
+   "slug": "uottawa-doctorate-in-philosophy-chemistry-and-specialization-chemical-and-environmental-",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Science › Earth Sciences (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:28.188Z",
+   "fee": "CA$5,825.85",
+   "name": "Doctorate in Philosophy Chemistry, Concentration in Biomolecular Sciences",
+   "slug": "uottawa-doctorate-in-philosophy-chemistry-concentration-in-biomolecular-sciences",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Medicine › Medicine and Biochemistry (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:28.618Z",
+   "fee": "CA$5,825.85",
+   "name": "Doctorate in philosophy Clinical Science and Translational Medicine",
+   "slug": "uottawa-doctorate-in-philosophy-clinical-science-and-translational-medicine",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Social Sciences › Environmental Sustainability (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:29.005Z",
+   "fee": "CA$5,825.85",
+   "name": "Doctorate in Philosophy Earth Sciences and Specialization Chemical and Environmental Toxicology",
+   "slug": "uottawa-doctorate-in-philosophy-earth-sciences-and-specialization-chemical-and-environme",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Education › Education (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:29.345Z",
+   "fee": "CA$5,825.85",
+   "name": "Doctorate in Philosophy Education (Educational Counselling)",
+   "slug": "uottawa-doctorate-in-philosophy-education-educational-counselling",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Education › Education (Counselling Psychology) (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:30.144Z",
+   "fee": "CA$5,935.77",
+   "name": "Doctorate in Philosophy Education (Health Professions Education)",
+   "slug": "uottawa-doctorate-in-philosophy-education-health-professions-education",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Health Sciences › Human Kinetics (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:30.845Z",
+   "fee": "CA$5,825.85",
+   "name": "Doctorate in Philosophy Neuroscience and Specialization Human and Molecular Genetics",
+   "slug": "uottawa-doctorate-in-philosophy-neuroscience-and-specialization-human-and-molecular-gene",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": null,
+   "choice": "none",
+   "decidedAt": "2026-09-25T10:33:33.784Z",
+   "fee": null,
+   "name": "Doctorate in Philosophy Philosophy",
+   "slug": "uottawa-doctorate-in-philosophy-philosophy",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Medicine › Epidemiology (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:34.776Z",
+   "fee": "CA$5,935.77",
+   "name": "Doctorate of Philosophy in Epidemiology and Applied Health Research",
+   "slug": "uottawa-doctorate-of-philosophy-in-epidemiology-and-applied-health-research",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Social Sciences › Public Administration (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:35.559Z",
+   "fee": "CA$9,815.26",
+   "name": "Executive Master of Health Administration (EMHA) (Online)",
+   "slug": "uottawa-executive-master-of-health-administration-emha-online",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Science › Scientific Management and Leadership (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:36.293Z",
+   "fee": "CA$9,720.89",
+   "name": "Graduate Diploma Complex Project Leadership",
+   "slug": "uottawa-graduate-diploma-complex-project-leadership",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Social Sciences › Public and International Affairs (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:36.778Z",
+   "fee": "CA$9,815.26",
+   "name": "Graduate Diploma Food Policy and Regulatory Affairs (online)",
+   "slug": "uottawa-graduate-diploma-food-policy-and-regulatory-affairs-online",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Health Sciences › Primary Health Care for Nurse Practitioners (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:41.338Z",
+   "fee": "CA$10,577.41",
+   "name": "Graduate Diploma for Nurse Practitioners",
+   "slug": "uottawa-graduate-diploma-for-nurse-practitioners",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Education › Health Professions Education (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:42.070Z",
+   "fee": "CA$11,419.68",
+   "name": "Graduate Diploma Health Professions Education (Online)",
+   "slug": "uottawa-graduate-diploma-health-professions-education-online",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Arts › Graduate Diploma Music (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:42.546Z",
+   "fee": "CA$9,720.89",
+   "name": "Graduate Diploma Music Performance",
+   "slug": "uottawa-graduate-diploma-music-performance",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Arts › Graduate Diploma Music (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:42.902Z",
+   "fee": "CA$9,720.89",
+   "name": "Graduate Diploma Music Performance (Online)",
+   "slug": "uottawa-graduate-diploma-music-performance-online",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Management (Telfer) › Management (MSc) (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:43.110Z",
+   "fee": "CA$11,851.94",
+   "name": "Graduate Diploma Organizational Performance Management",
+   "slug": "uottawa-graduate-diploma-organizational-performance-management",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Arts › English (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:34:15.369Z",
+   "fee": "CA$21,667.54",
+   "name": "Honours BA French-English Translation",
+   "slug": "uottawa-honours-ba-french-english-translation",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Arts › English (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:34:15.565Z",
+   "fee": "CA$21,667.54",
+   "name": "Honours BA French-English Translation (two years)",
+   "slug": "uottawa-honours-ba-french-english-translation-two-years",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Arts › English (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:34:15.902Z",
+   "fee": "CA$21,667.54",
+   "name": "Honours BA French-Spanish-English Translation",
+   "slug": "uottawa-honours-ba-french-spanish-english-translation",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Arts › English (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:34:16.238Z",
+   "fee": "CA$21,667.54",
+   "name": "Honours BA French-Spanish-English Translation (two years)",
+   "slug": "uottawa-honours-ba-french-spanish-english-translation-two-years",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": null,
+   "choice": "none",
+   "decidedAt": "2026-09-25T10:40:49.111Z",
+   "fee": null,
+   "name": "Honours BA Philosophy",
+   "slug": "uottawa-honours-ba-philosophy",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Management (Telfer) › Commerce and Juris Doctor (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:43.475Z",
+   "fee": "CA$26,592.19",
+   "name": "Honours Bachelor of Commerce and Juris Doctor",
+   "slug": "uottawa-honours-bachelor-of-commerce-and-juris-doctor",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Management (Telfer) › Commerce (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:43.498Z",
+   "fee": "CA$26,592.19",
+   "name": "Honours Bachelor of Commerce (Global Management)",
+   "slug": "uottawa-honours-bachelor-of-commerce-global-management",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Management (Telfer) › Management (MSc) (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:44.052Z",
+   "fee": "CA$11,851.94",
+   "name": "Honours Bachelor of Commerce in Accounting and Master of Science in Management",
+   "slug": "uottawa-honours-bachelor-of-commerce-in-accounting-and-master-of-science-in-management",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Management (Telfer) › Commerce (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:44.459Z",
+   "fee": "CA$26,592.19",
+   "name": "Honours Bachelor of Commerce – International Dual Degree",
+   "slug": "uottawa-honours-bachelor-of-commerce-international-dual-degree",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Management (Telfer) › Management (MSc) (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:44.492Z",
+   "fee": "CA$11,851.94",
+   "name": "Honours Bachelor of Commerce (Option in Accounting) and Master of Science in Management",
+   "slug": "uottawa-honours-bachelor-of-commerce-option-in-accounting-and-master-of-science-in-manag",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Management (Telfer) › Commerce (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:44.922Z",
+   "fee": "CA$26,592.19",
+   "name": "Honours Bachelor of Commerce (Option in Business Analytics)",
+   "slug": "uottawa-honours-bachelor-of-commerce-option-in-business-analytics",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Management (Telfer) › Management (MSc) (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:45.283Z",
+   "fee": "CA$11,851.94",
+   "name": "Honours Bachelor of Commerce (Option in Business Analytics) and Master of Science in Management",
+   "slug": "uottawa-honours-bachelor-of-commerce-option-in-business-analytics-and-master-of-science-",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Management (Telfer) › Commerce (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:45.314Z",
+   "fee": "CA$26,592.19",
+   "name": "Honours Bachelor of Commerce (Option in Business Technology Management)",
+   "slug": "uottawa-honours-bachelor-of-commerce-option-in-business-technology-management",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Management (Telfer) › Management (MSc) (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:45.500Z",
+   "fee": "CA$11,851.94",
+   "name": "Honours Bachelor of Commerce (Option in Business Technology Management) and Master of Science in Management",
+   "slug": "uottawa-honours-bachelor-of-commerce-option-in-business-technology-management-and-master",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Management (Telfer) › Management (MSc) (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:45.849Z",
+   "fee": "CA$11,851.94",
+   "name": "Honours Bachelor of Commerce (Option in Entrepreneurship) and Master of Science in Management",
+   "slug": "uottawa-honours-bachelor-of-commerce-option-in-entrepreneurship-and-master-of-science-in",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Management (Telfer) › Management (MSc) (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:45.873Z",
+   "fee": "CA$11,851.94",
+   "name": "Honours Bachelor of Commerce (Option in Finance) and Master of Science in Management",
+   "slug": "uottawa-honours-bachelor-of-commerce-option-in-finance-and-master-of-science-in-manageme",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Management (Telfer) › Commerce (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:46.216Z",
+   "fee": "CA$26,592.19",
+   "name": "Honours Bachelor of Commerce (Option in Healthcare Analytics)",
+   "slug": "uottawa-honours-bachelor-of-commerce-option-in-healthcare-analytics",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Management (Telfer) › Management (MSc) (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:46.239Z",
+   "fee": "CA$11,851.94",
+   "name": "Honours Bachelor of Commerce (Option in Healthcare Analytics) and Master of Science in Management",
+   "slug": "uottawa-honours-bachelor-of-commerce-option-in-healthcare-analytics-and-master-of-scienc",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Management (Telfer) › Management (MSc) (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:46.606Z",
+   "fee": "CA$11,851.94",
+   "name": "Honours Bachelor of Commerce (Option in Human Resource Management) and Master of Science in Management",
+   "slug": "uottawa-honours-bachelor-of-commerce-option-in-human-resource-management-and-master-of-s",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Management (Telfer) › Management (MSc) (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:46.628Z",
+   "fee": "CA$11,851.94",
+   "name": "Honours Bachelor of Commerce (Option in International Management) and Master of Science in Management",
+   "slug": "uottawa-honours-bachelor-of-commerce-option-in-international-management-and-master-of-sc",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Management (Telfer) › Management (MSc) (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:46.977Z",
+   "fee": "CA$11,851.94",
+   "name": "Honours Bachelor of Commerce (Option in Management) and Master of Science in Management",
+   "slug": "uottawa-honours-bachelor-of-commerce-option-in-management-and-master-of-science-in-manag",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Management (Telfer) › Management (MSc) (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:47.318Z",
+   "fee": "CA$11,851.94",
+   "name": "Honours Bachelor of Commerce (Option in Marketing) and Master of Science in Management",
+   "slug": "uottawa-honours-bachelor-of-commerce-option-in-marketing-and-master-of-science-in-manage",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Management (Telfer) › Commerce (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:47.664Z",
+   "fee": "CA$26,592.19",
+   "name": "Honours Bachelor of Commerce (Option International Management)",
+   "slug": "uottawa-honours-bachelor-of-commerce-option-international-management",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Health Sciences › Audiology (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:48.007Z",
+   "fee": "CA$9,815.26",
+   "name": "Honours Bachelor of Health Sciences and Master of Health Sciences Audiology",
+   "slug": "uottawa-honours-bachelor-of-health-sciences-and-master-of-health-sciences-audiology",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Health Sciences › Physiotherapy (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:48.124Z",
+   "fee": "CA$9,815.26",
+   "name": "Honours Bachelor of Health Sciences and Master of Health Sciences Physiotherapy",
+   "slug": "uottawa-honours-bachelor-of-health-sciences-and-master-of-health-sciences-physiotherapy",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Health Sciences › Health Sciences (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:48.400Z",
+   "fee": "CA$21,667.54",
+   "name": "Honours Bachelor of Health Sciences - Technologies and Innovation in Healthcare Option",
+   "slug": "uottawa-honours-bachelor-of-health-sciences-technologies-and-innovation-in-healthcare-op",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Health Sciences › Human Kinetics (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:48.747Z",
+   "fee": "CA$9,815.26",
+   "name": "Honours Bachelor of Human Kinetics and Master of Health Sciences Occupational Therapy",
+   "slug": "uottawa-honours-bachelor-of-human-kinetics-and-master-of-health-sciences-occupational-th",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Health Sciences › Human Kinetics (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:33:49.078Z",
+   "fee": "CA$9,815.26",
+   "name": "Honours Bachelor of Human Kinetics and Master of Health Sciences Physiotherapy",
+   "slug": "uottawa-honours-bachelor-of-human-kinetics-and-master-of-health-sciences-physiotherapy",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Health Sciences › Human Kinetics (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:34:08.579Z",
+   "fee": "CA$21,667.54",
+   "name": "Honours Bachelor of Human Kinetics - Education and Coaching - Studies of Social Issues in Sport, Physical Activity and Leisure Option",
+   "slug": "uottawa-honours-bachelor-of-human-kinetics-education-and-coaching-studies-of-social-issu",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Health Sciences › Human Kinetics (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:34:09.298Z",
+   "fee": "CA$21,667.54",
+   "name": "Honours Bachelor of Human Kinetics - Recreation and Sport Management",
+   "slug": "uottawa-honours-bachelor-of-human-kinetics-recreation-and-sport-management",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Health Sciences › Human Kinetics (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:34:10.675Z",
+   "fee": "CA$21,667.54",
+   "name": "Honours Bachelor of Human Kinetics - Recreation and Sport Management - Studies of Social Issues in Sport, Physical Activity and Leisure Option",
+   "slug": "uottawa-honours-bachelor-of-human-kinetics-recreation-and-sport-management-studies-of-so",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Health Sciences › Human Kinetics (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:34:11.368Z",
+   "fee": "CA$21,667.54",
+   "name": "Honours Bachelor of Human Kinetics - Studies of Social Issues in Sport, Physical Activity and Leisure Option",
+   "slug": "uottawa-honours-bachelor-of-human-kinetics-studies-of-social-issues-in-sport-physical-ac",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Science › Science (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:34:12.056Z",
+   "fee": "CA$21,667.54",
+   "name": "Honours Bachelor of Science in Food Sciences",
+   "slug": "uottawa-honours-bachelor-of-science-in-food-sciences",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Health Sciences › Nutrition and Food Biosciences (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:34:12.439Z",
+   "fee": "CA$11,990.67",
+   "name": "Honours Bachelor of Science in Food Sciences and Master of Science Nutrition and Food Biosciences (Coming Soon)",
+   "slug": "uottawa-honours-bachelor-of-science-in-food-sciences-and-master-of-science-nutrition-and",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Science › Science (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:34:12.879Z",
+   "fee": "CA$21,667.54",
+   "name": "Honours Bachelor of Science in Food Sciences - Food Technology Option",
+   "slug": "uottawa-honours-bachelor-of-science-in-food-sciences-food-technology-option",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Health Sciences › Human Kinetics (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:34:13.214Z",
+   "fee": "CA$9,815.26",
+   "name": "Honours Bachelor of Science in Human Kinetics and Master of Health Sciences Occupational Therapy",
+   "slug": "uottawa-honours-bachelor-of-science-in-human-kinetics-and-master-of-health-sciences-occu",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Health Sciences › Human Kinetics (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:34:13.287Z",
+   "fee": "CA$9,815.26",
+   "name": "Honours Bachelor of Science in Human Kinetics and Master of Health Sciences Physiotherapy",
+   "slug": "uottawa-honours-bachelor-of-science-in-human-kinetics-and-master-of-health-sciences-phys",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Health Sciences › Human Kinetics (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:34:13.622Z",
+   "fee": "CA$21,667.54",
+   "name": "Honours Bachelor of Science in Human Kinetics - Applied Studies in Kinesiology",
+   "slug": "uottawa-honours-bachelor-of-science-in-human-kinetics-applied-studies-in-kinesiology",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Health Sciences › Nursing (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:34:13.954Z",
+   "fee": "CA$21,667.54",
+   "name": "Honours Bachelor of Science in Nursing – Bridging Pathway",
+   "slug": "uottawa-honours-bachelor-of-science-in-nursing-bridging-pathway",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Health Sciences › Nursing (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:34:14.237Z",
+   "fee": "CA$21,667.54",
+   "name": "Honours Bachelor of Science in Nursing - Second Entry Program",
+   "slug": "uottawa-honours-bachelor-of-science-in-nursing-second-entry-program",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Science › Science (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:34:14.422Z",
+   "fee": "CA$21,667.54",
+   "name": "Honours Bachelor of Science in Nutrition and Dietetics",
+   "slug": "uottawa-honours-bachelor-of-science-in-nutrition-and-dietetics",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Medicine › Medicine and Cellular Molecular Medicine (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:34:14.754Z",
+   "fee": "CA$5,825.85",
+   "name": "Honours Bachelor of Science in Translational and Molecular Medicine and Doctorate of Philosophy",
+   "slug": "uottawa-honours-bachelor-of-science-in-translational-and-molecular-medicine-and-doctorat",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Medicine › Clinical Science and Translational Medicine (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:34:15.086Z",
+   "fee": "CA$9,720.89",
+   "name": "Honours Bachelor of Science in Translational and Molecular Medicine and Master of Science",
+   "slug": "uottawa-honours-bachelor-of-science-in-translational-and-molecular-medicine-and-master-o",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Science › Biochemistry (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:07.311Z",
+   "fee": "CA$21,667.54",
+   "name": "Honours BSc Biochemistry - Chemical Biology Option",
+   "slug": "uottawa-honours-bsc-biochemistry-chemical-biology-option",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Science › Biochemistry (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:08.035Z",
+   "fee": "CA$21,667.54",
+   "name": "Honours BSc Biochemistry - Microbiology and Immunology Option",
+   "slug": "uottawa-honours-bsc-biochemistry-microbiology-and-immunology-option",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Science › Biochemistry (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:08.383Z",
+   "fee": "CA$21,667.54",
+   "name": "Honours BSc Biochemistry - Synthetic Biology Option",
+   "slug": "uottawa-honours-bsc-biochemistry-synthetic-biology-option",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Science › Biology (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:09.344Z",
+   "fee": "CA$21,667.54",
+   "name": "Honours BSc Biology - Cellular Molecular Option",
+   "slug": "uottawa-honours-bsc-biology-cellular-molecular-option",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Science › Biology (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:10.116Z",
+   "fee": "CA$21,667.54",
+   "name": "Honours BSc Biology - Ecology, Evolution, Behaviour Option",
+   "slug": "uottawa-honours-bsc-biology-ecology-evolution-behaviour-option",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Science › Biomedical Science (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:10.814Z",
+   "fee": "CA$21,667.54",
+   "name": "Honours BSc Biomedical Science - Cellular and Molecular Medicine Option",
+   "slug": "uottawa-honours-bsc-biomedical-science-cellular-and-molecular-medicine-option",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Science › Chemistry (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:11.534Z",
+   "fee": "CA$21,667.54",
+   "name": "Honours BSc Chemistry - Option Advanced Materials",
+   "slug": "uottawa-honours-bsc-chemistry-option-advanced-materials",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Science › Biology (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:11.900Z",
+   "fee": "CA$21,667.54",
+   "name": "Honours BSc in Biology - Animal Physiology Option",
+   "slug": "uottawa-honours-bsc-in-biology-animal-physiology-option",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Science › Biology (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:12.280Z",
+   "fee": "CA$21,667.54",
+   "name": "Honours BSc in Biology - Plant Science Option",
+   "slug": "uottawa-honours-bsc-in-biology-plant-science-option",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Social Sciences › Anthropology (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:12.651Z",
+   "fee": "CA$21,667.54",
+   "name": "Honours BSocSc Anthropology - In-depth Experiential Learning Stream (IELS)",
+   "slug": "uottawa-honours-bsocsc-anthropology-in-depth-experiential-learning-stream-iels",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Social Sciences › Security and Defence Studies (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:12.992Z",
+   "fee": "CA$9,815.26",
+   "name": "Honours BSocSc Conflict Studies and Human Rights and Master of Arts in Security and Defence Studies",
+   "slug": "uottawa-honours-bsocsc-conflict-studies-and-human-rights-and-master-of-arts-in-security-",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Social Sciences › Conflict Studies and Human Rights (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:13.097Z",
+   "fee": "CA$21,667.54",
+   "name": "Honours BSocSc Conflict Studies and Human Rights - In-depth Experiential Learning Stream (IELS)",
+   "slug": "uottawa-honours-bsocsc-conflict-studies-and-human-rights-in-depth-experiential-learning-",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Social Sciences › International Development and Globalization (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:13.449Z",
+   "fee": "CA$21,667.54",
+   "name": "Honours BSocSc International Development and Globalization - In-depth Experiential Learning Stream (IELS)",
+   "slug": "uottawa-honours-bsocsc-international-development-and-globalization-in-depth-experiential",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Social Sciences › International Studies and Modern Languages (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:13.471Z",
+   "fee": "CA$21,667.54",
+   "name": "Honours BSocSc International Studies and Modern Languages – In-depth Experiential Learning Stream (IELS)",
+   "slug": "uottawa-honours-bsocsc-international-studies-and-modern-languages-in-depth-experiential-",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Social Sciences › Social Work (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:13.813Z",
+   "fee": "CA$21,667.54",
+   "name": "Honours BSocSc Social Work - In-depth Experiential Learning Stream (IELS)",
+   "slug": "uottawa-honours-bsocsc-social-work-in-depth-experiential-learning-stream-iels",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Education › Indigenous Teacher Education Program (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:13.836Z",
+   "fee": "CA$21,262.54",
+   "name": "Indigenous Teacher Education Program - Certificate/BEd (Primary/Junior division)",
+   "slug": "uottawa-indigenous-teacher-education-program-certificatebed-primaryjunior-division",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Social Sciences › Anthropology and Sociology (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:14.193Z",
+   "fee": "CA$21,667.54",
+   "name": "Joint Honours BSocSc in Anthropology and Sociology - In-depth Experiential Learning Stream (IELS)",
+   "slug": "uottawa-joint-honours-bsocsc-in-anthropology-and-sociology-in-depth-experiential-learnin",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Law › Law (Thesis) (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:14.217Z",
+   "fee": "CA$10,000.44",
+   "name": "Joint Licenciate in Law (LLL) and Master of Business Administration (MBA)",
+   "slug": "uottawa-joint-licenciate-in-law-lll-and-master-of-business-administration-mba",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Law › Juris Doctor (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:14.362Z",
+   "fee": "CA$24,719.50",
+   "name": "Juris Doctor (JD) / American University, Washington College of Law or Michigan State University, College of Law) - Incoming",
+   "slug": "uottawa-juris-doctor-jd-american-university-washington-college-of-law-or-michigan-state-",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Law › Juris Doctor (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:14.716Z",
+   "fee": "CA$24,719.50",
+   "name": "Juris Doctor (JD) / American University, Washington College of Law or Michigan State University, College of Law) - Outgoing",
+   "slug": "uottawa-juris-doctor-jd-american-university-washington-college-of-law-or-michigan-state--293",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Arts › Arts (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:14.741Z",
+   "fee": "CA$21,667.54",
+   "name": "Juris Doctor (JD) / Master of Arts (International Affairs) - Carleton University",
+   "slug": "uottawa-juris-doctor-jd-master-of-arts-international-affairs-carleton-university",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Engineering › Advanced Materials and Manufacturing (MASc) (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:15.111Z",
+   "fee": "CA$10,502.45",
+   "name": "Master of Applied Science Advanced Materials and Manufacturing",
+   "slug": "uottawa-master-of-applied-science-advanced-materials-and-manufacturing",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Engineering › Biomedical Engineering (MASc) (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:15.133Z",
+   "fee": "CA$10,502.45",
+   "name": "Master of Applied Science Biomedical Engineering",
+   "slug": "uottawa-master-of-applied-science-biomedical-engineering",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Engineering › Biomedical Engineering (MASc) (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:15.282Z",
+   "fee": "CA$10,502.45",
+   "name": "Master of Applied Science Biomedical Engineering and Specialization Bioinformatics",
+   "slug": "uottawa-master-of-applied-science-biomedical-engineering-and-specialization-bioinformati",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Engineering › Chemical Engineering (MASc) (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:15.642Z",
+   "fee": "CA$10,502.45",
+   "name": "Master of Applied Science Chemical Engineering",
+   "slug": "uottawa-master-of-applied-science-chemical-engineering",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Engineering › Chemical Engineering (MASc) (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:15.665Z",
+   "fee": "CA$10,502.45",
+   "name": "Master of Applied Science Chemical Engineering and Specialization Science, Society and Policy",
+   "slug": "uottawa-master-of-applied-science-chemical-engineering-and-specialization-science-societ",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Engineering › Civil Engineering (MASc) (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:16.028Z",
+   "fee": "CA$10,502.45",
+   "name": "Master of Applied Science Civil Engineering",
+   "slug": "uottawa-master-of-applied-science-civil-engineering",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Engineering › Civil Engineering (MASc) (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:16.056Z",
+   "fee": "CA$10,502.45",
+   "name": "Master of Applied Science Civil Engineering and Concentration Sustainable and Resilient Infrastructure",
+   "slug": "uottawa-master-of-applied-science-civil-engineering-and-concentration-sustainable-and-re",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Engineering › Civil Engineering (MASc) (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:16.222Z",
+   "fee": "CA$10,502.45",
+   "name": "Master of Applied Science Civil Engineering and Specialization Science, Society and Policy",
+   "slug": "uottawa-master-of-applied-science-civil-engineering-and-specialization-science-society-a",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per unit",
+   "choice": "Engineering › Computer Science (Coursework and Project) (Full time (per unit))",
+   "decidedAt": "2026-09-25T10:35:16.406Z",
+   "fee": "CA$1,155.27",
+   "name": "Master of Applied Science Electrical and Computer Engineering",
+   "slug": "uottawa-master-of-applied-science-electrical-and-computer-engineering",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per unit",
+   "choice": "Engineering › Computer Science (Coursework and Project) (Full time (per unit))",
+   "decidedAt": "2026-09-25T10:35:16.752Z",
+   "fee": "CA$1,155.27",
+   "name": "Master of Applied Science Electrical and Computer Engineering and Concentration Applied Artificial Intelligence",
+   "slug": "uottawa-master-of-applied-science-electrical-and-computer-engineering-and-concentration-",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per unit",
+   "choice": "Engineering › Computer Science (Coursework and Project) (Full time (per unit))",
+   "decidedAt": "2026-09-25T10:35:16.780Z",
+   "fee": "CA$1,155.27",
+   "name": "Master of Applied Science Electrical and Computer Engineering and Specialization Science, Society and Policy",
+   "slug": "uottawa-master-of-applied-science-electrical-and-computer-engineering-and-specialization",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Engineering › Environmental Engineering (MASc) (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:17.159Z",
+   "fee": "CA$10,502.45",
+   "name": "Master of Applied Science Environmental Engineering",
+   "slug": "uottawa-master-of-applied-science-environmental-engineering",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Social Sciences › Political Science (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:17.188Z",
+   "fee": "CA$9,815.26",
+   "name": "Master of Applied Science in Accessibility in Biomedicine",
+   "slug": "uottawa-master-of-applied-science-in-accessibility-in-biomedicine",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Engineering › Systems Science and Engineering (MSc) (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:17.584Z",
+   "fee": "CA$9,815.26",
+   "name": "Master of Applied Science in Systems Engineering, Concentration in Interdisciplinary Artificial Intelligence",
+   "slug": "uottawa-master-of-applied-science-in-systems-engineering-concentration-in-interdisciplin",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Engineering › Mechanical Engineering (MASc) (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:17.921Z",
+   "fee": "CA$10,502.45",
+   "name": "Master of Applied Science Mechanical Engineering",
+   "slug": "uottawa-master-of-applied-science-mechanical-engineering",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Arts › Classical Studies (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:17.943Z",
+   "fee": "CA$9,720.89",
+   "name": "Master of Arts Classical Studies and Specialization Medieval and Renaissance Studies",
+   "slug": "uottawa-master-of-arts-classical-studies-and-specialization-medieval-and-renaissance-stu",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Arts › Communication (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:18.098Z",
+   "fee": "CA$9,720.89",
+   "name": "Master of Arts Communication and Specialization Science, Society and Policy",
+   "slug": "uottawa-master-of-arts-communication-and-specialization-science-society-and-policy",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Arts › Visual Arts (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:18.290Z",
+   "fee": "CA$9,815.26",
+   "name": "Master of Arts Contemporary Art Theory",
+   "slug": "uottawa-master-of-arts-contemporary-art-theory",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Education › Health Professions Education (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:18.645Z",
+   "fee": "CA$11,419.68",
+   "name": "Master of Arts Education (Health Professions Education)",
+   "slug": "uottawa-master-of-arts-education-health-professions-education",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Arts › English Literature (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:18.669Z",
+   "fee": "CA$9,720.89",
+   "name": "Master of Arts English Literature and Specialization Medieval and Renaissance Studies",
+   "slug": "uottawa-master-of-arts-english-literature-and-specialization-medieval-and-renaissance-st",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Arts › English Literature (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:19.046Z",
+   "fee": "CA$9,720.89",
+   "name": "Master of Arts English Literature with Concentration in Creative Writing",
+   "slug": "uottawa-master-of-arts-english-literature-with-concentration-in-creative-writing",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Arts › Geography (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:19.069Z",
+   "fee": "CA$9,720.89",
+   "name": "Master of Arts Geography and Specialization Science, Society and Policy",
+   "slug": "uottawa-master-of-arts-geography-and-specialization-science-society-and-policy",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Arts › History (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:19.210Z",
+   "fee": "CA$9,720.89",
+   "name": "Master of Arts History and Specialization Medieval and Renaissance Studies",
+   "slug": "uottawa-master-of-arts-history-and-specialization-medieval-and-renaissance-studies",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Social Sciences › Feminist and Gender Studies (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:19.404Z",
+   "fee": "CA$9,815.26",
+   "name": "Master of Arts International Development and Globalization and Specialization Feminist and Gender Studies",
+   "slug": "uottawa-master-of-arts-international-development-and-globalization-and-specialization-fe",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Arts › Graduate Diploma Music (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:19.757Z",
+   "fee": "CA$9,720.89",
+   "name": "Master of Arts Music",
+   "slug": "uottawa-master-of-arts-music",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Arts › Graduate Diploma Music (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:19.781Z",
+   "fee": "CA$9,720.89",
+   "name": "Master of Arts Music and Specialization Medieval and Renaissance Studies",
+   "slug": "uottawa-master-of-arts-music-and-specialization-medieval-and-renaissance-studies",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Arts › Visual Arts (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:20.151Z",
+   "fee": "CA$9,815.26",
+   "name": "Master of Arts Philosophy",
+   "slug": "uottawa-master-of-arts-philosophy",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Arts › Bilingualism Studies (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:20.175Z",
+   "fee": "CA$9,720.89",
+   "name": "Master of Arts Philosophy and Specialization Medieval and Renaissance Studies",
+   "slug": "uottawa-master-of-arts-philosophy-and-specialization-medieval-and-renaissance-studies",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Arts › Visual Arts (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:20.508Z",
+   "fee": "CA$9,815.26",
+   "name": "Master of Arts Psychology",
+   "slug": "uottawa-master-of-arts-psychology",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Social Sciences › Public Administration (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:20.849Z",
+   "fee": "CA$9,815.26",
+   "name": "Master of Arts Public Administration and Specialization in Science, Society and Policy",
+   "slug": "uottawa-master-of-arts-public-administration-and-specialization-in-science-society-and-p",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Social Sciences › Public and International Affairs (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:21.185Z",
+   "fee": "CA$9,815.26",
+   "name": "Master of Arts Public and International Affairs and Specialization Science, Society and Policy",
+   "slug": "uottawa-master-of-arts-public-and-international-affairs-and-specialization-science-socie",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Arts › Religious Studies (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:21.537Z",
+   "fee": "CA$9,720.89",
+   "name": "Master of Arts Religious Studies and Specialization Medieval and Renaissance Studies",
+   "slug": "uottawa-master-of-arts-religious-studies-and-specialization-medieval-and-renaissance-stu",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Arts › Spanish (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:21.660Z",
+   "fee": "CA$9,720.89",
+   "name": "Master of Arts Spanish and Specialization Medieval and Renaissance Studies",
+   "slug": "uottawa-master-of-arts-spanish-and-specialization-medieval-and-renaissance-studies",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Arts › Theatre (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:22.006Z",
+   "fee": "CA$9,720.89",
+   "name": "Master of Arts Theatre and Specialization Medieval and Renaissance Studies",
+   "slug": "uottawa-master-of-arts-theatre-and-specialization-medieval-and-renaissance-studies",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Management (Telfer) › Business Administration (MBA - French program) - 24 months (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:22.344Z",
+   "fee": "CA$11,788.94",
+   "name": "Master of Business Administration (MBA)",
+   "slug": "uottawa-master-of-business-administration-mba",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Science › Scientific Management and Leadership (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:35:22.678Z",
+   "fee": "CA$9,720.89",
+   "name": "Master of Business Complex Project Leadership",
+   "slug": "uottawa-master-of-business-complex-project-leadership",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per unit",
+   "choice": "Engineering › Computer Science (Coursework and Project) (Full time (per unit))",
+   "decidedAt": "2026-09-25T10:35:22.800Z",
+   "fee": "CA$1,155.27",
+   "name": "Master of Computer Science",
+   "slug": "uottawa-master-of-computer-science",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per unit",
+   "choice": "Engineering › Computer Science (Coursework and Project) (Full time (per unit))",
+   "decidedAt": "2026-09-25T10:35:22.968Z",
+   "fee": "CA$1,155.27",
+   "name": "Master of Computer Science and Concentration Applied Artificial Intelligence",
+   "slug": "uottawa-master-of-computer-science-and-concentration-applied-artificial-intelligence",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per unit",
+   "choice": "Engineering › Computer Science (Coursework and Project) (Full time (per unit))",
+   "decidedAt": "2026-09-25T10:38:09.630Z",
+   "fee": "CA$1,155.27",
+   "name": "Master of Computer Science and Specialization Bioinformatics",
+   "slug": "uottawa-master-of-computer-science-and-specialization-bioinformatics",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Education › Education (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:12.351Z",
+   "fee": "CA$11,419.68",
+   "name": "Master of Education (Education in Minority Language Contexts and Inclusion)",
+   "slug": "uottawa-master-of-education-education-in-minority-language-contexts-and-inclusion",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Education › Education (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:12.726Z",
+   "fee": "CA$11,419.68",
+   "name": "Master of Education (Education in Minority Language Contexts and Inclusion) (Online)",
+   "slug": "uottawa-master-of-education-education-in-minority-language-contexts-and-inclusion-online",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Education › Education (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:11.235Z",
+   "fee": "CA$11,419.68",
+   "name": "Master of Education (Educational Leadership, Policy and Evaluation) (Online)",
+   "slug": "uottawa-master-of-education-educational-leadership-policy-and-evaluation-online",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Education › Health Professions Education (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:13.066Z",
+   "fee": "CA$11,419.68",
+   "name": "Master of Education (Health Professions Education) (Online)",
+   "slug": "uottawa-master-of-education-health-professions-education-online",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Education › Education (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:13.390Z",
+   "fee": "CA$11,419.68",
+   "name": "Master of Education (Second Language Education) (Online)",
+   "slug": "uottawa-master-of-education-second-language-education-online",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Education › Education (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:13.654Z",
+   "fee": "CA$11,419.68",
+   "name": "Master of Education (Societies, Cultures and Languages)",
+   "slug": "uottawa-master-of-education-societies-cultures-and-languages",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Education › Education (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:13.987Z",
+   "fee": "CA$11,419.68",
+   "name": "Master of Education (Studies in Teaching and Learning)",
+   "slug": "uottawa-master-of-education-studies-in-teaching-and-learning",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Education › Education (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:14.317Z",
+   "fee": "CA$11,419.68",
+   "name": "Master of Education (Studies in Teaching and Learning) (Online)",
+   "slug": "uottawa-master-of-education-studies-in-teaching-and-learning-online",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Engineering › Advanced Materials and Manufacturing (MASc) (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:14.651Z",
+   "fee": "CA$10,502.45",
+   "name": "Master of Engineering Advanced Materials and Manufacturing",
+   "slug": "uottawa-master-of-engineering-advanced-materials-and-manufacturing",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Engineering › Biomedical Engineering (MASc) (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:14.978Z",
+   "fee": "CA$10,502.45",
+   "name": "Master of Engineering Biomedical Engineering",
+   "slug": "uottawa-master-of-engineering-biomedical-engineering",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Engineering › Biomedical Engineering (MASc) (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:15.356Z",
+   "fee": "CA$10,502.45",
+   "name": "Master of Engineering Biomedical Engineering and Concentration Clinical Engineering",
+   "slug": "uottawa-master-of-engineering-biomedical-engineering-and-concentration-clinical-engineer",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Engineering › Chemical Engineering (MASc) (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:15.664Z",
+   "fee": "CA$10,502.45",
+   "name": "Master of Engineering Chemical Engineering",
+   "slug": "uottawa-master-of-engineering-chemical-engineering",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Engineering › Civil Engineering (MASc) (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:15.976Z",
+   "fee": "CA$10,502.45",
+   "name": "Master of Engineering Civil Engineering",
+   "slug": "uottawa-master-of-engineering-civil-engineering",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Engineering › Engineering Electrical and Computer Engineering (MASc) (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:16.260Z",
+   "fee": "CA$10,502.45",
+   "name": "Master of Engineering Electrical and Computer Engineering",
+   "slug": "uottawa-master-of-engineering-electrical-and-computer-engineering",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Engineering › Engineering Electrical and Computer Engineering (MASc) (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:16.601Z",
+   "fee": "CA$10,502.45",
+   "name": "Master of Engineering Electrical and Computer Engineering and Concentration Applied Artificial Intelligence",
+   "slug": "uottawa-master-of-engineering-electrical-and-computer-engineering-and-concentration-appl",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Engineering › Environmental Engineering (MASc) (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:16.928Z",
+   "fee": "CA$10,502.45",
+   "name": "Master of Engineering Environmental Engineering",
+   "slug": "uottawa-master-of-engineering-environmental-engineering",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per unit",
+   "choice": "Engineering › Entrepreneurial Engineering Design (MEng) (Full time (per unit))",
+   "decidedAt": "2026-09-25T10:38:17.252Z",
+   "fee": "CA$1,421.91",
+   "name": "Master of Engineering in Entrepreneurial Engineering Design",
+   "slug": "uottawa-master-of-engineering-in-entrepreneurial-engineering-design",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Engineering › Systems Science and Engineering (MSc) (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:17.274Z",
+   "fee": "CA$9,815.26",
+   "name": "Master of Engineering in Systems Engineering",
+   "slug": "uottawa-master-of-engineering-in-systems-engineering",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Engineering › Systems Science and Engineering (MSc) (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:17.427Z",
+   "fee": "CA$9,815.26",
+   "name": "Master of Engineering in Systems Engineering, Concentration in Interdisciplinary Artificial Intelligence",
+   "slug": "uottawa-master-of-engineering-in-systems-engineering-concentration-in-interdisciplinary-",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Engineering › Mechanical Engineering (MASc) (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:17.624Z",
+   "fee": "CA$10,502.45",
+   "name": "Master of Engineering Mechanical Engineering",
+   "slug": "uottawa-master-of-engineering-mechanical-engineering",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Management (Telfer) › Health Administration (MHA - English professional program) - 24 months (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:17.952Z",
+   "fee": "CA$9,552.94",
+   "name": "Master of Health Administration (MHA)",
+   "slug": "uottawa-master-of-health-administration-mha",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Health Sciences › Audiology (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:18.277Z",
+   "fee": "CA$9,815.26",
+   "name": "Master of Health Sciences Audiology",
+   "slug": "uottawa-master-of-health-sciences-audiology",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Health Sciences › Physiotherapy (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:18.612Z",
+   "fee": "CA$9,815.26",
+   "name": "Master of Health Sciences Physiotherapy",
+   "slug": "uottawa-master-of-health-sciences-physiotherapy",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Health Sciences › Human Kinetics (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:18.940Z",
+   "fee": "CA$9,815.26",
+   "name": "Master of Human Kinetics with Concentration Mental Performance Consulting",
+   "slug": "uottawa-master-of-human-kinetics-with-concentration-mental-performance-consulting",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Arts › Information Studies (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:19.272Z",
+   "fee": "CA$10,000.44",
+   "name": "Master of Information Studies (Bilingual) and Specialization Science, Society and Policy",
+   "slug": "uottawa-master-of-information-studies-bilingual-and-specialization-science-society-and-p",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Health Sciences › Interdisciplinary Health Sciences (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:19.476Z",
+   "fee": "CA$9,815.26",
+   "name": "Master of Interdisciplinary Artificial Intelligence (Online)",
+   "slug": "uottawa-master-of-interdisciplinary-artificial-intelligence-online",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": null,
+   "choice": "none",
+   "decidedAt": "2026-09-25T10:40:50.048Z",
+   "fee": null,
+   "name": "Master of Laws (LLM)",
+   "slug": "uottawa-master-of-laws-llm",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Social Sciences › Environmental Sustainability (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:22.060Z",
+   "fee": "CA$9,720.89",
+   "name": "Master of Laws (LLM) and Concentration Global Sustainability and Environmental Law",
+   "slug": "uottawa-master-of-laws-llm-and-concentration-global-sustainability-and-environmental-law",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Law › Law (Thesis) (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:22.741Z",
+   "fee": "CA$10,000.44",
+   "name": "Master of Laws (LLM) and Concentration Health Law, Policy and Ethics",
+   "slug": "uottawa-master-of-laws-llm-and-concentration-health-law-policy-and-ethics",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Law › Law (Thesis) (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:23.067Z",
+   "fee": "CA$10,000.44",
+   "name": "Master of Laws (LLM) and Concentration International Humanitarian and Security Law",
+   "slug": "uottawa-master-of-laws-llm-and-concentration-international-humanitarian-and-security-law",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Social Sciences › Globalization and International Development (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:23.458Z",
+   "fee": "CA$9,815.26",
+   "name": "Master of Laws (LLM) and Concentration International Trade and Foreign Investment",
+   "slug": "uottawa-master-of-laws-llm-and-concentration-international-trade-and-foreign-investment",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Law › Law (Thesis) (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:23.670Z",
+   "fee": "CA$10,000.44",
+   "name": "Master of Laws (LLM) and Concentration Law and Social Justice",
+   "slug": "uottawa-master-of-laws-llm-and-concentration-law-and-social-justice",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Law › Law (Thesis) (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:23.986Z",
+   "fee": "CA$10,000.44",
+   "name": "Master of Laws (LLM) and Concentration Law and Technology",
+   "slug": "uottawa-master-of-laws-llm-and-concentration-law-and-technology",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Arts › Bilingualism Studies (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:24.293Z",
+   "fee": "CA$9,720.89",
+   "name": "Master of Laws (LLM) and Concentration Legislative Studies",
+   "slug": "uottawa-master-of-laws-llm-and-concentration-legislative-studies",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Law › Law (Thesis) (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:24.601Z",
+   "fee": "CA$10,000.44",
+   "name": "Master of Laws (LLM) and Concentration Notarial Law",
+   "slug": "uottawa-master-of-laws-llm-and-concentration-notarial-law",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Arts › Graduate Diploma Music (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:24.781Z",
+   "fee": "CA$9,720.89",
+   "name": "Master of Music and Concentration Composition",
+   "slug": "uottawa-master-of-music-and-concentration-composition",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Arts › Graduate Diploma Music (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:25.085Z",
+   "fee": "CA$9,720.89",
+   "name": "Master of Music and Concentration Performance",
+   "slug": "uottawa-master-of-music-and-concentration-performance",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Medicine › Biochemistry (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:25.383Z",
+   "fee": "CA$9,720.89",
+   "name": "Master of Science Biochemistry and Specialization Bioinformatics",
+   "slug": "uottawa-master-of-science-biochemistry-and-specialization-bioinformatics",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Medicine › Biochemistry (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:25.670Z",
+   "fee": "CA$9,720.89",
+   "name": "Master of Science Biochemistry and Specialization Human and Molecular Genetics",
+   "slug": "uottawa-master-of-science-biochemistry-and-specialization-human-and-molecular-genetics",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Science › Biology (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:25.966Z",
+   "fee": "CA$9,720.89",
+   "name": "Master of Science Biology and Specialization Bioinformatics",
+   "slug": "uottawa-master-of-science-biology-and-specialization-bioinformatics",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Science › Biology (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:26.162Z",
+   "fee": "CA$9,720.89",
+   "name": "Master of Science Biology and Specialization Chemical and Environmental Toxicology",
+   "slug": "uottawa-master-of-science-biology-and-specialization-chemical-and-environmental-toxicolo",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Science › Biology (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:26.439Z",
+   "fee": "CA$9,720.89",
+   "name": "Master of Science Biology and Specialization Science, Society and Policy",
+   "slug": "uottawa-master-of-science-biology-and-specialization-science-society-and-policy",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Science › Chemistry (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:26.754Z",
+   "fee": "CA$9,720.89",
+   "name": "Master of Science Chemistry and Specialization Chemical and Environmental Toxicology",
+   "slug": "uottawa-master-of-science-chemistry-and-specialization-chemical-and-environmental-toxico",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Science › Chemistry (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:26.938Z",
+   "fee": "CA$9,720.89",
+   "name": "Master of Science Chemistry and Specialization Science, Society and Policy",
+   "slug": "uottawa-master-of-science-chemistry-and-specialization-science-society-and-policy",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Science › Chemistry (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:27.194Z",
+   "fee": "CA$9,720.89",
+   "name": "Master of Science Chemistry Concentration in Biomolecular Science",
+   "slug": "uottawa-master-of-science-chemistry-concentration-in-biomolecular-science",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Science › Earth Sciences (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:27.486Z",
+   "fee": "CA$9,720.89",
+   "name": "Master of Science Earth Sciences and Specialization Chemical and Environmental Toxicology",
+   "slug": "uottawa-master-of-science-earth-sciences-and-specialization-chemical-and-environmental-t",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Science › Earth Sciences (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:27.682Z",
+   "fee": "CA$9,720.89",
+   "name": "Master of Science Earth Sciences and Specialization Science, Society and Policy",
+   "slug": "uottawa-master-of-science-earth-sciences-and-specialization-science-society-and-policy",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Arts › Geography (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:27.915Z",
+   "fee": "CA$9,720.89",
+   "name": "Master of Science Geography and Specialization Science, Society and Policy",
+   "slug": "uottawa-master-of-science-geography-and-specialization-science-society-and-policy",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Medicine › Epidemiology (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:28.144Z",
+   "fee": "CA$9,904.31",
+   "name": "Master of Science in Epidemiology and Applied Health Research, Concentration in Clinical Research",
+   "slug": "uottawa-master-of-science-in-epidemiology-and-applied-health-research-concentration-in-c",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Medicine › Epidemiology (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:28.290Z",
+   "fee": "CA$9,904.31",
+   "name": "Master of Science in Epidemiology and Applied Health Research, Concentration in Epidemiology",
+   "slug": "uottawa-master-of-science-in-epidemiology-and-applied-health-research-concentration-in-e",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Medicine › Epidemiology (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:28.508Z",
+   "fee": "CA$9,904.31",
+   "name": "Master of Science in Epidemiology and Applied Health Research, Concentration in Global Health Research",
+   "slug": "uottawa-master-of-science-in-epidemiology-and-applied-health-research-concentration-in-g",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Medicine › Epidemiology (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:28.694Z",
+   "fee": "CA$9,904.31",
+   "name": "Master of Science in Epidemiology and Applied Health Research, Concentration in Health Policy",
+   "slug": "uottawa-master-of-science-in-epidemiology-and-applied-health-research-concentration-in-h",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Medicine › Epidemiology (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:28.901Z",
+   "fee": "CA$9,904.31",
+   "name": "Master of Science in Epidemiology and Applied Health Research, Concentration in Health Technology Assessment",
+   "slug": "uottawa-master-of-science-in-epidemiology-and-applied-health-research-concentration-in-h-460",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Medicine › Epidemiology (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:29.094Z",
+   "fee": "CA$9,904.31",
+   "name": "Master of Science in Epidemiology and Applied Health Research, Concentration in Implementation Science",
+   "slug": "uottawa-master-of-science-in-epidemiology-and-applied-health-research-concentration-in-i",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Medicine › Neuroscience (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:29.302Z",
+   "fee": "CA$9,720.89",
+   "name": "Master of Science Neuroscience and Specialization Human and Molecular Genetics",
+   "slug": "uottawa-master-of-science-neuroscience-and-specialization-human-and-molecular-genetics",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Health Sciences › Nursing (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:29.506Z",
+   "fee": "CA$11,990.67",
+   "name": "Master of Science Nursing - Distance Option",
+   "slug": "uottawa-master-of-science-nursing-distance-option",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Health Sciences › Nursing (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:29.687Z",
+   "fee": "CA$11,990.67",
+   "name": "Master of Science Nursing with Graduate Diploma for Nurse Practitioners",
+   "slug": "uottawa-master-of-science-nursing-with-graduate-diploma-for-nurse-practitioners",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Science › Physics (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:29.886Z",
+   "fee": "CA$9,720.89",
+   "name": "Master of Science Physics and Concentration Quantum Science",
+   "slug": "uottawa-master-of-science-physics-and-concentration-quantum-science",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Science › Physics (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:30.067Z",
+   "fee": "CA$9,720.89",
+   "name": "Master of Science Physics and Specialization Science, Society and Policy",
+   "slug": "uottawa-master-of-science-physics-and-specialization-science-society-and-policy",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Law › Programme de droit canadien (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:30.268Z",
+   "fee": "CA$24,719.50",
+   "name": "Programme de droit canadien – Juris Doctor (J.D.) et Licence en droit (LL.L.)",
+   "slug": "uottawa-programme-de-droit-canadien-juris-doctor-jd-et-licence-en-droit-lll",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Education › Education (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:30.468Z",
+   "fee": "CA$5,825.85",
+   "name": "Undergraduate Medical Education (MD Program) and Doctorate in Philosophy Biochemistry",
+   "slug": "uottawa-undergraduate-medical-education-md-program-and-doctorate-in-philosophy-biochemis",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Education › Education (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:30.660Z",
+   "fee": "CA$5,825.85",
+   "name": "Undergraduate Medical Education (MD Program) and Doctorate in Philosophy Biochemistry and Specialization Human and Molecular Genetics",
+   "slug": "uottawa-undergraduate-medical-education-md-program-and-doctorate-in-philosophy-biochemis-486",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Education › Education (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:30.856Z",
+   "fee": "CA$5,825.85",
+   "name": "Undergraduate Medical Education (MD Program) and Doctorate in Philosophy Biology",
+   "slug": "uottawa-undergraduate-medical-education-md-program-and-doctorate-in-philosophy-biology",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Medicine › Medicine and Cellular Molecular Medicine (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:32.192Z",
+   "fee": "CA$5,825.85",
+   "name": "Undergraduate Medical Education (MD Program) and Doctorate in Philosophy Cellular and Molecular Medicine and Specialization Human and Molecular Genetics",
+   "slug": "uottawa-undergraduate-medical-education-md-program-and-doctorate-in-philosophy-cellular--489",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Medicine › Microbiology and Immunology (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:32.960Z",
+   "fee": "CA$5,825.85",
+   "name": "Undergraduate Medical Education (MD Program) and Doctorate in Philosophy Microbiology and Immunology",
+   "slug": "uottawa-undergraduate-medical-education-md-program-and-doctorate-in-philosophy-microbiol",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Education › Education (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:33.144Z",
+   "fee": "CA$5,825.85",
+   "name": "Undergraduate Medical Education (MD Program) and Doctorate in Philosophy Neuroscience",
+   "slug": "uottawa-undergraduate-medical-education-md-program-and-doctorate-in-philosophy-neuroscie",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "per term",
+   "choice": "Education › Education (Full time (flat rate))",
+   "decidedAt": "2026-09-25T10:38:33.780Z",
+   "fee": "CA$5,825.85",
+   "name": "Undergraduate Medical Education (MD Program) and Doctorate in Philosophy Neuroscience and Specialization Human and Molecular Genetics",
+   "slug": "uottawa-undergraduate-medical-education-md-program-and-doctorate-in-philosophy-neuroscie-492",
+   "uni": "uOttawa"
+  },
+  {
+   "basis": "first year, 2 terms incl. incidentals",
+   "choice": "Faculty of Arts",
+   "decidedAt": "2026-09-25T10:32:32.623Z",
+   "fee": "C$58,000",
+   "name": "Bachelor of Arts",
+   "slug": "waterlooug-bachelor-of-arts",
+   "uni": "Waterloo"
+  },
+  {
+   "basis": "first year, 2 terms incl. incidentals",
+   "choice": "Faculty of Health",
+   "decidedAt": "2026-09-25T10:32:33.720Z",
+   "fee": "C$54,000",
+   "name": "Bachelor of Science",
+   "slug": "waterlooug-bachelor-of-science",
+   "uni": "Waterloo"
+  },
+  {
+   "basis": "first year, 2 terms incl. incidentals",
+   "choice": "Mathematics (16 majors), Math/BBA, Math/CPA",
+   "decidedAt": "2026-09-25T10:32:35.276Z",
+   "fee": "C$62,000",
+   "name": "Data Science",
+   "slug": "waterlooug-data-science",
+   "uni": "Waterloo"
+  },
+  {
+   "basis": "first year, 2 terms incl. incidentals",
+   "choice": "Faculty of Arts",
+   "decidedAt": "2026-09-25T10:32:37.224Z",
+   "fee": "C$58,000",
+   "name": "Double degree program in human rights and law",
+   "slug": "waterlooug-double-degree-program-in-human-rights-and-law",
+   "uni": "Waterloo"
+  },
+  {
+   "basis": null,
+   "choice": "none",
+   "decidedAt": "2026-09-25T10:32:36.336Z",
+   "fee": null,
+   "name": "Education (teaching)",
+   "slug": "waterlooug-education-teaching",
+   "uni": "Waterloo"
+  },
+  {
+   "basis": "first year, 2 terms incl. incidentals",
+   "choice": "Faculty of Environment",
+   "decidedAt": "2026-09-25T10:32:36.882Z",
+   "fee": "C$51,000",
+   "name": "Environment, Resources and Sustainability",
+   "slug": "waterlooug-environment-resources-and-sustainability",
+   "uni": "Waterloo"
+  },
+  {
+   "basis": "first year, 2 terms incl. incidentals",
+   "choice": "Faculty of Science",
+   "decidedAt": "2026-09-25T10:32:37.060Z",
+   "fee": "C$54,000",
+   "name": "Environmental Sciences",
+   "slug": "waterlooug-environmental-sciences",
+   "uni": "Waterloo"
+  },
+  {
+   "basis": "first year, 2 terms incl. incidentals",
+   "choice": "Mathematics (16 majors), Math/BBA, Math/CPA",
+   "decidedAt": "2026-09-25T10:32:37.392Z",
+   "fee": "C$62,000",
+   "name": "Mathematical Economics",
+   "slug": "waterlooug-mathematical-economics",
+   "uni": "Waterloo"
+  },
+  {
+   "basis": "first year, 2 terms incl. incidentals",
+   "choice": "Mathematics (16 majors), Math/BBA, Math/CPA",
+   "decidedAt": "2026-09-25T10:32:37.568Z",
+   "fee": "C$62,000",
+   "name": "Mathematical Physics",
+   "slug": "waterlooug-mathematical-physics",
+   "uni": "Waterloo"
+  },
+  {
+   "basis": null,
+   "choice": "none",
+   "decidedAt": "2026-09-25T10:32:37.732Z",
+   "fee": null,
+   "name": "Medical Sciences (Waterloo) and Doctor of Medicine (St. George s University)",
+   "slug": "waterlooug-medical-sciences-waterloo-and-doctor-of-medicine-st-george-s-university",
+   "uni": "Waterloo"
+  },
+  {
+   "basis": "first year, 2 terms incl. incidentals",
+   "choice": "Faculty of Science",
+   "decidedAt": "2026-09-25T10:32:37.904Z",
+   "fee": "C$54,000",
+   "name": "Optometry",
+   "slug": "waterlooug-optometry",
+   "uni": "Waterloo"
+  },
+  {
+   "basis": "first year, 2 terms incl. incidentals",
+   "choice": "Faculty of Science",
+   "decidedAt": "2026-09-25T10:32:38.098Z",
+   "fee": "C$54,000",
+   "name": "Pharmacy",
+   "slug": "waterlooug-pharmacy",
+   "uni": "Waterloo"
+  },
+  {
+   "basis": "first year, 2 terms incl. incidentals",
+   "choice": "Faculty of Health",
+   "decidedAt": "2026-09-25T10:32:38.286Z",
+   "fee": "C$54,000",
+   "name": "Pre-law",
+   "slug": "waterlooug-pre-law",
+   "uni": "Waterloo"
+  },
+  {
+   "basis": "first year, 2 terms incl. incidentals",
+   "choice": "Faculty of Science",
+   "decidedAt": "2026-09-25T10:32:38.462Z",
+   "fee": "C$54,000",
+   "name": "Psychology (Bachelor of Science)",
+   "slug": "waterlooug-psychology-bachelor-of-science",
+   "uni": "Waterloo"
+  },
+  {
+   "basis": "first year, 2 terms incl. incidentals",
+   "choice": "Faculty of Arts",
+   "decidedAt": "2026-09-25T10:32:38.630Z",
+   "fee": "C$58,000",
+   "name": "Social Development Studies and Bachelor of Social Work Double",
+   "slug": "waterlooug-social-development-studies-and-bachelor-of-social-work-double",
+   "uni": "Waterloo"
+  }
+ ]
+}

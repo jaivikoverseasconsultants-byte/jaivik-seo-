@@ -117,7 +117,7 @@ export function getCombinedCityBudgets(tuition: TuitionStats, guide: CostOfLivin
 
 export function getBudgetBandsForCountry(registryCountry: string): number[] {
   return BUDGET_BANDS.filter(b =>
-    getAllRealCourses().filter(c => c.country === registryCountry && c.annualINR > 0 && c.annualINR <= b * 100000).length >= BUDGET_MIN_MATCHES
+    getAllRealCourses().filter(c => c.country === registryCountry && c.annualINR > 0 && c.feeVerified !== false && c.annualINR <= b * 100000).length >= BUDGET_MIN_MATCHES
   );
 }
 

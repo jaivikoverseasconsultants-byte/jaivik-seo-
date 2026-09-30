@@ -81,8 +81,14 @@ export default async function CoursePage(
               </p>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                 {[
-                  { label: 'Annual Fee (CAD)', value: feeDisplay(course as any, course.annualCAD, 'CAD') },
-                  { label: 'Fee in INR', value: feeDisplayINRLakh(course as any, feeINRLakh, '/yr') },
+                  // uOttawa charges per term, or per unit for a few programmes, and publishes no
+                  // annual figure — so the annual row gives way to what it actually states.
+                  ...(course.termTuitionCAD
+                    ? [{ label: 'Tuition (per term)', value: `C$${course.termTuitionCAD.toLocaleString('en-CA')}` }]
+                    : course.perUnitCAD
+                      ? [{ label: 'Tuition (per unit)', value: `C$${course.perUnitCAD.toLocaleString('en-CA')}` }]
+                      : [{ label: 'Annual Fee (CAD)', value: feeDisplay(course as any, course.annualCAD, 'CAD') }]),
+                  ...(course.termTuitionCAD || course.perUnitCAD ? [] : [{ label: 'Fee in INR', value: feeDisplayINRLakh(course as any, feeINRLakh, '/yr') }]),
                   ...(showOnCoursePage(UNIVERSITY_SLUG, 'ieltsMin') && publishedEnglishTests(UNIVERSITY_SLUG, course as never).some(t => t.test === 'ielts') ? [{ label: 'IELTS Minimum', value: `${course.ieltsMin}+` }] : []),
                   ...(publishedScore(UNIVERSITY_SLUG, course as never, 'toefl') ? [{ label: 'TOEFL', value: `${course.toeflMin}+` }] : []),
                   ...(publishedScore(UNIVERSITY_SLUG, course as never, 'pte') ? [{ label: 'PTE', value: `${course.pteMin}+` }] : []),
@@ -113,7 +119,8 @@ export default async function CoursePage(
                 ...(showOnCoursePage(UNIVERSITY_SLUG, 'campus') ? [{ label: 'Campus', value: course.campus }] : []),
                 ...(showOnCoursePage(UNIVERSITY_SLUG, 'intakeMonths') ? [{ label: 'Intakes', value: course.intakeMonths.join(' & ') }] : []),
                 { label: 'Annual Tuition (CAD)', value: feeDisplay(course as any, course.annualCAD, 'CAD') },
-                { label: 'Annual Tuition (USD)', value: feeDisplay(course as any, course.annualUSD, 'USD') },
+                { label: 'Annual Tuition (USD)', value: feeDisplay(course as any, course.annualUSD, 'USD') },
+
                 { label: 'Total Course Fee', value: (isFeeVerified(course as any) ? `$${course.totalCAD.toLocaleString()} CAD` : 'On request') },
               ].map(f => (
                 <div key={f.label} className="p-4 bg-gray-50 rounded-xl">
@@ -133,7 +140,8 @@ export default async function CoursePage(
                 .map(e => (
                 <div key={e.label} className="bg-blue-50 rounded-xl p-4 text-center">
                   <p className="text-xl font-bold text-brand-700">{e.value}</p>
-                  <p className="text-xs font-semibold text-gray-700 mt-1">{e.label}</p>
+                  <p className="text-xs font-semibold text-gray-700 mt-1">{e.label}</p>
+
                 </div>
               ))}
             </div>

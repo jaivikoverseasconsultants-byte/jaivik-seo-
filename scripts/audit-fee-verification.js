@@ -211,15 +211,15 @@ const AGGREGATE_BACKLOG = {
   // verified. They stay listed because they still READ fee fields directly, which
   // check 7 would otherwise flag.
   'components/SubjectPillarPage.tsx': 'verified-only range + basis disclosed (2026-08-26)',
-  'lib/cost-pillars.ts': 'verified-only range + basis disclosed (2026-08-26)',
+  'lib/cost-pillars.ts': 'verified-only range + basis disclosed (2026-08-26); budget bands count verified fees only (2026-09-30)',
   'lib/country-subject-comparisons.ts': 'verified-only range + basis disclosed (2026-08-26)',
   'lib/subject-pillars.ts': 'verified-only range + basis disclosed (2026-08-26)',
   'lib/university-comparisons.ts': 'verified-only range + basis disclosed (2026-08-26)',
   'lib/generate-shortlist-pdf.ts': 'per-course fee suppressed when unverified (2026-08-26)',
+  'lib/find-my-course.ts': 'budget-band filter matches verified fees only (2026-09-30)',
 
   // Still outstanding:
   'lib/courseContent.ts': 'fee prose lives in the dead "about" return value (computed but never destructured by CourseRichContent, which takes only whyStudyHere) — remove it or wire it up',
-  'lib/find-my-course.ts': 'budget-band FILTER still uses unverified fees — a search filter, not a published claim, so changing it is a product decision',
   'components/CourseMatcherClient.tsx': 'prints per-course fees from data/course-index.ts, a HAND-CURATED ~180-course index with no feeVerified field at all — a different problem from unverified-crawled fees',
 };
 const PER_COURSE_FEE = /\b(?:annual|total)(?:GBP|USD|INR|AUD|NZD|CAD|EUR|SGD|AED)\b/;

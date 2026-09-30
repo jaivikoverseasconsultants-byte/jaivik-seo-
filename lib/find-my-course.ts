@@ -122,7 +122,7 @@ function toCourseForContent(c: RealCourseEntry): CourseForContent {
  */
 export function matchCourses(profile: MatchProfile): MatchedCourse[] {
   const all = getAllRealCourses();
-  let filtered = all.filter(c => c.annualINR > 0);
+  let filtered = all.filter(c => c.annualINR > 0 && c.feeVerified !== false);
 
   if (profile.countries.length > 0) {
     filtered = filtered.filter(c => profile.countries.includes(c.country));
