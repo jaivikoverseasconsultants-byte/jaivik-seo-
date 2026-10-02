@@ -66,7 +66,7 @@ export default async function CourseDetailPage(
               <h1 className="text-3xl md:text-4xl font-bold mb-3">{course.name} at Uppsala University — {titleFeeFragment(course as any, course.annualINR)}IELTS &amp; Requirements for Indian Students</h1>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-5">
                 {[
-                  { label: 'Annual Fee', value: feeDisplay(course as any, course.annualUSD, 'USD') },
+                  { label: 'Tuition per semester', value: feeDisplay(course as any, course.semesterTuitionSEK, 'SEK') },
                   { label: 'Fee (INR)', value: feeDisplayINRLakh(course as any, feeINRLakh, '/yr') },
                   { label: 'Duration', value: course.duration },
                   ...(hasPublishedIelts(UNIVERSITY_SLUG, course as never) ? [{ label: 'IELTS Min', value: `${course.ieltsMin}+` }] : []),
@@ -99,8 +99,11 @@ export default async function CourseDetailPage(
                 ['Intake', course.intakeMonths.join(' & ')],
                 ...(hasPublishedIelts(UNIVERSITY_SLUG, course as never) ? [['IELTS Minimum', `${course.ieltsMin} overall`]] : []),
                 ...(publishedScore(UNIVERSITY_SLUG, course as never, 'toefl') ? [['TOEFL Minimum', `${course.toeflMin}+`]] : []),
-                ['Annual Fee (USD)', feeDisplay(course as any, course.annualUSD, 'USD')],
-                ['Annual Fee (USD)', feeDisplay(course as any, course.annualUSD, 'USD')],
+                // Uppsala states a per-semester fee and a whole-programme fee; the annual row is
+                // two of those semesters, as the basis line underneath says.
+                ['Tuition per semester (SEK)', feeDisplay(course as any, course.semesterTuitionSEK, 'SEK')],
+                ['Annual Fee (SEK, 2 semesters)', feeDisplay(course as any, course.annualSEK, 'SEK')],
+                ['Total programme fee (SEK)', feeDisplay(course as any, course.totalSEK, 'SEK')],
                 ['Annual Fee (INR)', feeDisplayINRLakh(course as any, (courseAnnualINRLakh(course as any, 1) ?? '0'), '')],
               ].map(([k, v]) => (
                 <div key={k} className="flex flex-col">
@@ -109,6 +112,12 @@ export default async function CourseDetailPage(
                 </div>
               ))}
             </div>
+            {course.feeBasis && (
+              <p className="text-xs text-gray-500 mt-4">
+                Fee basis: {course.feeBasis}.
+                {course.feeSourceUrl && <> <a href={course.feeSourceUrl} className="underline" target="_blank" rel="noopener noreferrer">Source: Uppsala University</a></>}
+              </p>
+            )}
           </div>
 
 

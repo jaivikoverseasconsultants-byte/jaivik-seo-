@@ -1,0 +1,2206 @@
+{
+ "_source": "uu.se programme pages, fee fields firstFee/totalFee from the page state JSON",
+ "_crawledOn": "2026-09-30",
+ "results": [
+  {
+   "slug": "uu-sweden-international-masters-programme-innovative-medicine",
+   "name": "Innovative Medicine",
+   "url": "https://www.uu.se/en/study/programme/international-masters-programme-innovative-medicine",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/international-masters-programme-innovative-medicine",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "MIM2M",
+     "cancelled": false,
+     "firstFeeText": null,
+     "totalFeeText": null,
+     "firstFeeSEK": null,
+     "totalFeeSEK": null
+    }
+   ],
+   "allStudentsPay": true
+  },
+  {
+   "slug": "uu-sweden-joint-nordic-masters-programme-environmental-law",
+   "name": "Joint Nordic Masters in Joint Nordic Masters in environmental Law",
+   "url": "https://www.uu.se/en/study/programme/joint-nordic-masters-programme-environmental-law",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/joint-nordic-masters-programme-environmental-law",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "JMI2N",
+     "cancelled": false,
+     "firstFeeText": null,
+     "totalFeeText": null,
+     "firstFeeSEK": null,
+     "totalFeeSEK": null
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-accounting-and-financial-management-accounting-governance-and-",
+   "name": "Accounting and Financial Management Accounting Governance and Financial Analysis",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-accounting-and-financial-management-accounting-governance-and-financial-analysis",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-accounting-and-financial-management-accounting-governance-and-financial-analysis",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "SRF2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 57,000",
+     "totalFeeText": "SEK 228,000",
+     "firstFeeSEK": 57000,
+     "totalFeeSEK": 228000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-accounting-and-financial-management-strategic-management-contr",
+   "name": "Accounting and Financial Management Strategic Management Control",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-accounting-and-financial-management-strategic-management-control",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-accounting-and-financial-management-strategic-management-control",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "SRF2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 57,000",
+     "totalFeeText": "SEK 228,000",
+     "firstFeeSEK": 57000,
+     "totalFeeSEK": 228000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-aesthetics",
+   "name": "Aesthetics",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-aesthetics",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-aesthetics",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "HES2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 57,000",
+     "totalFeeText": "SEK 228,000",
+     "firstFeeSEK": 57000,
+     "totalFeeSEK": 228000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-all-electric-propulsion-systems",
+   "name": "All Electric Propulsion Systems",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-all-electric-propulsion-systems",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-all-electric-propulsion-systems",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "TEF2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 82,500",
+     "totalFeeText": "SEK 330,000",
+     "firstFeeSEK": 82500,
+     "totalFeeSEK": 330000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-analytical-chemistry-each",
+   "name": "Analytical Chemistry Each",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-analytical-chemistry-each",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-analytical-chemistry-each",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "TAK2M",
+     "cancelled": false,
+     "firstFeeText": null,
+     "totalFeeText": null,
+     "firstFeeSEK": null,
+     "totalFeeSEK": null
+    }
+   ],
+   "allStudentsPay": true
+  },
+  {
+   "slug": "uu-sweden-masters-programme-archaeology",
+   "name": "Archaeology",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-archaeology",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-archaeology",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "HAR2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 57,000",
+     "totalFeeText": "SEK 228,000",
+     "firstFeeSEK": 57000,
+     "totalFeeSEK": 228000
+    },
+    {
+     "semester": "Autumn 2026",
+     "code": "HAR2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 57,000",
+     "totalFeeText": "SEK 228,000",
+     "firstFeeSEK": 57000,
+     "totalFeeSEK": 228000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-battery-technology-and-energy-storage",
+   "name": "Battery Technology and Energy Storage",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-battery-technology-and-energy-storage",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-battery-technology-and-energy-storage",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "TBT2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 90,000",
+     "totalFeeText": "SEK 360,000",
+     "firstFeeSEK": 90000,
+     "totalFeeSEK": 360000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-bioinformatics-biology-background",
+   "name": "Bioinformatics Biology Background",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-bioinformatics-biology-background",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-bioinformatics-biology-background",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "TBK2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 90,000",
+     "totalFeeText": "SEK 360,000",
+     "firstFeeSEK": 90000,
+     "totalFeeSEK": 360000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-bioinformatics-computer-science-background",
+   "name": "Bioinformatics Computer Science Background",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-bioinformatics-computer-science-background",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-bioinformatics-computer-science-background",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "TBK2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 90,000",
+     "totalFeeText": "SEK 360,000",
+     "firstFeeSEK": 90000,
+     "totalFeeSEK": 360000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-biology-cell-and-molecular-biology",
+   "name": "Biology Cell and Molecular Biology",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-biology-cell-and-molecular-biology",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-biology-cell-and-molecular-biology",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "TBI2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 90,000",
+     "totalFeeText": "SEK 360,000",
+     "firstFeeSEK": 90000,
+     "totalFeeSEK": 360000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-biology-ecology-and-conservation",
+   "name": "Biology Ecology and Conservation",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-biology-ecology-and-conservation",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-biology-ecology-and-conservation",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "TBI2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 90,000",
+     "totalFeeText": "SEK 360,000",
+     "firstFeeSEK": 90000,
+     "totalFeeSEK": 360000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-biology-ecosystems-and-aquatic-ecology",
+   "name": "Biology Ecosystems and Aquatic Ecology",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-biology-ecosystems-and-aquatic-ecology",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-biology-ecosystems-and-aquatic-ecology",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "TBI2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 90,000",
+     "totalFeeText": "SEK 360,000",
+     "firstFeeSEK": 90000,
+     "totalFeeSEK": 360000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-biology-environmental-toxicology",
+   "name": "Biology Environmental Toxicology",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-biology-environmental-toxicology",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-biology-environmental-toxicology",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "TBI2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 90,000",
+     "totalFeeText": "SEK 360,000",
+     "firstFeeSEK": 90000,
+     "totalFeeSEK": 360000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-biology-evolutionary-biology",
+   "name": "Biology Evolutionary Biology",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-biology-evolutionary-biology",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-biology-evolutionary-biology",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "TBI2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 90,000",
+     "totalFeeText": "SEK 360,000",
+     "firstFeeSEK": 90000,
+     "totalFeeSEK": 360000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-biology-immunology-and-microbiology",
+   "name": "Biology Immunology and Microbiology",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-biology-immunology-and-microbiology",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-biology-immunology-and-microbiology",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "TBI2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 90,000",
+     "totalFeeText": "SEK 360,000",
+     "firstFeeSEK": 90000,
+     "totalFeeSEK": 360000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-biology-nabis-nordic-master-biodiversity-and-systematics",
+   "name": "Biology Nabis Nordic Master Biodiversity and Systematics",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-biology-nabis-nordic-master-biodiversity-and-systematics",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-biology-nabis-nordic-master-biodiversity-and-systematics",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "TBI2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 90,000",
+     "totalFeeText": "SEK 360,000",
+     "firstFeeSEK": 90000,
+     "totalFeeSEK": 360000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-biomedicine",
+   "name": "Biomedicine",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-biomedicine",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-biomedicine",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "MBM2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 82,500",
+     "totalFeeText": "SEK 330,000",
+     "firstFeeSEK": 82500,
+     "totalFeeSEK": 330000
+    },
+    {
+     "semester": "Autumn 2026",
+     "code": "MBM2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 82,500",
+     "totalFeeText": "SEK 330,000",
+     "firstFeeSEK": 82500,
+     "totalFeeSEK": 330000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-biopharmaceuticals",
+   "name": "Biopharmaceuticals",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-biopharmaceuticals",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-biopharmaceuticals",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "FBL2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 82,500",
+     "totalFeeText": "SEK 330,000",
+     "firstFeeSEK": 82500,
+     "totalFeeSEK": 330000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-business-and-management-entrepreneurship",
+   "name": "Business and Management Entrepreneurship",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-business-and-management-entrepreneurship",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-business-and-management-entrepreneurship",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "SFL2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 57,000",
+     "totalFeeText": "SEK 228,000",
+     "firstFeeSEK": 57000,
+     "totalFeeSEK": 228000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-business-and-management-international-business",
+   "name": "Business and Management International Business",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-business-and-management-international-business",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-business-and-management-international-business",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "SFL2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 57,000",
+     "totalFeeText": "SEK 228,000",
+     "firstFeeSEK": 57000,
+     "totalFeeSEK": 228000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-business-and-management-marketing",
+   "name": "Business and Management Marketing",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-business-and-management-marketing",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-business-and-management-marketing",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "SFL2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 57,000",
+     "totalFeeText": "SEK 228,000",
+     "firstFeeSEK": 57000,
+     "totalFeeSEK": 228000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-business-and-management-organisation",
+   "name": "Business and Management Organisation",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-business-and-management-organisation",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-business-and-management-organisation",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "SFL2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 57,000",
+     "totalFeeText": "SEK 228,000",
+     "firstFeeSEK": 57000,
+     "totalFeeSEK": 228000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-chemistry-analytical-chemistry",
+   "name": "Chemistry Analytical Chemistry",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-chemistry-analytical-chemistry",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-chemistry-analytical-chemistry",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "TKE2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 90,000",
+     "totalFeeText": "SEK 360,000",
+     "firstFeeSEK": 90000,
+     "totalFeeSEK": 360000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-chemistry-bio-and-nano-materials",
+   "name": "Chemistry Bio and Nano Materials",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-chemistry-bio-and-nano-materials",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-chemistry-bio-and-nano-materials",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "TKE2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 90,000",
+     "totalFeeText": "SEK 360,000",
+     "firstFeeSEK": 90000,
+     "totalFeeSEK": 360000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-chemistry-biochemistry",
+   "name": "Chemistry Biochemistry",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-chemistry-biochemistry",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-chemistry-biochemistry",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "TKE2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 90,000",
+     "totalFeeText": "SEK 360,000",
+     "firstFeeSEK": 90000,
+     "totalFeeSEK": 360000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-chemistry-chemical-biology",
+   "name": "Chemistry Chemical Biology",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-chemistry-chemical-biology",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-chemistry-chemical-biology",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "TKE2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 90,000",
+     "totalFeeText": "SEK 360,000",
+     "firstFeeSEK": 90000,
+     "totalFeeSEK": 360000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-chemistry-chemistry-for-renewable-energy",
+   "name": "Chemistry Chemistry for Renewable Energy",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-chemistry-chemistry-for-renewable-energy",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-chemistry-chemistry-for-renewable-energy",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "TKE2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 90,000",
+     "totalFeeText": "SEK 360,000",
+     "firstFeeSEK": 90000,
+     "totalFeeSEK": 360000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-chemistry-organic-chemistry",
+   "name": "Chemistry Organic Chemistry",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-chemistry-organic-chemistry",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-chemistry-organic-chemistry",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "TKE2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 90,000",
+     "totalFeeText": "SEK 360,000",
+     "firstFeeSEK": 90000,
+     "totalFeeSEK": 360000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-chemistry-physical-and-computational-chemistry",
+   "name": "Chemistry Physical and Computational Chemistry",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-chemistry-physical-and-computational-chemistry",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-chemistry-physical-and-computational-chemistry",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "TKE2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 90,000",
+     "totalFeeText": "SEK 360,000",
+     "firstFeeSEK": 90000,
+     "totalFeeSEK": 360000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-classical-archaeology-and-ancient-history",
+   "name": "Classical Archaeology and Ancient History",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-classical-archaeology-and-ancient-history",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-classical-archaeology-and-ancient-history",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "HAK2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 57,000",
+     "totalFeeText": "SEK 228,000",
+     "firstFeeSEK": 57000,
+     "totalFeeSEK": 228000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-computer-science",
+   "name": "Computer Science",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-computer-science",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-computer-science",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "TDV2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 75,000",
+     "totalFeeText": "SEK 300,000",
+     "firstFeeSEK": 75000,
+     "totalFeeSEK": 300000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-cultural-anthropology",
+   "name": "Cultural Anthropology",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-cultural-anthropology",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-cultural-anthropology",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "HKA2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 57,000",
+     "totalFeeText": "SEK 228,000",
+     "firstFeeSEK": 57000,
+     "totalFeeSEK": 228000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-cultural-heritage-and-sustainability",
+   "name": "Cultural Heritage and Sustainability",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-cultural-heritage-and-sustainability",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-cultural-heritage-and-sustainability",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "HKH2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 57,000",
+     "totalFeeText": "SEK 228,000",
+     "firstFeeSEK": 57000,
+     "totalFeeSEK": 228000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-data-science-data-engineering",
+   "name": "Data Science Data Engineering",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-data-science-data-engineering",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-data-science-data-engineering",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "TDA2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 75,000",
+     "totalFeeText": "SEK 300,000",
+     "firstFeeSEK": 75000,
+     "totalFeeSEK": 300000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-data-science-image-analysis-and-machine-learning",
+   "name": "Data Science Image Analysis and Machine Learning",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-data-science-image-analysis-and-machine-learning",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-data-science-image-analysis-and-machine-learning",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "TDA2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 75,000",
+     "totalFeeText": "SEK 300,000",
+     "firstFeeSEK": 75000,
+     "totalFeeSEK": 300000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-data-science-machine-learning-and-statistics",
+   "name": "Data Science Machine Learning and Statistics",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-data-science-machine-learning-and-statistics",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-data-science-machine-learning-and-statistics",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "TDA2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 75,000",
+     "totalFeeText": "SEK 300,000",
+     "firstFeeSEK": 75000,
+     "totalFeeSEK": 300000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-digital-humanities",
+   "name": "Digital Humanities",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-digital-humanities",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-digital-humanities",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "HDH2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 57,000",
+     "totalFeeText": "SEK 228,000",
+     "firstFeeSEK": 57000,
+     "totalFeeSEK": 228000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-digital-media-and-society",
+   "name": "Digital Media and Society",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-digital-media-and-society",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-digital-media-and-society",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "SDM2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 57,000",
+     "totalFeeText": "SEK 228,000",
+     "firstFeeSEK": 57000,
+     "totalFeeSEK": 228000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-drug-discovery-and-development",
+   "name": "Drug Discovery and Development",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-drug-discovery-and-development",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-drug-discovery-and-development",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "FLU2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 82,500",
+     "totalFeeText": "SEK 330,000",
+     "firstFeeSEK": 82500,
+     "totalFeeSEK": 330000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-earth-science-geology",
+   "name": "Earth Science Geology",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-earth-science-geology",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-earth-science-geology",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "TGV2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 82,500",
+     "totalFeeText": "SEK 330,000",
+     "firstFeeSEK": 82500,
+     "totalFeeSEK": 330000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-earth-science-hydrology-hydrogeology",
+   "name": "Earth Science Hydrology Hydrogeology",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-earth-science-hydrology-hydrogeology",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-earth-science-hydrology-hydrogeology",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "TGV2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 82,500",
+     "totalFeeText": "SEK 330,000",
+     "firstFeeSEK": 82500,
+     "totalFeeSEK": 330000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-earth-science-palaeobiology",
+   "name": "Earth Science Palaeobiology",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-earth-science-palaeobiology",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-earth-science-palaeobiology",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "TGV2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 82,500",
+     "totalFeeText": "SEK 330,000",
+     "firstFeeSEK": 82500,
+     "totalFeeSEK": 330000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-earth-science-physical-geography",
+   "name": "Earth Science Physical Geography",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-earth-science-physical-geography",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-earth-science-physical-geography",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "TGV2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 82,500",
+     "totalFeeText": "SEK 330,000",
+     "firstFeeSEK": 82500,
+     "totalFeeSEK": 330000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-economics",
+   "name": "Economics",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-economics",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-economics",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "SNE2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 57,000",
+     "totalFeeText": "SEK 228,000",
+     "firstFeeSEK": 57000,
+     "totalFeeSEK": 228000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-egyptology",
+   "name": "Egyptology",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-egyptology",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-egyptology",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "HEG2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 57,000",
+     "totalFeeText": "SEK 228,000",
+     "firstFeeSEK": 57000,
+     "totalFeeSEK": 228000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-embedded-systems",
+   "name": "Embedded Systems",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-embedded-systems",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-embedded-systems",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "TIS2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 75,000",
+     "totalFeeText": "SEK 300,000",
+     "firstFeeSEK": 75000,
+     "totalFeeSEK": 300000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-english-american-literature-and-culture",
+   "name": "English American Literature and Culture",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-english-american-literature-and-culture",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-english-american-literature-and-culture",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "HEN2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 57,000",
+     "totalFeeText": "SEK 228,000",
+     "firstFeeSEK": 57000,
+     "totalFeeSEK": 228000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-english-english-linguistics",
+   "name": "English English Linguistics",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-english-english-linguistics",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-english-english-linguistics",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "HEN2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 57,000",
+     "totalFeeText": "SEK 228,000",
+     "firstFeeSEK": 57000,
+     "totalFeeSEK": 228000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-english-english-literature",
+   "name": "English English Literature",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-english-english-literature",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-english-english-literature",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "HEN2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 57,000",
+     "totalFeeText": "SEK 228,000",
+     "firstFeeSEK": 57000,
+     "totalFeeSEK": 228000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-ethnology-and-folkloristics",
+   "name": "Ethnology and Folkloristics",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-ethnology-and-folkloristics",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-ethnology-and-folkloristics",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "HEF2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 57,000",
+     "totalFeeText": "SEK 228,000",
+     "firstFeeSEK": 57000,
+     "totalFeeSEK": 228000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-euroculture",
+   "name": "Euroculture",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-euroculture",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-euroculture",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "HEC2M",
+     "cancelled": false,
+     "firstFeeText": null,
+     "totalFeeText": null,
+     "firstFeeSEK": null,
+     "totalFeeSEK": null
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-evolutionary-biology-meme",
+   "name": "Evolutionary Biology Meme",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-evolutionary-biology-meme",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-evolutionary-biology-meme",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "TEB2M",
+     "cancelled": false,
+     "firstFeeText": null,
+     "totalFeeText": null,
+     "firstFeeSEK": null,
+     "totalFeeSEK": null
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-experimental-game-design-and-development",
+   "name": "Experimental Game Design and Development",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-experimental-game-design-and-development",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-experimental-game-design-and-development",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "HEX2N",
+     "cancelled": false,
+     "firstFeeText": "SEK 69,000",
+     "totalFeeText": "SEK 138,000",
+     "firstFeeSEK": 69000,
+     "totalFeeSEK": 138000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-forensic-science",
+   "name": "Forensic Science",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-forensic-science",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-forensic-science",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "MFV2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 82,500",
+     "totalFeeText": "SEK 330,000",
+     "firstFeeSEK": 82500,
+     "totalFeeSEK": 330000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-game-design",
+   "name": "Game Design",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-game-design",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-game-design",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "HSD2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 69,000",
+     "totalFeeText": "SEK 276,000",
+     "firstFeeSEK": 69000,
+     "totalFeeSEK": 276000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-gender-studies",
+   "name": "Gender Studies",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-gender-studies",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-gender-studies",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "HGV2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 57,000",
+     "totalFeeText": "SEK 228,000",
+     "firstFeeSEK": 57000,
+     "totalFeeSEK": 228000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-global-environmental-history",
+   "name": "Global Environmental History",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-global-environmental-history",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-global-environmental-history",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "HEH2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 57,000",
+     "totalFeeText": "SEK 228,000",
+     "firstFeeSEK": 57000,
+     "totalFeeSEK": 228000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-global-health",
+   "name": "Global Health",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-global-health",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-global-health",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "MGH2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 82,500",
+     "totalFeeText": "SEK 330,000",
+     "firstFeeSEK": 82500,
+     "totalFeeSEK": 330000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-global-markets-local-creativities",
+   "name": "Global Markets Local Creativities",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-global-markets-local-creativities",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-global-markets-local-creativities",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "SGL2M",
+     "cancelled": false,
+     "firstFeeText": null,
+     "totalFeeText": null,
+     "firstFeeSEK": null,
+     "totalFeeSEK": null
+    }
+   ],
+   "allStudentsPay": true
+  },
+  {
+   "slug": "uu-sweden-masters-programme-holocaust-and-genocide-studies",
+   "name": "Holocaust and Genocide Studies",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-holocaust-and-genocide-studies",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-holocaust-and-genocide-studies",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "HFF2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 57,000",
+     "totalFeeText": "SEK 228,000",
+     "firstFeeSEK": 57000,
+     "totalFeeSEK": 228000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-human-geography",
+   "name": "Human Geography",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-human-geography",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-human-geography",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "SSG2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 57,000",
+     "totalFeeText": "SEK 228,000",
+     "firstFeeSEK": 57000,
+     "totalFeeSEK": 228000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-humanitarian-action-and-conflict",
+   "name": "Humanitarian Action and Conflict",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-humanitarian-action-and-conflict",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-humanitarian-action-and-conflict",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "RHA2N",
+     "cancelled": false,
+     "firstFeeText": "SEK 57,000",
+     "totalFeeText": "SEK 114,000",
+     "firstFeeSEK": 57000,
+     "totalFeeSEK": 114000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-human-computer-interaction",
+   "name": "Human Computer Interaction",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-human-computer-interaction",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-human-computer-interaction",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "SMD2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 69,000",
+     "totalFeeText": "SEK 276,000",
+     "firstFeeSEK": 69000,
+     "totalFeeSEK": 276000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-implementation-transformative-learning-and-sustainability",
+   "name": "Implementation Transformative Learning and Sustainability",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-implementation-transformative-learning-and-sustainability",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-implementation-transformative-learning-and-sustainability",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "MIL2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 82,500",
+     "totalFeeText": "SEK 330,000",
+     "firstFeeSEK": 82500,
+     "totalFeeSEK": 330000
+    },
+    {
+     "semester": "Autumn 2026",
+     "code": "MIL2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 82,500",
+     "totalFeeText": "SEK 330,000",
+     "firstFeeSEK": 82500,
+     "totalFeeSEK": 330000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-industrial-management-and-innovation",
+   "name": "Industrial Management and Innovation",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-industrial-management-and-innovation",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-industrial-management-and-innovation",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "TIL2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 75,000",
+     "totalFeeText": "SEK 300,000",
+     "firstFeeSEK": 75000,
+     "totalFeeSEK": 300000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-infection-biology",
+   "name": "Infection Biology",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-infection-biology",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-infection-biology",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "MIB2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 82,500",
+     "totalFeeText": "SEK 330,000",
+     "firstFeeSEK": 82500,
+     "totalFeeSEK": 330000
+    },
+    {
+     "semester": "Autumn 2026",
+     "code": "MIB2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 82,500",
+     "totalFeeText": "SEK 330,000",
+     "firstFeeSEK": 82500,
+     "totalFeeSEK": 330000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-information-systems",
+   "name": "Information Systems",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-information-systems",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-information-systems",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "SSY2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 69,000",
+     "totalFeeText": "SEK 276,000",
+     "firstFeeSEK": 69000,
+     "totalFeeSEK": 276000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-international-humanitarian-action",
+   "name": "International Humanitarian Action",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-international-humanitarian-action",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-international-humanitarian-action",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "HIH2E",
+     "cancelled": false,
+     "firstFeeText": null,
+     "totalFeeText": null,
+     "firstFeeSEK": null,
+     "totalFeeSEK": null
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-investment-treaty-arbitration",
+   "name": "Investment Treaty Arbitration",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-investment-treaty-arbitration",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-investment-treaty-arbitration",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "JIS2N",
+     "cancelled": false,
+     "firstFeeText": "SEK 57,000",
+     "totalFeeText": "SEK 114,000",
+     "firstFeeSEK": 57000,
+     "totalFeeSEK": 114000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-language-technology",
+   "name": "Language Technology",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-language-technology",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-language-technology",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "HSP2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 69,000",
+     "totalFeeText": "SEK 276,000",
+     "firstFeeSEK": 69000,
+     "totalFeeSEK": 276000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-languages-general-linguistics",
+   "name": "Languages General Linguistics",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-languages-general-linguistics",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-languages-general-linguistics",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "HSK2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 57,000",
+     "totalFeeText": "SEK 228,000",
+     "firstFeeSEK": 57000,
+     "totalFeeSEK": 228000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-languages-german",
+   "name": "Languages German",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-languages-german",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-languages-german",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "HSK2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 57,000",
+     "totalFeeText": "SEK 228,000",
+     "firstFeeSEK": 57000,
+     "totalFeeSEK": 228000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-languages-turkic-languages",
+   "name": "Languages Turkic Languages",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-languages-turkic-languages",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-languages-turkic-languages",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "HSK2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 57,000",
+     "totalFeeText": "SEK 228,000",
+     "firstFeeSEK": 57000,
+     "totalFeeSEK": 228000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-materials-science",
+   "name": "Materials Science",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-materials-science",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-materials-science",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "TMV2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 82,500",
+     "totalFeeText": "SEK 330,000",
+     "firstFeeSEK": 82500,
+     "totalFeeSEK": 330000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-mathematics",
+   "name": "Mathematics",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-mathematics",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-mathematics",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "TMA2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 75,000",
+     "totalFeeText": "SEK 300,000",
+     "firstFeeSEK": 75000,
+     "totalFeeSEK": 300000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-medical-nuclide-techniques",
+   "name": "Medical Nuclide Techniques",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-medical-nuclide-techniques",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-medical-nuclide-techniques",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "MMN2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 82,500",
+     "totalFeeText": "SEK 330,000",
+     "firstFeeSEK": 82500,
+     "totalFeeSEK": 330000
+    },
+    {
+     "semester": "Autumn 2026",
+     "code": "MMN2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 82,500",
+     "totalFeeText": "SEK 330,000",
+     "firstFeeSEK": 82500,
+     "totalFeeSEK": 330000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-medical-research",
+   "name": "Medical Research",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-medical-research",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-medical-research",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "MMF2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 82,500",
+     "totalFeeText": "SEK 330,000",
+     "firstFeeSEK": 82500,
+     "totalFeeSEK": 330000
+    },
+    {
+     "semester": "Autumn 2026",
+     "code": "MMF2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 82,500",
+     "totalFeeText": "SEK 330,000",
+     "firstFeeSEK": 82500,
+     "totalFeeSEK": 330000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-molecular-medicine",
+   "name": "Molecular Medicine",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-molecular-medicine",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-molecular-medicine",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "MBK2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 82,500",
+     "totalFeeText": "SEK 330,000",
+     "firstFeeSEK": 82500,
+     "totalFeeSEK": 330000
+    },
+    {
+     "semester": "Autumn 2026",
+     "code": "MBK2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 82,500",
+     "totalFeeText": "SEK 330,000",
+     "firstFeeSEK": 82500,
+     "totalFeeSEK": 330000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-musicology",
+   "name": "Musicology",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-musicology",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-musicology",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "HMV2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 57,000",
+     "totalFeeText": "SEK 228,000",
+     "firstFeeSEK": 57000,
+     "totalFeeSEK": 228000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-palaeobiology-pangea",
+   "name": "Palaeobiology Pangea",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-palaeobiology-pangea",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-palaeobiology-pangea",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "TPA2M",
+     "cancelled": false,
+     "firstFeeText": null,
+     "totalFeeText": null,
+     "firstFeeSEK": null,
+     "totalFeeSEK": null
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-peace-and-conflict-studies",
+   "name": "Peace and Conflict Studies",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-peace-and-conflict-studies",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-peace-and-conflict-studies",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "SFK2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 57,000",
+     "totalFeeText": "SEK 228,000",
+     "firstFeeSEK": 57000,
+     "totalFeeSEK": 228000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-pharmaceutical-modelling",
+   "name": "Pharmaceutical Modelling",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-pharmaceutical-modelling",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-pharmaceutical-modelling",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "FPM2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 82,500",
+     "totalFeeText": "SEK 330,000",
+     "firstFeeSEK": 82500,
+     "totalFeeSEK": 330000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-philosophy",
+   "name": "Philosophy",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-philosophy",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-philosophy",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "HFI2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 57,000",
+     "totalFeeText": "SEK 228,000",
+     "firstFeeSEK": 57000,
+     "totalFeeSEK": 228000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-physics-astronomy-and-space-physics",
+   "name": "Physics Astronomy and Space Physics",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-physics-astronomy-and-space-physics",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-physics-astronomy-and-space-physics",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "TFY2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 82,500",
+     "totalFeeText": "SEK 330,000",
+     "firstFeeSEK": 82500,
+     "totalFeeSEK": 330000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-physics-geophysics",
+   "name": "Physics Geophysics",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-physics-geophysics",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-physics-geophysics",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "TFY2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 82,500",
+     "totalFeeText": "SEK 330,000",
+     "firstFeeSEK": 82500,
+     "totalFeeSEK": 330000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-physics-mathematical-physics",
+   "name": "Physics Mathematical Physics",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-physics-mathematical-physics",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-physics-mathematical-physics",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "TFY2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 82,500",
+     "totalFeeText": "SEK 330,000",
+     "firstFeeSEK": 82500,
+     "totalFeeSEK": 330000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-physics-meteorology-climate-physics",
+   "name": "Physics Meteorology Climate Physics",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-physics-meteorology-climate-physics",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-physics-meteorology-climate-physics",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "TFY2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 82,500",
+     "totalFeeText": "SEK 330,000",
+     "firstFeeSEK": 82500,
+     "totalFeeSEK": 330000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-physics-nuclear-and-particle-physics",
+   "name": "Physics Nuclear and Particle Physics",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-physics-nuclear-and-particle-physics",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-physics-nuclear-and-particle-physics",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "TFY2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 82,500",
+     "totalFeeText": "SEK 330,000",
+     "firstFeeSEK": 82500,
+     "totalFeeSEK": 330000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-physics-sustainable-energy",
+   "name": "Physics Sustainable Energy",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-physics-sustainable-energy",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-physics-sustainable-energy",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "TFY2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 82,500",
+     "totalFeeText": "SEK 330,000",
+     "firstFeeSEK": 82500,
+     "totalFeeSEK": 330000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-physics-theoretical-physics",
+   "name": "Physics Theoretical Physics",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-physics-theoretical-physics",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-physics-theoretical-physics",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "TFY2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 82,500",
+     "totalFeeText": "SEK 330,000",
+     "firstFeeSEK": 82500,
+     "totalFeeSEK": 330000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-political-science",
+   "name": "Political Science",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-political-science",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-political-science",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "SPO2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 57,000",
+     "totalFeeText": "SEK 228,000",
+     "firstFeeSEK": 57000,
+     "totalFeeSEK": 228000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-precision-medicine",
+   "name": "Precision Medicine",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-precision-medicine",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-precision-medicine",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "MPM2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 82,500",
+     "totalFeeText": "SEK 330,000",
+     "firstFeeSEK": 82500,
+     "totalFeeSEK": 330000
+    },
+    {
+     "semester": "Autumn 2026",
+     "code": "MPM2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 82,500",
+     "totalFeeText": "SEK 330,000",
+     "firstFeeSEK": 82500,
+     "totalFeeSEK": 330000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-psychology",
+   "name": "Psychology",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-psychology",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-psychology",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "SPS2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 69,000",
+     "totalFeeText": "SEK 276,000",
+     "firstFeeSEK": 69000,
+     "totalFeeSEK": 276000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-quantum-technology",
+   "name": "Quantum Technology",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-quantum-technology",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-quantum-technology",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "TKT2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 82,500",
+     "totalFeeText": "SEK 330,000",
+     "firstFeeSEK": 82500,
+     "totalFeeSEK": 330000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-religion-and-european-public-life",
+   "name": "Religion and European Public Life",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-religion-and-european-public-life",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-religion-and-european-public-life",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "RRE2N",
+     "cancelled": false,
+     "firstFeeText": "SEK 57,000",
+     "totalFeeText": "SEK 114,000",
+     "firstFeeSEK": 57000,
+     "totalFeeSEK": 114000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-religion-peace-conflict",
+   "name": "Religion Peace Conflict",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-religion-peace-conflict",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-religion-peace-conflict",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "RRP2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 57,000",
+     "totalFeeText": "SEK 228,000",
+     "firstFeeSEK": 57000,
+     "totalFeeSEK": 228000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-renewable-electricity-production",
+   "name": "Renewable Electricity Production",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-renewable-electricity-production",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-renewable-electricity-production",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "TFE2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 82,500",
+     "totalFeeText": "SEK 330,000",
+     "firstFeeSEK": 82500,
+     "totalFeeSEK": 330000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-russian-and-eurasian-studies",
+   "name": "Russian and Eurasian Studies",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-russian-and-eurasian-studies",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-russian-and-eurasian-studies",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "SRE2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 57,000",
+     "totalFeeText": "SEK 228,000",
+     "firstFeeSEK": 57000,
+     "totalFeeSEK": 228000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-scandinavian-studies",
+   "name": "Scandinavian Studies",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-scandinavian-studies",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-scandinavian-studies",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "HSS2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 57,000",
+     "totalFeeText": "SEK 228,000",
+     "firstFeeSEK": 57000,
+     "totalFeeSEK": 228000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-sociology-of-education",
+   "name": "Sociology of Education",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-sociology-of-education",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-sociology-of-education",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "UUS2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 57,000",
+     "totalFeeText": "SEK 228,000",
+     "firstFeeSEK": 57000,
+     "totalFeeSEK": 228000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-sociology",
+   "name": "Sociology",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-sociology",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-sociology",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "SSO2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 57,000",
+     "totalFeeText": "SEK 228,000",
+     "firstFeeSEK": 57000,
+     "totalFeeSEK": 228000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-statistics-and-data-science",
+   "name": "Statistics and Data Science",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-statistics-and-data-science",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-statistics-and-data-science",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "SSD2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 69,000",
+     "totalFeeText": "SEK 276,000",
+     "firstFeeSEK": 69000,
+     "totalFeeSEK": 276000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-sustainable-development-of-costal-areas",
+   "name": "Sustainable Development of Costal Areas",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-sustainable-development-of-costal-areas",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-sustainable-development-of-costal-areas",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "THK2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 82,500",
+     "totalFeeText": "SEK 330,000",
+     "firstFeeSEK": 82500,
+     "totalFeeSEK": 330000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-sustainable-development",
+   "name": "Sustainable Development",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-sustainable-development",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-sustainable-development",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "THU2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 82,500",
+     "totalFeeText": "SEK 330,000",
+     "firstFeeSEK": 82500,
+     "totalFeeSEK": 330000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-sustainable-management",
+   "name": "Sustainable Management",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-sustainable-management",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-sustainable-management",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "SHF2N",
+     "cancelled": false,
+     "firstFeeText": "SEK 57,000",
+     "totalFeeText": "SEK 114,000",
+     "firstFeeSEK": 57000,
+     "totalFeeSEK": 114000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-sustainable-and-innovative-natural-resource-management-sinrem",
+   "name": "Sustainable and Innovative Natural Resource Management Sinrem",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-sustainable-and-innovative-natural-resource-management-sinrem",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-sustainable-and-innovative-natural-resource-management-sinrem",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "THH2M",
+     "cancelled": false,
+     "firstFeeText": null,
+     "totalFeeText": null,
+     "firstFeeSEK": null,
+     "totalFeeSEK": null
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-transformative-game-design",
+   "name": "Transformative Game Design",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-transformative-game-design",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-transformative-game-design",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "HTS2N",
+     "cancelled": false,
+     "firstFeeText": "SEK 69,000",
+     "totalFeeText": "SEK 138,000",
+     "firstFeeSEK": 69000,
+     "totalFeeSEK": 138000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-turkic-studies",
+   "name": "Turkic Studies",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-turkic-studies",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-turkic-studies",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "HTU2M",
+     "cancelled": false,
+     "firstFeeText": null,
+     "totalFeeText": null,
+     "firstFeeSEK": null,
+     "totalFeeSEK": null
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-wind-power-project-management-120",
+   "name": "Wind Power Project Management 120",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-wind-power-project-management-120",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-wind-power-project-management-120",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "TVP2M",
+     "cancelled": false,
+     "firstFeeText": "SEK 82,500",
+     "totalFeeText": "SEK 330,000",
+     "firstFeeSEK": 82500,
+     "totalFeeSEK": 330000
+    }
+   ],
+   "allStudentsPay": false
+  },
+  {
+   "slug": "uu-sweden-masters-programme-wind-power-project-management-60",
+   "name": "Wind Power Project Management 60",
+   "url": "https://www.uu.se/en/study/programme/masters-programme-wind-power-project-management-60",
+   "status": 200,
+   "finalUrl": "https://www.uu.se/en/study/programme/masters-programme-wind-power-project-management-60",
+   "instances": [
+    {
+     "semester": "Autumn 2026",
+     "code": "TVP2N",
+     "cancelled": false,
+     "firstFeeText": "SEK 82,500",
+     "totalFeeText": "SEK 165,000",
+     "firstFeeSEK": 82500,
+     "totalFeeSEK": 165000
+    }
+   ],
+   "allStudentsPay": false
+  }
+ ]
+}

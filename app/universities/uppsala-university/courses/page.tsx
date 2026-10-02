@@ -32,14 +32,11 @@ export default function CoursesPage() {
   const courses = uppsalaUniversityCourses as any[];
   const groups = groupByLevel(courses);
   const totalCourses = courses.length;
-  const avgFee = verifiedAvgFee(courses as any[], 'annualUSD');
+  // SEK is what Uppsala states; the annual figure is two of its per-semester fees
+  const avgFee = verifiedAvgFee(courses as any[], 'annualSEK');
 
-  
+
   const _minIelts = courses.length ? Math.min(...courses.map((c: any) => Number(c.ieltsMin) || 6.0)) : 6.0;
-  const _feeVerifiedCourses = (courses as any[]).filter((c: any) => isFeeVerified(c) && Number(c.annualUSD) > 0);
-  const _avgFeeUSD = _feeVerifiedCourses.length
-    ? Math.round(_feeVerifiedCourses.reduce((s: number, c: any) => s + Number(c.annualUSD), 0) / _feeVerifiedCourses.length)
-    : 0;
   const _intakeSample: string[] = (courses[0] as any)?.intakeMonths ?? ['September'];
   const _intakesText = _intakeSample.join(' and ');
 
@@ -63,12 +60,12 @@ export default function CoursesPage() {
           text: `The minimum IELTS score at Uppsala University is ${_minIelts}+. High-demand programs may require up to 7.0.`,
         },
       },
-      ...(_avgFeeUSD > 0 ? [{
+      ...(avgFee > 0 ? [{
         '@type': 'Question',
         name: `What is the average tuition fee at Uppsala University?`,
         acceptedAnswer: {
           '@type': 'Answer',
-          text: `The average annual tuition at Uppsala University is approximately ${_avgFeeUSD.toLocaleString()} USD (≈ ₹${(_avgFeeUSD * RATE_TO_INR.USD / 100000).toFixed(1)}L INR). Fees vary by program and level.`,
+          text: `Uppsala charges students from outside the EU/EEA and Switzerland per semester. Across the programmes that state a fee, one academic year (two semesters) averages about SEK ${Math.round(avgFee).toLocaleString('en-US')} (≈ ₹${(avgFee * RATE_TO_INR.SEK / 100000).toFixed(1)}L). Fees vary by programme.`,
         },
       }] : []),
       {
@@ -103,8 +100,8 @@ export default function CoursesPage() {
         '@type': 'Course',
         name: c.name,
         provider: { '@type': 'CollegeOrUniversity', name: 'Uppsala University' },
-        ...(isFeeVerified(c as any) && Number(c.annualUSD) > 0
-          ? { offers: { '@type': 'Offer', price: Number(c.annualUSD), priceCurrency: 'USD' } }
+        ...(isFeeVerified(c as any) && Number(c.annualSEK) > 0
+          ? { offers: { '@type': 'Offer', price: Number(c.annualSEK), priceCurrency: 'SEK' } }
           : {}),
         educationalLevel: c.level ?? c.studyLevel ?? 'Undergraduate',
       },
@@ -140,13 +137,13 @@ export default function CoursesPage() {
               </div>
               <h1 className="text-3xl md:text-4xl font-bold mb-3">Uppsala University — International Courses</h1>
               <p className="text-blue-200 text-lg mb-5">
-                {totalCourses} programs · Avg SEK {Math.round(avgFee / 1000)}K SEK/yr · IELTS 6.5+ · August intakes
+                {totalCourses} programs{avgFee > 0 ? ` · Avg SEK ${Math.round(avgFee / 1000)}K/yr` : ''} · IELTS 6.5+ · August intakes
               </p>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                 {[
                   { label: 'Total Courses', value: totalCourses },
                   { label: 'QS Ranking', value: '#120 QS World Ranking' },
-                  { label: 'Avg Fee', value: avgFee > 0 ? `USD ${Math.round(avgFee / 1000)}K` : 'On request' },
+                  { label: 'Avg Fee', value: avgFee > 0 ? `SEK ${Math.round(avgFee / 1000)}K/yr` : 'On request' },
                   { label: 'Campus', value: 'Uppsala' },
                 ].map(s => (
                   <div key={s.label} className="bg-white/10 rounded-xl p-3 text-center">
@@ -182,7 +179,7 @@ export default function CoursesPage() {
                       <p className="text-xs text-gray-500 mt-1">{c.duration} · {c.intakeMonths.join(' & ')} · {c.campus}</p>
                     </div>
                     <div className="ml-4 text-right flex-shrink-0">
-                      <p className="text-sm font-bold text-brand-700">{isFeeVerified(c as any) && Number(c.annualUSD) > 0 ? `$${c.annualUSD.toLocaleString()}/yr` : 'Fee on request'}</p>
+                      <p className="text-sm font-bold text-brand-700">{isFeeVerified(c as any) && Number(c.semesterTuitionSEK) > 0 ? `SEK ${c.semesterTuitionSEK.toLocaleString('en-US')}/semester` : 'Fee on request'}</p>
                       {isFeeVerified(c as any) && <p className="text-xs text-gray-400">≈ ₹{(courseAnnualINRLakh(c as any, 1) ?? '0')}L/yr</p>}
                       {hasPublishedIelts(UNIVERSITY_SLUG, c as never) && <p className="text-xs text-gray-500">IELTS {c.ieltsMin}+</p>}
                     </div>
