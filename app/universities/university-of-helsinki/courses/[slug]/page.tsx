@@ -109,6 +109,12 @@ export default async function CourseDetailPage(
                 </div>
               ))}
             </div>
+            {course.feeBasis && (
+              <p className="text-xs text-gray-500 mt-4">
+                Fee basis: {course.feeBasis}.
+                {course.feeSourceUrl && <> <a href={course.feeSourceUrl} className="underline" target="_blank" rel="noopener noreferrer">Source: University of Helsinki</a></>}
+              </p>
+            )}
           </div>
 
           <CourseRichContent course={course as any} universityName="University of Helsinki" universitySlug="university-of-helsinki" />

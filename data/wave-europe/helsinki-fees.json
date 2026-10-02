@@ -1,0 +1,1028 @@
+{
+ "_source": "helsinki.fi degree-programme pages, fact-box fee item",
+ "_crawledOn": "2026-09-30",
+ "results": [
+  {
+   "slug": "uhel-global-governance-law",
+   "name": "Global Governance Law",
+   "url": "https://www.helsinki.fi/en/degree-programmes/global-governance-law-masters-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/global-governance-law-masters-programme",
+   "feeLabel": "Tuition fee per year (only non-EU/EEA citizens)",
+   "feeText": "15 000 EUR",
+   "feeEUR": 15000,
+   "noIntake": "There will be no intake for the Master's Programme in Global Governance Law in 2026.",
+   "title": "Global Governance Law | Master&#039;s programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-ecology-evolution-and-biodiversity-conservation",
+   "name": "Ecology Evolution and Biodiversity Conservation",
+   "url": "https://www.helsinki.fi/en/degree-programmes/ecology-evolution-and-biodiversity-conservation-masters-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/ecology-evolution-and-biodiversity-conservation-masters-programme",
+   "feeLabel": "Tuition fee per year (only non-EU/EEA citizens)",
+   "feeText": "15 000 EUR",
+   "feeEUR": 15000,
+   "title": "Ecology, Evolution and Biodiversity Conservation | Master&#039;s programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-genetics-and-molecular-biosciences",
+   "name": "Genetics and Molecular Biosciences",
+   "url": "https://www.helsinki.fi/en/degree-programmes/genetics-and-molecular-biosciences-masters-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/genetics-and-molecular-biosciences-masters-programme",
+   "feeLabel": "Tuition fee per year (only non-EU/EEA citizens)",
+   "feeText": "15 000 EUR",
+   "feeEUR": 15000,
+   "title": "Genetics and Molecular Biosciences | Master&#039;s programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-integrative-plant-sciences",
+   "name": "Integrative Plant Sciences",
+   "url": "https://www.helsinki.fi/en/degree-programmes/integrative-plant-sciences-masters-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/integrative-plant-sciences-masters-programme",
+   "feeLabel": "Tuition fee per year (only non-EU/EEA citizens)",
+   "feeText": "15 000 EUR",
+   "feeEUR": 15000,
+   "title": "Integrative Plant Sciences | Master&#039;s programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-neuroscience",
+   "name": "Neuroscience",
+   "url": "https://www.helsinki.fi/en/degree-programmes/neuroscience-masters-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/neuroscience-masters-programme",
+   "feeLabel": "Tuition fee per year (only non-EU/EEA citizens)",
+   "feeText": "18 000 EUR",
+   "feeEUR": 18000,
+   "title": "Neuroscience | Master&#039;s programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-environmental-change-and-global-sustainability",
+   "name": "Environmental Change and Global Sustainability",
+   "url": "https://www.helsinki.fi/en/degree-programmes/environmental-change-and-global-sustainability-masters-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/environmental-change-and-global-sustainability-masters-programme",
+   "feeLabel": "Tuition fee per year (only non-EU/EEA citizens)",
+   "feeText": "13 000 EUR",
+   "feeEUR": 13000,
+   "title": "Environmental Change and Global Sustainability | Master&#039;s programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-english-studies",
+   "name": "English Studies",
+   "url": "https://www.helsinki.fi/en/degree-programmes/english-studies-masters-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/english-studies-masters-programme",
+   "feeLabel": "Tuition fee per year (only non-EU/EEA citizens)",
+   "feeText": "13 000 EUR",
+   "feeEUR": 13000,
+   "title": "English Studies | Master’s programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-linguistic-diversity-and-digital-humanities",
+   "name": "Linguistic Diversity and Digital Humanities",
+   "url": "https://www.helsinki.fi/en/degree-programmes/linguistic-diversity-and-digital-humanities-masters-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/linguistic-diversity-and-digital-humanities-masters-programme",
+   "feeLabel": "Tuition fee per year (only non-EU/EEA citizens)",
+   "feeText": "13 000 EUR",
+   "feeEUR": 13000,
+   "title": "Linguistic Diversity and Digital Humanities | Master’s programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-intercultural-encounters",
+   "name": "Intercultural Encounters",
+   "url": "https://www.helsinki.fi/en/degree-programmes/intercultural-encounters-masters-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/intercultural-encounters-masters-programme",
+   "feeLabel": "Tuition fee per year (only non-EU/EEA citizens)",
+   "feeText": "13 000 EUR",
+   "feeEUR": 13000,
+   "noIntake": "There will be no intake for the Master's Programme in Intercultural Encounters in 2026.",
+   "title": "Intercultural Encounters | Master’s programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-russian-eurasian-and-eastern-european-studies",
+   "name": "Russian Eurasian and Eastern European Studies",
+   "url": "https://www.helsinki.fi/en/degree-programmes/russian-eurasian-and-eastern-european-studies-masters-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/russian-eurasian-and-eastern-european-studies-masters-programme",
+   "feeLabel": "Tuition fee per year (only non-EU/EEA citizens)",
+   "feeText": "13 000 EUR",
+   "feeEUR": 13000,
+   "title": "Russian, Eurasian, and Eastern European Studies | Master’s programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-changing-education",
+   "name": "Changing Education",
+   "url": "https://www.helsinki.fi/en/degree-programmes/changing-education-masters-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/changing-education-masters-programme",
+   "feeLabel": "Tuition fee per year (only non-EU/EEA citizens)",
+   "feeText": "18 000 EUR",
+   "feeEUR": 18000,
+   "title": "Changing Education | Master&#039;s programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-translational-medicine",
+   "name": "Translational Medicine",
+   "url": "https://www.helsinki.fi/en/degree-programmes/translational-medicine-masters-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/translational-medicine-masters-programme",
+   "feeLabel": "Tuition fee per year (only non-EU/EEA citizens)",
+   "feeText": "15 000 EUR",
+   "feeEUR": 15000,
+   "title": "Translational Medicine | Master&#039;s programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-particle-physics-and-astrophysical-sciences",
+   "name": "Particle Physics and Astrophysical Sciences",
+   "url": "https://www.helsinki.fi/en/degree-programmes/particle-physics-and-astrophysical-sciences-masters-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/particle-physics-and-astrophysical-sciences-masters-programme",
+   "feeLabel": "Tuition fee per year (only non-EU/EEA citizens)",
+   "feeText": "15 000 EUR",
+   "feeEUR": 15000,
+   "title": "Particle Physics and Astrophysical Sciences | Master&#039;s programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-science",
+   "name": "Science",
+   "url": "https://www.helsinki.fi/en/degree-programmes/science-bachelors-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/science-bachelors-programme",
+   "feeLabel": "Tuition fee per year (only non-EU/EEA citizens)",
+   "feeText": "13 000 EUR",
+   "feeEUR": 13000,
+   "title": "Science | Bachelor&#039;s programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-data-science",
+   "name": "Data Science",
+   "url": "https://www.helsinki.fi/en/degree-programmes/data-science-masters-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/data-science-masters-programme",
+   "feeLabel": "Tuition fee per year (only non-EU/EEA citizens)",
+   "feeText": "15 000 EUR",
+   "feeEUR": 15000,
+   "title": "Data Science | Master&#039;s programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-geology-and-geophysics",
+   "name": "Geology and Geophysics",
+   "url": "https://www.helsinki.fi/en/degree-programmes/geology-and-geophysics-masters-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/geology-and-geophysics-masters-programme",
+   "feeLabel": "Tuition fee per year (only non-EU/EEA citizens)",
+   "feeText": "15 000 EUR",
+   "feeEUR": 15000,
+   "title": "Geology and Geophysics | Master&#039;s programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-meteorology-atmospheric-and-climate-system-sciences",
+   "name": "Meteorology Atmospheric and Climate System Sciences",
+   "url": "https://www.helsinki.fi/en/degree-programmes/meteorology-atmospheric-and-climate-system-sciences-masters-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/meteorology-atmospheric-and-climate-system-sciences-masters-programme",
+   "feeLabel": "Tuition fee per year (only non-EU/EEA citizens)",
+   "feeText": "15 000 EUR",
+   "feeEUR": 15000,
+   "title": "Meteorology, Atmospheric and Climate-System Sciences | Master’s programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-urban-studies-and-planning",
+   "name": "Urban Studies and Planning",
+   "url": "https://www.helsinki.fi/en/degree-programmes/urban-studies-and-planning-masters-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/urban-studies-and-planning-masters-programme",
+   "feeLabel": "Tuition fee per year (only non-EU/EEA citizens)",
+   "feeText": "15 000 EUR",
+   "feeEUR": 15000,
+   "title": "Urban Studies and Planning | Master’s programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-chemistry",
+   "name": "Chemistry",
+   "url": "https://www.helsinki.fi/en/degree-programmes/chemistry-masters-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/chemistry-masters-programme",
+   "feeLabel": "Tuition fee per year (only non-EU/EEA citizens)",
+   "feeText": "15 000 EUR",
+   "feeEUR": 15000,
+   "title": "Chemistry | Master&#039;s programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-life-science-informatics",
+   "name": "Life Science Informatics",
+   "url": "https://www.helsinki.fi/en/degree-programmes/life-science-informatics-masters-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/life-science-informatics-masters-programme",
+   "feeLabel": "Tuition fee per year (only non-EU/EEA citizens)",
+   "feeText": "15 000 EUR",
+   "feeEUR": 15000,
+   "title": "Life Science Informatics | Master&#039;s programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-geography",
+   "name": "Geography",
+   "url": "https://www.helsinki.fi/en/degree-programmes/geography-masters-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/geography-masters-programme",
+   "feeLabel": "Tuition fee per year (only non-EU/EEA citizens)",
+   "feeText": "13 000 EUR",
+   "feeEUR": 13000,
+   "title": "Geography | Master&#039;s programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-mathematics-and-statistics",
+   "name": "Mathematics and Statistics",
+   "url": "https://www.helsinki.fi/en/degree-programmes/mathematics-and-statistics-masters-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/mathematics-and-statistics-masters-programme",
+   "feeLabel": "Tuition fee per year (only non-EU/EEA citizens)",
+   "feeText": "15 000 EUR",
+   "feeEUR": 15000,
+   "title": "Mathematics and Statistics | Master&#039;s programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-materials-research",
+   "name": "Materials Research",
+   "url": "https://www.helsinki.fi/en/degree-programmes/materials-research-masters-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/materials-research-masters-programme",
+   "feeLabel": "Tuition fee per year (only non-EU/EEA citizens)",
+   "feeText": "15 000 EUR",
+   "feeEUR": 15000,
+   "title": "Materials Research | Master&#039;s programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-computer-science",
+   "name": "Computer Science",
+   "url": "https://www.helsinki.fi/en/degree-programmes/computer-science-masters-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/computer-science-masters-programme",
+   "feeLabel": "Tuition fee per year (only non-EU/EEA citizens)",
+   "feeText": "15 000 EUR",
+   "feeEUR": 15000,
+   "title": "Computer Science | Master&#039;s programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-food-sciences",
+   "name": "Food Sciences",
+   "url": "https://www.helsinki.fi/en/degree-programmes/food-sciences-masters-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/food-sciences-masters-programme",
+   "feeLabel": "Tuition fee per year (only non-EU/EEA citizens)",
+   "feeText": "15 000 EUR",
+   "feeEUR": 15000,
+   "title": "Food Sciences | Master&#039;s programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-nutrition-science",
+   "name": "Nutrition Science",
+   "url": "https://www.helsinki.fi/en/degree-programmes/nutrition-science-masters-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/nutrition-science-masters-programme",
+   "feeLabel": "Tuition fee per year (only non-EU/EEA citizens)",
+   "feeText": "15 000 EUR",
+   "feeEUR": 15000,
+   "title": "Nutrition Science | Master&#039;s programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-agricultural-environmental-and-resource-economics",
+   "name": "Agricultural Environmental and Resource Economics",
+   "url": "https://www.helsinki.fi/en/degree-programmes/agricultural-environmental-and-resource-economics-masters-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/agricultural-environmental-and-resource-economics-masters-programme",
+   "feeLabel": "Tuition fee per year (only non-EU/EEA citizens)",
+   "feeText": "15 000 EUR",
+   "feeEUR": 15000,
+   "title": "Agricultural, Environmental and Resource Economics | Master&#039;s programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-agricultural-sciences",
+   "name": "Agricultural Sciences",
+   "url": "https://www.helsinki.fi/en/degree-programmes/agricultural-sciences-masters-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/agricultural-sciences-masters-programme",
+   "feeLabel": "Tuition fee per year (only non-EU/EEA citizens)",
+   "feeText": "15 000 EUR",
+   "feeEUR": 15000,
+   "title": "Agricultural Sciences | Master&#039;s programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-forest-sciences",
+   "name": "Forest Sciences",
+   "url": "https://www.helsinki.fi/en/degree-programmes/forest-sciences-masters-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/forest-sciences-masters-programme",
+   "feeLabel": "Tuition fee per year (only non-EU/EEA citizens)",
+   "feeText": "15 000 EUR",
+   "feeEUR": 15000,
+   "title": "Forest Sciences | Master&#039;s programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-microbiology-and-microbial-biotechnology",
+   "name": "Microbiology and Microbial Biotechnology",
+   "url": "https://www.helsinki.fi/en/degree-programmes/microbiology-and-microbial-biotechnology-masters-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/microbiology-and-microbial-biotechnology-masters-programme",
+   "feeLabel": "Tuition fee per year (only non-EU/EEA citizens)",
+   "feeText": "18 000 EUR",
+   "feeEUR": 18000,
+   "title": "Microbiology and Microbial Biotechnology | Master&#039;s programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-contemporary-societies",
+   "name": "Contemporary Societies",
+   "url": "https://www.helsinki.fi/en/degree-programmes/contemporary-societies-masters-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/contemporary-societies-masters-programme",
+   "feeLabel": "Tuition fee per year (only non-EU/EEA citizens)",
+   "feeText": "13 000 EUR",
+   "feeEUR": 13000,
+   "title": "Contemporary Societies | Master&#039;s programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-european-and-nordic-studies",
+   "name": "European and Nordic Studies",
+   "url": "https://www.helsinki.fi/en/degree-programmes/european-and-nordic-studies-masters-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/european-and-nordic-studies-masters-programme",
+   "feeLabel": "Tuition fee per year (only non-EU/EEA citizens)",
+   "feeText": "13 000 EUR",
+   "feeEUR": 13000,
+   "title": "European and Nordic Studies | Master’s programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-global-politics-and-communication",
+   "name": "Global Politics and Communication",
+   "url": "https://www.helsinki.fi/en/degree-programmes/global-politics-and-communication-masters-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/global-politics-and-communication-masters-programme",
+   "feeLabel": "Tuition fee per year (only non-EU/EEA citizens)",
+   "feeText": "13 000 EUR",
+   "feeEUR": 13000,
+   "title": "Global Politics and Communication | Master&#039;s programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-economics",
+   "name": "Economics",
+   "url": "https://www.helsinki.fi/en/degree-programmes/economics-masters-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/economics-masters-programme",
+   "feeLabel": "Tuition fee per year (only non-EU/EEA citizens)",
+   "feeText": "18 000 EUR",
+   "feeEUR": 18000,
+   "title": "Economics | Master&#039;s programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-elainlaaketieteen-koulutusohjelma",
+   "name": "Elainlaaketieteen Koulutusohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/elainlaaketieteen-koulutusohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/elainlaaketieteen-koulutusohjelma",
+   "title": "Eläinlääketieteen koulutusohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-hammaslaaketiede",
+   "name": "Hammaslaaketiede",
+   "url": "https://www.helsinki.fi/en/degree-programmes/hammaslaaketiede",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/hammaslaaketiede",
+   "title": "Hammaslääketiede | University of Helsinki"
+  },
+  {
+   "slug": "uhel-logopedian-kandiohjelma",
+   "name": "Logopedian Kandiohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/logopedian-kandiohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/logopedian-kandiohjelma",
+   "title": "Logopedian kandiohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-logopedian-maisteriohjelma",
+   "name": "Logopedian Maisteriohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/logopedian-maisteriohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/logopedian-maisteriohjelma",
+   "title": "Logopedian maisteriohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-laaketieteen-koulutusohjelma",
+   "name": "Laaketieteen Koulutusohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/laaketieteen-koulutusohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/laaketieteen-koulutusohjelma",
+   "title": "Lääketieteen koulutusohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-psykologian-kandiohjelma",
+   "name": "Psykologian Kandiohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/psykologian-kandiohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/psykologian-kandiohjelma",
+   "title": "Psykologian kandiohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-psykologian-maisteriohjelma",
+   "name": "Psykologian Maisteriohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/psykologian-maisteriohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/psykologian-maisteriohjelma",
+   "title": "Psykologian maisteriohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-elin-tarvike-ja-ravitsemustieteiden-kandi-ohjelma",
+   "name": "Elin Tarvike Ja Ravitsemustieteiden Kandi Ohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/elin-tarvike-ja-ravitsemustieteiden-kandi-ohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/elin-tarvike-ja-ravitsemustieteiden-kandi-ohjelma",
+   "title": "Elin­tarvike­- ja ravitsemustieteiden kandi­ohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-teologian-ja-uskonnontutkimuksen-kandiohjelma",
+   "name": "Teologian Ja Uskonnontutkimuksen Kandiohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/teologian-ja-uskonnontutkimuksen-kandiohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/teologian-ja-uskonnontutkimuksen-kandiohjelma",
+   "title": "Teologian ja uskonnontutkimuksen kandiohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-teologian-ja-uskonnontutkimuksen-maisteriohjelma",
+   "name": "Teologian Ja Uskonnontutkimuksen Maisteriohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/teologian-ja-uskonnontutkimuksen-maisteriohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/teologian-ja-uskonnontutkimuksen-maisteriohjelma",
+   "title": "Teologian ja uskonnontutkimuksen maisteriohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-biologian-kandiohjelma",
+   "name": "Biologian Kandiohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/biologian-kandiohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/biologian-kandiohjelma",
+   "title": "Biologian kandiohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-molekyylibiotieteiden-kandiohjelma",
+   "name": "Molekyylibiotieteiden Kandiohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/molekyylibiotieteiden-kandiohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/molekyylibiotieteiden-kandiohjelma",
+   "title": "Molekyylibiotieteiden kandiohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-ymparistotieteiden-kandiohjelma",
+   "name": "Ymparistotieteiden Kandiohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/ymparistotieteiden-kandiohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/ymparistotieteiden-kandiohjelma",
+   "title": "Ympäristötieteiden kandiohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-filosofian-kandiohjelma",
+   "name": "Filosofian Kandiohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/filosofian-kandiohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/filosofian-kandiohjelma",
+   "title": "Filosofian kandiohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-historian-kandiohjelma",
+   "name": "Historian Kandiohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/historian-kandiohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/historian-kandiohjelma",
+   "title": "Historian kandiohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-kielten-kandiohjelma",
+   "name": "Kielten Kandiohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/kielten-kandiohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/kielten-kandiohjelma",
+   "title": "Kielten kandiohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-languages-and-literature-finland",
+   "name": "Languages and Literature Finland",
+   "url": "https://www.helsinki.fi/en/degree-programmes/languages-and-literature-finland-bachelors-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/languages-and-literature-finland-bachelors-programme",
+   "title": "Languages and Literature of Finland | Bachelor’s Programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-kulttuurien-tutkimuksen-kandiohjelma",
+   "name": "Kulttuurien Tutkimuksen Kandiohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/kulttuurien-tutkimuksen-kandiohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/kulttuurien-tutkimuksen-kandiohjelma",
+   "title": "Kulttuurien tutkimuksen kandiohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-taiteiden-tutkimuksen-kandiohjelma",
+   "name": "Taiteiden Tutkimuksen Kandiohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/taiteiden-tutkimuksen-kandiohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/taiteiden-tutkimuksen-kandiohjelma",
+   "title": "Taiteiden tutkimuksen kandiohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-maataloustieteiden-kandiohjelma",
+   "name": "Maataloustieteiden Kandiohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/maataloustieteiden-kandiohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/maataloustieteiden-kandiohjelma",
+   "title": "Maataloustieteiden kandiohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-kasvatustieteiden-kandiohjelma",
+   "name": "Kasvatustieteiden Kandiohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/kasvatustieteiden-kandiohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/kasvatustieteiden-kandiohjelma",
+   "title": "Kasvatustieteiden kandiohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-metsatieteiden-kandiohjelma",
+   "name": "Metsatieteiden Kandiohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/metsatieteiden-kandiohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/metsatieteiden-kandiohjelma",
+   "title": "Metsätieteiden kandiohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-ymparisto-ja-elintarviketalouden-kandiohjelma",
+   "name": "Ymparisto Ja Elintarviketalouden Kandiohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/ymparisto-ja-elintarviketalouden-kandiohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/ymparisto-ja-elintarviketalouden-kandiohjelma",
+   "title": "Ympäristö- ja elintarviketalouden kandiohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-fysikaalisten-tieteiden-kandiohjelma",
+   "name": "Fysikaalisten Tieteiden Kandiohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/fysikaalisten-tieteiden-kandiohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/fysikaalisten-tieteiden-kandiohjelma",
+   "title": "Fysikaalisten tieteiden kandiohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-geotieteiden-kandiohjelma",
+   "name": "Geotieteiden Kandiohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/geotieteiden-kandiohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/geotieteiden-kandiohjelma",
+   "title": "Geotieteiden kandiohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-kemian-kandiohjelma",
+   "name": "Kemian Kandiohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/kemian-kandiohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/kemian-kandiohjelma",
+   "title": "Kemian kandiohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-maantieteen-kandiohjelma",
+   "name": "Maantieteen Kandiohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/maantieteen-kandiohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/maantieteen-kandiohjelma",
+   "title": "Maantieteen kandiohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-matemaattisten-tieteiden-kandiohjelma",
+   "name": "Matemaattisten Tieteiden Kandiohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/matemaattisten-tieteiden-kandiohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/matemaattisten-tieteiden-kandiohjelma",
+   "title": "Matemaattisten tieteiden kandiohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-matematiikan-fysiikan-ja-kemian-opettajan-kandiohjelma",
+   "name": "Matematiikan Fysiikan Ja Kemian Opettajan Kandiohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/matematiikan-fysiikan-ja-kemian-opettajan-kandiohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/matematiikan-fysiikan-ja-kemian-opettajan-kandiohjelma",
+   "title": "Matematiikan, fysiikan ja kemian opettajan kandiohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-tietojenkasittelytieteen-kandiohjelma",
+   "name": "Tietojenkasittelytieteen Kandiohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/tietojenkasittelytieteen-kandiohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/tietojenkasittelytieteen-kandiohjelma",
+   "title": "Tietojenkäsittelytieteen kandiohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-oikeusnotaarin-koulutusohjelma",
+   "name": "Oikeusnotaarin Koulutusohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/oikeusnotaarin-koulutusohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/oikeusnotaarin-koulutusohjelma",
+   "title": "Oikeusnotaarin koulutusohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-samhallsvetenskaper-kandidatprogram",
+   "name": "Samhallsvetenskaper Kandidatprogram",
+   "url": "https://www.helsinki.fi/en/degree-programmes/samhallsvetenskaper-kandidatprogram",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/samhallsvetenskaper-kandidatprogram",
+   "title": "Samhällsvetenskaper | Kandidatprogram | University of Helsinki"
+  },
+  {
+   "slug": "uhel-politiikan-ja-viestinnan-kandiohjelma",
+   "name": "Politiikan Ja Viestinnan Kandiohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/politiikan-ja-viestinnan-kandiohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/politiikan-ja-viestinnan-kandiohjelma",
+   "title": "Politiikan ja viestinnän kandiohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-sosiaalitieteiden-kandiohjelma",
+   "name": "Sosiaalitieteiden Kandiohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/sosiaalitieteiden-kandiohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/sosiaalitieteiden-kandiohjelma",
+   "title": "Sosiaalitieteiden kandiohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-taloustieteen-kandiohjelma",
+   "name": "Taloustieteen Kandiohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/taloustieteen-kandiohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/taloustieteen-kandiohjelma",
+   "title": "Taloustieteen kandiohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-yhteiskunnallisen-muutoksen-kandiohjelma",
+   "name": "Yhteiskunnallisen Muutoksen Kandiohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/yhteiskunnallisen-muutoksen-kandiohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/yhteiskunnallisen-muutoksen-kandiohjelma",
+   "title": "Yhteiskunnallisen muutoksen kandiohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-alue-ja-kulttuurintutkimuksen-maisteriohjelma",
+   "name": "Alue Ja Kulttuurintutkimuksen Maisteriohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/alue-ja-kulttuurintutkimuksen-maisteriohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/alue-ja-kulttuurintutkimuksen-maisteriohjelma",
+   "title": "Alue- ja kulttuurintutkimuksen maisteriohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-elintarviketalouden-ja-kulutuksen-maisteriohjelma",
+   "name": "Elintarviketalouden Ja Kulutuksen Maisteriohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/elintarviketalouden-ja-kulutuksen-maisteriohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/elintarviketalouden-ja-kulutuksen-maisteriohjelma",
+   "title": "Elintarviketalouden ja kulutuksen maisteriohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-filosofian-maisteriohjelma",
+   "name": "Filosofian Maisteriohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/filosofian-maisteriohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/filosofian-maisteriohjelma",
+   "title": "Filosofian maisteriohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-historian-maisteriohjelma",
+   "name": "Historian Maisteriohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/historian-maisteriohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/historian-maisteriohjelma",
+   "title": "Historian maisteriohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-kasvatustieteiden-maisteriohjelma",
+   "name": "Kasvatustieteiden Maisteriohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/kasvatustieteiden-maisteriohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/kasvatustieteiden-maisteriohjelma",
+   "title": "Kasvatustieteiden maisteriohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-kielten-maisteriohjelma",
+   "name": "Kielten Maisteriohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/kielten-maisteriohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/kielten-maisteriohjelma",
+   "title": "Kielten maisteriohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-kirjallisuudentutkimuksen-maisteriohjelma",
+   "name": "Kirjallisuudentutkimuksen Maisteriohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/kirjallisuudentutkimuksen-maisteriohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/kirjallisuudentutkimuksen-maisteriohjelma",
+   "title": "Kirjallisuudentutkimuksen maisteriohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-samhallsvetenskaper-magisterprogrammet",
+   "name": "Samhallsvetenskaper Magisterprogrammet",
+   "url": "https://www.helsinki.fi/en/degree-programmes/samhallsvetenskaper-magisterprogrammet",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/samhallsvetenskaper-magisterprogrammet",
+   "title": "Samhällsvetenskaper | Magisterprogrammet | University of Helsinki"
+  },
+  {
+   "slug": "uhel-oikeustieteen-maisterin-koulutusohjelma",
+   "name": "Oikeustieteen Maisterin Koulutusohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/oikeustieteen-maisterin-koulutusohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/oikeustieteen-maisterin-koulutusohjelma",
+   "title": "Oikeustieteen maisterin koulutusohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-pohjoismaisten-kielten-ja-kirjallisuuksien-maisteriohjelma",
+   "name": "Pohjoismaisten Kielten Ja Kirjallisuuksien Maisteriohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/pohjoismaisten-kielten-ja-kirjallisuuksien-maisteriohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/pohjoismaisten-kielten-ja-kirjallisuuksien-maisteriohjelma",
+   "title": "Pohjoismaisten kielten ja kirjallisuuksien maisteriohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-politiikan-ja-viestinnan-maisteriohjelma",
+   "name": "Politiikan Ja Viestinnan Maisteriohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/politiikan-ja-viestinnan-maisteriohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/politiikan-ja-viestinnan-maisteriohjelma",
+   "title": "Politiikan ja viestinnän maisteriohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-sosiaali-ja-terveystutkimus-ja-johtaminen-maisteriohjelma",
+   "name": "Sosiaali Ja Terveystutkimus Ja Johtaminen Maisteriohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/sosiaali-ja-terveystutkimus-ja-johtaminen-maisteriohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/sosiaali-ja-terveystutkimus-ja-johtaminen-maisteriohjelma",
+   "title": "Sosiaali- ja terveystutkimus ja -johtaminen | Maisteriohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-sosiaalitieteiden-maisteriohjelma",
+   "name": "Sosiaalitieteiden Maisteriohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/sosiaalitieteiden-maisteriohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/sosiaalitieteiden-maisteriohjelma",
+   "title": "Sosiaalitieteiden maisteriohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-sukupuolentutkimuksen-maisteriohjelma",
+   "name": "Sukupuolentutkimuksen Maisteriohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/sukupuolentutkimuksen-maisteriohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/sukupuolentutkimuksen-maisteriohjelma",
+   "title": "Sukupuolentutkimuksen maisteriohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-finnish-and-finno-ugrian-languages-and-cultures",
+   "name": "Finnish and Finno Ugrian Languages and Cultures",
+   "url": "https://www.helsinki.fi/en/degree-programmes/finnish-and-finno-ugrian-languages-and-cultures-masters-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/finnish-and-finno-ugrian-languages-and-cultures-masters-programme",
+   "title": "Finnish and Finno-Ugrian Languages and Cultures | Master’s Programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-taiteiden-tutkimuksen-maisteriohjelma",
+   "name": "Taiteiden Tutkimuksen Maisteriohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/taiteiden-tutkimuksen-maisteriohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/taiteiden-tutkimuksen-maisteriohjelma",
+   "title": "Taiteiden tutkimuksen maisteriohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-yhteiskunnallisen-muutoksen-maisteriohjelma",
+   "name": "Yhteiskunnallisen Muutoksen Maisteriohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/yhteiskunnallisen-muutoksen-maisteriohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/yhteiskunnallisen-muutoksen-maisteriohjelma",
+   "title": "Yhteiskunnallisen muutoksen maisteriohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-matematiikan-fysiikan-ja-kemian-opettajan-maisteriohjelma",
+   "name": "Matematiikan Fysiikan Ja Kemian Opettajan Maisteriohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/matematiikan-fysiikan-ja-kemian-opettajan-maisteriohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/matematiikan-fysiikan-ja-kemian-opettajan-maisteriohjelma",
+   "title": "Matematiikan, fysiikan ja kemian opettajan maisteriohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-proviisorin-koulutusohjelma-pf",
+   "name": "Proviisorin Koulutusohjelma Pf",
+   "url": "https://www.helsinki.fi/en/degree-programmes/proviisorin-koulutusohjelma-pf",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/proviisorin-koulutusohjelma-pf",
+   "title": "Proviisorin koulutusohjelma (Pf) | University of Helsinki"
+  },
+  {
+   "slug": "uhel-farmaseutin-koulutusohjelma",
+   "name": "Farmaseutin Koulutusohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/farmaseutin-koulutusohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/farmaseutin-koulutusohjelma",
+   "title": "Farmaseutin koulutusohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-proviisorin-koulutusohjelma-farmaseutti-ja-proviisori",
+   "name": "Proviisorin Koulutusohjelma Farmaseutti Ja Proviisori",
+   "url": "https://www.helsinki.fi/en/degree-programmes/proviisorin-koulutusohjelma-farmaseutti-ja-proviisori",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/proviisorin-koulutusohjelma-farmaseutti-ja-proviisori",
+   "title": "Proviisorin koulutusohjelma, farmaseutti ja proviisori | University of Helsinki"
+  },
+  {
+   "slug": "uhel-pharmaceutical-research-development-and-safety",
+   "name": "Pharmaceutical Research Development and Safety",
+   "url": "https://www.helsinki.fi/en/degree-programmes/pharmaceutical-research-development-and-safety-masters-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/pharmaceutical-research-development-and-safety-masters-programme",
+   "feeLabel": "Tuition fee per year (only non-EU/EEA citizens)",
+   "feeText": "18 000 EUR",
+   "feeEUR": 18000,
+   "title": "Pharmaceutical Research, Development and Safety | Master&#039;s Programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-theoretical-and-computational-methods",
+   "url": "https://www.helsinki.fi/en/degree-programmes/theoretical-and-computational-methods-masters-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/theoretical-and-computational-methods-masters-programme",
+   "feeLabel": "Tuition fee per year (only non-EU/EEA citizens)",
+   "feeText": "15 000 EUR",
+   "feeEUR": 15000,
+   "title": "Theoretical and Computational Methods | Master&#039;s programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-kulttuuriperinnon-maisteriohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/kulttuuriperinnon-maisteriohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/kulttuuriperinnon-maisteriohjelma",
+   "title": "Kulttuuriperinnön maisteriohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-kaantamisen-ja-tulkkauksen-maisteriohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/kaantamisen-ja-tulkkauksen-maisteriohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/kaantamisen-ja-tulkkauksen-maisteriohjelma",
+   "title": "Kääntämisen ja tulkkauksen maisteriohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-development-health-care-services",
+   "url": "https://www.helsinki.fi/en/degree-programmes/development-health-care-services-masters-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/development-health-care-services-masters-programme",
+   "title": "Development in health care services | Master&#039;s programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-soveltavan-psykologian-kandiohjelma",
+   "url": "https://www.helsinki.fi/en/degree-programmes/soveltavan-psykologian-kandiohjelma",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/soveltavan-psykologian-kandiohjelma",
+   "title": "Soveltavan psykologian kandiohjelma | University of Helsinki"
+  },
+  {
+   "slug": "uhel-green-business-dual",
+   "url": "https://www.helsinki.fi/en/degree-programmes/green-business-dual-masters-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/green-business-dual-masters-programme",
+   "feeLabel": "Tuition fee per year (only non-EU/EEA citizens)",
+   "feeText": "4 200 EUR",
+   "feeEUR": 4200,
+   "title": "Green Business | Dual Master&#039;s programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-liberal-arts-and-sciences",
+   "url": "https://www.helsinki.fi/en/degree-programmes/liberal-arts-and-sciences-bachelors-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/liberal-arts-and-sciences-bachelors-programme",
+   "feeLabel": "Tuition fee per year (only non-EU/EEA citizens)",
+   "feeText": "13 000 EUR",
+   "feeEUR": 13000,
+   "title": "Liberal Arts and Sciences | Bachelor’s Programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-organisational-psychology",
+   "url": "https://www.helsinki.fi/en/degree-programmes/organisational-psychology-masters-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/organisational-psychology-masters-programme",
+   "title": "Organisational Psychology | Master&#039;s Programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-food-economy-and-consumption",
+   "name": "Food Economy and Consumption",
+   "url": "https://www.helsinki.fi/en/degree-programmes/food-economy-and-consumption-bachelors-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/food-economy-and-consumption-bachelors-programme",
+   "title": "Food Economy and Consumption | Bachelor&#039;s Programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-environmental-and-agricultural-economics",
+   "name": "Environmental and Agricultural Economics",
+   "url": "https://www.helsinki.fi/en/degree-programmes/environmental-and-agricultural-economics-bachelors-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/environmental-and-agricultural-economics-bachelors-programme",
+   "title": "Environmental and Agricultural Economics | Bachelor&#039;s Programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-technologies-sustainable-use-renewable-resources",
+   "name": "Technologies Sustainable Use Renewable Resources",
+   "url": "https://www.helsinki.fi/en/degree-programmes/technologies-sustainable-use-renewable-resources-masters-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/technologies-sustainable-use-renewable-resources-masters-programme",
+   "feeLabel": "Tuition fee per year (only non-EU/EEA citizens)",
+   "feeText": "15 000 EUR",
+   "feeEUR": 15000,
+   "title": "Technologies for Sustainable Use of Renewable Resources | Master&#039;s programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-nature-society-and-environmental-solutions",
+   "name": "Nature Society and Environmental Solutions",
+   "url": "https://www.helsinki.fi/en/degree-programmes/nature-society-and-environmental-solutions-masters-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/nature-society-and-environmental-solutions-masters-programme",
+   "title": "Nature, Society, and Environmental Solutions | Master&#039;s Programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-one-health",
+   "name": "One Health",
+   "url": "https://www.helsinki.fi/en/degree-programmes/one-health-masters-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/one-health-masters-programme",
+   "feeLabel": "Tuition fee per year (only non-EU/EEA citizens)",
+   "feeText": "18 000 EUR",
+   "feeEUR": 18000,
+   "title": "One Health | Master’s programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-international-food-business-and-gastronomy",
+   "name": "International Food Business and Gastronomy",
+   "url": "https://www.helsinki.fi/en/degree-programmes/international-food-business-and-gastronomy-masters-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/international-food-business-and-gastronomy-masters-programme",
+   "feeLabel": "Tuition fee per year (only non-EU/EEA citizens)",
+   "feeText": "15 000 EUR",
+   "feeEUR": 15000,
+   "title": "International Food Business and Gastronomy | Master’s programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-societal-security",
+   "name": "Societal Security",
+   "url": "https://www.helsinki.fi/en/degree-programmes/societal-security-masters-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/societal-security-masters-programme",
+   "feeLabel": "Tuition fee per year (only non-EU/EEA citizens)",
+   "feeText": "13 000 EUR",
+   "feeEUR": 13000,
+   "title": "Societal Security | Master’s programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-ug-science-bachelors-programme",
+   "name": "Science | Bachelor's programme",
+   "url": "https://www.helsinki.fi/fi/koulutusohjelmat/science-bachelors-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/fi/koulutusohjelmat/science-bachelors-programme",
+   "feeLabel": "Lukuvuosimaksu muille kuin EU/ETA-kansalaisille",
+   "feeText": "13 000 EUR",
+   "feeEUR": 13000,
+   "title": "Science | Bachelor&#039;s programme | Helsingin yliopisto"
+  },
+  {
+   "slug": "uhel-ug-languages-and-literature-of-finland-bachelors-programme",
+   "name": "Languages and Literature of Finland | Bachelor’s Programme",
+   "url": "https://www.helsinki.fi/en/degree-programmes/languages-and-literature-finland-bachelors-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/languages-and-literature-finland-bachelors-programme",
+   "title": "Languages and Literature of Finland | Bachelor’s Programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-ug-liberal-arts-and-sciences-bachelors-programme",
+   "name": "Liberal Arts and Sciences | Bachelor's programme",
+   "url": "https://www.helsinki.fi/fi/koulutusohjelmat/liberal-arts-and-sciences-bachelors-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/fi/koulutusohjelmat/liberal-arts-and-sciences-bachelors-programme",
+   "feeLabel": "Lukuvuosimaksu muille kuin EU/ETA-kansalaisille",
+   "feeText": "13 000 EUR",
+   "feeEUR": 13000,
+   "title": "Liberal Arts and Sciences | Bachelor&#039;s programme | Helsingin yliopisto"
+  },
+  {
+   "slug": "uhel-ug-food-economy-and-consumption-bachelors-programme",
+   "name": "Food Economy and Consumption | Bachelor's Programme",
+   "url": "https://www.helsinki.fi/en/degree-programmes/food-economy-and-consumption-bachelors-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/food-economy-and-consumption-bachelors-programme",
+   "title": "Food Economy and Consumption | Bachelor&#039;s Programme | University of Helsinki"
+  },
+  {
+   "slug": "uhel-ug-environmental-and-agricultural-economics-bachelors-programme",
+   "name": "Environmental and Agricultural Economics | Bachelor's Programme",
+   "url": "https://www.helsinki.fi/en/degree-programmes/environmental-and-agricultural-economics-bachelors-programme",
+   "status": 200,
+   "finalUrl": "https://www.helsinki.fi/en/degree-programmes/environmental-and-agricultural-economics-bachelors-programme",
+   "title": "Environmental and Agricultural Economics | Bachelor&#039;s Programme | University of Helsinki"
+  }
+ ]
+}

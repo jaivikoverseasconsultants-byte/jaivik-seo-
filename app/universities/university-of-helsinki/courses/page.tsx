@@ -35,10 +35,10 @@ export default function CoursesPage() {
   const avgFee = verifiedAvgFee(courses as any[], 'annualEUR');
 
   const _minIelts = courses.length ? Math.min(...courses.map((c: any) => Number(c.ieltsMin) || 6.5)) : 6.5;
-  const _feeVerifiedCourses = (courses as any[]).filter((c: any) => isFeeVerified(c) && Number(c.annualUSD) > 0);
-  const _avgFeeUSD = _feeVerifiedCourses.length
-    ? Math.round(_feeVerifiedCourses.reduce((s: number, c: any) => s + Number(c.annualUSD), 0) / _feeVerifiedCourses.length)
-    : 0;
+  // the range across programmes whose helsinki.fi page states a fee
+  const _statedFees = (courses as any[]).filter((c: any) => isFeeVerified(c) && Number(c.annualEUR) > 0).map((c: any) => Number(c.annualEUR));
+  const _minFee = _statedFees.length ? Math.min(..._statedFees) : 0;
+  const _maxFee = _statedFees.length ? Math.max(..._statedFees) : 0;
   const _intakeSample: string[] = (courses[0] as any)?.intakeMonths ?? ['September'];
   const _intakesText = _intakeSample.join(' and ');
 
@@ -62,14 +62,14 @@ export default function CoursesPage() {
           text: `The minimum IELTS score at University of Helsinki is ${_minIelts}+. High-demand programs may require up to 7.0.`,
         },
       },
-      {
+      ...(_statedFees.length ? [{
         '@type': 'Question',
         name: `What is the tuition fee at University of Helsinki?`,
         acceptedAnswer: {
           '@type': 'Answer',
-          text: `The annual tuition at University of Helsinki is approximately €13,000 (≈ ₹${(13000 * RATE_TO_INR.EUR / 100000).toFixed(1)}L INR) for non-EU international students.`,
+          text: `For non-EU/EEA citizens, the University of Helsinki states an annual tuition fee per programme. Across the ${_statedFees.length} programmes here that state one, it ranges from €${_minFee.toLocaleString('en-US')} to €${_maxFee.toLocaleString('en-US')} a year (≈ ₹${(_minFee * RATE_TO_INR.EUR / 100000).toFixed(1)}L–₹${(_maxFee * RATE_TO_INR.EUR / 100000).toFixed(1)}L).`,
         },
-      },
+      }] : []),
       {
         '@type': 'Question',
         name: `What intake does University of Helsinki offer?`,
@@ -102,8 +102,8 @@ export default function CoursesPage() {
         '@type': 'Course',
         name: c.name,
         provider: { '@type': 'CollegeOrUniversity', name: 'University of Helsinki' },
-        ...(isFeeVerified(c as any) && Number(c.annualUSD) > 0
-          ? { offers: { '@type': 'Offer', price: Number(c.annualUSD), priceCurrency: 'USD' } }
+        ...(isFeeVerified(c as any) && Number(c.annualEUR) > 0
+          ? { offers: { '@type': 'Offer', price: Number(c.annualEUR), priceCurrency: 'EUR' } }
           : {}),
         educationalLevel: c.level ?? c.studyLevel ?? 'Postgraduate',
       },
@@ -138,7 +138,7 @@ export default function CoursesPage() {
               </div>
               <h1 className="text-3xl md:text-4xl font-bold mb-3">University of Helsinki — International Courses</h1>
               <p className="text-blue-200 text-lg mb-5">
-                {totalCourses} programs · Avg €{Math.round(avgFee / 1000)}K EUR/yr · IELTS 6.5+ · September intake
+                {totalCourses} programs{avgFee > 0 ? ` · Avg €${Math.round(avgFee / 1000)}K/yr` : ''} · IELTS 6.5+ · September intake
               </p>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                 {[
