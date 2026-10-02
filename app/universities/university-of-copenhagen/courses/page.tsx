@@ -32,14 +32,11 @@ export default function CoursesPage() {
   const courses = universityOfCopenhagenCourses as any[];
   const groups = groupByLevel(courses);
   const totalCourses = courses.length;
-  const avgFee = verifiedAvgFee(courses as any[], 'annualEUR', 'annualDKK');
+  // DKK is what UCPH states, per year (60 ECTS)
+  const avgFee = verifiedAvgFee(courses as any[], 'annualDKK');
 
-  
+
   const _minIelts = courses.length ? Math.min(...courses.map((c: any) => Number(c.ieltsMin) || 6.0)) : 6.0;
-  const _feeVerifiedCourses = (courses as any[]).filter((c: any) => isFeeVerified(c) && Number(c.annualUSD) > 0);
-  const _avgFeeUSD = _feeVerifiedCourses.length
-    ? Math.round(_feeVerifiedCourses.reduce((s: number, c: any) => s + Number(c.annualUSD), 0) / _feeVerifiedCourses.length)
-    : 0;
   const _intakeSample: string[] = (courses[0] as any)?.intakeMonths ?? ['September'];
   const _intakesText = _intakeSample.join(' and ');
 
@@ -63,12 +60,12 @@ export default function CoursesPage() {
           text: `The minimum IELTS score at University of Copenhagen is ${_minIelts}+. High-demand programs may require up to 7.0.`,
         },
       },
-      ...(_avgFeeUSD > 0 ? [{
+      ...(avgFee > 0 ? [{
         '@type': 'Question',
         name: `What is the average tuition fee at University of Copenhagen?`,
         acceptedAnswer: {
           '@type': 'Answer',
-          text: `The average annual tuition at University of Copenhagen is approximately ${_avgFeeUSD.toLocaleString()} USD (≈ ₹${(_avgFeeUSD * RATE_TO_INR.USD / 100000).toFixed(1)}L INR). Fees vary by program and level.`,
+          text: `For citizens outside the EU, EEA or Switzerland, UCPH's annual tuition averages about DKK ${Math.round(avgFee).toLocaleString('en-US')} (≈ ₹${(avgFee * RATE_TO_INR.DKK / 100000).toFixed(1)}L) across the programmes that state a fee. Fees vary by programme.`,
         },
       }] : []),
       {
@@ -103,8 +100,8 @@ export default function CoursesPage() {
         '@type': 'Course',
         name: c.name,
         provider: { '@type': 'CollegeOrUniversity', name: 'University of Copenhagen' },
-        ...(isFeeVerified(c as any) && Number(c.annualUSD) > 0
-          ? { offers: { '@type': 'Offer', price: Number(c.annualUSD), priceCurrency: 'USD' } }
+        ...(isFeeVerified(c as any) && Number(c.annualDKK) > 0
+          ? { offers: { '@type': 'Offer', price: Number(c.annualDKK), priceCurrency: 'DKK' } }
           : {}),
         educationalLevel: c.level ?? c.studyLevel ?? 'Undergraduate',
       },
@@ -140,7 +137,7 @@ export default function CoursesPage() {
               </div>
               <h1 className="text-3xl md:text-4xl font-bold mb-3">University of Copenhagen — International Courses</h1>
               <p className="text-blue-200 text-lg mb-5">
-                {totalCourses} programs · Avg DKK {Math.round(avgFee / 1000)}K DKK/yr · IELTS 6.5+ · September intakes
+                {totalCourses} programs{avgFee > 0 ? ` · Avg DKK ${Math.round(avgFee / 1000)}K/yr` : ''} · IELTS 6.5+ · September intakes
               </p>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                 {[
@@ -182,7 +179,7 @@ export default function CoursesPage() {
                       <p className="text-xs text-gray-500 mt-1">{c.duration} · {c.intakeMonths.join(' & ')} · {c.campus}</p>
                     </div>
                     <div className="ml-4 text-right flex-shrink-0">
-                      <p className="text-sm font-bold text-brand-700">€{(c.annualEUR || c.annualDKK || 0).toLocaleString()}/yr</p>
+                      <p className="text-sm font-bold text-brand-700">{isFeeVerified(c as any) && Number(c.annualDKK) > 0 ? `DKK ${c.annualDKK.toLocaleString('en-US')}/yr` : 'Fee on request'}</p>
                       {isFeeVerified(c as any) && <p className="text-xs text-gray-400">≈ ₹{(courseAnnualINRLakh(c as any, 1) ?? '0')}L/yr</p>}
                       {hasPublishedIelts(UNIVERSITY_SLUG, c as never) && <p className="text-xs text-gray-500">IELTS {c.ieltsMin}+</p>}
                     </div>
