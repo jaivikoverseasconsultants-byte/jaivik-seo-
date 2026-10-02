@@ -100,7 +100,7 @@ export default async function CourseDetailPage(
                 ...(hasPublishedIelts(UNIVERSITY_SLUG, course as never) ? [['IELTS Minimum', `${course.ieltsMin} overall`]] : []),
                 ...(publishedScore(UNIVERSITY_SLUG, course as never, 'toefl') ? [['TOEFL Minimum', `${course.toeflMin}+`]] : []),
                 ['Annual Fee (AED)', feeDisplay(course as any, course.annualAED, 'AED')],
-                ['Annual Fee (USD)', feeDisplay(course as any, course.annualUSD, 'USD')],
+                ['Annual Fee (USD, approx.)', feeDisplay(course as any, course.annualUSD, 'USD')],
                 ['Annual Fee (INR)', feeDisplayINRLakh(course as any, (courseAnnualINRLakh(course as any, 1) ?? '0'), '')],
               ].map(([k, v]) => (
                 <div key={k} className="flex flex-col">
@@ -109,6 +109,12 @@ export default async function CourseDetailPage(
                 </div>
               ))}
             </div>
+            {course.feeBasis && (
+              <p className="text-xs text-gray-500 mt-4">
+                Fee basis: {course.feeBasis}.
+                {course.feeSourceUrl && <> <a href={course.feeSourceUrl} className="underline" target="_blank" rel="noopener noreferrer">Source: Heriot-Watt University Dubai</a></>}
+              </p>
+            )}
           </div>
 
 

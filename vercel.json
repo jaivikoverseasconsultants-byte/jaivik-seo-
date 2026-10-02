@@ -5464,6 +5464,11 @@
       "source": "/universities/country/united-arab-emirates",
       "destination": "/universities/country/uae",
       "permanent": true
+    },
+    {
+      "source": "/united-arab-emirates-under-15-lakh",
+      "destination": "/united-arab-emirates-under-20-lakh",
+      "permanent": true
     }
   ]
 }

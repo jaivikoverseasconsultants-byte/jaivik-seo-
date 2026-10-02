@@ -36,10 +36,6 @@ export default function CoursesPage() {
 
   
   const _minIelts = courses.length ? Math.min(...courses.map((c: any) => Number(c.ieltsMin) || 6.0)) : 6.0;
-  const _feeVerifiedCourses = (courses as any[]).filter((c: any) => isFeeVerified(c) && Number(c.annualUSD) > 0);
-  const _avgFeeUSD = _feeVerifiedCourses.length
-    ? Math.round(_feeVerifiedCourses.reduce((s: number, c: any) => s + Number(c.annualUSD), 0) / _feeVerifiedCourses.length)
-    : 0;
   const _intakeSample: string[] = (courses[0] as any)?.intakeMonths ?? ['September'];
   const _intakesText = _intakeSample.join(' and ');
 
@@ -63,12 +59,12 @@ export default function CoursesPage() {
           text: `The minimum IELTS score at Heriot-Watt University Dubai is ${_minIelts}+. High-demand programs may require up to 7.0.`,
         },
       },
-      ...(_avgFeeUSD > 0 ? [{
+      ...(avgFee > 0 ? [{
         '@type': 'Question',
         name: `What is the average tuition fee at Heriot-Watt University Dubai?`,
         acceptedAnswer: {
           '@type': 'Answer',
-          text: `The average annual tuition at Heriot-Watt University Dubai is approximately ${_avgFeeUSD.toLocaleString()} USD (≈ ₹${(_avgFeeUSD * RATE_TO_INR.USD / 100000).toFixed(1)}L INR). Fees vary by program and level.`,
+          text: `Across the programmes that state a full-time fee, annual tuition at Heriot-Watt University Dubai averages about AED ${Math.round(avgFee).toLocaleString('en-US')} (≈ ₹${(avgFee * RATE_TO_INR.AED / 100000).toFixed(1)}L), VAT included. Fees vary by programme.`,
         },
       }] : []),
       {
@@ -103,8 +99,8 @@ export default function CoursesPage() {
         '@type': 'Course',
         name: c.name,
         provider: { '@type': 'CollegeOrUniversity', name: 'Heriot-Watt University Dubai' },
-        ...(isFeeVerified(c as any) && Number(c.annualUSD) > 0
-          ? { offers: { '@type': 'Offer', price: Number(c.annualUSD), priceCurrency: 'USD' } }
+        ...(isFeeVerified(c as any) && Number(c.annualAED) > 0
+          ? { offers: { '@type': 'Offer', price: Number(c.annualAED), priceCurrency: 'AED' } }
           : {}),
         educationalLevel: c.level ?? c.studyLevel ?? 'Undergraduate',
       },
@@ -140,7 +136,7 @@ export default function CoursesPage() {
               </div>
               <h1 className="text-3xl md:text-4xl font-bold mb-3">Heriot-Watt University Dubai — International Courses</h1>
               <p className="text-blue-200 text-lg mb-5">
-                {totalCourses} programs · Avg AED {Math.round(avgFee / 1000)}K AED/yr · IELTS 6.5+ · September & January intakes
+                {totalCourses} programs{avgFee > 0 ? ` · Avg AED ${Math.round(avgFee / 1000)}K/yr` : ''} · IELTS 6.5+ · September & January intakes
               </p>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                 {[

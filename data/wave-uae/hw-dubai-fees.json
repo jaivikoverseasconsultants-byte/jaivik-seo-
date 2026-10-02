@@ -1,0 +1,2286 @@
+{
+ "_source": "hw.ac.uk/dubai programme pages, \"Fees and funding\" intake tables",
+ "_basis": "Heriot-Watt: \"what you pay in your first year of study will be the amount you pay each year until you graduate\"; fees inclusive of VAT",
+ "_crawledOn": "2026-09-30",
+ "results": [
+  {
+   "slug": "hwdubai-accountancy-finance",
+   "name": "Accountancy and Finance",
+   "url": "https://www.hw.ac.uk/dubai/study/undergraduate/accountancy-finance",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/undergraduate/accountancy-finance",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": "2027-01",
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 76,505"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027 / January 2028",
+     "intakeDate": "2027-09",
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 76,505"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-actuarial-data-science",
+   "name": "(Hons) Actuarial Data Science",
+   "url": "https://www.hw.ac.uk/dubai/study/undergraduate/actuarial-data-science",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/undergraduate/actuarial-data-science",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": "2027-01",
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 82,264"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027 / January 2028",
+     "intakeDate": "2027-09",
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 82,264"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-applied-cybersecurity-msc",
+   "name": "Applied Cyber Security",
+   "url": "https://www.hw.ac.uk/dubai/study/postgraduate/applied-cybersecurity-msc",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/postgraduate/applied-cybersecurity-msc",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": "2027-01",
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 107,484",
+       "AED 53,742"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027 / January 2028",
+     "intakeDate": "2027-09",
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 107,484",
+       "AED 53,742"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-architectural-engineering",
+   "name": "(Hons) Architectural Engineering",
+   "url": "https://www.hw.ac.uk/dubai/study/undergraduate/architectural-engineering",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/undergraduate/architectural-engineering",
+   "title": null,
+   "tables": [
+    {
+     "intake": null,
+     "intakeDate": null,
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 82,264"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-architecture",
+   "name": "(Hons) Architecture",
+   "url": "https://www.hw.ac.uk/dubai/study/undergraduate/architecture",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/undergraduate/architecture",
+   "title": null,
+   "tables": [
+    {
+     "intake": null,
+     "intakeDate": null,
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 88,920"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-master-of-architecture",
+   "name": "Architecture",
+   "url": "https://www.hw.ac.uk/dubai/study/postgraduate/master-of-architecture",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/postgraduate/master-of-architecture",
+   "title": null,
+   "tables": [],
+   "vatInclusive": false
+  },
+  {
+   "slug": "hwdubai-artificial-intelligence",
+   "name": "Artificial Intelligence",
+   "url": "https://www.hw.ac.uk/dubai/study/postgraduate/artificial-intelligence",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/postgraduate/artificial-intelligence",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": "2027-01",
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 113,685",
+       "AED 56,842.50"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027 / January 2028",
+     "intakeDate": "2027-09",
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 113,685",
+       "AED 56,842.50"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-automotive-engineering",
+   "name": "(Hons) Automotive Engineering",
+   "url": "https://www.hw.ac.uk/dubai/study/undergraduate/automotive-engineering",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/undergraduate/automotive-engineering",
+   "title": null,
+   "tables": [
+    {
+     "intake": null,
+     "intakeDate": null,
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 82,264"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-bachelor-business-administration",
+   "name": "(Hons) Bachelor of Business Administration",
+   "url": "https://www.hw.ac.uk/dubai/study/undergraduate/bachelor-business-administration",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/undergraduate/bachelor-business-administration",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": "2027-01",
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 78,650"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027 / January 2028",
+     "intakeDate": "2027-09",
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 78,650"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-business-analytics-and-consultancy",
+   "name": "Business Analytics and Consultancy",
+   "url": "https://www.hw.ac.uk/dubai/study/postgraduate/business-analytics-and-consultancy",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/postgraduate/business-analytics-and-consultancy",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": "2027-01",
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 99,528",
+       "AED 49,764"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027 / January 2028",
+     "intakeDate": "2027-09",
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 99,528",
+       "AED 49,764"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-business-and-finance",
+   "name": "Business and Finance",
+   "url": "https://www.hw.ac.uk/dubai/study/undergraduate/business-and-finance",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/undergraduate/business-and-finance",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": "2027-01",
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 76,505"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027 / January 2028",
+     "intakeDate": "2027-09",
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 76,505"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-business-psychology",
+   "name": "Business Psychology",
+   "url": "https://www.hw.ac.uk/dubai/study/postgraduate/business-psychology",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/postgraduate/business-psychology",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": "2027-01",
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 111,748",
+       "AED 55,874"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027 / January 2028",
+     "intakeDate": "2027-09",
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 111,748",
+       "AED 55,874"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-business-psychology-with-coaching",
+   "name": "Business Psychology with Coaching",
+   "url": "https://www.hw.ac.uk/dubai/study/postgraduate/business-psychology-with-coaching",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/postgraduate/business-psychology-with-coaching",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": "2027-01",
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 111,748",
+       "AED 55,874"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027 / January 2028",
+     "intakeDate": "2027-09",
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 111,748",
+       "AED 55,874"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-chemical-engineering",
+   "name": "(Hons) Chemical Engineering",
+   "url": "https://www.hw.ac.uk/dubai/study/undergraduate/chemical-engineering",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/undergraduate/chemical-engineering",
+   "title": null,
+   "tables": [
+    {
+     "intake": null,
+     "intakeDate": null,
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 82,264"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-civil-engineering",
+   "name": "(Hons) Civil Engineering",
+   "url": "https://www.hw.ac.uk/dubai/study/undergraduate/civil-engineering",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/undergraduate/civil-engineering",
+   "title": null,
+   "tables": [
+    {
+     "intake": null,
+     "intakeDate": null,
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 82,264"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-civil-engineering-construction-management",
+   "name": "Civil Engineering and Construction Management",
+   "url": "https://www.hw.ac.uk/dubai/study/postgraduate/civil-engineering-construction-management",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/postgraduate/civil-engineering-construction-management",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": "2027-01",
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 107,484",
+       "AED 53,742"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027 / January 2028",
+     "intakeDate": "2027-09",
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 107,484",
+       "AED 53,742"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-commercial-management-and-quantity-surveying",
+   "name": "Commercial Management and Quantity Surveying",
+   "url": "https://www.hw.ac.uk/dubai/study/postgraduate/commercial-management-and-quantity-surveying",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/postgraduate/commercial-management-and-quantity-surveying",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": "2027-01",
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 99,528",
+       "AED 49,764"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027 / January 2028",
+     "intakeDate": "2027-09",
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 99,528",
+       "AED 49,764"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-communication-design",
+   "name": "(Hons) Communication Design",
+   "url": "https://www.hw.ac.uk/dubai/study/undergraduate/communication-design",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/undergraduate/communication-design",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": "2027-01",
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 82,264"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027 / January 2028",
+     "intakeDate": "2027-09",
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 82,264"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-computer-science",
+   "name": "(Hons) Computer Science",
+   "url": "https://www.hw.ac.uk/dubai/study/undergraduate/computer-science",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/undergraduate/computer-science",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": "2027-01",
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 82,264"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027 / January 2028",
+     "intakeDate": "2027-09",
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 82,264"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-computer-science-artificial-intelligence",
+   "name": "(Hons) Computer Science (Artificial Intelligence)",
+   "url": "https://www.hw.ac.uk/dubai/study/undergraduate/computer-science-artificial-intelligence",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/undergraduate/computer-science-artificial-intelligence",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": "2027-01",
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 82,264"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027 / January 2028",
+     "intakeDate": "2027-09",
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 82,264"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-computer-science-computer-games-programming",
+   "name": "(Hons) Computer Science (Computer Games Programming)",
+   "url": "https://www.hw.ac.uk/dubai/study/undergraduate/computer-science-computer-games-programming",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/undergraduate/computer-science-computer-games-programming",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": "2027-01",
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 82,264"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027 / January 2028",
+     "intakeDate": "2027-09",
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 82,264"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-computer-science-cyber-security",
+   "name": "(Hons) Computer Science (Cyber Security)",
+   "url": "https://www.hw.ac.uk/dubai/study/undergraduate/computer-science-cyber-security",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/undergraduate/computer-science-cyber-security",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": "2027-01",
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 82,264"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027 / January 2028",
+     "intakeDate": "2027-09",
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 82,264"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-computer-science-data-science",
+   "name": "(Hons) Computer Science (Data Science)",
+   "url": "https://www.hw.ac.uk/dubai/study/undergraduate/computer-science-data-science",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/undergraduate/computer-science-data-science",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": "2027-01",
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 82,264"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027 / January 2028",
+     "intakeDate": "2027-09",
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 82,264"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-computer-science-software-engineering",
+   "name": "(Hons) Computer Science (Software Engineering)",
+   "url": "https://www.hw.ac.uk/dubai/study/undergraduate/computer-science-software-engineering",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/undergraduate/computer-science-software-engineering",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": "2027-01",
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 82,264"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027 / January 2028",
+     "intakeDate": "2027-09",
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 82,264"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-computer-systems",
+   "name": "(Hons) Computer Systems",
+   "url": "https://www.hw.ac.uk/dubai/study/undergraduate/computer-systems",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/undergraduate/computer-systems",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": "2027-01",
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 82,264"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027 / January 2028",
+     "intakeDate": "2027-09",
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 82,264"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-computer-systems-games-programming",
+   "name": "(Hons) Computer Systems (Computer Games Programming)",
+   "url": "https://www.hw.ac.uk/dubai/study/undergraduate/computer-systems-games-programming",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/undergraduate/computer-systems-games-programming",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": "2027-01",
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 82,264"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027 / January 2028",
+     "intakeDate": "2027-09",
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 82,264"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-construction-project-management",
+   "name": "Construction Project Management",
+   "url": "https://www.hw.ac.uk/dubai/study/postgraduate/construction-project-management",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/postgraduate/construction-project-management",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": "2027-01",
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 105,270",
+       "AED 52,635"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027 / January 2028",
+     "intakeDate": "2027-09",
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 105,270",
+       "AED 52,635"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-data-science",
+   "name": "Data Science",
+   "url": "https://www.hw.ac.uk/dubai/study/postgraduate/data-science",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/postgraduate/data-science",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": "2027-01",
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 113,685",
+       "AED 56,842.50"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027 / January 2028",
+     "intakeDate": "2027-09",
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 113,685",
+       "AED 56,842.50"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-data-sciences",
+   "name": "(Hons) Data Sciences",
+   "url": "https://www.hw.ac.uk/dubai/study/undergraduate/data-sciences",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/undergraduate/data-sciences",
+   "title": null,
+   "tables": [
+    {
+     "intake": null,
+     "intakeDate": null,
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 82,264"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-design-management",
+   "name": "Design Management",
+   "url": "https://www.hw.ac.uk/dubai/study/postgraduate/design-management",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/postgraduate/design-management",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": "2027-01",
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 99,528",
+       "AED 49,764"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027 / January 2028",
+     "intakeDate": "2027-09",
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 99,528",
+       "AED 49,764"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-digital-marketing",
+   "name": "Digital Marketing",
+   "url": "https://www.hw.ac.uk/dubai/study/postgraduate/digital-marketing",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/postgraduate/digital-marketing",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": null,
+     "columns": [
+      "Status",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 49,764"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027",
+     "intakeDate": null,
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 99,528",
+       "AED 49,764"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-electronic-electrical-engineering",
+   "name": "(Hons) Electrical and Electronic Engineering",
+   "url": "https://www.hw.ac.uk/dubai/study/undergraduate/electronic-electrical-engineering",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/undergraduate/electronic-electrical-engineering",
+   "title": null,
+   "tables": [
+    {
+     "intake": null,
+     "intakeDate": null,
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 82,264"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-energy",
+   "name": "Energy",
+   "url": "https://www.hw.ac.uk/dubai/study/postgraduate/energy",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/postgraduate/energy",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": null,
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 107,484"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027",
+     "intakeDate": null,
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 107,484",
+       "AED 53,742"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-certificate-of-higher-education-engineering",
+   "name": "Cert of Higher Education Engineering",
+   "url": "https://www.hw.ac.uk/dubai/study/undergraduate/certificate-of-higher-education-engineering",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/undergraduate/certificate-of-higher-education-engineering",
+   "title": null,
+   "tables": [],
+   "vatInclusive": false
+  },
+  {
+   "slug": "hwdubai-facilities-management",
+   "name": "Facilities Management",
+   "url": "https://www.hw.ac.uk/dubai/study/postgraduate/facilities-management",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/postgraduate/facilities-management",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": "2027-01",
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 99,528",
+       "AED 49,764"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027 / January 2028",
+     "intakeDate": "2027-09",
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 99,528",
+       "AED 49,764"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-fashion-branding-and-promotion",
+   "name": "(Hons) Fashion Branding and Promotion",
+   "url": "https://www.hw.ac.uk/dubai/study/undergraduate/fashion-branding-and-promotion",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/undergraduate/fashion-branding-and-promotion",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": "2027-01",
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 82,264"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027 / January 2028",
+     "intakeDate": "2027-09",
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 82,264"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-finance-and-management",
+   "name": "Finance and Management",
+   "url": "https://www.hw.ac.uk/dubai/study/postgraduate/finance-and-management",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/postgraduate/finance-and-management",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": "2027-01",
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 99,528",
+       "AED 49,764"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027 / January 2028",
+     "intakeDate": "2027-09",
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 99,528",
+       "AED 49,764"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-global-sustainability-engineering",
+   "name": "Global Sustainability Engineering",
+   "url": "https://www.hw.ac.uk/dubai/study/postgraduate/global-sustainability-engineering",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/postgraduate/global-sustainability-engineering",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": null,
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 107,484"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027",
+     "intakeDate": null,
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 107,484",
+       "AED 53,742"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-information-technology-business-msc",
+   "name": "Information Technology (Business)",
+   "url": "https://www.hw.ac.uk/dubai/study/postgraduate/information-technology-business-msc",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/postgraduate/information-technology-business-msc",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": "2027-01",
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 107,484",
+       "AED 53,742"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027 / January 2028",
+     "intakeDate": "2027-09",
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 107,484",
+       "AED 53,742"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-information-technology-software-systems-msc",
+   "name": "Information Technology (Software Systems)",
+   "url": "https://www.hw.ac.uk/dubai/study/postgraduate/information-technology-software-systems-msc",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/postgraduate/information-technology-software-systems-msc",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": "2027-01",
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 107,484",
+       "AED 53,742"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027 / January 2028",
+     "intakeDate": "2027-09",
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 107,484",
+       "AED 53,742"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-interior-architecture-design",
+   "name": "(Hons) Interior Architecture and Design",
+   "url": "https://www.hw.ac.uk/dubai/study/undergraduate/interior-architecture-design",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/undergraduate/interior-architecture-design",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": "2027-01",
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 82,264"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027 / January 2028",
+     "intakeDate": "2027-09",
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 82,264"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-interior-architecture-and-design",
+   "name": "Postgraduate MA Interior Architecture and Design",
+   "url": "https://www.hw.ac.uk/dubai/study/postgraduate/interior-architecture-and-design",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/postgraduate/interior-architecture-and-design",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": "2027-01",
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 99,528",
+       "AED 49,764"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027 / January 2028",
+     "intakeDate": "2027-09",
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 99,528",
+       "AED 49,764"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-international-accounting-finance",
+   "name": "International Accounting and Finance",
+   "url": "https://www.hw.ac.uk/dubai/study/postgraduate/international-accounting-finance",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/postgraduate/international-accounting-finance",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": "2027-01",
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 99,528",
+       "AED 49,764"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027 / January 2028",
+     "intakeDate": "2027-09",
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 99,528",
+       "AED 49,764"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-international-business-management",
+   "name": "International Business Management",
+   "url": "https://www.hw.ac.uk/dubai/study/undergraduate/international-business-management",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/undergraduate/international-business-management",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": "2027-01",
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 78,650"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027 / January 2028",
+     "intakeDate": "2027-09",
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 78,650"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-international-business-management-with-finance",
+   "name": "International Business Management with Finance",
+   "url": "https://www.hw.ac.uk/dubai/study/postgraduate/international-business-management-with-finance",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/postgraduate/international-business-management-with-finance",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": "2027-01",
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 99,528",
+       "AED 49,764"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027 / January 2028",
+     "intakeDate": "2027-09",
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 99,528",
+       "AED 49,764"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-international-business-management-with-hrm",
+   "name": "International Business Management with HRM",
+   "url": "https://www.hw.ac.uk/dubai/study/postgraduate/international-business-management-with-hrm",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/postgraduate/international-business-management-with-hrm",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": "2027-01",
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 99,528",
+       "AED 49,764"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027 / January 2028",
+     "intakeDate": "2027-09",
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 99,528",
+       "AED 49,764"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-international-business-management-with-marketing",
+   "name": "International Business Management with Marketing",
+   "url": "https://www.hw.ac.uk/dubai/study/postgraduate/international-business-management-with-marketing",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/postgraduate/international-business-management-with-marketing",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": "2027-01",
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 99,528",
+       "AED 49,764"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027 / January 2028",
+     "intakeDate": "2027-09",
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 99,528",
+       "AED 49,764"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-logistics-supply-chain-management",
+   "name": "Logistics and Supply Chain Management",
+   "url": "https://www.hw.ac.uk/dubai/study/postgraduate/logistics-supply-chain-management",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/postgraduate/logistics-supply-chain-management",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": "2027-01",
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 107,484",
+       "AED 53,742"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027 / January 2028",
+     "intakeDate": "2027-09",
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 107,484",
+       "AED 53,742"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-marketing",
+   "name": "Marketing",
+   "url": "https://www.hw.ac.uk/dubai/study/undergraduate/marketing",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/undergraduate/marketing",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": "2027-01",
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 76,505"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027 / January 2028",
+     "intakeDate": "2027-09",
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 76,505"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-mba-with-a-specialism-in-professional-practice",
+   "name": "Master of Business Administration with a Specialism in Professional Practice",
+   "url": "https://www.hw.ac.uk/dubai/study/postgraduate/mba-with-a-specialism-in-professional-practice",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/postgraduate/mba-with-a-specialism-in-professional-practice",
+   "title": null,
+   "tables": [],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-mechanical-engineering",
+   "name": "(Hons) Mechanical Engineering",
+   "url": "https://www.hw.ac.uk/dubai/study/undergraduate/mechanical-engineering",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/undergraduate/mechanical-engineering",
+   "title": null,
+   "tables": [
+    {
+     "intake": null,
+     "intakeDate": null,
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 82,264"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-mechanical-engineering-energy-eng",
+   "name": "(Hons) Mechanical Engineering and Energy Engineering",
+   "url": "https://www.hw.ac.uk/dubai/study/undergraduate/mechanical-engineering-energy-eng",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/undergraduate/mechanical-engineering-energy-eng",
+   "title": null,
+   "tables": [
+    {
+     "intake": null,
+     "intakeDate": null,
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 82,264"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-petroleum-engineering",
+   "name": "Petroleum Engineering",
+   "url": "https://www.hw.ac.uk/dubai/study/postgraduate/petroleum-engineering",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/postgraduate/petroleum-engineering",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": null,
+     "columns": [
+      "Status",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 86,242"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027",
+     "intakeDate": null,
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 172,484",
+       "AED 86,242"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-ma-hons-professional-accountancy",
+   "name": "Professional Accountancy",
+   "url": "https://www.hw.ac.uk/dubai/study/undergraduate/ma-hons-professional-accountancy",
+   "status": 404,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/undergraduate/ma-hons-professional-accountancy"
+  },
+  {
+   "slug": "hwdubai-psychology",
+   "name": "(Hons) Psychology",
+   "url": "https://www.hw.ac.uk/dubai/study/undergraduate/psychology",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/undergraduate/psychology",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": "2027-01",
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 87,010"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027 / January 2028",
+     "intakeDate": "2027-09",
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 87,010"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-psychology-with-management",
+   "name": "(Hons) Psychology with Management",
+   "url": "https://www.hw.ac.uk/dubai/study/undergraduate/psychology-with-management",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/undergraduate/psychology-with-management",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": "2027-01",
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 87,010"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027 / January 2028",
+     "intakeDate": "2027-09",
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 87,010"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-psychology-with-marketing-bsc-hons",
+   "name": "(Hons) Psychology with Marketing",
+   "url": "https://www.hw.ac.uk/dubai/study/undergraduate/psychology-with-marketing-bsc-hons",
+   "status": 404,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/undergraduate/psychology-with-marketing-bsc-hons"
+  },
+  {
+   "slug": "hwdubai-real-estate",
+   "name": "Real Estate",
+   "url": "https://www.hw.ac.uk/dubai/study/postgraduate/real-estate",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/postgraduate/real-estate",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": null,
+     "columns": [
+      "Status",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 49,764"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027",
+     "intakeDate": null,
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 99,528",
+       "AED 49,764"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-real-estate-management-and-finance",
+   "name": "Real Estate Management and Finance",
+   "url": "https://www.hw.ac.uk/dubai/study/undergraduate/real-estate-management-and-finance",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/undergraduate/real-estate-management-and-finance",
+   "title": null,
+   "tables": [
+    {
+     "intake": null,
+     "intakeDate": null,
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 74,360"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-renewable-energy-engineering",
+   "name": "Renewable Energy Engineering",
+   "url": "https://www.hw.ac.uk/dubai/study/postgraduate/renewable-energy-engineering",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/postgraduate/renewable-energy-engineering",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": null,
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 107,484"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027",
+     "intakeDate": null,
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 107,484",
+       "AED 53,742"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-robotics",
+   "name": "Robotics",
+   "url": "https://www.hw.ac.uk/dubai/study/postgraduate/robotics",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/postgraduate/robotics",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": "2027-01",
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 107,484",
+       "AED 53,742"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027 / January 2028",
+     "intakeDate": "2027-09",
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 107,484",
+       "AED 53,742"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-robotics-autonomous-and-interactive-systems",
+   "name": "(Hons) Robotics, Autonomous and Interactive Systems",
+   "url": "https://www.hw.ac.uk/dubai/study/undergraduate/robotics-autonomous-and-interactive-systems",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/undergraduate/robotics-autonomous-and-interactive-systems",
+   "title": null,
+   "tables": [
+    {
+     "intake": null,
+     "intakeDate": null,
+     "columns": [
+      "Status",
+      "Full Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 82,264"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-software-engineering",
+   "name": "Software Engineering",
+   "url": "https://www.hw.ac.uk/dubai/study/postgraduate/software-engineering",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/postgraduate/software-engineering",
+   "title": null,
+   "tables": [
+    {
+     "intake": "January 2027",
+     "intakeDate": "2027-01",
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 107,484",
+       "AED 53,742"
+      ]
+     ]
+    },
+    {
+     "intake": "September 2027 / January 2028",
+     "intakeDate": "2027-09",
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 107,484",
+       "AED 53,742"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  },
+  {
+   "slug": "hwdubai-sustainable-finance-with-fintech",
+   "name": "Sustainable Finance with Fintech",
+   "url": "https://www.hw.ac.uk/dubai/study/postgraduate/sustainable-finance-with-fintech",
+   "status": 200,
+   "finalUrl": "https://www.hw.ac.uk/dubai/study/postgraduate/sustainable-finance-with-fintech",
+   "title": null,
+   "tables": [
+    {
+     "intake": null,
+     "intakeDate": null,
+     "columns": [
+      "Status",
+      "Full Time",
+      "Part Time"
+     ],
+     "rows": [
+      [
+       "UAE and International",
+       "AED 99,528",
+       "AED 49,764"
+      ]
+     ]
+    }
+   ],
+   "vatInclusive": true
+  }
+ ]
+}
