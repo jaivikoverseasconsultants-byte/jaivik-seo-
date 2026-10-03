@@ -4,6 +4,17 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  // 2026-10-03: the build was killed twice for low memory on this 6 GB machine. Static generation
+  // defaults to one worker per CPU minus one (7 here), and every worker loads the whole course
+  // registry (~300 MB each and growing with every university added), so the workers alone took
+  // ~2.2 GB. Two workers keep peak memory well under that at the cost of a slower build. Raise only
+  // on a machine with more memory.
+  experimental: {
+    cpus: 2,
+  },
+  // /sitemap.xml walks every course and hub and once took longer than the 60 s default, which makes
+  // Next.js kill and restart that page's worker mid-build.
+  staticPageGenerationTimeout: 180,
   images: {
     unoptimized: true,
     remotePatterns: [
