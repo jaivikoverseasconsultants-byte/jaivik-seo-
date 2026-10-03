@@ -101,13 +101,53 @@
       "permanent": true
     },
     {
-      "source": "/universities/macquarie-university/courses",
-      "destination": "/universities/macquarie-university",
+      "source": "/universities/macquarie-university/courses/macquarie-bachelor-of-engineering-hons",
+      "destination": "/universities/macquarie-university/courses/macquarie-bachelor-of-engineering-honours",
       "permanent": true
     },
     {
-      "source": "/universities/macquarie-university/courses/:path*",
-      "destination": "/universities/macquarie-university",
+      "source": "/universities/macquarie-university/courses/macquarie-bachelor-of-engineering-electrical",
+      "destination": "/universities/macquarie-university/courses/macquarie-bachelor-of-engineering-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/macquarie-university/courses/macquarie-bachelor-of-engineering-mechanical",
+      "destination": "/universities/macquarie-university/courses/macquarie-bachelor-of-engineering-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/macquarie-university/courses/macquarie-bachelor-of-engineering-software",
+      "destination": "/universities/macquarie-university/courses/macquarie-bachelor-of-engineering-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/macquarie-university/courses/macquarie-bachelor-of-laws-llb",
+      "destination": "/universities/macquarie-university/courses/macquarie-bachelor-of-laws",
+      "permanent": true
+    },
+    {
+      "source": "/universities/macquarie-university/courses/macquarie-master-of-business-administration-mba",
+      "destination": "/universities/macquarie-university/courses/macquarie-master-of-business-administration",
+      "permanent": true
+    },
+    {
+      "source": "/universities/macquarie-university/courses/macquarie-master-of-law-llm",
+      "destination": "/universities/macquarie-university/courses/macquarie-master-of-laws",
+      "permanent": true
+    },
+    {
+      "source": "/universities/macquarie-university/courses/macquarie-bachelor-of-social-science",
+      "destination": "/universities/macquarie-university/courses/macquarie-bachelor-of-social-sciences",
+      "permanent": true
+    },
+    {
+      "source": "/universities/macquarie-university/courses/macquarie-bachelor-of-finance",
+      "destination": "/universities/macquarie-university/courses/macquarie-bachelor-of-applied-finance",
+      "permanent": true
+    },
+    {
+      "source": "/universities/macquarie-university/courses/macquarie-bachelor-of-business-administration",
+      "destination": "/universities/macquarie-university/courses/macquarie-bachelor-of-business",
       "permanent": true
     },
     {

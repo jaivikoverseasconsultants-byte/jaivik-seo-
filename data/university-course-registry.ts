@@ -30,6 +30,7 @@ import { londonmetCourses as m_london_metropolitan_university } from './londonme
 import { lsbuCourses as m_london_south_bank_university } from './lsbu-courses';
 import { lboroCourses as m_loughborough_university } from './lboro-courses';
 import { maastrichtUniversityCourses as m_maastricht_university } from './maastricht-university-courses';
+import { macquarieCoursesReal as m_macquarie_university } from './macquarie-courses-real';
 import { masseyCourses as m_massey_university } from './massey-courses';
 import { mcgillCourses as m_mcgill_university } from './mcgill-courses';
 import { mcmasterCourses as m_mcmaster_university } from './mcmaster-courses';
@@ -162,6 +163,7 @@ const REGISTRY: Record<string, readonly unknown[]> = {
   'london-south-bank-university': m_london_south_bank_university,
   'loughborough-university': m_loughborough_university,
   'maastricht-university': m_maastricht_university,
+  'macquarie-university': m_macquarie_university,
   'massey-university': m_massey_university,
   'mcgill-university': m_mcgill_university,
   'mcmaster-university': m_mcmaster_university,
