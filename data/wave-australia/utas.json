@@ -1,0 +1,5065 @@
+{
+ "_sources": [
+  "https://www.utas.edu.au/courses/sitemap.xml (discovery)",
+  "each course page: Course JSON-LD, international Key Information, international fee sentences"
+ ],
+ "_crawledOn": "2026-10-03",
+ "_complete": true,
+ "_courses": 353,
+ "results": [
+  {
+   "url": "https://www.utas.edu.au/courses/acad/courses/w0d-murina-aboriginal-enabling-program",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Murina (Aboriginal Enabling) Program",
+   "code": "W0D",
+   "cricos": null,
+   "aqf": null,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/acad/courses/x0f-foundation-studies-program-standard",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Foundation Studies Program (Standard)",
+   "code": "X0F",
+   "cricos": "0100808",
+   "aqf": null,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null,
+   "duration": "Minimum 36 Weeks, up to a maximum of 36 Weeks.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "IPC Semester 1, IPC Semester 2, IPC Semester 3"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/acad/courses/x0g-foundation-studies-program-fast-track",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/acad/courses/x0l-university-pathway-program-fast-track",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "University Pathway Program - Fast Track",
+   "code": "X0L",
+   "cricos": "0100809",
+   "aqf": null,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null,
+   "duration": "Minimum 17 Weeks, up to a maximum of 17 Weeks.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "IPC Semester 1, IPC Semester 2, IPC Semester 3"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/13o-bachelor-of-music",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Music",
+   "code": "13O",
+   "cricos": "002715D",
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": 2027,
+   "annualFee": 40250,
+   "totalFee": 126888,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 3 years, up to a maximum of 7 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/13r-bachelor-of-fine-arts",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Fine Arts",
+   "code": "13R",
+   "cricos": "005531K",
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": 2027,
+   "annualFee": 40250,
+   "totalFee": 126888,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 3 years, up to a maximum of 7 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    },
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/40b-undergraduate-certificate-in-education-support",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Undergraduate Certificate in Education Support",
+   "code": "40B",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 5",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/41b-diploma-of-education-support",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Diploma of Education Support",
+   "code": "41B",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 5",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/42b-associate-degree-in-education-support",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Associate Degree in Education Support",
+   "code": "42B",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 6",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/43b-bachelor-of-education-primary",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Education (Primary)",
+   "code": "43B",
+   "cricos": "070689D",
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": 2027,
+   "annualFee": 38250,
+   "totalFee": 164862,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 4 years, up to a maximum of 9 years.",
+   "internationalLocations": [
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/43g-bachelor-of-educational-studies",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Educational Studies",
+   "code": "43G",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/43j-bachelor-of-education-health-and-physical-education",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Education (Health and Physical Education)",
+   "code": "43J",
+   "cricos": "081477C",
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": 2027,
+   "annualFee": 38250,
+   "totalFee": 164862,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 4 years, up to a maximum of 9 years.",
+   "internationalLocations": [
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/93a-bachelor-of-arts-and-bachelor-of-laws",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Arts and Bachelor of Laws",
+   "code": "93A",
+   "cricos": "102979C",
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": 2027,
+   "annualFee": 40950,
+   "totalFee": 226275,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 5 years, up to a maximum of 11 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/93b-bachelor-of-economics-and-bachelor-of-laws",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Economics and Bachelor of Laws",
+   "code": "93B",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/93c-bachelor-of-science-and-bachelor-of-laws",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Science and Bachelor of Laws",
+   "code": "93C",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/93d-bachelor-of-psychological-science-and-bachelor-of-laws",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Psychological Science and Bachelor of Laws",
+   "code": "93D",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/93e-bachelor-of-arts-and-bachelor-of-science",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Arts and Bachelor of Science",
+   "code": "93E",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/93f-bachelor-of-arts-and-bachelor-of-fine-arts",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Arts and Bachelor of Fine Arts",
+   "code": "93F",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/93g-bachelor-of-arts-and-bachelor-of-business",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Arts and Bachelor of Business",
+   "code": "93G",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/93i-bachelor-of-arts-and-bachelor-of-information-and-communication-technology",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Arts and Bachelor of Information and Communication Technology",
+   "code": "93I",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/93l-bachelor-of-business-and-bachelor-of-laws",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Business and Bachelor of Laws",
+   "code": "93L",
+   "cricos": "102980K",
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": 2027,
+   "annualFee": 40950,
+   "totalFee": 226275,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 5 years, up to a maximum of 11 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/a0e-undergraduate-certificate-in-creative-arts-and-health",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Undergraduate Certificate in Creative Arts and Health",
+   "code": "A0E",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 5",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/a0h-undergraduate-certificate-in-family-history",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Undergraduate Certificate in Family History",
+   "code": "A0H",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 5",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/a1a-diploma-of-arts",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Diploma of Arts",
+   "code": "A1A",
+   "cricos": "0100746",
+   "aqf": "Australian Qualification Framework level: 5",
+   "feeYear": 2027,
+   "annualFee": 37250,
+   "totalFee": 37250,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 1 year, up to a maximum of 5 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    },
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/a1b-diploma-of-fine-arts",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Diploma of Fine Arts",
+   "code": "A1B",
+   "cricos": "0100744",
+   "aqf": "Australian Qualification Framework level: 5",
+   "feeYear": 2027,
+   "annualFee": 40250,
+   "totalFee": 40250,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 1 year, up to a maximum of 5 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    },
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/a1c-diploma-of-creative-arts-and-health",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Diploma of Creative Arts and Health",
+   "code": "A1C",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 5",
+   "feeYear": 2027,
+   "annualFee": 19950,
+   "totalFee": 19950,
+   "creditPointsPerYear": 100
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/a1d-diploma-of-languages",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Diploma of Languages",
+   "code": "A1D",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 5",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/a1f-diploma-of-nature-based-guiding",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Diploma of Nature-Based Guiding",
+   "code": "A1F",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 5",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/a2m-associate-degree-in-music",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Associate Degree in Music",
+   "code": "A2M",
+   "cricos": "107954E",
+   "aqf": "Australian Qualification Framework level: 6",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/a3a-bachelor-of-arts",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Arts",
+   "code": "A3A",
+   "cricos": "001694A",
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": 2027,
+   "annualFee": 37250,
+   "totalFee": 117431,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 3 years, up to a maximum of 7 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/a3e-bachelor-of-adult-and-applied-learning",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Adult and Applied Learning",
+   "code": "A3E",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/a3f-bachelor-of-outdoor-and-environmental-education",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Outdoor and Environmental Education",
+   "code": "A3F",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/a3m-bachelor-of-media-and-communication",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Media and Communication",
+   "code": "A3M",
+   "cricos": "102912M",
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": 2027,
+   "annualFee": 39450,
+   "totalFee": 124366,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 3 years, up to a maximum of 7 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/a4m-bachelor-of-media-and-communication-with-honours",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Media and Communication with Honours",
+   "code": "A4M",
+   "cricos": "107720A",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 39450,
+   "totalFee": 39450,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 1 year, up to a maximum of 3 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1"
+    },
+    {
+     "campus": "Online",
+     "periods": "Semester 1"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/a7a-bachelor-of-arts-and-master-of-teaching",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/a7c-bachelor-of-science-and-master-of-teaching",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/e0z-cross-institution-undergrad-education",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/e1y-bachelor-of-education-test-primary",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/e3y-bachelor-of-education-primary-and-graduate-certificate-in-early-childhood-education",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/e4k-bachelor-of-education-with-honours",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Education with Honours",
+   "code": "E4K",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/e5m-graduate-certificate-in-early-childhood-education",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Certificate in Early Childhood Education",
+   "code": "E5M",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/e5n-graduate-certificate-in-education",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Certificate in Education",
+   "code": "E5N",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/e5y-bachelor-of-education-primary-and-graduate-certificate-in-early-childhood-education",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/e6j-graduate-diploma-of-education",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Diploma of Education",
+   "code": "E6J",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/e7g-master-of-teaching",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Master of Teaching",
+   "code": "E7G",
+   "cricos": "070429B",
+   "aqf": "Australian Qualification Framework level: 9",
+   "feeYear": 2027,
+   "annualFee": 38250,
+   "totalFee": 78413,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 2 years, up to a maximum of 5 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/e7h-master-of-education",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Master of Education",
+   "code": "E7H",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 9",
+   "feeYear": 2027,
+   "annualFee": 39950,
+   "totalFee": 60924,
+   "creditPointsPerYear": 100
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/f2w-diploma-of-music",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Diploma of Music",
+   "code": "F2W",
+   "cricos": "0100745",
+   "aqf": "Australian Qualification Framework level: 5",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/f4a-bachelor-of-fine-arts-with-honours",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Fine Arts with Honours",
+   "code": "F4A",
+   "cricos": "017285J",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 40250,
+   "totalFee": 40250,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 1 year, up to a maximum of 3 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1"
+    },
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/f4d-bachelor-of-music-with-honours",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Music with Honours",
+   "code": "F4D",
+   "cricos": "030422G",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 40250,
+   "totalFee": 40250,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 1 year, up to a maximum of 3 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/l1d-diploma-of-legal-studies",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Diploma of Legal Studies",
+   "code": "L1D",
+   "cricos": "113035E",
+   "aqf": "Australian Qualification Framework level: 5",
+   "feeYear": 2027,
+   "annualFee": 38950,
+   "totalFee": 38950,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 1 year, up to a maximum of 3 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    },
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1, Semester 2"
+    },
+    {
+     "campus": "Online",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/l3c-bachelor-of-laws",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Laws",
+   "code": "L3C",
+   "cricos": "102757F",
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": 2027,
+   "annualFee": 40950,
+   "totalFee": 152797,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 3.5 years, up to a maximum of 8 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/l6b-graduate-diploma-of-legal-practice",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Diploma of Legal Practice",
+   "code": "L6B",
+   "cricos": "040663G",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null,
+   "duration": "Minimum 0.5 years, up to a maximum of 0.5 years.",
+   "internationalLocations": []
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/r0z-cross-institution-undergrad-arts",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Cross Institution Undergrad - Arts",
+   "code": "R0Z",
+   "cricos": null,
+   "aqf": null,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/r2b-associate-degree-in-arts",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Associate Degree in Arts",
+   "code": "R2B",
+   "cricos": "056426M",
+   "aqf": "Australian Qualification Framework level: 6",
+   "feeYear": 2027,
+   "annualFee": 37250,
+   "totalFee": 76363,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 2 years, up to a maximum of 5 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    },
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/r2h-diploma-of-family-history",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Diploma of Family History",
+   "code": "R2H",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 5",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/r4a-bachelor-of-arts-with-honours",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Arts with Honours",
+   "code": "R4A",
+   "cricos": "030426C",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 37250,
+   "totalFee": 37250,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 1 year, up to a maximum of 3 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1"
+    },
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/r4d-bachelor-of-justice-studies-with-honours",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Justice Studies with Honours",
+   "code": "R4D",
+   "cricos": "0102166",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/r5w-graduate-certificate-in-arts-specialisation",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/r5y-graduate-certificate-in-strategic-communication",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/r6y-graduate-diploma-of-strategic-communication",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/arts-soc/courses/r7z-master-of-strategic-communication",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/c8c-master-of-commerce",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/c8e-master-of-economics",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/c9c-doctor-of-business-administration",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/c9d-doctor-of-philosophy-economics",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/c9e-doctor-of-health-service-management",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/d0p-doctor-of-philosophy",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/d8a-master-of-design",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/d8c-master-of-architecture-research",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/d9c-doctor-of-philosophy-architecture-and-urban-environment",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/d9d-doctor-of-philosophy-building-services-engineering",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/e8b-master-of-education-research",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/e9a-doctor-of-philosophy-education",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/e9e-doctor-of-philosophy-human-movement",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/e9g-doctor-of-education",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/f8c-master-of-music",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/f8d-master-of-fine-arts-research",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/f9d-doctor-of-philosophy-creative-arts",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/h8a-master-of-nursing",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/h8d-master-of-medical-science-health",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/h9a-doctor-of-philosophy-nursing",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/h9b-doctor-of-philosophy-public-health-test",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/j8a-master-of-philosophy-maritime-engineering",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/j8b-master-of-philosophy-marine-conservation",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/j8d-master-of-philosophy-maritime-and-logistics-management",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/j8g-master-of-philosophy-marine-craft-operation",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/j8i-master-of-philosophy-maritime-engineering-and-technology",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/j9o-doctor-of-philosophy-maritime-engineering",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/j9q-doctor-of-philosophy-management-and-commerce",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/j9r-doctor-of-philosophy-marine-craft-operation",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/j9s-doctor-of-philosophy-maritime-engineering-and-technology",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/l8a-master-of-laws",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/l9a-doctor-of-philosophy-law",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/m0r-masters-of-research",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/m8b-master-of-medical-science",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/m8c-master-of-pharmacy",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/m8d-master-of-biomedical-science",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/m8e-master-of-medical-science-dementia-studies",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/m9c-doctor-of-philosophy-pharmacy",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/m9e-doctor-of-philosophy-medical-studies",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/m9f-doctor-of-philosophy-medical-science",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/m9g-doctor-of-health",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/m9h-doctor-of-philosophy-dementia-studies",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/m9l-doctor-of-philosophy-clinical-psychology",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/n8c-master-of-engineering-science",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/n9c-doctor-of-philosophy-mechanical-engineering",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/n9d-doctor-of-philosophy-geomatic-engineering",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/n9e-doctor-of-philosophy-structural-engineering",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/n9f-doctor-of-philosophy-environmental-engineering",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/n9g-doctor-of-philosophy-electrical-engineering",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/n9h-doctor-of-philosophy-biomedical-engineering",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/n9i-doctor-of-philosophy-electronic-engineering",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/r8b-master-of-social-work",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/r8c-master-of-arts",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/r9d-doctor-of-philosophy-society-and-culture",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/r9q-doctor-of-philosophy-by-prior-publication",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/s8a-master-of-agricultural-science",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/s8b-master-of-applied-science-in-aquaculture",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/s8c-master-of-environmental-studies",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/s8h-master-of-science-physics-and-astronomy",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/s8i-master-of-science-chemical-sciences",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/s8j-master-of-science-earth-sciences",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/s8k-master-of-science-geomatic-engineering",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/s8l-master-of-science-mathematical-sciences",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/s8m-master-of-science-computing",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/s8o-master-of-science-biological-sciences",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/s8p-master-of-science-natural-and-physical-sciences",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/s8q-master-of-science-computer-engineering",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/s9a-doctor-of-philosophy-agriculture",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/s9c-doctor-of-philosophy-environmental-studies",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/s9o-doctor-of-philosophy-earth-sciences",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/s9p-doctor-of-philosophy-chemical-sciences",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/s9q-doctor-of-philosophy-physics-and-astronomy",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/s9r-doctor-of-philosophy-computer-engineering",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/s9s-doctor-of-philosophy-natural-and-physical-sciences",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/s9t-doctor-of-philosophy-mathematical-sciences",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/s9u-doctor-of-philosophy-information-technology",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/s9v-doctor-of-philosophy-psychology",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/s9w-doctor-of-philosophy-biological-sciences",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/x5a-graduate-certificate-in-research",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/x8d-master-of-science-social-sciences",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/x9j-doctor-of-philosophy-quantitative-antarctic-science",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/dvc-research/courses/x9k-doctor-of-philosophy-quantitative-marine-science",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/53f-bachelor-of-psychological-science",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Psychological Science",
+   "code": "53F",
+   "cricos": "089945D",
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": 2027,
+   "annualFee": 41950,
+   "totalFee": 132247,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 3 years, up to a maximum of 7 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    },
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1, Semester 2"
+    },
+    {
+     "campus": "Online",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/53h-bachelor-of-nutrition-science",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/53j-bachelor-of-exercise-and-sport-science",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Exercise and Sport Science",
+   "code": "53J",
+   "cricos": "098359C",
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": 2027,
+   "annualFee": 39950,
+   "totalFee": 125942,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 3 years, up to a maximum of 7 years.",
+   "internationalLocations": [
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/53x-bachelor-of-paramedicine",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Paramedicine",
+   "code": "53X",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/54d-bachelor-of-pharmacy-with-honours",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Pharmacy with Honours",
+   "code": "54D",
+   "cricos": "110246G",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 61267,
+   "totalFee": 198050,
+   "creditPointsPerYear": 133,
+   "duration": "Minimum 3 years, up to a maximum of 7 years.",
+   "internationalLocations": [
+    {
+     "campus": "Cradle Coast",
+     "periods": "Semester 1"
+    },
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1"
+    },
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/55a-graduate-certificate-in-advanced-practice",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Certificate in Advanced Practice",
+   "code": "55A",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 9475,
+   "totalFee": 9475,
+   "creditPointsPerYear": 50
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/56a-graduate-diploma-of-advanced-practice-specialisation",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Diploma of Advanced Practice (Specialisation)",
+   "code": "56A",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 9475,
+   "totalFee": 18950,
+   "creditPointsPerYear": 50
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/57a-master-of-advanced-practice-specialisation",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Master of Advanced Practice (Specialisation)",
+   "code": "57A",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 9",
+   "feeYear": 2027,
+   "annualFee": 9475,
+   "totalFee": 28899,
+   "creditPointsPerYear": 50
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/a0p-undergraduate-certificate-in-public-safety",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/a2p-associate-degree-in-social-sciences-policing-practices",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Associate Degree in Social Sciences (Policing Practices)",
+   "code": "A2P",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 6",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/a3p-bachelor-of-social-sciences-policing-practices",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Social Sciences (Policing Practices)",
+   "code": "A3P",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/a4s-bachelor-of-social-work-with-honours",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Social Work with Honours",
+   "code": "A4S",
+   "cricos": "098280K",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 38950,
+   "totalFee": 167879,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 4 years, up to a maximum of 9 years.",
+   "internationalLocations": [
+    {
+     "campus": "Cradle Coast",
+     "periods": "Semester 1"
+    },
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1"
+    },
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/a5r-graduate-certificate-in-organisational-resilience",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Certificate in Organisational Resilience",
+   "code": "A5R",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 16975,
+   "totalFee": 16975,
+   "creditPointsPerYear": 50
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/h3o-bachelor-of-nursing",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Nursing",
+   "code": "H3O",
+   "cricos": "102253H",
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": 2027,
+   "annualFee": 42950,
+   "totalFee": 135400,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 3 years, up to a maximum of 7 years.",
+   "internationalLocations": [
+    {
+     "campus": "Cradle Coast",
+     "periods": "Semester 1"
+    },
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1"
+    },
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1"
+    },
+    {
+     "campus": "Sydney",
+     "periods": "Semester 1"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/h3x-bachelor-of-medical-science-and-doctor-of-medicine",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Medical Science and Doctor of Medicine",
+   "code": "H3X",
+   "cricos": "107736D",
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": 2027,
+   "annualFee": 92950,
+   "totalFee": 513607,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 5 years, up to a maximum of 7 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1"
+    },
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/h4a-bachelor-of-nursing-with-honours",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Nursing with Honours",
+   "code": "H4A",
+   "cricos": "039202B",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 42950,
+   "totalFee": 42950,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 1 year, up to a maximum of 3 years.",
+   "internationalLocations": [
+    {
+     "campus": "Online",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/h5c-graduate-certificate-in-midwifery-specialisation",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Certificate in Midwifery (Specialisation)",
+   "code": "H5C",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/h5f-graduate-certificate-in-nursing-specialisation",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/h5g-graduate-certificate-in-addiction-studies-for-health-professionals",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Certificate in Addiction Studies for Health Professionals",
+   "code": "H5G",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/h5i-graduate-certificate-in-nursing-overseas-registration-specialisation",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Certificate in Nursing (Overseas Registration) (Specialisation)",
+   "code": "H5I",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 7625,
+   "totalFee": 7625,
+   "creditPointsPerYear": 50
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/h5m-graduate-certificate-in-advanced-nursing-specialisation",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Certificate in Advanced Nursing (Specialisation)",
+   "code": "H5M",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/h5p-graduate-certificate-in-health-protection",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Certificate in Health Protection",
+   "code": "H5P",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 8975,
+   "totalFee": 8975,
+   "creditPointsPerYear": 50
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/h6f-graduate-diploma-of-nursing-specialisation",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/h6g-graduate-diploma-of-midwifery",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Diploma of Midwifery",
+   "code": "H6G",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/h6h-graduate-diploma-of-clinical-pharmacy",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Diploma of Clinical Pharmacy",
+   "code": "H6H",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 35450,
+   "totalFee": 35450,
+   "creditPointsPerYear": 100
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/h6m-graduate-diploma-of-advanced-nursing-specialisation",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Diploma of Advanced Nursing (Specialisation)",
+   "code": "H6M",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/h7f-master-of-clinical-nursing-specialisation",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/h7l-master-of-laboratory-medicine",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Master of Laboratory Medicine",
+   "code": "H7L",
+   "cricos": "093656A",
+   "aqf": "Australian Qualification Framework level: 9",
+   "feeYear": 2027,
+   "annualFee": 47250,
+   "totalFee": 96863,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 2 years, up to a maximum of 5 years.",
+   "internationalLocations": [
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/h7m-master-of-advanced-nursing-specialisation",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Master of Advanced Nursing (Specialisation)",
+   "code": "H7M",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 9",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/h7x-bachelor-of-medical-science-and-doctor-of-medicine",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/m0b-health-short-term-exchange",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/m0w-cross-institution-postgrad-health-science",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/m0z-cross-institution-undergrad-health-science",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/m1a-diploma-of-ageing-studies-and-services",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Diploma of Ageing Studies and Services",
+   "code": "M1A",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 5",
+   "feeYear": 2027,
+   "annualFee": 15250,
+   "totalFee": 15250,
+   "creditPointsPerYear": 100
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/m1d-diploma-of-dementia-care",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Diploma of Dementia Care",
+   "code": "M1D",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 5",
+   "feeYear": 2027,
+   "annualFee": 15250,
+   "totalFee": 15250,
+   "creditPointsPerYear": 100
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/m1e-diploma-of-counselling",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Diploma of Counselling",
+   "code": "M1E",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 5",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/m2d-associate-degree-in-dementia-care",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/m3o-bachelor-of-medical-science",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/m3s-bachelor-of-dementia-care",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Dementia Care",
+   "code": "M3S",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": 2027,
+   "annualFee": 15250,
+   "totalFee": 48076,
+   "creditPointsPerYear": 100
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/m3x-bachelor-of-biomedicine",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Biomedicine",
+   "code": "M3X",
+   "cricos": "113034F",
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": 2027,
+   "annualFee": 44950,
+   "totalFee": 141705,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 3 years, up to a maximum of 7 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    },
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/m4g-bachelor-of-medical-research-with-honours",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Medical Research with Honours",
+   "code": "M4G",
+   "cricos": "058589J",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 43950,
+   "totalFee": 43950,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 1 year, up to a maximum of 3 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    },
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1, Semester 2"
+    },
+    {
+     "campus": "Online",
+     "periods": "Semester 1, Semester 2"
+    },
+    {
+     "campus": "Sydney",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/m4n-bachelor-of-medical-science-with-honours",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Medical Science with Honours",
+   "code": "M4N",
+   "cricos": "099226G",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 43950,
+   "totalFee": 43950,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 1 year, up to a maximum of 2 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/m4y-bachelor-of-psychological-science-with-honours",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Psychological Science with Honours",
+   "code": "M4Y",
+   "cricos": "089944E",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 43950,
+   "totalFee": 43950,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 1 year, up to a maximum of 3 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1"
+    },
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/m5a-graduate-certificate-in-healthcare-in-remote-and-extreme-environments",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Certificate in Healthcare in Remote and Extreme Environments",
+   "code": "M5A",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 20475,
+   "totalFee": 20475,
+   "creditPointsPerYear": 50
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/m5c-graduate-certificate-in-clinical-pharmacy",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Certificate in Clinical Pharmacy",
+   "code": "M5C",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/m5i-graduate-certificate-of-counselling",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Certificate of Counselling",
+   "code": "M5I",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 20975,
+   "totalFee": 20975,
+   "creditPointsPerYear": 50
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/m5p-graduate-certificate-in-healthcare-redesign",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Certificate in Healthcare Redesign",
+   "code": "M5P",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 13125,
+   "totalFee": 13125,
+   "creditPointsPerYear": 50
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/m5s-graduate-certificate-in-leadership-health-and-human-services",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Certificate in Leadership (Health and Human Services)",
+   "code": "M5S",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/m5w-graduate-certificate-in-public-health",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Certificate in Public Health",
+   "code": "M5W",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/m5x-graduate-certificate-in-dementia",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Certificate in Dementia",
+   "code": "M5X",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/m6e-graduate-diploma-of-pharmaceutical-science",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Diploma of Pharmaceutical Science",
+   "code": "M6E",
+   "cricos": "064285G",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 40950,
+   "totalFee": 40950,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 1 year, up to a maximum of 3 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/m6i-graduate-diploma-in-counselling",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Diploma in Counselling",
+   "code": "M6I",
+   "cricos": "059581J",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 41950,
+   "totalFee": 41950,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 1 year, up to a maximum of 3 years.",
+   "internationalLocations": [
+    {
+     "campus": "Online",
+     "periods": "Semester 1"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/m6s-graduate-diploma-of-leadership-health-and-human-services",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Diploma of Leadership (Health and Human Services)",
+   "code": "M6S",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/m6w-graduate-diploma-of-public-health",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Diploma of Public Health",
+   "code": "M6W",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/m6x-graduate-diploma-of-dementia",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Diploma of Dementia",
+   "code": "M6X",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 15250,
+   "totalFee": 15250,
+   "creditPointsPerYear": 100
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/m6y-graduate-diploma-of-healthcare-in-remote-and-extreme-environments",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Diploma of Healthcare in Remote and Extreme Environments",
+   "code": "M6Y",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/m6z-graduate-diploma-of-healthcare-redesign",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Diploma of Healthcare Redesign",
+   "code": "M6Z",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/m7c-master-of-physiotherapy",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Master of Physiotherapy",
+   "code": "M7C",
+   "cricos": "106189A",
+   "aqf": "Australian Qualification Framework level: 9",
+   "feeYear": 2027,
+   "annualFee": 51950,
+   "totalFee": 106498,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 2 years, up to a maximum of 5 years.",
+   "internationalLocations": [
+    {
+     "campus": "Launceston",
+     "periods": "Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/m7d-master-of-occupational-therapy",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Master of Occupational Therapy",
+   "code": "M7D",
+   "cricos": "106190H",
+   "aqf": "Australian Qualification Framework level: 9",
+   "feeYear": 2027,
+   "annualFee": 51950,
+   "totalFee": 106498,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 2 years, up to a maximum of 5 years.",
+   "internationalLocations": [
+    {
+     "campus": "Launceston",
+     "periods": "Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/m7e-master-of-pharmaceutical-science",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Master of Pharmaceutical Science",
+   "code": "M7E",
+   "cricos": "080696M",
+   "aqf": "Australian Qualification Framework level: 9",
+   "feeYear": 2027,
+   "annualFee": 42950,
+   "totalFee": 88048,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 2 years, up to a maximum of 5 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/m7f-master-of-clinical-pharmacy",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Master of Clinical Pharmacy",
+   "code": "M7F",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 9",
+   "feeYear": 2027,
+   "annualFee": 35450,
+   "totalFee": 54061,
+   "creditPointsPerYear": 100
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/m7g-master-of-speech-pathology",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Master of Speech Pathology",
+   "code": "M7G",
+   "cricos": "106188B",
+   "aqf": "Australian Qualification Framework level: 9",
+   "feeYear": 2027,
+   "annualFee": 51950,
+   "totalFee": 106498,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 2 years, up to a maximum of 5 years.",
+   "internationalLocations": [
+    {
+     "campus": "Launceston",
+     "periods": "Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/m7l-master-of-psychology-clinical",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Master of Psychology (Clinical)",
+   "code": "M7L",
+   "cricos": "000443F",
+   "aqf": "Australian Qualification Framework level: 9",
+   "feeYear": 2027,
+   "annualFee": 48250,
+   "totalFee": 98913,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 2 years, up to a maximum of 5 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1"
+    },
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/m7q-master-of-professional-psychology",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Master of Professional Psychology",
+   "code": "M7Q",
+   "cricos": "085985F",
+   "aqf": "Australian Qualification Framework level: 9",
+   "feeYear": 2027,
+   "annualFee": 43950,
+   "totalFee": 43950,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 1 year, up to a maximum of 3 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1"
+    },
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/m7s-master-of-leadership-health-and-human-services",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Master of Leadership (Health and Human Services)",
+   "code": "M7S",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 9",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/m7w-master-of-public-health",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Master of Public Health",
+   "code": "M7W",
+   "cricos": "098199C",
+   "aqf": "Australian Qualification Framework level: 9",
+   "feeYear": 2027,
+   "annualFee": 40950,
+   "totalFee": 83948,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 2 years, up to a maximum of 5 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    },
+    {
+     "campus": "Online",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/m7x-master-of-dementia",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Master of Dementia",
+   "code": "M7X",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 9",
+   "feeYear": 2027,
+   "annualFee": 15250,
+   "totalFee": 23256,
+   "creditPointsPerYear": 100
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/m7y-master-of-healthcare-in-remote-and-extreme-environments",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Master of Healthcare in Remote and Extreme Environments",
+   "code": "M7Y",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 9",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/m7z-master-of-healthcare-redesign",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Master of Healthcare Redesign",
+   "code": "M7Z",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 9",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/m9y-doctor-of-medical-science",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/r4c-bachelor-of-arts-with-professional-honours-specialisation",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Arts with Professional Honours (Specialisation)",
+   "code": "R4C",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/health/courses/r7o-master-of-social-work-qualifying",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Master of Social Work (Qualifying)",
+   "code": "R7O",
+   "cricos": "098281J",
+   "aqf": "Australian Qualification Framework level: 9",
+   "feeYear": 2027,
+   "annualFee": 40950,
+   "totalFee": 83948,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 2 years, up to a maximum of 5 years.",
+   "internationalLocations": [
+    {
+     "campus": "Cradle Coast",
+     "periods": "Semester 1"
+    },
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1"
+    },
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/22q-advanced-diploma-of-applied-science-nautical-science",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Advanced Diploma of Applied Science (Nautical Science)",
+   "code": "22Q",
+   "cricos": "093278M",
+   "aqf": "Australian Qualification Framework level: 6",
+   "feeYear": 2027,
+   "annualFee": 16829,
+   "totalFee": 60373,
+   "creditPointsPerYear": 57,
+   "duration": "Minimum 3.5 years, up to a maximum of 8 years.",
+   "internationalLocations": [
+    {
+     "campus": "Launceston",
+     "periods": "AMC MT Main Block 1, AMC MT Main Block 3"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/22r-advanced-diploma-of-applied-science-marine-engineering",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Advanced Diploma of Applied Science (Marine Engineering)",
+   "code": "22R",
+   "cricos": "093282D",
+   "aqf": "Australian Qualification Framework level: 6",
+   "feeYear": 2027,
+   "annualFee": 18167,
+   "totalFee": 55863,
+   "creditPointsPerYear": 67,
+   "duration": "Minimum 3 years, up to a maximum of 7 years.",
+   "internationalLocations": [
+    {
+     "campus": "Launceston",
+     "periods": "AMC MT Main Block 1, AMC MT Main Block 3"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/23q-bachelor-of-applied-science-nautical-science",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Applied Science (Nautical Science)",
+   "code": "23Q",
+   "cricos": "077531C",
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": 2027,
+   "annualFee": 22088,
+   "totalFee": 92841,
+   "creditPointsPerYear": 75,
+   "duration": "Minimum 4 years, up to a maximum of 9 years.",
+   "internationalLocations": [
+    {
+     "campus": "Launceston",
+     "periods": "AMC MT Main Block 1, AMC MT Main Block 3, Semester 1, Semester 2"
+    },
+    {
+     "campus": "Online",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/23r-bachelor-of-applied-science-marine-engineering",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Applied Science (Marine Engineering)",
+   "code": "23R",
+   "cricos": "077530D",
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": 2027,
+   "annualFee": 20438,
+   "totalFee": 85906,
+   "creditPointsPerYear": 75,
+   "duration": "Minimum 4 years, up to a maximum of 9 years.",
+   "internationalLocations": [
+    {
+     "campus": "Launceston",
+     "periods": "AMC MT Main Block 1, AMC MT Main Block 3, Semester 1"
+    },
+    {
+     "campus": "Online",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/24v1-bachelor-of-maritime-engineering-specialisation-honours",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Maritime Engineering (Specialisation) (Honours)",
+   "code": "24V1",
+   "cricos": "102706F",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 47950,
+   "totalFee": 206670,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 4 years, up to a maximum of 9 years.",
+   "internationalLocations": [
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/24v2-bachelor-of-maritime-engineering-specialisation-honours-aut",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Maritime Engineering (Specialisation) (Honours) - AUT",
+   "code": "24V2",
+   "cricos": "102706F",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 47950,
+   "totalFee": 206670,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 4 years, up to a maximum of 9 years.",
+   "internationalLocations": [
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/24v3-bachelor-of-maritime-engineering-specialisation-honours-ecu",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Maritime Engineering (Specialisation) (Honours) - ECU",
+   "code": "24V3",
+   "cricos": "102706F",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 47950,
+   "totalFee": 206670,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 4 years, up to a maximum of 9 years.",
+   "internationalLocations": [
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/24v4-bachelor-of-maritime-engineering-specialisation-honours-flinders",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Maritime Engineering (Specialisation) (Honours) - Flinders",
+   "code": "24V4",
+   "cricos": "102706F",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 47950,
+   "totalFee": 206670,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 4 years, up to a maximum of 9 years.",
+   "internationalLocations": [
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/24w-bachelor-of-maritime-engineering-specialisation-honours-co-operative-education",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Maritime Engineering (Specialisation) (Honours) (Co-operative Education)",
+   "code": "24W",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/70d-undergraduate-certificate-in-data-and-environmental-management",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Undergraduate Certificate in Data and Environmental Management",
+   "code": "70D",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 5",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/70h-undergraduate-certificate-in-antarctic-and-climate-science",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Undergraduate Certificate in Antarctic and Climate Science",
+   "code": "70H",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 5",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/70i-undergraduate-certificate-in-climate-change-awareness-and-action",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Undergraduate Certificate in Climate Change Awareness and Action",
+   "code": "70I",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 5",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/70j-undergraduate-certificate-in-ict-professional-practice",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Undergraduate Certificate in ICT Professional Practice",
+   "code": "70J",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 5",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/73f-bachelor-of-information-systems",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Information Systems",
+   "code": "73F",
+   "cricos": "027724G",
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/93h-bachelor-of-information-and-communication-technology-and-bachelor-of-science",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Information and Communication Technology and Bachelor of Science",
+   "code": "93H",
+   "cricos": "102982H",
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": 2027,
+   "annualFee": 44950,
+   "totalFee": 193740,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 4 years, up to a maximum of 9 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    },
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/d4a-bachelor-of-environmental-design-with-honours",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Environmental Design with Honours",
+   "code": "D4A",
+   "cricos": "039205K",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 37250,
+   "totalFee": 37250,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 1 year, up to a maximum of 3 years.",
+   "internationalLocations": [
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/d7c-master-of-architecture",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Master of Architecture",
+   "code": "D7C",
+   "cricos": "059006G",
+   "aqf": "Australian Qualification Framework level: 9",
+   "feeYear": 2027,
+   "annualFee": 43950,
+   "totalFee": 90098,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 2 years, up to a maximum of 5 years.",
+   "internationalLocations": [
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/k4c-bachelor-of-marine-and-antarctic-science-with-honours-specialisation",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Marine and Antarctic Science with Honours (Specialisation)",
+   "code": "K4C",
+   "cricos": "092245F",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 49950,
+   "totalFee": 215291,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 4 years, up to a maximum of 9 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/k4i-bachelor-of-information-and-communication-technology-honours",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Information and Communication Technology (Honours)",
+   "code": "K4I",
+   "cricos": "079195J",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 41950,
+   "totalFee": 41950,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 1 year, up to a maximum of 3 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1"
+    },
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/k4s-bachelor-of-marine-and-antarctic-science-with-honours",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Marine and Antarctic Science with Honours",
+   "code": "K4S",
+   "cricos": "091423A",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 49950,
+   "totalFee": 49950,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 1 year, up to a maximum of 3 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/k5f-graduate-certificate-in-economic-geology",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Certificate in Economic Geology",
+   "code": "K5F",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/k5j-graduate-certificate-in-protected-area-planning",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Certificate in Protected Area Planning",
+   "code": "K5J",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/k5k-graduate-certificate-in-forestry",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Certificate in Forestry",
+   "code": "K5K",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/k5p-graduate-certificate-in-urban-planning",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Certificate in Urban Planning",
+   "code": "K5P",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/k6j-graduate-diploma-of-land-surveying",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Diploma of Land Surveying",
+   "code": "K6J",
+   "cricos": "078556G",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 44950,
+   "totalFee": 44950,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 1 year, up to a maximum of 3 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/k7i-master-of-information-technology-and-systems",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Master of Information Technology and Systems",
+   "code": "K7I",
+   "cricos": "079193M",
+   "aqf": "Australian Qualification Framework level: 9",
+   "feeYear": 2027,
+   "annualFee": 41950,
+   "totalFee": 85998,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 2 years, up to a maximum of 5 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    },
+    {
+     "campus": "Melbourne Study Centre",
+     "periods": "Semester 1"
+    },
+    {
+     "campus": "Ultimo Study Centre",
+     "periods": "Semester 1"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/k7p-master-of-planning",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Master of Planning",
+   "code": "K7P",
+   "cricos": "089608K",
+   "aqf": "Australian Qualification Framework level: 9",
+   "feeYear": 2027,
+   "annualFee": 41450,
+   "totalFee": 84973,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 2 years, up to a maximum of 5 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p0t-undergraduate-certificate-in-information-and-communication-technology",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Undergraduate Certificate in Information and Communication Technology",
+   "code": "P0T",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 5",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p1a-diploma-of-engineering-infrastructure-specialisation",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Diploma of Engineering Infrastructure (Specialisation)",
+   "code": "P1A",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 5",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p1b-diploma-of-ict-professional-practice",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Diploma of ICT Professional Practice",
+   "code": "P1B",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 5",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p1e-diploma-of-global-logistics-and-maritime-management",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Diploma of Global Logistics and Maritime Management",
+   "code": "P1E",
+   "cricos": "062261K",
+   "aqf": "Australian Qualification Framework level: 5",
+   "feeYear": 2027,
+   "annualFee": 37950,
+   "totalFee": 37950,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 1 year, up to a maximum of 3 years.",
+   "internationalLocations": [
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1, Semester 2"
+    },
+    {
+     "campus": "Online",
+     "periods": "Semester 1, Semester 2, Spring"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p1t-diploma-of-information-and-communication-technology",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Diploma of Information and Communication Technology",
+   "code": "P1T",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 5",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p2e-associate-degree-in-global-logistics-and-maritime-management",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Associate Degree in Global Logistics and Maritime Management",
+   "code": "P2E",
+   "cricos": "075625B",
+   "aqf": "Australian Qualification Framework level: 6",
+   "feeYear": 2027,
+   "annualFee": 37950,
+   "totalFee": 77798,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 2 years, up to a maximum of 5 years.",
+   "internationalLocations": [
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1, Semester 2"
+    },
+    {
+     "campus": "Online",
+     "periods": "Semester 1, Semester 2, Spring"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p3e-bachelor-of-global-logistics-and-maritime-management",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Global Logistics and Maritime Management",
+   "code": "P3E",
+   "cricos": "095526F",
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": 2027,
+   "annualFee": 37950,
+   "totalFee": 119637,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 3 years, up to a maximum of 7 years.",
+   "internationalLocations": [
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1, Semester 2"
+    },
+    {
+     "campus": "Online",
+     "periods": "Semester 1, Semester 2, Spring"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p3h-bachelor-of-architecture-and-built-environments",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Architecture and Built Environments",
+   "code": "P3H",
+   "cricos": "002847C",
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": 2027,
+   "annualFee": 41950,
+   "totalFee": 132247,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 3 years, up to a maximum of 7 years.",
+   "internationalLocations": [
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p3i-bachelor-of-design",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Design",
+   "code": "P3I",
+   "cricos": "098158A",
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": 2027,
+   "annualFee": 38250,
+   "totalFee": 120583,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 3 years, up to a maximum of 7 years.",
+   "internationalLocations": []
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p3j-bachelor-of-natural-environments-and-conservation",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Natural Environments and Conservation",
+   "code": "P3J",
+   "cricos": "113032H",
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": 2027,
+   "annualFee": 43450,
+   "totalFee": 136976,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 3 years, up to a maximum of 7 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p3l-bachelor-of-marine-and-antarctic-science",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Marine and Antarctic Science",
+   "code": "P3L",
+   "cricos": "081797J",
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": 2027,
+   "annualFee": 49950,
+   "totalFee": 157467,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 3 years, up to a maximum of 7 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p3n-bachelor-of-agricultural-science",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Agricultural Science",
+   "code": "P3N",
+   "cricos": "111722J",
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": 2027,
+   "annualFee": 44950,
+   "totalFee": 141705,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 3 years, up to a maximum of 7 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p3o-bachelor-of-science",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Science",
+   "code": "P3O",
+   "cricos": "002059J",
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": 2027,
+   "annualFee": 44950,
+   "totalFee": 141705,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 3 years, up to a maximum of 7 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    },
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p3q-bachelor-of-natural-environments-and-conservation-and-master-of-protected-area-conservation",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p3r-bachelor-of-geospatial-science",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Geospatial Science",
+   "code": "P3R",
+   "cricos": "114009K",
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": 2027,
+   "annualFee": 44950,
+   "totalFee": 141705,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 3 years, up to a maximum of 7 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p3s-bachelor-of-agriculture-and-agribusiness",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Agriculture and Agribusiness",
+   "code": "P3S",
+   "cricos": "121142B",
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": 2027,
+   "annualFee": 44950,
+   "totalFee": 141705,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 3 years, up to a maximum of 7 years.",
+   "internationalLocations": [
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p3t-bachelor-of-information-and-communication-technology",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Information and Communication Technology",
+   "code": "P3T",
+   "cricos": "079196G",
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": 2027,
+   "annualFee": 39950,
+   "totalFee": 125942,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 3 years, up to a maximum of 7 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    },
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p4c-bachelor-of-applied-science-professional-honours-in-conservation-management",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Applied Science (Professional Honours in Conservation Management)",
+   "code": "P4C",
+   "cricos": "106221F",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p4d-bachelor-of-engineering-specialisation-with-honours",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p4h-bachelor-of-global-logistics-and-maritime-management-with-honours",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Global Logistics and Maritime Management with Honours",
+   "code": "P4H",
+   "cricos": "066196D",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 38950,
+   "totalFee": 38950,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 1 year, up to a maximum of 3 years.",
+   "internationalLocations": [
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1, Semester 2"
+    },
+    {
+     "campus": "Online",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p4j-bachelor-of-applied-science-professional-honours-in-environmental-geospatial-science",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Applied Science (Professional Honours in Environmental Geospatial Science)",
+   "code": "P4J",
+   "cricos": "106223D",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p4k-bachelor-of-science-and-bachelor-of-engineering-specialisation-with-honours-in-engineering",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p4n-bachelor-of-agricultural-science-test",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p4v-bachelor-of-engineering-specialisation-with-honours",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Engineering (Specialisation) with Honours",
+   "code": "P4V",
+   "cricos": "089220G",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 43950,
+   "totalFee": 189430,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 4 years, up to a maximum of 9 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p4w-bachelor-of-science-and-bachelor-of-engineering-specialisation-with-honours-in-engineering",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Science and Bachelor of Engineering (Specialisation) with Honours in Engineering",
+   "code": "P4W",
+   "cricos": "089288K",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 44950,
+   "totalFee": 248377,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 5 years, up to a maximum of 11 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p5a-graduate-certificate-in-geospatial-science",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Certificate in Geospatial Science",
+   "code": "P5A",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p5e-graduate-certificate-in-global-logistics-and-supply-chain-management",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Certificate in Global Logistics and Supply Chain Management",
+   "code": "P5E",
+   "cricos": "107500B",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null,
+   "duration": "Minimum 0.5 years, up to a maximum of 2 years.",
+   "internationalLocations": [
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1, Semester 2"
+    },
+    {
+     "campus": "Online",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p5g-graduate-certificate-in-maritime-engineering",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Certificate in Maritime Engineering",
+   "code": "P5G",
+   "cricos": "107651J",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null,
+   "duration": "Minimum 0.5 years, up to a maximum of 2 years.",
+   "internationalLocations": [
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p5h-graduate-certificate-in-maritime-management",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Certificate in Maritime Management",
+   "code": "P5H",
+   "cricos": "107275F",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null,
+   "duration": "Minimum 0.5 years, up to a maximum of 2 years.",
+   "internationalLocations": [
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1, Semester 2"
+    },
+    {
+     "campus": "Online",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p5r-graduate-certificate-in-railway-control-systems-engineering",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p6a-graduate-diploma-of-environmental-geospatial-analysis",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Diploma of Environmental Geospatial Analysis",
+   "code": "P6A",
+   "cricos": "106223D",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 38250,
+   "totalFee": 38250,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 1 year, up to a maximum of 3 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p6b-graduate-diploma-of-protected-area-conservation",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Diploma of Protected Area Conservation",
+   "code": "P6B",
+   "cricos": "106221F",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 37250,
+   "totalFee": 37250,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 1 year, up to a maximum of 3 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p6e-graduate-diploma-of-global-logistics-and-supply-chain-management",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Diploma of Global Logistics and Supply Chain Management",
+   "code": "P6E",
+   "cricos": "107499A",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 39950,
+   "totalFee": 39950,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 1 year, up to a maximum of 3 years.",
+   "internationalLocations": [
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1, Semester 2"
+    },
+    {
+     "campus": "Online",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p6g-graduate-diploma-of-maritime-engineering",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Diploma of Maritime Engineering",
+   "code": "P6G",
+   "cricos": "107650K",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 40250,
+   "totalFee": 40250,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 1 year, up to a maximum of 3 years.",
+   "internationalLocations": [
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p6h-graduate-diploma-of-maritime-management",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Diploma of Maritime Management",
+   "code": "P6H",
+   "cricos": "107274G",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 40250,
+   "totalFee": 40250,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 1 year, up to a maximum of 3 years.",
+   "internationalLocations": [
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1, Semester 2"
+    },
+    {
+     "campus": "Online",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p6r-graduate-diploma-of-railway-control-systems-engineering",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p7a-master-of-professional-engineering-specialisation",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Master of Professional Engineering (Specialisation)",
+   "code": "P7A",
+   "cricos": "089190J",
+   "aqf": "Australian Qualification Framework level: 9",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p7b-master-of-environmental-geospatial-science",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Master of Environmental Geospatial Science",
+   "code": "P7B",
+   "cricos": "106224C",
+   "aqf": "Australian Qualification Framework level: 9",
+   "feeYear": 2027,
+   "annualFee": 44950,
+   "totalFee": 92148,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 2 years, up to a maximum of 5 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p7c-master-of-protected-area-conservation",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Master of Protected Area Conservation",
+   "code": "P7C",
+   "cricos": "106222E",
+   "aqf": "Australian Qualification Framework level: 9",
+   "feeYear": 2027,
+   "annualFee": 42250,
+   "totalFee": 86613,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 2 years, up to a maximum of 5 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p7d-master-of-agriculture-and-food-sciences-specialisation",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Master of Agriculture and Food Sciences (Specialisation)",
+   "code": "P7D",
+   "cricos": "106832A",
+   "aqf": "Australian Qualification Framework level: 9",
+   "feeYear": 2027,
+   "annualFee": 38250,
+   "totalFee": 78413,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 2 years, up to a maximum of 5 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p7e-master-of-global-logistics-and-supply-chain-management",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Master of Global Logistics and Supply Chain Management",
+   "code": "P7E",
+   "cricos": "107498B",
+   "aqf": "Australian Qualification Framework level: 9",
+   "feeYear": 2027,
+   "annualFee": 39950,
+   "totalFee": 81898,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 2 years, up to a maximum of 5 years.",
+   "internationalLocations": [
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1, Semester 2"
+    },
+    {
+     "campus": "Online",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p7f-master-of-maritime-engineering-professional",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p7g-master-of-maritime-engineering-advanced",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p7h-master-of-business-administration-in-maritime-management",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Master of Business Administration in Maritime Management",
+   "code": "P7H",
+   "cricos": "107273H",
+   "aqf": "Australian Qualification Framework level: 9",
+   "feeYear": 2027,
+   "annualFee": 40950,
+   "totalFee": 83948,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 2 years, up to a maximum of 5 years.",
+   "internationalLocations": [
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1, Semester 2"
+    },
+    {
+     "campus": "Online",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p7i-master-of-maritime-engineering",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Master of Maritime Engineering",
+   "code": "P7I",
+   "cricos": "121288F",
+   "aqf": "Australian Qualification Framework level: 9",
+   "feeYear": 2027,
+   "annualFee": 40250,
+   "totalFee": 82513,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 2 years, up to a maximum of 5 years.",
+   "internationalLocations": [
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p7j-master-of-chemistry",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Master of Chemistry",
+   "code": "P7J",
+   "cricos": "116316E",
+   "aqf": "Australian Qualification Framework level: 9",
+   "feeYear": 2027,
+   "annualFee": 44950,
+   "totalFee": 92148,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 2 years, up to a maximum of 5 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/p7q-bachelor-of-natural-environments-and-conservation-and-master-of-protected-area-conservation",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/s0a-the-essentials-of-autonomous-systems-and-their-application-in-the-maritime-domain",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/s0g-timber-design-for-residential-construction",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/s2g-associate-degree-in-science",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/s4a-bachelor-of-agricultural-science-with-honours",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Agricultural Science with Honours",
+   "code": "S4A",
+   "cricos": "094552A",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/s4e-bachelor-of-science-with-honours",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Science with Honours",
+   "code": "S4E",
+   "cricos": "030420J",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 44950,
+   "totalFee": 44950,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 1 year, up to a maximum of 3 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2, Spring"
+    },
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/s4x-bachelor-of-agriculture-with-honours",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Agriculture with Honours",
+   "code": "S4X",
+   "cricos": "080299B",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 42950,
+   "totalFee": 42950,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 1 year, up to a maximum of 3 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/s5a-graduate-certificate-in-geographic-information-systems",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Certificate in Geographic Information Systems",
+   "code": "S5A",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/s6l-graduate-diploma-of-environmental-planning",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Diploma of Environmental Planning",
+   "code": "S6L",
+   "cricos": "044257M",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 41450,
+   "totalFee": 41450,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 1 year, up to a maximum of 3 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/s6v-graduate-diploma-of-quantitative-marine-and-antarctic-science",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Diploma of Quantitative Marine and Antarctic Science",
+   "code": "S6V",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/s6z-graduate-diploma-of-marine-and-antarctic-science",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Diploma of Marine and Antarctic Science",
+   "code": "S6Z",
+   "cricos": "096367G",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 50950,
+   "totalFee": 50950,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 1 year, up to a maximum of 3 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/s7w-master-of-economic-geology",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Master of Economic Geology",
+   "code": "S7W",
+   "cricos": "010959F",
+   "aqf": "Australian Qualification Framework level: 9",
+   "feeYear": 2027,
+   "annualFee": 44450,
+   "totalFee": 91123,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 2 years, up to a maximum of 5 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    },
+    {
+     "campus": "Online",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/s7z-master-of-marine-and-antarctic-science",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Master of Marine and Antarctic Science",
+   "code": "S7Z",
+   "cricos": "096366J",
+   "aqf": "Australian Qualification Framework level: 9",
+   "feeYear": 2027,
+   "annualFee": 50950,
+   "totalFee": 104448,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 2 years, up to a maximum of 5 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/s9z-doctor-of-science",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/z0u-undergraduate-certificate-in-sustainable-living",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Undergraduate Certificate in Sustainable Living",
+   "code": "Z0U",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 5",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sci-eng/courses/z1k-diploma-of-sustainable-living",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Diploma of Sustainable Living",
+   "code": "Z1K",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 5",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sso/courses/e0p-short-course-study-tour",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sso/courses/ef05-english-language-program-5-weeks",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "English Language Program  5 Weeks",
+   "code": "EF05",
+   "cricos": "0101853",
+   "aqf": null,
+   "feeYear": 2027,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null,
+   "duration": "Minimum 5 Weeks, up to a maximum of 5 Weeks.",
+   "internationalLocations": []
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sso/courses/ef10-english-language-program-10-weeks",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "English Language Program 10 Weeks",
+   "code": "EF10",
+   "cricos": "0101853",
+   "aqf": null,
+   "feeYear": 2027,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null,
+   "duration": "Minimum 10 Weeks, up to a maximum of 10 Weeks.",
+   "internationalLocations": []
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sso/courses/ef15-english-language-program-15-weeks",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "English Language Program 15 Weeks",
+   "code": "EF15",
+   "cricos": "0101853",
+   "aqf": null,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null,
+   "duration": "Minimum 15 Weeks, up to a maximum of 15 Weeks.",
+   "internationalLocations": []
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sso/courses/ef20-english-language-program-20-weeks",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "English Language Program 20 Weeks",
+   "code": "EF20",
+   "cricos": "0101853",
+   "aqf": null,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null,
+   "duration": "Minimum 20 Weeks, up to a maximum of 20 Weeks.",
+   "internationalLocations": []
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sso/courses/ef25-english-language-program-25-weeks",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "English Language Program 25 Weeks",
+   "code": "EF25",
+   "cricos": "0101853",
+   "aqf": null,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null,
+   "duration": "Minimum 25 Weeks, up to a maximum of 25 Weeks.",
+   "internationalLocations": []
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sso/courses/ef30-english-language-program-30-weeks",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "English Language Program 30 Weeks",
+   "code": "EF30",
+   "cricos": "0101853",
+   "aqf": null,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null,
+   "duration": "Minimum 30 Weeks, up to a maximum of 30 Weeks.",
+   "internationalLocations": []
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sso/courses/ef40-english-language-program-40-weeks",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/sso/courses/x0n-introductory-academic-program",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/tsbe/courses/30c-undergraduate-certificate-in-climate-accounting",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Undergraduate Certificate in Climate Accounting",
+   "code": "30C",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 5",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/tsbe/courses/33a-bachelor-of-business",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/tsbe/courses/35a2-graduate-certificate-in-business-studies-domestic",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/tsbe/courses/35o-graduate-certificate-of-business-administration",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/tsbe/courses/37q-master-of-business-administration-global",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Master of Business Administration (Global)",
+   "code": "37Q",
+   "cricos": "115359B",
+   "aqf": "Australian Qualification Framework level: 9",
+   "feeYear": 2027,
+   "annualFee": 35213,
+   "totalFee": 71599,
+   "creditPointsPerYear": 75,
+   "duration": "Minimum 2 years, up to a maximum of 5 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    },
+    {
+     "campus": "Melbourne Study Centre",
+     "periods": "Semester 1, Semester 2"
+    },
+    {
+     "campus": "Ultimo Study Centre",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/tsbe/courses/93j-bachelor-of-business-and-bachelor-of-information-and-communication-technology",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Business and Bachelor of Information and Communication Technology",
+   "code": "93J",
+   "cricos": "102705G",
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": 2027,
+   "annualFee": 38950,
+   "totalFee": 167879,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 4 years, up to a maximum of 9 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/tsbe/courses/93k-bachelor-of-business-and-bachelor-of-science",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Business and Bachelor of Science",
+   "code": "93K",
+   "cricos": "102981J",
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": 2027,
+   "annualFee": 38950,
+   "totalFee": 167879,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 4 years, up to a maximum of 9 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/tsbe/courses/b3a-bachelor-of-business",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Business",
+   "code": "B3A",
+   "cricos": "002346B",
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": 2027,
+   "annualFee": 38950,
+   "totalFee": 122790,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 3 years, up to a maximum of 7 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    },
+    {
+     "campus": "Launceston",
+     "periods": "Semester 1, Semester 2"
+    },
+    {
+     "campus": "Online",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/tsbe/courses/b3b-bachelor-of-economics",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Economics",
+   "code": "B3B",
+   "cricos": "002342F",
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": 2027,
+   "annualFee": 38450,
+   "totalFee": 121214,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 3 years, up to a maximum of 7 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    },
+    {
+     "campus": "Online",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/tsbe/courses/b3s-bachelor-of-business",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/tsbe/courses/c0w-cross-institution-postgrad-commerce",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/tsbe/courses/c0z-cross-institution-undergrad-business",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/tsbe/courses/c4e-bachelor-of-economics-with-honours",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Economics with Honours",
+   "code": "C4E",
+   "cricos": "039206J",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 38450,
+   "totalFee": 38450,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 1 year, up to a maximum of 3 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/tsbe/courses/c5b-graduate-certificate-in-professional-accounting",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Certificate in Professional Accounting",
+   "code": "C5B",
+   "cricos": "048891G",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null,
+   "duration": "Minimum 0.5 years, up to a maximum of 2 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1"
+    },
+    {
+     "campus": "Online",
+     "periods": "Semester 1"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/tsbe/courses/c5q-graduate-certificate-in-sustainable-business",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Certificate in Sustainable Business",
+   "code": "C5Q",
+   "cricos": "109407E",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 17725,
+   "totalFee": 17725,
+   "creditPointsPerYear": 50,
+   "duration": "Minimum 1 year, up to a maximum of 2 years.",
+   "internationalLocations": [
+    {
+     "campus": "Online",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/tsbe/courses/c5r-graduate-certificate-in-digital-health",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Certificate in Digital Health",
+   "code": "C5R",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/tsbe/courses/c5v-graduate-certificate-in-behavioural-insights",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Certificate in Behavioural Insights",
+   "code": "C5V",
+   "cricos": "111852K",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 19975,
+   "totalFee": 19975,
+   "creditPointsPerYear": 50,
+   "duration": "Minimum 1 year, up to a maximum of 2 years.",
+   "internationalLocations": [
+    {
+     "campus": "Online",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/tsbe/courses/c5x-graduate-certificate-in-leadership-and-organisational-capability",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Certificate in Leadership and Organisational Capability",
+   "code": "C5X",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/tsbe/courses/c6b-graduate-diploma-of-professional-accounting",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Graduate Diploma of Professional Accounting",
+   "code": "C6B",
+   "cricos": "052939G",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 44250,
+   "totalFee": 44250,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 1 year, up to a maximum of 3 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    },
+    {
+     "campus": "Online",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/tsbe/courses/c7s-master-of-professional-accounting",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Master of Professional Accounting",
+   "code": "C7S",
+   "cricos": "106830C",
+   "aqf": "Australian Qualification Framework level: 9",
+   "feeYear": 2027,
+   "annualFee": 39450,
+   "totalFee": 80873,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 2 years, up to a maximum of 5 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1, Semester 2"
+    },
+    {
+     "campus": "Online",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/tsbe/courses/c7u-master-of-health-service-management",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Master of Health Service Management",
+   "code": "C7U",
+   "cricos": "114382M",
+   "aqf": "Australian Qualification Framework level: 9",
+   "feeYear": 2027,
+   "annualFee": 27338,
+   "totalFee": 55586,
+   "creditPointsPerYear": 75,
+   "duration": "Minimum 2 years, up to a maximum of 5 years.",
+   "internationalLocations": [
+    {
+     "campus": "Melbourne Study Centre",
+     "periods": "Semester 1, Semester 2"
+    },
+    {
+     "campus": "Ultimo Study Centre",
+     "periods": "Semester 1, Semester 2"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/tsbe/courses/g4f-bachelor-of-business-with-honours",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Business with Honours",
+   "code": "G4F",
+   "cricos": "039208G",
+   "aqf": "Australian Qualification Framework level: 8",
+   "feeYear": 2027,
+   "annualFee": 38450,
+   "totalFee": 38450,
+   "creditPointsPerYear": 100,
+   "duration": "Minimum 1 year, up to a maximum of 3 years.",
+   "internationalLocations": [
+    {
+     "campus": "Hobart",
+     "periods": "Semester 1"
+    }
+   ]
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/tsbe/courses/x3y-double-degree-4-year",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Double Degree (4 year)",
+   "code": "X3Y",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/tsbe/courses/x3z-double-degree-5-year",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Double Degree (5 year)",
+   "code": "X3Z",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/tsbe/courses/z0c-undergraduate-certificate-in-community-support",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Undergraduate Certificate in Community Support",
+   "code": "Z0C",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 5",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/tsbe/courses/z0d-undergraduate-certificate-in-agriculture",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/tsbe/courses/z0l-undergraduate-certificate-in-agribusiness",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Undergraduate Certificate in Agribusiness",
+   "code": "Z0L",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 5",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/tsbe/courses/z0q-undergraduate-certificate-in-applied-technologies",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Undergraduate Certificate in Applied Technologies",
+   "code": "Z0Q",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 5",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/uc/courses/21a-diploma-of-university-studies",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Diploma of University Studies",
+   "code": "21A",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 5",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/uc/courses/e0d-university-preparation-program",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "University Preparation Program",
+   "code": "E0D",
+   "cricos": null,
+   "aqf": null,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/uc/courses/x0c-university-connections-program",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/uc/courses/x1m-diploma-of-pharmacy-studies",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Diploma of Pharmacy Studies",
+   "code": "X1M",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 5",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/uc/courses/x1p-diploma-of-philosophy",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/uc/courses/x2p-associate-degree-in-philosophy",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/uc/courses/x3p-bachelor-of-philosophy",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Bachelor of Philosophy",
+   "code": "X3P",
+   "cricos": "083379M",
+   "aqf": "Australian Qualification Framework level: 7",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/uc/courses/z0i-industrial-cyber-security",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/uc/courses/z0v-digital-capability-for-the-workforce-community-and-social-care",
+   "httpStatus": 200,
+   "_v": 1,
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/uc/courses/z1a-diploma-of-agribusiness",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Diploma of Agribusiness",
+   "code": "Z1A",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 5",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/uc/courses/z1h-diploma-of-applied-health-and-community-support",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Diploma of Applied Health and Community Support",
+   "code": "Z1H",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 5",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  },
+  {
+   "url": "https://www.utas.edu.au/courses/uc/courses/z1q-diploma-of-applied-technologies-specialisation",
+   "httpStatus": 200,
+   "_v": 1,
+   "name": "Diploma of Applied Technologies (Specialisation)",
+   "code": "Z1Q",
+   "cricos": null,
+   "aqf": "Australian Qualification Framework level: 5",
+   "feeYear": null,
+   "annualFee": null,
+   "totalFee": null,
+   "creditPointsPerYear": null
+  }
+ ]
+}

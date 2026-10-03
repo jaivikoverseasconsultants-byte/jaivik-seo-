@@ -2276,13 +2276,48 @@
       "permanent": true
     },
     {
-      "source": "/universities/university-of-tasmania/courses",
-      "destination": "/universities/university-of-tasmania",
+      "source": "/universities/university-of-tasmania/courses/utas-msc-information-technology",
+      "destination": "/universities/university-of-tasmania/courses/utas-master-of-information-technology-and-systems",
       "permanent": true
     },
     {
-      "source": "/universities/university-of-tasmania/courses/:path*",
-      "destination": "/universities/university-of-tasmania",
+      "source": "/universities/university-of-tasmania/courses/utas-bsc-nursing",
+      "destination": "/universities/university-of-tasmania/courses/utas-bachelor-of-nursing",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-tasmania/courses/utas-bsc-psychology",
+      "destination": "/universities/university-of-tasmania/courses/utas-bachelor-of-psychological-science",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-tasmania/courses/utas-bsc-economics",
+      "destination": "/universities/university-of-tasmania/courses/utas-bachelor-of-economics",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-tasmania/courses/utas-master-of-business-administration",
+      "destination": "/universities/university-of-tasmania/courses/utas-master-of-business-administration-global",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-tasmania/courses/utas-mba",
+      "destination": "/universities/university-of-tasmania/courses/utas-master-of-business-administration-global",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-tasmania/courses/utas-beng-civil-engineering",
+      "destination": "/universities/university-of-tasmania/courses/utas-bachelor-of-engineering-specialisation-with-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-tasmania/courses/utas-beng-electrical-engineering",
+      "destination": "/universities/university-of-tasmania/courses/utas-bachelor-of-engineering-specialisation-with-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-tasmania/courses/utas-beng-mechanical-engineering",
+      "destination": "/universities/university-of-tasmania/courses/utas-bachelor-of-engineering-specialisation-with-honours",
       "permanent": true
     },
     {
