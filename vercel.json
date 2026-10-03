@@ -2561,6 +2561,21 @@
       "permanent": true
     },
     {
+      "source": "/universities/deakin-university/courses/deakin-bsc-artificial-intelligence",
+      "destination": "/universities/deakin-university/courses/deakin-bachelor-artificial-intelligence",
+      "permanent": true
+    },
+    {
+      "source": "/universities/deakin-university/courses/deakin-master-of-artificial-intelligence",
+      "destination": "/universities/deakin-university/courses/deakin-master-applied-artificial-intelligence",
+      "permanent": true
+    },
+    {
+      "source": "/universities/deakin-university/courses/deakin-msc-artificial-intelligence",
+      "destination": "/universities/deakin-university/courses/deakin-master-applied-artificial-intelligence",
+      "permanent": true
+    },
+    {
       "source": "/universities/university-of-newcastle-australia/courses",
       "destination": "/universities/university-of-newcastle-australia",
       "permanent": true

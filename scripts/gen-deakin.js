@@ -14,9 +14,9 @@
 // Intakes: Trimester 1 -> March, 2 -> July, 3 -> November, from Deakin's own pages ("Trimester 1
 // (March) or Trimester 2 (July)", "Trimester 3, starting in November"). Courses that start by
 // "Semester" are not listed — Deakin's semester start months were not verified.
-// Listed only with a valid CRICOS code (6 digits + letter). Fifteen Deakin pages print a 7-digit
-// code (e.g. "0100304"), which is not a valid CRICOS code, so those courses are left out rather than
-// guessed. Fee year: 2027 ("Year 2027 course information" on the page, confirmed on sampled pages).
+// Listed only with a CRICOS code, in either format: the original 6 digits + letter (083866G) or the
+// newer 7-digit numeric codes (0100304 — confirmed on the CRICOS register as Deakin's Bachelor of
+// Artificial Intelligence; CQU uses the same series). Fee year: 2027 ("Year 2027 course information" on the page, confirmed on sampled pages).
 // English: not published — not verified here (englishScope marks the row).
 const fs = require('fs');
 const path = require('path');
@@ -49,7 +49,7 @@ for (const r of crawl.results) {
   if (r.audience !== 'International students') { skipped.notInternational.push(r.name); continue; }
   if (/Doctor of Philosophy|by Research|Master of Research/i.test(r.name)) { skipped.research.push(r.name); continue; }
   if (!r.offerPrice) { skipped.noFee.push(r.name); continue; }
-  const cricos = (r.cricos || []).filter((c) => /^\d{6}[A-Z]$/.test(c.code));
+  const cricos = (r.cricos || []).filter((c) => /^(\d{6}[A-Z]|\d{7})$/.test(c.code));
   if (!cricos.length) { ((r.cricos || []).length ? skipped.invalidCricos : skipped.noCricos).push(`${r.name}${(r.cricos || []).length ? ` (${r.cricos.map((c) => c.code).join(', ')})` : ''}`); continue; }
   const campuses = [...new Set((r.instances || []).filter((i) => i.mode === 'onsite' && CAMPUS_CITY[i.location]).map((i) => i.location))];
   if (!campuses.length) { skipped.notOnCampus.push(r.name); continue; }
@@ -108,9 +108,8 @@ const out = `// Deakin University — Burwood (Melbourne), Geelong (Waurn Ponds,
 // Intakes: Trimester 1/2/3 = March/July/November, per Deakin's own international pages.
 // Verified: ${crawl._crawledOn}.
 // Not listed: not for international students (${skipped.notInternational.length}), research (${skipped.research.length}), no fee (${skipped.noFee.length}),
-// no CRICOS (${skipped.noCricos.length}), invalid CRICOS printed on Deakin's page (${skipped.invalidCricos.length}), not on campus (${skipped.notOnCampus.length}),
+// no CRICOS (${skipped.noCricos.length}), unrecognised CRICOS (${skipped.invalidCricos.length}), not on campus (${skipped.notOnCampus.length}),
 // fee not per year or per 4-credit-point graduate certificate (${skipped.feeBasis.length}), no trimester intake (${skipped.noTrimester.length}).
-// Invalid CRICOS on Deakin's own pages: ${skipped.invalidCricos.join('; ')}.
 // ${rows.length} courses
 
 export interface DeakinCourseReal {
