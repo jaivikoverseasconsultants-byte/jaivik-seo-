@@ -49,6 +49,7 @@ import { queensCourses as m_queens_university } from './queens-courses';
 import { rmitCourses as m_rmit_university } from './rmit-courses';
 import { rguCourses as m_robert_gordon_university } from './rgu-courses';
 import { rhulCourses as m_royal_holloway_university_london } from './rhul-courses';
+import { scuCoursesReal as m_southern_cross_university } from './scu-courses-real';
 import { sheffieldHallamCourses as m_sheffield_hallam_university } from './sheffield-hallam-courses';
 import { sfuCourses as m_simon_fraser_university } from './sfu-courses';
 import { swanseaCourses as m_swansea_university } from './swansea-courses';
@@ -186,6 +187,7 @@ const REGISTRY: Record<string, readonly unknown[]> = {
   'royal-holloway-university-london': m_royal_holloway_university_london,
   'sheffield-hallam-university': m_sheffield_hallam_university,
   'simon-fraser-university': m_simon_fraser_university,
+  'southern-cross-university': m_southern_cross_university,
   'swansea-university': m_swansea_university,
   'swinburne-university': m_swinburne_university,
   'technical-university-of-munich': m_technical_university_of_munich,

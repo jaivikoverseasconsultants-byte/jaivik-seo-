@@ -1,0 +1,2784 @@
+{
+ "_sources": [
+  "https://www.scu.edu.au/google-sitemap/index.xml (discovery)",
+  "each /study/courses/<slug>-<id>/2027/ page: International snapshot + international availability table"
+ ],
+ "_year": 2027,
+ "_crawledOn": "2026-10-03",
+ "_complete": true,
+ "_courses": 122,
+ "results": [
+  {
+   "base": "https://www.scu.edu.au/study/courses/associate-degree-in-law-paralegal-studies-2206351/",
+   "url": "https://www.scu.edu.au/study/courses/associate-degree-in-law-paralegal-studies-2206351/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Associate Degree of Law (Paralegal Studies)",
+   "intlStart": "Duration",
+   "intlDuration": "2 years full-time",
+   "intlLocation": "Placement",
+   "abbreviation": "AssocDegLaw (Paralegal)",
+   "intlRows": []
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/associate-degree-of-engineering-2206800/",
+   "url": "https://www.scu.edu.au/study/courses/associate-degree-of-engineering-2206800/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Associate Degree of Engineering",
+   "intlStart": "Duration",
+   "intlDuration": "2 years full-time",
+   "intlLocation": "Placement",
+   "abbreviation": "AssocDegEng",
+   "intlRows": []
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/associate-degree-of-global-hotel-management-2206710/",
+   "url": "https://www.scu.edu.au/study/courses/associate-degree-of-global-hotel-management-2206710/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Associate Degree of Global Hotel Management",
+   "intlStart": "March, June, October",
+   "intlDuration": "2 years full-time",
+   "intlLocation": "Brisbane, Gold Coast, Melbourne, Perth, Sydney",
+   "abbreviation": "AssocDegGblHtlMgmt",
+   "intlRows": [
+    {
+     "campus": "Brisbane",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "120837A"
+    },
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "120837A"
+    },
+    {
+     "campus": "Melbourne",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "120837A"
+    },
+    {
+     "campus": "Perth",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "120837A"
+    },
+    {
+     "campus": "Sydney",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "120837A"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/associate-degree-of-international-hotel-and-tourism-management-2206700/",
+   "url": "https://www.scu.edu.au/study/courses/associate-degree-of-international-hotel-and-tourism-management-2206700/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Study - Southern Cross University",
+   "intlRows": []
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-biomedical-science-3007312/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-biomedical-science-3007312/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Bachelor of Biomedical Science",
+   "intlStart": "March",
+   "intlDuration": "3 years full-time",
+   "intlLocation": "Gold Coast",
+   "abbreviation": "BBioMedSc",
+   "intlRows": [
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "0102161"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-business-3007255/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-business-3007255/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Bachelor of Business",
+   "intlStart": "March, June, October",
+   "intlDuration": "3 years full-time; 6 years part-time",
+   "intlLocation": "Brisbane, Gold Coast, Melbourne, Online, Papua New Guinea - IBSU Port Moresby, Perth, Sydney",
+   "abbreviation": "BBus",
+   "intlRows": [
+    {
+     "campus": "Brisbane (Accounting)",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "117755G"
+    },
+    {
+     "campus": "Brisbane",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "117759C"
+    },
+    {
+     "campus": "Gold Coast (Accounting)",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "117755G"
+    },
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "117759C"
+    },
+    {
+     "campus": "Melbourne (Accounting)",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "117755G"
+    },
+    {
+     "campus": "Melbourne",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "117759C"
+    },
+    {
+     "campus": "Perth (Accounting)",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "117755G"
+    },
+    {
+     "campus": "Papua New Guinea - IBSU Port Moresby",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "N/A",
+     "cricos": "N/A"
+    },
+    {
+     "campus": "Perth",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "117759C"
+    },
+    {
+     "campus": "Sydney",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "117759C"
+    },
+    {
+     "campus": "Sydney (Accounting)",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "117755G"
+    },
+    {
+     "campus": "Online",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "N/A"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-business-administration-3001145/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-business-administration-3001145/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Bachelor of Business Administration",
+   "intlStart": "March, October",
+   "intlDuration": "3 years full-time; 6 years part-time",
+   "intlLocation": "China - TUST",
+   "abbreviation": "BBA",
+   "intlRows": []
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-business-bachelor-of-arts-3207555/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-business-bachelor-of-arts-3207555/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Bachelor of Business, Bachelor of Arts",
+   "intlStart": "Duration",
+   "intlDuration": "4 years full-time",
+   "intlLocation": "Placement",
+   "abbreviation": "BBus, BA",
+   "intlRows": []
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-business-in-hotel-management-3007005/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-business-in-hotel-management-3007005/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Study - Southern Cross University",
+   "intlRows": []
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-clinical-exercise-physiology-3007012/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-clinical-exercise-physiology-3007012/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Bachelor of Clinical Exercise Physiology",
+   "intlStart": "March",
+   "intlDuration": "4 years full-time",
+   "intlLocation": "Gold Coast, Lismore",
+   "abbreviation": "BClinExPhys",
+   "intlRows": [
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "112797D"
+    },
+    {
+     "campus": "Lismore",
+     "periods": "Term 1",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "112797D"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-clinical-sciences-osteopathic-studies-3007162/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-clinical-sciences-osteopathic-studies-3007162/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Bachelor of Clinical Sciences (Osteopathic Studies)",
+   "intlStart": "March",
+   "intlDuration": "3 years full-time",
+   "intlLocation": "Gold Coast",
+   "abbreviation": "BClinSc(OstSt)",
+   "intlRows": [
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "091528C"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-community-welfare-3007268/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-community-welfare-3007268/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Bachelor of Community Welfare",
+   "intlStart": "March, June",
+   "intlDuration": "3 years full-time",
+   "intlLocation": "Gold Coast",
+   "abbreviation": "BComWelf",
+   "intlRows": [
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1, Term 3",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "102202H"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-counselling-3007321/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-counselling-3007321/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Bachelor of Counselling",
+   "intlStart": "March",
+   "intlDuration": "3 years full-time",
+   "intlLocation": "Gold Coast",
+   "abbreviation": "BCouns",
+   "intlRows": [
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "114108G"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-early-childhood-education-3007003/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-early-childhood-education-3007003/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Bachelor of Early Childhood Education",
+   "intlStart": "March, June",
+   "intlDuration": "3 years full-time",
+   "intlLocation": "Gold Coast",
+   "abbreviation": "BECE",
+   "intlRows": [
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1, Term 3",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "110055C"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-education-3007002/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-education-3007002/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Bachelor of Education",
+   "intlStart": "March, June",
+   "intlDuration": "4 years full-time",
+   "intlLocation": "Gold Coast",
+   "abbreviation": "BEd",
+   "intlRows": [
+    {
+     "campus": "Gold Coast (Early Childhood/Primary Specialisation)",
+     "periods": "Term 1, Term 3",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "110583A"
+    },
+    {
+     "campus": "Gold Coast (Primary/Secondary Specialisation)",
+     "periods": "Term 1, Term 3",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "110586J"
+    },
+    {
+     "campus": "Gold Coast (Primary Specialisation)",
+     "periods": "Term 1, Term 3",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "110584M"
+    },
+    {
+     "campus": "Gold Coast (Secondary Specialisation)",
+     "periods": "Term 1, Term 3",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "110585K"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-education-honours-3507292/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-education-honours-3507292/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Bachelor of Education with Honours",
+   "intlStart": "March",
+   "intlDuration": "1 year full-time; 2 years part-time",
+   "intlLocation": "Online",
+   "abbreviation": "BEd(Hons)",
+   "intlRows": [
+    {
+     "campus": "Online",
+     "periods": "Term 1",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "N/A"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-education-primary-bachelor-of-arts-3207022/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-education-primary-bachelor-of-arts-3207022/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Bachelor of Education (Primary), Bachelor of Arts",
+   "intlStart": "Duration",
+   "intlDuration": "4.5 years full-time",
+   "intlLocation": "Placement",
+   "abbreviation": "BEd (Prim), BA",
+   "intlRows": []
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-education-secondary-bachelor-of-arts-3207020/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-education-secondary-bachelor-of-arts-3207020/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Bachelor of Education (Secondary), Bachelor of Arts",
+   "intlStart": "Duration",
+   "intlDuration": "4 years full-time",
+   "intlLocation": "Placement",
+   "abbreviation": "BEd(Sec), BA",
+   "intlRows": []
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-engineering-honours-3508007/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-engineering-honours-3508007/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Bachelor of Engineering (Honours)",
+   "intlStart": "March, June",
+   "intlDuration": "4 years full-time",
+   "intlLocation": "Gold Coast",
+   "abbreviation": "BEng(Hons)",
+   "intlRows": [
+    {
+     "campus": "Gold Coast (Civil Engineering)",
+     "periods": "Term 1, Term 3",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "117760K"
+    },
+    {
+     "campus": "Gold Coast (Mechanical Engineering)",
+     "periods": "Term 1, Term 3",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "117764F"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-engineering-honours-bachelor-of-business-3208002/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-engineering-honours-bachelor-of-business-3208002/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Bachelor of Engineering (Honours), Bachelor of Business",
+   "intlStart": "Duration",
+   "intlDuration": "5 years full-time",
+   "intlLocation": "Placement",
+   "abbreviation": "BEng (Hons), BBus",
+   "intlRows": []
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-exercise-science-and-psychological-science-3207113/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-exercise-science-and-psychological-science-3207113/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Bachelor of Exercise Science and Psychological Science",
+   "intlStart": "January, March",
+   "intlDuration": "4 years full-time",
+   "intlLocation": "Coffs Harbour, Gold Coast",
+   "abbreviation": "BExScPsychSc",
+   "intlRows": [
+    {
+     "campus": "Coffs Harbour",
+     "periods": "Term 1",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "0102160"
+    },
+    {
+     "campus": "Gold Coast",
+     "periods": "Summer Term, Term 1",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "0102160"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-global-hotel-and-tourism-management-3007007/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-global-hotel-and-tourism-management-3007007/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Bachelor of Global Hotel and Tourism Management",
+   "intlStart": "March, June, October",
+   "intlDuration": "3 years full-time",
+   "intlLocation": "Brisbane, Gold Coast, Melbourne, Perth, Sydney",
+   "abbreviation": "BGHTM",
+   "intlRows": [
+    {
+     "campus": "Brisbane",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "120838M"
+    },
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "120838M"
+    },
+    {
+     "campus": "Melbourne",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "120838M"
+    },
+    {
+     "campus": "Perth",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "120838M"
+    },
+    {
+     "campus": "Sydney",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "120838M"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-health-and-human-sciences-honours-3507040/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-health-and-human-sciences-honours-3507040/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Bachelor of Health and Human Sciences (Honours)",
+   "intlStart": "Duration",
+   "intlDuration": "1 year full-time",
+   "intlLocation": "Placement",
+   "abbreviation": "BHlthHumSc(Hons)",
+   "intlRows": []
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-health-science-health-and-lifestyle-3007319/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-health-science-health-and-lifestyle-3007319/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Bachelor of Health Science (Health and Lifestyle)",
+   "intlStart": "March, June",
+   "intlDuration": "3 years full-time",
+   "intlLocation": "Gold Coast",
+   "abbreviation": "BHSc(HlthLifest)",
+   "intlRows": [
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1, Term 3",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "108299A"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-indigenous-knowledge-3009250/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-indigenous-knowledge-3009250/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Bachelor of Indigenous Knowledge",
+   "intlStart": "Duration",
+   "intlDuration": "3 years full-time",
+   "intlLocation": "Placement",
+   "abbreviation": "BIndigK",
+   "intlRows": []
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-indigenous-knowledge-with-honours-3507184/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-indigenous-knowledge-with-honours-3507184/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Bachelor of Indigenous Knowledge with Honours",
+   "intlStart": "Duration",
+   "intlDuration": "1 year full-time",
+   "intlLocation": "Placement",
+   "abbreviation": "BIndigK (Hons)",
+   "intlRows": []
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-information-technology-3007410/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-information-technology-3007410/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Bachelor of Information Technology",
+   "intlStart": "March, June, October",
+   "intlDuration": "3 years full-time; 6 years part-time",
+   "intlLocation": "Brisbane, China - Guangxi UST, Gold Coast, Melbourne, Papua New Guinea - IBSU Port Moresby, Perth, Sydney",
+   "abbreviation": "BInfTech",
+   "intlRows": [
+    {
+     "campus": "Brisbane",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "117765E"
+    },
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "117765E"
+    },
+    {
+     "campus": "China - Guangxi UST",
+     "periods": "Term 1",
+     "fee": "N/A",
+     "cricos": "N/A"
+    },
+    {
+     "campus": "Melbourne",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "117765E"
+    },
+    {
+     "campus": "Papua New Guinea - IBSU Port Moresby",
+     "periods": "Term 1, Term 3",
+     "fee": "N/A",
+     "cricos": "N/A"
+    },
+    {
+     "campus": "Perth",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "117765E"
+    },
+    {
+     "campus": "Sydney",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "117765E"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-information-technology-bachelor-of-business-3207755/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-information-technology-bachelor-of-business-3207755/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Bachelor of Information Technology, Bachelor of Business",
+   "intlStart": "March",
+   "intlDuration": "4 years full-time",
+   "intlLocation": "Brisbane, Gold Coast, Melbourne, Perth, Sydney",
+   "abbreviation": "BInfTech,BBus",
+   "intlRows": [
+    {
+     "campus": "Brisbane (Accounting)",
+     "periods": "Term 1",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "117758D"
+    },
+    {
+     "campus": "Brisbane",
+     "periods": "Term 1",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "117756F"
+    },
+    {
+     "campus": "Gold Coast (Accounting)",
+     "periods": "Term 1",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "117758D"
+    },
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "117756F"
+    },
+    {
+     "campus": "Melbourne (Accounting)",
+     "periods": "Term 1",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "117758D"
+    },
+    {
+     "campus": "Melbourne",
+     "periods": "Term 1",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "117756F"
+    },
+    {
+     "campus": "Perth (Accounting)",
+     "periods": "Term 1",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "117758D"
+    },
+    {
+     "campus": "Perth",
+     "periods": "Term 1",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "117756F"
+    },
+    {
+     "campus": "Sydney",
+     "periods": "Term 1",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "117756F"
+    },
+    {
+     "campus": "Sydney (Accounting)",
+     "periods": "Term 1",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "117758D"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-innovation-with-honours-3508100/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-innovation-with-honours-3508100/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Bachelor of Innovation with Honours",
+   "intlStart": "Duration",
+   "intlDuration": "1 year full-time",
+   "intlLocation": "Placement",
+   "abbreviation": "BInnov(Hons)",
+   "intlRows": []
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-laws-3007001/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-laws-3007001/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Bachelor of Laws",
+   "intlStart": "March, June",
+   "intlDuration": "3 years full-time; 6 years part-time",
+   "intlLocation": "Gold Coast, Online",
+   "abbreviation": "LLB (3 year UG entry)",
+   "intlRows": [
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1, Term 3",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "102591A"
+    },
+    {
+     "campus": "Online",
+     "periods": "Term 1",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "N/A"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-laws-bachelor-of-arts-3207030/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-laws-bachelor-of-arts-3207030/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Bachelor of Laws, Bachelor of Arts",
+   "intlStart": "Duration",
+   "intlDuration": "4 years full-time",
+   "intlLocation": "Placement",
+   "abbreviation": "LLB, BA",
+   "intlRows": []
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-laws-bachelor-of-business-3207455/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-laws-bachelor-of-business-3207455/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Bachelor of Laws, Bachelor of Business",
+   "intlStart": "March, June",
+   "intlDuration": "4 years full-time",
+   "intlLocation": "Gold Coast",
+   "abbreviation": "LLB, BBus",
+   "intlRows": [
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1, Term 3",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "117744K"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-laws-with-honours-3508002/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-laws-with-honours-3508002/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Bachelor of Laws with Honours",
+   "intlStart": "Duration",
+   "intlDuration": "1 year full-time",
+   "intlLocation": "Placement",
+   "abbreviation": "LLB(Hons)",
+   "intlRows": []
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-legal-and-justice-studies-3006110/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-legal-and-justice-studies-3006110/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Bachelor of Legal and Justice Studies",
+   "intlStart": "March",
+   "intlDuration": "3 years full-time; 6 years part-time",
+   "intlLocation": "Online",
+   "abbreviation": "BLJSt",
+   "intlRows": [
+    {
+     "campus": "Online",
+     "periods": "Term 1",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "N/A"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-medical-laboratory-science-3007322/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-medical-laboratory-science-3007322/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Bachelor of Medical Laboratory Science",
+   "intlStart": "Duration",
+   "intlDuration": "4 years full-time",
+   "intlLocation": "Placement",
+   "abbreviation": "BMedLabSc",
+   "intlRows": []
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-midwifery-3007229/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-midwifery-3007229/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Bachelor of Midwifery",
+   "intlStart": "March",
+   "intlDuration": "3 years full-time",
+   "intlLocation": "Coffs Harbour, Gold Coast",
+   "abbreviation": "BMid",
+   "intlRows": [
+    {
+     "campus": "Coffs Harbour",
+     "periods": "Term 1",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "078636G"
+    },
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "078636G"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-nursing-3005105/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-nursing-3005105/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Bachelor of Nursing",
+   "intlStart": "January, March, June",
+   "intlDuration": "3 years full-time",
+   "intlLocation": "Coffs Harbour, Gold Coast, Lismore",
+   "abbreviation": "BN",
+   "intlRows": [
+    {
+     "campus": "Coffs Harbour",
+     "periods": "Summer Term, Term 1, Term 3",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "016165C"
+    },
+    {
+     "campus": "Gold Coast",
+     "periods": "Summer Term, Term 1, Term 3",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "016165C"
+    },
+    {
+     "campus": "Lismore",
+     "periods": "Summer Term, Term 1, Term 3",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "016165C"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-nursing-3007303/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-nursing-3007303/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Bachelor of Nursing",
+   "intlStart": "March, June",
+   "intlDuration": "3 years full-time",
+   "intlLocation": "Coffs Harbour, Gold Coast, Lismore",
+   "abbreviation": "BN(EN)",
+   "intlRows": [
+    {
+     "campus": "Coffs Harbour",
+     "periods": "Term 1",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "093295K"
+    },
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1, Term 3",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "093295K"
+    },
+    {
+     "campus": "Lismore",
+     "periods": "Term 1",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "093295K"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-occupational-therapy-3007224/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-occupational-therapy-3007224/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Bachelor of Occupational Therapy",
+   "intlStart": "March",
+   "intlDuration": "4 years full-time",
+   "intlLocation": "Coffs Harbour, Gold Coast",
+   "abbreviation": "BOccThy",
+   "intlRows": [
+    {
+     "campus": "Coffs Harbour",
+     "periods": "Term 1",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "082680C"
+    },
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "082680C"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-physiotherapy-3007320/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-physiotherapy-3007320/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Bachelor of Physiotherapy",
+   "intlStart": "March",
+   "intlDuration": "4 years full-time",
+   "intlLocation": "Coffs Harbour, Gold Coast",
+   "abbreviation": "BPhty",
+   "intlRows": [
+    {
+     "campus": "Coffs Harbour",
+     "periods": "Term 1",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "117229G"
+    },
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "117229G"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-psychological-science-3007244/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-psychological-science-3007244/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Bachelor of Psychological Science",
+   "intlStart": "March, June",
+   "intlDuration": "3 years full-time; 6 years part-time",
+   "intlLocation": "Coffs Harbour, Gold Coast, Online",
+   "abbreviation": "BPsychSc",
+   "intlRows": [
+    {
+     "campus": "Coffs Harbour",
+     "periods": "Term 1",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "071464B"
+    },
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1, Term 3",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "071464B"
+    },
+    {
+     "campus": "Online",
+     "periods": "Term 1, Term 3",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "N/A"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-psychological-science-bachelor-of-business-3207655/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-psychological-science-bachelor-of-business-3207655/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Study - Southern Cross University",
+   "intlRows": []
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-psychological-science-bachelor-of-laws-3207007/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-psychological-science-bachelor-of-laws-3207007/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Bachelor of Psychological Science, Bachelor of Laws",
+   "intlStart": "Duration",
+   "intlDuration": "5 years full-time",
+   "intlLocation": "Placement",
+   "abbreviation": "BPsychSc, LLB",
+   "intlRows": []
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-psychological-science-with-honours-3507245/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-psychological-science-with-honours-3507245/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Bachelor of Psychological Science with Honours",
+   "intlStart": "March",
+   "intlDuration": "1 year full-time",
+   "intlLocation": "Gold Coast",
+   "abbreviation": "BPsycSc(Hons)",
+   "intlRows": [
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "071465A"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-science-3007420/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-science-3007420/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Bachelor of Science",
+   "intlStart": "March",
+   "intlDuration": "3 years full-time",
+   "intlLocation": "Lismore, National Marine Science Centre Coffs Harbour",
+   "abbreviation": "BSc",
+   "intlRows": [
+    {
+     "campus": "Lismore",
+     "periods": "Term 1",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "117712G"
+    },
+    {
+     "campus": "National Marine Science Centre Coffs Harbour",
+     "periods": "Term 1",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "117712G"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-science-with-honours-3507030/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-science-with-honours-3507030/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Bachelor of Science with Honours",
+   "intlStart": "March, June",
+   "intlDuration": "1 year full-time",
+   "intlLocation": "Lismore, National Marine Science Centre Coffs Harbour",
+   "abbreviation": "BSc(Hons)",
+   "intlRows": [
+    {
+     "campus": "Lismore",
+     "periods": "Term 1, Term 3",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "085420K"
+    },
+    {
+     "campus": "National Marine Science Centre Coffs Harbour",
+     "periods": "Term 1, Term 3",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "085420K"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-social-work-3007316/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-social-work-3007316/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Bachelor of Social Work",
+   "intlStart": "March, June",
+   "intlDuration": "4 years full-time",
+   "intlLocation": "Gold Coast",
+   "abbreviation": "BSW",
+   "intlRows": [
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1, Term 3",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "102204F"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-social-work-honours-3508010/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-social-work-honours-3508010/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Study - Southern Cross University",
+   "intlRows": []
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-speech-pathology-3007306/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-speech-pathology-3007306/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Bachelor of Speech Pathology",
+   "intlStart": "March",
+   "intlDuration": "4 years full-time",
+   "intlLocation": "Coffs Harbour, Gold Coast",
+   "abbreviation": "BSpPath",
+   "intlRows": [
+    {
+     "campus": "Coffs Harbour",
+     "periods": "Term 1",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "085520F"
+    },
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "085520F"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-sport-and-exercise-science-3005113/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-sport-and-exercise-science-3005113/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Bachelor of Sport and Exercise Science",
+   "intlStart": "March",
+   "intlDuration": "3 years full-time",
+   "intlLocation": "Coffs Harbour, Gold Coast, Lismore",
+   "abbreviation": "BSES",
+   "intlRows": [
+    {
+     "campus": "Coffs Harbour",
+     "periods": "Term 1",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "059883F"
+    },
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "059883F"
+    },
+    {
+     "campus": "Lismore",
+     "periods": "Term 1",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "059883F"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-veterinary-medicine-honours-3508006/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-veterinary-medicine-honours-3508006/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Bachelor of Veterinary Medicine (Honours)",
+   "intlStart": "Duration",
+   "intlDuration": "5 years full-time",
+   "intlLocation": "Placement",
+   "abbreviation": "BVetMed(Hons)",
+   "intlRows": []
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/bachelor-of-veterinary-technology-3007400/",
+   "url": "https://www.scu.edu.au/study/courses/bachelor-of-veterinary-technology-3007400/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Bachelor of Veterinary Technology",
+   "intlStart": "March",
+   "intlDuration": "3 years full-time",
+   "intlLocation": "Lismore",
+   "abbreviation": "BVetTech",
+   "intlRows": [
+    {
+     "campus": "Lismore",
+     "periods": "Term 1",
+     "fee": "$37,000 ($4,625 per unit)",
+     "cricos": "115654F"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/diploma-of-business-2127279/",
+   "url": "https://www.scu.edu.au/study/courses/diploma-of-business-2127279/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Diploma of Business",
+   "intlStart": "March, June, October",
+   "intlDuration": "1 year full-time",
+   "intlLocation": "Brisbane, Gold Coast, Melbourne, Perth, Sydney",
+   "abbreviation": "DipBus(SCU College)",
+   "intlRows": [
+    {
+     "campus": "Brisbane",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "079231K"
+    },
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "079231K"
+    },
+    {
+     "campus": "Melbourne",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "079231K"
+    },
+    {
+     "campus": "Perth",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "079231K"
+    },
+    {
+     "campus": "Sydney",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "079231K"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/diploma-of-clinical-and-allied-health-2125170/",
+   "url": "https://www.scu.edu.au/study/courses/diploma-of-clinical-and-allied-health-2125170/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Diploma of Clinical and Allied Health",
+   "intlStart": "March, June",
+   "intlDuration": "1 year full-time",
+   "intlLocation": "Gold Coast",
+   "abbreviation": "DipClinAllHlth",
+   "intlRows": [
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1, Term 3",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "120527D"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/diploma-of-conveyancing-law-and-practice-2125600/",
+   "url": "https://www.scu.edu.au/study/courses/diploma-of-conveyancing-law-and-practice-2125600/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Diploma of Conveyancing (Law and Practice)",
+   "intlStart": "Duration",
+   "intlDuration": "1 year full-time",
+   "intlLocation": "Placement",
+   "abbreviation": "DipConv(Law&Practice)",
+   "intlRows": []
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/diploma-of-education-2125500/",
+   "url": "https://www.scu.edu.au/study/courses/diploma-of-education-2125500/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Diploma of Education",
+   "intlStart": "March, June",
+   "intlDuration": "1 year full-time",
+   "intlLocation": "Gold Coast",
+   "abbreviation": "DipEd",
+   "intlRows": [
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1, Term 3",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "112794G"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/diploma-of-engineering-2125106/",
+   "url": "https://www.scu.edu.au/study/courses/diploma-of-engineering-2125106/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Diploma of Engineering",
+   "intlStart": "March, June",
+   "intlDuration": "1 year full-time",
+   "intlLocation": "Gold Coast",
+   "abbreviation": "DipEng",
+   "intlRows": [
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1, Term 3",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "111853J"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/diploma-of-global-hotel-management-2125260/",
+   "url": "https://www.scu.edu.au/study/courses/diploma-of-global-hotel-management-2125260/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Diploma of Global Hotel Management",
+   "intlStart": "March, June, October",
+   "intlDuration": "1 year full-time",
+   "intlLocation": "Brisbane, Gold Coast, Melbourne, Perth, Sydney",
+   "abbreviation": "DipGblHtlMgmt",
+   "intlRows": [
+    {
+     "campus": "Brisbane",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "120836B"
+    },
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "120836B"
+    },
+    {
+     "campus": "Melbourne",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "120836B"
+    },
+    {
+     "campus": "Perth",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "120836B"
+    },
+    {
+     "campus": "Sydney",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "120836B"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/diploma-of-health-2125150/",
+   "url": "https://www.scu.edu.au/study/courses/diploma-of-health-2125150/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Study - Southern Cross University",
+   "intlRows": []
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/diploma-of-health-and-human-sciences-2125160/",
+   "url": "https://www.scu.edu.au/study/courses/diploma-of-health-and-human-sciences-2125160/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Diploma of Health and Human Sciences",
+   "intlStart": "March, June",
+   "intlDuration": "1 year full-time",
+   "intlLocation": "Gold Coast",
+   "abbreviation": "DipHlthHuSc",
+   "intlRows": [
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1, Term 3",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "120526E"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/diploma-of-hotel-management-2125250/",
+   "url": "https://www.scu.edu.au/study/courses/diploma-of-hotel-management-2125250/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Study - Southern Cross University",
+   "intlRows": []
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/diploma-of-indigenous-knowledge-2125605/",
+   "url": "https://www.scu.edu.au/study/courses/diploma-of-indigenous-knowledge-2125605/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Diploma of Indigenous Knowledge",
+   "intlStart": "Duration",
+   "intlDuration": "1 year full-time",
+   "intlLocation": "Placement",
+   "abbreviation": "DipIndigK",
+   "intlRows": []
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/diploma-of-information-technology-2125350/",
+   "url": "https://www.scu.edu.au/study/courses/diploma-of-information-technology-2125350/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Diploma of Information Technology",
+   "intlStart": "March, June, October",
+   "intlDuration": "1 year full-time",
+   "intlLocation": "Brisbane, Gold Coast, Melbourne, Perth, Sydney",
+   "abbreviation": "DipIT",
+   "intlRows": [
+    {
+     "campus": "Brisbane",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "111518B"
+    },
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "111518B"
+    },
+    {
+     "campus": "Melbourne",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "111518B"
+    },
+    {
+     "campus": "Perth",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "111518B"
+    },
+    {
+     "campus": "Sydney",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "111518B"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/diploma-of-legal-studies-2125107/",
+   "url": "https://www.scu.edu.au/study/courses/diploma-of-legal-studies-2125107/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Diploma of Legal Studies",
+   "intlStart": "March",
+   "intlDuration": "1 year full-time",
+   "intlLocation": "Gold Coast",
+   "abbreviation": "DipLS",
+   "intlRows": [
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "115098G"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/diploma-of-science-2127298/",
+   "url": "https://www.scu.edu.au/study/courses/diploma-of-science-2127298/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Diploma of Science",
+   "intlStart": "March",
+   "intlDuration": "1 year full-time",
+   "intlLocation": "Lismore",
+   "abbreviation": "DipSc",
+   "intlRows": [
+    {
+     "campus": "Lismore",
+     "periods": "Term 1",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "086408J"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/graduate-certificate-in-advanced-naturopathic-medicine-1008440/",
+   "url": "https://www.scu.edu.au/study/courses/graduate-certificate-in-advanced-naturopathic-medicine-1008440/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Study - Southern Cross University",
+   "intlRows": []
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/graduate-certificate-in-business-1007294/",
+   "url": "https://www.scu.edu.au/study/courses/graduate-certificate-in-business-1007294/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Graduate Certificate in Business",
+   "intlStart": "March, June, October",
+   "intlDuration": "0.5 years full-time; 1 year part-time",
+   "intlLocation": "Gold Coast, Melbourne, Perth, Sydney",
+   "abbreviation": "GradCertBus",
+   "intlRows": [
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$13,500 ($3,375 per unit)",
+     "cricos": "082684K"
+    },
+    {
+     "campus": "Melbourne",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$13,500 ($3,375 per unit)",
+     "cricos": "082684K"
+    },
+    {
+     "campus": "Perth",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$13,500 ($3,375 per unit)",
+     "cricos": "082684K"
+    },
+    {
+     "campus": "Sydney",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$13,500 ($3,375 per unit)",
+     "cricos": "082684K"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/graduate-certificate-in-business-1008100/",
+   "url": "https://www.scu.edu.au/study/courses/graduate-certificate-in-business-1008100/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Graduate Certificate in Business",
+   "intlStart": "Duration",
+   "intlDuration": "1 year part-time",
+   "intlLocation": "Placement",
+   "abbreviation": "GradCertBus",
+   "intlRows": []
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/graduate-certificate-in-business-law-1008120/",
+   "url": "https://www.scu.edu.au/study/courses/graduate-certificate-in-business-law-1008120/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Graduate Certificate in Business Law",
+   "intlStart": "January, March, April, June, August, October",
+   "intlDuration": "1 year part-time",
+   "intlLocation": "SCU Online",
+   "abbreviation": "GradCertBusLaw",
+   "intlRows": [
+    {
+     "campus": "SCU Online",
+     "periods": "Summer Term, Term 1, Term 2, Term 3, Term 4, Term 5",
+     "fee": "$13,500 ($3,375 per unit)",
+     "cricos": "N/A"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/graduate-certificate-in-circular-economy-1008150/",
+   "url": "https://www.scu.edu.au/study/courses/graduate-certificate-in-circular-economy-1008150/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Graduate Certificate in Circular Economy",
+   "intlStart": "Duration",
+   "intlDuration": "0.5 years full-time",
+   "intlLocation": "Placement",
+   "abbreviation": "GradCertCircEcon",
+   "intlRows": []
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/graduate-certificate-in-diabetes-education-and-management-1007289/",
+   "url": "https://www.scu.edu.au/study/courses/graduate-certificate-in-diabetes-education-and-management-1007289/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Graduate Certificate in Diabetes Education and Management",
+   "intlStart": "Duration",
+   "intlDuration": "0.5 years full-time",
+   "intlLocation": "Placement",
+   "abbreviation": "GradCertDEM",
+   "intlRows": []
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/graduate-certificate-in-early-childhood-education-leadership-1008253/",
+   "url": "https://www.scu.edu.au/study/courses/graduate-certificate-in-early-childhood-education-leadership-1008253/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Graduate Certificate in Early Childhood Education Leadership",
+   "intlStart": "March",
+   "intlDuration": "0.5 years full-time",
+   "intlLocation": "Gold Coast",
+   "abbreviation": "GradCertECEdLead",
+   "intlRows": [
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1",
+     "fee": "$13,500 ($3,375 per unit)",
+     "cricos": "117713F"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/graduate-certificate-in-education-1008252/",
+   "url": "https://www.scu.edu.au/study/courses/graduate-certificate-in-education-1008252/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Graduate Certificate in Education",
+   "intlStart": "Duration",
+   "intlDuration": "1 year part-time",
+   "intlLocation": "Placement",
+   "abbreviation": "GradCertEd",
+   "intlRows": []
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/graduate-certificate-in-educational-inclusion-and-diversity-1008480/",
+   "url": "https://www.scu.edu.au/study/courses/graduate-certificate-in-educational-inclusion-and-diversity-1008480/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Graduate Certificate in Educational Inclusion and Diversity",
+   "intlStart": "Duration",
+   "intlDuration": "8 months full-time",
+   "intlLocation": "Placement",
+   "abbreviation": "GCEID",
+   "intlRows": []
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/graduate-certificate-in-educational-wellbeing-1008470/",
+   "url": "https://www.scu.edu.au/study/courses/graduate-certificate-in-educational-wellbeing-1008470/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Graduate Certificate in Educational Wellbeing",
+   "intlStart": "Duration",
+   "intlDuration": "8 months full-time",
+   "intlLocation": "Placement",
+   "abbreviation": "GCEW",
+   "intlRows": []
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/graduate-certificate-in-healthcare-leadership-1008108/",
+   "url": "https://www.scu.edu.au/study/courses/graduate-certificate-in-healthcare-leadership-1008108/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Graduate Certificate in Healthcare Leadership",
+   "intlStart": "January, March, April, June, August, October",
+   "intlDuration": "1 year part-time",
+   "intlLocation": "SCU Online",
+   "abbreviation": "GradCertHlthLdr",
+   "intlRows": [
+    {
+     "campus": "SCU Online",
+     "periods": "Summer Term, Term 1, Term 2, Term 3, Term 4, Term 5",
+     "fee": "$13,500 ($3,375 per unit)",
+     "cricos": "N/A"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/graduate-certificate-in-information-technology-1008550/",
+   "url": "https://www.scu.edu.au/study/courses/graduate-certificate-in-information-technology-1008550/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Graduate Certificate in Information Technology",
+   "intlStart": "March",
+   "intlDuration": "0.5 years full-time",
+   "intlLocation": "Brisbane, Gold Coast, Melbourne, Perth, Sydney",
+   "abbreviation": "GradCertInfTech",
+   "intlRows": [
+    {
+     "campus": "Brisbane",
+     "periods": "Term 1",
+     "fee": "$13,500 ($3,375 per unit)",
+     "cricos": "118520G"
+    },
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1",
+     "fee": "$13,500 ($3,375 per unit)",
+     "cricos": "118520G"
+    },
+    {
+     "campus": "Melbourne",
+     "periods": "Term 1",
+     "fee": "$13,500 ($3,375 per unit)",
+     "cricos": "118520G"
+    },
+    {
+     "campus": "Perth",
+     "periods": "Term 1",
+     "fee": "$13,500 ($3,375 per unit)",
+     "cricos": "118520G"
+    },
+    {
+     "campus": "Sydney",
+     "periods": "Term 1",
+     "fee": "$13,500 ($3,375 per unit)",
+     "cricos": "118520G"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/graduate-certificate-in-lifestyle-medicine-1008441/",
+   "url": "https://www.scu.edu.au/study/courses/graduate-certificate-in-lifestyle-medicine-1008441/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Graduate Certificate in Lifestyle Medicine",
+   "intlStart": "March",
+   "intlDuration": "1 year part-time",
+   "intlLocation": "Online",
+   "abbreviation": "GradCertLifestyleMed",
+   "intlRows": [
+    {
+     "campus": "Online",
+     "periods": "Term 1",
+     "fee": "$13,500 ($3,375 per unit)",
+     "cricos": "N/A"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/graduate-certificate-in-management-1008125/",
+   "url": "https://www.scu.edu.au/study/courses/graduate-certificate-in-management-1008125/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Graduate Certificate in Management",
+   "intlStart": "March, June",
+   "intlDuration": "0.5 years full-time; 1 year part-time",
+   "intlLocation": "Online",
+   "abbreviation": "GradCertMgt",
+   "intlRows": [
+    {
+     "campus": "Online",
+     "periods": "Term 1, Term 3",
+     "fee": "$13,500 ($3,375 per unit)",
+     "cricos": "N/A"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/graduate-certificate-in-mental-health-1008133/",
+   "url": "https://www.scu.edu.au/study/courses/graduate-certificate-in-mental-health-1008133/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Graduate Certificate in Mental Health",
+   "intlStart": "January, March, April, June, August, October",
+   "intlDuration": "1 year part-time",
+   "intlLocation": "SCU Online",
+   "abbreviation": "GCMH",
+   "intlRows": [
+    {
+     "campus": "SCU Online",
+     "periods": "Summer Term, Term 1, Term 2, Term 3, Term 4, Term 5",
+     "fee": "$13,500 ($3,375 per unit)",
+     "cricos": "N/A"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/graduate-certificate-in-mental-health-nursing-1008420/",
+   "url": "https://www.scu.edu.au/study/courses/graduate-certificate-in-mental-health-nursing-1008420/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Graduate Certificate in Mental Health Nursing",
+   "intlStart": "Duration",
+   "intlDuration": "8 months full-time",
+   "intlLocation": "Placement",
+   "abbreviation": "GCMHN",
+   "intlRows": []
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/graduate-certificate-in-neurodiversity-1008530/",
+   "url": "https://www.scu.edu.au/study/courses/graduate-certificate-in-neurodiversity-1008530/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Graduate Certificate in Neurodiversity",
+   "intlStart": "March",
+   "intlDuration": "1 year part-time",
+   "intlLocation": "Online",
+   "abbreviation": "GradCertNeurodiv",
+   "intlRows": [
+    {
+     "campus": "Online",
+     "periods": "Term 1",
+     "fee": "$13,500 ($3,375 per unit)",
+     "cricos": "N/A"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/graduate-certificate-in-project-management-1008400/",
+   "url": "https://www.scu.edu.au/study/courses/graduate-certificate-in-project-management-1008400/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Graduate Certificate in Project Management",
+   "intlStart": "January, March, April, June, August, October",
+   "intlDuration": "1 year part-time",
+   "intlLocation": "SCU Online",
+   "abbreviation": "GradCertProjMgt",
+   "intlRows": [
+    {
+     "campus": "SCU Online",
+     "periods": "Summer Term, Term 1, Term 2, Term 3, Term 4, Term 5",
+     "fee": "$13,500 ($3,375 per unit)",
+     "cricos": "N/A"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/graduate-certificate-in-small-business-management-1008130/",
+   "url": "https://www.scu.edu.au/study/courses/graduate-certificate-in-small-business-management-1008130/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Graduate Certificate in Small Business Management",
+   "intlStart": "March",
+   "intlDuration": "1 year part-time",
+   "intlLocation": "Online",
+   "abbreviation": "GradCertSmlBusMgmt",
+   "intlRows": [
+    {
+     "campus": "Online",
+     "periods": "Term 1",
+     "fee": "$13,500 ($3,375 per unit)",
+     "cricos": "N/A"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/graduate-certificate-in-social-sciences-for-social-work-1008520/",
+   "url": "https://www.scu.edu.au/study/courses/graduate-certificate-in-social-sciences-for-social-work-1008520/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Graduate Certificate in Social Sciences for Social Work",
+   "intlStart": "June, October",
+   "intlDuration": "0.5 years full-time",
+   "intlLocation": "Brisbane, Gold Coast, Melbourne, Perth, Sydney",
+   "abbreviation": "GradCertSocScSW",
+   "intlRows": [
+    {
+     "campus": "Brisbane",
+     "periods": "Term 5",
+     "fee": "$13,500 ($3,375 per unit)",
+     "cricos": "117391H"
+    },
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 3, Term 5",
+     "fee": "$13,500 ($3,375 per unit)",
+     "cricos": "117391H"
+    },
+    {
+     "campus": "Melbourne",
+     "periods": "Term 5",
+     "fee": "$13,500 ($3,375 per unit)",
+     "cricos": "117391H"
+    },
+    {
+     "campus": "Perth",
+     "periods": "Term 5",
+     "fee": "$13,500 ($3,375 per unit)",
+     "cricos": "117391H"
+    },
+    {
+     "campus": "Sydney",
+     "periods": "Term 5",
+     "fee": "$13,500 ($3,375 per unit)",
+     "cricos": "117391H"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/graduate-certificate-of-business-in-global-hotel-leadership-1008460/",
+   "url": "https://www.scu.edu.au/study/courses/graduate-certificate-of-business-in-global-hotel-leadership-1008460/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Graduate Certificate of Business in Global Hotel Leadership",
+   "intlStart": "March, June, October",
+   "intlDuration": "0.5 years full-time; 1 year part-time",
+   "intlLocation": "Brisbane, Gold Coast, Melbourne, Perth, Sydney",
+   "abbreviation": "GradCertBusGHL",
+   "intlRows": [
+    {
+     "campus": "Brisbane",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$13,500 ($3,375 per unit)",
+     "cricos": "0101395"
+    },
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$13,500 ($3,375 per unit)",
+     "cricos": "0101395"
+    },
+    {
+     "campus": "Melbourne",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$13,500 ($3,375 per unit)",
+     "cricos": "0101395"
+    },
+    {
+     "campus": "Perth",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$13,500 ($3,375 per unit)",
+     "cricos": "0101395"
+    },
+    {
+     "campus": "Sydney",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$13,500 ($3,375 per unit)",
+     "cricos": "0101395"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/graduate-diploma-in-business-1107295/",
+   "url": "https://www.scu.edu.au/study/courses/graduate-diploma-in-business-1107295/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Graduate Diploma of Business",
+   "intlStart": "March, June, October",
+   "intlDuration": "1 year full-time",
+   "intlLocation": "Brisbane, Gold Coast, Melbourne, Perth, Sydney",
+   "abbreviation": "GradDipBus",
+   "intlRows": [
+    {
+     "campus": "Brisbane",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "081762J"
+    },
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "081762J"
+    },
+    {
+     "campus": "Melbourne",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "081762J"
+    },
+    {
+     "campus": "Perth",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "081762J"
+    },
+    {
+     "campus": "Sydney",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "081762J"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/graduate-diploma-in-business-1108100/",
+   "url": "https://www.scu.edu.au/study/courses/graduate-diploma-in-business-1108100/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Graduate Diploma of Business",
+   "intlStart": "January, March, April, June, August, October",
+   "intlDuration": "2 years part-time",
+   "intlLocation": "SCU Online",
+   "abbreviation": "GradDipBus",
+   "intlRows": [
+    {
+     "campus": "SCU Online",
+     "periods": "Summer Term, Term 1, Term 2, Term 3, Term 4, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "N/A"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/graduate-diploma-in-education-early-childhood-1107425/",
+   "url": "https://www.scu.edu.au/study/courses/graduate-diploma-in-education-early-childhood-1107425/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Graduate Diploma of Education (Early Childhood)",
+   "intlStart": "March, June, October",
+   "intlDuration": "1 year full-time; 2 years part-time",
+   "intlLocation": "Brisbane, Gold Coast, Melbourne, Perth, Sydney",
+   "abbreviation": "GradDipEd(EC)",
+   "intlRows": [
+    {
+     "campus": "Brisbane",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "102984F"
+    },
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "102984F"
+    },
+    {
+     "campus": "Melbourne",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "102984F"
+    },
+    {
+     "campus": "Perth",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "115298K"
+    },
+    {
+     "campus": "Sydney",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "102984F"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/graduate-diploma-of-business-in-global-hotel-leadership-1108430/",
+   "url": "https://www.scu.edu.au/study/courses/graduate-diploma-of-business-in-global-hotel-leadership-1108430/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Graduate Diploma of Business in Global Hotel Leadership",
+   "intlStart": "March, June, October",
+   "intlDuration": "1 year full-time; 2 years part-time",
+   "intlLocation": "Brisbane, Gold Coast, Melbourne, Perth, Sydney",
+   "abbreviation": "GradDipBusGHL",
+   "intlRows": [
+    {
+     "campus": "Brisbane",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "0101394"
+    },
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "0101394"
+    },
+    {
+     "campus": "Melbourne",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "0101394"
+    },
+    {
+     "campus": "Perth",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "0101394"
+    },
+    {
+     "campus": "Sydney",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "0101394"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/graduate-diploma-of-information-technology-1108520/",
+   "url": "https://www.scu.edu.au/study/courses/graduate-diploma-of-information-technology-1108520/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Graduate Diploma of Information Technology",
+   "intlStart": "March, June, October",
+   "intlDuration": "1 year full-time",
+   "intlLocation": "Brisbane, Gold Coast, Melbourne, Perth, Sydney",
+   "abbreviation": "GradDipInfTech",
+   "intlRows": [
+    {
+     "campus": "Brisbane",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "119127H"
+    },
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "119127H"
+    },
+    {
+     "campus": "Melbourne",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "119127H"
+    },
+    {
+     "campus": "Perth",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "119127H"
+    },
+    {
+     "campus": "Sydney",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "119127H"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/graduate-diploma-of-mental-health-1108103/",
+   "url": "https://www.scu.edu.au/study/courses/graduate-diploma-of-mental-health-1108103/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Graduate Diploma of Mental Health",
+   "intlStart": "January, March, April, June, August, October",
+   "intlDuration": "2 years part-time",
+   "intlLocation": "SCU Online",
+   "abbreviation": "GDMH",
+   "intlRows": [
+    {
+     "campus": "SCU Online",
+     "periods": "Summer Term, Term 1, Term 2, Term 3, Term 4, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "N/A"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/graduate-diploma-of-mental-health-nursing-1108132/",
+   "url": "https://www.scu.edu.au/study/courses/graduate-diploma-of-mental-health-nursing-1108132/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Graduate Diploma of Mental Health Nursing",
+   "intlStart": "Duration",
+   "intlDuration": "16 months full-time",
+   "intlLocation": "Placement",
+   "abbreviation": "GDMHN",
+   "intlRows": []
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/graduate-diploma-of-project-management-1108400/",
+   "url": "https://www.scu.edu.au/study/courses/graduate-diploma-of-project-management-1108400/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Graduate Diploma of Project Management",
+   "intlStart": "January, March, April, June, August, October",
+   "intlDuration": "2 years part-time",
+   "intlLocation": "SCU Online",
+   "abbreviation": "GradDipProjMgt",
+   "intlRows": [
+    {
+     "campus": "SCU Online",
+     "periods": "Summer Term, Term 1, Term 2, Term 3, Term 4, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "N/A"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/graduate-diploma-of-teaching-1108004/",
+   "url": "https://www.scu.edu.au/study/courses/graduate-diploma-of-teaching-1108004/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Graduate Diploma of Teaching",
+   "intlStart": "March, June, October",
+   "intlDuration": "1 year full-time",
+   "intlLocation": "Gold Coast, Perth",
+   "abbreviation": "GradDipTeach",
+   "intlRows": [
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "117390J"
+    },
+    {
+     "campus": "Perth",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "117390J"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/master-of-advanced-naturopathic-medicine-1209240/",
+   "url": "https://www.scu.edu.au/study/courses/master-of-advanced-naturopathic-medicine-1209240/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Study - Southern Cross University",
+   "intlRows": []
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/master-of-business-administration-1207290/",
+   "url": "https://www.scu.edu.au/study/courses/master-of-business-administration-1207290/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Master of Business Administration",
+   "intlStart": "March, June, October",
+   "intlDuration": "2 years full-time; 4 years part-time",
+   "intlLocation": "Brisbane, Gold Coast, Melbourne, Perth, Sydney",
+   "abbreviation": "MBA",
+   "intlRows": [
+    {
+     "campus": "Brisbane",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "079662J"
+    },
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "079662J"
+    },
+    {
+     "campus": "Melbourne",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "079662J"
+    },
+    {
+     "campus": "Perth",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "079662J"
+    },
+    {
+     "campus": "Sydney",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "079662J"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/master-of-business-administration-1208100/",
+   "url": "https://www.scu.edu.au/study/courses/master-of-business-administration-1208100/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Master of Business Administration",
+   "intlStart": "January, March, April, June, August, October",
+   "intlDuration": "4 years part-time",
+   "intlLocation": "SCU Online",
+   "abbreviation": "MBA",
+   "intlRows": [
+    {
+     "campus": "SCU Online",
+     "periods": "Summer Term, Term 1, Term 2, Term 3, Term 4, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "N/A"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/master-of-business-in-global-hotel-leadership-1209230/",
+   "url": "https://www.scu.edu.au/study/courses/master-of-business-in-global-hotel-leadership-1209230/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Master of Business in Global Hotel Leadership",
+   "intlStart": "March, June, October",
+   "intlDuration": "2 years full-time",
+   "intlLocation": "Brisbane, Gold Coast, Melbourne, Perth, Sydney",
+   "abbreviation": "MBusGHL",
+   "intlRows": [
+    {
+     "campus": "Brisbane",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "0101393"
+    },
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "0101393"
+    },
+    {
+     "campus": "Melbourne",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "0101393"
+    },
+    {
+     "campus": "Perth",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "0101393"
+    },
+    {
+     "campus": "Sydney",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "0101393"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/master-of-business-law-1209121/",
+   "url": "https://www.scu.edu.au/study/courses/master-of-business-law-1209121/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Master of Business Law",
+   "intlStart": "January, March, April, June, August, October",
+   "intlDuration": "2 years part-time",
+   "intlLocation": "SCU Online",
+   "abbreviation": "MBL",
+   "intlRows": [
+    {
+     "campus": "SCU Online",
+     "periods": "Summer Term, Term 1, Term 2, Term 3, Term 4, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "N/A"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/master-of-construction-practice-1209410/",
+   "url": "https://www.scu.edu.au/study/courses/master-of-construction-practice-1209410/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Master of Construction Practice",
+   "intlStart": "March, October",
+   "intlDuration": "2 years full-time",
+   "intlLocation": "Brisbane, Gold Coast, Melbourne, Perth, Sydney",
+   "abbreviation": "MConPrac",
+   "intlRows": [
+    {
+     "campus": "Brisbane",
+     "periods": "Term 1, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "120706A"
+    },
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "120706A"
+    },
+    {
+     "campus": "Melbourne",
+     "periods": "Term 1, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "120706A"
+    },
+    {
+     "campus": "Perth",
+     "periods": "Term 1, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "120706A"
+    },
+    {
+     "campus": "Sydney",
+     "periods": "Term 1, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "120706A"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/master-of-education-1209200/",
+   "url": "https://www.scu.edu.au/study/courses/master-of-education-1209200/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Master of Education",
+   "intlStart": "January, March, April, June, August, October",
+   "intlDuration": "2 years part-time",
+   "intlLocation": "SCU Online",
+   "abbreviation": "MEd",
+   "intlRows": [
+    {
+     "campus": "SCU Online",
+     "periods": "Summer Term, Term 1, Term 2, Term 3, Term 4, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "N/A"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/master-of-engineering-1209400/",
+   "url": "https://www.scu.edu.au/study/courses/master-of-engineering-1209400/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Master of Engineering",
+   "intlStart": "March, October",
+   "intlDuration": "2 years full-time; 4 years part-time",
+   "intlLocation": "Gold Coast, Melbourne, Perth, Sydney",
+   "abbreviation": "MEng",
+   "intlRows": [
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "112799B"
+    },
+    {
+     "campus": "Melbourne",
+     "periods": "Term 1, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "112799B"
+    },
+    {
+     "campus": "Perth",
+     "periods": "Term 1, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "112799B"
+    },
+    {
+     "campus": "Sydney",
+     "periods": "Term 1, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "112799B"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/master-of-engineering-management-1209100/",
+   "url": "https://www.scu.edu.au/study/courses/master-of-engineering-management-1209100/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Master of Engineering Management",
+   "intlStart": "January, March, April, June, August, October",
+   "intlDuration": "2 years part-time",
+   "intlLocation": "SCU Online",
+   "abbreviation": "MEM",
+   "intlRows": [
+    {
+     "campus": "SCU Online",
+     "periods": "Summer Term, Term 1, Term 2, Term 3, Term 4, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "N/A"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/master-of-healthcare-leadership-1208101/",
+   "url": "https://www.scu.edu.au/study/courses/master-of-healthcare-leadership-1208101/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Master of Healthcare Leadership",
+   "intlStart": "January, March, April, June, August, October",
+   "intlDuration": "3 years part-time",
+   "intlLocation": "SCU Online",
+   "abbreviation": "MHlthLdr",
+   "intlRows": [
+    {
+     "campus": "SCU Online",
+     "periods": "Summer Term, Term 1, Term 2, Term 3, Term 4, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "N/A"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/master-of-information-technology-1209160/",
+   "url": "https://www.scu.edu.au/study/courses/master-of-information-technology-1209160/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Master of Information Technology",
+   "intlStart": "March, June, October",
+   "intlDuration": "2 years full-time; 4 years part-time",
+   "intlLocation": "Brisbane, Gold Coast, Melbourne, Perth, Sydney",
+   "abbreviation": "MInfTech",
+   "intlRows": [
+    {
+     "campus": "Brisbane",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "117757E"
+    },
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "117757E"
+    },
+    {
+     "campus": "Melbourne",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "117757E"
+    },
+    {
+     "campus": "Perth",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "117757E"
+    },
+    {
+     "campus": "Sydney",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "117757E"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/master-of-integrative-medicine-1209310/",
+   "url": "https://www.scu.edu.au/study/courses/master-of-integrative-medicine-1209310/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Master of Integrative Medicine",
+   "intlStart": "March",
+   "intlDuration": "2 years part-time",
+   "intlLocation": "Online",
+   "abbreviation": "MIntegrativeMed",
+   "intlRows": [
+    {
+     "campus": "Online",
+     "periods": "Term 1",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "N/A"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/master-of-lifestyle-medicine-1209300/",
+   "url": "https://www.scu.edu.au/study/courses/master-of-lifestyle-medicine-1209300/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Master of Lifestyle Medicine",
+   "intlStart": "March",
+   "intlDuration": "2 years part-time",
+   "intlLocation": "Online",
+   "abbreviation": "MLifestyleMed",
+   "intlRows": [
+    {
+     "campus": "Online",
+     "periods": "Term 1",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "N/A"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/master-of-management-1209125/",
+   "url": "https://www.scu.edu.au/study/courses/master-of-management-1209125/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Master of Management",
+   "intlStart": "March, June",
+   "intlDuration": "1 year full-time; 2 years part-time",
+   "intlLocation": "Online",
+   "abbreviation": "MMgt",
+   "intlRows": [
+    {
+     "campus": "Online",
+     "periods": "Term 1, Term 3",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "N/A"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/master-of-mental-health-1209130/",
+   "url": "https://www.scu.edu.au/study/courses/master-of-mental-health-1209130/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Master of Mental Health",
+   "intlStart": "January, March, April, June, August, October",
+   "intlDuration": "3 years part-time",
+   "intlLocation": "SCU Online",
+   "abbreviation": "MMH",
+   "intlRows": [
+    {
+     "campus": "SCU Online",
+     "periods": "Summer Term, Term 1, Term 2, Term 3, Term 4, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "N/A"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/master-of-mental-health-nursing-1209132/",
+   "url": "https://www.scu.edu.au/study/courses/master-of-mental-health-nursing-1209132/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Master of Mental Health Nursing",
+   "intlStart": "Duration",
+   "intlDuration": "2 years full-time",
+   "intlLocation": "Placement",
+   "abbreviation": "MMHN",
+   "intlRows": []
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/master-of-naturopathic-medicine-1209350/",
+   "url": "https://www.scu.edu.au/study/courses/master-of-naturopathic-medicine-1209350/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Master of Naturopathic Medicine",
+   "intlStart": "March, June",
+   "intlDuration": "2 years full-time",
+   "intlLocation": "Gold Coast",
+   "abbreviation": "MNatMed",
+   "intlRows": [
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1, Term 3",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "108576G"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/master-of-nursing-graduate-entry-1209320/",
+   "url": "https://www.scu.edu.au/study/courses/master-of-nursing-graduate-entry-1209320/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Master of Nursing (Graduate Entry)",
+   "intlStart": "January, August",
+   "intlDuration": "2 years full-time",
+   "intlLocation": "Coffs Harbour, Gold Coast, Lismore",
+   "abbreviation": "MN",
+   "intlRows": [
+    {
+     "campus": "Coffs Harbour",
+     "periods": "Summer Term",
+     "fee": "$37,000 ($4,625 per unit)",
+     "cricos": "113008H"
+    },
+    {
+     "campus": "Gold Coast",
+     "periods": "Summer Term, Term 4",
+     "fee": "$37,000 ($4,625 per unit)",
+     "cricos": "113008H"
+    },
+    {
+     "campus": "Lismore",
+     "periods": "Summer Term",
+     "fee": "$37,000 ($4,625 per unit)",
+     "cricos": "113008H"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/master-of-osteopathic-medicine-1207235/",
+   "url": "https://www.scu.edu.au/study/courses/master-of-osteopathic-medicine-1207235/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Master of Osteopathic Medicine",
+   "intlStart": "March",
+   "intlDuration": "1.5 years full-time",
+   "intlLocation": "Gold Coast, Lismore",
+   "abbreviation": "MOstMed",
+   "intlRows": [
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "098206J"
+    },
+    {
+     "campus": "Lismore",
+     "periods": "Term 1",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "098206J"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/master-of-professional-psychology-1209250/",
+   "url": "https://www.scu.edu.au/study/courses/master-of-professional-psychology-1209250/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Master of Professional Psychology",
+   "intlStart": "Duration",
+   "intlDuration": "1 year full-time",
+   "intlLocation": "Placement",
+   "abbreviation": "MProfPsych",
+   "intlRows": []
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/master-of-project-management-1208400/",
+   "url": "https://www.scu.edu.au/study/courses/master-of-project-management-1208400/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Master of Project Management",
+   "intlStart": "January, March, April, June, August, October",
+   "intlDuration": "3 years part-time",
+   "intlLocation": "SCU Online",
+   "abbreviation": "MProjMgt",
+   "intlRows": [
+    {
+     "campus": "SCU Online",
+     "periods": "Summer Term, Term 1, Term 2, Term 3, Term 4, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "N/A"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/master-of-social-work-professional-qualifying-1207269/",
+   "url": "https://www.scu.edu.au/study/courses/master-of-social-work-professional-qualifying-1207269/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Master of Social Work (Professional Qualifying)",
+   "intlStart": "March, October",
+   "intlDuration": "2 years full-time",
+   "intlLocation": "Brisbane, Gold Coast, Melbourne, Perth, Sydney",
+   "abbreviation": "MSW(ProfQual)",
+   "intlRows": [
+    {
+     "campus": "Gold Coast",
+     "periods": "Term 1, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "082686G"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/master-of-teaching-1209001/",
+   "url": "https://www.scu.edu.au/study/courses/master-of-teaching-1209001/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Master of Teaching",
+   "intlStart": "March, June, October",
+   "intlDuration": "2 years full-time",
+   "intlLocation": "Brisbane, Gold Coast, Melbourne, Perth, Sydney",
+   "abbreviation": "MTeach",
+   "intlRows": [
+    {
+     "campus": "Brisbane (Early Childhood Specialisation)",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "111196D"
+    },
+    {
+     "campus": "Gold Coast (Early Childhood Specialisation)",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "111196D"
+    },
+    {
+     "campus": "Gold Coast (Primary Specialisation)",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "110588G"
+    },
+    {
+     "campus": "Gold Coast (Secondary Specialisation)",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "110587H"
+    },
+    {
+     "campus": "Melbourne (Early Childhood Specialisation)",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "111196D"
+    },
+    {
+     "campus": "Perth (Early Childhood Specialisation)",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "111196D"
+    },
+    {
+     "campus": "Perth (Primary Specialisation)",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "110588G"
+    },
+    {
+     "campus": "Perth (Secondary Specialisation)",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "110587H"
+    },
+    {
+     "campus": "Sydney (Early Childhood Specialisation)",
+     "periods": "Term 1, Term 3, Term 5",
+     "fee": "$27,000 ($3,375 per unit)",
+     "cricos": "111196D"
+    }
+   ]
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/preparing-for-success-at-scu-program-2307160/",
+   "url": "https://www.scu.edu.au/study/courses/preparing-for-success-at-scu-program-2307160/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Preparing for Success Program",
+   "intlStart": "Duration",
+   "intlDuration": "0.5 years full-time",
+   "intlLocation": "Placement",
+   "abbreviation": "PSP",
+   "intlRows": []
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/professional-certificate-in-health-9501002/",
+   "url": "https://www.scu.edu.au/study/courses/professional-certificate-in-health-9501002/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Study - Southern Cross University",
+   "intlRows": []
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/professional-certificate-in-teaching-mathematics-out-of-field-teachers-9501001/",
+   "url": "https://www.scu.edu.au/study/courses/professional-certificate-in-teaching-mathematics-out-of-field-teachers-9501001/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Study - Southern Cross University",
+   "intlRows": []
+  },
+  {
+   "base": "https://www.scu.edu.au/study/courses/transition-to-uni-2309905/",
+   "url": "https://www.scu.edu.au/study/courses/transition-to-uni-2309905/2027/",
+   "httpStatus": 200,
+   "_v": 2,
+   "name": "Transition to Uni",
+   "intlStart": "Duration",
+   "intlDuration": "0.25 years full-time",
+   "intlLocation": "Placement",
+   "abbreviation": "TU",
+   "intlRows": []
+  }
+ ]
+}

@@ -2636,13 +2636,43 @@
       "permanent": true
     },
     {
-      "source": "/universities/southern-cross-university/courses",
-      "destination": "/universities/southern-cross-university",
+      "source": "/universities/southern-cross-university/courses/scu-mba",
+      "destination": "/universities/southern-cross-university/courses/scu-master-of-business-administration",
       "permanent": true
     },
     {
-      "source": "/universities/southern-cross-university/courses/:path*",
-      "destination": "/universities/southern-cross-university",
+      "source": "/universities/southern-cross-university/courses/scu-bsc-nursing",
+      "destination": "/universities/southern-cross-university/courses/scu-bachelor-of-nursing",
+      "permanent": true
+    },
+    {
+      "source": "/universities/southern-cross-university/courses/scu-bsc-psychology",
+      "destination": "/universities/southern-cross-university/courses/scu-bachelor-of-psychological-science",
+      "permanent": true
+    },
+    {
+      "source": "/universities/southern-cross-university/courses/scu-msc-information-technology",
+      "destination": "/universities/southern-cross-university/courses/scu-master-of-information-technology",
+      "permanent": true
+    },
+    {
+      "source": "/universities/southern-cross-university/courses/scu-beng-civil-engineering",
+      "destination": "/universities/southern-cross-university/courses/scu-bachelor-of-engineering-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/southern-cross-university/courses/scu-beng-mechanical-engineering",
+      "destination": "/universities/southern-cross-university/courses/scu-bachelor-of-engineering-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/southern-cross-university/courses/scu-graduate-certificate-business",
+      "destination": "/universities/southern-cross-university/courses/scu-graduate-certificate-in-business",
+      "permanent": true
+    },
+    {
+      "source": "/universities/southern-cross-university/courses/scu-graduate-diploma-business",
+      "destination": "/universities/southern-cross-university/courses/scu-graduate-diploma-in-business",
       "permanent": true
     },
     {
