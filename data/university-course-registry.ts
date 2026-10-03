@@ -17,6 +17,7 @@ import { ecuCourses as m_edith_cowan_university } from './ecu-courses';
 import { flindersCourses as m_flinders_university } from './flinders-courses';
 import { griffithCourses as m_griffith_university } from './griffith-courses';
 import { heriotWattUniversityDubaiCourses as m_heriot_watt_university_dubai } from './heriot-watt-university-dubai-courses';
+import { jcuBrisbaneCourses as m_jcu_brisbane } from './jcu-brisbane-courses';
 import { kaplanCourses as m_kaplan_business_school } from './kaplan-courses';
 import { kclCourses as m_kings_college_london } from './kcl-courses';
 import { kingstonCourses as m_kingston_university_london } from './kingston-courses';
@@ -145,6 +146,7 @@ const REGISTRY: Record<string, readonly unknown[]> = {
   'flinders-university': m_flinders_university,
   'griffith-university': m_griffith_university,
   'heriot-watt-university-dubai': m_heriot_watt_university_dubai,
+  'jcu-brisbane': m_jcu_brisbane,
   'kaplan-business-school': m_kaplan_business_school,
   'kings-college-london': m_kings_college_london,
   'kingston-university-london': m_kingston_university_london,

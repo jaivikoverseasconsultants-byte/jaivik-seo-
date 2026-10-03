@@ -121,13 +121,18 @@
       "permanent": true
     },
     {
-      "source": "/universities/jcu-brisbane/courses",
-      "destination": "/universities/jcu-brisbane",
+      "source": "/universities/jcu-brisbane/courses/jcu-brisbane-master-of-data-science",
+      "destination": "/universities/jcu-brisbane/courses/jcu-brisbane-master-of-data-science-professional",
       "permanent": true
     },
     {
-      "source": "/universities/jcu-brisbane/courses/:path*",
-      "destination": "/universities/jcu-brisbane",
+      "source": "/universities/jcu-brisbane/courses/jcu-brisbane-master-of-international-hospitality-and-tourism-management",
+      "destination": "/universities/jcu-brisbane/courses/jcu-brisbane-master-of-international-tourism-and-hospitality-management",
+      "permanent": true
+    },
+    {
+      "source": "/universities/jcu-brisbane/courses/jcu-brisbane-bachelor-of-business-tourism-hospitality-and-events",
+      "destination": "/universities/jcu-brisbane/courses/jcu-brisbane-bachelor-of-tourism-hospitality-and-events",
       "permanent": true
     },
     {

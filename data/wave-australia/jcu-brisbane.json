@@ -1,0 +1,693 @@
+{
+ "_sources": {
+  "fees": "https://www.jcu.edu.au/__data/assets/pdf_file/0007/2290282/Tuition-Fees-2026.pdf",
+  "feesPage": "https://www.jcu.edu.au/brisbane/courses/fees",
+  "coursePages": "jcu.edu.au/courses/<course>, <meta name=\"domesticJson\">",
+  "discovery": "KC (coursefinder.ai), discovery only"
+ },
+ "_basis": "2026 fees are based on 8 subjects per year and include the Student Services and Amenities Fee (SSAF); the estimated total is JCU's, for students commencing in 2026",
+ "_crawledOn": "2026-10-02",
+ "schedule": [
+  {
+   "name": "Postgraduate Qualifying Program (PQP)",
+   "subjects": 4,
+   "perSubject": 4566,
+   "annual2026": 36899,
+   "estimatedTotal": 18264
+  },
+  {
+   "name": "Master of Business Administration [2-Year]",
+   "subjects": 16,
+   "perSubject": 4847,
+   "annual2026": 39148,
+   "estimatedTotal": 78296
+  },
+  {
+   "name": "Master of Data Science (Professional)",
+   "subjects": 16,
+   "perSubject": 4749,
+   "annual2026": 38365,
+   "estimatedTotal": 76730
+  },
+  {
+   "name": "Master of Engineering Management",
+   "subjects": 14,
+   "perSubject": 4863,
+   "annual2026": 39280,
+   "estimatedTotal": 78560
+  },
+  {
+   "name": "Master of Information Technology",
+   "subjects": 16,
+   "perSubject": 4704,
+   "annual2026": 38008,
+   "estimatedTotal": 76016
+  },
+  {
+   "name": "Master of International Tourism and Hospitality Management",
+   "subjects": 16,
+   "perSubject": 4847,
+   "annual2026": 39148,
+   "estimatedTotal": 78296
+  },
+  {
+   "name": "Master of Professional Accounting",
+   "subjects": 16,
+   "perSubject": 4847,
+   "annual2026": 39148,
+   "estimatedTotal": 78296
+  },
+  {
+   "name": "Bachelor of Business",
+   "subjects": 24,
+   "perSubject": 4409,
+   "annual2026": 35646,
+   "estimatedTotal": 106938
+  },
+  {
+   "name": "Bachelor of Commerce",
+   "subjects": 24,
+   "perSubject": 4566,
+   "annual2026": 36899,
+   "estimatedTotal": 110697
+  },
+  {
+   "name": "Bachelor of Information Technology",
+   "subjects": 24,
+   "perSubject": 4566,
+   "annual2026": 36899,
+   "estimatedTotal": 110697
+  },
+  {
+   "name": "Bachelor of Tourism, Hospitality & Events",
+   "subjects": 24,
+   "perSubject": 4566,
+   "annual2026": 36899,
+   "estimatedTotal": 110697
+  },
+  {
+   "name": "Master of Education - Master of Business Administration",
+   "subjects": 16,
+   "perSubject": 4847,
+   "annual2026": 39148,
+   "estimatedTotal": 78296
+  },
+  {
+   "name": "Master of Information Technology - Master of Business Administration",
+   "subjects": 16,
+   "perSubject": 4704,
+   "annual2026": 38008,
+   "estimatedTotal": 76016
+  },
+  {
+   "name": "Master of International Tourism and Hospitality Management - Master of Business Administration",
+   "subjects": 16,
+   "perSubject": 4847,
+   "annual2026": 39148,
+   "estimatedTotal": 78296
+  },
+  {
+   "name": "Master of Professional Accounting - Master of Business Administration",
+   "subjects": 16,
+   "perSubject": 4847,
+   "annual2026": 39148,
+   "estimatedTotal": 78296
+  }
+ ],
+ "results": [
+  {
+   "kcName": "Master of Business Administration",
+   "kc": {
+    "Program Name": "Master of Business Administration",
+    "Duration": "24mo",
+    "Intakes": "Jan,May,Sep",
+    "Tuition/yr (AUD)": "39148",
+    "Avg Scholarship (AUD)": "9787",
+    "Initial Deposit (AUD)": "19574"
+   },
+   "major": null,
+   "scheduleLine": {
+    "name": "Master of Business Administration [2-Year]",
+    "subjects": 16,
+    "perSubject": 4847,
+    "annual2026": 39148,
+    "estimatedTotal": 78296
+   },
+   "url": "https://www.jcu.edu.au/courses/master-of-business-administration-2-year",
+   "status": 200,
+   "jcu": {
+    "name": "Master of Business Administration [2-Year]",
+    "courseCode": "121004",
+    "cricos": "107829K",
+    "courseType": "Masters - Coursework",
+    "brisbaneCommencing": "February, May, September",
+    "durationFullTime": "2 years full-time",
+    "internationalFeeOnPage": "$AUD39,148.00",
+    "englishBand": "2"
+   }
+  },
+  {
+   "kcName": "Master of Information Technology",
+   "kc": {
+    "Program Name": "Master of Information Technology",
+    "Duration": "24mo",
+    "Intakes": "Jan,May,Sep",
+    "Tuition/yr (AUD)": "38008",
+    "Avg Scholarship (AUD)": "9502",
+    "Initial Deposit (AUD)": "19004"
+   },
+   "major": null,
+   "scheduleLine": {
+    "name": "Master of Information Technology",
+    "subjects": 16,
+    "perSubject": 4704,
+    "annual2026": 38008,
+    "estimatedTotal": 76016
+   },
+   "url": "https://www.jcu.edu.au/courses/master-of-information-technology",
+   "status": 200,
+   "jcu": {
+    "name": "Master of Information Technology",
+    "courseCode": "113504",
+    "cricos": "084823K",
+    "courseType": "Masters - Coursework",
+    "brisbaneCommencing": "February, May, September",
+    "durationFullTime": "2 years full-time",
+    "internationalFeeOnPage": "$AUD38,008.00",
+    "englishBand": "2"
+   }
+  },
+  {
+   "kcName": "Master of Data Science (Professional)",
+   "kc": {
+    "Program Name": "Master of Data Science (Professional)",
+    "Duration": "24mo",
+    "Intakes": "Jan,Sep",
+    "Tuition/yr (AUD)": "38365",
+    "Avg Scholarship (AUD)": "9591",
+    "Initial Deposit (AUD)": "19183"
+   },
+   "major": null,
+   "scheduleLine": {
+    "name": "Master of Data Science (Professional)",
+    "subjects": 16,
+    "perSubject": 4749,
+    "annual2026": 38365,
+    "estimatedTotal": 76730
+   },
+   "url": "https://www.jcu.edu.au/courses/master-of-data-science-professional",
+   "status": 200,
+   "jcu": {
+    "name": "Master of Data Science (Professional)",
+    "courseCode": "300604",
+    "cricos": "102256E",
+    "courseType": "Masters - Coursework",
+    "brisbaneCommencing": "February, September",
+    "durationFullTime": "2 years full-time",
+    "internationalFeeOnPage": "$AUD38,365.00",
+    "englishBand": "2"
+   }
+  },
+  {
+   "kcName": "Master of Engineering Management",
+   "kc": {
+    "Program Name": "Master of Engineering Management",
+    "Duration": "24mo",
+    "Intakes": "Jan,May,Sep",
+    "Tuition/yr (AUD)": "39280",
+    "Avg Scholarship (AUD)": "9820",
+    "Initial Deposit (AUD)": "19640"
+   },
+   "major": null,
+   "scheduleLine": {
+    "name": "Master of Engineering Management",
+    "subjects": 14,
+    "perSubject": 4863,
+    "annual2026": 39280,
+    "estimatedTotal": 78560
+   },
+   "url": "https://www.jcu.edu.au/courses/master-of-engineering-management",
+   "status": 200,
+   "jcu": {
+    "name": "Master of Engineering Management",
+    "courseCode": "44404",
+    "cricos": "109381K",
+    "courseType": "Masters - Coursework",
+    "brisbaneCommencing": "February, May, September",
+    "durationFullTime": "2 years full-time",
+    "internationalFeeOnPage": "$AUD39,280.00",
+    "englishBand": "2"
+   }
+  },
+  {
+   "kcName": "Bachelor of Business",
+   "kc": {
+    "Program Name": "Bachelor of Business",
+    "Duration": "36mo",
+    "Intakes": "Jan,May,Sep",
+    "Tuition/yr (AUD)": "35646",
+    "Avg Scholarship (AUD)": "8912",
+    "Initial Deposit (AUD)": "17823"
+   },
+   "major": null,
+   "scheduleLine": {
+    "name": "Bachelor of Business",
+    "subjects": 24,
+    "perSubject": 4409,
+    "annual2026": 35646,
+    "estimatedTotal": 106938
+   },
+   "url": "https://www.jcu.edu.au/courses/bachelor-of-business",
+   "status": 200,
+   "jcu": {
+    "name": "Bachelor of Business",
+    "courseCode": "20510",
+    "cricos": "026830C",
+    "courseType": "Bachelors",
+    "brisbaneCommencing": "February, May, September",
+    "durationFullTime": "3 years full-time",
+    "internationalFeeOnPage": "$AUD35,646.00",
+    "englishBand": "1"
+   }
+  },
+  {
+   "kcName": "Bachelor of Information Technology",
+   "kc": {
+    "Program Name": "Bachelor of Information Technology",
+    "Duration": "36mo",
+    "Intakes": "Jan,May,Sep",
+    "Tuition/yr (AUD)": "36899",
+    "Avg Scholarship (AUD)": "9225",
+    "Initial Deposit (AUD)": "18450"
+   },
+   "major": null,
+   "scheduleLine": {
+    "name": "Bachelor of Information Technology",
+    "subjects": 24,
+    "perSubject": 4566,
+    "annual2026": 36899,
+    "estimatedTotal": 110697
+   },
+   "url": "https://www.jcu.edu.au/courses/bachelor-of-information-technology",
+   "status": 200,
+   "jcu": {
+    "name": "Bachelor of Information Technology",
+    "courseCode": "103110",
+    "cricos": "010438J",
+    "courseType": "Bachelors",
+    "brisbaneCommencing": "February, May, September",
+    "durationFullTime": "3 years full-time",
+    "internationalFeeOnPage": "$AUD36,899.00",
+    "englishBand": "1"
+   }
+  },
+  {
+   "kcName": "Master of Education - MBA",
+   "kc": {
+    "Program Name": "Master of Education - MBA",
+    "Duration": "24mo",
+    "Intakes": "Jan,May,Sep",
+    "Tuition/yr (AUD)": "39148",
+    "Avg Scholarship (AUD)": "9787",
+    "Initial Deposit (AUD)": "19574"
+   },
+   "major": null,
+   "scheduleLine": {
+    "name": "Master of Education - Master of Business Administration",
+    "subjects": 16,
+    "perSubject": 4847,
+    "annual2026": 39148,
+    "estimatedTotal": 78296
+   },
+   "url": "https://www.jcu.edu.au/courses/master-of-education-master-of-business-administration",
+   "status": 200,
+   "jcu": {
+    "name": "Master of Education - Master of Business Administration",
+    "courseCode": "117404",
+    "cricos": "096264D",
+    "courseType": "Masters - Coursework",
+    "brisbaneCommencing": "February, May, September",
+    "durationFullTime": "2 years full-time",
+    "internationalFeeOnPage": "$AUD39,148.00",
+    "englishBand": "2"
+   }
+  },
+  {
+   "kcName": "Master of International Hospitality & Tourism Management",
+   "kc": {
+    "Program Name": "Master of International Hospitality & Tourism Management",
+    "Duration": "24mo",
+    "Intakes": "Jan,May,Sep",
+    "Tuition/yr (AUD)": "39148",
+    "Avg Scholarship (AUD)": "9787",
+    "Initial Deposit (AUD)": "19574"
+   },
+   "dropped": "duplicate of \"Master of International Tourism and Hospitality Management\""
+  },
+  {
+   "kcName": "Master of IT (Artificial Intelligence)",
+   "kc": {
+    "Program Name": "Master of IT (Artificial Intelligence)",
+    "Duration": "24mo",
+    "Intakes": "May,Sep,Feb",
+    "Tuition/yr (AUD)": "38008",
+    "Avg Scholarship (AUD)": "9502",
+    "Initial Deposit (AUD)": "19004"
+   },
+   "major": "Artificial Intelligence",
+   "scheduleLine": {
+    "name": "Master of Information Technology",
+    "subjects": 16,
+    "perSubject": 4704,
+    "annual2026": 38008,
+    "estimatedTotal": 76016
+   },
+   "url": "https://www.jcu.edu.au/courses/master-of-information-technology",
+   "status": 200,
+   "jcu": {
+    "name": "Master of Information Technology",
+    "courseCode": "113504",
+    "cricos": "084823K",
+    "courseType": "Masters - Coursework",
+    "brisbaneCommencing": "February, May, September",
+    "durationFullTime": "2 years full-time",
+    "internationalFeeOnPage": "$AUD38,008.00",
+    "englishBand": "2"
+   },
+   "majorConfirmed": true
+  },
+  {
+   "kcName": "Master of Professional Accounting",
+   "kc": {
+    "Program Name": "Master of Professional Accounting",
+    "Duration": "24mo",
+    "Intakes": "Jan,May,Sep",
+    "Tuition/yr (AUD)": "39148",
+    "Avg Scholarship (AUD)": "9787",
+    "Initial Deposit (AUD)": "19574"
+   },
+   "major": null,
+   "scheduleLine": {
+    "name": "Master of Professional Accounting",
+    "subjects": 16,
+    "perSubject": 4847,
+    "annual2026": 39148,
+    "estimatedTotal": 78296
+   },
+   "url": "https://www.jcu.edu.au/courses/master-of-professional-accounting",
+   "status": 200,
+   "jcu": {
+    "name": "Master of Professional Accounting",
+    "courseCode": "109504",
+    "cricos": "081135C",
+    "courseType": "Masters - Coursework",
+    "brisbaneCommencing": "February, May, September",
+    "durationFullTime": "2 years full-time",
+    "internationalFeeOnPage": "$AUD39,148.00",
+    "englishBand": "2"
+   }
+  },
+  {
+   "kcName": "Bachelor of Commerce",
+   "kc": {
+    "Program Name": "Bachelor of Commerce",
+    "Duration": "36mo",
+    "Intakes": "Jan,May,Sep",
+    "Tuition/yr (AUD)": "35824",
+    "Avg Scholarship (AUD)": "8956",
+    "Initial Deposit (AUD)": "17912"
+   },
+   "major": null,
+   "scheduleLine": {
+    "name": "Bachelor of Commerce",
+    "subjects": 24,
+    "perSubject": 4566,
+    "annual2026": 36899,
+    "estimatedTotal": 110697
+   },
+   "url": "https://www.jcu.edu.au/courses/bachelor-of-commerce",
+   "status": 200,
+   "jcu": {
+    "name": "Bachelor of Commerce",
+    "courseCode": "20710",
+    "cricos": "0101385",
+    "courseType": "Bachelors",
+    "brisbaneCommencing": "February, May, September",
+    "durationFullTime": "3 years full-time",
+    "internationalFeeOnPage": "$AUD36,899.00",
+    "englishBand": "1"
+   }
+  },
+  {
+   "kcName": "Bachelor of Tourism Hospitality and Events",
+   "kc": {
+    "Program Name": "Bachelor of Tourism Hospitality and Events",
+    "Duration": "36mo",
+    "Intakes": "Jan,May,Sep",
+    "Tuition/yr (AUD)": "36899",
+    "Avg Scholarship (AUD)": "9225",
+    "Initial Deposit (AUD)": "18450"
+   },
+   "major": null,
+   "scheduleLine": {
+    "name": "Bachelor of Tourism, Hospitality & Events",
+    "subjects": 24,
+    "perSubject": 4566,
+    "annual2026": 36899,
+    "estimatedTotal": 110697
+   },
+   "url": "https://www.jcu.edu.au/courses/bachelor-of-tourism-hospitality-and-events",
+   "status": 200,
+   "jcu": {
+    "name": "Bachelor of Tourism, Hospitality and Events",
+    "courseCode": "109110",
+    "cricos": "0101080",
+    "courseType": "Bachelors",
+    "brisbaneCommencing": "February, May, September",
+    "durationFullTime": "3 years full-time",
+    "internationalFeeOnPage": "$AUD36,899.00",
+    "englishBand": "1"
+   }
+  },
+  {
+   "kcName": "Master of International Tourism and Hospitality Management",
+   "kc": {
+    "Program Name": "Master of International Tourism and Hospitality Management",
+    "Duration": "24mo",
+    "Intakes": "Jan,May,Sep",
+    "Tuition/yr (AUD)": "39148",
+    "Avg Scholarship (AUD)": "9787",
+    "Initial Deposit (AUD)": "19574"
+   },
+   "major": null,
+   "scheduleLine": {
+    "name": "Master of International Tourism and Hospitality Management",
+    "subjects": 16,
+    "perSubject": 4847,
+    "annual2026": 39148,
+    "estimatedTotal": 78296
+   },
+   "url": "https://www.jcu.edu.au/courses/master-of-international-tourism-and-hospitality-management",
+   "status": 200,
+   "jcu": {
+    "name": "Master of International Tourism and Hospitality Management",
+    "courseCode": "109104",
+    "cricos": "081132F",
+    "courseType": "Masters - Coursework",
+    "brisbaneCommencing": "February, May, September",
+    "durationFullTime": "2 years full-time",
+    "internationalFeeOnPage": "$AUD39,148.00",
+    "englishBand": "2"
+   }
+  },
+  {
+   "kcName": "Master of IT (Cyber Security)",
+   "kc": {
+    "Program Name": "Master of IT (Cyber Security)",
+    "Duration": "24mo",
+    "Intakes": "Jan,May,Sep",
+    "Tuition/yr (AUD)": "38008",
+    "Avg Scholarship (AUD)": "9502",
+    "Initial Deposit (AUD)": "19004"
+   },
+   "major": "Cybersecurity",
+   "scheduleLine": {
+    "name": "Master of Information Technology",
+    "subjects": 16,
+    "perSubject": 4704,
+    "annual2026": 38008,
+    "estimatedTotal": 76016
+   },
+   "url": "https://www.jcu.edu.au/courses/master-of-information-technology",
+   "status": 200,
+   "jcu": {
+    "name": "Master of Information Technology",
+    "courseCode": "113504",
+    "cricos": "084823K",
+    "courseType": "Masters - Coursework",
+    "brisbaneCommencing": "February, May, September",
+    "durationFullTime": "2 years full-time",
+    "internationalFeeOnPage": "$AUD38,008.00",
+    "englishBand": "2"
+   },
+   "majorConfirmed": true
+  },
+  {
+   "kcName": "Master of IT (IT Management)",
+   "kc": {
+    "Program Name": "Master of IT (IT Management)",
+    "Duration": "24mo",
+    "Intakes": "Jan,May,Sep",
+    "Tuition/yr (AUD)": "38008",
+    "Avg Scholarship (AUD)": "9502",
+    "Initial Deposit (AUD)": "19004"
+   },
+   "major": "IT Management",
+   "scheduleLine": {
+    "name": "Master of Information Technology",
+    "subjects": 16,
+    "perSubject": 4704,
+    "annual2026": 38008,
+    "estimatedTotal": 76016
+   },
+   "url": "https://www.jcu.edu.au/courses/master-of-information-technology",
+   "status": 200,
+   "jcu": {
+    "name": "Master of Information Technology",
+    "courseCode": "113504",
+    "cricos": "084823K",
+    "courseType": "Masters - Coursework",
+    "brisbaneCommencing": "February, May, September",
+    "durationFullTime": "2 years full-time",
+    "internationalFeeOnPage": "$AUD38,008.00",
+    "englishBand": "2"
+   },
+   "majorConfirmed": true
+  },
+  {
+   "kcName": "Master of IT - MBA",
+   "kc": {
+    "Program Name": "Master of IT - MBA",
+    "Duration": "24mo",
+    "Intakes": "Jan,May,Sep",
+    "Tuition/yr (AUD)": "38008",
+    "Avg Scholarship (AUD)": "9502",
+    "Initial Deposit (AUD)": "19004"
+   },
+   "major": null,
+   "scheduleLine": {
+    "name": "Master of Information Technology - Master of Business Administration",
+    "subjects": 16,
+    "perSubject": 4704,
+    "annual2026": 38008,
+    "estimatedTotal": 76016
+   },
+   "url": "https://www.jcu.edu.au/courses/master-of-information-technology-master-of-business-administration",
+   "status": 200,
+   "jcu": {
+    "name": "Master of Information Technology - Master of Business Administration",
+    "courseCode": "112404",
+    "cricos": "053817J",
+    "courseType": "Masters - Coursework",
+    "brisbaneCommencing": "February, May, September",
+    "durationFullTime": "2 years full-time",
+    "internationalFeeOnPage": "$AUD38,008.00",
+    "englishBand": "2"
+   }
+  },
+  {
+   "kcName": "Master of International Tourism and Hospitality Management - MBA",
+   "kc": {
+    "Program Name": "Master of International Tourism and Hospitality Management - MBA",
+    "Duration": "24mo",
+    "Intakes": "Jan,May,Sep",
+    "Tuition/yr (AUD)": "39148",
+    "Avg Scholarship (AUD)": "9787",
+    "Initial Deposit (AUD)": "19574"
+   },
+   "major": null,
+   "scheduleLine": {
+    "name": "Master of International Tourism and Hospitality Management - Master of Business Administration",
+    "subjects": 16,
+    "perSubject": 4847,
+    "annual2026": 39148,
+    "estimatedTotal": 78296
+   },
+   "url": "https://www.jcu.edu.au/courses/master-of-international-tourism-and-hospitality-management-master-of-business-administration",
+   "status": 200,
+   "jcu": {
+    "name": "Master of International Tourism and Hospitality Management - Master of Business Administration",
+    "courseCode": "112304",
+    "cricos": "063678K",
+    "courseType": "Masters - Coursework",
+    "brisbaneCommencing": "February, May, September",
+    "durationFullTime": "2 years full-time",
+    "internationalFeeOnPage": "$AUD39,148.00",
+    "englishBand": "2"
+   }
+  },
+  {
+   "kcName": "Master of Professional Accounting - MBA",
+   "kc": {
+    "Program Name": "Master of Professional Accounting - MBA",
+    "Duration": "24mo",
+    "Intakes": "Jan,May,Sep",
+    "Tuition/yr (AUD)": "39148",
+    "Avg Scholarship (AUD)": "9787",
+    "Initial Deposit (AUD)": "19574"
+   },
+   "major": null,
+   "scheduleLine": {
+    "name": "Master of Professional Accounting - Master of Business Administration",
+    "subjects": 16,
+    "perSubject": 4847,
+    "annual2026": 39148,
+    "estimatedTotal": 78296
+   },
+   "url": "https://www.jcu.edu.au/courses/master-of-professional-accounting-master-of-business-administration",
+   "status": 200,
+   "jcu": {
+    "name": "Master of Professional Accounting - Master of Business Administration",
+    "courseCode": "112104",
+    "cricos": "055156C",
+    "courseType": "Masters - Coursework",
+    "brisbaneCommencing": "February, May, September",
+    "durationFullTime": "2 years full-time",
+    "internationalFeeOnPage": "$AUD39,148.00",
+    "englishBand": "2"
+   }
+  },
+  {
+   "kcName": "Master of IT (Software Engineering)",
+   "kc": {
+    "Program Name": "Master of IT (Software Engineering)",
+    "Duration": "24mo",
+    "Intakes": "Jan,May,Sep",
+    "Tuition/yr (AUD)": "38008",
+    "Avg Scholarship (AUD)": "9502",
+    "Initial Deposit (AUD)": "19004"
+   },
+   "major": "Software Engineering",
+   "scheduleLine": {
+    "name": "Master of Information Technology",
+    "subjects": 16,
+    "perSubject": 4704,
+    "annual2026": 38008,
+    "estimatedTotal": 76016
+   },
+   "url": "https://www.jcu.edu.au/courses/master-of-information-technology",
+   "status": 200,
+   "jcu": {
+    "name": "Master of Information Technology",
+    "courseCode": "113504",
+    "cricos": "084823K",
+    "courseType": "Masters - Coursework",
+    "brisbaneCommencing": "February, May, September",
+    "durationFullTime": "2 years full-time",
+    "internationalFeeOnPage": "$AUD38,008.00",
+    "englishBand": "2"
+   },
+   "majorConfirmed": true
+  }
+ ]
+}
