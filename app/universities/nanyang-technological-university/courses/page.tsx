@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import { ntuCourses } from '@/data/ntu-courses';
 import { buildMetadata } from '@/lib/seo';
 import JsonLd from '@/components/JsonLd';
-import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
+import { isFeeVerified } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 import { hasPublishedIelts } from '@/lib/english-verification';
 const UNIVERSITY_SLUG = 'nanyang-technological-university';
@@ -18,14 +18,18 @@ const levels = ['All', 'Bachelor', 'Master', 'Doctoral', 'Diploma'];
 
 export default function NtuCoursesPage() {
   const courses = ntuCourses;
-  const avgFee = verifiedAvgFee(courses as any[], 'annualSGD');
+  // NTU's undergraduate non-subsidised fees as its 2026 table states them (single figures and the
+  // lab / non-lab range). An average over the few single-figure rows would misrepresent NTU, so the
+  // page quotes the range instead. Medicine (Tuition Grant only) is left out of it.
+  const _ugNonSub = (courses as any[]).flatMap((c: any) =>
+    c.nonSubsidisedRangeSGD ? c.nonSubsidisedRangeSGD
+      : c.level === 'Bachelor' && isFeeVerified(c) && !c.tuitionGrantOnly && Number(c.annualSGD) > 0 ? [Number(c.annualSGD)] : []);
+  const ugMin = _ugNonSub.length ? Math.min(..._ugNonSub) : 0;
+  const ugMax = _ugNonSub.length ? Math.max(..._ugNonSub) : 0;
+  const ugTuitionGrant = (courses as any[]).find((c: any) => c.nonSubsidisedRangeSGD)?.tuitionGrantSGD ?? 0;
 
-  
+
   const _minIelts = courses.length ? Math.min(...courses.map((c: any) => Number(c.ieltsMin) || 6.0)) : 6.0;
-  const _feeVerifiedCourses = (courses as any[]).filter((c: any) => isFeeVerified(c) && Number(c.annualUSD) > 0);
-  const _avgFeeUSD = _feeVerifiedCourses.length
-    ? Math.round(_feeVerifiedCourses.reduce((s: number, c: any) => s + Number(c.annualUSD), 0) / _feeVerifiedCourses.length)
-    : 0;
   const _intakeSample: string[] = (courses[0] as any)?.intakeMonths ?? ['September'];
   const _intakesText = _intakeSample.join(' and ');
 
@@ -49,12 +53,12 @@ export default function NtuCoursesPage() {
           text: `The minimum IELTS score at Nanyang Technological University is ${_minIelts}+. High-demand programs may require up to 7.0.`,
         },
       },
-      ...(_avgFeeUSD > 0 ? [{
+      ...(ugMin > 0 ? [{
         '@type': 'Question',
-        name: `What is the average tuition fee at Nanyang Technological University?`,
+        name: `What is the undergraduate tuition fee at Nanyang Technological University?`,
         acceptedAnswer: {
           '@type': 'Answer',
-          text: `The average annual tuition at Nanyang Technological University is approximately ${_avgFeeUSD.toLocaleString()} USD (≈ ₹${(_avgFeeUSD * RATE_TO_INR.USD / 100000).toFixed(1)}L INR). Fees vary by program and level.`,
+          text: `For international students starting in 2026, NTU's non-subsidised undergraduate tuition is S$${ugMin.toLocaleString('en-US')}–${ugMax.toLocaleString('en-US')} a year (≈ ₹${(ugMin * RATE_TO_INR.SGD / 100000).toFixed(1)}L–₹${(ugMax * RATE_TO_INR.SGD / 100000).toFixed(1)}L), GST included.${ugTuitionGrant ? ` With the MOE Tuition Grant most programmes cost S$${ugTuitionGrant.toLocaleString('en-US')} a year, but the grant requires a 3-year work commitment in Singapore after graduation.` : ''}`,
         },
       }] : []),
       {
@@ -89,8 +93,8 @@ export default function NtuCoursesPage() {
         '@type': 'Course',
         name: c.name,
         provider: { '@type': 'CollegeOrUniversity', name: 'Nanyang Technological University' },
-        ...(isFeeVerified(c as any) && Number(c.annualUSD) > 0
-          ? { offers: { '@type': 'Offer', price: Number(c.annualUSD), priceCurrency: 'USD' } }
+        ...(isFeeVerified(c as any) && Number(c.annualSGD) > 0
+          ? { offers: { '@type': 'Offer', price: Number(c.annualSGD), priceCurrency: 'SGD' } }
           : {}),
         educationalLevel: c.level ?? c.studyLevel ?? 'Undergraduate',
       },
@@ -112,7 +116,7 @@ export default function NtuCoursesPage() {
 
       <div className="mb-8">
         <h1 className="text-3xl font-bold text-gray-900 mb-2">Nanyang Technological University — All Courses & Programs 2026</h1>
-        <p className="text-gray-500">{courses.length} programs listed · {avgFee > 0 ? `Avg ~S$${Math.round(avgFee / 1000)}K SGD/yr` : 'Fees on request'}</p>
+        <p className="text-gray-500">{courses.length} programs listed{ugMin > 0 ? ` · Undergraduate S$${Math.round(ugMin / 1000)}K–${Math.round(ugMax / 1000)}K/yr (non-subsidised)` : ''}</p>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
@@ -152,7 +156,7 @@ export default function NtuCoursesPage() {
                   </div>
                 </div>
                 <div className="text-right whitespace-nowrap">
-                  <p className="font-bold text-brand-700 text-sm">{isFeeVerified(c as any) && Number(c.annualSGD) > 0 ? `S$${(c.annualSGD / 1000).toFixed(0)}K/yr` : 'Fee on request'}</p>
+                  <p className="font-bold text-brand-700 text-sm">{c.nonSubsidisedRangeSGD ? `S$${(c.nonSubsidisedRangeSGD[0] / 1000).toFixed(1)}K–${(c.nonSubsidisedRangeSGD[1] / 1000).toFixed(1)}K/yr` : isFeeVerified(c as any) && Number(c.annualSGD) > 0 ? `S$${(c.annualSGD / 1000).toFixed(1)}K/yr` : 'Fee on request'}</p>
                   {isFeeVerified(c as any) && <p className="text-xs text-gray-400">≈ ₹{(courseAnnualINRLakh(c as any, 1) ?? '0')}L/yr</p>}
                 </div>
               </div>

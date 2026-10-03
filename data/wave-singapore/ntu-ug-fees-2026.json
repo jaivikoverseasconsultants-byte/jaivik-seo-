@@ -1,0 +1,71 @@
+{
+ "_source": "https://www.ntu.edu.sg/admissions/undergraduate/financial-matters/tuition-fees/accepted-programme-offer-in-2026",
+ "_readOn": "2026-10-02",
+ "_basis": "per academic year, inclusive of 9% GST, \"All Other IS\" columns",
+ "table": [
+  [
+   "Programme of Study",
+   "Subsidised Students",
+   "Non-Subsidised Students 2 (not receiving tuition grant) (inclusive of GST)"
+  ],
+  [
+   "Singapore Citizens 1",
+   "Singapore Permanent Residents 1",
+   "ASEAN IS 2,3 (inclusive of GST)",
+   "All Other IS 2 (inclusive of GST)"
+  ],
+  [
+   "Lab Based",
+   "Non-Lab Based"
+  ],
+  [
+   "All Programmes (except for those listed below)",
+   "$ 8,300",
+   "$ 11,600",
+   "$ 18,050",
+   "$ 21,400",
+   "$ 40,600",
+   "$ 36,350"
+  ],
+  [
+   "Accountancy Accountancy (Sustainability Management and Analytics) Applied computing in Finance Business Accountancy & Business Business & Computing Business & Computer Engineering",
+   "$ 9,500",
+   "$ 13,300",
+   "$ 20,700",
+   "$ 21,800",
+   "$ 45,600"
+  ],
+  [
+   "Medicine",
+   "$ 36,100",
+   "$51,850",
+   "$ 80,850",
+   "$ 91,250",
+   "Not Applicable"
+  ],
+  [
+   "Renaissance Engineering Programme",
+   "$ 13,500",
+   "$ 20,100",
+   "$ 31,000",
+   "$ 32,000",
+   "Not Applicable"
+  ]
+ ],
+ "fees": {
+  "general": {
+   "tuitionGrant": 21400,
+   "nonSubsidisedLab": 40600,
+   "nonSubsidisedNonLab": 36350
+  },
+  "business": {
+   "tuitionGrant": 21800,
+   "nonSubsidised": 45600,
+   "programmes": "Accountancy Accountancy (Sustainability Management and Analytics) Applied computing in Finance Business Accountancy & Business Business & Computing Business & Computer Engineering"
+  },
+  "medicine": {
+   "tuitionGrant": 91250,
+   "nonSubsidised": null
+  }
+ }
+}

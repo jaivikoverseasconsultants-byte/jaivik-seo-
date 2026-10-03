@@ -6,7 +6,7 @@ import { buildMetadata } from '@/lib/seo';
 import LeadForm from '@/components/LeadForm';
 import CourseRichContent from '@/components/CourseRichContent';
 import { feeSentenceINR, feeDisplay, feeDisplayINRLakh, titleFeeFragment } from '@/lib/fee-verification';
-import { courseAnnualINRLakh } from '@/lib/currency';
+import { courseAnnualINRLakh, RATE_TO_INR } from '@/lib/currency';
 import { hasPublishedIelts, publishedScore } from '@/lib/english-verification';
 const UNIVERSITY_SLUG = 'nanyang-technological-university';
 
@@ -57,8 +57,14 @@ export default async function CourseDetailPage(
               {[
                 { label: 'Duration', value: c.duration },
                 { label: 'Level', value: c.level },
-                { label: 'Annual Fee (SGD)', value: feeDisplay(c as any, c.annualSGD, 'SGD') },
-                { label: 'Annual Fee (INR)', value: feeDisplayINRLakh(c as any, (courseAnnualINRLakh(c as any, 1) ?? '0'), '') },
+                // Headline: NTU's non-subsidised fee (no work commitment). Where NTU gives only its
+                // lab / non-lab range and not which one applies, the range is shown as NTU states it.
+                c.nonSubsidisedRangeSGD
+                  ? { label: 'Annual Fee (SGD, non-subsidised)', value: `S$${c.nonSubsidisedRangeSGD[0].toLocaleString('en-US')}–${c.nonSubsidisedRangeSGD[1].toLocaleString('en-US')}` }
+                  : { label: c.tuitionGrantOnly ? 'Annual Fee (SGD, Tuition Grant)' : 'Annual Fee (SGD)', value: feeDisplay(c as any, c.annualSGD, 'SGD') },
+                { label: 'Annual Fee (INR)', value: c.nonSubsidisedRangeSGD
+                  ? `₹${(c.nonSubsidisedRangeSGD[0] * RATE_TO_INR.SGD / 100000).toFixed(1)}L–₹${(c.nonSubsidisedRangeSGD[1] * RATE_TO_INR.SGD / 100000).toFixed(1)}L`
+                  : feeDisplayINRLakh(c as any, (courseAnnualINRLakh(c as any, 1) ?? '0'), '') },
               ].map(s => (
                 <div key={s.label} className="bg-brand-50 rounded-xl p-3 text-center">
                   <p className="text-lg font-bold text-brand-700">{s.value}</p>
@@ -66,6 +72,18 @@ export default async function CourseDetailPage(
                 </div>
               ))}
             </div>
+            {c.tuitionGrantSGD && !c.tuitionGrantOnly && (
+              <p className="text-sm text-gray-700 mt-4 bg-gray-50 rounded-xl p-3">
+                <span className="font-semibold">S${c.tuitionGrantSGD.toLocaleString('en-US')}/yr with Tuition Grant</span>
+                {' '}— requires a 3-year work commitment in Singapore after graduation.
+              </p>
+            )}
+            {c.feeBasis && (
+              <p className="text-xs text-gray-500 mt-3">
+                Fee basis: {c.feeBasis}.
+                {c.feeSourceUrl && <> <a href={c.feeSourceUrl} className="underline" target="_blank" rel="noopener noreferrer">Source: NTU tuition fees</a></>}
+              </p>
+            )}
           </div>
 
           <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
