@@ -2146,13 +2146,93 @@
       "permanent": true
     },
     {
-      "source": "/universities/university-of-western-australia/courses",
-      "destination": "/universities/university-of-western-australia",
+      "source": "/universities/university-of-western-australia/courses/uwa-bsc-economics",
+      "destination": "/universities/university-of-western-australia/courses/uwa-bachelor-of-economics",
       "permanent": true
     },
     {
-      "source": "/universities/university-of-western-australia/courses/:path*",
-      "destination": "/universities/university-of-western-australia",
+      "source": "/universities/university-of-western-australia/courses/uwa-bsc-psychology",
+      "destination": "/universities/university-of-western-australia/courses/uwa-bachelor-of-psychology",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-western-australia/courses/uwa-master-of-business-administration-mba",
+      "destination": "/universities/university-of-western-australia/courses/uwa-master-of-business-administration",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-western-australia/courses/uwa-mba",
+      "destination": "/universities/university-of-western-australia/courses/uwa-master-of-business-administration",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-western-australia/courses/uwa-msc-bioinformatics",
+      "destination": "/universities/university-of-western-australia/courses/uwa-master-of-bioinformatics",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-western-australia/courses/uwa-msc-biotechnology",
+      "destination": "/universities/university-of-western-australia/courses/uwa-master-of-biotechnology",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-western-australia/courses/uwa-msc-business-analytics",
+      "destination": "/universities/university-of-western-australia/courses/uwa-master-of-business-analytics",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-western-australia/courses/uwa-msc-data-science",
+      "destination": "/universities/university-of-western-australia/courses/uwa-master-of-data-science",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-western-australia/courses/uwa-msc-environmental-science",
+      "destination": "/universities/university-of-western-australia/courses/uwa-master-of-environmental-science",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-western-australia/courses/uwa-msc-information-technology",
+      "destination": "/universities/university-of-western-australia/courses/uwa-master-of-information-technology",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-western-australia/courses/uwa-msc-management",
+      "destination": "/universities/university-of-western-australia/courses/uwa-master-of-management",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-western-australia/courses/uwa-msc-marine-biology",
+      "destination": "/universities/university-of-western-australia/courses/uwa-master-of-marine-biology",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-western-australia/courses/uwa-msc-marketing",
+      "destination": "/universities/university-of-western-australia/courses/uwa-master-of-marketing",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-western-australia/courses/uwa-msc-physics",
+      "destination": "/universities/university-of-western-australia/courses/uwa-master-of-physics",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-western-australia/courses/uwa-msc-public-policy",
+      "destination": "/universities/university-of-western-australia/courses/uwa-master-of-public-policy",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-western-australia/courses/uwa-master-of-engineering",
+      "destination": "/universities/university-of-western-australia/courses/uwa-master-of-professional-engineering",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-western-australia/courses/uwa-bachelor-of-nursing",
+      "destination": "/universities/university-of-western-australia/courses/uwa-bachelor-of-nursing-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-western-australia/courses/uwa-bsc-nursing",
+      "destination": "/universities/university-of-western-australia/courses/uwa-bachelor-of-nursing-honours",
       "permanent": true
     },
     {
