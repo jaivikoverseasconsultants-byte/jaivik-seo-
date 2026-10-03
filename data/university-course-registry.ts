@@ -22,6 +22,7 @@ import { jcuBrisbaneCourses as m_jcu_brisbane } from './jcu-brisbane-courses';
 import { kaplanCourses as m_kaplan_business_school } from './kaplan-courses';
 import { kclCourses as m_kings_college_london } from './kcl-courses';
 import { kingstonCourses as m_kingston_university_london } from './kingston-courses';
+import { laTrobeUniversityCourses as m_la_trobe_university } from './la-trobe-university-courses';
 import { leedsBeckettCourses as m_leeds_beckett_university } from './leeds-beckett-courses';
 import { leidenUniversityCourses as m_leiden_university } from './leiden-university-courses';
 import { ljmuCourses as m_liverpool_john_moores_university } from './ljmu-courses';
@@ -152,6 +153,7 @@ const REGISTRY: Record<string, readonly unknown[]> = {
   'kaplan-business-school': m_kaplan_business_school,
   'kings-college-london': m_kings_college_london,
   'kingston-university-london': m_kingston_university_london,
+  'la-trobe-university': m_la_trobe_university,
   'leeds-beckett-university': m_leeds_beckett_university,
   'leiden-university': m_leiden_university,
   'liverpool-john-moores-university': m_liverpool_john_moores_university,

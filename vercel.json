@@ -1706,13 +1706,93 @@
       "permanent": true
     },
     {
-      "source": "/universities/la-trobe-university/courses",
-      "destination": "/universities/la-trobe-university",
+      "source": "/universities/la-trobe-university/courses/latrobe-bachelor-of-engineering-civil",
+      "destination": "/universities/la-trobe-university/courses/latrobe-bachelor-of-civil-engineering-honours",
       "permanent": true
     },
     {
-      "source": "/universities/la-trobe-university/courses/:path*",
-      "destination": "/universities/la-trobe-university",
+      "source": "/universities/la-trobe-university/courses/latrobe-bachelor-of-laws-llb",
+      "destination": "/universities/la-trobe-university/courses/latrobe-bachelor-of-laws-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/la-trobe-university/courses/latrobe-bachelor-of-laws-and-arts",
+      "destination": "/universities/la-trobe-university/courses/latrobe-bachelor-of-laws-honours-bachelor-of-arts",
+      "permanent": true
+    },
+    {
+      "source": "/universities/la-trobe-university/courses/latrobe-bachelor-of-occupational-therapy",
+      "destination": "/universities/la-trobe-university/courses/latrobe-bachelor-of-occupational-therapy-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/la-trobe-university/courses/latrobe-bachelor-of-paramedic-practice",
+      "destination": "/universities/la-trobe-university/courses/latrobe-bachelor-of-paramedic-practice-with-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/la-trobe-university/courses/latrobe-bachelor-of-physiotherapy",
+      "destination": "/universities/la-trobe-university/courses/latrobe-bachelor-of-physiotherapy-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/la-trobe-university/courses/latrobe-bachelor-of-podiatric-practice",
+      "destination": "/universities/la-trobe-university/courses/latrobe-bachelor-of-podiatry-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/la-trobe-university/courses/latrobe-bachelor-of-social-work",
+      "destination": "/universities/la-trobe-university/courses/latrobe-bachelor-of-social-work-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/la-trobe-university/courses/latrobe-bachelor-of-speech-pathology",
+      "destination": "/universities/la-trobe-university/courses/latrobe-bachelor-of-speech-pathology-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/la-trobe-university/courses/latrobe-bachelor-of-nutrition",
+      "destination": "/universities/la-trobe-university/courses/latrobe-bachelor-of-food-and-nutrition",
+      "permanent": true
+    },
+    {
+      "source": "/universities/la-trobe-university/courses/latrobe-bachelor-of-criminology-and-criminal-justice",
+      "destination": "/universities/la-trobe-university/courses/latrobe-bachelor-of-criminology",
+      "permanent": true
+    },
+    {
+      "source": "/universities/la-trobe-university/courses/latrobe-bachelor-of-business-accounting",
+      "destination": "/universities/la-trobe-university/courses/latrobe-bachelor-of-accounting",
+      "permanent": true
+    },
+    {
+      "source": "/universities/la-trobe-university/courses/latrobe-bachelor-of-business-finance",
+      "destination": "/universities/la-trobe-university/courses/latrobe-bachelor-of-business",
+      "permanent": true
+    },
+    {
+      "source": "/universities/la-trobe-university/courses/latrobe-bachelor-of-business-human-resource-management",
+      "destination": "/universities/la-trobe-university/courses/latrobe-bachelor-of-business",
+      "permanent": true
+    },
+    {
+      "source": "/universities/la-trobe-university/courses/latrobe-bachelor-of-business-management",
+      "destination": "/universities/la-trobe-university/courses/latrobe-bachelor-of-business",
+      "permanent": true
+    },
+    {
+      "source": "/universities/la-trobe-university/courses/latrobe-bachelor-of-business-marketing",
+      "destination": "/universities/la-trobe-university/courses/latrobe-bachelor-of-business",
+      "permanent": true
+    },
+    {
+      "source": "/universities/la-trobe-university/courses/latrobe-bachelor-of-education-primary",
+      "destination": "/universities/la-trobe-university/courses/latrobe-bachelor-of-education",
+      "permanent": true
+    },
+    {
+      "source": "/universities/la-trobe-university/courses/latrobe-bachelor-of-education-secondary",
+      "destination": "/universities/la-trobe-university/courses/latrobe-bachelor-of-education",
       "permanent": true
     },
     {
