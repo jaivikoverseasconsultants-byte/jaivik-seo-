@@ -10,6 +10,7 @@ import { bmouthCourses as m_bournemouth_university } from './bmouth-courses';
 import { bondUniversityCourses as m_bond_university } from './bond-university-courses';
 import { cduCourses as m_charles_darwin_university } from './cdu-courses';
 import { coventryCourses as m_coventry_university } from './coventry-courses';
+import { cquCoursesReal as m_cquniversity } from './cqu-courses-real';
 import { dalCourses as m_dalhousie_university } from './dal-courses';
 import { deakinCoursesReal as m_deakin_university } from './deakin-courses-real';
 import { demontfortCourses as m_de_montfort_university } from './demontfort-courses';
@@ -146,6 +147,7 @@ const REGISTRY: Record<string, readonly unknown[]> = {
   'bournemouth-university': m_bournemouth_university,
   'charles-darwin-university': m_charles_darwin_university,
   'coventry-university': m_coventry_university,
+  'cquniversity': m_cquniversity,
   'dalhousie-university': m_dalhousie_university,
   'de-montfort-university': m_de_montfort_university,
   'deakin-university': m_deakin_university,

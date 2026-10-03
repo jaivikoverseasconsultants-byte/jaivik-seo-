@@ -151,13 +151,58 @@
       "permanent": true
     },
     {
-      "source": "/universities/cquniversity/courses",
-      "destination": "/universities/cquniversity",
+      "source": "/universities/cquniversity/courses/cqu-bachelor-of-business-accounting",
+      "destination": "/universities/cquniversity/courses/cqu-bachelor-of-business",
       "permanent": true
     },
     {
-      "source": "/universities/cquniversity/courses/:path*",
-      "destination": "/universities/cquniversity",
+      "source": "/universities/cquniversity/courses/cqu-bachelor-of-business-human-resource-management",
+      "destination": "/universities/cquniversity/courses/cqu-bachelor-of-business",
+      "permanent": true
+    },
+    {
+      "source": "/universities/cquniversity/courses/cqu-bachelor-of-business-management",
+      "destination": "/universities/cquniversity/courses/cqu-bachelor-of-business",
+      "permanent": true
+    },
+    {
+      "source": "/universities/cquniversity/courses/cqu-bachelor-of-business-marketing",
+      "destination": "/universities/cquniversity/courses/cqu-bachelor-of-business",
+      "permanent": true
+    },
+    {
+      "source": "/universities/cquniversity/courses/cqu-master-of-engineering-electrical",
+      "destination": "/universities/cquniversity/courses/cqu-master-of-engineering",
+      "permanent": true
+    },
+    {
+      "source": "/universities/cquniversity/courses/cqu-master-of-engineering-mechanical",
+      "destination": "/universities/cquniversity/courses/cqu-master-of-engineering",
+      "permanent": true
+    },
+    {
+      "source": "/universities/cquniversity/courses/cqu-master-of-civil-engineering",
+      "destination": "/universities/cquniversity/courses/cqu-master-of-engineering",
+      "permanent": true
+    },
+    {
+      "source": "/universities/cquniversity/courses/cqu-bachelor-of-sport-and-exercise-science",
+      "destination": "/universities/cquniversity/courses/cqu-bachelor-of-exercise-and-sport-sciences",
+      "permanent": true
+    },
+    {
+      "source": "/universities/cquniversity/courses/cqu-bachelor-of-public-health",
+      "destination": "/universities/cquniversity/courses/cqu-bachelor-of-public-health-specialisation",
+      "permanent": true
+    },
+    {
+      "source": "/universities/cquniversity/courses/cqu-master-of-business-administration",
+      "destination": "/universities/cquniversity/courses/cqu-master-of-business-administration-global",
+      "permanent": true
+    },
+    {
+      "source": "/universities/cquniversity/courses/cqu-master-of-social-work",
+      "destination": "/universities/cquniversity/courses/cqu-master-of-social-work-qualifying",
       "permanent": true
     },
     {
