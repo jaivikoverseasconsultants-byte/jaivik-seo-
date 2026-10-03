@@ -2341,13 +2341,223 @@
       "permanent": true
     },
     {
-      "source": "/universities/deakin-university/courses",
-      "destination": "/universities/deakin-university",
+      "source": "/universities/deakin-university/courses/deakin-bachelor-of-arts",
+      "destination": "/universities/deakin-university/courses/deakin-bachelor-arts",
       "permanent": true
     },
     {
-      "source": "/universities/deakin-university/courses/:path*",
-      "destination": "/universities/deakin-university",
+      "source": "/universities/deakin-university/courses/deakin-bachelor-of-biomedical-science",
+      "destination": "/universities/deakin-university/courses/deakin-bachelor-biomedical-science",
+      "permanent": true
+    },
+    {
+      "source": "/universities/deakin-university/courses/deakin-bachelor-of-business",
+      "destination": "/universities/deakin-university/courses/deakin-bachelor-business",
+      "permanent": true
+    },
+    {
+      "source": "/universities/deakin-university/courses/deakin-bachelor-of-commerce",
+      "destination": "/universities/deakin-university/courses/deakin-bachelor-commerce",
+      "permanent": true
+    },
+    {
+      "source": "/universities/deakin-university/courses/deakin-bachelor-of-criminology",
+      "destination": "/universities/deakin-university/courses/deakin-bachelor-criminology",
+      "permanent": true
+    },
+    {
+      "source": "/universities/deakin-university/courses/deakin-bachelor-of-education-primary",
+      "destination": "/universities/deakin-university/courses/deakin-bachelor-education-primary",
+      "permanent": true
+    },
+    {
+      "source": "/universities/deakin-university/courses/deakin-bachelor-of-exercise-and-sport-science",
+      "destination": "/universities/deakin-university/courses/deakin-bachelor-exercise-and-sport-science",
+      "permanent": true
+    },
+    {
+      "source": "/universities/deakin-university/courses/deakin-bachelor-of-health-sciences",
+      "destination": "/universities/deakin-university/courses/deakin-bachelor-health-sciences",
+      "permanent": true
+    },
+    {
+      "source": "/universities/deakin-university/courses/deakin-bachelor-of-information-technology",
+      "destination": "/universities/deakin-university/courses/deakin-bachelor-information-technology",
+      "permanent": true
+    },
+    {
+      "source": "/universities/deakin-university/courses/deakin-bachelor-of-international-studies",
+      "destination": "/universities/deakin-university/courses/deakin-bachelor-international-studies",
+      "permanent": true
+    },
+    {
+      "source": "/universities/deakin-university/courses/deakin-bachelor-of-laws",
+      "destination": "/universities/deakin-university/courses/deakin-bachelor-laws",
+      "permanent": true
+    },
+    {
+      "source": "/universities/deakin-university/courses/deakin-bachelor-of-nursing",
+      "destination": "/universities/deakin-university/courses/deakin-bachelor-nursing",
+      "permanent": true
+    },
+    {
+      "source": "/universities/deakin-university/courses/deakin-bachelor-of-nutrition-science",
+      "destination": "/universities/deakin-university/courses/deakin-bachelor-nutrition-science",
+      "permanent": true
+    },
+    {
+      "source": "/universities/deakin-university/courses/deakin-bachelor-of-property-and-real-estate",
+      "destination": "/universities/deakin-university/courses/deakin-bachelor-property-and-real-estate",
+      "permanent": true
+    },
+    {
+      "source": "/universities/deakin-university/courses/deakin-bachelor-of-science",
+      "destination": "/universities/deakin-university/courses/deakin-bachelor-science",
+      "permanent": true
+    },
+    {
+      "source": "/universities/deakin-university/courses/deakin-bachelor-of-social-work",
+      "destination": "/universities/deakin-university/courses/deakin-bachelor-social-work",
+      "permanent": true
+    },
+    {
+      "source": "/universities/deakin-university/courses/deakin-master-of-cyber-security",
+      "destination": "/universities/deakin-university/courses/deakin-master-cyber-security",
+      "permanent": true
+    },
+    {
+      "source": "/universities/deakin-university/courses/deakin-master-of-data-science",
+      "destination": "/universities/deakin-university/courses/deakin-master-data-science",
+      "permanent": true
+    },
+    {
+      "source": "/universities/deakin-university/courses/deakin-master-of-finance",
+      "destination": "/universities/deakin-university/courses/deakin-master-finance",
+      "permanent": true
+    },
+    {
+      "source": "/universities/deakin-university/courses/deakin-master-of-information-technology",
+      "destination": "/universities/deakin-university/courses/deakin-master-information-technology",
+      "permanent": true
+    },
+    {
+      "source": "/universities/deakin-university/courses/deakin-master-of-professional-accounting",
+      "destination": "/universities/deakin-university/courses/deakin-master-professional-accounting",
+      "permanent": true
+    },
+    {
+      "source": "/universities/deakin-university/courses/deakin-master-of-public-health",
+      "destination": "/universities/deakin-university/courses/deakin-master-public-health",
+      "permanent": true
+    },
+    {
+      "source": "/universities/deakin-university/courses/deakin-bsc-computer-science",
+      "destination": "/universities/deakin-university/courses/deakin-bachelor-computer-science",
+      "permanent": true
+    },
+    {
+      "source": "/universities/deakin-university/courses/deakin-bsc-data-science",
+      "destination": "/universities/deakin-university/courses/deakin-bachelor-data-science",
+      "permanent": true
+    },
+    {
+      "source": "/universities/deakin-university/courses/deakin-bsc-nursing",
+      "destination": "/universities/deakin-university/courses/deakin-bachelor-nursing",
+      "permanent": true
+    },
+    {
+      "source": "/universities/deakin-university/courses/deakin-msc-business-analytics",
+      "destination": "/universities/deakin-university/courses/deakin-master-business-analytics",
+      "permanent": true
+    },
+    {
+      "source": "/universities/deakin-university/courses/deakin-msc-data-science",
+      "destination": "/universities/deakin-university/courses/deakin-master-data-science",
+      "permanent": true
+    },
+    {
+      "source": "/universities/deakin-university/courses/deakin-msc-finance",
+      "destination": "/universities/deakin-university/courses/deakin-master-finance",
+      "permanent": true
+    },
+    {
+      "source": "/universities/deakin-university/courses/deakin-msc-information-technology",
+      "destination": "/universities/deakin-university/courses/deakin-master-information-technology",
+      "permanent": true
+    },
+    {
+      "source": "/universities/deakin-university/courses/deakin-bachelor-of-engineering-civil-honours",
+      "destination": "/universities/deakin-university/courses/deakin-bachelor-engineering-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/deakin-university/courses/deakin-bachelor-of-engineering-electrical-and-electronics-honours",
+      "destination": "/universities/deakin-university/courses/deakin-bachelor-engineering-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/deakin-university/courses/deakin-bachelor-of-engineering-mechanical-honours",
+      "destination": "/universities/deakin-university/courses/deakin-bachelor-engineering-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/deakin-university/courses/deakin-beng-civil-engineering",
+      "destination": "/universities/deakin-university/courses/deakin-bachelor-engineering-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/deakin-university/courses/deakin-beng-electrical-engineering",
+      "destination": "/universities/deakin-university/courses/deakin-bachelor-engineering-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/deakin-university/courses/deakin-beng-mechanical-engineering",
+      "destination": "/universities/deakin-university/courses/deakin-bachelor-engineering-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/deakin-university/courses/deakin-bachelor-of-engineering-software-honours",
+      "destination": "/universities/deakin-university/courses/deakin-bachelor-software-engineering-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/deakin-university/courses/deakin-bsc-software-engineering",
+      "destination": "/universities/deakin-university/courses/deakin-bachelor-software-engineering-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/deakin-university/courses/deakin-master-of-engineering",
+      "destination": "/universities/deakin-university/courses/deakin-master-engineering-professional",
+      "permanent": true
+    },
+    {
+      "source": "/universities/deakin-university/courses/deakin-master-of-professional-engineering-civil",
+      "destination": "/universities/deakin-university/courses/deakin-master-engineering-professional",
+      "permanent": true
+    },
+    {
+      "source": "/universities/deakin-university/courses/deakin-master-of-professional-engineering-electrical",
+      "destination": "/universities/deakin-university/courses/deakin-master-engineering-professional",
+      "permanent": true
+    },
+    {
+      "source": "/universities/deakin-university/courses/deakin-master-of-professional-engineering-mechanical",
+      "destination": "/universities/deakin-university/courses/deakin-master-engineering-professional",
+      "permanent": true
+    },
+    {
+      "source": "/universities/deakin-university/courses/deakin-master-of-engineering-management",
+      "destination": "/universities/deakin-university/courses/deakin-master-engineering-management-professional",
+      "permanent": true
+    },
+    {
+      "source": "/universities/deakin-university/courses/deakin-bsc-psychology",
+      "destination": "/universities/deakin-university/courses/deakin-bachelor-psychological-science",
+      "permanent": true
+    },
+    {
+      "source": "/universities/deakin-university/courses/deakin-bachelor-of-psychology-honours",
+      "destination": "/universities/deakin-university/courses/deakin-bachelor-psychological-science-honours",
       "permanent": true
     },
     {
