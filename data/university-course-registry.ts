@@ -7,6 +7,7 @@ import { astonCourses as m_aston_university } from './aston-courses';
 import { anuCourses as m_australian_national_university } from './anu-courses';
 import { bocconiUniversityCourses as m_bocconi_university } from './bocconi-university-courses';
 import { bmouthCourses as m_bournemouth_university } from './bmouth-courses';
+import { bondUniversityCourses as m_bond_university } from './bond-university-courses';
 import { cduCourses as m_charles_darwin_university } from './cdu-courses';
 import { coventryCourses as m_coventry_university } from './coventry-courses';
 import { dalCourses as m_dalhousie_university } from './dal-courses';
@@ -135,6 +136,7 @@ const REGISTRY: Record<string, readonly unknown[]> = {
   'aston-university': m_aston_university,
   'australian-national-university': m_australian_national_university,
   'bocconi-university': m_bocconi_university,
+  'bond-university': m_bond_university,
   'bournemouth-university': m_bournemouth_university,
   'charles-darwin-university': m_charles_darwin_university,
   'coventry-university': m_coventry_university,

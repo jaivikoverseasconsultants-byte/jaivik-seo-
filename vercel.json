@@ -146,13 +146,33 @@
       "permanent": true
     },
     {
-      "source": "/universities/bond-university/courses",
-      "destination": "/universities/bond-university",
+      "source": "/universities/bond-university/courses/bond-mba",
+      "destination": "/universities/bond-university/courses/bond-master-of-business-administration",
       "permanent": true
     },
     {
-      "source": "/universities/bond-university/courses/:path*",
-      "destination": "/universities/bond-university",
+      "source": "/universities/bond-university/courses/bond-msc-finance",
+      "destination": "/universities/bond-university/courses/bond-master-of-finance",
+      "permanent": true
+    },
+    {
+      "source": "/universities/bond-university/courses/bond-msc-data-analytics",
+      "destination": "/universities/bond-university/courses/bond-master-of-data-analytics",
+      "permanent": true
+    },
+    {
+      "source": "/universities/bond-university/courses/bond-msc-marketing",
+      "destination": "/universities/bond-university/courses/bond-master-of-marketing",
+      "permanent": true
+    },
+    {
+      "source": "/universities/bond-university/courses/bond-msc-project-management",
+      "destination": "/universities/bond-university/courses/bond-master-of-project-management",
+      "permanent": true
+    },
+    {
+      "source": "/universities/bond-university/courses/bond-bsc-psychology",
+      "destination": "/universities/bond-university/courses/bond-bachelor-of-psychological-science",
       "permanent": true
     },
     {
