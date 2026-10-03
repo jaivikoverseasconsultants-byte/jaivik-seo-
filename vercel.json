@@ -5494,6 +5494,61 @@
       "source": "/united-arab-emirates-under-15-lakh",
       "destination": "/united-arab-emirates-under-20-lakh",
       "permanent": true
+    },
+    {
+      "source": "/usa-under-25-lakh",
+      "destination": "/usa-under-20-lakh",
+      "permanent": true
+    },
+    {
+      "source": "/germany-under-15-lakh",
+      "destination": "/germany-under-10-lakh",
+      "permanent": true
+    },
+    {
+      "source": "/germany-under-20-lakh",
+      "destination": "/germany-under-10-lakh",
+      "permanent": true
+    },
+    {
+      "source": "/germany-under-25-lakh",
+      "destination": "/germany-under-10-lakh",
+      "permanent": true
+    },
+    {
+      "source": "/denmark-under-25-lakh",
+      "destination": "/denmark-under-20-lakh",
+      "permanent": true
+    },
+    {
+      "source": "/sweden-under-20-lakh",
+      "destination": "/sweden-under-15-lakh",
+      "permanent": true
+    },
+    {
+      "source": "/sweden-under-25-lakh",
+      "destination": "/sweden-under-15-lakh",
+      "permanent": true
+    },
+    {
+      "source": "/finland-under-20-lakh",
+      "destination": "/finland-under-15-lakh",
+      "permanent": true
+    },
+    {
+      "source": "/finland-under-25-lakh",
+      "destination": "/finland-under-15-lakh",
+      "permanent": true
+    },
+    {
+      "source": "/italy-under-20-lakh",
+      "destination": "/italy-under-15-lakh",
+      "permanent": true
+    },
+    {
+      "source": "/italy-under-25-lakh",
+      "destination": "/italy-under-15-lakh",
+      "permanent": true
     }
   ]
 }

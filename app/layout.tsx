@@ -3,6 +3,7 @@ import Script from 'next/script';
 import { Inter } from 'next/font/google';
 import './globals.css';
 import Navbar from '@/components/Navbar';
+import { getCountryHubs } from '@/lib/site-hubs';
 import Footer from '@/components/Footer';
 import ExitIntentPopup from '@/components/ExitIntentPopup';
 import NoRightClick from '@/components/NoRightClick';
@@ -60,7 +61,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </Script>
 
         <AuthProvider>
-          <Navbar />
+          <Navbar countries={getCountryHubs()} />
           <main className="min-h-screen">
             {children}
           </main>

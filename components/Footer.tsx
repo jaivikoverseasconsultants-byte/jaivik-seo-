@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import WhyJaivik from '@/components/WhyJaivik';
+import { getCountryHubs } from '@/lib/site-hubs';
 
 export default function Footer() {
   return (
@@ -37,9 +38,10 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-semibold mb-3">Top Destinations</h3>
             <ul className="space-y-2 text-sm">
-              {['USA', 'UK', 'Canada', 'Australia', 'Germany', 'Ireland', 'Singapore', 'New Zealand', 'France', 'Netherlands', 'Sweden', 'UAE', 'Denmark', 'Italy', 'Spain'].map(c => (
+              {/* from lib/site-hubs.ts, so every country hub is linked from every page */}
+              {getCountryHubs().map(({ name: c, slug }) => (
                 <li key={c}>
-                  <Link href={`/universities/country/${c.toLowerCase().replace(' ', '-')}`}
+                  <Link href={`/universities/country/${slug}`}
                     className="hover:text-white transition-colors">
                     Study in {c}
                   </Link>

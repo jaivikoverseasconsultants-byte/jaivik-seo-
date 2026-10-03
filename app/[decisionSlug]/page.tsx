@@ -2,7 +2,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import { buildMetadata } from '@/lib/seo';
-import { getAllRealCourses, type RealCourseEntry } from '@/data/university-course-registry';
+import type { RealCourseEntry } from '@/data/university-course-registry';
 import { getUniversityBySlug } from '@/data/universities';
 import JsonLd from '@/components/JsonLd';
 import VerifiedBy from '@/components/VerifiedBy';
@@ -16,6 +16,10 @@ import {
 import CountrySubjectComparisonPage from '@/components/CountrySubjectComparisonPage';
 import { courseAnnualINRLakh } from '@/lib/currency';
 import { hasPublishedIelts } from '@/lib/english-verification';
+import {
+  COUNTRY_FLAGS, CHEAPEST_COUNTRY_SLUGS, PSW_COUNTRY_SLUGS,
+  getCheapestCourses, getBudgetHub, getBudgetHubs, getBudgetHubsForCountry, type BudgetHub,
+} from '@/lib/site-hubs';
 
 // Root-level dynamic segment handling TWO distinct decision-hub URL shapes,
 // merged into a single route. Next.js App Router's static export does not
@@ -27,66 +31,28 @@ import { hasPublishedIelts } from '@/lib/english-verification';
 // both "/cheapest-universities-uk" and "/uk-under-20-lakh" are parsed here
 // from one generic slug param instead.
 
-const CHEAPEST_COUNTRY_SLUGS: Record<string, string> = {
-  UK: 'uk', Australia: 'australia', Canada: 'canada', 'New Zealand': 'new-zealand',
-  Netherlands: 'netherlands', Ireland: 'ireland', USA: 'usa', Germany: 'germany',
-  Denmark: 'denmark', Sweden: 'sweden', Finland: 'finland', Singapore: 'singapore',
-  'United Arab Emirates': 'united-arab-emirates',
-};
 const CHEAPEST_SLUG_TO_COUNTRY = Object.fromEntries(Object.entries(CHEAPEST_COUNTRY_SLUGS).map(([c, s]) => [`cheapest-universities-${s}`, c]));
 
-const BUDGET_COUNTRY_SLUGS: Record<string, string> = {
-  UK: 'uk', Australia: 'australia', Canada: 'canada', Ireland: 'ireland',
-  Netherlands: 'netherlands', 'New Zealand': 'new-zealand', USA: 'usa',
-  Germany: 'germany', Denmark: 'denmark', Sweden: 'sweden', Finland: 'finland',
-  Singapore: 'singapore', 'United Arab Emirates': 'united-arab-emirates', Italy: 'italy',
-};
-const BUDGET_SLUG_TO_COUNTRY = Object.fromEntries(Object.entries(BUDGET_COUNTRY_SLUGS).map(([c, s]) => [s, c]));
-
-const PSW_COUNTRY_SLUGS: Record<string, string> = {
-  Canada: 'canada', Australia: 'australia', UK: 'uk', Ireland: 'ireland',
-  Germany: 'germany', 'New Zealand': 'new-zealand',
-};
-
-const COUNTRY_FLAGS: Record<string, string> = {
-  UK: '🇬🇧', Australia: '🇦🇺', Canada: '🇨🇦', Ireland: '🇮🇪', Netherlands: '🇳🇱',
-  'New Zealand': '🇳🇿', USA: '🇺🇸', Germany: '🇩🇪', Denmark: '🇩🇰', Sweden: '🇸🇪',
-  Finland: '🇫🇮', Singapore: '🇸🇬', 'United Arab Emirates': '🇦🇪', Italy: '🇮🇹',
-};
-
-const BANDS = [10, 15, 20, 25];
-const MIN_MATCHES = 15;
 const CHEAPEST_ROWS_SHOWN = 50;
 const BUDGET_ROWS_SHOWN = 60;
 
 type Parsed =
   | { kind: 'cheapest'; country: string }
-  | { kind: 'budget'; country: string; band: number }
+  | { kind: 'budget'; hub: BudgetHub }
   | { kind: 'country-subject-compare'; slug: string };
 
 function parseSlug(slug: string): Parsed | null {
   if (CHEAPEST_SLUG_TO_COUNTRY[slug]) {
     return { kind: 'cheapest', country: CHEAPEST_SLUG_TO_COUNTRY[slug] };
   }
-  const m = slug.match(/^(.+)-under-(\d+)-lakh$/);
-  if (m) {
-    const country = BUDGET_SLUG_TO_COUNTRY[m[1]];
-    const band = parseInt(m[2], 10);
-    if (country && BANDS.includes(band)) return { kind: 'budget', country, band };
-  }
+  // Only budget hubs that get a page (lib/site-hubs.ts): a band that adds too few courses over the
+  // band below is not built, and its old URL 301s to that lower band in vercel.json.
+  const hub = getBudgetHub(slug);
+  if (hub) return { kind: 'budget', hub };
   if (parseCountrySubjectSlug(slug)) {
     return { kind: 'country-subject-compare', slug };
   }
   return null;
-}
-
-function getCheapestCourses(country: string): RealCourseEntry[] {
-  return getAllRealCourses().filter(c => c.country === country && c.annualINR > 0).sort((a, b) => a.annualINR - b.annualINR);
-}
-function getBudgetCourses(country: string, band: number): RealCourseEntry[] {
-  return getAllRealCourses()
-    .filter(c => c.country === country && c.annualINR > 0 && c.annualINR <= band * 100000)
-    .sort((a, b) => a.annualINR - b.annualINR);
 }
 
 export async function generateStaticParams() {
@@ -94,12 +60,8 @@ export async function generateStaticParams() {
   for (const slug of Object.keys(CHEAPEST_SLUG_TO_COUNTRY)) {
     params.push({ decisionSlug: slug });
   }
-  for (const [country, countrySlug] of Object.entries(BUDGET_COUNTRY_SLUGS)) {
-    for (const band of BANDS) {
-      if (getBudgetCourses(country, band).length >= MIN_MATCHES) {
-        params.push({ decisionSlug: `${countrySlug}-under-${band}-lakh` });
-      }
-    }
+  for (const hub of getBudgetHubs()) {
+    params.push({ decisionSlug: hub.slug });
   }
   for (const c of getAllCountrySubjectComparisons()) {
     params.push({ decisionSlug: c.slug });
@@ -123,12 +85,14 @@ export async function generateMetadata({ params }: { params: Promise<{ decisionS
   }
 
   if (parsed.kind === 'budget') {
-    const matches = getBudgetCourses(parsed.country, parsed.band);
+    const { hub } = parsed;
+    const range = hub.lowerBand ? `₹${hub.lowerBand}–${hub.band} lakh` : `up to ₹${hub.band} lakh`;
+    const unis = new Set(hub.inBand.map(c => c.universitySlug)).size;
     return buildMetadata({
-      title: `Study in ${parsed.country} Under ₹${parsed.band} Lakh — Real Course List`,
-      description: `${matches.length} real courses in ${parsed.country} costing ₹${parsed.band} lakh per year or less, sorted cheapest first, with direct links to every course. Real data, crawled from each university's own course pages.`,
+      title: `Study in ${hub.country} Under ₹${hub.band} Lakh — Real Course List`,
+      description: `${hub.inBand.length} courses in ${hub.country} at ${unis} universit${unis === 1 ? 'y' : 'ies'} with annual tuition ${range}${hub.lowerBand ? ` — the options that open up above ₹${hub.lowerBand} lakh` : ''}, of ${hub.total.length} under ₹${hub.band} lakh in all. Fees in INR, from each university's own course pages.`,
       path: `/${decisionSlug}`,
-      keywords: [`study in ${parsed.country} under ${parsed.band} lakh`, `${parsed.country} courses under budget for Indian students`, `cheap courses in ${parsed.country} for Indian students`],
+      keywords: [`study in ${hub.country} under ${hub.band} lakh`, `${hub.country} courses under budget for Indian students`, `cheap courses in ${hub.country} for Indian students`],
     });
   }
 
@@ -160,9 +124,7 @@ export default async function DecisionSlugPage({ params }: { params: Promise<{ d
     return <CountrySubjectComparisonPage data={compareData} />;
   }
 
-  const matches = getBudgetCourses(parsed.country, parsed.band);
-  if (matches.length < MIN_MATCHES) notFound();
-  return <BudgetView country={parsed.country} band={parsed.band} matches={matches} />;
+  return <BudgetView hub={parsed.hub} />;
 }
 
 function CheapestView({ country }: { country: string }) {
@@ -173,10 +135,7 @@ function CheapestView({ country }: { country: string }) {
   const medianLakh = courses.length ? (courseAnnualINRLakh(courses[Math.floor(courses.length / 2)] as any, 1) ?? '0') : null;
 
   // Sideways cross-links to related decision hubs for the same country
-  const budgetCountrySlug = BUDGET_COUNTRY_SLUGS[country];
-  const budgetBands = budgetCountrySlug
-    ? BANDS.filter(b => getBudgetCourses(country, b).length >= MIN_MATCHES)
-    : [];
+  const budgetHubs = getBudgetHubsForCountry(country);
   const pswHubSlug = PSW_COUNTRY_SLUGS[country];
   const subjectPillars = getPillarsWithCoverageInCountry(country);
 
@@ -258,17 +217,17 @@ function CheapestView({ country }: { country: string }) {
         </div>
       </div>
 
-      {(budgetBands.length > 0 || pswHubSlug) && (
+      {(budgetHubs.length > 0 || pswHubSlug) && (
         <div className="mt-6 bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
           <h2 className="text-lg font-bold text-gray-900 mb-3">Related Real Course Lists for {country}</h2>
           <div className="flex flex-wrap gap-2">
-            {budgetBands.map(b => (
+            {budgetHubs.map(h => (
               <Link
-                key={b}
-                href={`/${budgetCountrySlug}-under-${b}-lakh`}
+                key={h.slug}
+                href={`/${h.slug}`}
                 className="text-xs font-semibold bg-brand-50 text-brand-700 px-3 py-2 rounded-full hover:bg-brand-100 transition-colors"
               >
-                Study in {country} Under ₹{b}L →
+                Study in {country} Under ₹{h.band}L →
               </Link>
             ))}
             {pswHubSlug && (
@@ -332,29 +291,56 @@ function CheapestView({ country }: { country: string }) {
   );
 }
 
-function BudgetView({ country, band, matches }: { country: string; band: number; matches: RealCourseEntry[] }) {
-  const countrySlug = BUDGET_COUNTRY_SLUGS[country];
-  const shown = matches.slice(0, BUDGET_ROWS_SHOWN);
-  const otherBands = BANDS.filter(b => b !== band && getBudgetCourses(country, b).length >= MIN_MATCHES);
-
-  // Sideways cross-links to related decision hubs for the same country
+// Each budget page leads with what its band ADDS — courses priced above the next lower band that has
+// a page — so the 10/15/20/25 lakh pages for one country are no longer nested copies of one table.
+// Every figure in the copy below is computed from that slice of real course data.
+function BudgetView({ hub }: { hub: BudgetHub }) {
+  const { country, band, lowerBand, total, inBand } = hub;
+  const shown = inBand.slice(0, BUDGET_ROWS_SHOWN);
+  const otherHubs = getBudgetHubsForCountry(country).filter(h => h.slug !== hub.slug);
+  const lowerHub = otherHubs.find(h => h.band === lowerBand);
   const cheapestHubSlug = CHEAPEST_COUNTRY_SLUGS[country];
   const pswHubSlug = PSW_COUNTRY_SLUGS[country];
   const subjectPillars = getPillarsWithCoverageInCountry(country);
 
+  const uniName = (slug: string) => getUniversityBySlug(slug)?.name ?? slug;
+  const lakh = (c: RealCourseEntry) => courseAnnualINRLakh(c as any, 1) ?? '0';
+  const range = lowerBand ? `₹${lowerBand}–${band} lakh` : `up to ₹${band} lakh`;
+
+  // Universities in this band, most courses first, and those with nothing cheaper on this site.
+  const byUni = new Map<string, number>();
+  for (const c of inBand) byUni.set(c.universitySlug, (byUni.get(c.universitySlug) ?? 0) + 1);
+  const unis = Array.from(byUni.entries()).sort((a, b) => b[1] - a[1]);
+  const cheaperUnis = new Set(total.filter(c => c.annualINR <= lowerBand * 100000).map(c => c.universitySlug));
+  const firstAppear = unis.filter(([u]) => !cheaperUnis.has(u)).map(([u]) => uniName(u));
+  const ug = inBand.filter(c => /under|bachelor/i.test(`${c.studyLevel} ${c.level}`)).length;
+  const pg = inBand.filter(c => /post|master|mba|phd|doctor/i.test(`${c.studyLevel} ${c.level}`)).length;
+  const other = inBand.length - ug - pg;
+  const median = inBand[Math.floor(inBand.length / 2)];
+  const top = unis.slice(0, 5).map(([u, n]) => `${uniName(u)} (${n})`).join(', ');
+  const levelLine = ug || pg
+    ? `${ug} undergraduate and ${pg} postgraduate${other > 0 ? `, plus ${other} other (diplomas, pathways, certificates)` : ''}`
+    : null;
+  const moreUnis = firstAppear.length - 4;
+
   const faqs = [
+    lowerBand
+      ? {
+          q: `What does a ₹${band} lakh budget get you in ${country} that ₹${lowerBand} lakh does not?`,
+          a: `${inBand.length} more courses, priced between ₹${lowerBand} and ₹${band} lakh a year${firstAppear.length ? `, including the first options on this site at ${firstAppear.slice(0, 4).join(', ')}${moreUnis > 0 ? ` and ${moreUnis} other universit${moreUnis === 1 ? 'y' : 'ies'}` : ''}` : ''}. That takes the total under ₹${band} lakh to ${total.length} courses.`,
+        }
+      : {
+          q: `What is the cheapest way to study in ${country}?`,
+          a: `The cheapest course on this site is ${shown[0].name} at ${uniName(shown[0].universitySlug)}, at about ₹${lakh(shown[0])} lakh a year in tuition. ${inBand.length} courses in ${country} cost ₹${band} lakh a year or less.`,
+        },
     {
-      q: `Can I study in ${country} under ₹${band} lakh per year?`,
-      a: `Yes — ${matches.length} real courses in ${country} on this site have an annual tuition fee of ₹${band} lakh or less. The cheapest is ${shown[0].name} at ${getUniversityBySlug(shown[0].universitySlug)?.name ?? shown[0].universitySlug}, at approximately ₹${(courseAnnualINRLakh(shown[0] as any, 1) ?? '0')} lakh per year. See the full list below — every row links to the real course page for exact, current fees.`,
+      q: `Which universities in ${country} have courses ${lowerBand ? `between ₹${lowerBand} and ₹${band} lakh` : `under ₹${band} lakh`}?`,
+      a: `${unis.length} universit${unis.length === 1 ? 'y has' : 'ies have'} courses in this range on this site. Most courses: ${top}.`,
     },
-    {
-      q: `Does ₹${band} lakh include living costs in ${country}?`,
-      a: `No — the fees shown are tuition only, as published by each university. Living costs (accommodation, food, transport), visa fees, and health insurance are additional and vary by city. Check this site's cost of living guides for a city-by-city breakdown before finalising your budget.`,
-    },
-    {
-      q: `What kind of courses in ${country} cost under ₹${band} lakh?`,
-      a: `The list below is real, unfiltered course data — it spans different levels (bachelor's, master's, diploma) and specialisations, not a curated "budget" category. Lower fees are often found at public universities or in shorter/more focused programmes. Check each course's own page for its level and duration before shortlisting.`,
-    },
+    ...(levelLine ? [{
+      q: `Are the ${range} courses in ${country} mostly bachelor's or master's?`,
+      a: `Of the ${inBand.length}, ${levelLine}. The median annual fee in this range is about ₹${lakh(median)} lakh.`,
+    }] : []),
   ];
 
   const faqSchema = {
@@ -368,9 +354,10 @@ function BudgetView({ country, band, matches }: { country: string; band: number;
     <div className="max-w-7xl mx-auto px-4 py-10">
       <JsonLd data={faqSchema} />
 
-      <div className="flex items-center gap-2 text-gray-400 text-xs mb-6">
+      <div className="flex items-center gap-2 text-gray-400 text-xs mb-6 flex-wrap">
         <Link href="/" className="hover:text-brand-700">Home</Link> /
-        <span>{country} Under ₹{band} Lakh</span>
+        <Link href={`/universities/country/${hub.countryHubSlug}`} className="hover:text-brand-700">Study in {country}</Link> /
+        <span>Under ₹{band} Lakh</span>
       </div>
 
       <div className="mb-8">
@@ -378,27 +365,47 @@ function BudgetView({ country, band, matches }: { country: string; band: number;
           {COUNTRY_FLAGS[country] ?? ''} Study in {country} Under ₹{band} Lakh — Real Course List
         </h1>
         <p className="text-gray-600 max-w-3xl">
-          {matches.length} real courses in {country} costing ₹{band} lakh per year or less, sorted cheapest first — crawled directly
-          from each university&apos;s own course pages, with a direct link to every course&apos;s full page.
-          {matches.length > BUDGET_ROWS_SHOWN ? ` Showing the cheapest ${BUDGET_ROWS_SHOWN}.` : ''}
+          {lowerBand ? (
+            <>
+              {total.length} courses in {country} cost ₹{band} lakh a year or less. This page lists the {inBand.length} priced
+              between ₹{lowerBand} and ₹{band} lakh, which are the options a ₹{band} lakh budget adds.{' '}
+              {lowerHub && <>The {total.length - inBand.length} cheaper ones are on the <Link href={`/${lowerHub.slug}`} className="text-brand-700 underline">under ₹{lowerBand} lakh</Link> page.</>}
+            </>
+          ) : (
+            <>{inBand.length} courses in {country} cost ₹{band} lakh a year or less, the lowest tuition on this site for {country}, sorted cheapest first.</>
+          )}
+          {inBand.length > BUDGET_ROWS_SHOWN ? ` Showing the cheapest ${BUDGET_ROWS_SHOWN}.` : ''} Fees are tuition only, converted to INR from each university&apos;s own course page.
         </p>
-        {otherBands.length > 0 && (
+        {otherHubs.length > 0 && (
           <div className="flex flex-wrap gap-2 mt-4">
             <span className="text-xs text-gray-500 mt-1.5">Other budgets:</span>
-            {otherBands.map(b => (
+            {otherHubs.map(h => (
               <Link
-                key={b}
-                href={`/${countrySlug}-under-${b}-lakh`}
+                key={h.slug}
+                href={`/${h.slug}`}
                 className="text-xs font-semibold bg-brand-50 text-brand-700 px-3 py-1.5 rounded-full hover:bg-brand-100 transition-colors"
               >
-                Under ₹{b}L
+                Under ₹{h.band}L
               </Link>
             ))}
           </div>
         )}
       </div>
 
+      <div className="mb-6 bg-brand-50 rounded-2xl p-6">
+        <h2 className="text-lg font-bold text-gray-900 mb-3">What the {range} band looks like in {country}</h2>
+        <ul className="text-sm text-gray-700 space-y-1.5 list-disc pl-5">
+          <li>{inBand.length} courses at {unis.length} universit{unis.length === 1 ? 'y' : 'ies'}, from ₹{lakh(inBand[0])} to ₹{lakh(inBand[inBand.length - 1])} lakh a year (median ₹{lakh(median)} lakh).</li>
+          {levelLine && <li>{levelLine[0].toUpperCase() + levelLine.slice(1)}.</li>}
+          {lowerBand > 0 && (firstAppear.length
+            ? <li>First options on this site at {firstAppear.slice(0, 6).join(', ')}{firstAppear.length > 6 ? ` and ${firstAppear.length - 6} more` : ''}: none of their courses here cost ₹{lowerBand} lakh or less.</li>
+            : <li>Every university here also has cheaper courses under ₹{lowerBand} lakh, so this band adds more courses at the same universities rather than new universities.</li>)}
+          <li>That is {Math.round((inBand.length / total.length) * 100)}% of the {total.length} courses under ₹{band} lakh{lowerBand ? `; the other ${total.length - inBand.length} cost ₹${lowerBand} lakh or less` : ''}.</li>
+        </ul>
+      </div>
+
       <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+        <h2 className="text-lg font-bold text-gray-900 mb-3">{lowerBand ? `Courses from ₹${lowerBand} to ₹${band} lakh a year` : `Courses up to ₹${band} lakh a year`}</h2>
         <div className="overflow-x-auto">
           <table className="w-full text-xs">
             <thead>
@@ -411,22 +418,19 @@ function BudgetView({ country, band, matches }: { country: string; band: number;
               </tr>
             </thead>
             <tbody>
-              {shown.map((c, i) => {
-                const uni = getUniversityBySlug(c.universitySlug);
-                return (
-                  <tr key={`${c.universitySlug}-${c.slug}`} className="border-b border-gray-100 hover:bg-brand-50">
-                    <td className="py-2.5 pr-3 text-gray-400">{i + 1}</td>
-                    <td className="py-2.5 px-2">
-                      <Link href={`/universities/${c.universitySlug}/courses/${c.slug}`} className="text-brand-700 hover:underline font-medium">
-                        {c.name}
-                      </Link>
-                    </td>
-                    <td className="py-2.5 px-2 text-gray-700">{uni?.name ?? c.universitySlug}</td>
-                    <td className="text-right py-2.5 px-2 font-semibold text-gray-900">₹{(courseAnnualINRLakh(c as any, 1) ?? '0')}L</td>
-                    <td className="text-right py-2.5 pl-2 text-gray-700">{hasPublishedIelts(c.universitySlug, c as never) && c.ieltsMin > 0 ? `${c.ieltsMin}+` : '—'}</td>
-                  </tr>
-                );
-              })}
+              {shown.map((c, i) => (
+                <tr key={`${c.universitySlug}-${c.slug}`} className="border-b border-gray-100 hover:bg-brand-50">
+                  <td className="py-2.5 pr-3 text-gray-400">{i + 1}</td>
+                  <td className="py-2.5 px-2">
+                    <Link href={`/universities/${c.universitySlug}/courses/${c.slug}`} className="text-brand-700 hover:underline font-medium">
+                      {c.name}
+                    </Link>
+                  </td>
+                  <td className="py-2.5 px-2 text-gray-700">{uniName(c.universitySlug)}</td>
+                  <td className="text-right py-2.5 px-2 font-semibold text-gray-900">₹{lakh(c)}L</td>
+                  <td className="text-right py-2.5 pl-2 text-gray-700">{hasPublishedIelts(c.universitySlug, c as never) && c.ieltsMin > 0 ? `${c.ieltsMin}+` : '—'}</td>
+                </tr>
+              ))}
             </tbody>
           </table>
         </div>
@@ -461,18 +465,12 @@ function BudgetView({ country, band, matches }: { country: string; band: number;
                 {p.emoji} {p.name} Abroad →
               </Link>
             ))}
-            <Link
-              href="/ielts-6-5-universities"
-              className="text-xs font-semibold bg-brand-50 text-brand-700 px-3 py-2 rounded-full hover:bg-brand-100 transition-colors"
-            >
-              Universities Accepting IELTS 6.5 →
-            </Link>
           </div>
         </div>
       )}
 
       <div className="mt-10 bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
-        <h2 className="text-xl font-bold text-gray-900 mb-4">Studying in {country} Under ₹{band} Lakh — Frequently Asked Questions</h2>
+        <h2 className="text-xl font-bold text-gray-900 mb-4">Studying in {country} on a {range} Budget — Frequently Asked Questions</h2>
         <div className="divide-y divide-gray-100">
           {faqs.map((faq, i) => (
             <details key={i} className="group py-3 first:pt-0 last:pb-0" open={i === 0}>
@@ -494,7 +492,7 @@ function BudgetView({ country, band, matches }: { country: string; band: number;
         <WhatsAppLeadCTA
           headline={`Get ${country} Universities Under ₹${band}L on WhatsApp`}
           context={`${country} under ₹${band}L`}
-          source={`budget-${countrySlug}-${band}l`}
+          source={`budget-${hub.countrySlug}-${band}l`}
         />
       </div>
 

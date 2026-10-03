@@ -2,37 +2,17 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
 import type { Metadata } from 'next';
-import { universities, getUniversitiesByCountry, countries } from '@/data/universities';
+import { universities, getUniversitiesByCountry } from '@/data/universities';
 import { buildMetadata } from '@/lib/seo';
 import JsonLd from '@/components/JsonLd';
 import LeadForm from '@/components/LeadForm';
 import CountryUniversitiesClient from '@/components/CountryUniversitiesClient';
 import { fetchUnsplashImage, COUNTRY_QUERIES } from '@/lib/unsplash';
-import { getAllRealCourses } from '@/data/university-course-registry';
+import { getCountryHubs, getBudgetHubsForCountry, getCheapestHubForCountry, PSW_COUNTRY_SLUGS } from '@/lib/site-hubs';
 import { getCostPillarForCountry } from '@/data/cost-pillars';
 
-// Decision-hub cross-links — same country-slug maps as the hub pages
-// themselves (app/[decisionSlug]/page.tsx, app/courses-with-psw/[country]/
-// page.tsx), kept in sync manually. A country only gets a link here if it
-// actually has a published hub under that name.
-const CHEAPEST_COUNTRY_SLUGS: Record<string, string> = {
-  UK: 'uk', Australia: 'australia', Canada: 'canada', 'New Zealand': 'new-zealand',
-  Netherlands: 'netherlands', Ireland: 'ireland', USA: 'usa', Germany: 'germany',
-  Denmark: 'denmark', Sweden: 'sweden', Finland: 'finland', Singapore: 'singapore',
-  'United Arab Emirates': 'united-arab-emirates',
-};
-const PSW_COUNTRY_SLUGS: Record<string, string> = {
-  Canada: 'canada', Australia: 'australia', UK: 'uk', Ireland: 'ireland',
-  Germany: 'germany', 'New Zealand': 'new-zealand',
-};
-const BUDGET_COUNTRY_SLUGS: Record<string, string> = {
-  UK: 'uk', Australia: 'australia', Canada: 'canada', Ireland: 'ireland',
-  Netherlands: 'netherlands', 'New Zealand': 'new-zealand', USA: 'usa',
-  Germany: 'germany', Denmark: 'denmark', Sweden: 'sweden', Finland: 'finland',
-  Singapore: 'singapore', 'United Arab Emirates': 'united-arab-emirates', Italy: 'italy',
-};
-const BUDGET_BANDS = [10, 15, 20, 25];
-const BUDGET_MIN_MATCHES = 15;
+// Hub links (country, budget, cheapest, PSW) come from lib/site-hubs.ts — the module the hub pages
+// themselves are generated from — so a link appears exactly when its page exists.
 
 export async function generateStaticParams() {
   // Only countries this page can actually render. A slug whose normalised name matches no
@@ -40,10 +20,9 @@ export async function generateStaticParams() {
   // no canonical) at a URL the sitemap advertised — that is what
   // /universities/country/united-kingdom was until 2026-09-19, when the five universities
   // tagged 'United Kingdom' rather than 'UK' were retagged in data/universities.ts.
-  return countries
-    .map(c => c.toLowerCase().replace(/ /g, '-'))
-    .filter(slug => getUniversitiesByCountry(normalizeCountry(slug)).length > 0)
-    .map(country => ({ country }));
+  return getCountryHubs()
+    .filter(h => getUniversitiesByCountry(normalizeCountry(h.slug)).length > 0)
+    .map(h => ({ country: h.slug }));
 }
 
 // ── Rich country data ────────────────────────────────────────────────────────
@@ -348,15 +327,12 @@ export default async function CountryPage({ params }: { params: Promise<{ countr
   const avgVisa = Math.round(unis.reduce((s, u) => s + u.visaApprovalRate, 0) / unis.length);
 
   // Decision-hub cross-links for this country
-  const cheapestHubSlug = CHEAPEST_COUNTRY_SLUGS[country];
+  const cheapestHub = getCheapestHubForCountry(country);
   const pswHubSlug = PSW_COUNTRY_SLUGS[country];
-  const budgetCountrySlug = BUDGET_COUNTRY_SLUGS[country];
-  const budgetBands = budgetCountrySlug
-    ? BUDGET_BANDS.filter(b => getAllRealCourses().filter(c => c.country === country && c.annualINR > 0 && c.annualINR <= b * 100000).length >= BUDGET_MIN_MATCHES)
-    : [];
+  const budgetHubs = getBudgetHubsForCountry(country);
   const costPillar = getCostPillarForCountry(country);
   const decisionHubLinks = [
-    cheapestHubSlug ? { href: `/cheapest-universities-${cheapestHubSlug}`, label: `Cheapest Universities in ${country}` } : null,
+    cheapestHub ? { href: `/${cheapestHub.slug}`, label: `Cheapest Universities in ${country}` } : null,
     costPillar ? { href: `/${costPillar.slug}`, label: `Cost of Studying in ${country} (Tuition + Living)` } : null,
     pswHubSlug ? { href: `/courses-with-psw/${pswHubSlug}`, label: `Courses in ${country} with Post-Study Work Rights` } : null,
     { href: '/ielts-6-5-universities', label: 'Universities Accepting IELTS 6.5' },
@@ -454,7 +430,7 @@ export default async function CountryPage({ params }: { params: Promise<{ countr
           )}
 
           {/* ── Decision hub cross-links — real course lists filtered for this country ── */}
-          {(decisionHubLinks.length > 0 || budgetBands.length > 0) && (
+          {(decisionHubLinks.length > 0 || budgetHubs.length > 0) && (
             <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
               <h2 className="section-title">Real Course Lists for {country}</h2>
               <p className="text-sm text-gray-500 mb-4">Filtered, real-data hubs — every course links to its own page with exact current fees.</p>
@@ -468,13 +444,13 @@ export default async function CountryPage({ params }: { params: Promise<{ countr
                     {link.label} →
                   </Link>
                 ))}
-                {budgetBands.map(b => (
+                {budgetHubs.map(h => (
                   <Link
-                    key={b}
-                    href={`/${budgetCountrySlug}-under-${b}-lakh`}
+                    key={h.slug}
+                    href={`/${h.slug}`}
                     className="text-xs font-semibold bg-brand-50 text-brand-700 px-3 py-2 rounded-full hover:bg-brand-100 transition-colors"
                   >
-                    Study in {country} Under ₹{b}L →
+                    Study in {country} Under ₹{h.band}L →
                   </Link>
                 ))}
               </div>
@@ -598,14 +574,15 @@ export default async function CountryPage({ params }: { params: Promise<{ countr
             <div className="bg-white rounded-2xl p-5 border border-gray-100 shadow-sm">
               <h3 className="font-bold text-gray-900 mb-3 text-sm">Compare Other Countries</h3>
               <ul className="space-y-2">
-                {['UK', 'Canada', 'Australia', 'Germany', 'Ireland', 'New Zealand', 'USA']
-                  .filter(c => c !== country)
-                  .slice(0, 5)
-                  .map(c => (
-                    <li key={c}>
-                      <Link href={`/universities/country/${c.toLowerCase().replace(' ', '-')}`}
+                {/* Every other country hub, so smaller destinations (Ireland, Netherlands, Finland...) get
+                    links from their peers rather than only from thin pages. */}
+                {getCountryHubs()
+                  .filter(h => h.name !== country)
+                  .map(h => (
+                    <li key={h.slug}>
+                      <Link href={`/universities/country/${h.slug}`}
                         className="text-xs text-brand-700 hover:underline">
-                        → Study in {c}
+                        → {h.flag} Study in {h.name}
                       </Link>
                     </li>
                   ))}

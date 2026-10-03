@@ -2,26 +2,13 @@
 
 import Link from 'next/link';
 import { useState, useRef, useCallback } from 'react';
+import type { CountryHub } from '@/lib/site-hubs';
 
 // ─── Data ────────────────────────────────────────────────────────────────────
 
-const COUNTRIES = [
-  { name: 'USA',         flag: '🇺🇸', slug: 'usa',         unis: '80+' },
-  { name: 'UK',          flag: '🇬🇧', slug: 'uk',          unis: '30+' },
-  { name: 'Canada',      flag: '🇨🇦', slug: 'canada',      unis: '90+' },
-  { name: 'Australia',   flag: '🇦🇺', slug: 'australia',   unis: '20+' },
-  { name: 'Germany',     flag: '🇩🇪', slug: 'germany',     unis: '15+' },
-  { name: 'Ireland',     flag: '🇮🇪', slug: 'ireland',     unis: '10+' },
-  { name: 'Singapore',   flag: '🇸🇬', slug: 'singapore',   unis: '8+'  },
-  { name: 'New Zealand', flag: '🇳🇿', slug: 'new-zealand', unis: '8+'  },
-  { name: 'France',      flag: '🇫🇷', slug: 'france',      unis: '10+' },
-  { name: 'Netherlands', flag: '🇳🇱', slug: 'netherlands', unis: '8+'  },
-  { name: 'Sweden',      flag: '🇸🇪', slug: 'sweden',      unis: '6+'  },
-  { name: 'UAE',         flag: '🇦🇪', slug: 'uae',         unis: '8+'  },
-  { name: 'Denmark',     flag: '🇩🇰', slug: 'denmark',     unis: '5+'  },
-  { name: 'Italy',       flag: '🇮🇹', slug: 'italy',       unis: '6+'  },
-  { name: 'Spain',       flag: '🇪🇸', slug: 'spain',       unis: '5+'  },
-];
+// Countries come in as a prop from app/layout.tsx, built by lib/site-hubs.ts from the same data that
+// generates /universities/country/<slug> — this list used to be typed by hand, so countries added
+// later (Finland) never reached the nav, and its "80+ unis" counts were guesses.
 
 const COURSE_LEVELS = [
   { label: 'Undergraduate', icon: '📘', desc: 'Bachelor\'s (3–4 yrs)', href: '/courses?level=undergraduate' },
@@ -73,7 +60,7 @@ const SIMPLE_LINKS = [
 
 type MenuKey = 'universities' | 'courses' | 'exams' | '';
 
-export default function Navbar() {
+export default function Navbar({ countries }: { countries: CountryHub[] }) {
   const [mobileOpen, setMobileOpen]       = useState(false);
   const [activeMenu, setActiveMenu]       = useState<MenuKey>('');
   const [mobileExpanded, setMobileExpanded] = useState<string>('');
@@ -152,12 +139,12 @@ export default function Navbar() {
 
                   {/* 5-col country grid */}
                   <div className="grid grid-cols-5 gap-1.5 mb-5">
-                    {COUNTRIES.map(c => (
+                    {countries.map(c => (
                       <Link key={c.slug} href={`/universities/country/${c.slug}`} onClick={closeAll}
                         className="group flex flex-col items-center gap-1 p-2.5 rounded-xl hover:bg-white/8 transition-all">
                         <span className="text-[26px] leading-none group-hover:scale-110 transition-transform duration-150">{c.flag}</span>
                         <span className="text-[11px] font-semibold text-white/80 group-hover:text-white text-center leading-tight">{c.name}</span>
-                        <span className="text-[10px] text-blue-400/60">{c.unis} unis</span>
+                        <span className="text-[10px] text-blue-400/60">{c.universityCount} unis</span>
                       </Link>
                     ))}
                   </div>
@@ -388,7 +375,7 @@ export default function Navbar() {
               onToggle={() => setMobileExpanded(v => v === 'universities' ? '' : 'universities')}
             >
               <div className="grid grid-cols-3 gap-x-3 gap-y-1 mb-3">
-                {COUNTRIES.map(c => (
+                {countries.map(c => (
                   <Link key={c.slug} href={`/universities/country/${c.slug}`} onClick={closeAll}
                     className="flex items-center gap-1.5 text-xs text-blue-200/80 hover:text-white py-1.5">
                     <span>{c.flag}</span><span>{c.name}</span>

@@ -13,6 +13,7 @@ import { UNIVERSITY_COMPARISONS } from '@/data/university-comparisons';
 import { getUniversityComparisonData } from '@/lib/university-comparisons';
 import { getAllCountrySubjectComparisons } from '@/lib/country-subject-comparisons';
 import { RATE_TO_INR } from '@/lib/currency';
+import { COUNTRY_FLAGS, getCountryHubs, getCheapestHubs, getBudgetHubs, getBudgetHubsForCountry, universityCountryOf } from '@/lib/site-hubs';
 
 // Root layout (app/layout.tsx) sets the site-wide title/description but no
 // canonical — add an explicit self-referencing canonical here so the
@@ -25,17 +26,21 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://study.jaivikoverseasconsultants.com/' },
 };
 
-const countryFlags: Record<string, string> = {
-  USA: '🇺🇸', UK: '🇬🇧', Canada: '🇨🇦', Australia: '🇦🇺',
-  Germany: '🇩🇪', Ireland: '🇮🇪', Singapore: '🇸🇬', 'New Zealand': '🇳🇿',
-  France: '🇫🇷', Netherlands: '🇳🇱', Sweden: '🇸🇪', UAE: '🇦🇪',
-  Denmark: '🇩🇰', Italy: '🇮🇹', Spain: '🇪🇸',
-};
-
-const destinations = [
-  'USA', 'UK', 'Canada', 'Australia', 'Germany', 'Ireland', 'Singapore', 'New Zealand',
-  'France', 'Netherlands', 'Sweden', 'UAE', 'Denmark', 'Italy', 'Spain',
-];
+// Destinations and budget hubs come from lib/site-hubs.ts — the data that generates those pages —
+// so a new country or budget band is linked from the homepage as soon as its page exists. Until
+// 2026-10-03 both lists were typed by hand: only UK and Australia budget hubs were linked here, and
+// Finland's country hub not at all.
+const destinationHubs = getCountryHubs();
+const destinations = destinationHubs.map(h => h.name);
+// Every country with any budget or cheapest hub (Italy has a budget band but no cheapest page).
+const hubCountries = Array.from(new Set([...getCheapestHubs().map(h => h.country), ...getBudgetHubs().map(h => h.country)]));
+const budgetByCountry = hubCountries.map(country => ({
+  country,
+  flag: COUNTRY_FLAGS[country] ?? '🌍',
+  countryHub: destinationHubs.find(h => h.name === universityCountryOf(country)),
+  cheapest: getCheapestHubs().find(h => h.country === country),
+  bands: getBudgetHubsForCountry(country),
+}));
 
 const orgSchema = {
   '@context': 'https://schema.org',
@@ -193,7 +198,7 @@ export default async function HomePage() {
             {destinations.map(country => {
               const img = destImgMap[country];
               return (
-                <Link key={country} href={`/universities/country/${country.toLowerCase().replace(' ', '-')}`}
+                <Link key={country} href={`/universities/country/${destinationHubs.find(h => h.name === country)!.slug}`}
                   className="relative overflow-hidden rounded-2xl h-40 shadow-sm hover:shadow-lg transition-all group">
                   {img ? (
                     // eslint-disable-next-line @next/next/no-img-element
@@ -209,7 +214,7 @@ export default async function HomePage() {
                   )}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
                   <div className="absolute bottom-0 left-0 right-0 p-3">
-                    <span className="text-xl">{countryFlags[country] || '🌍'}</span>
+                    <span className="text-xl">{COUNTRY_FLAGS[country] || '🌍'}</span>
                     <p className="text-white font-semibold text-sm leading-tight">Study in {country}</p>
                     <p className="text-white/70 text-xs mt-0.5">
                       {universities.filter(u => u.country === country).length} universities
@@ -238,6 +243,38 @@ export default async function HomePage() {
         </div>
       </section>
 
+      {/* Browse by budget — every country × budget band hub, generated from lib/site-hubs.ts */}
+      <section className="px-4 pt-10">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-xl font-bold text-gray-900 mb-1">Browse by Budget</h2>
+          <p className="text-sm text-gray-500 mb-4">Real courses by annual tuition in INR, for every destination we have fee data for.</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            {budgetByCountry.map(({ country, flag, countryHub, cheapest, bands }) => (
+              <div key={country} className="bg-white border border-gray-200 rounded-xl p-4">
+                <p className="text-sm font-semibold text-gray-900 mb-2">
+                  {flag}{' '}
+                  {countryHub
+                    ? <Link href={`/universities/country/${countryHub.slug}`} className="hover:text-brand-700">{country}</Link>
+                    : country}
+                </p>
+                <div className="flex flex-wrap gap-1.5">
+                  {cheapest && (
+                    <Link href={`/${cheapest.slug}`} className="text-xs font-semibold bg-brand-50 text-brand-700 px-2.5 py-1 rounded-full hover:bg-brand-100">
+                      Cheapest in {country}
+                    </Link>
+                  )}
+                  {bands.map(h => (
+                    <Link key={h.slug} href={`/${h.slug}`} className="text-xs font-semibold bg-brand-50 text-brand-700 px-2.5 py-1 rounded-full hover:bg-brand-100">
+                      Under ₹{h.band}L
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Decision hubs — popular real-data searches */}
       <section className="px-4 pt-8">
         <div className="max-w-7xl mx-auto">
@@ -246,12 +283,8 @@ export default async function HomePage() {
             {[
               { href: '/ielts-6-0-universities', label: 'Universities Accepting IELTS 6.0' },
               { href: '/ielts-6-5-universities', label: 'Universities Accepting IELTS 6.5' },
-              { href: '/cheapest-universities-uk', label: 'Cheapest Universities in UK' },
-              { href: '/cheapest-universities-australia', label: 'Cheapest Universities in Australia' },
               { href: '/courses-with-psw/canada', label: 'Courses in Canada with 3-Year PGWP' },
               { href: '/courses-with-psw/australia', label: 'Courses in Australia with 485 Visa' },
-              { href: '/uk-under-20-lakh', label: 'Study in UK Under ₹20 Lakh' },
-              { href: '/australia-under-20-lakh', label: 'Study in Australia Under ₹20 Lakh' },
               { href: '/mba-abroad-for-indian-students', label: 'MBA Abroad for Indian Students' },
               { href: '/computer-science-abroad-for-indian-students', label: 'Computer Science Abroad' },
               { href: '/data-science-abroad-for-indian-students', label: 'Data Science Abroad' },

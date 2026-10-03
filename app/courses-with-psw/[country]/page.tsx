@@ -12,13 +12,12 @@ import WhatsAppLeadCTA from '@/components/WhatsAppLeadCTA';
 import FindMyCourseCTA from '@/components/FindMyCourseCTA';
 import { getPillarsWithCoverageInCountry } from '@/lib/subject-pillars';
 import { courseAnnualINRLakh } from '@/lib/currency';
+import { PSW_COUNTRY_SLUGS } from '@/lib/site-hubs';
 
 // Only countries lib/course-faqs.ts's pswDetails() actually computes a real
 // post-study-work pathway for — never guess a country's PSW rules.
-const COUNTRY_SLUGS: Record<string, string> = {
-  Canada: 'canada', Australia: 'australia', UK: 'uk', Ireland: 'ireland',
-  Germany: 'germany', 'New Zealand': 'new-zealand',
-};
+// The list itself lives in lib/site-hubs.ts so every page that links a PSW hub uses the same one.
+const COUNTRY_SLUGS = PSW_COUNTRY_SLUGS;
 const SLUG_TO_COUNTRY = Object.fromEntries(Object.entries(COUNTRY_SLUGS).map(([c, s]) => [s, c]));
 
 const COUNTRY_FLAGS: Record<string, string> = {
