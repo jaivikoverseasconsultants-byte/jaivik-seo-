@@ -2621,16 +2621,6 @@
       "permanent": true
     },
     {
-      "source": "/universities/university-of-newcastle-australia/courses",
-      "destination": "/universities/university-of-newcastle-australia",
-      "permanent": true
-    },
-    {
-      "source": "/universities/university-of-newcastle-australia/courses/:path*",
-      "destination": "/universities/university-of-newcastle-australia",
-      "permanent": true
-    },
-    {
       "source": "/universities/university-of-new-england-australia/courses",
       "destination": "/universities/university-of-new-england-australia",
       "permanent": true

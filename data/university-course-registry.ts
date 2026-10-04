@@ -40,6 +40,7 @@ import { middlesexCourses as m_middlesex_university } from './middlesex-courses'
 import { murdochCourses as m_murdoch_university } from './murdoch-courses';
 import { ntuCourses as m_nanyang_technological_university } from './ntu-courses';
 import { nclCourses as m_newcastle_university } from './ncl-courses';
+import { newcastleCoursesReal as m_university_of_newcastle_australia } from './newcastle-courses-real';
 import { northeasternCourses as m_northeastern_university } from './northeastern-courses';
 import { northumbriaCourses as m_northumbria_university } from './northumbria-courses';
 import { nottinghamtrentCourses as m_nottingham_trent_university } from './nottinghamtrent-courses';
@@ -228,6 +229,7 @@ const REGISTRY: Record<string, readonly unknown[]> = {
   'university-of-manchester': m_university_of_manchester,
   'university-of-manitoba': m_university_of_manitoba,
   'university-of-melbourne': m_university_of_melbourne,
+  'university-of-newcastle-australia': m_university_of_newcastle_australia,
   'university-of-otago': m_university_of_otago,
   'university-of-ottawa': m_university_of_ottawa,
   'university-of-portsmouth': m_university_of_portsmouth,
