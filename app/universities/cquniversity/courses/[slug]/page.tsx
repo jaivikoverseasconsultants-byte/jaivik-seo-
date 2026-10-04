@@ -129,6 +129,7 @@ export default async function CoursePage(
           </div>
 
           {/* Partner-platform figures, never styled like a university-published fee. */}
+          {course.kcEstimate ? (
           <div className="rounded-2xl p-5 border border-dashed border-gray-300 bg-gray-50">
             <h2 className="text-sm font-semibold text-gray-700 mb-1">Tuition, scholarship and deposit — estimates</h2>
             <p className="text-xs text-gray-500 mb-3">Estimated via partner platform — not published by university.</p>
@@ -140,6 +141,16 @@ export default async function CoursePage(
             {course.kcEstimate.majors.length > 0 && <p className="text-xs text-gray-500 mt-3">Covers: {course.kcEstimate.majors.join('; ')}.</p>}
             <p className="text-xs text-gray-500 mt-3">Confirm the fee with CQUniversity or with us before you plan around it.</p>
           </div>
+          ) : (
+          <div className="rounded-2xl p-5 border border-amber-200 bg-amber-50">
+            <h2 className="text-sm font-semibold text-amber-900 mb-1">Fee on request</h2>
+            <p className="text-xs text-amber-800">
+              We don&apos;t have a tuition estimate for this course yet — CQUniversity&apos;s own fee pages aren&apos;t publicly
+              readable right now. Book a free session and we&apos;ll get the current fee confirmed with the university for you.
+            </p>
+            <Link href="/book-counselling" className="inline-block mt-3 text-xs font-semibold text-brand-700 hover:underline">Get this confirmed free →</Link>
+          </div>
+          )}
 
           {course.campusIntakes.length > 1 && (
             <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">

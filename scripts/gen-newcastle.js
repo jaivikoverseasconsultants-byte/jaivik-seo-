@@ -3,30 +3,39 @@
 //
 //   node scripts/gen-newcastle.js
 //
-// 2026-10-04, by user decision: unlike every other Australia Bucket-A university, the University of
-// Newcastle has NO accessible official source at all. Its degree pages sit behind a Cloudflare
-// challenge, its handbook's robots.txt allows only Googlebot, the CRICOS register disallows crawling
-// /Course, and this project's own egress proxy refuses newcastle.edu.au outright (connect_rejected,
-// confirmed 2026-10-04) — so there is no way to independently verify CRICOS, duration, intake or fee
-// for a single course here. By explicit user decision, the partner-platform list is used as the ONLY
-// source for these 147 courses, with every fact (not just fee, unlike CQU/Bond) labelled an estimate:
-//   - feeVerified: false, annualAUD/annualINR/totalAUD stay 0 (same convention as every other
-//     partner-estimate course — keeps these out of budget hubs, the course matcher and price schema).
-//   - pswEligible: false on every row. This is the one load-bearing safety flag: lib/course-faqs.ts
-//     checks `course.pswEligible === false` before anything else and suppresses any post-study-work
-//     visa claim. Without a confirmed CRICOS code we cannot assert a course is genuinely open to
-//     international students at all, so no visa/PSW claim may be shown — see lib/psw-eligibility.ts's
-//     own history (a PTE exam once advertised "~2 years post-study work").
-//   - No CRICOS code and no course code are invented. Both fields are left '' and the course detail
-//     page does not render a "Course code / CRICOS" row at all (CQU/Bond's template does — Newcastle's
-//     template deliberately omits it; see app/universities/university-of-newcastle-australia/courses).
-//   - `url` is the university's general homepage (https://www.newcastle.edu.au/), never claimed as
-//     "the official course page" — Newcastle's template labels the outbound link "Search the
-//     University's Website" rather than CQU/Bond's "Official Course Page".
+// 2026-10-04: unlike every other Australia Bucket-A university, the University of Newcastle has NO
+// accessible official source at all. Its degree pages sit behind a Cloudflare challenge, its
+// handbook's robots.txt allows only Googlebot, the CRICOS register disallows crawling /Course, and
+// this project's own egress proxy refuses newcastle.edu.au outright (connect_rejected, confirmed
+// 2026-10-04) — so CRICOS, duration, intake and fee cannot be independently checked against the
+// university's own page for a single course here.
+//
+// First version of this file (same day) treated every field as an unverified estimate, matching the
+// CQU/Bond convention. By a SEPARATE, explicit user decision made afterwards — specifically that
+// KC/coursefinder.ai is a large, established partner platform working directly with universities,
+// not a casual scrape, and its FEE data is trusted to be accurate here — fee is now shown as the
+// real figure, not hedged behind a dashed "estimate" box:
+//   - feeVerified: true, annualAUD/annualUSD/annualINR carry the partner-platform fee (so these
+//     courses now join the budget hubs, course matcher and price schema, same as any other verified
+//     Australia course). Where a programme had two conflicting partner fees for the same name, the
+//     midpoint of the range is used (see kcEstimate.tuitionMinAUD/MaxAUD for the original range).
+//   - This is a trust decision about the SOURCE, not a claim that the university's own page was
+//     read. Keep that distinction in any future BUILD-LOG entry.
+//
+// CRICOS is a SEPARATE problem, unrelated to the fee-trust decision above: it is not a trust
+// question at all, because the source CSV simply has no CRICOS column for Newcastle — there is
+// nothing to trust or distrust, the field does not exist. So CRICOS/course code are still left ''
+// and NOT invented, and `pswEligible: false` stays on every row — lib/course-faqs.ts checks
+// `course.pswEligible === false` first and suppresses any post-study-work visa claim, because an
+// unconfirmed CRICOS status means international/visa eligibility itself still cannot be asserted
+// (see lib/psw-eligibility.ts's own history: a PTE exam once advertised "~2 years post-study work").
+// `url` stays the university's general homepage, never claimed as the specific official course page.
 //
 // Source CSV columns: campus,program,level,duration,intakes,fee,appFee,scholarship,deposit.
-// 149 raw rows → 147 distinct programmes (1 exact duplicate collapsed; 1 same-name pair with two
-// different fees kept as a min–max range, same as CQU's cross-campus range handling).
+// 149 raw rows → 146 distinct programmes (1 exact duplicate collapsed after normalising a stray
+// trailing space; 1 same-name pair with two different fees — kept as a kcEstimate range, with the
+// midpoint used for the now-trusted annualAUD).
+const RATE_TO_INR = { AUD: 54.6, USD: 83.5 }; // must match lib/currency.ts RATE_TO_INR
 const fs = require('fs');
 const path = require('path');
 
@@ -73,6 +82,8 @@ for (const [program, group] of byName) {
   const scholarships = group.map((r) => r.scholarship).filter(Boolean);
   const deposits = group.map((r) => r.deposit).filter(Boolean);
   const appFeeWaived = group.every((r) => /No Application Fee|waived/i.test(r.appFeeRaw));
+  // Midpoint of the partner fee range (equal to the single value when there's no range).
+  const feeMidAUD = fees.length ? Math.round((Math.min(...fees) + Math.max(...fees)) / 2) : 0;
   courses.push({
     id: `newcastle-${courses.length + 1}`,
     name: program,
@@ -83,7 +94,13 @@ for (const [program, group] of byName) {
     studyLevel: level[2],
     duration: durYears ? `${durYears} year${durYears === 1 ? '' : 's'}` : g.duration,
     durationYears: durYears,
-    annualAUD: 0, annualUSD: 0, annualINR: 0, totalAUD: 0,
+    // Fee-trust decision (2026-10-04, by user): KC/coursefinder.ai is treated as an accurate source
+    // for fee specifically, so this is shown as a real figure, not a hedged "estimate" box. Midpoint
+    // of the partner range where a programme had two differing fees (kcEstimate keeps the raw range).
+    annualAUD: feeMidAUD,
+    annualINR: Math.round(feeMidAUD * RATE_TO_INR.AUD),
+    annualUSD: Math.round((feeMidAUD * RATE_TO_INR.AUD) / RATE_TO_INR.USD),
+    totalAUD: durYears ? Math.round(feeMidAUD * durYears) : feeMidAUD,
     feeYear: 2027,
     ieltsMin: 0, toeflMin: 0, pteMin: 0,
     englishScope: 'not published — not independently verified for the University of Newcastle; confirm directly',
@@ -93,12 +110,15 @@ for (const [program, group] of byName) {
     country: 'Australia', state: 'New South Wales', city: 'Newcastle', countryCode: 'AU',
     courseCode: '',
     cricos: '',
-    feeVerified: false,
+    feeVerified: true,
     // The one load-bearing safety flag for this file: see the header comment. Checked first by
     // lib/course-faqs.ts's pswDetails(), which suppresses any post-study-work visa claim entirely.
+    // UNCHANGED by the fee-trust decision — CRICOS is a missing field, not a trust question, and
+    // international/visa eligibility cannot be asserted without it regardless of how reliable the
+    // fee figure is.
     pswEligible: false,
-    feeScope: 'estimate',
-    feeBasis: 'No official University of Newcastle source is accessible (Cloudflare-protected degree pages, Googlebot-only handbook robots.txt, and this project’s own network policy refuses newcastle.edu.au). Every figure below, including duration and intakes, comes only from a partner-platform list and has not been independently verified.',
+    feeScope: 'partner-verified',
+    feeBasis: 'University of Newcastle\'s own fee pages are not publicly readable (Cloudflare-protected, Googlebot-only handbook robots.txt). By explicit decision this fee is taken from our partner platform (KC/coursefinder.ai), which works directly with universities on admissions data; CRICOS and course code remain unavailable from any source and are not shown.',
     feeSourceUrl: null,
     kcEstimate: {
       tuitionMinAUD: fees.length ? Math.min(...fees) : 0,
@@ -118,19 +138,25 @@ const out = `// University of Newcastle (Australia) — tenth Australia Bucket-A
 // Generated by scripts/gen-newcastle.js from data/wave-australia/kc/newcastle-cqu-courses-KC-raw.csv —
 // do not edit by hand.
 //
-// NO OFFICIAL SOURCE IS ACCESSIBLE for this university (see the script's header comment for the full
-// reasoning: Cloudflare-protected degree pages, a Googlebot-only handbook robots.txt, and this
-// project's own egress policy refusing newcastle.edu.au, confirmed 2026-10-04). By explicit user
-// decision, every field here — not just fee, unlike CQU/Bond — comes from the partner-platform list
-// only and is unverified. feeVerified is false and annualAUD/annualINR/totalAUD stay 0, so these
-// courses never enter budget hubs, the course matcher or price schema. pswEligible is false on every
-// row: lib/course-faqs.ts checks this first and suppresses any post-study-work visa claim, because an
-// unconfirmed CRICOS status means international eligibility itself cannot be asserted. No CRICOS code
-// or course code is invented (both ''); the course detail page has no "Course code / CRICOS" row.
-// \`url\` is the university's general homepage, never presented as the specific official course page.
+// NO OFFICIAL UNIVERSITY SOURCE IS ACCESSIBLE for this university (see the script's header comment:
+// Cloudflare-protected degree pages, a Googlebot-only handbook robots.txt, and this project's own
+// egress policy refusing newcastle.edu.au, confirmed 2026-10-04).
+//
+// FEE (2026-10-04, explicit user decision): KC/coursefinder.ai is trusted as an accurate partner
+// source for fee specifically, so feeVerified is true and annualAUD/annualUSD/annualINR carry a real
+// figure (the midpoint of kcEstimate's range where one programme had two differing partner fees) —
+// these courses join budget hubs, the course matcher and price schema like any other verified course.
+//
+// CRICOS / course code (UNCHANGED by the fee decision — a missing field, not a trust question): the
+// source CSV has no CRICOS column for Newcastle at all, so both stay '' and are never invented; the
+// course detail page has no "Course code / CRICOS" row. pswEligible is false on every row for the same
+// reason: lib/course-faqs.ts checks this first and suppresses any post-study-work visa claim, because
+// unconfirmed CRICOS means international/visa eligibility itself cannot be asserted — regardless of
+// how reliable the fee figure is. \`url\` is the university's general homepage, never presented as the
+// specific official course page.
 //
 // 149 raw partner rows → ${courses.length} distinct programmes (1 exact duplicate collapsed; 1 same-name
-// pair with two different fees kept as a tuitionMin–MaxAUD range).
+// pair with two different fees — kcEstimate keeps the raw range, annualAUD uses its midpoint).
 
 export interface NewcastleCourseReal {
   feeVerified?: boolean;
@@ -144,7 +170,7 @@ export interface NewcastleCourseReal {
   country: string; state: string; city: string; countryCode: string;
   courseCode: string; cricos: string;
   feeScope?: string; feeBasis?: string; feeSourceUrl?: string | null;
-  /** Partner-platform figures — the ONLY source for this university. Always shown labelled as estimates. */
+  /** Partner-platform figures. annualAUD above is this range's midpoint, trusted as the real fee. */
   kcEstimate: { tuitionMinAUD: number; tuitionMaxAUD: number; avgScholarshipAUD: number | null; initialDepositAUD: number | null; appFeeWaived: boolean };
 }
 

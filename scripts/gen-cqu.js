@@ -17,8 +17,13 @@
 // (Accounting)") maps to its handbook course ("Bachelor of Business"), and where majors or campuses
 // carry different estimates the range is shown. Nothing else is taken from the partner list.
 //
-// Listed only if the course has a CRICOS code, an on-campus (not Online) international term in its
-// newest year of availability, and a partner-platform estimate to show.
+// Listed if the course has a CRICOS code and an on-campus (not Online) international term in its
+// newest year of availability — i.e. it is genuinely open to international students on campus right
+// now. That is everything needed to be eligible for the page; a partner-platform fee estimate is
+// shown when one exists (kcEstimate) but is NOT required to be listed (fixed 2026-10-04 — the
+// original version silently dropped 29 real, CRICOS-eligible courses for want of a KC fee row, which
+// is a coverage gap, not a safety one: tuition is the only unverified figure here, same as every
+// other CQU course, and simply reads "Fee on request" via feeDisplay()/isFeeVerified() when absent).
 const fs = require('fs');
 const path = require('path');
 
@@ -69,7 +74,8 @@ for (const row of kc) {
 }
 
 const rows = [];
-const skipped = { noCricos: [], noOnCampusTerm: [], noEstimate: [] };
+const skipped = { noCricos: [], noOnCampusTerm: [] };
+let noEstimateCount = 0;
 for (const c of courses) {
   const cricos = [...new Set((c.cricos || []).map((x) => x.code))];
   if (!cricos.length) { skipped.noCricos.push(c.cleanName); continue; }
@@ -79,13 +85,13 @@ for (const c of courses) {
     .map((a) => ({ term: a.term, campuses: a.campuses.filter((x) => CAMPUS_PLACE[x]) })).filter((a) => a.campuses.length);
   if (!terms.length) { skipped.noOnCampusTerm.push(c.cleanName); continue; }
   const est = kcFor.get(c.code);
-  if (!est) { skipped.noEstimate.push(c.cleanName); continue; }
+  if (!est) noEstimateCount++;
   const months = MONTHS.filter((m) => terms.some((t) => TERM_MONTH[t.term] === m));
   const campuses = [...new Set(terms.flatMap((t) => t.campuses))];
-  const fees = est.map((e) => e.fee).filter(Boolean);
-  const deposits = est.map((e) => e.deposit).filter(Boolean);
-  const scholarships = est.map((e) => e.scholarship).filter(Boolean);
-  const majors = [...new Set(est.map((e) => e.program).filter((p) => norm(p) !== norm(c.cleanName)))];
+  const fees = est ? est.map((e) => e.fee).filter(Boolean) : [];
+  const deposits = est ? est.map((e) => e.deposit).filter(Boolean) : [];
+  const scholarships = est ? est.map((e) => e.scholarship).filter(Boolean) : [];
+  const majors = est ? [...new Set(est.map((e) => e.program).filter((p) => norm(p) !== norm(c.cleanName)))] : [];
   const durYears = Number(((c.duration || '').match(/([\d.]+)\s*years?\s*full-time/) || [])[1]) || 0;
   const level = LEVELS.find(([re]) => re.test(c.cleanName)) || [null, 'Bachelor', 'Undergraduate'];
   const primary = campuses.includes('Rockhampton') ? 'Rockhampton' : campuses[0];
@@ -117,12 +123,16 @@ for (const c of courses) {
     feeScope: 'estimate',
     feeBasis: 'CQUniversity\'s current international tuition could not be read from its own site, so no university-published fee is shown',
     feeSourceUrl: null,
-    kcEstimate: {
-      tuitionMinAUD: Math.min(...fees), tuitionMaxAUD: Math.max(...fees),
-      avgScholarshipAUD: scholarships.length ? Math.max(...scholarships) : null,
-      initialDepositAUD: deposits.length ? Math.max(...deposits) : null,
-      majors,
-    },
+    // Omitted (not a zeroed object) when the partner platform has no row for this course at all —
+    // the page then shows "Fee on request" via feeDisplay()/isFeeVerified() instead of a $0 estimate.
+    ...(est ? {
+      kcEstimate: {
+        tuitionMinAUD: Math.min(...fees), tuitionMaxAUD: Math.max(...fees),
+        avgScholarshipAUD: scholarships.length ? Math.max(...scholarships) : null,
+        initialDepositAUD: deposits.length ? Math.max(...deposits) : null,
+        majors,
+      },
+    } : {}),
   });
 }
 const seen = new Set();
@@ -137,7 +147,10 @@ const out = `// CQUniversity — Rockhampton, Brisbane, Cairns, Melbourne, Sydne
 // and the handbook's fees stop at 2023-24, so feeVerified is false, the annual fee fields are 0, and the
 // only figure shown is a partner-platform estimate (kcEstimate), labelled as such on the page.
 // Verified: ${crawl._crawledOn}.
-// Not listed: no CRICOS (${skipped.noCricos.length}), no on-campus international term (${skipped.noOnCampusTerm.length}), no estimate to show (${skipped.noEstimate.length}).
+// Not listed (genuinely not open to international students on campus right now): no CRICOS
+// (${skipped.noCricos.length}), no on-campus international term (${skipped.noOnCampusTerm.length}).
+// Of the ${rows.length} listed, ${noEstimateCount} have no partner-platform fee estimate (kcEstimate
+// is omitted for these; the page shows "Fee on request" — see gen-cqu.js header, fixed 2026-10-04).
 // ${rows.length} courses
 
 export interface CquCourseReal {
@@ -152,8 +165,9 @@ export interface CquCourseReal {
   country: string; state: string; city: string; countryCode: string;
   courseCode: string; cricos: string; handbookVersion: string | null;
   feeScope?: string; feeBasis?: string; feeSourceUrl?: string | null;
-  /** Partner-platform figures. CQU publishes none we could read; always shown labelled as estimates. */
-  kcEstimate: { tuitionMinAUD: number; tuitionMaxAUD: number; avgScholarshipAUD: number | null; initialDepositAUD: number | null; majors: string[] };
+  /** Partner-platform figures. CQU publishes none we could read; always shown labelled as estimates.
+   *  Absent when the partner platform has no row for this course — shows "Fee on request" instead. */
+  kcEstimate?: { tuitionMinAUD: number; tuitionMaxAUD: number; avgScholarshipAUD: number | null; initialDepositAUD: number | null; majors: string[] };
 }
 
 export const cquCoursesReal: CquCourseReal[] = [
@@ -165,6 +179,6 @@ export function getCquCourseRealBySlug(slug: string): CquCourseReal | undefined 
 }
 `;
 fs.writeFileSync(OUT, out);
-console.log(`wrote ${rows.length} courses`);
+console.log(`wrote ${rows.length} courses (${noEstimateCount} with no partner fee estimate — shown as "Fee on request")`);
 for (const [k, v] of Object.entries(skipped)) console.log(`  skipped ${k}: ${v.length}${v.length ? ` — e.g. ${v.slice(0, 3).join('; ')}` : ''}`);
 console.log(`partner programmes with no handbook match: ${unmatched.size}${unmatched.size ? ` — ${[...unmatched].join('; ')}` : ''}`);

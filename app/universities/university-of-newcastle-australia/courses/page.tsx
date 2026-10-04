@@ -4,13 +4,15 @@ import { buildMetadata } from '@/lib/seo';
 import { newcastleCoursesReal } from '@/data/newcastle-courses-real';
 import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
+import { verifiedAvgFee } from '@/lib/fee-verification';
+import { RATE_TO_INR } from '@/lib/currency';
 
-// Facts come ONLY from a partner-platform list — see data/newcastle-courses-real.ts's header comment.
+// Facts come from a partner-platform list — see data/newcastle-courses-real.ts's header comment.
 // No official University of Newcastle source is reachable (Cloudflare-protected degree pages,
 // Googlebot-only handbook robots.txt, and this project's own network policy refuses newcastle.edu.au).
-// Every figure on this page and the course pages below — fee, duration, intake — is an unverified
-// estimate, and no CRICOS code or post-study-work claim is shown anywhere, unlike every other
-// Australia Bucket-A university.
+// Fee is partner-verified by explicit 2026-10-04 decision (feeVerified: true); duration and intake are
+// still only via the partner network (not an official source). No CRICOS code or post-study-work claim
+// is shown anywhere, unlike every other Australia Bucket-A university — see the data file's header.
 const courses = newcastleCoursesReal;
 
 export const metadata: Metadata = buildMetadata({
@@ -23,6 +25,7 @@ export const metadata: Metadata = buildMetadata({
 const levelOrder = ['Bachelor', 'Associate Degree', 'Diploma', 'Master', 'Graduate Diploma', 'Graduate Certificate', 'Doctorate'];
 
 export default function CoursesPage() {
+  const avgFee = verifiedAvgFee(courses as any[], 'annualAUD');
   const groups: Record<string, typeof courses> = {};
   for (const c of courses) (groups[c.level] ??= []).push(c);
 
@@ -33,12 +36,12 @@ export default function CoursesPage() {
       {
         '@type': 'Question',
         name: 'How many courses does the University of Newcastle offer for international students?',
-        acceptedAnswer: { '@type': 'Answer', text: `This page lists ${courses.length} University of Newcastle programmes. Fee, duration and intake are shown as partner-network estimates; our counsellors confirm the exact figures and CRICOS eligibility with the university directly as part of a free consultation before you apply.` },
+        acceptedAnswer: { '@type': 'Answer', text: `This page lists ${courses.length} University of Newcastle programmes with fee, duration and intake via our partner network. Our counsellors confirm CRICOS eligibility with the university directly as part of a free consultation before you apply.` },
       },
       {
         '@type': 'Question',
         name: 'Are the fees on this page confirmed by the University of Newcastle?',
-        acceptedAnswer: { '@type': 'Answer', text: `Not yet on this page — they're partner-network estimates. Jaivik Overseas Consultants verifies the current fee, intake and CRICOS status with the University of Newcastle directly for every student we work with, at no charge.` },
+        acceptedAnswer: { '@type': 'Answer', text: `The University of Newcastle's own fee pages aren't publicly readable right now, so the fee shown here comes from our partner network rather than the university's own site directly — we confirm the exact figure with the university for every student before they apply, at no charge.` },
       },
     ],
   };
@@ -61,11 +64,11 @@ export default function CoursesPage() {
                 🇦🇺 Newcastle &amp; Sydney, New South Wales
               </div>
               <h1 className="text-3xl md:text-4xl font-bold mb-3">University of Newcastle — Courses</h1>
-              <p className="text-blue-200 text-lg mb-5">{courses.length} courses · fee &amp; intake estimates, confirmed free when you talk to us</p>
+              <p className="text-blue-200 text-lg mb-5">{courses.length} courses{avgFee > 0 ? ` · Avg A$${Math.round(avgFee / 1000)}K/yr` : ''} · CRICOS confirmed free when you talk to us</p>
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
                 {[
                   { label: 'Courses', value: courses.length },
-                  { label: 'Fees', value: 'Estimates shown' },
+                  { label: 'Avg Annual Fee', value: avgFee > 0 ? `A$${Math.round(avgFee / 1000)}K` : 'On request' },
                   { label: 'CRICOS check', value: 'Free with us' },
                 ].map((s) => (
                   <div key={s.label} className="bg-white/10 rounded-xl p-3 text-center">
@@ -86,9 +89,9 @@ export default function CoursesPage() {
         <div className="lg:col-span-3 space-y-10">
           <div className="rounded-2xl p-4 border border-amber-200 bg-amber-50 text-sm text-amber-900 flex flex-wrap items-center justify-between gap-3">
             <span>
-              Fee, duration and intake below are partner-network estimates — the University of Newcastle&apos;s own pages aren&apos;t
-              publicly readable right now. Book a free session and we&apos;ll confirm the exact numbers, and CRICOS eligibility, with
-              the university before you apply.
+              Fee below is via our partner network (the University of Newcastle&apos;s own fee pages aren&apos;t publicly readable
+              right now); CRICOS registration isn&apos;t published anywhere we can read yet. Book a free session and we&apos;ll confirm
+              both directly with the university before you apply.
             </span>
             <Link href="/book-counselling" className="btn-gold whitespace-nowrap text-sm px-4 py-2">Get it confirmed →</Link>
           </div>
@@ -110,9 +113,9 @@ export default function CoursesPage() {
                       </div>
                       <div className="ml-4 text-right flex-shrink-0">
                         <p className="text-sm font-bold text-brand-700">
-                          ~A${c.kcEstimate.tuitionMinAUD.toLocaleString('en-US')}{c.kcEstimate.tuitionMaxAUD !== c.kcEstimate.tuitionMinAUD ? `–${c.kcEstimate.tuitionMaxAUD.toLocaleString('en-US')}` : ''}/yr
+                          A${c.annualAUD.toLocaleString('en-US')}/yr
                         </p>
-                        <p className="text-xs text-gray-400">estimate only</p>
+                        <p className="text-xs text-gray-400">via partner network</p>
                       </div>
                     </Link>
                   ))}
@@ -120,7 +123,8 @@ export default function CoursesPage() {
               </div>
             ))}
           <p className="text-xs text-gray-500">
-            Fee, duration and intake are partner-network estimates — book a free session and we confirm them with the university for you.
+            Fee, duration and intake are via our partner network (the university&apos;s own course pages aren&apos;t publicly readable
+            right now) — book a free session and we confirm CRICOS eligibility with the university for you before you apply.
           </p>
         </div>
 
