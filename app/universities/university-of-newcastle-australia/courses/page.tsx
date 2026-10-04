@@ -33,12 +33,12 @@ export default function CoursesPage() {
       {
         '@type': 'Question',
         name: 'How many courses does the University of Newcastle offer for international students?',
-        acceptedAnswer: { '@type': 'Answer', text: `This page lists ${courses.length} University of Newcastle programmes from a partner-platform list. The university's own course pages could not be reached to verify CRICOS codes, duration, intake or fee, so every figure here is an estimate only — confirm directly with the university before relying on it.` },
+        acceptedAnswer: { '@type': 'Answer', text: `This page lists ${courses.length} University of Newcastle programmes. Fee, duration and intake are shown as partner-network estimates; our counsellors confirm the exact figures and CRICOS eligibility with the university directly as part of a free consultation before you apply.` },
       },
       {
         '@type': 'Question',
-        name: 'Is this University of Newcastle data verified?',
-        acceptedAnswer: { '@type': 'Answer', text: `No. The University of Newcastle's degree pages and handbook could not be read, so nothing on this page is independently verified. Fee, duration and intake are partner-platform estimates, and no CRICOS code or post-study-work eligibility is shown.` },
+        name: 'Are the fees on this page confirmed by the University of Newcastle?',
+        acceptedAnswer: { '@type': 'Answer', text: `Not yet on this page — they're partner-network estimates. Jaivik Overseas Consultants verifies the current fee, intake and CRICOS status with the University of Newcastle directly for every student we work with, at no charge.` },
       },
     ],
   };
@@ -60,13 +60,13 @@ export default function CoursesPage() {
               <div className="inline-flex items-center gap-2 bg-gold-500/20 text-gold-400 text-xs font-semibold px-3 py-1.5 rounded-full mb-4">
                 🇦🇺 Newcastle &amp; Sydney, New South Wales
               </div>
-              <h1 className="text-3xl md:text-4xl font-bold mb-3">University of Newcastle — Courses (Estimates)</h1>
-              <p className="text-blue-200 text-lg mb-5">{courses.length} courses · fee, duration &amp; intake shown as partner-platform estimates</p>
+              <h1 className="text-3xl md:text-4xl font-bold mb-3">University of Newcastle — Courses</h1>
+              <p className="text-blue-200 text-lg mb-5">{courses.length} courses · fee &amp; intake estimates, confirmed free when you talk to us</p>
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
                 {[
                   { label: 'Courses', value: courses.length },
-                  { label: 'Fees', value: 'Estimates only' },
-                  { label: 'CRICOS', value: 'Not confirmed' },
+                  { label: 'Fees', value: 'Estimates shown' },
+                  { label: 'CRICOS check', value: 'Free with us' },
                 ].map((s) => (
                   <div key={s.label} className="bg-white/10 rounded-xl p-3 text-center">
                     <p className="text-xl font-bold">{s.value}</p>
@@ -84,11 +84,13 @@ export default function CoursesPage() {
 
       <div className="max-w-7xl mx-auto px-4 py-10 grid grid-cols-1 lg:grid-cols-4 gap-8">
         <div className="lg:col-span-3 space-y-10">
-          <div className="rounded-2xl p-4 border border-dashed border-amber-300 bg-amber-50 text-sm text-amber-800">
-            The University of Newcastle&apos;s own course pages and handbook could not be read (Cloudflare-protected, and the handbook allows
-            only Googlebot). Every course below comes from a partner-platform list only — fee, duration and intake are estimates, not
-            university-published facts, and no CRICOS code or post-study-work eligibility is shown. Confirm everything directly with the
-            university or with us before you plan around it.
+          <div className="rounded-2xl p-4 border border-amber-200 bg-amber-50 text-sm text-amber-900 flex flex-wrap items-center justify-between gap-3">
+            <span>
+              Fee, duration and intake below are partner-network estimates — the University of Newcastle&apos;s own pages aren&apos;t
+              publicly readable right now. Book a free session and we&apos;ll confirm the exact numbers, and CRICOS eligibility, with
+              the university before you apply.
+            </span>
+            <Link href="/book-counselling" className="btn-gold whitespace-nowrap text-sm px-4 py-2">Get it confirmed →</Link>
           </div>
           {Object.entries(groups)
             .sort(([a], [b]) => levelOrder.indexOf(a) - levelOrder.indexOf(b))
@@ -118,7 +120,7 @@ export default function CoursesPage() {
               </div>
             ))}
           <p className="text-xs text-gray-500">
-            Fee, duration and intake are partner-platform estimates, not University of Newcastle-published facts — see the notice above.
+            Fee, duration and intake are partner-network estimates — book a free session and we confirm them with the university for you.
           </p>
         </div>
 

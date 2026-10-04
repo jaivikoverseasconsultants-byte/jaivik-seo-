@@ -94,20 +94,20 @@ export default async function CoursePage(
           {/* No official source reachable: everything here, not just fee, is a partner-platform estimate.
               Guarded on isFeeVerified() so this box can never appear beside a verified fee. */}
           {!isFeeVerified(course as any) && (
-          <div className="rounded-2xl p-5 border border-dashed border-amber-300 bg-amber-50">
-            <h2 className="text-sm font-semibold text-amber-800 mb-1">Nothing on this page is independently verified</h2>
+          <div className="rounded-2xl p-5 border border-amber-200 bg-amber-50">
+            <h2 className="text-sm font-semibold text-amber-900 mb-1">We&apos;ll confirm these numbers with the university for you</h2>
             <p className="text-xs text-amber-800 mb-3">
-              The University of Newcastle&apos;s own course pages and handbook could not be read (Cloudflare-protected pages; the handbook&apos;s
-              robots.txt allows only Googlebot). Duration, intakes and fee below come only from a partner platform and have not been checked
-              against the university&apos;s own site. No CRICOS code is shown because it could not be confirmed, and no post-study-work
-              visa eligibility is claimed for the same reason.
+              The figures below are from our partner network — the University of Newcastle&apos;s own fee and course pages are not
+              publicly readable right now (Cloudflare-protected, and its handbook is search-engine-only). That&apos;s exactly the kind
+              of gap our counsellors close: book a free session and we&apos;ll get the current fee, intake and CRICOS status confirmed
+              with the university directly before you apply, so you&apos;re never relying on an unverified number.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm text-gray-700 bg-white/60 rounded-xl p-4">
               <div><span className="block text-xs text-gray-500">Annual tuition (estimate)</span>~A${course.kcEstimate.tuitionMinAUD.toLocaleString('en-US')}{course.kcEstimate.tuitionMaxAUD !== course.kcEstimate.tuitionMinAUD ? `–${course.kcEstimate.tuitionMaxAUD.toLocaleString('en-US')}` : ''}</div>
               {course.kcEstimate.avgScholarshipAUD ? <div><span className="block text-xs text-gray-500">Average scholarship (estimate)</span>~A${course.kcEstimate.avgScholarshipAUD.toLocaleString('en-US')}</div> : null}
               {course.kcEstimate.initialDepositAUD ? <div><span className="block text-xs text-gray-500">Initial deposit (estimate)</span>~A${course.kcEstimate.initialDepositAUD.toLocaleString('en-US')}</div> : null}
             </div>
-            <p className="text-xs text-amber-800 mt-3">Confirm every figure directly with the University of Newcastle or with us before you plan around it.</p>
+            <Link href="/book-counselling" className="inline-block mt-3 text-xs font-semibold text-brand-700 hover:underline">Get this confirmed free →</Link>
           </div>
           )}
 
@@ -131,7 +131,7 @@ export default async function CoursePage(
 
           <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
             <h2 className="text-lg font-bold text-gray-900 mb-3">English Language Requirements</h2>
-            <p className="text-sm text-gray-600">Not published — not independently verified for the University of Newcastle. Confirm directly with the university or with us.</p>
+            <p className="text-sm text-gray-600">Not published here yet — ask us for the current IELTS/PTE/TOEFL requirement for this course and we&apos;ll get it for you.</p>
           </div>
 
           <CourseRichContent course={course as any} universityName={UNI_NAME} universitySlug={UNIVERSITY_SLUG} />
@@ -148,7 +148,7 @@ export default async function CoursePage(
             <div className="mt-4 bg-white rounded-2xl p-5 border border-gray-100 shadow-sm">
               <h3 className="font-bold text-gray-900 mb-3 text-sm">Related Links</h3>
               <div className="space-y-2">
-                <a href={course.url} target="_blank" rel="noopener noreferrer" className="block text-sm text-brand-700 hover:underline">Search the University&apos;s Website ↗</a>
+                <a href={course.url} target="_blank" rel="noopener noreferrer" className="block text-sm text-brand-700 hover:underline">University of Newcastle ↗</a>
                 <Link href="/universities/university-of-newcastle-australia/courses" className="block text-sm text-brand-700 hover:underline">All University of Newcastle Courses →</Link>
                 <Link href="/universities/country/australia" className="block text-sm text-brand-700 hover:underline">Study in Australia Guide →</Link>
               </div>
