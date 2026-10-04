@@ -23,3 +23,47 @@ Rules going forward:
    404 unless a genuine equivalent exists.
 4. When in doubt about whether a URL was ever live/indexed, check Google Search
    Console via the wp_gsc_inspect_url tool before deciding.
+
+## Content Completeness Bar (added Oct 2026, founder directive)
+
+The portal's standing mandate, in the founder's own words: "not average, not good,
+just best in all" — for years to come, not just this quarter. Concretely:
+
+Every course/university page must be a self-sufficient, real-time answer to every
+question a student actually searches about that course — not a pointer that sends
+the student to "check the official site" or to a partner platform. The test: if a
+source we draw on (a university's own site, KC/coursefinder.ai, any competitor
+portal) shows a piece of information about a course, our page must show it too,
+usually alongside more context (INR conversion, comparison to similar courses,
+counselling CTA) — never less. A page that is a strict subset of what one visible
+source already shows is a liability: there is no reason for a student, or Google,
+to prefer it.
+
+Why this matters commercially, not just for SEO: a page that actually answers the
+student's question (fee, eligibility, deadline, visa outlook) converts that student
+into a lead right there, and a site that consistently resolves real student queries
+earns Google's trust as an authority — both compound over years. A page that just
+says "go check elsewhere" does neither.
+
+Concretely, a course page is expected to carry, whenever the data exists anywhere
+reachable: course name, fee (with INR/USD conversion), average scholarship, initial
+deposit, intake months, duration, CRICOS/registration status, academic eligibility
+(board-wise minimum — CBSE/ICSE/state boards — not just a generic "good academic
+record" line), English-language test cutoffs (IELTS/PTE/TOEFL), post-study-work /
+visa eligibility (correctly gated — see pswEligible below), and the university's own
+course-page link.
+
+This does NOT relax the data-integrity rules elsewhere in this file or in the
+codebase's own conventions (feeVerified, pswEligible, CRICOS-never-fabricated). When
+a field is genuinely unavailable from any accessible source, the fix is never to
+invent a plausible-looking number — it's to say so honestly and route the student to
+a free counselling session to get it confirmed (the existing feeDisplay()/
+isFeeVerified() "On request" + counselling-CTA pattern is the model to extend to
+every other field, e.g. eligibility criteria, as that data becomes available).
+Fabricated eligibility percentages or CRICOS numbers are worse than a missing field:
+they can get a real student's application wrongly accepted or rejected.
+
+Before marking any university/course-data task "done," check it against this bar,
+not just against whether the page renders: would a student searching for this course
+find their actual question answered here, or would they still need to leave and
+search again?
